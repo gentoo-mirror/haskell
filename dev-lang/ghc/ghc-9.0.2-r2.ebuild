@@ -506,7 +506,7 @@ src_prepare() {
 
 		eapply "${FILESDIR}"/${PN}-9.0.2-CHOST-prefix.patch
 		eapply "${FILESDIR}"/${PN}-9.0.2-darwin.patch
-
+		eapply "${FILESDIR}"/${PN}-9.0.2-fptools.patch
 		# Incompatible with ghc-9.0.2-modorigin-semigroup.patch
 		# Below patch should not be needed by ghc-9.2
 		#eapply "${FILESDIR}"/${PN}-9.0.2-modorigin.patch
