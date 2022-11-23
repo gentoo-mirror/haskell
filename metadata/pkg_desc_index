@@ -2238,7 +2238,7 @@ dev-lang/brainfuck 0.1.0.3: Brainfuck interpreter
 dev-lang/cryptol 2.6.0: Cryptol: The Language of Cryptography
 dev-lang/dhall 1.41.2: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
-dev-lang/ghc 8.10.6 8.10.7 9.0.1-r1 9.0.2-r2 9.2.4 9999: The Glasgow Haskell Compiler
+dev-lang/ghc 8.10.6-r1 8.10.7 9.0.1-r1 9.0.2-r2 9.2.4 9999: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
 dev-lang/prolog 0.3.2: A Prolog interpreter written in Haskell
