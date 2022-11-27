@@ -2001,7 +2001,7 @@ dev-haskell/transformers-free 1.0.1-r1: Free monad transformers
 dev-haskell/traverse-with-class 1.0.1.1: Generic applicative traversals
 dev-haskell/tree-diff 0.2.1.1: Diffing of (expression) trees
 dev-haskell/tree-traversals 0.1.1.0: Functions and newtype wrappers for traversing Trees
-dev-haskell/trial 0.0.0.0: Trial Data Structure
+dev-haskell/trial 0.0.0.0-r1: Trial Data Structure
 dev-haskell/trial-optparse-applicative 0.0.0.0: Trial helper functions for optparse-applicative
 dev-haskell/trial-tomland 0.0.0.0: Trial helper functions for tomland
 dev-haskell/trifecta 2.1.2: A modern parser combinator library with convenient diagnostics
@@ -2267,7 +2267,7 @@ dev-util/shellcheck 0.8.0: Shell script analysis tool
 dev-util/shelltestrunner 1.9: A tool for testing command-line programs
 dev-util/spago 0.20.6: PureScript package manager and build tool powered by Dhall and package-sets
 dev-util/threadscope 0.2.14.1: A graphical tool for profiling parallel Haskell programs
-dev-vcs/darcs 2.16.5-r3: a distributed, interactive, smart revision control system
+dev-vcs/darcs 2.16.5-r4: a distributed, interactive, smart revision control system
 dev-vcs/git-annex 10.20220624: manage files with git, without checking their contents into git
 games-action/monadius 0.99: 2-D arcade scroller
 games-arcade/shu-thing 1.1.4: A vector shooter game
