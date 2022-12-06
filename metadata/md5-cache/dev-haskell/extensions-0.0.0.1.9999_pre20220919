@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/cabal-3.0:=[profile?] <dev-haskell/cabal-3.7:=[profile?] >
 RESTRICT=!test? ( test )
 SLOT=0/0.0.0.1.9999_pre20220919
 SRC_URI=https://github.com/kowainik/extensions/archive/ab02b7b017a8ec301ba0320276383c5a618765c0.tar.gz -> extensions-ab02b7b017a8ec301ba0320276383c5a618765c0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	959e1d99122907eb98a3a660297a967e	haskell-cabal	5b2ba3f67a33c528cdc8451ee5dc9a11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	haskell-cabal	5b2ba3f67a33c528cdc8451ee5dc9a11
 _md5_=a2dfa482d599029ff04456d5dcea724a
