@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">patch</remote-id>
-		<remote-id type="github">reflex-frp/patch</remote-id>
+		<remote-id type="hackage">commutative-semigroups</remote-id>
+		<remote-id type="github">ObsidianSystems/commutative-semigroups</remote-id>
 	</upstream>
 </pkgmetadata>
