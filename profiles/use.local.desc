@@ -38,7 +38,7 @@ dev-haskell/bits-atomic:test - Build test program.
 dev-haskell/bitstring:withquickcheck - Build with QuickCheck test. Note that Show instances will be different.
 dev-haskell/bitvec:gmp - Link against the GMP library for the ultimate performance of `zipBits`, `invertBits` and `countBits`. Users are strongly encouraged to enable this flag whenever possible.
 dev-haskell/boring:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
-dev-haskell/brick:demos - Build demonstration programs
+dev-haskell/brick:examples - Build demonstration programs
 dev-haskell/broadcast-chan:sync - Benchmarks synchronisation primitives used in main benchmark.
 dev-haskell/broadcast-chan:threaded - Run benchmarks with threaded backend.
 dev-haskell/btrfs:examples - Build examples
@@ -308,6 +308,7 @@ dev-haskell/random-bytestring:pcg - compile with support for PCG from pcg-random
 dev-haskell/rasterific:embed-linear - Embed a reduced version of Linear avoiding a (huge) dep
 dev-haskell/reactive-banana-wx:examples - Build example executables.
 dev-haskell/record-dot-preprocessor:executable - Build the record-dot-preprocessor executable
+dev-haskell/reflex:plugin - Use the GHC plugin Reflex.Optimizer on some of the modules in the package. This is still experimental.
 dev-haskell/reflex:template-haskell - Use template haskell to generate lenses
 dev-haskell/rere:rere-cfg - CFG functionality, adds dependency on fin and vec
 dev-haskell/rere:rere-intersection - Add intersection constructor. EXPERIMENTAL

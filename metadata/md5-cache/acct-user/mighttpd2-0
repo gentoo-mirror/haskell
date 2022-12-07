@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst preinst prerm pretend
+DESCRIPTION=A user for www-servers/mighttpd2
+EAPI=8
+INHERIT=acct-user
+KEYWORDS=~amd64 ~x86
+RDEPEND=acct-group/mighttpd2
+SLOT=0
+_eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	acct-user	ce2d3878b49fe819717a68300f633480
+_md5_=8edc5b891688f8e08a889bf26791d134

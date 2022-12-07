@@ -1,0 +1,8 @@
+DEFINED_PHASES=install preinst pretend
+DESCRIPTION=A group for www-servers/mighttpd2
+EAPI=8
+INHERIT=acct-group
+KEYWORDS=~amd64 ~x86
+SLOT=0
+_eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	acct-group	4ab6ca538789e73c2c796d01318ae2d7
+_md5_=c1e5e6660e0a7c1514f8fd9d56bfc4ef
