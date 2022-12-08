@@ -240,6 +240,7 @@ dev-haskell/lua:system-lua - Use @pkg-config@ to discover library and include pa
 dev-haskell/markdown-unlit:executable - Build executable
 dev-haskell/massiv:unsafe-checks - Enable all the bounds checks for unsafe functions at the cost of significant performance penalty
 dev-haskell/midi-alsa:buildexamples - Build example executables.
+dev-haskell/misfortune:executable - Build the misfortune and misfortune-strfile executables
 dev-haskell/miso:ios - Cross compile to iOS
 dev-haskell/miso:jsaddle - Compile with JSaddle
 dev-haskell/miso:tests - Builds Miso's tests
