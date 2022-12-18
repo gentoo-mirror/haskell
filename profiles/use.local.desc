@@ -3,8 +3,6 @@
 # * generated automatically using pmaint *
 
 app-admin/propellor:type-errors - Build with type-errors library for better error messages and less memory use
-app-office/hledger:terminfo - On POSIX systems, build with the terminfo lib for detecting terminal width.
-app-office/hledger:threaded - Build with support for multithreaded execution
 app-office/hledger-ui:threaded - Build with support for multithreaded execution
 app-office/hledger-web:library-only - Build for use with "yesod devel"
 app-office/hledger-web:threaded - Build with support for multithreaded execution.
@@ -357,6 +355,9 @@ dev-haskell/streamly:minimal - Build only the core modules
 dev-haskell/streamly:no-fusion - Disable rewrite rules for stream fusion
 dev-haskell/streamly:streamk - Use CPS style streams when possible
 dev-haskell/streamly:unliftio - Use unliftio-core instead of monad-control
+dev-haskell/string-interpolate:bytestring-builder - Use ByteString Builders to construct ByteString outputs instead of the ByteString type itself. If you're regularly constructing large (>50KB) bytestrings, enabling this can speed up your code. Otherwise, enabling this is likely to be a net slowdown.
+dev-haskell/string-interpolate:extended-benchmarks - Enable benchmarks for Interpolation and interpolatedstring-perl6
+dev-haskell/string-interpolate:text-builder - Use Text Builders to construct Text outputs instead of the Text type itself. If you're regularly constructing large (>50KB) text objects, enabling this can speed up your code. Otherwise, enabling this is likely to be a net slowdown.
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/synthesizer-alsa:examples - Build example executables
 dev-haskell/synthesizer-midi:buildexamples - Build example executables

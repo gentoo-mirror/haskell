@@ -8,11 +8,11 @@ app-admin/propellor 5.12: property-based host configuration management in haskel
 app-emacs/haskell-mode 16.1-r1 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
-app-office/hledger 1.26.1 1.27.1: Command-line interface for the hledger accounting system
-app-office/hledger-iadd 1.3.17-r3: A terminal UI as drop-in replacement for hledger add
-app-office/hledger-interest 1.6.4: computes interest for a given account
-app-office/hledger-ui 1.27.1: Curses-style terminal interface for the hledger accounting system
-app-office/hledger-web 1.26.1 1.27.1: Web-based user interface for the hledger accounting system
+app-office/hledger 1.28: Command-line interface for the hledger accounting system
+app-office/hledger-iadd 1.3.17-r4: A terminal UI as drop-in replacement for hledger add
+app-office/hledger-interest 1.6.4-r1: computes interest for a given account
+app-office/hledger-ui 1.28: Curses-style terminal interface for the hledger accounting system
+app-office/hledger-web 1.28: Web-based user interface for the hledger accounting system
 app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.7.3.1 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
@@ -216,7 +216,7 @@ dev-haskell/boundedchan 1.0.3.0: Implementation of bounded channels
 dev-haskell/bower-json 1.0.0.1: Read bower.json from Haskell
 dev-haskell/boxes 0.1.5: 2D text pretty-printing library
 dev-haskell/breakpoint 0.1.0.0: Set breakpoints using a GHC plugin
-dev-haskell/brick 0.73 1.5: A declarative terminal user interface library
+dev-haskell/brick 0.71.1 1.5: A declarative terminal user interface library
 dev-haskell/brittany 0.14.0.2: Haskell source code formatter
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
 dev-haskell/bsb-http-chunked 0.0.0.4: Chunked HTTP transfer encoding for bytestring builders
@@ -480,7 +480,7 @@ dev-haskell/diagrams-canvas 1.4.1-r2: HTML5 canvas backend for diagrams drawing 
 dev-haskell/diagrams-contrib 1.4.4-r5: Collection of user contributions to diagrams EDSL
 dev-haskell/diagrams-core 1.5.0.1: Core libraries for diagrams EDSL
 dev-haskell/diagrams-gtk 1.4-r1: Backend for rendering diagrams directly to GTK windows
-dev-haskell/diagrams-lib 1.4.5.1-r1: Embedded domain-specific language for declarative graphics
+dev-haskell/diagrams-lib 1.4.5.3: Embedded domain-specific language for declarative graphics
 dev-haskell/diagrams-pgf 1.4.2: PGF backend for diagrams drawing EDSL
 dev-haskell/diagrams-postscript 1.5.1-r1: Postscript backend for diagrams drawing EDSL
 dev-haskell/diagrams-rasterific 1.4.2.2-r1: Rasterific backend for diagrams
@@ -633,7 +633,7 @@ dev-haskell/freer-effects 0.3.0.1: Implementation of effect system for Haskell
 dev-haskell/fresco-binding 0.3.0: Fresco binding for Haskell
 dev-haskell/frisby 0.2.4: Linear time composable parser for PEG grammars
 dev-haskell/from-sum 0.2.3.0: Canonical fromMaybeM and fromEitherM functions
-dev-haskell/fsnotify 0.2.1.2 0.3.0.1: Cross platform library for file change notification
+dev-haskell/fsnotify 0.4.1.0: Cross platform library for file change notification
 dev-haskell/fst 0.10.0.1-r1: Finite state transducers
 dev-haskell/ftgl 2.1-r1: Portable TrueType font rendering for OpenGL using the Freetype2 library
 dev-haskell/funcmp 1.9: Functional MetaPost
@@ -882,7 +882,7 @@ dev-haskell/hit 0.7.0: Git operations in haskell
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
 dev-haskell/hjsmin 0.2.0.4: Haskell implementation of a javascript minifier
-dev-haskell/hledger-lib 1.26.1 1.27.1: A reusable library providing the core functionality of hledger
+dev-haskell/hledger-lib 1.28: A reusable library providing the core functionality of hledger
 dev-haskell/hlibev 0.4.0: FFI interface to libev
 dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
 dev-haskell/hlibsass 0.1.10.1: Low-level bindings to Libsass
@@ -1685,6 +1685,7 @@ dev-haskell/sample-frame 0.0.3-r1: Handling of samples in an (audio) signal
 dev-haskell/sample-frame-np 0.0.4.1: Orphan instances for types from sample-frame and numericprelude
 dev-haskell/samtools 0.2.4.3: Binding to the C samtools library
 dev-haskell/sandi 0.5: Data encoding library
+dev-haskell/sandwich 0.1.2.0: Yet another test framework for Haskell
 dev-haskell/say 0.1.0.1: Initial project template from stack
 dev-haskell/sbv 8.8: SMT Based Verification: Symbolic Haskell theorem prover using SMT solving
 dev-haskell/sbvplugin 0.12: Formally prove properties of Haskell programs using SBV/SMT
@@ -1847,6 +1848,7 @@ dev-haskell/strict-list 0.1.7: Strict linked list
 dev-haskell/strictify 0.1-r1: Find a local optimum of strictness annotations
 dev-haskell/string-conv 0.1.2: Standardized conversion between string types
 dev-haskell/string-conversions 0.4.0.1: Simplifies dealing with different types for strings
+dev-haskell/string-interpolate 0.3.2.0: Haskell string/text/bytestring interpolation that just works
 dev-haskell/string-qq 0.0.4: QuasiQuoter for non-interpolated strings, texts and bytestrings
 dev-haskell/stringable 0.1.3: A Stringable type class, in the spirit of Foldable and Traversable
 dev-haskell/stringbuilder 0.5.1: A writer monad for multi-line string literals
@@ -2201,7 +2203,6 @@ dev-haskell/yesod-auth 1.6.11: Authentication for Yesod
 dev-haskell/yesod-auth-basic 0.1.0.3: Yesod Middleware for HTTP Basic Authentication
 dev-haskell/yesod-auth-hashdb 1.7.1.7: Authentication plugin for Yesod
 dev-haskell/yesod-auth-oauth2 0.7.0.1: OAuth 2.0 authentication plugins
-dev-haskell/yesod-bin 1.6.2.1: The yesod helper executable
 dev-haskell/yesod-colonnade 1.3.0.1: Helper functions for using yesod with colonnade
 dev-haskell/yesod-content-pdf 0.2.0.5: PDF Content Type for Yesod
 dev-haskell/yesod-core 1.6.23.1: Creation of type-safe, RESTful web applications
@@ -2300,6 +2301,7 @@ www-apps/gitit 0.15.1.0-r6: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6: High performance web server on WAI/warp
+www-servers/yesod-bin 1.6.2.2: The yesod helper executable
 x11-misc/arbtt 0.12.0.1: Automatic Rule-Based Time Tracker
 x11-misc/gtk-sni-tray 0.1.8.0: A standalone StatusNotifierItem/AppIndicator tray
 x11-misc/taffybar 3.3.0: A desktop bar similar to xmobar, but with more GUI
