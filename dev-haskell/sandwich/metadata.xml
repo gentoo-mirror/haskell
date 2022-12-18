@@ -5,4 +5,8 @@
 		<email>haskell@gentoo.org</email>
 		<name>Gentoo Haskell</name>
 	</maintainer>
+	<upstream>
+		<remote-id type="hackage">sandwich</remote-id>
+		<remote-id type="github">codedownio/sandwich</remote-id>
+	</upstream>
 </pkgmetadata>

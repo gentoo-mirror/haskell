@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">hledger</remote-id>
-		<remote-id type="github">simonmichael/hledger</remote-id>
+		<remote-id type="hackage">yesod-bin</remote-id>
+		<remote-id type="github">yesodweb/yesod</remote-id>
 	</upstream>
 </pkgmetadata>
