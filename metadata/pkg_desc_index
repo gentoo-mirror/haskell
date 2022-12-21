@@ -933,7 +933,7 @@ dev-haskell/hora 2.2.0: Convenient type, timestamp, timezone, format
 dev-haskell/hosc 0.17: Haskell Open Sound Control
 dev-haskell/hostname 1.0-r1: A a cross-platform means of determining the hostname
 dev-haskell/hourglass 0.2.12: simple performant time related library
-dev-haskell/hpack 0.35.0: A modern format for Haskell packages
+dev-haskell/hpack 0.35.1: A modern format for Haskell packages
 dev-haskell/hpath 0.9.2: Support for well-typed paths
 dev-haskell/hpdf 1.5.3: Generation of PDF documents
 dev-haskell/hpp 0.6.4: A Haskell pre-processor
@@ -1437,7 +1437,7 @@ dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, imag
 dev-haskell/pandoc-types 1.22.2: Types for representing a structured document
 dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
-dev-haskell/pantry 0.5.6: Content addressable Haskell package management
+dev-haskell/pantry 0.8.1: Content addressable Haskell package management
 dev-haskell/parallel 3.2.2.0: Parallel programming library
 dev-haskell/parallel-io 0.3.5: Combinators for executing IO actions in parallel on a thread pool
 dev-haskell/parseargs 0.2.0.9: Full-featured command-line argument parsing library
@@ -1663,9 +1663,9 @@ dev-haskell/retrie 1.1.0.0-r1: A powerful, easy-to-use codemodding tool for Hask
 dev-haskell/retry 0.9.3.0: Retry combinators for monadic actions that may fail
 dev-haskell/rfc5051 0.2: Simple unicode collation as per RFC5051
 dev-haskell/riff 0.3.0.1: RIFF parser for Haskell
-dev-haskell/rio 0.1.21.0: A standard library for Haskell
+dev-haskell/rio 0.1.22.0: A standard library for Haskell
 dev-haskell/rio-orphans 0.1.2.0: Orphan instances for the RIO type in the rio package
-dev-haskell/rio-prettyprint 0.1.1.0: Pretty-printing for RIO
+dev-haskell/rio-prettyprint 0.1.4.0: Pretty-printing for RIO
 dev-haskell/roles 0.2.1.0: Composable class-based roles
 dev-haskell/rolling-queue 0.1-r1: Bounded channel for STM that discards old entries when full
 dev-haskell/roman-numerals 0.5.1.5: Parsing and pretty printing of Roman numerals
@@ -1811,7 +1811,7 @@ dev-haskell/sqlite-simple-errors 0.6.1.0: Light wrapper around errors from sqlit
 dev-haskell/sr-extra 1.88: Module limbo
 dev-haskell/srcloc 0.5.1.2: Data types for managing source code locations
 dev-haskell/ssh-known-hosts 0.2.0.0: Read and interpret the SSH known-hosts file
-dev-haskell/stack 2.7.6_pre20220812 9.9.9: The Haskell Tool Stack
+dev-haskell/stack 2.9.3 9.9.9: The Haskell Tool Stack
 dev-haskell/stack-bin 2.3.1 2.5.1: The Haskell Tool Stack (Binary)
 dev-haskell/stan 0.0.1.0.9999_pre20220729: Haskell STatic ANalyser
 dev-haskell/stateref 0.3: Abstraction for things that work like IORef
