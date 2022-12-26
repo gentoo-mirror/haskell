@@ -9,14 +9,14 @@ EAPI=8
 CABAL_FEATURES="test-suite"
 EGIT_REPO_URI="https://github.com/gentoo-haskell/hackport.git"
 
-inherit git-r3 haskell-cabal
+inherit haskell-cabal
 
 DESCRIPTION="Hackage and Portage integration tool"
 HOMEPAGE="https://github.com/gentoo-haskell/hackport#readme"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="profile"
 
 GHC_BOOTSTRAP_PACKAGES=(
@@ -68,11 +68,6 @@ DEPEND="${RDEPEND}
 		>=dev-haskell/quickcheck-2.0
 	)
 "
-
-src_prepare() {
-	default
-	sed -e 's/^version:.*/&.9999/' -i ${PN}.cabal || die # just to distinguish from release install
-}
 
 src_configure() {
 	haskell-cabal_src_configure \
