@@ -89,8 +89,6 @@ dev-haskell/diagrams-builder:rasterific - install rasterific-specific builder to
 dev-haskell/diagrams-builder:svg - install svg-specific builder tool
 dev-haskell/dimensions:unsafeindices - Disable bound checks on Idx and Idxs types.
 dev-haskell/dlist:werror - Enable -Werror
-dev-haskell/dotenv:dev - Turn on development settings.
-dev-haskell/dotenv:static - Creates static binary.
 dev-haskell/echo:examples - Build the bundled example program.
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"
@@ -204,7 +202,6 @@ dev-haskell/hxt-regex-xmlschema:profile - turn profiling on
 dev-haskell/hyphenation:embed - Embed data in library binary (Warning: This increases the executable size by about 1Mb unless unneeded language data files are manually removed from the "data" directory before compiling)
 dev-haskell/ignore:without-pcre - Disable pcre support
 dev-haskell/implicit-hie:executable - Build the gen-hie executable
-dev-haskell/influxdb:examples - Build example executables
 dev-haskell/inline-c:gsl-example - Build GSL example
 dev-haskell/io-streams:network - Include network support
 dev-haskell/io-streams:zlib - Include zlib support

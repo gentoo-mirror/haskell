@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/stm-2.3:=[profile?] <dev-haskell/stm-3:=[profile?] >=dev-haskell/transformers-base-0.4.4:=[profile?] <dev-haskell/transformers-base-0.5:=[profile?] >=dev-haskell/transformers-compat-0.3:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Just like monad-control, except less efficient, and the monadic state terms are all * -> *
+EAPI=8
+HOMEPAGE=https://github.com/athanclark/monad-control#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/stm-2.3:=[profile?] <dev-haskell/stm-3:=[profile?] >=dev-haskell/transformers-base-0.4.4:=[profile?] <dev-haskell/transformers-base-0.5:=[profile?] >=dev-haskell/transformers-compat-0.3:=[profile?] >=dev-lang/ghc-8.4.3:=
+SLOT=0/0.0.1.1
+SRC_URI=https://hackage.haskell.org/package/monad-control-aligned-0.0.1.1/monad-control-aligned-0.0.1.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+_md5_=10a66a4d2c4b23c42328fefefe73bbee
