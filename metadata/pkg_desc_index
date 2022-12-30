@@ -1506,6 +1506,7 @@ dev-haskell/plugins 1.6.2: Dynamic linking for Haskell and C objects
 dev-haskell/plugins-auto 0.0.4: Automatic recompilation and reloading of haskell modules
 dev-haskell/pointed 5.0.3: Pointed and copointed data
 dev-haskell/pointedlist 0.6.1: A zipper-like comonad which works as a list, tracking a position
+dev-haskell/pointfree 1.1.1.9: Tool for refactoring expressions into pointfree form
 dev-haskell/pointful 1.1.0.0: Pointful refactoring tool
 dev-haskell/poll 0.0.0.2: Bindings to poll.h
 dev-haskell/polynomial 0.7.3: Polynomials
