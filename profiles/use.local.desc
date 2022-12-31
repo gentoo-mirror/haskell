@@ -289,7 +289,6 @@ dev-haskell/pretty-simple:executable - Build an small command line program that 
 dev-haskell/prettyprinter:buildreadme - Build the readme generator
 dev-haskell/prettyprinter:text - While it's a core value of @prettyprinter@ to use @Text@, there are rare circumstances (mostly when @prettyprinter@ arises as a dependency of test suites of packages like @bytestring@ or @text@ themselves) when this is inconvenient. In this case one can disable this flag, so that @prettyprinter@ fallbacks to @String@.
 dev-haskell/profiteur:embed-data-files - Embed data files into the executable (needed for ghcjs packaging)
-dev-haskell/protolude:dev - Build development tools
 dev-haskell/publicsuffixlist:create - export Network.PublicSuffixList.Create module
 dev-haskell/publicsuffixlist:runtimelist - read suffix list from dist at startup instead of embedding list into library
 dev-haskell/quickcheck:template-haskell - Build Test.QuickCheck.All, which uses Template Haskell.
