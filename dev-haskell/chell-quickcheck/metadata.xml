@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">http-streams</remote-id>
-		<remote-id type="github">aesiniath/http-streams</remote-id>
+		<remote-id type="hackage">chell-quickcheck</remote-id>
+		<remote-id type="github">typeclasses/chell</remote-id>
 	</upstream>
 </pkgmetadata>

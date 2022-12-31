@@ -1,3 +1,14 @@
+# hololeap <hololeap@protonmail.com> (2022-12-30)
+# purescript package is out of date (and never seemed to work correctly)
+# Removal in 30 days unless someone steps up to fix it
+dev-haskell/purescript-ast
+dev-haskell/purescript-cst
+dev-lang/purescript
+
+# hololeap <hololeap@protonmail.com> (2022-12-29)
+# Many packages still depend on network-uri<2.7
+>=dev-haskell/network-uri-2.7
+
 # hololeap <hololeap@protonmail.com> (2022-12-28)
 # Depends on old optparse-applicative, no upstream activity for over a year
 # Removal in 30 days
@@ -87,14 +98,6 @@ dev-haskell/beam-automigrate
 # hololeap <hololeap@protonmail.com> (2022-02-12)
 # Needs patching to build with current optparse-applicative
 dev-haskell/hi
-
-# hololeap <hololeap@protonmail.com> (2022-02-10)
-# Mask protolude and reverse-dependencies.
-# Needs patching to build on >=base-4.15
-dev-haskell/protolude
-dev-haskell/purescript-ast
-dev-haskell/purescript-cst
-dev-lang/purescript
 
 # hololeap <hololeap@protonmail.com> (2022-01-21)
 # Needs extensive patching in order to build on ghc-9.0.2
