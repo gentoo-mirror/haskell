@@ -152,11 +152,12 @@ dev-haskell/haskell-language-server:hls_formatters_ormolu - Enable ormolu format
 dev-haskell/haskell-language-server:hls_formatters_refactor - Enable refactor formatter
 dev-haskell/haskell-language-server:hls_formatters_stylish-haskell - Enable stylishHaskell formatter
 dev-haskell/haskell-language-server:hls_plugins_alternate-number-format - Enable Alternate Number Format plugin
-dev-haskell/haskell-language-server:hls_plugins_call-hierarchy - Enable call hierarchy plugin
+dev-haskell/haskell-language-server:hls_plugins_cabal - Enable cabal plugin
 dev-haskell/haskell-language-server:hls_plugins_change-type-signature - Change a declarations type signature with a Code Action
 dev-haskell/haskell-language-server:hls_plugins_class - Enable class plugin
 dev-haskell/haskell-language-server:hls_plugins_code-range - Enable codeRange plugin
 dev-haskell/haskell-language-server:hls_plugins_eval - Enable eval plugin
+dev-haskell/haskell-language-server:hls_plugins_explicit-fields - Enable explicit-fields plugin
 dev-haskell/haskell-language-server:hls_plugins_explicit-fixity - Enable explicit-fixity plugin
 dev-haskell/haskell-language-server:hls_plugins_gadt - Enable GADT plugin
 dev-haskell/haskell-language-server:hls_plugins_haddock-comments - Enable haddock comments plugin
@@ -182,6 +183,7 @@ dev-haskell/hlint:hsyaml - Use HsYAML instead of yaml
 dev-haskell/hlint:threaded - Build with support for multithreaded execution
 dev-haskell/hls-graph:embed-files - Embed data files into the shake library
 dev-haskell/hls-graph:stm-stats - Collect STM transaction stats
+dev-haskell/hls-plugin-api:fingertree - Use fingertree implementation of RangeMap
 dev-haskell/hmatrix:no-random-r - When enabled, hmatrix will not depend on the random_r() C function, it is needed for musl libc support.
 dev-haskell/hnix:executable - Build the hnix executable
 dev-haskell/hnix:optimize - Enable all optimization flags
@@ -197,6 +199,7 @@ dev-haskell/http-api-data:text-show - Use text-show library for efficient ToHttp
 dev-haskell/http-client-openssl:test-proxy - Test with http-proxy
 dev-haskell/httpd-shed:buildexamples - Build example executables.
 dev-haskell/hvega:tools - Build associated tools (in general you won't need this)
+dev-haskell/hw-prim:bounds-checking-enabled - Enable bmi2 instruction set
 dev-haskell/hxt:profile - turn profiling on
 dev-haskell/hxt-regex-xmlschema:profile - turn profiling on
 dev-haskell/hyphenation:embed - Embed data in library binary (Warning: This increases the executable size by about 1Mb unless unneeded language data files are manually removed from the "data" directory before compiling)
