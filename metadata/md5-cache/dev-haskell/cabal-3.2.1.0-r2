@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/process-1.1.0.2:=[profile?] <dev-haskell/process-1.7:=[profile?] >=dev-lang/ghc-8.4.3:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A framework for packaging Haskell software
 EAPI=8
 HOMEPAGE=https://www.haskell.org/cabal/
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=
-SLOT=0/3.6.3.0
-SRC_URI=https://hackage.haskell.org/package/Cabal-3.6.3.0/Cabal-3.6.3.0.tar.gz -> cabal-3.6.3.0.tar.gz
+RDEPEND=>=dev-haskell/process-1.1.0.2:=[profile?] <dev-haskell/process-1.7:=[profile?] >=dev-lang/ghc-8.4.3:=
+SLOT=0/3.2.1.0
+SRC_URI=https://hackage.haskell.org/package/Cabal-3.2.1.0/Cabal-3.2.1.0.tar.gz -> cabal-3.2.1.0.tar.gz https://hackage.haskell.org/package/Cabal-3.2.1.0/revision/1.cabal -> cabal-3.2.1.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=650a6f294a2aac2ebce7d1f4c6b8fa4d
+_md5_=0c4fe11d69386c86201118647fa3bf09

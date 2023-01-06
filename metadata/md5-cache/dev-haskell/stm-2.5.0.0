@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.4.1:= >=dev-haskell/nats-0.1.3:=[profile?] <dev-haskell/nats-1.2:=[profile?] >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Software Transactional Memory
 EAPI=8
 HOMEPAGE=https://wiki.haskell.org/Software_transactional_memory
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.4.1:= >=dev-haskell/nats-0.1.3:=[profile?] <dev-haskell/nats-1.2:=[profile?]
+RDEPEND=>=dev-lang/ghc-8.4.3:=
 SLOT=0/2.5.0.0
-SRC_URI=https://hackage.haskell.org/package/stm-2.5.0.0/stm-2.5.0.0.tar.gz
+SRC_URI=https://hackage.haskell.org/package/stm-2.5.0.0/stm-2.5.0.0.tar.gz https://hackage.haskell.org/package/stm-2.5.0.0/revision/1.cabal -> stm-2.5.0.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=49080fdae014a172f0ccbb036c650f8c
+_md5_=f059cc42b4347942ad05769ee0bf7e73

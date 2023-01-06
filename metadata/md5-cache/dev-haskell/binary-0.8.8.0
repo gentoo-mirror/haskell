@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.8.2:= hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.4.3:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Binary serialisation for Haskell values using lazy ByteStrings
 EAPI=8
 HOMEPAGE=https://github.com/kolmodin/binary
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.8.2:=
+RDEPEND=>=dev-lang/ghc-8.4.3:=
 RESTRICT=test
 SLOT=0/0.8.8.0
-SRC_URI=https://hackage.haskell.org/package/binary-0.8.8.0/binary-0.8.8.0.tar.gz
+SRC_URI=https://hackage.haskell.org/package/binary-0.8.8.0/binary-0.8.8.0.tar.gz https://hackage.haskell.org/package/binary-0.8.8.0/revision/1.cabal -> binary-0.8.8.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=9bda085c8d58718b85f226374b614f09
+_md5_=c8e5f9ada0d2166b70d31668ddc9f856
