@@ -1,5 +1,5 @@
 BDEPEND=app-text/dos2unix
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEFINED_PHASES=compile configure install postinst postrm prepare pretend setup test
 DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/criterion dev-haskell/hunit dev-haskell/test-framework dev-haskell/test-framework-hunit dev-haskell/test-framework-quickcheck2 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=URI manipulation
 EAPI=8
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/2.7.0.0
 SRC_URI=https://hackage.haskell.org/package/network-uri-2.7.0.0/network-uri-2.7.0.0.tar.gz https://hackage.haskell.org/package/network-uri-2.7.0.0/revision/1.cabal -> network-uri-2.7.0.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=6cd27d8adce815ada88c9672d00893f2
+_md5_=74cd94a1d651588f744029ae2bea1553

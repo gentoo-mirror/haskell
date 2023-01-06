@@ -1,16 +1,16 @@
 BDEPEND=app-text/dos2unix
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] >=dev-haskell/blaze-builder-0.4:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hsopenssl-0.11.2:=[profile?] >=dev-haskell/http-common-0.8.3.4:=[profile?] >=dev-haskell/io-streams-1.3:=[profile?] <dev-haskell/io-streams-1.6:=[profile?] >=dev-haskell/network-2.6:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] >=dev-haskell/openssl-streams-1.1:=[profile?] <dev-haskell/openssl-streams-1.4:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEFINED_PHASES=compile configure install postinst postrm prepare pretend setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] >=dev-haskell/blaze-builder-0.4:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hsopenssl-0.11.2:=[profile?] >=dev-haskell/http-common-0.8.3.4:=[profile?] >=dev-haskell/io-streams-1.3:=[profile?] <dev-haskell/io-streams-1.6:=[profile?] >=dev-haskell/network-2.6:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] >=dev-haskell/openssl-streams-1.1:=[profile?] <dev-haskell/openssl-streams-1.4:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/aeson-pretty dev-haskell/hspec dev-haskell/hspec-expectations dev-haskell/hunit dev-haskell/lifted-base dev-haskell/random >=dev-haskell/snap-core-1.0 <dev-haskell/snap-core-1.2 >=dev-haskell/snap-server-1.1 <dev-haskell/snap-server-1.2 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=An HTTP client using io-streams
 EAPI=8
 HOMEPAGE=https://github.com/aesiniath/http-streams/
 INHERIT=haskell-cabal
-IUSE=doc hscolour hoogle profile
+IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] >=dev-haskell/blaze-builder-0.4:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hsopenssl-0.11.2:=[profile?] >=dev-haskell/http-common-0.8.3.4:=[profile?] >=dev-haskell/io-streams-1.3:=[profile?] <dev-haskell/io-streams-1.6:=[profile?] >=dev-haskell/network-2.6:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] >=dev-haskell/openssl-streams-1.1:=[profile?] <dev-haskell/openssl-streams-1.4:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.4.3:=
-RESTRICT=test
+RESTRICT=test !test? ( test )
 SLOT=0/0.8.9.6
 SRC_URI=https://hackage.haskell.org/package/http-streams-0.8.9.6/http-streams-0.8.9.6.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=fee0f085896a37451ee62c8f0eed634c
+_md5_=a89797d2786351052b29a75bef64213f

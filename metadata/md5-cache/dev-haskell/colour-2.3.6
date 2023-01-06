@@ -1,16 +1,16 @@
 BDEPEND=app-text/dos2unix
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEFINED_PHASES=compile configure install postinst postrm prepare pretend setup test
+DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/quickcheck-2.5 <dev-haskell/quickcheck-2.15 >=dev-haskell/random-1.0 >=dev-haskell/test-framework-0.8 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-quickcheck2-0.3 <dev-haskell/test-framework-quickcheck2-0.4 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A model for human colour/color perception
 EAPI=8
 HOMEPAGE=https://www.haskell.org/haskellwiki/Colour
 INHERIT=haskell-cabal
-IUSE=doc hscolour hoogle profile
+IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/ghc-8.8.1:=
-RESTRICT=test
+RESTRICT=!test? ( test )
 SLOT=0/2.3.6
 SRC_URI=https://hackage.haskell.org/package/colour-2.3.6/colour-2.3.6.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=0d1092e4c0b180960333b658c9135950
+_md5_=ba6aca05eb53b9d237872c1baa26f8d3
