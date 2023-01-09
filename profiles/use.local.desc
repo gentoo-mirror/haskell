@@ -89,7 +89,6 @@ dev-haskell/diagrams-builder:rasterific - install rasterific-specific builder to
 dev-haskell/diagrams-builder:svg - install svg-specific builder tool
 dev-haskell/dimensions:unsafeindices - Disable bound checks on Idx and Idxs types.
 dev-haskell/dlist:werror - Enable -Werror
-dev-haskell/echo:examples - Build the bundled example program.
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"
 dev-haskell/extensible:cassava - "define instances for cassava"
@@ -180,7 +179,6 @@ dev-haskell/hlibsass:externallibsass - Use LibSass that is installed in the syst
 dev-haskell/hlibsass:sharedlibsass - Build LibSass as a shared library (only if external_libsass = False)
 dev-haskell/hlint:gpl - Use GPL libraries, specifically hscolour
 dev-haskell/hlint:hsyaml - Use HsYAML instead of yaml
-dev-haskell/hlint:threaded - Build with support for multithreaded execution
 dev-haskell/hls-graph:embed-files - Embed data files into the shake library
 dev-haskell/hls-graph:stm-stats - Collect STM transaction stats
 dev-haskell/hls-plugin-api:fingertree - Use fingertree implementation of RangeMap
@@ -194,6 +192,7 @@ dev-haskell/hsp:base4 - Use base-4.0.
 dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
 dev-haskell/hsyaml-aeson:exe - Enable @exe:yaml-test@ component
 dev-haskell/hsyslog:install-examples - Build and install example programs
+dev-haskell/htf:executable - Build the htfpp executable
 dev-haskell/html-entity-map:dev - Turn on development settings.
 dev-haskell/http-api-data:text-show - Use text-show library for efficient ToHttpApiData implementations.
 dev-haskell/http-client-openssl:test-proxy - Test with http-proxy

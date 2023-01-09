@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/aeson-1.4.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/fgl-5.7.0:=[profile?] <dev-haskell/fgl-5.9:=[profile?] dev-haskell/process:=[profile?] >=dev-haskell/quickcheck-2.14.2:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/regex-tdfa-1.2.0:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Shell script analysis tool
+EAPI=8
+HOMEPAGE=https://www.shellcheck.net/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-haskell/aeson-1.4.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/fgl-5.7.0:=[profile?] <dev-haskell/fgl-5.9:=[profile?] dev-haskell/process:=[profile?] >=dev-haskell/quickcheck-2.14.2:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/regex-tdfa-1.2.0:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?] >=dev-lang/ghc-8.8.1:=
+RESTRICT=!test? ( test )
+SLOT=0/0.9.0
+SRC_URI=https://hackage.haskell.org/package/ShellCheck-0.9.0/ShellCheck-0.9.0.tar.gz -> shellcheck-0.9.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+_md5_=45c05e97431adf65715a0fc6315db910
