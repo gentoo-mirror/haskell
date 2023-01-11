@@ -342,7 +342,7 @@ dev-haskell/concatenative 1.0.1-r1: A library for postfix control flow
 dev-haskell/conceit 0.4.0.0: Concurrent actions that may fail with a value
 dev-haskell/concurrency 1.11.0.1: Typeclasses, functions, and data types for concurrency and STM
 dev-haskell/concurrent-extra 0.7.0.12: Extra concurrency primitives
-dev-haskell/concurrent-output 1.10.12-r1: Ungarble output from several threads or commands
+dev-haskell/concurrent-output 1.10.17: Ungarble output from several threads or commands
 dev-haskell/concurrent-split 0.0.1.1: MVars and Channels with distinguished input and output side
 dev-haskell/concurrent-supply 0.1.8-r2: A fast concurrent unique identifier supply with a pure API
 dev-haskell/concurrentoutput 0.2.0.2: Ungarble output from several threads
@@ -428,6 +428,7 @@ dev-haskell/data-accessor 0.2.3: Utilities for accessing and manipulating fields
 dev-haskell/data-accessor-mtl 0.2.0.4-r1: Use Accessor to access state in mtl State monad class
 dev-haskell/data-accessor-template 0.2.1.16: Utilities for accessing and manipulating fields of records
 dev-haskell/data-accessor-transformers 0.2.1.7-r1: Use Accessor to access state in transformers State monad
+dev-haskell/data-array-byte 0.1.0.1: Compatibility layer for Data.Array.Byte
 dev-haskell/data-binary-ieee754 0.4.4: Parser/Serialiser for IEEE-754 floating-point values
 dev-haskell/data-bword 0.1.0.1: Extra operations on binary words of fixed length
 dev-haskell/data-checked 0.3: Type-indexed runtime-checked properties
@@ -471,7 +472,7 @@ dev-haskell/dependent-map 0.3.1.0 0.4.0.0: Dependent finite maps (partial depend
 dev-haskell/dependent-sum 0.4 0.6.2.0 0.7.1.0-r1: Dependent sum type
 dev-haskell/dependent-sum-template 0.1.1.1: Template Haskell code to generate instances of classes in dependent-sum package
 dev-haskell/deque 0.4.4: Double-ended queues
-dev-haskell/deriving-aeson 0.2.8: Type driven generic aeson instance customisation
+dev-haskell/deriving-aeson 0.2.9: Type driven generic aeson instance customisation
 dev-haskell/deriving-compat 0.6: Backports of GHC deriving extensions
 dev-haskell/descriptive 0.9.5: Self-describing consumers/parsers; forms, cmd-line args, JSON, etc
 dev-haskell/diagrams 1.4.0.1: Embedded domain-specific language for declarative vector graphics
@@ -805,7 +806,7 @@ dev-haskell/happstack-server 7.8.0.1: Web related tools and services
 dev-haskell/happstack-server-tls 7.2.1.3: extend happstack-server with https:// support (TLS/SSL)
 dev-haskell/happy 1.19.12 1.20.0: Happy is a parser generator for Haskell
 dev-haskell/harp 0.4.3.4: HaRP allows pattern-matching with regular expressions
-dev-haskell/hashable 1.4.1.0: A class for types that can be converted to a hash value
+dev-haskell/hashable 1.4.2.0: A class for types that can be converted to a hash value
 dev-haskell/hashable-time 0.3: Hashable instances for Data.Time
 dev-haskell/hashing 0.1.0.1: A pure haskell library implements several hash algorithms
 dev-haskell/hashmap 1.3.3: Persistent containers Map and Set based on hashing
@@ -1152,7 +1153,7 @@ dev-haskell/lambdabot-reference-plugins 5.3: Lambdabot reference plugins
 dev-haskell/lambdabot-social-plugins 5.3: Social plugins for Lambdabot
 dev-haskell/lambdabot-trusted 5.3: Lambdabot trusted code
 dev-haskell/language-bash 0.9.2: Parsing and pretty-printing Bash shell scripts
-dev-haskell/language-c 0.9.0.1: Analysis and generation of C code
+dev-haskell/language-c 0.9.2: Analysis and generation of C code
 dev-haskell/language-c-quote 0.12.2.1: C/CUDA/OpenCL/Objective-C quasiquoting library
 dev-haskell/language-css 0.0.3.1: CSS 2.1 syntax
 dev-haskell/language-docker 10.4.3: Dockerfile parser, pretty-printer and embedded DSL
@@ -1206,7 +1207,7 @@ dev-haskell/liquid-fixpoint 0.8.10.7.1_pre20220624 8.10.7 9999: Predicate Abstra
 dev-haskell/liquiddesugar 9999: Haskell to GHC Core Desugarar for Liquid Haskell
 dev-haskell/liquidhaskell 0.8.10.7 9999: Liquid Types for Haskell
 dev-haskell/list 0.6.2: List monad transformer and class
-dev-haskell/list-t 1.0.5.3: ListT done right
+dev-haskell/list-t 1.0.5.6: ListT done right
 dev-haskell/listlike 4.7.7: Generalized support for list-like structures
 dev-haskell/listsafe 0.1.0.1: Safe wrappers for partial list functions, supporting MonadThrow
 dev-haskell/listzipper 1.2.0.2-r2: Simple zipper for lists
@@ -1433,7 +1434,7 @@ dev-haskell/optics-th 0.4.1: Optics construction using TemplateHaskell
 dev-haskell/optional-args 1.0.2-r2: Optional function arguments
 dev-haskell/options 1.2.1.1: A powerful and easy-to-use command-line option parser
 dev-haskell/optparse-applicative 0.17.0.0: Utilities and combinators for parsing command line options
-dev-haskell/optparse-generic 1.4.8: Auto-generate a command-line parser for your datatype
+dev-haskell/optparse-generic 1.4.9: Auto-generate a command-line parser for your datatype
 dev-haskell/optparse-simple 0.1.1.4: Simple interface to optparse-applicative
 dev-haskell/ordered-containers 0.2.2: Set- and Map-like types that remember the order elements were inserted
 dev-haskell/ormolu 0.5.0.1: A formatter for Haskell source code
@@ -1462,7 +1463,7 @@ dev-haskell/password-types 1.0.0.0-r1: Types for handling passwords
 dev-haskell/patch 0.0.7.0: Data structures for describing changes to other data structures
 dev-haskell/path 0.9.2-r1: Support for well-typed paths
 dev-haskell/path-extra 0.2.0: Chris Done's path library, enriched with URL-related goodies
-dev-haskell/path-io 1.6.3: Interface to 'directory' package for users of 'path'
+dev-haskell/path-io 1.8.0: Interface to ‘directory’ package for users of ‘path’
 dev-haskell/path-pieces 0.2.1: Components of paths
 dev-haskell/paths 0.2.0.0: Library for representing and manipulating type-safe file paths
 dev-haskell/pathtype 0.8.1.1: Type-safe replacement for System.FilePath etc
@@ -1476,7 +1477,7 @@ dev-haskell/pdfinfo 1.5.4: Wrapper around the pdfinfo command
 dev-haskell/pem 0.2.4: Privacy Enhanced Mail (PEM) format reader and writer
 dev-haskell/persistable-record 0.6.0.4: Binding between SQL database values and haskell records
 dev-haskell/persistable-types-hdbc-pg 0.0.3.5: HDBC and Relational-Record instances of PostgreSQL extended types
-dev-haskell/persistent 2.13.3.5 2.14.0.3: Type-safe, multi-backend data serialization
+dev-haskell/persistent 2.13.3.5 2.14.4.4: Type-safe, multi-backend data serialization
 dev-haskell/persistent-instances-iproute 0.1.0.1-r1: Persistent instances for types in iproute
 dev-haskell/persistent-mongodb 2.13.0.1-r1: Backend for the persistent library using mongoDB
 dev-haskell/persistent-mysql 2.13.1.3: Backend for the persistent library using MySQL database server
@@ -1909,7 +1910,7 @@ dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
 dev-haskell/tasty-golden 2.3.5: Golden tests support for tasty
 dev-haskell/tasty-hedgehog 1.3.1.0: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.0.2: Tasty helpers to test HsLua
-dev-haskell/tasty-hspec 1.2.0.1: Hspec support for the Tasty test framework
+dev-haskell/tasty-hspec 1.2.0.2: Hspec support for the Tasty test framework
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
 dev-haskell/tasty-inspection-testing 0.2: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
@@ -2180,7 +2181,7 @@ dev-haskell/x509-store 1.6.7: X.509 collection accessing and storing methods
 dev-haskell/x509-system 1.6.7: Handle per-operating-system X.509 accessors and storage
 dev-haskell/x509-validation 1.6.11: X.509 Certificate and CRL validation
 dev-haskell/xattr 0.6.2: Haskell extended file attributes interface
-dev-haskell/xcb-types 0.10.0: Parses XML files used by the XCB project
+dev-haskell/xcb-types 0.12.0: Parses XML files used by the XCB project
 dev-haskell/xdg-basedir 0.2.2-r1: A basic implementation of the XDG Base Directory specification
 dev-haskell/xdg-desktop-entry 0.1.1.1: Parse files conforming to the xdg desktop entry spec
 dev-haskell/xdg-userdirs 0.1.0.2-r1: Basic implementation of XDG user directories specification
@@ -2316,7 +2317,7 @@ www-servers/yesod-bin 1.6.2.2: The yesod helper executable
 x11-misc/arbtt 0.12.0.1: Automatic Rule-Based Time Tracker
 x11-misc/gtk-sni-tray 0.1.8.0: A standalone StatusNotifierItem/AppIndicator tray
 x11-misc/taffybar 3.3.0: A desktop bar similar to xmobar, but with more GUI
-x11-misc/xmobar 0.44.1 9999: A Minimalistic Text Based Status Bar
+x11-misc/xmobar 0.46 9999: A Minimalistic Text Based Status Bar
 x11-misc/xmonad-extras 0.17.0: Third party extensions for xmonad with wacky dependencies
 x11-misc/xmonad-screenshot 0.1.2-r1: Workspaces screenshooting utility for XMonad
 x11-misc/xmonad-utils 0.1.3.3-r1: A small collection of X utilities
