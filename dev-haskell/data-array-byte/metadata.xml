@@ -6,6 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">xcb-types</remote-id>
+		<remote-id type="hackage">data-array-byte</remote-id>
+		<remote-id type="github">Bodigrim/data-array-byte</remote-id>
 	</upstream>
 </pkgmetadata>
