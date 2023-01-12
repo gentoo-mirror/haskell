@@ -1910,7 +1910,7 @@ dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
 dev-haskell/tasty-golden 2.3.5: Golden tests support for tasty
 dev-haskell/tasty-hedgehog 1.3.1.0: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.0.2: Tasty helpers to test HsLua
-dev-haskell/tasty-hspec 1.2.0.2: Hspec support for the Tasty test framework
+dev-haskell/tasty-hspec 1.2.0.3: Hspec support for the Tasty test framework
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
 dev-haskell/tasty-inspection-testing 0.2: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
