@@ -329,7 +329,7 @@ dev-haskell/colour 2.3.6: A model for human colour/color perception
 dev-haskell/colourista 0.1.0.1: Convenient interface for printing colourful messages
 dev-haskell/command-qq 0.3.1.0: Quasiquoters for external commands
 dev-haskell/commonmark 0.2.2: Pure Haskell commonmark parser
-dev-haskell/commonmark-extensions 0.2.3.2: Pure Haskell commonmark parser
+dev-haskell/commonmark-extensions 0.2.3.3: Pure Haskell commonmark parser
 dev-haskell/commonmark-pandoc 0.2.1.2: Bridge between commonmark and pandoc AST
 dev-haskell/commutative-semigroups 0.1.0.0: Commutative semigroups
 dev-haskell/comonad 5.0.8: The Comonads package authored by Edward Kmett
@@ -1442,7 +1442,7 @@ dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc-crossref 0.3.13.0-r1: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-marshal 0.1.7: Use pandoc types in Lua
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
-dev-haskell/pandoc-types 1.22.2: Types for representing a structured document
+dev-haskell/pandoc-types 1.22.2.1: Types for representing a structured document
 dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.1: Content addressable Haskell package management
@@ -1779,10 +1779,11 @@ dev-haskell/singletons-base 3.0: A promoted and singled version of the base libr
 dev-haskell/singletons-th 3.0: A framework for generating singleton types
 dev-haskell/size-based 0.1.2.0-r1: Sized functors, for size-based enumerations
 dev-haskell/skein 1.0.9.4: Skein, a family of cryptographic hash functions. Includes Skein-MAC as well
-dev-haskell/skylighting 0.13.1.1: syntax highlighting library
-dev-haskell/skylighting-core 0.13.1.1: syntax highlighting library
+dev-haskell/skylighting 0.13.2: syntax highlighting library
+dev-haskell/skylighting-core 0.13.2: syntax highlighting library
 dev-haskell/skylighting-format-ansi 0.1: ANSI formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-blaze-html 0.1.1: HTML formatter for skylighting syntax highlighting library
+dev-haskell/skylighting-format-context 0.1.0.1: ConTeXt formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-latex 0.1: LaTeX formatter for skylighting syntax highlighting library
 dev-haskell/slave-thread 1.1.0.1: A fundamental solution to ghost threads and silent exceptions
 dev-haskell/slist 0.2.1.0: Sized list
@@ -1876,7 +1877,7 @@ dev-haskell/svg-builder 0.1.1-r1: DSL for building SVG
 dev-haskell/svgcairo 0.13.2.1: Binding to the libsvg-cairo library
 dev-haskell/svgfonts 1.8.0.1: Fonts from the SVG-Font format
 dev-haskell/sxml 0.1.0.0: A SXML-parser
-dev-haskell/syb 0.7.2.1: Scrap Your Boilerplate
+dev-haskell/syb 0.7.2.2: Scrap Your Boilerplate
 dev-haskell/syb-with-class 0.6.1.14: Scrap Your Boilerplate With Class
 dev-haskell/syb-with-class-instances-text 0.0.1: Scrap Your Boilerplate With Class Text instance
 dev-haskell/symbol 0.2.4: A 'Symbol' type for fast symbol comparison
@@ -1942,12 +1943,12 @@ dev-haskell/test-framework-smallcheck 0.2: Support for SmallCheck tests in test-
 dev-haskell/test-framework-th 0.2.4: Automagically generate the HUnit and Quickcheck using Template Haskell
 dev-haskell/testing-feat 1.1.0.0-r1: Functional Enumeration of Algebraic Types
 dev-haskell/testing-type-modifiers 0.1.0.1: Data type modifiers for property based testing
-dev-haskell/texmath 0.12.4 0.12.5.1: Conversion between math formats
+dev-haskell/texmath 0.12.4 0.12.5.4: Conversion between math formats
 dev-haskell/texrunner 0.0.1.2-r2: Functions for running Tex from Haskell
 dev-haskell/text 1.2.4.1 1.2.5.0: An efficient packed Unicode text type
 dev-haskell/text-binary 0.2.1.1: Binary instances for text types
 dev-haskell/text-builder 0.6.6.2: An efficient strict text builder
-dev-haskell/text-conversions 0.3.1: Safe conversions between textual types
+dev-haskell/text-conversions 0.3.1.1: Safe conversions between textual types
 dev-haskell/text-format 0.3.2-r1: Text formatting
 dev-haskell/text-format-simple 1.1.0-r1: Simple text formatting library
 dev-haskell/text-icu 0.7.0.1 0.7.1.0: Bindings to the ICU library
