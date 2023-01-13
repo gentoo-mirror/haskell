@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">pandoc-types</remote-id>
-		<remote-id type="github">jgm/pandoc-types</remote-id>
+		<remote-id type="hackage">skylighting-format-context</remote-id>
+		<remote-id type="github">jgm/skylighting</remote-id>
 	</upstream>
 </pkgmetadata>
