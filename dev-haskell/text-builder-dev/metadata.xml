@@ -5,11 +5,8 @@
 		<email>haskell@gentoo.org</email>
 		<name>Gentoo Haskell</name>
 	</maintainer>
-	<use>
-		<flag name="build-binaries">Build the binaries</flag>
-	</use>
 	<upstream>
-		<remote-id type="hackage">aeson-yaml</remote-id>
-		<remote-id type="github">clovyr/aeson-yaml</remote-id>
+		<remote-id type="hackage">text-builder-dev</remote-id>
+		<remote-id type="github">nikita-volkov/text-builder-dev</remote-id>
 	</upstream>
 </pkgmetadata>
