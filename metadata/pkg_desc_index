@@ -620,7 +620,7 @@ dev-haskell/flow2dot 0.9.2: Library and binary to generate sequence/flow diagram
 dev-haskell/fmlist 0.9.4: FoldMap lists
 dev-haskell/focus 1.0.3: A general abstraction for manipulating elements of container data structures
 dev-haskell/focuslist 0.1.1.0: Lists with a focused element
-dev-haskell/foldl 1.4.12-r1: Composable, streaming, and efficient left folds
+dev-haskell/foldl 1.4.14: Composable, streaming, and efficient left folds
 dev-haskell/follow-file 0.0.3: Be notified when a file gets appended, solely with what was added
 dev-haskell/fontyfruity 0.5.3.5: A true type file format loader
 dev-haskell/force-layout 0.4.0.6-r5: Simple force-directed layout
@@ -1288,7 +1288,7 @@ dev-haskell/mintty 0.1.2: A reliable way to detect the presence of a MinTTY cons
 dev-haskell/misfortune 0.1.2.1: fortune-mod clone
 dev-haskell/miso 1.8.0.0: A tasty Haskell front-end framework
 dev-haskell/missing-foreign 0.1.1-r1: Convenience functions for FFI work
-dev-haskell/missingh 1.5.0.1-r1: Large utility library
+dev-haskell/missingh 1.6.0.0: Large utility library
 dev-haskell/mmap 0.5.9: Memory mapped files for POSIX and Windows
 dev-haskell/mmark 0.0.7.5: Strict markdown processor for writers
 dev-haskell/mmorph 1.2.0: Monad morphisms
