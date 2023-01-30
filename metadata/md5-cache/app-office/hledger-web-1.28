@@ -12,5 +12,5 @@ RDEPEND=>=app-office/hledger-1.28:=[profile?] <app-office/hledger-1.29:=[profile
 RESTRICT=!test? ( test )
 SLOT=0/1.28
 SRC_URI=https://hackage.haskell.org/package/hledger-web-1.28/hledger-web-1.28.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
 _md5_=b54640567c52c6beb654f19e13653946

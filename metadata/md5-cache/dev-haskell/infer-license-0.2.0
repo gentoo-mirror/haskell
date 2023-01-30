@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/text:=[profile?] >=dev-haskell/text-metrics-0.3.0:=[profile?
 RESTRICT=!test? ( test )
 SLOT=0/0.2.0
 SRC_URI=https://hackage.haskell.org/package/infer-license-0.2.0/infer-license-0.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
 _md5_=f4b286e13f4295f57ba46681240b5672
