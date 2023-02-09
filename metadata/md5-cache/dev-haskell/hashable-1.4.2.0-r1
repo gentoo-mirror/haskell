@@ -5,7 +5,7 @@ DESCRIPTION=A class for types that can be converted to a hash value
 EAPI=8
 HOMEPAGE=https://github.com/haskell-unordered-containers/hashable
 INHERIT=haskell-cabal
-IUSE=doc hscolour hoogle profile test
+IUSE=random-initial-seed doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=>=dev-haskell/base-orphans-0.8.6:=[profile?] <dev-haskell/base-orphans-0.9:=[profile?] >=dev-haskell/data-array-byte-0.1.0.1:=[profile?] <dev-haskell/data-array-byte-0.2:=[profile?] >=dev-lang/ghc-8.4.3:=
@@ -13,4 +13,4 @@ RESTRICT=test !test? ( test )
 SLOT=0/1.4.2.0
 SRC_URI=https://hackage.haskell.org/package/hashable-1.4.2.0/hashable-1.4.2.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=7d3ec57d15031f36fb08c15aa07d3bcf
+_md5_=e99c79d24d02fa9582768e5aa7ef0d78
