@@ -135,7 +135,7 @@ dev-haskell/authenticate-kerberos 1.0.0-r1: Authentication methods for Haskell w
 dev-haskell/authenticate-oauth 1.6.0.1-r1: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/auto 0.4.3.1: Denotative, locally stateful programming DSL & platform
 dev-haskell/auto-update 0.1.6: Efficiently run periodic, on-demand actions
-dev-haskell/aws 0.22-r5: Amazon Web Services (AWS) for Haskell
+dev-haskell/aws 0.24: Amazon Web Services (AWS) for Haskell
 dev-haskell/barbies 2.0.3.0: Classes for working with types that can change clothes
 dev-haskell/base-compat 0.12.2: A compatibility layer for base
 dev-haskell/base-compat-batteries 0.12.2: base-compat with extra batteries
@@ -409,7 +409,7 @@ dev-haskell/cryptohash-cryptoapi 0.1.4: Crypto-api interfaces for cryptohash
 dev-haskell/cryptohash-md5 0.11.101.0: Fast, pure and practical MD5 implementation
 dev-haskell/cryptohash-sha1 0.11.101.0: Fast, pure and practical SHA-1 implementation
 dev-haskell/cryptohash-sha256 0.11.102.0: Fast, pure and practical SHA-256 implementation
-dev-haskell/cryptohash-sha512 0.11.101.0: Fast, pure and practical SHA-512 implementation
+dev-haskell/cryptohash-sha512 0.11.102.0: Fast, pure and practical SHA-512 implementation
 dev-haskell/cryptonite 0.30: Cryptography Primitives sink
 dev-haskell/cryptonite-conduit 0.2.2: cryptonite conduit
 dev-haskell/cryptostore 0.2.2.0: Serialization of cryptographic data types
@@ -576,7 +576,7 @@ dev-haskell/extra 1.7.12-r1: Extra functions I use
 dev-haskell/fail 4.9.0.0: Forward-compatible MonadFail class
 dev-haskell/failure 0.2.0.3: A simple type class for success/failure computations. (deprecated)
 dev-haskell/fast-builder 0.1.2.1: Fast ByteString Builder
-dev-haskell/fast-logger 3.0.5: A fast logging system
+dev-haskell/fast-logger 3.2.0: A fast logging system
 dev-haskell/fast-math 1.0.2: Non IEEE-754 compliant compile-time floating-point optimisations
 dev-haskell/fastcgi 3001.0.2.5: A Haskell library for writing FastCGI programs
 dev-haskell/fclabels 2.0.5.1: First class accessor labels implemented as lenses
@@ -654,7 +654,7 @@ dev-haskell/gauge 0.2.5: small framework for performance measurement and analysi
 dev-haskell/gd 3000.7.3: A Haskell binding to a subset of the GD graphics library
 dev-haskell/gdiff 1.1-r1: Generic diff and patch
 dev-haskell/generic-arbitrary 1.0.0: Generic implementation for QuickCheck's Arbitrary
-dev-haskell/generic-data 1.0.0.0: Deriving instances with GHC.Generics and related utilities
+dev-haskell/generic-data 1.0.0.1: Deriving instances with GHC.Generics and related utilities
 dev-haskell/generic-deriving 1.14.2: Generic programming library for generalised deriving
 dev-haskell/generic-lens 2.2.1.0: Generically derive traversals, lenses and prisms
 dev-haskell/generic-lens-core 2.2.1.0: Generically derive traversals, lenses and prisms
@@ -975,7 +975,7 @@ dev-haskell/hslua-objectorientation 2.2.0 2.2.1: Object orientation tools for Hs
 dev-haskell/hslua-packaging 2.2.0 2.2.1: Utilities to build Lua modules
 dev-haskell/hsndfile 0.8.0-r1: Haskell bindings for libsndfile
 dev-haskell/hsndfile-vector 0.5.2: Haskell bindings for libsndfile (Data.Vector interface)
-dev-haskell/hsopenssl 0.11.7.2: Partial OpenSSL binding for Haskell
+dev-haskell/hsopenssl 0.11.7.5: Partial OpenSSL binding for Haskell
 dev-haskell/hsopenssl-x509-system 0.1.0.4: Use the system's native CA certificate store with HsOpenSSL
 dev-haskell/hsp 0.10.0: Haskell Server Pages is a library for writing dynamic server-side web pages
 dev-haskell/hsparql 0.3.6: A SPARQL query generator and DSL, and a client to query a SPARQL server
@@ -1036,7 +1036,7 @@ dev-haskell/http-querystring 1.0: The HTTP query builder
 dev-haskell/http-reverse-proxy 0.6.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
 dev-haskell/http-streams 0.8.9.6: An HTTP client using io-streams
 dev-haskell/http-types 0.9.1-r1 0.12.3: Generic HTTP types for Haskell (for both client and server code)
-dev-haskell/http2 3.0.1: HTTP/2 library
+dev-haskell/http2 4.0.0: HTTP/2 library
 dev-haskell/httpd-shed 0.4.1.1-r1: A simple web-server with an interact style API
 dev-haskell/huffman 1.0.1: Pure Haskell implementation of the Huffman encoding algorithm
 dev-haskell/hunit 1.6.2.0: A unit testing framework for Haskell
@@ -1303,7 +1303,7 @@ dev-haskell/monad-control-aligned 0.0.1.1-r1: Just like monad-control, except le
 dev-haskell/monad-dijkstra 0.1.1.3: A monad transformer for weighted graph searches
 dev-haskell/monad-extras 0.6.0: Extra utility functions for working with monads
 dev-haskell/monad-journal 0.8.1: Pure logger typeclass and monad transformer
-dev-haskell/monad-logger 0.3.36: A class of monads which can log messages
+dev-haskell/monad-logger 0.3.39: A class of monads which can log messages
 dev-haskell/monad-logger-syslog 0.1.4.0: syslog output for monad-logger
 dev-haskell/monad-loops 0.4.3: Monadic loops
 dev-haskell/monad-memo 0.5.4: Memoization monad transformer
@@ -1627,7 +1627,7 @@ dev-haskell/recaptcha 0.1.0.4-r1: Functions for using the reCAPTCHA service in w
 dev-haskell/record-dot-preprocessor 0.2.15: Preprocessor to allow record.field syntax
 dev-haskell/record-hasfield 1.0: A version of GHC.Records as available in future GHCs
 dev-haskell/recursion-schemes 5.2.2.1: Representing common recursion patterns as higher-order functions
-dev-haskell/recv 0.0.0: Efficient netowrk recv
+dev-haskell/recv 0.1.0: Efficient network recv
 dev-haskell/redis 0.14.2: A driver for Redis key-value database
 dev-haskell/reducers 3.12.3-r1: Semigroups, specialized containers and a general map/reduce framework
 dev-haskell/ref-tf 0.5: A type class for monads with references using type families
@@ -1795,7 +1795,7 @@ dev-haskell/smtlib 1.1: A library for working with the SMTLIB format
 dev-haskell/smtp-mail 0.2.0.0 0.3.0.0: Simple email sending via SMTP
 dev-haskell/smtpclient 1.1.0-r1: A simple SMTP client library
 dev-haskell/snap 1.1.3.1-r5: Top-level package for the Snap Web Framework
-dev-haskell/snap-core 1.0.5.0: Snap: A Haskell Web Framework (core interfaces and types)
+dev-haskell/snap-core 1.0.5.1: Snap: A Haskell Web Framework (core interfaces and types)
 dev-haskell/snap-loader-dynamic 1.0.0.2: Snap dynamic loader
 dev-haskell/snap-loader-static 1.0.0.1: Snap static loader
 dev-haskell/snap-server 1.1.2.0-r2: A web server for the Snap Framework
@@ -2017,7 +2017,7 @@ dev-haskell/transformers-compat 0.7.2: A small compatibility shim for the transf
 dev-haskell/transformers-free 1.0.1-r1: Free monad transformers
 dev-haskell/traverse-with-class 1.0.1.1: Generic applicative traversals
 dev-haskell/tree-diff 0.2.1.1: Diffing of (expression) trees
-dev-haskell/tree-traversals 0.1.1.0: Functions and newtype wrappers for traversing Trees
+dev-haskell/tree-traversals 0.1.2.0: Functions and newtype wrappers for traversing Trees
 dev-haskell/trial 0.0.0.0-r1: Trial Data Structure
 dev-haskell/trial-optparse-applicative 0.0.0.0: Trial helper functions for optparse-applicative
 dev-haskell/trial-tomland 0.0.0.0: Trial helper functions for tomland
@@ -2135,14 +2135,14 @@ dev-haskell/wai-http2-extra 0.1.3: WAI utilities for HTTP/2
 dev-haskell/wai-logger 2.4.0: A logging system for WAI
 dev-haskell/wai-test 3.0.0: Unit test framework (built on HUnit) for WAI applications. (deprecated)
 dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
-dev-haskell/warp 3.3.23: A fast, light-weight web server for WAI applications
-dev-haskell/warp-tls 3.3.4: HTTP over TLS support for Warp via the TLS package
+dev-haskell/warp 3.3.24: A fast, light-weight web server for WAI applications
+dev-haskell/warp-tls 3.3.5: HTTP over TLS support for Warp via the TLS package
 dev-haskell/wave 0.2.0: WAVE audio file IO library
 dev-haskell/wavy 0.1.0.0: Process WAVE files in Haskell
 dev-haskell/wcwidth 0.0.2: Native wcwidth
 dev-haskell/web-encodings 0.3.0.9-r1: Encapsulate multiple web encoding in a single package. (deprecated)
 dev-haskell/web-plugins 0.4.1: dynamic plugin system for web applications
-dev-haskell/web-routes 0.27.14.3: portable, type-safe URL routing
+dev-haskell/web-routes 0.27.15: portable, type-safe URL routing
 dev-haskell/web-routes-boomerang 0.28.4.2: Use boomerang for type-safe URL parsers/printers
 dev-haskell/web-routes-happstack 0.23.12.2: Adds support for using web-routes with Happstack
 dev-haskell/web-routes-hsp 0.24.6.1: Adds XMLGenerator instance for RouteT monad
@@ -2210,7 +2210,7 @@ dev-haskell/xmlhtml 0.2.5.2: XML parser and renderer with HTML 5 quirks mode
 dev-haskell/xmms 0.1.1-r1: XMMS2 client library
 dev-haskell/xss-sanitize 0.3.6: sanitize untrusted HTML to prevent XSS attacks
 dev-haskell/xxhash-ffi 0.2.0.0: Bindings to the C implementation the xxHash algorithm
-dev-haskell/yaml 0.11.8.0: Support for parsing and rendering YAML documents
+dev-haskell/yaml 0.11.10.0: Support for parsing and rendering YAML documents
 dev-haskell/yaml-light 0.1.4-r1: A light-weight wrapper with utility functions around HsSyck
 dev-haskell/yampa 0.13.1: Library for programming hybrid systems
 dev-haskell/yesod 1.6.2: Creation of type-safe, RESTful web applications
@@ -2221,11 +2221,11 @@ dev-haskell/yesod-auth-hashdb 1.7.1.7: Authentication plugin for Yesod
 dev-haskell/yesod-auth-oauth2 0.7.0.1: OAuth 2.0 authentication plugins
 dev-haskell/yesod-colonnade 1.3.0.1: Helper functions for using yesod with colonnade
 dev-haskell/yesod-content-pdf 0.2.0.5: PDF Content Type for Yesod
-dev-haskell/yesod-core 1.6.23.1: Creation of type-safe, RESTful web applications
+dev-haskell/yesod-core 1.6.24.1: Creation of type-safe, RESTful web applications
 dev-haskell/yesod-default 1.2.0: Default config and main functions for your yesod application (deprecated)
 dev-haskell/yesod-elements 1.1.1: Non template haskell markup building function in the spirit of lucid
 dev-haskell/yesod-eventsource 1.6.0.1: Server-sent events support for Yesod apps
-dev-haskell/yesod-form 1.7.0: Form handling support for Yesod Web Framework
+dev-haskell/yesod-form 1.7.4: Form handling support for Yesod Web Framework
 dev-haskell/yesod-gitrepo 0.3.0: Host content provided by a Git repo
 dev-haskell/yesod-json 1.2.0: Generate content for Yesod using the aeson package. (deprecated)
 dev-haskell/yesod-markdown 0.12.6.12: Tools for using markdown in a yesod application

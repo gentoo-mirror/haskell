@@ -402,7 +402,6 @@ dev-haskell/warp:x509 - Adds a dependency on the x509 library to enable getting 
 dev-haskell/wcwidth:cli - Enable command line tool
 dev-haskell/xeno:libxml2 - Include libxml2 in the benchmarks
 dev-haskell/xlsx:microlens - Use microlens instead of lens
-dev-haskell/yaml:examples - Install the haskell-yaml-examples executable
 dev-haskell/yaml:executable - Install the yaml2json and json2yaml executables
 dev-haskell/yesod-form:network-uri - Get Network.URI from the network-uri package
 dev-haskell/yesod-paginator:examples - Build the examples

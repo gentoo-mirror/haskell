@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/network-2.1:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-lang/ghc-8.4.3:= dev-libs/openssl >=dev-haskell/cabal-2.2.0.1 <dev-haskell/cabal-4 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Partial OpenSSL binding for Haskell
+EAPI=8
+HOMEPAGE=https://github.com/haskell-cryptography/HsOpenSSL
+INHERIT=haskell-cabal
+IUSE=fast-bignum doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=dev-haskell/network-2.1:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-lang/ghc-8.4.3:= dev-libs/openssl
+RESTRICT=!test? ( test )
+SLOT=0/0.11.7.5
+SRC_URI=https://hackage.haskell.org/package/HsOpenSSL-0.11.7.5/HsOpenSSL-0.11.7.5.tar.gz -> hsopenssl-0.11.7.5.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+_md5_=3d151378f8722c9884f6df34d71f58e1
