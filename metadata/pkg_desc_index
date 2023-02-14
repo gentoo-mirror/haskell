@@ -576,7 +576,7 @@ dev-haskell/extra 1.7.12-r1: Extra functions I use
 dev-haskell/fail 4.9.0.0: Forward-compatible MonadFail class
 dev-haskell/failure 0.2.0.3: A simple type class for success/failure computations. (deprecated)
 dev-haskell/fast-builder 0.1.2.1: Fast ByteString Builder
-dev-haskell/fast-logger 3.2.0: A fast logging system
+dev-haskell/fast-logger 3.1.2: A fast logging system
 dev-haskell/fast-math 1.0.2: Non IEEE-754 compliant compile-time floating-point optimisations
 dev-haskell/fastcgi 3001.0.2.5: A Haskell library for writing FastCGI programs
 dev-haskell/fclabels 2.0.5.1: First class accessor labels implemented as lenses
