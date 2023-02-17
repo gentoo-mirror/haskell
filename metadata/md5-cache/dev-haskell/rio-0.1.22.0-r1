@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/hashable:=[profile?] dev-haskell/microlens:=[profile?] dev-haskell/microlens-mtl:=[profile?] dev-haskell/primitive:=[profile?] dev-haskell/process:=[profile?] >=dev-haskell/typed-process-0.2.5.0:=[profile?] >=dev-haskell/unliftio-0.2.14:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/hashable:=[profile?] dev-haskell/microlens:=[profile?] dev-haskell/microlens-mtl:=[profile?] dev-haskell/primitive:=[profile?] >=dev-haskell/typed-process-0.2.5.0:=[profile?] >=dev-haskell/unliftio-0.2.14:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A standard library for Haskell
 EAPI=8
 HOMEPAGE=https://github.com/commercialhaskell/rio#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-haskell/hashable:=[profile?] dev-haskell/microlens:=[profile?] dev-haskell/microlens-mtl:=[profile?] dev-haskell/primitive:=[profile?] dev-haskell/process:=[profile?] >=dev-haskell/typed-process-0.2.5.0:=[profile?] >=dev-haskell/unliftio-0.2.14:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.1:=
+RDEPEND=dev-haskell/hashable:=[profile?] dev-haskell/microlens:=[profile?] dev-haskell/microlens-mtl:=[profile?] dev-haskell/primitive:=[profile?] >=dev-haskell/typed-process-0.2.5.0:=[profile?] >=dev-haskell/unliftio-0.2.14:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.1:=
 RESTRICT=!test? ( test )
 SLOT=0/0.1.22.0
 SRC_URI=https://hackage.haskell.org/package/rio-0.1.22.0/rio-0.1.22.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=48bd1ccbadfb06804776d44a18fd2d22
+_md5_=4dc7585d4bbae4d0122549e75fe4ea13

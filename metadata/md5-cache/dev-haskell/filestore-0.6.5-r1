@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/diff-0.4:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/old-locale-1.0:=[profile?] <dev-haskell/old-locale-1.1:=[profile?] >=dev-haskell/process-1.0:=[profile?] <dev-haskell/process-1.7:=[profile?] >=dev-haskell/split-0.1:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-haskell/xml-1.3:=[profile?] <dev-haskell/xml-1.4:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/hunit-1.2 <dev-haskell/hunit-1.7 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/diff-0.4:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/old-locale-1.0:=[profile?] <dev-haskell/old-locale-1.1:=[profile?] >=dev-haskell/split-0.1:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-haskell/xml-1.3:=[profile?] <dev-haskell/xml-1.4:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/hunit-1.2 <dev-haskell/hunit-1.7 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Interface for versioning file stores
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/filestore
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=+maxcount doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/diff-0.4:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/old-locale-1.0:=[profile?] <dev-haskell/old-locale-1.1:=[profile?] >=dev-haskell/process-1.0:=[profile?] <dev-haskell/process-1.7:=[profile?] >=dev-haskell/split-0.1:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-haskell/xml-1.3:=[profile?] <dev-haskell/xml-1.4:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/diff-0.4:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/old-locale-1.0:=[profile?] <dev-haskell/old-locale-1.1:=[profile?] >=dev-haskell/split-0.1:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-haskell/xml-1.3:=[profile?] <dev-haskell/xml-1.4:=[profile?] >=dev-lang/ghc-8.4.3:=
 RESTRICT=!test? ( test )
 SLOT=0/0.6.5
 SRC_URI=https://hackage.haskell.org/package/filestore-0.6.5/filestore-0.6.5.tar.gz https://hackage.haskell.org/package/filestore-0.6.5/revision/1.cabal -> filestore-0.6.5-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=e06f245753a7712f5ae389338fa7faf6
+_md5_=47e661a8da3151ceb9963d959c1014c8
