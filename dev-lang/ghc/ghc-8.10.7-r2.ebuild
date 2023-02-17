@@ -13,9 +13,9 @@ if [[ ${CTARGET} = ${CHOST} ]] ; then
 	fi
 fi
 
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{9..10} )
 inherit python-any-r1
-inherit autotools bash-completion-r1 eutils flag-o-matic ghc-package
+inherit autotools bash-completion-r1 flag-o-matic ghc-package
 inherit multilib multiprocessing pax-utils toolchain-funcs prefix
 inherit check-reqs
 DESCRIPTION="The Glasgow Haskell Compiler"
@@ -108,6 +108,7 @@ S="${WORKDIR}"/${GHC_P}
 
 BUMP_LIBRARIES=(
 	# "hackage-name          hackage-version"
+	"process          1.6.16.0"
 )
 
 LICENSE="BSD"
