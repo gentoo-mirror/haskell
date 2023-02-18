@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/stm-2.4:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=|| ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/stm-2.4:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A command-line interface for user input, written in Haskell
 EAPI=8
 HOMEPAGE=https://github.com/judah/haskeline
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=+terminfo doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=BSD
-RDEPEND=>=dev-haskell/stm-2.4:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-lang/ghc-8.10.1:=
+RDEPEND=|| ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/stm-2.4:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-lang/ghc-8.10.1:=
 RESTRICT=test
 SLOT=0/0.8.2
 SRC_URI=https://hackage.haskell.org/package/haskeline-0.8.2/haskeline-0.8.2.tar.gz https://hackage.haskell.org/package/haskeline-0.8.2/revision/3.cabal -> haskeline-0.8.2-rev3.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=4fe6543dc6d2e0ae1832812eb2afd3fb
+_md5_=5e6e45f0d1b4a9f347148d54f874a75c

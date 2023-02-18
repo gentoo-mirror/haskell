@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=|| ( dev-lang/ghc ( >=dev-haskell/process-1.0.1.1[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A cross-platform, cross-console way to handle echoing terminal input
 EAPI=8
 HOMEPAGE=https://github.com/RyanGlScott/echo
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=examples doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=
+RDEPEND=|| ( dev-lang/ghc ( >=dev-haskell/process-1.0.1.1[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-lang/ghc-8.4.3:=
 SLOT=0/0.1.4
 SRC_URI=https://hackage.haskell.org/package/echo-0.1.4/echo-0.1.4.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=84e59a39534de198934777c73528be18
+_md5_=4c9f2ce90a048bab8bf619a963f1fcb0

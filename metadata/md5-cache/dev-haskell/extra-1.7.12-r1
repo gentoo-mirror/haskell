@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/clock-0.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/quickcheck-2.10 >=dev-haskell/quickcheck-instances-0.3.17 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/clock-0.7:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/quickcheck-2.10 >=dev-haskell/quickcheck-instances-0.3.17 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Extra functions I use
 EAPI=8
 HOMEPAGE=https://github.com/ndmitchell/extra#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/clock-0.7:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/clock-0.7:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:=
 RESTRICT=!test? ( test )
 SLOT=2/1.7.12
 SRC_URI=https://hackage.haskell.org/package/extra-1.7.12/extra-1.7.12.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=3ad61e85170ea2c220596767aa68fe2e
+_md5_=43a890b5823630f93cf31a5deeb2a274

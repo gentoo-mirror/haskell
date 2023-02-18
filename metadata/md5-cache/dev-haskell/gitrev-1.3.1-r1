@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/base-compat-0.6.0:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/base-compat-0.6.0:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Compile git revision info into Haskell projects
 EAPI=8
 HOMEPAGE=https://github.com/acfoltzer/gitrev
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/base-compat-0.6.0:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/base-compat-0.6.0:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:=
 SLOT=0/1.3.1
 SRC_URI=https://hackage.haskell.org/package/gitrev-1.3.1/gitrev-1.3.1.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
-_md5_=fc6725da9c53da09697b254bd84bffc4
+_md5_=612836462822a3d79dee07dfcc2ec179
