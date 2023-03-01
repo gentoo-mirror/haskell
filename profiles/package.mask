@@ -2,21 +2,9 @@
 # Depends on old version of ghcide
 dev-haskell/hls-call-hierarchy-plugin
 
-# hololeap <hololeap@protonmail.com> (2022-12-30)
-# purescript package is out of date (and never seemed to work correctly)
-# Removal in 30 days unless someone steps up to fix it
-dev-haskell/purescript-ast
-dev-haskell/purescript-cst
-dev-lang/purescript
-
 # hololeap <hololeap@protonmail.com> (2022-12-29)
 # Many packages still depend on network-uri<2.7
 >=dev-haskell/network-uri-2.7
-
-# hololeap <hololeap@protonmail.com> (2022-12-28)
-# Depends on old optparse-applicative, no upstream activity for over a year
-# Removal in 30 days
-dev-haskell/ircbot
 
 # hololeap <hololeap@protonmail.com> (2022-11-13)
 # Needs patching to build with current dev-haskell/hnix
@@ -38,11 +26,6 @@ dev-haskell/liquidhaskell
 # See: <https://github.com/kowainik/stan/issues/423>
 dev-haskell/stan
 dev-haskell/hls-stan-plugin
-
-# Jack Todaro <solpeth@posteo.org> (2022-09-20)
-# Project unmaintained since 2020. Deps need porting.
-# Mask for removal.
-dev-haskell/viewprof
 
 # hololeap <hololeap@protonmail.com>
 # doctest-parallel does not currently work with Setup.hs (used internally by
