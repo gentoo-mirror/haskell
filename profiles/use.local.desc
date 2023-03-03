@@ -143,7 +143,6 @@ dev-haskell/hashable:random-initial-seed - Randomly initialize the seed on every
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
 dev-haskell/hashtables:detailed-profiling - add detailed profiling information to profiled build-depends
 dev-haskell/haskeline:terminfo - Use the terminfo package for POSIX consoles.
-dev-haskell/haskell-language-server:hls_formatters_brittany - Enable brittany formatter
 dev-haskell/haskell-language-server:hls_formatters_floskell - Enable floskell formatter
 dev-haskell/haskell-language-server:hls_formatters_fourmolu - Enable fourmolu formatter
 dev-haskell/haskell-language-server:hls_formatters_ormolu - Enable ormolu formatter
@@ -152,13 +151,11 @@ dev-haskell/haskell-language-server:hls_formatters_stylish-haskell - Enable styl
 dev-haskell/haskell-language-server:hls_plugins_alternate-number-format - Enable Alternate Number Format plugin
 dev-haskell/haskell-language-server:hls_plugins_cabal - Enable cabal plugin
 dev-haskell/haskell-language-server:hls_plugins_change-type-signature - Change a declarations type signature with a Code Action
-dev-haskell/haskell-language-server:hls_plugins_class - Enable class plugin
 dev-haskell/haskell-language-server:hls_plugins_code-range - Enable codeRange plugin
 dev-haskell/haskell-language-server:hls_plugins_eval - Enable eval plugin
 dev-haskell/haskell-language-server:hls_plugins_explicit-fields - Enable explicit-fields plugin
 dev-haskell/haskell-language-server:hls_plugins_explicit-fixity - Enable explicit-fixity plugin
 dev-haskell/haskell-language-server:hls_plugins_gadt - Enable GADT plugin
-dev-haskell/haskell-language-server:hls_plugins_haddock-comments - Enable haddock comments plugin
 dev-haskell/haskell-language-server:hls_plugins_hlint - Enable hlint plugin
 dev-haskell/haskell-language-server:hls_plugins_import-lens - Enable importLens plugin
 dev-haskell/haskell-language-server:hls_plugins_module-name - Enable moduleName plugin
@@ -168,7 +165,6 @@ dev-haskell/haskell-language-server:hls_plugins_refine-imports - Enable refineIm
 dev-haskell/haskell-language-server:hls_plugins_rename - Enable rename plugin
 dev-haskell/haskell-language-server:hls_plugins_retrie - Enable retrie plugin
 dev-haskell/haskell-language-server:hls_plugins_splice - Enable splice plugin
-dev-haskell/haskell-language-server:hls_plugins_wingman - Enable wingman plugin
 dev-haskell/hdbc-sqlite3:splitbase - Choose the new smaller, split-up package.
 dev-haskell/hedgehog-fn:build-examples - Build the example executables
 dev-haskell/hiedb:executable - Install the hiedb executable
