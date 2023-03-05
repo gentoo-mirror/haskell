@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=dev-haskell/safe:=[profile?] dev-haskell/th-expand-syns:=[profile?] >=dev-lang/ghc-8.4.3:=
 RESTRICT=!test? ( test )
 SLOT=0/0.1.10
-SRC_URI=https://hackage.haskell.org/package/th-reify-many-0.1.10/th-reify-many-0.1.10.tar.gz -> th-reify-many-0.1.10.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
+SRC_URI=https://hackage.haskell.org/package/th-reify-many-0.1.10/th-reify-many-0.1.10.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
 _md5_=924c818a4fe54bd26e3773c42043df3d

@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/free-4.12:=[profile?] >=dev-haskell/ghc-paths-0.1:=[profile?] dev-haskell/ordered-containers:=[profile?] >=dev-haskell/syb-0.5:=[profile?] >=dev-lang/ghc-9.2.1:=
 RESTRICT=!test? ( test )
 SLOT=0/1.5.0
-SRC_URI=https://hackage.haskell.org/package/ghc-exactprint-1.5.0/ghc-exactprint-1.5.0.tar.gz -> ghc-exactprint-1.5.0.tar.gz https://hackage.haskell.org/package/ghc-exactprint-1.5.0/revision/1.cabal -> ghc-exactprint-1.5.0-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
+SRC_URI=https://hackage.haskell.org/package/ghc-exactprint-1.5.0/ghc-exactprint-1.5.0.tar.gz https://hackage.haskell.org/package/ghc-exactprint-1.5.0/revision/1.cabal -> ghc-exactprint-1.5.0-rev1.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
 _md5_=c9797cc92122b8912f066ab95cba5fb8

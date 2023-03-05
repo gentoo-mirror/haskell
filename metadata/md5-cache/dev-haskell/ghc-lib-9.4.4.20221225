@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=~dev-haskell/ghc-lib-parser-9.4.4.20221225:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-9.0.2:=
 SLOT=0/9.4.4.20221225
-SRC_URI=https://hackage.haskell.org/package/ghc-lib-9.4.4.20221225/ghc-lib-9.4.4.20221225.tar.gz -> ghc-lib-9.4.4.20221225.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
+SRC_URI=https://hackage.haskell.org/package/ghc-lib-9.4.4.20221225/ghc-lib-9.4.4.20221225.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
 _md5_=c260e3af35940926d2a392dac63b2cbe

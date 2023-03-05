@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=<dev-haskell/haskell-src-exts-1.24:=[profile?] <dev-haskell/haskell-src-meta-0.9:=[profile?] <dev-haskell/split-0.3:=[profile?] <dev-haskell/text-conversions-0.4:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-8.4.3:=
 RESTRICT=!test? ( test )
 SLOT=0/0.3.2.0
-SRC_URI=https://hackage.haskell.org/package/string-interpolate-0.3.2.0/string-interpolate-0.3.2.0.tar.gz -> string-interpolate-0.3.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
+SRC_URI=https://hackage.haskell.org/package/string-interpolate-0.3.2.0/string-interpolate-0.3.2.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
 _md5_=9a6d862e3cb403eeac99d1d742ce704b

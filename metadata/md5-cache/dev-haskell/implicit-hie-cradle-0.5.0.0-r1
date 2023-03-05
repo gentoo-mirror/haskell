@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=dev-haskell/base16-bytestring:=[profile?] >=dev-haskell/extra-1.6.14:=[profile?] <dev-haskell/extra-1.8:=[profile?] >=dev-haskell/hie-bios-0.7.0:=[profile?] dev-haskell/hslogger:=[profile?] >=dev-haskell/implicit-hie-0.1.2.6:=[profile?] <dev-haskell/implicit-hie-1:=[profile?] || ( dev-lang/ghc ( >=dev-haskell/process-1.6.1[profile?] <dev-haskell/process-1.7[profile?] ) ) dev-haskell/temporary:=[profile?] dev-haskell/unix-compat:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.4.3:=
 RESTRICT=!test? ( test )
 SLOT=0/0.5.0.0
-SRC_URI=https://hackage.haskell.org/package/implicit-hie-cradle-0.5.0.0/implicit-hie-cradle-0.5.0.0.tar.gz -> implicit-hie-cradle-0.5.0.0.tar.gz https://hackage.haskell.org/package/implicit-hie-cradle-0.5.0.0/revision/1.cabal -> implicit-hie-cradle-0.5.0.0-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
+SRC_URI=https://hackage.haskell.org/package/implicit-hie-cradle-0.5.0.0/implicit-hie-cradle-0.5.0.0.tar.gz https://hackage.haskell.org/package/implicit-hie-cradle-0.5.0.0/revision/1.cabal -> implicit-hie-cradle-0.5.0.0-rev1.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
 _md5_=e3f3f84d6228f84136c6e38d23ecf8c2
