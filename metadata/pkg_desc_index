@@ -107,7 +107,7 @@ dev-haskell/ap-normalize 0.1.0.1: Self-normalizing applicative expressions
 dev-haskell/api-field-json-th 0.1.0.2: option of aeson's deriveJSON
 dev-haskell/appar 0.1.8: A simple applicative parser
 dev-haskell/applicative-numbers 0.1.3: Applicative-based numeric instances
-dev-haskell/apply-refact 0.9.3.0-r1: Perform refactorings specified by the refact library
+dev-haskell/apply-refact 0.9.3.0-r1 0.12.0.0: Perform refactorings specified by the refact library
 dev-haskell/argparser 0.3.4: Command line parsing framework for console applications
 dev-haskell/arithmoi 0.12.0.0: Efficient basic number-theoretic functions
 dev-haskell/arrows 0.4.4.2: Arrow classes and transformers
@@ -136,7 +136,7 @@ dev-haskell/authenticate-oauth 1.6.0.1-r1: Library to authenticate with OAuth fo
 dev-haskell/auto 0.4.3.1: Denotative, locally stateful programming DSL & platform
 dev-haskell/auto-update 0.1.6: Efficiently run periodic, on-demand actions
 dev-haskell/aws 0.24: Amazon Web Services (AWS) for Haskell
-dev-haskell/barbies 2.0.3.0: Classes for working with types that can change clothes
+dev-haskell/barbies 2.0.4.0: Classes for working with types that can change clothes
 dev-haskell/base-compat 0.12.2: A compatibility layer for base
 dev-haskell/base-compat-batteries 0.12.2: base-compat with extra batteries
 dev-haskell/base-noprelude 4.13.0.0: "base" package sans "Prelude" module
@@ -266,7 +266,7 @@ dev-haskell/casa-types 0.0.2: Types for Casa
 dev-haskell/cascading 0.1.0-r2: DSL for HTML CSS (Cascading Style Sheets)
 dev-haskell/case-insensitive 1.2.0.11 1.2.1.0: Case insensitive string comparison
 dev-haskell/cassava 0.5.2.0-r1: A CSV parsing and encoding library
-dev-haskell/cassava-megaparsec 2.0.2: Megaparsec parser of CSV files that plays nicely with Cassava
+dev-haskell/cassava-megaparsec 2.0.4: Megaparsec parser of CSV files that plays nicely with Cassava
 dev-haskell/categories 1.0.7-r1: The Categories package authored by Edward Kmett
 dev-haskell/cautious-file 1.0.2-r1: Ways to write a file cautiously, reducing chances of data loss due to crashes
 dev-haskell/cborg 0.2.8.0: Concise Binary Object Representation (CBOR)
@@ -284,7 +284,7 @@ dev-haskell/chart-cairo 1.9.3-r1: Cairo backend for Charts
 dev-haskell/chart-diagrams 1.9.4-r1: Diagrams backend for Charts
 dev-haskell/chart-gtk 1.9.3: Utility functions for using the chart library with GTK
 dev-haskell/chaselev-deque 0.5.0.5: Chase & Lev work-stealing lock-free double-ended queues (deques)
-dev-haskell/chasingbottoms 1.3.1.10: For testing partial and infinite values
+dev-haskell/chasingbottoms 1.3.1.12: For testing partial and infinite values
 dev-haskell/cheapskate 0.1.1.2: Experimental markdown processor
 dev-haskell/checkers 0.5.6-r1: Check properties on standard classes and data structures
 dev-haskell/chell 0.4.0.2: A simple and intuitive library for automated testing
@@ -545,7 +545,7 @@ dev-haskell/editor-open 0.6.0.0: Open the user's $VISUAL or $EDITOR for text inp
 dev-haskell/egison 3.10.3: Programming language with non-linear pattern-matching against non-free data
 dev-haskell/either 5.0.1.1: An either monad transformer
 dev-haskell/either-unwrap 1.1-r1: Functions for probing and unwrapping values inside of Either
-dev-haskell/email-validate 2.3.2.15: Email address validation
+dev-haskell/email-validate 2.3.2.18: Email address validation
 dev-haskell/emoji 0.1.0.2: emoji utility
 dev-haskell/emojis 0.1.2: Conversion between emoji characters and their names
 dev-haskell/enclosed-exceptions 1.0.3: Catching all exceptions from within an enclosed computation
@@ -627,7 +627,7 @@ dev-haskell/force-layout 0.4.0.6-r5: Simple force-directed layout
 dev-haskell/foreign-store 0.2: Store a stable pointer in a foreign context to be retrieved later
 dev-haskell/formatting 7.1.2: Combinator-based type-safe formatting (like printf() or FORMAT)
 dev-haskell/foundation 0.0.28: Alternative prelude with batteries and no dependencies
-dev-haskell/fourmolu 0.8.2.0: A formatter for Haskell source code
+dev-haskell/fourmolu 0.10.1.0: A formatter for Haskell source code
 dev-haskell/fpretty 1.1: Efficient simple pretty printing combinators
 dev-haskell/free 5.1.9: Monads for free
 dev-haskell/freer 0.2.4.1: Implementation of the Freer Monad
@@ -683,12 +683,12 @@ dev-haskell/ghc-check 0.5.0.8-r1: detect mismatches between compile-time and run
 dev-haskell/ghc-core 0.5.6: Display GHC's core and assembly output in a pager
 dev-haskell/ghc-datasize 0.2.0: Determine the size of data structures in GHC's memory
 dev-haskell/ghc-events 0.12.0 0.13.0 0.17.0: Library and tool for parsing .eventlog files from GHC
-dev-haskell/ghc-exactprint 0.6.4: ExactPrint for GHC
+dev-haskell/ghc-exactprint 0.6.4-r1 1.5.0: ExactPrint for GHC
 dev-haskell/ghc-gc-tune 0.3.2: Graph performance of Haskell programs with different GC flags
 dev-haskell/ghc-heap-view 0.6.3: Extract the heap representation of Haskell values and thunks
-dev-haskell/ghc-lib 9.2.5.20221107: The GHC API, decoupled from GHC versions
-dev-haskell/ghc-lib-parser 9.2.5.20221107: The GHC API, decoupled from GHC versions
-dev-haskell/ghc-lib-parser-ex 9.2.1.1: Algorithms on GHC parse trees
+dev-haskell/ghc-lib 9.4.4.20221225: The GHC API, decoupled from GHC versions
+dev-haskell/ghc-lib-parser 9.4.4.20221225: The GHC API, decoupled from GHC versions
+dev-haskell/ghc-lib-parser-ex 9.4.0.0: Algorithms on GHC parse trees
 dev-haskell/ghc-parser 0.2.3.0: Haskell source parser from GHC
 dev-haskell/ghc-paths 0.1.0.12-r3: Knowledge of GHC's installation directories
 dev-haskell/ghc-prof 1.4.1.9: Library for parsing GHC time and allocation profiling reports
@@ -745,12 +745,12 @@ dev-haskell/glfw 0.5.2.5: A Haskell binding for GLFW
 dev-haskell/glfw-b 1.4.8.4 3.3.0.0: Bindings to GLFW OpenGL library
 dev-haskell/glib 0.13.8.2: Binding to the GLIB library for Gtk2Hs
 dev-haskell/glob 0.10.2: Globbing library
-dev-haskell/gloss 1.13.2.1: Painless 2D vector graphics, animations and simulations
+dev-haskell/gloss 1.13.2.1 1.13.2.2: Painless 2D vector graphics, animations and simulations
 dev-haskell/gloss-algorithms 1.13.0.2: Data structures and algorithms for working with 2D graphics
 dev-haskell/gloss-examples 1.13.0.4: Examples using the gloss library
 dev-haskell/gloss-juicy 0.2.3: Load any image supported by Juicy.Pixels in your gloss application
 dev-haskell/gloss-raster 1.13.1.2: Parallel rendering of raster images
-dev-haskell/gloss-rendering 1.13.1.1: Gloss picture data types and rendering functions
+dev-haskell/gloss-rendering 1.13.1.1 1.13.1.2: Gloss picture data types and rendering functions
 dev-haskell/gluraw 2.0.0.4: A raw binding for the OpenGL graphics system
 dev-haskell/glut 2.7.0.16: A binding for the OpenGL Utility Toolkit
 dev-haskell/glutil 0.10.4: Miscellaneous OpenGL utilities
@@ -827,7 +827,7 @@ dev-haskell/haskell-src 1.0.3.1: Support for manipulating Haskell source code
 dev-haskell/haskell-src-exts 1.23.1: Manipulating Haskell source: abstract syntax, lexer, parser, and pretty-printer
 dev-haskell/haskell-src-exts-simple 1.23.0.0: A simplified view on the haskell-src-exts AST
 dev-haskell/haskell-src-exts-util 0.2.5: Helper functions for working with haskell-src-exts trees
-dev-haskell/haskell-src-meta 0.8.7: Parse source to template-haskell abstract syntax
+dev-haskell/haskell-src-meta 0.8.11: Parse source to template-haskell abstract syntax
 dev-haskell/haskellnet 0.5.2-r1: Client support for POP3, SMTP, and IMAP
 dev-haskell/haskellnet-ssl 0.3.4.1-r1: Helpers to connect to SSL/TLS mail servers with HaskellNet
 dev-haskell/haskey 0.3.1.0-r1: A transactional, ACID compliant, embeddable key-value store
@@ -841,10 +841,10 @@ dev-haskell/hcg-minus 0.15: haskell cg (minus)
 dev-haskell/hclip 3.0.0.4: A small cross-platform library for reading and modifying the system clipboard
 dev-haskell/hcodecs 0.5.2: A library to read, write and manipulate MIDI, WAVE, and SoundFont2 files
 dev-haskell/hdaemonize 0.5.6: Library to handle the details of writing daemons for UNIX
-dev-haskell/hdbc 2.4.0.3: Haskell Database Connectivity
+dev-haskell/hdbc 2.4.0.4: Haskell Database Connectivity
 dev-haskell/hdbc-mysql 0.7.1.0-r1: MySQL driver for HDBC
 dev-haskell/hdbc-odbc 2.6.0.0: ODBC driver for HDBC
-dev-haskell/hdbc-postgresql 2.5.0.0: PostgreSQL driver for HDBC
+dev-haskell/hdbc-postgresql 2.5.0.1: PostgreSQL driver for HDBC
 dev-haskell/hdbc-session 0.1.2.0: Bracketed connection for HDBC
 dev-haskell/hdbc-sqlite3 2.3.3.1: Sqlite v3 driver for HDBC
 dev-haskell/hdfa 0.0.2: A simple library for representing and minimising DFAs
@@ -884,12 +884,12 @@ dev-haskell/hip 1.5.6.0: Haskell Image Processing (HIP) Library
 dev-haskell/hit 0.7.0: Git operations in haskell
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
-dev-haskell/hjsmin 0.2.0.4: Haskell implementation of a javascript minifier
+dev-haskell/hjsmin 0.2.0.4-r1: Haskell implementation of a javascript minifier
 dev-haskell/hledger-lib 1.28: A reusable library providing the core functionality of hledger
 dev-haskell/hlibev 0.4.0: FFI interface to libev
 dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
 dev-haskell/hlibsass 0.1.10.1: Low-level bindings to Libsass
-dev-haskell/hlint 3.4.1-r1: Source code suggestions
+dev-haskell/hlint 3.5: Source code suggestions
 dev-haskell/hls-alternate-number-format-plugin 1.3.0.0: Provide Alternate Number Formats plugin for Haskell Language Server
 dev-haskell/hls-brittany-plugin 1.1.0.0: Integration with the Brittany code formatter
 dev-haskell/hls-cabal-plugin 0.1.0.0: Cabal integration plugin with Haskell Language Server
@@ -906,13 +906,13 @@ dev-haskell/hls-fourmolu-plugin 1.1.1.0: Integration with the Fourmolu code form
 dev-haskell/hls-gadt-plugin 1.0.1.0: Convert to GADT syntax plugin
 dev-haskell/hls-graph 1.9.0.0: Haskell Language Server internal graph API
 dev-haskell/hls-haddock-comments-plugin 1.1.1.0: Haddock comments plugin for Haskell Language Server
-dev-haskell/hls-hlint-plugin 1.1.1.0: Hlint integration plugin with Haskell Language Server
+dev-haskell/hls-hlint-plugin 1.1.2.0: Hlint integration plugin with Haskell Language Server
 dev-haskell/hls-module-name-plugin 1.1.1.0: Module name plugin for Haskell Language Server
 dev-haskell/hls-ormolu-plugin 1.0.3.0: Integration with the Ormolu code formatter
 dev-haskell/hls-plugin-api 1.6.0.0: Haskell Language Server API for plugin communication
 dev-haskell/hls-pragmas-plugin 1.0.4.0: Pragmas plugin for Haskell Language Server
 dev-haskell/hls-qualify-imported-names-plugin 1.0.2.0: A Haskell Language Server plugin that qualifies imported names
-dev-haskell/hls-refactor-plugin 1.1.0.0: Exactprint refactorings for Haskell Language Server
+dev-haskell/hls-refactor-plugin 1.1.0.0-r1: Exactprint refactorings for Haskell Language Server
 dev-haskell/hls-refine-imports-plugin 1.0.4.0: Refine imports plugin for Haskell Language Server
 dev-haskell/hls-rename-plugin 1.0.2.0: Rename plugin for Haskell Language Server
 dev-haskell/hls-retrie-plugin 1.0.3.0: Retrie integration plugin for Haskell Language Server
@@ -928,7 +928,7 @@ dev-haskell/hmatrix-vector-sized 0.1.3.0: Conversions between hmatrix and vector
 dev-haskell/hnix 0.16.0-r1: Haskell implementation of the Nix language
 dev-haskell/hnix-store-core 0.5.0.0-r2: Core effects for interacting with the Nix store
 dev-haskell/hnix-store-remote 0.5.0.0: Remote hnix store
-dev-haskell/hoauth2 2.3.0: Haskell OAuth2 authentication client
+dev-haskell/hoauth2 2.7.0: Haskell OAuth2 authentication client
 dev-haskell/hogg 0.4.1.2: Library and tools to manipulate the Ogg container format
 dev-haskell/hood 0.3.1: Debugging by observing in place
 dev-haskell/hookup 0.7: Abstraction over creating network connections with SOCKS5 and TLS
@@ -993,7 +993,7 @@ dev-haskell/hspec-hedgehog 0.0.1.2: Integrate Hedgehog and Hspec!
 dev-haskell/hspec-megaparsec 2.2.0: Utility functions for testing Megaparsec parsers with Hspec
 dev-haskell/hspec-meta 2.10.5: A version of Hspec which is used to test Hspec itself
 dev-haskell/hspec-smallcheck 0.5.2: SmallCheck support for the Hspec testing framework
-dev-haskell/hspec-wai 0.10.1: Experimental Hspec support for testing WAI applications
+dev-haskell/hspec-wai 0.11.1: Experimental Hspec support for testing WAI applications
 dev-haskell/hspecvariant 0.1.0.1: Spec for testing properties for variant types
 dev-haskell/hsql 1.8.2-r1: Database access from Haskell
 dev-haskell/hsql-mysql 1.8.2-r1: MySQL driver for HSQL
@@ -1424,7 +1424,7 @@ dev-haskell/openal 1.7.0.5: A binding to the OpenAL cross-platform 3D audio API
 dev-haskell/opencl 1.0.3.4: Haskell high-level wrapper for OpenCL
 dev-haskell/openclwrappers 0.1.0.3: The OpenCL Standard for heterogenous data-parallel computing
 dev-haskell/opengl 3.0.3.0-r1: A binding for the OpenGL graphics system
-dev-haskell/openglraw 3.3.4.0: A raw binding for the OpenGL graphics system
+dev-haskell/openglraw 3.3.4.1: A raw binding for the OpenGL graphics system
 dev-haskell/openssl-streams 1.2.3.0: OpenSSL network support for io-streams
 dev-haskell/opentelemetry 0.8.0: The OpenTelemetry Haskell Client https://opentelemetry.io
 dev-haskell/operational 0.2.4.1: Implementation of difficult monads made easy with operational semantics
@@ -1438,7 +1438,7 @@ dev-haskell/optparse-applicative 0.17.0.0: Utilities and combinators for parsing
 dev-haskell/optparse-generic 1.4.9: Auto-generate a command-line parser for your datatype
 dev-haskell/optparse-simple 0.1.1.4: Simple interface to optparse-applicative
 dev-haskell/ordered-containers 0.2.2: Set- and Map-like types that remember the order elements were inserted
-dev-haskell/ormolu 0.5.0.1: A formatter for Haskell source code
+dev-haskell/ormolu 0.5.2.0: A formatter for Haskell source code
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc-crossref 0.3.13.0-r1: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-marshal 0.1.7: Use pandoc types in Lua
@@ -1461,7 +1461,7 @@ dev-haskell/parser-combinators 1.3.0: Lightweight package providing commonly use
 dev-haskell/parsers 0.12.11: Parsing combinators
 dev-haskell/password 3.0.2.0: Hashing and checking of passwords
 dev-haskell/password-types 1.0.0.0-r1: Types for handling passwords
-dev-haskell/patch 0.0.7.0: Data structures for describing changes to other data structures
+dev-haskell/patch 0.0.8.1: Data structures for describing changes to other data structures
 dev-haskell/path 0.9.2-r1: Support for well-typed paths
 dev-haskell/path-extra 0.2.0: Chris Done's path library, enriched with URL-related goodies
 dev-haskell/path-io 1.8.0: Interface to ‘directory’ package for users of ‘path’
@@ -1626,7 +1626,7 @@ dev-haskell/record-hasfield 1.0: A version of GHC.Records as available in future
 dev-haskell/recursion-schemes 5.2.2.1: Representing common recursion patterns as higher-order functions
 dev-haskell/recv 0.1.0: Efficient network recv
 dev-haskell/redis 0.14.2: A driver for Redis key-value database
-dev-haskell/reducers 3.12.3-r1: Semigroups, specialized containers and a general map/reduce framework
+dev-haskell/reducers 3.12.4: Semigroups, specialized containers and a general map/reduce framework
 dev-haskell/ref-tf 0.5: A type class for monads with references using type families
 dev-haskell/refact 0.3.0.2: Specify refactorings to perform with apply-refact
 dev-haskell/refinery 0.4.0.0: Toolkit for building proof automation systems
@@ -1669,7 +1669,7 @@ dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresol
 dev-haskell/resource-pool 0.2.3.2: A high-performance striped resource pooling implementation
 dev-haskell/resourcet 1.2.6: Deterministic allocation and freeing of scarce resources
 dev-haskell/rest-rewrite 0.4.0: Rewriting library with online termination checking
-dev-haskell/retrie 1.1.0.0-r2: A powerful, easy-to-use codemodding tool for Haskell
+dev-haskell/retrie 1.1.0.0-r3 1.2.1.1: A powerful, easy-to-use codemodding tool for Haskell
 dev-haskell/retry 0.9.3.0: Retry combinators for monadic actions that may fail
 dev-haskell/rfc5051 0.2: Simple unicode collation as per RFC5051
 dev-haskell/riff 0.3.0.1: RIFF parser for Haskell
@@ -1723,7 +1723,7 @@ dev-haskell/semigroups 0.20: Anything that associates
 dev-haskell/semirings 0.6-r1: two monoids as one, in holy haskimony
 dev-haskell/semver 0.3.4: Representation, manipulation, and de/serialisation of Semantic Versions
 dev-haskell/semver-range 0.2.8: An implementation of semver and semantic version ranges
-dev-haskell/sendfile 0.7.11.1: A portable sendfile library
+dev-haskell/sendfile 0.7.11.4: A portable sendfile library
 dev-haskell/seqloc 0.6.1.1: Handle sequence locations for bioinformatics
 dev-haskell/sequence-formats 1.5.1.4: A package with basic parsing utilities for several Bioinformatic data formats
 dev-haskell/serialise 0.2.6.0: A binary serialisation library for Haskell values
@@ -1774,9 +1774,9 @@ dev-haskell/simpleaes 0.4.2: Fast AES encryption/decryption for bytestrings
 dev-haskell/simpleargs 0.2.1: Provides a more flexible getArgs function with better error reporting
 dev-haskell/simpleirc 0.3.1: Simple IRC Library
 dev-haskell/singleton-bool 0.1.5-r1: Type level booleans
-dev-haskell/singletons 3.0.2: Basic singleton types and definitions
-dev-haskell/singletons-base 3.0: A promoted and singled version of the base library
-dev-haskell/singletons-th 3.0: A framework for generating singleton types
+dev-haskell/singletons 3.0.1: Basic singleton types and definitions
+dev-haskell/singletons-base 3.0 3.1: A promoted and singled version of the base library
+dev-haskell/singletons-th 3.0 3.1: A framework for generating singleton types
 dev-haskell/size-based 0.1.2.0-r1: Sized functors, for size-based enumerations
 dev-haskell/skein 1.0.9.4: Skein, a family of cryptographic hash functions. Includes Skein-MAC as well
 dev-haskell/skylighting 0.13.2: syntax highlighting library
@@ -1795,7 +1795,7 @@ dev-haskell/snap 1.1.3.1-r5: Top-level package for the Snap Web Framework
 dev-haskell/snap-core 1.0.5.1: Snap: A Haskell Web Framework (core interfaces and types)
 dev-haskell/snap-loader-dynamic 1.0.0.2: Snap dynamic loader
 dev-haskell/snap-loader-static 1.0.0.1: Snap static loader
-dev-haskell/snap-server 1.1.2.0-r2: A web server for the Snap Framework
+dev-haskell/snap-server 1.1.2.1: A web server for the Snap Framework
 dev-haskell/snap-templates 1.0.0.2-r1: Scaffolding CLI for the Snap Framework
 dev-haskell/snaplet-sqlite-simple 1.0.0.2-r2: sqlite-simple snaplet for the Snap Framework
 dev-haskell/sockaddr 0.0.0-r1: Printing SockAddr
@@ -1868,7 +1868,7 @@ dev-haskell/stringprep 1.0.0: Implements the "StringPrep" algorithm
 dev-haskell/stringsearch 0.3.6.6-r1: Fast searching, splitting and replacing of ByteStrings
 dev-haskell/strptime 1.0.10-r1: Efficient parsing of LocalTime using a binding to C's strptime
 dev-haskell/structured 0.1.1-r1: Structure (hash) of your data types
-dev-haskell/stylish-haskell 0.14.2.0: Haskell code prettifier
+dev-haskell/stylish-haskell 0.14.4.0: Haskell code prettifier
 dev-haskell/styx 1.3.1: A generator of nix files
 dev-haskell/suffixtree 0.2.2.1: Efficient, lazy suffix tree implementation
 dev-haskell/suitable 0.1.1-r1: Abstract over the constraints on the parameters to type constructors
@@ -1971,7 +1971,7 @@ dev-haskell/th-abstraction 0.4.5.0: Nicer interface for reified information abou
 dev-haskell/th-compat 0.1.4: Backward- (and forward-)compatible Quote and Code types
 dev-haskell/th-constraint-compat 0.0.1.0: Compatibility for type constraint template
 dev-haskell/th-data-compat 0.1.0.0: Compatibility for data definition template of TH
-dev-haskell/th-desugar 1.9 1.11 1.12: Functions to desugar Template Haskell
+dev-haskell/th-desugar 1.12 1.13.1: Functions to desugar Template Haskell
 dev-haskell/th-env 0.1.0.3: Template Haskell splice that expands to an environment variable
 dev-haskell/th-expand-syns 0.4.9.0: Expands type synonyms in Template Haskell ASTs
 dev-haskell/th-extras 0.0.0.6: A grab bag of functions for use with Template Haskell
@@ -2074,7 +2074,7 @@ dev-haskell/uri-encode 1.5.0.7-r1: Unicode aware uri-encoding
 dev-haskell/url 2.1.3-r1: A library for working with URLs
 dev-haskell/userid 0.1.3.7: The UserId type and useful instances for web development
 dev-haskell/users 0.5.0.0: A library simplifying user management for web applications
-dev-haskell/utf8-light 0.4.2: Lightweight UTF8 handling
+dev-haskell/utf8-light 0.4.4.0: Lightweight UTF8 handling
 dev-haskell/utf8-string 1.0.2: Support for reading and writing UTF8 Strings
 dev-haskell/utility-ht 0.0.14: Various small helper functions for Lists, Maybes, Tuples, Functions
 dev-haskell/utilitytm 0.0.4-r1: Utility functions that are missing from the standard library
@@ -2090,7 +2090,7 @@ dev-haskell/uulib 0.9.24: Haskell Utrecht Tools Library
 dev-haskell/validated-literals 0.3.1: Compile-time checking for partial smart-constructors
 dev-haskell/validation 1.1.2-r1: A data-type like Either but with an accumulating Applicative
 dev-haskell/validation-selective 0.1.0.2: Lighweight pure data validation based on Applicative and Selective functors
-dev-haskell/validity 0.12.0.0: Validity typeclass
+dev-haskell/validity 0.12.0.1: Validity typeclass
 dev-haskell/validity-aeson 0.2.0.4: Validity instances for aeson
 dev-haskell/validity-containers 0.5.0.4: Validity instances for containers
 dev-haskell/validity-path 0.4.0.1: Validity instances for Path
@@ -2194,7 +2194,7 @@ dev-haskell/xhtml-combinators 0.3: Fast and easy to use XHTML combinators
 dev-haskell/xlsx 0.8.4-r1: Simple and incomplete Excel file parser/writer
 dev-haskell/xml 1.3.14: A simple XML library
 dev-haskell/xml-conduit 1.9.1.1: Pure-Haskell utilities for dealing with XML with the conduit package
-dev-haskell/xml-hamlet 0.5.0.1: Hamlet-style quasiquoter for XML content
+dev-haskell/xml-hamlet 0.5.0.2: Hamlet-style quasiquoter for XML content
 dev-haskell/xml-helpers 1.0.0: Some useful helper functions for the xml library
 dev-haskell/xml-html-conduit-lens 0.3.2.4-r1: Optics for xml-conduit and html-conduit
 dev-haskell/xml-html-qq 0.1.0.1: Quasi-quoters for XML and HTML Documents

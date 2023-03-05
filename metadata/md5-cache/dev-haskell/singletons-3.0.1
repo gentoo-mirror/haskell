@@ -1,15 +1,16 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=Read and write uncompressed BMP image files
+DESCRIPTION=Basic singleton types and definitions
 EAPI=8
-HOMEPAGE=https://github.com/benl23x5/bmp
+HOMEPAGE=https://www.github.com/goldfirere/singletons
 INHERIT=haskell-cabal
-IUSE=doc hscolour hoogle profile
+IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
-LICENSE=MIT
+LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-8.8.1:=
-SLOT=0/1.2.6.3
-SRC_URI=https://hackage.haskell.org/package/bmp-1.2.6.3/bmp-1.2.6.3.tar.gz -> bmp-1.2.6.3.tar.gz https://hackage.haskell.org/package/bmp-1.2.6.3/revision/1.cabal -> bmp-1.2.6.3-rev1.cabal
+RESTRICT=!test? ( test )
+SLOT=0/3.0.1
+SRC_URI=https://hackage.haskell.org/package/singletons-3.0.1/singletons-3.0.1.tar.gz -> singletons-3.0.1.tar.gz https://hackage.haskell.org/package/singletons-3.0.1/revision/1.cabal -> singletons-3.0.1-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
-_md5_=b81998460c27b57456eadbeecb320f74
+_md5_=3e045b1ed87488576265a4bfcdc7ca63

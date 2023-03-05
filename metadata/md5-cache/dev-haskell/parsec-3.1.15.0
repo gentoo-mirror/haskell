@@ -6,10 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/haskell/parsec
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 RDEPEND=>=dev-lang/ghc-8.4.3:=
 RESTRICT=test
 SLOT=0/3.1.15.0
 SRC_URI=https://hackage.haskell.org/package/parsec-3.1.15.0/parsec-3.1.15.0.tar.gz -> parsec-3.1.15.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
-_md5_=670a9ff5336c28dfa5df4624a53f4817
+_md5_=2bcfb02965f8b9626052f099733d8625
