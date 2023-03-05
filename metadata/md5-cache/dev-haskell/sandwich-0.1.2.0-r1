@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/ansi-terminal:=[profile?] dev-haskell/async:=[profile?] dev-haskell/brick:=[profile?] dev-haskell/colour:=[profile?] dev-haskell/free:=[profile?] dev-haskell/haskell-src-exts:=[profile?] dev-haskell/lifted-async:=[profile?] dev-haskell/microlens:=[profile?] dev-haskell/microlens-th:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/monad-logger:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/pretty-show:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) dev-haskell/safe:=[profile?] dev-haskell/safe-exceptions:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/string-interpolate:=[profile?] dev-haskell/transformers-base:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/vty:=[profile?] >=dev-lang/ghc-8.10.1:=
 RESTRICT=!test? ( test )
 SLOT=0/0.1.2.0
-SRC_URI=https://hackage.haskell.org/package/sandwich-0.1.2.0/sandwich-0.1.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/sandwich-0.1.2.0/sandwich-0.1.2.0.tar.gz -> sandwich-0.1.2.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=4b7974e8aa92774a2f412af2f15fc746

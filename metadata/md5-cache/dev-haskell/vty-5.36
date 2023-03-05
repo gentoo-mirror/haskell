@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/ansi-terminal-0.10.3:=[profile?] >=dev-haskell/blaze-builder-0.3.3.2:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/hashable-1.2:=[profile?] <dev-haskell/microlens-0.4.14:=[profile?] dev-haskell/microlens-mtl:=[profile?] dev-haskell/microlens-th:=[profile?] >=dev-haskell/parallel-2.2:=[profile?] <dev-haskell/parallel-3.3:=[profile?] dev-haskell/stm:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-haskell/vector-0.7:=[profile?] >=dev-lang/ghc-8.4.3:=
 RESTRICT=!test? ( test )
 SLOT=0/5.36
-SRC_URI=https://hackage.haskell.org/package/vty-5.36/vty-5.36.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/vty-5.36/vty-5.36.tar.gz -> vty-5.36.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=e66e4cf0997ba707767204fcb1c0de8d

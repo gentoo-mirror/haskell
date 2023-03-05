@@ -11,6 +11,6 @@ LICENSE=Apache-2.0
 RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/apply-refact-0.9.0.0:=[profile?] <dev-haskell/apply-refact-0.10:=[profile?] dev-haskell/data-default:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] dev-haskell/extra:=[profile?] >=dev-haskell/ghc-exactprint-0.6.3.4:=[profile?] dev-haskell/ghc-lib-parser:=[profile?] dev-haskell/ghc-lib-parser-ex:=[profile?] >=dev-haskell/ghcide-1.9:=[profile?] <dev-haskell/ghcide-1.10:=[profile?] dev-haskell/hashable:=[profile?] <dev-haskell/hlint-3.6:=[profile?] >=dev-haskell/hls-plugin-api-1.6:=[profile?] <dev-haskell/hls-plugin-api-1.7:=[profile?] dev-haskell/hslogger:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/lsp:=[profile?] dev-haskell/refact:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/temporary:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.6.3:=
 RESTRICT=test !test? ( test )
 SLOT=0/1.1.1.0
-SRC_URI=https://hackage.haskell.org/package/hls-hlint-plugin-1.1.1.0/hls-hlint-plugin-1.1.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/hls-hlint-plugin-1.1.1.0/hls-hlint-plugin-1.1.1.0.tar.gz -> hls-hlint-plugin-1.1.1.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=10299e87610125fc2a8f13a9fe9c3cab

@@ -11,6 +11,6 @@ LICENSE=GPL-3
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cabal:=[profile?] dev-haskell/colourista:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/email-validate:=[profile?] dev-haskell/foldl:=[profile?] >=dev-haskell/gitrev-1.3.1:=[profile?] dev-haskell/hsyaml:=[profile?] dev-haskell/ilist:=[profile?] >=dev-haskell/language-docker-10.4.3:=[profile?] <dev-haskell/language-docker-11:=[profile?] >=dev-haskell/megaparsec-9.0.0:=[profile?] dev-haskell/network-uri:=[profile?] >=dev-haskell/optparse-applicative-0.14.0:=[profile?] dev-haskell/parallel:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] dev-haskell/semver:=[profile?] dev-haskell/spdx:=[profile?] >=dev-haskell/split-0.2:=[profile?] >=dev-haskell/timerep-2.0:=[profile?] dev-haskell/void:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-util/shellcheck-0.8.0:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/2.10.0
-SRC_URI=https://hackage.haskell.org/package/hadolint-2.10.0/hadolint-2.10.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/hadolint-2.10.0/hadolint-2.10.0.tar.gz -> hadolint-2.10.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=0d6c1f9be1209ba3094bbbd03bb76d5a

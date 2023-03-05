@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=>=dev-haskell/async-2.0.0:=[profile?] <dev-haskell/async-2.3:=[profile?] dev-haskell/contravariant:=[profile?] >=dev-haskell/foldl-1.4:=[profile?] <dev-haskell/managed-1.1:=[profile?] >=dev-haskell/mmorph-1.0.2:=[profile?] >=dev-haskell/pipes-4.1.7:=[profile?] <dev-haskell/pipes-4.4:=[profile?] >=dev-haskell/pipes-concurrency-2.0.3:=[profile?] <dev-haskell/pipes-concurrency-2.1:=[profile?] >=dev-lang/ghc-8.4.3:=
 SLOT=0/1.1.7
-SRC_URI=https://hackage.haskell.org/package/mvc-1.1.7/mvc-1.1.7.tar.gz https://hackage.haskell.org/package/mvc-1.1.7/revision/1.cabal -> mvc-1.1.7-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/mvc-1.1.7/mvc-1.1.7.tar.gz -> mvc-1.1.7.tar.gz https://hackage.haskell.org/package/mvc-1.1.7/revision/1.cabal -> mvc-1.1.7-rev1.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=0909bf48df76552e171ac38664bd21e9

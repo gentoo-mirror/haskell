@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/dlist-0.8:=[profile?] <dev-haskell/dlist-2.0:=[profile?] >=dev-haskell/path-0.7.1:=[profile?] <dev-haskell/path-0.10:=[profile?] >=dev-haskell/temporary-1.1:=[profile?] <dev-haskell/temporary-1.4:=[profile?] dev-haskell/unix-compat:=[profile?] >=dev-lang/ghc-9.0.2:=
 RESTRICT=!test? ( test )
 SLOT=0/1.8.0
-SRC_URI=https://hackage.haskell.org/package/path-io-1.8.0/path-io-1.8.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/path-io-1.8.0/path-io-1.8.0.tar.gz -> path-io-1.8.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=3243ee352c0a3cf56e08e897ca72c279

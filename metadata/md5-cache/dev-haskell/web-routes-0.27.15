@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] dev-haskell/split:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-8.10.1:=
 RESTRICT=!test? ( test )
 SLOT=0/0.27.15
-SRC_URI=https://hackage.haskell.org/package/web-routes-0.27.15/web-routes-0.27.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	92f47bdbd95ca8db9a366f8113e317fc
+SRC_URI=https://hackage.haskell.org/package/web-routes-0.27.15/web-routes-0.27.15.tar.gz -> web-routes-0.27.15.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	91c2f69d9e157fb3db78fead73b23121
 _md5_=1e69ac76b730eeaf88fe09c9d45edd52
