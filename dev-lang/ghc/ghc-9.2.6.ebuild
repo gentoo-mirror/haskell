@@ -47,7 +47,7 @@ glibc_binaries+=" amd64? ( $(ghc_binaries x86_64-pc-linux-gnu) )"
 #glibc_binaries="$glibc_binaries ppc64? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-${PV}-ppc64.tbz2 )"
 #glibc_binaries="$glibc_binaries ppc64? ( !big-endian? ( https://github.com/matoro/ghc/releases/download/${PV}/ghc-bin-${PV}-powerpc64le-unknown-linux-gnu.tar.gz ) )"
 #glibc_binaries="$glibc_binaries sparc? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-${PV}-sparc.tbz2 )"
-#glibc_binaries="$glibc_binaries x86? ( https://eidetic.codes/ghc-bin-${PV}-i686-pc-linux-gnu.tbz2 )"
+glibc_binaries+=" x86? ( $(ghc_binaries i686-pc-linux-gnu) )"
 
 #musl_binaries="$musl_binaries alpha? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-${PV}-alpha.tbz2 )"
 #musl_binaries="$musl_binaries amd64? ( https://eidetic.codes/ghc-bin-${PV}-x86_64-pc-linux-musl.tbz2 )"
@@ -81,7 +81,7 @@ yet_binary() {
 				#	use big-endian || return 0
 				#	;;
 				#sparc) return 0 ;;
-				#x86) return 0 ;;
+				x86) return 0 ;;
 				*) return 1 ;;
 			esac
 			;;
@@ -122,7 +122,7 @@ BUMP_LIBRARIES=(
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-#KEYWORDS="~amd64 ~ppc64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="big-endian +doc elfutils ghcbootstrap ghcmakebinary +gmp numa profile test"
 IUSE+=" binary"
 RESTRICT="!test? ( test )"
@@ -404,7 +404,29 @@ ghc-check-reqs() {
 	"$@"
 }
 
+ghc-check-bootstrap-version () {
+	local diemsg version python_output
+	ebegin "Checking for appropriate installed GHC version for bootstrapping"
+	if version=$(ghc-version); then
+		if ver_test "${version}" -lt "9.1.0"; then
+			eend 0
+			return 0
+		else
+			diemsg="Inappropriate GHC version for bootstrapping: ${version}"
+		fi
+	else
+		diemsg="Could not find installed GHC for bootstrapping"
+	fi
+
+	eend 1
+	eerror "USE=ghcbootstrap _requires_ an existing GHC already installed on the system."
+	eerror "Furthermore, current technical limitations require that ghc-9.2.* _must_ be"
+	eerror "bootstrapped by ghc-9.0.* or earlier. This may be changed in a later update."
+	die "$diemsg"
+}
+
 pkg_pretend() {
+	use ghcbootstrap && ghc-check-bootstrap-version
 	ghc-check-reqs check-reqs_pkg_pretend
 }
 
