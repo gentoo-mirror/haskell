@@ -1623,7 +1623,7 @@ dev-haskell/rebase 1.16.1: A more progressive alternative to the "base" package
 dev-haskell/recaptcha 0.1.0.4-r1: Functions for using the reCAPTCHA service in web applications
 dev-haskell/record-dot-preprocessor 0.2.15: Preprocessor to allow record.field syntax
 dev-haskell/record-hasfield 1.0: A version of GHC.Records as available in future GHCs
-dev-haskell/recursion-schemes 5.2.2.1: Representing common recursion patterns as higher-order functions
+dev-haskell/recursion-schemes 5.2.2.4: Representing common recursion patterns as higher-order functions
 dev-haskell/recv 0.1.0: Efficient network recv
 dev-haskell/redis 0.14.2: A driver for Redis key-value database
 dev-haskell/reducers 3.12.4: Semigroups, specialized containers and a general map/reduce framework
