@@ -317,7 +317,7 @@ dev-haskell/clock 0.8.3: High-resolution clock functions: monotonic, realtime, c
 dev-haskell/cmark 0.6: Fast, accurate CommonMark (Markdown) parser and renderer
 dev-haskell/cmark-gfm 0.2.2: Fast, accurate GitHub Flavored Markdown parser and renderer
 dev-haskell/cmdargs 0.10.21: Command line argument processing
-dev-haskell/co-log-core 0.3.1.0: Composable Contravariant Comonadic Logging Library
+dev-haskell/co-log-core 0.3.2.0: Composable Contravariant Comonadic Logging Library
 dev-haskell/code-page 0.2.1: Windows code page library for Haskell
 dev-haskell/codec-compression-lzf 0.2-r2: LZF compression bindings
 dev-haskell/codec-image-devil 0.2.4: An FFI interface to the DevIL library
