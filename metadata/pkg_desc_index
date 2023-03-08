@@ -784,9 +784,9 @@ dev-haskell/gtk3 0.15.7: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
 dev-haskell/hackage-security 0.6.1.0: Hackage security library
-dev-haskell/haddock 2.24.0 2.25.0 2.25.1: A documentation-generation tool for Haskell libraries
-dev-haskell/haddock-api 2.24.0-r1 2.25.1: A documentation-generation tool for Haskell libraries
-dev-haskell/haddock-library 1.10.0-r2: Library exposing some functionality of Haddock
+dev-haskell/haddock 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool for Haskell libraries
+dev-haskell/haddock-api 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool for Haskell libraries
+dev-haskell/haddock-library 1.10.0-r2 1.11.0: Library exposing some functionality of Haddock
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
 dev-haskell/hakyll 4.15.1.1-r2: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll

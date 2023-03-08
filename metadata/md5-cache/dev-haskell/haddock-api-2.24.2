@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.9.0:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-8.10:= <dev-lang/ghc-8.11:= >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/ghc-paths-0.1.0.12 <dev-haskell/ghc-paths-0.2 >=dev-haskell/hspec-2.4.4 <dev-haskell/hspec-2.8 >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A documentation-generation tool for Haskell libraries
+EAPI=8
+HOMEPAGE=https://www.haskell.org/haddock/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=BSD-2
+RDEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.9.0:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-8.10:= <dev-lang/ghc-8.11:=
+RESTRICT=test !test? ( test )
+SLOT=0/2.24.2
+SRC_URI=https://hackage.haskell.org/package/haddock-api-2.24.2/haddock-api-2.24.2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
+_md5_=7be76691e105a8d9f22cb5f97385ebf0
