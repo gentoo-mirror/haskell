@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/hashable:=[profile?] >=dev-haskell/primitive-0.7.1.0:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/hspec-2.6.0 <dev-haskell/hspec-2.11 >=dev-haskell/quickcheck-2.12.6.1 <dev-haskell/quickcheck-2.15 >=dev-haskell/quickcheck-instances-0.3.19 <dev-haskell/quickcheck-instances-0.4 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Efficient vector-based mutable hashtables implementation
+EAPI=8
+HOMEPAGE=https://github.com/klapaucius/vector-hashtables#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/hashable:=[profile?] >=dev-haskell/primitive-0.7.1.0:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:=
+RESTRICT=!test? ( test )
+SLOT=0/0.1.1.2
+SRC_URI=https://hackage.haskell.org/package/vector-hashtables-0.1.1.2/vector-hashtables-0.1.1.2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
+_md5_=e5284b1e71b759bd6fb2e87513b3e9d4
