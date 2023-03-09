@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">murmur-hash</remote-id>
-		<remote-id type="github">nominolo/murmur-hash</remote-id>
+		<remote-id type="hackage">vector-hashtables</remote-id>
+		<remote-id type="github">klapaucius/vector-hashtables</remote-id>
 	</upstream>
 </pkgmetadata>
