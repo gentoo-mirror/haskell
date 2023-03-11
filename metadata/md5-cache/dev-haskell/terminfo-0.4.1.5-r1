@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Haskell bindings to the terminfo library
 EAPI=8
 HOMEPAGE=https://github.com/judah/terminfo
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=
-SLOT=0/0.4.1.4
-SRC_URI=https://hackage.haskell.org/package/terminfo-0.4.1.4/terminfo-0.4.1.4.tar.gz https://hackage.haskell.org/package/terminfo-0.4.1.4/revision/1.cabal -> terminfo-0.4.1.4-rev1.cabal
+RDEPEND=>=dev-lang/ghc-9.0.2:=
+SLOT=0/0.4.1.5
+SRC_URI=https://hackage.haskell.org/package/terminfo-0.4.1.5/terminfo-0.4.1.5.tar.gz https://hackage.haskell.org/package/terminfo-0.4.1.5/revision/1.cabal -> terminfo-0.4.1.5-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=e33faffb4818745ca1ce85a565c39dd4
+_md5_=fced2ab84942e66726c55632943a2dd2

@@ -1,16 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=An efficient packed Unicode text type
+DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=An XHTML combinator library
 EAPI=8
-HOMEPAGE=https://github.com/haskell/text
+HOMEPAGE=https://github.com/haskell/xhtml
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-LICENSE=BSD-2
-RDEPEND=>=dev-lang/ghc-8.4.3:=
-RESTRICT=test
-SLOT=0/1.2.5.0
-SRC_URI=https://hackage.haskell.org/package/text-1.2.5.0/text-1.2.5.0.tar.gz
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-8.10.6:=
+SLOT=0/3000.2.2.1
+SRC_URI=https://hackage.haskell.org/package/xhtml-3000.2.2.1/xhtml-3000.2.2.1.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=b4eefb56943fc854aca441f1a742b0f6
+_md5_=e57a9750a4686453929d6a172b86bcf5

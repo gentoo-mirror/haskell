@@ -1,15 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=Concrete functor and monad transformers
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Software Transactional Memory
 EAPI=8
-HOMEPAGE=https://hackage.haskell.org/package/transformers
+HOMEPAGE=https://wiki.haskell.org/Software_transactional_memory
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=
-SLOT=0/0.5.6.2
-SRC_URI=https://hackage.haskell.org/package/transformers-0.5.6.2/transformers-0.5.6.2.tar.gz
+RDEPEND=>=dev-lang/ghc-9.0.2:=
+SLOT=0/2.5.0.0
+SRC_URI=https://hackage.haskell.org/package/stm-2.5.0.0/stm-2.5.0.0.tar.gz https://hackage.haskell.org/package/stm-2.5.0.0/revision/1.cabal -> stm-2.5.0.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=f38b51aaa1675569b2ae7114170850cb
+_md5_=38ff89cd58c36e1389e754165f11ae40
