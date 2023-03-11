@@ -11,15 +11,17 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour"
 CABAL_FEATURES+=" nocabaldep"
 inherit haskell-cabal
 
-DESCRIPTION="Concrete functor and monad transformers"
-HOMEPAGE="https://hackage.haskell.org/package/transformers"
+DESCRIPTION="Monad classes, using functional dependencies"
+HOMEPAGE="https://github.com/haskell/mtl"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-solaris"
 
-RDEPEND=">=dev-lang/ghc-8.4.3:=
+RDEPEND="
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
 "
+
 CABAL_CORE_LIB_GHC_PV="8.10.6 8.10.7 9.0.2 9.2.4 9.2.5 9.2.6"

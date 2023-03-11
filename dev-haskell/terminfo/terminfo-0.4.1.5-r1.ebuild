@@ -10,18 +10,18 @@ CABAL_HACKAGE_REVISION=1
 CABAL_FEATURES="lib profile haddock hoogle hscolour"
 inherit haskell-cabal
 
-DESCRIPTION="Software Transactional Memory"
-HOMEPAGE="https://wiki.haskell.org/Software_transactional_memory"
+DESCRIPTION="Haskell bindings to the terminfo library"
+HOMEPAGE="https://github.com/judah/terminfo"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=dev-lang/ghc-8.4.3:=
+	>=dev-lang/ghc-9.0.2:=
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-2.2.0.1
 "
 
-CABAL_CORE_LIB_GHC_PV="9.0.2"
+CABAL_CORE_LIB_GHC_PV="9.0.2 9.2.4 9.2.5 9.2.6"
