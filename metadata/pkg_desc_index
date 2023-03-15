@@ -326,7 +326,7 @@ dev-haskell/colonnade 1.2.0.2-r2: Generic types and functions for columnar encod
 dev-haskell/color 0.3.2: Color spaces and conversions between them
 dev-haskell/colorize-haskell 1.0.1-r1: Highligt Haskell source
 dev-haskell/colour 2.3.6: A model for human colour/color perception
-dev-haskell/colourista 0.1.0.1: Convenient interface for printing colourful messages
+dev-haskell/colourista 0.1.0.1 0.1.0.2: Convenient interface for printing colourful messages
 dev-haskell/command-qq 0.3.1.0: Quasiquoters for external commands
 dev-haskell/commonmark 0.2.2: Pure Haskell commonmark parser
 dev-haskell/commonmark-extensions 0.2.3.3: Pure Haskell commonmark parser
