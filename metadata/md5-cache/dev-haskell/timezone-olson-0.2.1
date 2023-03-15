@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/extensible-exceptions-0.1.0:=[profile?] <dev-haskell/extensible-exceptions-0.2:=[profile?] >=dev-haskell/timezone-series-0.1.0:=[profile?] <dev-haskell/timezone-series-0.2:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A pure Haskell parser and renderer for binary Olson timezone files
+EAPI=8
+HOMEPAGE=https://projects.haskell.org/time-ng/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/extensible-exceptions-0.1.0:=[profile?] <dev-haskell/extensible-exceptions-0.2:=[profile?] >=dev-haskell/timezone-series-0.1.0:=[profile?] <dev-haskell/timezone-series-0.2:=[profile?] >=dev-lang/ghc-8.8.1:=
+SLOT=0/0.2.1
+SRC_URI=https://hackage.haskell.org/package/timezone-olson-0.2.1/timezone-olson-0.2.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
+_md5_=1031ea9c2fd1ffc685c3ae8c48c9af5a
