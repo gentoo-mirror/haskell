@@ -2001,7 +2001,7 @@ dev-haskell/timeplot 1.0.33: A tool for visualizing time series from log files
 dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs (RFC3339, RFC2822, RFC822)
 dev-haskell/timespan 0.3.0.0: Useful timespan datatype and functions
 dev-haskell/timezone-olson 0.1.9 0.2.0: A pure Haskell parser and renderer for binary Olson timezone files
-dev-haskell/timezone-series 0.1.9: Enhanced timezone handling for Data.Time
+dev-haskell/timezone-series 0.1.9 0.1.13: Enhanced timezone handling for Data.Time
 dev-haskell/tls 1.5.8: TLS/SSL protocol native implementation (Server and Client)
 dev-haskell/tls-session-manager 0.0.4: In-memory TLS session manager
 dev-haskell/tmp-postgres 1.34.1.0-r2: Start and stop a temporary postgres
