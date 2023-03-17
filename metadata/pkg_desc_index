@@ -439,7 +439,7 @@ dev-haskell/data-default-instances-base 0.1.0.1: Default instances for types in 
 dev-haskell/data-default-instances-containers 0.0.1: Default instances for types in containers
 dev-haskell/data-default-instances-dlist 0.0.1: Default instances for types in dlist
 dev-haskell/data-default-instances-old-locale 0.0.1: Default instances for types in old-locale
-dev-haskell/data-dword 0.3.2: Stick two binary words together to get a bigger one
+dev-haskell/data-dword 0.3.2.1: Stick two binary words together to get a bigger one
 dev-haskell/data-endian 0.1.1: Endian-sensitive data
 dev-haskell/data-fix 0.3.2: Fixpoint data types
 dev-haskell/data-flags 0.0.3.4: A package for working with bit masks and flags in general
