@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/1.6.16.0
 SRC_URI=https://hackage.haskell.org/package/process-1.6.16.0/process-1.6.16.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=9e82a801a19f4249513e56b894c4ac5a
+_md5_=2360ad56e795bab604854279774b1ab8

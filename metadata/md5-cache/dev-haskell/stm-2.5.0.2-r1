@@ -12,4 +12,4 @@ RDEPEND=>=dev-lang/ghc-9.2.4:=
 SLOT=0/2.5.0.2
 SRC_URI=https://hackage.haskell.org/package/stm-2.5.0.2/stm-2.5.0.2.tar.gz https://hackage.haskell.org/package/stm-2.5.0.2/revision/1.cabal -> stm-2.5.0.2-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=e7308cf7a226375dc04351803671bd5c
+_md5_=b9874faa1060f0782641ddda0d881ae9
