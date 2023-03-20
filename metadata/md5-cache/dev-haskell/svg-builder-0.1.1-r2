@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/blaze-builder-0.4:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/hashable-1.1:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=DSL for building SVG
+EAPI=8
+HOMEPAGE=https://github.com/diagrams/svg-builder.git
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/blaze-builder-0.4:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/hashable-1.1:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.8.1:=
+SLOT=0/0.1.1
+SRC_URI=https://hackage.haskell.org/package/svg-builder-0.1.1/svg-builder-0.1.1.tar.gz https://hackage.haskell.org/package/svg-builder-0.1.1/revision/6.cabal -> svg-builder-0.1.1-rev6.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
+_md5_=bf0f109d53a11b3dad86fe393774039f
