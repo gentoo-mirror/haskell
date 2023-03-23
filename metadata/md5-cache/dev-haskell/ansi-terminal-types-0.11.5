@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/colour-2.1.0:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Types and functions used to represent SGR aspects
+EAPI=8
+HOMEPAGE=https://github.com/UnkindPartition/ansi-terminal
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/colour-2.1.0:=[profile?] >=dev-lang/ghc-8.8.1:=
+SLOT=0/0.11.5
+SRC_URI=https://hackage.haskell.org/package/ansi-terminal-types-0.11.5/ansi-terminal-types-0.11.5.tar.gz https://hackage.haskell.org/package/ansi-terminal-types-0.11.5/revision/1.cabal -> ansi-terminal-types-0.11.5-rev1.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
+_md5_=6fd2b862d36db3313e2caac8040de386

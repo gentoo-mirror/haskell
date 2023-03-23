@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/tasty dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/tasty dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Scrap Your Boilerplate
 EAPI=8
 HOMEPAGE=https://www.cs.uu.nl/wiki/GenericProgramming/SYB
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86 ~amd64-linux
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-lang/ghc-8.8.1:=
 RESTRICT=!test? ( test )
-SLOT=0/0.7.2.2
-SRC_URI=https://hackage.haskell.org/package/syb-0.7.2.2/syb-0.7.2.2.tar.gz
+SLOT=0/0.7.2.3
+SRC_URI=https://hackage.haskell.org/package/syb-0.7.2.3/syb-0.7.2.3.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=7351177505cd3d892ffeb2cb9405ac53
+_md5_=4bdad9bb7d2297bb3c90854e05e2f568
