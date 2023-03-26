@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.0:=[profile?] || ( dev-lang/ghc >=dev-haskell/proc
 RESTRICT=!test? ( test )
 SLOT=0/0.2.10.1
 SRC_URI=https://hackage.haskell.org/package/typed-process-0.2.10.1/typed-process-0.2.10.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	01c1c958b1122534123f353143079e92
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	01c1c958b1122534123f353143079e92
 _md5_=8df3ef7b017eec54c7e9920adda3b611
