@@ -1,4 +1,4 @@
-BDEPEND=>=app-editors/emacs-23.1:* >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=app-editors/emacs-25.3:* >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
 DEPEND=>=app-editors/emacs-23.1:* dev-haskell/hasktags
 DESCRIPTION=Mode for editing (and running) Haskell programs in Emacs
@@ -7,7 +7,7 @@ HOMEPAGE=http://projects.haskell.org/haskellmode-emacs/ https://www.haskell.org/
 INHERIT=elisp git-r3
 LICENSE=GPL-3+ FDL-1.2+
 PROPERTIES=live
-RDEPEND=>=app-editors/emacs-23.1:* dev-haskell/hasktags >=app-editors/emacs-23.1:*
+RDEPEND=>=app-editors/emacs-23.1:* dev-haskell/hasktags >=app-editors/emacs-25.3:*
 SLOT=0
-_eclasses_=elisp-common	4f91d24ccf86f94b3f28c6470aab24d3	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=elisp-common	1d6e8d43be4713f04a441f721d890d48	elisp	4885a6bf2026d3a2d5b9789f3b76d1f3	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=8411646b4f444155b6a8da4f042e0a05
