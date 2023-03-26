@@ -49,7 +49,7 @@ glibc_binaries+=" amd64? ( $(ghc_binaries x86_64-pc-linux-gnu) )"
 #glibc_binaries="$glibc_binaries ppc64? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-${PV}-ppc64.tbz2 )"
 #glibc_binaries="$glibc_binaries ppc64? ( !big-endian? ( https://github.com/matoro/ghc/releases/download/${PV}/ghc-bin-${PV}-powerpc64le-unknown-linux-gnu.tar.gz ) )"
 #glibc_binaries="$glibc_binaries sparc? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-${PV}-sparc.tbz2 )"
-glibc_binaries+=" x86? ( $(ghc_binaries i686-pc-linux-gnu) )"
+#glibc_binaries+=" x86? ( $(ghc_binaries i686-pc-linux-gnu) )"
 
 #musl_binaries="$musl_binaries alpha? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-${PV}-alpha.tbz2 )"
 #musl_binaries="$musl_binaries amd64? ( https://eidetic.codes/ghc-bin-${PV}-x86_64-pc-linux-musl.tbz2 )"
@@ -83,7 +83,7 @@ yet_binary() {
 				#ppc64) return 0 ;;
 				#riscv) return 0 ;;
 				#sparc) return 0 ;;
-				x86) return 0 ;;
+				#x86) return 0 ;;
 				*) return 1 ;;
 			esac
 			;;
@@ -126,7 +126,7 @@ BUMP_LIBRARIES=(
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64" # ~x86"
 IUSE="big-endian +doc elfutils ghcbootstrap ghcmakebinary +gmp numa profile test"
 IUSE+=" binary"
 RESTRICT="!test? ( test )"
@@ -597,17 +597,13 @@ src_prepare() {
 		#eapply "${FILESDIR}"/${PN}-9.0.2-CHOST-prefix.patch
 		#eapply "${FILESDIR}"/${PN}-9.0.2-darwin.patch
 
-		# Incompatible with ghc-9.0.2-modorigin-semigroup.patch
-		# Below patch should not be needed by ghc-9.2
-		#eapply "${FILESDIR}"/${PN}-9.0.2-modorigin.patch
-
 		# ModUnusable pretty-printing should include the reason
-		#eapply "${FILESDIR}/${PN}-9.0.2-verbose-modunusable.patch"
+		eapply "${FILESDIR}/${PN}-9.0.2-verbose-modunusable.patch"
 
 		# Fixes panic when compiling some packages
 		# https://github.com/gentoo-haskell/gentoo-haskell/issues/1250#issuecomment-1044257595
 		# https://gitlab.haskell.org/ghc/ghc/-/issues/21097
-		#eapply "${FILESDIR}/${PN}-9.0.2-modorigin-semigroup.patch"
+		eapply "${FILESDIR}/${PN}-9.2.7-modorigin-semigroup.patch"
 
 		# Needed for testing with python-3.10
 		#use test && eapply "${FILESDIR}/${PN}-9.0.2-fix-tests-python310.patch"
@@ -622,7 +618,7 @@ src_prepare() {
 		#eapply "${FILESDIR}"/${PN}-8.2.1_rc1-hp2ps-cross.patch
 
 		# https://gitlab.haskell.org/ghc/ghc/-/issues/22965
-		eapply "${FILESDIR}/${PN}-9.2.6-fix-alignment-of-capability.patch"
+		#eapply "${FILESDIR}/${PN}-9.2.6-fix-alignment-of-capability.patch"
 		eapply "${FILESDIR}"/${PN}-9.0.2-sphinx-6.patch
 
 		# mingw32 target
