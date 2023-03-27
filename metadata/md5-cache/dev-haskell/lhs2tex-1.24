@@ -1,14 +1,14 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/mtl-2.2.1:= dev-haskell/regex-compat:= >=dev-lang/ghc-7.4.1:= dev-texlive/texlive-mathscience:= dev-texlive/texlive-latexextra:= >=dev-haskell/cabal-1.10
+DEPEND=dev-haskell/regex-compat:= >=dev-lang/ghc-8.8.1:= dev-texlive/texlive-mathscience:= dev-texlive/texlive-latexextra:= >=dev-haskell/cabal-3.0.0.0
 DESCRIPTION=Preprocessor for typesetting Haskell sources with LaTeX
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/kosmikus/lhs2tex
 INHERIT=haskell-cabal
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=dev-haskell/mtl-2.2.1:= dev-haskell/regex-compat:= >=dev-lang/ghc-7.4.1:= dev-texlive/texlive-mathscience:= dev-texlive/texlive-latexextra:=
+RDEPEND=dev-haskell/regex-compat:= >=dev-lang/ghc-8.8.1:= dev-texlive/texlive-mathscience:= dev-texlive/texlive-latexextra:=
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/lhs2tex-1.24/lhs2tex-1.24.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=814ec7247727ce679d70827ca17d19bd
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	01c1c958b1122534123f353143079e92
+_md5_=c7886ca11d198c01f2b1756de7f19324
