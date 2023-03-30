@@ -11,5 +11,5 @@ LICENSE=Apache-2.0
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/extra:=[profile?] >=dev-haskell/ghcide-1.9:=[profile?] <dev-haskell/ghcide-1.10:=[profile?] dev-haskell/hashable:=[profile?] >=dev-haskell/hls-plugin-api-1.6:=[profile?] <dev-haskell/hls-plugin-api-1.7:=[profile?] dev-haskell/lsp:=[profile?] dev-haskell/lsp-types:=[profile?] >=dev-haskell/retrie-0.1.1.0:=[profile?] dev-haskell/safe-exceptions:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.6.3:=
 SLOT=0/1.0.3.0
 SRC_URI=https://hackage.haskell.org/package/hls-retrie-plugin-1.0.3.0/hls-retrie-plugin-1.0.3.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	01c1c958b1122534123f353143079e92
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
 _md5_=ec96a08578542bfa01596d0f85469bb0

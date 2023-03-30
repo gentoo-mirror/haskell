@@ -325,7 +325,7 @@ dev-haskell/codec-image-devil 0.2.4: An FFI interface to the DevIL library
 dev-haskell/colock 0.2.2-r1: thread-friendly file locks that don't block the entire program
 dev-haskell/colonnade 1.2.0.2-r2: Generic types and functions for columnar encoding and decoding
 dev-haskell/color 0.3.2: Color spaces and conversions between them
-dev-haskell/colorize-haskell 1.0.1-r1: Highligt Haskell source
+dev-haskell/colorize-haskell 1.0.1-r1: Highlight Haskell source
 dev-haskell/colour 2.3.6: A model for human colour/color perception
 dev-haskell/colourista 0.1.0.1 0.1.0.2: Convenient interface for printing colourful messages
 dev-haskell/command-qq 0.3.1.0: Quasiquoters for external commands
@@ -778,7 +778,7 @@ dev-haskell/groups 0.5.3: A group is a monoid with invertibility
 dev-haskell/gsasl 0.3.7: Bindings for GNU libgsasl
 dev-haskell/gtk 0.15.7: Binding to the Gtk+ graphical user interface library
 dev-haskell/gtk-serialized-event 0.12.0-r4: GTK+ Serialized event
-dev-haskell/gtk-strut 0.1.3.0: Libary for creating strut windows with gi-gtk
+dev-haskell/gtk-strut 0.1.3.0: Library for creating strut windows with gi-gtk
 dev-haskell/gtk-traymanager 1.0.1: A wrapper around the eggtraymanager library for Linux system trays
 dev-haskell/gtk2hs-buildtools 0.13.8.3: Tools to build the Gtk2Hs suite of User Interface libraries
 dev-haskell/gtk3 0.15.7: Binding to the Gtk+ 3 graphical user interface library
@@ -861,7 +861,7 @@ dev-haskell/hedis-config 0.0.3 1.0.0: Easy trivial configuration for Redis
 dev-haskell/heist 1.1.0.1-r5: An Haskell template system supporting both HTML5 and XML
 dev-haskell/here 1.2.13: Here docs & interpolated strings via quasiquotation
 dev-haskell/heredoc 0.2.0.0-r1: multi-line string / here document using QuasiQuotes
-dev-haskell/heterocephalus 1.0.5.6: A type-safe template engine for working with front end development tools
+dev-haskell/heterocephalus 1.0.5.7: A type-safe template engine for working with front end development tools
 dev-haskell/hex 0.1.2: Convert strings into hexadecimal and back
 dev-haskell/hexml 0.3.4: XML subset DOM parser
 dev-haskell/hexpat 0.20.13: XML parser/formatter based on expat
@@ -934,7 +934,7 @@ dev-haskell/hogg 0.4.1.2: Library and tools to manipulate the Ogg container form
 dev-haskell/hood 0.3.1: Debugging by observing in place
 dev-haskell/hookup 0.7: Abstraction over creating network connections with SOCKS5 and TLS
 dev-haskell/hoopl 3.10.2.2: A library to support dataflow analysis and optimization
-dev-haskell/hopfli 0.2.2.1: Bidings to Google's Zopfli compression library
+dev-haskell/hopfli 0.2.2.1: Bindings to Google's Zopfli compression library
 dev-haskell/hora 2.2.0: Convenient type, timestamp, timezone, format
 dev-haskell/hosc 0.17: Haskell Open Sound Control
 dev-haskell/hostname 1.0-r1: A a cross-platform means of determining the hostname
@@ -1055,7 +1055,7 @@ dev-haskell/hxt-unicode 9.0.2.4: Unicode en-/decoding functions for utf8, iso-la
 dev-haskell/hxt-xpath 9.1.2.2-r1: The XPath modules for HXT
 dev-haskell/hyphenation 0.8.2: Configurable Knuth-Liang hyphenation
 dev-haskell/hzenhan 0.0.5: Zenhan library for Haskell
-dev-haskell/ibus-hs 0.0.0.1: A simple uncomplete ibus api
+dev-haskell/ibus-hs 0.0.0.1: A simple incomplete ibus api
 dev-haskell/icalendar 0.4.0.5-r2: iCalendar data types, parser, and printer
 dev-haskell/iconv 0.4.1.3: String encoding conversion
 dev-haskell/idiii 0.1.3.3: ID3v2 (tagging standard for MP3 files) library
@@ -1135,7 +1135,7 @@ dev-haskell/json-types 0.1: Basic types for representing JSON
 dev-haskell/jsonb 1.0.8-r1: JSON parser that uses byte strings
 dev-haskell/judy 0.4.1: Fast, scalable, mutable dynamic arrays, maps and hashes
 dev-haskell/juicypixels 3.3.7: Picture loading/serialization (in png, jpeg, bitmap, gif, tga, tiff and radiance)
-dev-haskell/juicypixels-blurhash 0.1.0.3-r2: Blurhash is a very compact represenation of a placeholder for an image
+dev-haskell/juicypixels-blurhash 0.1.0.3-r2: Blurhash is a very compact representation of a placeholder for an image
 dev-haskell/juicypixels-extra 0.4.1: Efficiently scale, crop, flip images with JuicyPixels
 dev-haskell/juicypixels-scale-dct 0.1.2-r2: Scale JuicyPixels images with DCT
 dev-haskell/jupyter 0.9.0-r1: A library for creating and using Jupyter kernels
@@ -1351,7 +1351,7 @@ dev-haskell/multiset-comb 0.2.4.1: Combinatorial algorithms over multisets
 dev-haskell/multistate 0.8.0.4: like mtl's ReaderT / WriterT / StateT, but more than one contained value/type
 dev-haskell/murmur-hash 0.1.0.10: MurmurHash2 implementation for Haskell
 dev-haskell/mustache 2.4.0: A mustache template parser library
-dev-haskell/mutable-containers 0.3.4: Abstactions and concrete implementations of mutable containers
+dev-haskell/mutable-containers 0.3.4: Abstractions and concrete implementations of mutable containers
 dev-haskell/mvc 1.1.7-r2: Model-view-controller
 dev-haskell/mwc-probability 2.3.1: Sampling function-based probability distributions
 dev-haskell/mwc-random 0.15.0.2-r1: Fast, high quality pseudo random number generation
@@ -1425,7 +1425,7 @@ dev-haskell/opaleye 0.9.3.1: An SQL-generating DSL targeting PostgreSQL
 dev-haskell/open-browser 0.2.1.0-r2: Open a web browser from Haskell
 dev-haskell/openal 1.7.0.5: A binding to the OpenAL cross-platform 3D audio API
 dev-haskell/opencl 1.0.3.4: Haskell high-level wrapper for OpenCL
-dev-haskell/openclwrappers 0.1.0.3: The OpenCL Standard for heterogenous data-parallel computing
+dev-haskell/openclwrappers 0.1.0.3: The OpenCL Standard for heterogeneous data-parallel computing
 dev-haskell/opengl 3.0.3.0-r1: A binding for the OpenGL graphics system
 dev-haskell/openglraw 3.3.4.1: A raw binding for the OpenGL graphics system
 dev-haskell/openssl-streams 1.2.3.0: OpenSSL network support for io-streams
@@ -1489,7 +1489,7 @@ dev-haskell/persistent-odbc 0.2.1.0: Backend for the persistent library using OD
 dev-haskell/persistent-postgresql 2.13.5.0: Backend for the persistent library using postgresql
 dev-haskell/persistent-qq 2.12.0.1: Provides a quasi-quoter for raw SQL for persistent
 dev-haskell/persistent-redis 2.13.0.1: Backend for persistent library using Redis
-dev-haskell/persistent-relational-record 0.3.0: relational-record on persisten backends
+dev-haskell/persistent-relational-record 0.3.0: relational-record on persistent backends
 dev-haskell/persistent-sqlite 2.13.1.0: Backend for the persistent library using sqlite3
 dev-haskell/persistent-template 2.12.0.0: Type-safe, non-relational, multi-backend persistence
 dev-haskell/persistent-test 2.13.1.2 2.13.1.3: Tests for Persistent
@@ -1750,7 +1750,7 @@ dev-haskell/shakespeare-text 1.1.0: Interpolation with quasi-quotation: put vari
 dev-haskell/shell-conduit 5.0.0: Write shell scripts with Conduit
 dev-haskell/shell-escape 0.2.0: Shell escaping library
 dev-haskell/shell-utility 0.0: Utility functions for writing command-line programs
-dev-haskell/shellac 0.9.9-r1: A framework for creating shell envinronments
+dev-haskell/shellac 0.9.9-r1: A framework for creating shell environments
 dev-haskell/shellac-compatline 0.9.9: "compatline" backend module for Shellac
 dev-haskell/shellac-editline 0.9.9: Editline backend module for Shellac
 dev-haskell/shellac-readline 0.9.9: Readline backend module for Shellac
@@ -2009,7 +2009,7 @@ dev-haskell/tmp-postgres 1.34.1.0-r2: Start and stop a temporary postgres
 dev-haskell/tomland 1.3.3.2: Bidirectional TOML serialization
 dev-haskell/top 1.7: Constraint solving framework employed by the Helium Compiler
 dev-haskell/topograph 1.0.0.1: Directed acyclic graphs
-dev-haskell/torrent 10000.1.1: BitTorrent file parser and generater
+dev-haskell/torrent 10000.1.1: BitTorrent file parser and generator
 dev-haskell/torsor 0.1: Torsor Typeclass
 dev-haskell/transformers 0.5.6.2-r1: Concrete functor and monad transformers
 dev-haskell/transformers-base 0.4.6: Lift computations from the bottom of a transformer stack
@@ -2303,7 +2303,7 @@ net-mail/mailbox-count 0.0.5: Count mailboxes in a SQL database
 net-misc/email-validator 1.0.0: Perform basic syntax and deliverability checks on email addresses
 net-misc/haeredes 0.5.2: Confirm delegation of NS and MX records
 net-misc/hath 0.5.0: Hath manipulates network blocks in CIDR notation
-sci-biology/bamstats 0.4: A program to extract various information from BAM alignmnet files
+sci-biology/bamstats 0.4: A program to extract various information from BAM alignment files
 sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
 sci-mathematics/agda 2.6.3.0: A dependently typed functional programming language and proof assistant
 sci-mathematics/agda-stdlib 2.6.3.0.1.7.2: Agda standard library

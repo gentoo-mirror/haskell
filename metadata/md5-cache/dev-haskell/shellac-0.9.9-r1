@@ -1,7 +1,7 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/mtl:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.22 hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=A framework for creating shell envinronments
+DESCRIPTION=A framework for creating shell environments
 EAPI=8
 HOMEPAGE=http://rwd.rdockins.name/shellac/home/
 INHERIT=haskell-cabal
@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/mtl:=[profile?] >=dev-lang/ghc-7.4.1:=
 SLOT=0/0.9.9
 SRC_URI=https://hackage.haskell.org/package/Shellac-0.9.9/Shellac-0.9.9.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	01c1c958b1122534123f353143079e92
-_md5_=f135b78c5da6f34171ddfd73b2555da1
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
+_md5_=1cd4497a32711b81da8e1d2edb9ffdd2
