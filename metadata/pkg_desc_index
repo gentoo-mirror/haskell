@@ -1240,7 +1240,7 @@ dev-haskell/lsp 1.6.0.0: Haskell library for the Microsoft Language Server Proto
 dev-haskell/lsp-test 0.14.1.0: Functional test framework for LSP servers
 dev-haskell/lsp-types 1.6.0.0: Haskell library for the Microsoft Language Server Protocol, data types
 dev-haskell/lua 2.3.1: Lua, an embeddable scripting language
-dev-haskell/lua-arbitrary 1.0.1: Arbitrary instances for Lua types
+dev-haskell/lua-arbitrary 1.0.1.1: Arbitrary instances for Lua types
 dev-haskell/lua-bc 0.1.1-r1: Lua bytecode parser
 dev-haskell/lucid 2.11.1: Clear to write, read and edit DSL for HTML
 dev-haskell/lucid-svg 0.7.1: DSL for SVG using lucid for HTML
