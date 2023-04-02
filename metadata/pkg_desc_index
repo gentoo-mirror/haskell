@@ -18,6 +18,7 @@ app-portage/hackport 0.7.3.1 0.8.0.0 0.8.2.0 9999: Hackage and Portage integrati
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
 app-text/pandoc 3.1.2: Conversion between markup formats
+app-text/pandoc-cli 0.1.1: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
 app-vim/haskellmode 20101118-r1: vim plugin: Provides IDE-like features for Haskell development
@@ -962,18 +963,23 @@ dev-haskell/hsexif 0.6.1.8: EXIF handling library in pure Haskell
 dev-haskell/hsh 2.1.3: Library to mix shell scripting with Haskell programs
 dev-haskell/hsimport 0.11.0-r1: Extend the import list of a Haskell source file
 dev-haskell/hslogger 1.3.1.0-r2: Versatile logging framework
-dev-haskell/hslua 2.2.0 2.2.1: Bindings to Lua, an embeddable scripting language
-dev-haskell/hslua-aeson 2.2.0 2.2.1: Allow aeson data types to be used with Lua
-dev-haskell/hslua-classes 2.2.0: Type classes for HsLua
-dev-haskell/hslua-core 2.2.0 2.2.1: Bindings to Lua, an embeddable scripting language
-dev-haskell/hslua-marshalling 2.2.0 2.2.1: Marshalling of values between Haskell and Lua
-dev-haskell/hslua-module-doclayout 1.0.4: Lua module wrapping Text.DocLayout
-dev-haskell/hslua-module-path 1.0.3: Lua module to work with file paths
-dev-haskell/hslua-module-system 1.0.2: Lua module wrapper around Haskell's System module
-dev-haskell/hslua-module-text 1.0.2: Lua module for text
-dev-haskell/hslua-module-version 1.0.2: Lua module to work with version specifiers
-dev-haskell/hslua-objectorientation 2.2.0 2.2.1: Object orientation tools for HsLua
-dev-haskell/hslua-packaging 2.2.0 2.2.1: Utilities to build Lua modules
+dev-haskell/hslua 2.3.0: Bindings to Lua, an embeddable scripting language
+dev-haskell/hslua-aeson 2.3.0.1: Allow aeson data types to be used with Lua
+dev-haskell/hslua-classes 2.3.0: Type classes for HsLua
+dev-haskell/hslua-cli 1.4.1: Command-line interface for Lua
+dev-haskell/hslua-core 2.3.1: Bindings to Lua, an embeddable scripting language
+dev-haskell/hslua-list 1.1.1: Opinionated, but extensible Lua list type
+dev-haskell/hslua-marshalling 2.3.0: Marshalling of values between Haskell and Lua
+dev-haskell/hslua-module-doclayout 1.1.0: Lua module wrapping Text.DocLayout
+dev-haskell/hslua-module-path 1.1.0: Lua module to work with file paths
+dev-haskell/hslua-module-system 1.1.0.1: Lua module wrapper around Haskell's System module
+dev-haskell/hslua-module-text 1.1.0.1: Lua module for text
+dev-haskell/hslua-module-version 1.1.0: Lua module to work with version specifiers
+dev-haskell/hslua-module-zip 1.1.0: Lua module to work with file zips
+dev-haskell/hslua-objectorientation 2.3.0: Object orientation tools for HsLua
+dev-haskell/hslua-packaging 2.3.0: Utilities to build Lua modules
+dev-haskell/hslua-repl 0.1.1: Isocline-based Lua REPL
+dev-haskell/hslua-typing 0.1.0: Type specifiers for Lua
 dev-haskell/hsndfile 0.8.0-r1: Haskell bindings for libsndfile
 dev-haskell/hsndfile-vector 0.5.2: Haskell bindings for libsndfile (Data.Vector interface)
 dev-haskell/hsopenssl 0.11.7.5: Partial OpenSSL binding for Haskell
@@ -1112,6 +1118,7 @@ dev-haskell/ireal 0.2.3-r1: Real numbers and intervals with relatively efficient
 dev-haskell/iso-deriving 0.0.8: Deriving via arbitrary isomorphisms
 dev-haskell/iso3166-country-codes 0.20140203.8: A datatype for ISO 3166 country codes
 dev-haskell/iso8601-time 0.1.5: Convert to/from the ISO 8601 time format
+dev-haskell/isocline 1.0.9: A portable alternative to GNU Readline
 dev-haskell/isomorphism-class 0.1.0.7: Isomorphism typeclass solving the conversion problem
 dev-haskell/iwlib 0.1.0: Bindings for the iw C library
 dev-haskell/ix-shapable 0.1.0: Reshape multi-dimensional arrays
@@ -1227,12 +1234,12 @@ dev-haskell/logging-facade 0.3.0: Simple logging abstraction that allows multipl
 dev-haskell/logict 0.8.0.0: A backtracking logic-programming monad
 dev-haskell/logict-state 0.1.0.5: Library for logic programming based on haskell package logict
 dev-haskell/loop 0.3.0: Fast loops (for when GHC can't optimize forM_)
-dev-haskell/lpeg 1.0.3: LPeg - Parsing Expression Grammars For Lua
+dev-haskell/lpeg 1.0.4: LPeg – Parsing Expression Grammars For Lua
 dev-haskell/lrucache 1.2.0.1: a simple, pure LRU cache
 dev-haskell/lsp 1.6.0.0: Haskell library for the Microsoft Language Server Protocol
 dev-haskell/lsp-test 0.14.1.0: Functional test framework for LSP servers
 dev-haskell/lsp-types 1.6.0.0: Haskell library for the Microsoft Language Server Protocol, data types
-dev-haskell/lua 2.2.0 2.2.1: Lua, an embeddable scripting language
+dev-haskell/lua 2.3.1: Lua, an embeddable scripting language
 dev-haskell/lua-arbitrary 1.0.1: Arbitrary instances for Lua types
 dev-haskell/lua-bc 0.1.1-r1: Lua bytecode parser
 dev-haskell/lucid 2.11.1: Clear to write, read and edit DSL for HTML
@@ -1445,7 +1452,9 @@ dev-haskell/ormolu 0.5.2.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc-crossref 0.3.15.2: Pandoc filter for cross-references
-dev-haskell/pandoc-lua-marshal 0.1.7: Use pandoc types in Lua
+dev-haskell/pandoc-lua-engine 0.2: Lua engine to power custom pandoc conversions
+dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
+dev-haskell/pandoc-server 0.1: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
 dev-haskell/pandoc-types 1.23: Types for representing a structured document
 dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
@@ -1914,12 +1923,12 @@ dev-haskell/tasty-discover 4.2.2: Test discovery for the tasty framework
 dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
 dev-haskell/tasty-golden 2.3.5: Golden tests support for tasty
 dev-haskell/tasty-hedgehog 1.3.1.0: Integration for tasty and hedgehog
-dev-haskell/tasty-hslua 1.0.2: Tasty helpers to test HsLua
+dev-haskell/tasty-hslua 1.1.0: Tasty helpers to test HsLua
 dev-haskell/tasty-hspec 1.2.0.3: Hspec support for the Tasty test framework
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
 dev-haskell/tasty-inspection-testing 0.2: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
-dev-haskell/tasty-lua 1.0.2: Write tests in Lua, integrate into tasty
+dev-haskell/tasty-lua 1.1.0: Write tests in Lua, integrate into tasty
 dev-haskell/tasty-quickcheck 0.10.2: QuickCheck support for the Tasty test framework
 dev-haskell/tasty-rerun 1.1.18: Rerun only tests which failed in a previous test run
 dev-haskell/tasty-silver 3.3.1: A fancy test runner, including support for golden tests

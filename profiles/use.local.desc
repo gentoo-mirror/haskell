@@ -8,6 +8,9 @@ app-office/hledger-web:library-only - Build for use with "yesod devel"
 app-office/hledger-web:threaded - Build with support for multithreaded execution.
 app-portage/hackport:profile - Enable profiling flags
 app-text/pandoc:embed-data-files - Embed data files in binary for relocatable executable.
+app-text/pandoc-cli:lua - Support custom modifications and conversions with the pandoc Lua scripting engine.
+app-text/pandoc-cli:nightly - Add '-nightly-COMPILEDATE' to the output of '--version'.
+app-text/pandoc-cli:server - Include support for running pandoc as an HTTP server.
 dev-haskell/abstract-deque:usecas - Enable the reference implementation to use hardware compare-and-swap.
 dev-haskell/acid-state:executable - Build the acid-state-repair executable
 dev-haskell/ad:ffi - 
@@ -183,6 +186,8 @@ dev-haskell/hnix:executable - Build the hnix executable
 dev-haskell/hnix:optimize - Enable all optimization flags
 dev-haskell/hps:build-exec - Build the `hps-fractals` executable
 dev-haskell/hsexif:iconv - Enable encoding conversion of the User Comment tag with iconv. It's a nice thing to have but iconv is difficult to install on windows.
+dev-haskell/hslua-cli:executable - Compile `hslua` standalone executable.
+dev-haskell/hslua-repl:executable - Compile `luarepl` standalone executable.
 dev-haskell/hsopenssl:fast-bignum - Enable fast moving of bignums between OpenSSL and GMP (GHC and OpenSSL version < 1.1.0 only).
 dev-haskell/hsp:base4 - Use base-4.0.
 dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
