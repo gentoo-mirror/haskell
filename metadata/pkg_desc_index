@@ -17,7 +17,7 @@ app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.7.3.1 0.8.0.0 0.8.2.1 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
-app-text/pandoc 2.19.2 3.1.2: Conversion between markup formats
+app-text/pandoc 3.1.2: Conversion between markup formats
 app-text/pandoc-cli 0.1.1: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
@@ -768,7 +768,7 @@ dev-haskell/graphmod 1.4.4: Present the module dependencies of a program as a "d
 dev-haskell/graphscc 1.0.4: Tarjan's algorithm for computing the strongly connected components of a graph
 dev-haskell/graphviz 2999.20.1.0-r1: Bindings to Graphviz for graph visualisation
 dev-haskell/gravatar 0.8.0-r1: Generate Gravatar image URLs
-dev-haskell/gridtables 0.0.3.0 0.1.0.0: Parser for reStructuredText-style grid tables
+dev-haskell/gridtables 0.1.0.0: Parser for reStructuredText-style grid tables
 dev-haskell/groom 0.1.2.1: Pretty printing for well-behaved Show instances
 dev-haskell/groundhog 0.11.0: Type-safe datatype-database mapping library
 dev-haskell/groundhog-postgresql 0.11: PostgreSQL backend for the groundhog library
@@ -1456,7 +1456,7 @@ dev-haskell/pandoc-lua-engine 0.2: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
-dev-haskell/pandoc-types 1.22.2.1 1.23: Types for representing a structured document
+dev-haskell/pandoc-types 1.23: Types for representing a structured document
 dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.1: Content addressable Haskell package management
@@ -2324,7 +2324,7 @@ www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some a
 www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
 www-apps/clckwrks-plugin-page 0.4.3.26-r1: support for CMS/Blogging in clckwrks
 www-apps/darcsweb 1.1: A web interface for darcs
-www-apps/gitit 0.15.1.0-r6: Wiki using happstack, git or darcs, and pandoc
+www-apps/gitit 0.15.1.0-r7: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp
