@@ -17,7 +17,7 @@ app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.7.3.1 0.8.0.0 0.8.2.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
-app-text/pandoc 2.19.2: Conversion between markup formats
+app-text/pandoc 3.1.2: Conversion between markup formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
 app-vim/haskellmode 20101118-r1: vim plugin: Provides IDE-like features for Haskell development
@@ -302,7 +302,7 @@ dev-haskell/cipher-camellia 0.0.2: Camellia block cipher primitives
 dev-haskell/cipher-des 0.0.6: DES and 3DES primitives
 dev-haskell/cipher-rc4 0.1.4: Fast RC4 cipher implementation
 dev-haskell/circle-packing 0.1.0.6: Simple heuristic for packing discs of varying radii in a circle
-dev-haskell/citeproc 0.6.0.1 0.7 0.8.0.2: Generates citations and bibliography from CSL styles
+dev-haskell/citeproc 0.8.1: Generates citations and bibliography from CSL styles
 dev-haskell/clash-ghc 1.6.3: Clash: a functional hardware description language - GHC frontend
 dev-haskell/clash-lib 1.6.3: Clash: a functional hardware description language - As a library
 dev-haskell/clash-prelude 1.6.3: Clash: a functional hardware description language - Prelude library
@@ -330,8 +330,8 @@ dev-haskell/colour 2.3.6: A model for human colour/color perception
 dev-haskell/colourista 0.1.0.1 0.1.0.2: Convenient interface for printing colourful messages
 dev-haskell/command-qq 0.3.1.0: Quasiquoters for external commands
 dev-haskell/commonmark 0.2.2: Pure Haskell commonmark parser
-dev-haskell/commonmark-extensions 0.2.3.3: Pure Haskell commonmark parser
-dev-haskell/commonmark-pandoc 0.2.1.2: Bridge between commonmark and pandoc AST
+dev-haskell/commonmark-extensions 0.2.3.4: Pure Haskell commonmark parser
+dev-haskell/commonmark-pandoc 0.2.1.3: Bridge between commonmark and pandoc AST
 dev-haskell/commutative-semigroups 0.1.0.0: Commutative semigroups
 dev-haskell/comonad 5.0.8: The Comonads package authored by Edward Kmett
 dev-haskell/comonad-extras 4.0.1: Exotic comonad transformers
@@ -517,8 +517,8 @@ dev-haskell/djinn-lib 0.0.1.3: Generate Haskell code from a type. Library extrac
 dev-haskell/dlist 1.0: Difference lists
 dev-haskell/dlist-instances 0.1.1.1: Difference lists instances
 dev-haskell/dns 4.0.1: DNS library in Haskell
-dev-haskell/doclayout 0.3.1.1 0.4: A prettyprinting library for laying out text documents
-dev-haskell/doctemplates 0.10 0.10.0.2: Pandoc-style document templates
+dev-haskell/doclayout 0.4.0.1: A prettyprinting library for laying out text documents
+dev-haskell/doctemplates 0.11: Pandoc-style document templates
 dev-haskell/doctest 0.20.1: Test interactive Haskell examples
 dev-haskell/doctest-discover 0.2.0.0: Easy way to run doctests via cabal
 dev-haskell/doctest-driver-gen 0.3.0.5: Generate driver file for doctest's cabal integration
@@ -767,7 +767,7 @@ dev-haskell/graphmod 1.4.4: Present the module dependencies of a program as a "d
 dev-haskell/graphscc 1.0.4: Tarjan's algorithm for computing the strongly connected components of a graph
 dev-haskell/graphviz 2999.20.1.0-r1: Bindings to Graphviz for graph visualisation
 dev-haskell/gravatar 0.8.0-r1: Generate Gravatar image URLs
-dev-haskell/gridtables 0.0.3.0: Parser for reStructuredText-style grid tables
+dev-haskell/gridtables 0.1.0.0: Parser for reStructuredText-style grid tables
 dev-haskell/groom 0.1.2.1: Pretty printing for well-behaved Show instances
 dev-haskell/groundhog 0.11.0: Type-safe datatype-database mapping library
 dev-haskell/groundhog-postgresql 0.11: PostgreSQL backend for the groundhog library
@@ -789,7 +789,7 @@ dev-haskell/haddock 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool
 dev-haskell/haddock-api 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0: Library exposing some functionality of Haddock
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
-dev-haskell/hakyll 4.15.1.1-r2: A static website compiler library
+dev-haskell/hakyll 4.15.1.1-r3: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
 dev-haskell/hakyll-sass 0.2.4: Hakyll SASS compiler over hsass
 dev-haskell/half 0.3-r1 0.3.1: Half-precision floating-point
@@ -1118,7 +1118,7 @@ dev-haskell/ix-shapable 0.1.0: Reshape multi-dimensional arrays
 dev-haskell/ixset 1.1.1.2: Efficient relational queries on Haskell sets
 dev-haskell/ixset-typed 0.5.1.0: Efficient relational queries on Haskell sets
 dev-haskell/jail 0.0.1.1-r4: Jailed IO monad
-dev-haskell/jira-wiki-markup 1.3.4 1.4.0: Handle Jira wiki markup
+dev-haskell/jira-wiki-markup 1.5.1: Handle Jira wiki markup
 dev-haskell/jmacro 0.6.17.1: QuasiQuotation library for programmatic generation of Javascript code
 dev-haskell/jose-jwt 0.8.0: JSON Object Signing and Encryption Library
 dev-haskell/js-chart 2.9.4.1: Obtain minified chart.js code
@@ -1284,7 +1284,7 @@ dev-haskell/midi 0.2.2.4: Handling of MIDI messages and files
 dev-haskell/midi-alsa 0.2.1-r1: Convert between datatypes of the midi and the alsa packages
 dev-haskell/mime 0.4.0.2: Working with MIME types
 dev-haskell/mime-mail 0.5.1: Compose MIME email messages
-dev-haskell/mime-types 0.1.0.9: Basic mime-type handling types and functions
+dev-haskell/mime-types 0.1.1.0: Basic mime-type handling types and functions
 dev-haskell/minisat 0.1.3: A Haskell bundle of the Minisat SAT solver
 dev-haskell/mintty 0.1.2: A reliable way to detect the presence of a MinTTY console on Windows
 dev-haskell/misfortune 0.1.2.1: fortune-mod clone
@@ -1444,10 +1444,10 @@ dev-haskell/ordered-containers 0.2.2: Set- and Map-like types that remember the 
 dev-haskell/ormolu 0.5.2.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
-dev-haskell/pandoc-crossref 0.3.13.0-r1: Pandoc filter for cross-references
+dev-haskell/pandoc-crossref 0.3.15.2: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-marshal 0.1.7: Use pandoc types in Lua
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
-dev-haskell/pandoc-types 1.22.2.1: Types for representing a structured document
+dev-haskell/pandoc-types 1.23: Types for representing a structured document
 dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.1: Content addressable Haskell package management
@@ -1783,8 +1783,8 @@ dev-haskell/singletons-base 3.0 3.1: A promoted and singled version of the base 
 dev-haskell/singletons-th 3.0 3.1: A framework for generating singleton types
 dev-haskell/size-based 0.1.2.0-r1: Sized functors, for size-based enumerations
 dev-haskell/skein 1.0.9.4: Skein, a family of cryptographic hash functions. Includes Skein-MAC as well
-dev-haskell/skylighting 0.13.2: syntax highlighting library
-dev-haskell/skylighting-core 0.13.2: syntax highlighting library
+dev-haskell/skylighting 0.13.2.1: syntax highlighting library
+dev-haskell/skylighting-core 0.13.2.1: syntax highlighting library
 dev-haskell/skylighting-format-ansi 0.1: ANSI formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-blaze-html 0.1.1: HTML formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-context 0.1.0.1: ConTeXt formatter for skylighting syntax highlighting library
@@ -1947,7 +1947,7 @@ dev-haskell/test-framework-smallcheck 0.2: Support for SmallCheck tests in test-
 dev-haskell/test-framework-th 0.2.4: Automagically generate the HUnit and Quickcheck using Template Haskell
 dev-haskell/testing-feat 1.1.0.0-r1: Functional Enumeration of Algebraic Types
 dev-haskell/testing-type-modifiers 0.1.0.1: Data type modifiers for property based testing
-dev-haskell/texmath 0.12.4 0.12.5.4: Conversion between math formats
+dev-haskell/texmath 0.12.7.1: Conversion between math formats
 dev-haskell/texrunner 0.0.1.2-r2: Functions for running Tex from Haskell
 dev-haskell/text 1.2.4.1-r1 1.2.5.0-r1: An efficient packed Unicode text type
 dev-haskell/text-ansi 0.2.1: Text styling for ANSI terminals
@@ -2243,7 +2243,7 @@ dev-haskell/yesod-websockets 0.3.0.3: WebSockets support for Yesod
 dev-haskell/yi-rope 0.7.0.2 0.11: A rope data structure used by Yi
 dev-haskell/zeromq4-haskell 0.8.0-r1: Bindings to ZeroMQ 4.x
 dev-haskell/zigzag 0.0.1.0: Zigzag encoding of integers into unsigned integers
-dev-haskell/zip-archive 0.4.2.1: Library for creating and modifying zip archives
+dev-haskell/zip-archive 0.4.3: Library for creating and modifying zip archives
 dev-haskell/zippers 0.3.1: Traversal based zippers
 dev-haskell/zlib 0.6.3.0: Compression and decompression in the gzip and zlib formats
 dev-haskell/zlib-bindings 0.1.1.5: Low-level bindings to the zlib package. (deprecated)
