@@ -14,10 +14,10 @@ app-office/hledger-interest 1.6.5: computes interest for a given account
 app-office/hledger-ui 1.29.1: Curses-style terminal interface for the hledger accounting system
 app-office/hledger-web 1.29.1: Web-based user interface for the hledger accounting system
 app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
-app-portage/hackport 0.7.3.1 0.8.0.0 0.8.2.0 9999: Hackage and Portage integration tool
+app-portage/hackport 0.7.3.1 0.8.0.0 0.8.2.1 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
-app-text/pandoc 3.1.2: Conversion between markup formats
+app-text/pandoc 2.19.2 3.1.2: Conversion between markup formats
 app-text/pandoc-cli 0.1.1: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
@@ -768,7 +768,7 @@ dev-haskell/graphmod 1.4.4: Present the module dependencies of a program as a "d
 dev-haskell/graphscc 1.0.4: Tarjan's algorithm for computing the strongly connected components of a graph
 dev-haskell/graphviz 2999.20.1.0-r1: Bindings to Graphviz for graph visualisation
 dev-haskell/gravatar 0.8.0-r1: Generate Gravatar image URLs
-dev-haskell/gridtables 0.1.0.0: Parser for reStructuredText-style grid tables
+dev-haskell/gridtables 0.0.3.0 0.1.0.0: Parser for reStructuredText-style grid tables
 dev-haskell/groom 0.1.2.1: Pretty printing for well-behaved Show instances
 dev-haskell/groundhog 0.11.0: Type-safe datatype-database mapping library
 dev-haskell/groundhog-postgresql 0.11: PostgreSQL backend for the groundhog library
@@ -1456,7 +1456,7 @@ dev-haskell/pandoc-lua-engine 0.2: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
-dev-haskell/pandoc-types 1.23: Types for representing a structured document
+dev-haskell/pandoc-types 1.22.2.1 1.23: Types for representing a structured document
 dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.1: Content addressable Haskell package management
@@ -1786,7 +1786,7 @@ dev-haskell/simple-smt 0.9.6: A simple way to interact with an SMT solver proces
 dev-haskell/simpleaes 0.4.2: Fast AES encryption/decryption for bytestrings
 dev-haskell/simpleargs 0.2.1: Provides a more flexible getArgs function with better error reporting
 dev-haskell/simpleirc 0.3.1: Simple IRC Library
-dev-haskell/singleton-bool 0.1.5-r1: Type level booleans
+dev-haskell/singleton-bool 0.1.6: Type level booleans
 dev-haskell/singletons 3.0.1: Basic singleton types and definitions
 dev-haskell/singletons-base 3.0 3.1: A promoted and singled version of the base library
 dev-haskell/singletons-th 3.0 3.1: A framework for generating singleton types
