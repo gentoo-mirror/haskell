@@ -47,7 +47,7 @@ dev-haskell/aeson-lens 0.5.0.0: Lens of Aeson
 dev-haskell/aeson-pretty 0.8.9-r2: JSON pretty-printing library and command-line tool
 dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
 dev-haskell/aeson-yaml 1.1.0.1-r1: Output any Aeson value as YAML (pure Haskell library)
-dev-haskell/alex 3.2.7.1: Alex is a tool for generating lexical analysers in Haskell
+dev-haskell/alex 3.2.7.2: Alex is a tool for generating lexical analysers in Haskell
 dev-haskell/alex-tools 0.4: A set of functions for a common use case of Alex
 dev-haskell/algebra 4.3.1: Constructive abstract algebra
 dev-haskell/algebraic-graphs 0.6.1: A library for algebraic graph construction and transformation
@@ -463,7 +463,7 @@ dev-haskell/date-cache 0.3.0-r1: Date cacher
 dev-haskell/dates 0.2.3.0: Small library for parsing different dates formats
 dev-haskell/datetime 0.3.1: Utilities to make Data.Time.* easier to use
 dev-haskell/dav 1.3.4: RFC 4918 WebDAV support
-dev-haskell/dbus 1.2.27: A client library for the D-Bus IPC system
+dev-haskell/dbus 1.2.27 1.2.28: A client library for the D-Bus IPC system
 dev-haskell/dbus-hslogger 0.1.0.1: Expose a dbus server to control hslogger
 dev-haskell/dec 0.0.5: Decidable propositions
 dev-haskell/decimal 0.5.2: Decimal numbers with variable precision
@@ -687,7 +687,7 @@ dev-haskell/ghc-datasize 0.2.0: Determine the size of data structures in GHC's m
 dev-haskell/ghc-events 0.17.0.3: Library and tool for parsing .eventlog files from GHC
 dev-haskell/ghc-exactprint 0.6.4-r1 1.5.0: ExactPrint for GHC
 dev-haskell/ghc-gc-tune 0.3.2: Graph performance of Haskell programs with different GC flags
-dev-haskell/ghc-heap-view 0.6.3: Extract the heap representation of Haskell values and thunks
+dev-haskell/ghc-heap-view 0.6.4: Extract the heap representation of Haskell values and thunks
 dev-haskell/ghc-lib 9.4.4.20221225: The GHC API, decoupled from GHC versions
 dev-haskell/ghc-lib-parser 9.4.4.20221225: The GHC API, decoupled from GHC versions
 dev-haskell/ghc-lib-parser-ex 9.4.0.0: Algorithms on GHC parse trees
@@ -1043,7 +1043,7 @@ dev-haskell/http-querystring 1.0: The HTTP query builder
 dev-haskell/http-reverse-proxy 0.6.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
 dev-haskell/http-streams 0.8.9.6: An HTTP client using io-streams
 dev-haskell/http-types 0.9.1-r1 0.12.3: Generic HTTP types for Haskell (for both client and server code)
-dev-haskell/http2 4.0.0: HTTP/2 library
+dev-haskell/http2 4.1.1: HTTP/2 library
 dev-haskell/httpd-shed 0.4.1.1-r1: A simple web-server with an interact style API
 dev-haskell/huffman 1.0.1: Pure Haskell implementation of the Huffman encoding algorithm
 dev-haskell/hunit 1.6.2.0: A unit testing framework for Haskell
@@ -1283,7 +1283,7 @@ dev-haskell/microlens-aeson 2.5.0: Law-abiding lenses for Aeson, using microlens
 dev-haskell/microlens-ghc 0.4.14.0: microlens + array, bytestring, containers, transformers
 dev-haskell/microlens-mtl 0.2.0.2: microlens support for Reader/Writer/State from mtl
 dev-haskell/microlens-platform 0.4.3.2: microlens + all batteries included (best for apps)
-dev-haskell/microlens-th 0.4.3.10: Automatic generation of record lenses for microlens
+dev-haskell/microlens-th 0.4.3.12: Automatic generation of record lenses for microlens
 dev-haskell/microspec 0.2.1.3: Tiny QuickCheck test library with minimal dependencies
 dev-haskell/microstache 1.0.2: Mustache templates for Haskell
 dev-haskell/microtimer 0.0.1.2-r1: A tiny library for benchmarking IO actions
@@ -1394,6 +1394,7 @@ dev-haskell/network-info 0.2.1: Access the local computer's basic network config
 dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
 dev-haskell/network-msg 0.8: Recvmsg and sendmsg bindings
 dev-haskell/network-multicast 0.3.2: Simple multicast library
+dev-haskell/network-run 0.2.4: Simple network runner library
 dev-haskell/network-simple 0.4.5: Simple network sockets usage patterns
 dev-haskell/network-transport 0.5.4-r1: Network abstraction layer
 dev-haskell/network-transport-tcp 0.6.0: TCP instantiation of Network.Transport
@@ -2229,7 +2230,7 @@ dev-haskell/yesod-angular 0.1.0.2: Angular JS integratoin
 dev-haskell/yesod-auth 1.6.11: Authentication for Yesod
 dev-haskell/yesod-auth-basic 0.1.0.3: Yesod Middleware for HTTP Basic Authentication
 dev-haskell/yesod-auth-hashdb 1.7.1.7: Authentication plugin for Yesod
-dev-haskell/yesod-auth-oauth2 0.7.0.1: OAuth 2.0 authentication plugins
+dev-haskell/yesod-auth-oauth2 0.7.1.0: OAuth 2.0 authentication plugins
 dev-haskell/yesod-colonnade 1.3.0.1: Helper functions for using yesod with colonnade
 dev-haskell/yesod-content-pdf 0.2.0.5: PDF Content Type for Yesod
 dev-haskell/yesod-core 1.6.24.1: Creation of type-safe, RESTful web applications
