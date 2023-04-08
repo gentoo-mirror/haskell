@@ -17,7 +17,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE="library-only +threaded"
 
-RDEPEND=">=app-office/hledger-1.29.1:=[profile?] <app-office/hledger-1.30:=[profile?]
+RDEPEND=">=app-office/hledger-1.29.2:=[profile?] <app-office/hledger-1.30:=[profile?]
 	>=dev-haskell/aeson-1:=[profile?]
 	dev-haskell/base64:=[profile?]
 	dev-haskell/blaze-html:=[profile?]
@@ -31,7 +31,7 @@ RDEPEND=">=app-office/hledger-1.29.1:=[profile?] <app-office/hledger-1.30:=[prof
 	>=dev-haskell/decimal-0.5.1:=[profile?]
 	>=dev-haskell/extra-1.6.3:=[profile?]
 	dev-haskell/hjsmin:=[profile?]
-	>=dev-haskell/hledger-lib-1.29.1:=[profile?] <dev-haskell/hledger-lib-1.30:=[profile?]
+	>=dev-haskell/hledger-lib-1.29.2:=[profile?] <dev-haskell/hledger-lib-1.30:=[profile?]
 	dev-haskell/hspec:=[profile?]
 	dev-haskell/http-client:=[profile?]
 	dev-haskell/http-conduit:=[profile?]

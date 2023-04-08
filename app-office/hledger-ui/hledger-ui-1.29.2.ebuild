@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+threaded"
 
-RDEPEND=">=app-office/hledger-1.29.1:= <app-office/hledger-1.30:=
+RDEPEND=">=app-office/hledger-1.29.2:= <app-office/hledger-1.30:=
 	>=dev-haskell/ansi-terminal-0.9:=
 	dev-haskell/async:=
 	>=dev-haskell/brick-1.5:=
@@ -25,7 +25,7 @@ RDEPEND=">=app-office/hledger-1.29.1:= <app-office/hledger-1.30:=
 	>=dev-haskell/doclayout-0.3:= <dev-haskell/doclayout-0.5:=
 	>=dev-haskell/extra-1.6.3:=
 	>=dev-haskell/fsnotify-0.4:= <dev-haskell/fsnotify-0.5:=
-	>=dev-haskell/hledger-lib-1.29.1:= <dev-haskell/hledger-lib-1.30:=
+	>=dev-haskell/hledger-lib-1.29.2:= <dev-haskell/hledger-lib-1.30:=
 	>=dev-haskell/megaparsec-7.0.0:= <dev-haskell/megaparsec-9.4:=
 	>=dev-haskell/microlens-0.4:=
 	>=dev-haskell/microlens-platform-0.2.3.1:=
