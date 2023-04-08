@@ -8,11 +8,11 @@ app-admin/propellor 5.12: property-based host configuration management in haskel
 app-emacs/haskell-mode 16.1-r1 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
-app-office/hledger 1.29.1: Command-line interface for the hledger accounting system
+app-office/hledger 1.29.2: Command-line interface for the hledger accounting system
 app-office/hledger-iadd 1.3.17-r5: A terminal UI as drop-in replacement for hledger add
 app-office/hledger-interest 1.6.5: computes interest for a given account
-app-office/hledger-ui 1.29.1: Curses-style terminal interface for the hledger accounting system
-app-office/hledger-web 1.29.1: Web-based user interface for the hledger accounting system
+app-office/hledger-ui 1.29.2: Curses-style terminal interface for the hledger accounting system
+app-office/hledger-web 1.29.2: Web-based user interface for the hledger accounting system
 app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.7.3.1 0.8.0.0 0.8.2.1 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
@@ -887,7 +887,7 @@ dev-haskell/hit 0.7.0: Git operations in haskell
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
 dev-haskell/hjsmin 0.2.0.4-r1: Haskell implementation of a javascript minifier
-dev-haskell/hledger-lib 1.29.1: A reusable library providing the core functionality of hledger
+dev-haskell/hledger-lib 1.29.2: A reusable library providing the core functionality of hledger
 dev-haskell/hlibev 0.4.0: FFI interface to libev
 dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
 dev-haskell/hlibsass 0.1.10.1: Low-level bindings to Libsass
