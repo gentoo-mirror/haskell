@@ -296,6 +296,7 @@ dev-haskell/prettyprinter:text - While it's a core value of @prettyprinter@ to u
 dev-haskell/profiteur:embed-data-files - Embed data files into the executable (needed for ghcjs packaging)
 dev-haskell/publicsuffixlist:create - export Network.PublicSuffixList.Create module
 dev-haskell/publicsuffixlist:runtimelist - read suffix list from dist at startup instead of embedding list into library
+dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/quickcheck:template-haskell - Build Test.QuickCheck.All, which uses Template Haskell.
 dev-haskell/quickcheck-classes:aeson - You can disable the use of the `aeson` package using `-f-aeson`. This may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/quickcheck-classes:binary-laws - Include infrastructure for testing class laws of binary type constructors. It is required that this flag match the value that the `unary-laws` flag was given when building `quickcheck-classes-base`. Disabling `unary-laws` while keeping `binary-laws` enabled is an unsupported configuration.
@@ -382,6 +383,7 @@ dev-haskell/tomland:example-readme - Build example-tomland generator
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
 dev-haskell/tz:template-haskell - Enable the use of and export Template Haskell functionality. (Might need to disable this for cross-compiling.)
 dev-haskell/unagi-chan:compare-benchmarks - compare benchmarks with Chan, TQueue, and (eventually) lockfree-queue?
+dev-haskell/unboxing-vector:mono-traversable - Define instances for MonoTraversable
 dev-haskell/unicode-collation:doctests - Run doctests as part of test suite. Use with: @--write-ghc-environment-files=always@.
 dev-haskell/unicode-collation:executable - Build the unicode-collate executable.
 dev-haskell/unix-compat:old-time - build against old-time package

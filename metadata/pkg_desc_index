@@ -44,6 +44,7 @@ dev-haskell/aeson-compat 0.3.10-r2: Compatibility layer for aeson
 dev-haskell/aeson-diff 1.1.0.13: Extract and apply patches to JSON documents
 dev-haskell/aeson-extra 0.5.1.2: Extra goodies for aeson
 dev-haskell/aeson-lens 0.5.0.0: Lens of Aeson
+dev-haskell/aeson-optics 1.2.0.1: Law-abiding optics for aeson
 dev-haskell/aeson-pretty 0.8.9-r2: JSON pretty-printing library and command-line tool
 dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
 dev-haskell/aeson-yaml 1.1.0.1-r1: Output any Aeson value as YAML (pure Haskell library)
@@ -260,6 +261,8 @@ dev-haskell/cabal-plan 0.7.2.0-r3: Library and utility for processing cabal's pl
 dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packages
 dev-haskell/cabal-syntax 3.8.1.0: A library for working with .cabal files
 dev-haskell/cairo 0.13.8.2: Binding to the Cairo library
+dev-haskell/calamity 0.7.1.0: A library for writing discord bots in haskell
+dev-haskell/calamity-commands 0.4.0.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/call-stack 0.4.0: Use GHC call-stacks in a backward compatible way
 dev-haskell/canonical-filepath 1.0.0.3: Abstract data type for canonical file paths
 dev-haskell/carray 0.1.6.8: A C-compatible array library
@@ -478,6 +481,12 @@ dev-haskell/deriving-aeson 0.2.9: Type driven generic aeson instance customisati
 dev-haskell/deriving-compat 0.6: Backports of GHC deriving extensions
 dev-haskell/descriptive 0.9.5: Self-describing consumers/parsers; forms, cmd-line args, JSON, etc
 dev-haskell/df1 0.4.1: Type, render and parse the df1 hierarchical structured log format
+dev-haskell/di 1.3: Typeful hierarchical structured logging using di, mtl and df1
+dev-haskell/di-core 1.0.4: Typeful hierarchical structured logging without monad towers
+dev-haskell/di-df1 1.2.1: Write logs in the df1 format using the di logging framework
+dev-haskell/di-handle 1.0.1: IO support for file handles in di-core
+dev-haskell/di-monad 1.3.1: mtl flavoured typeful hierarchical structured logging for di-core
+dev-haskell/di-polysemy 0.2.0.0: DI logger wrapped for Polysemy
 dev-haskell/diagrams 1.4.0.1: Embedded domain-specific language for declarative vector graphics
 dev-haskell/diagrams-builder 0.8.0.5-r4: hint-based build service for the diagrams graphics EDSL
 dev-haskell/diagrams-cairo 1.4.2-r1: Cairo backend for diagrams drawing EDSL
@@ -1597,6 +1606,7 @@ dev-haskell/puremd5 2.1.3: A Haskell-only implementation of the MD5 digest (hash
 dev-haskell/pvar 1.0.0.0: Mutable variable with primitive values
 dev-haskell/pwstore-fast 2.4.4: Secure password storage
 dev-haskell/pwstore-purehaskell 2.1.4: Secure password storage, in pure Haskell
+dev-haskell/pyf 0.11.1.1: Quasiquotations for a python like interpolated string formatter
 dev-haskell/python-pickle 0.2.3-r1: Serialization/deserialization using Python Pickle format
 dev-haskell/qr-imager 2.0.0.2: Library to generate images
 dev-haskell/quickcheck 2.14.2-r1: Automatic testing of Haskell programs
@@ -2054,12 +2064,14 @@ dev-haskell/type-operators 0.2.0.0: Various type-level operators
 dev-haskell/typecompose 0.9.14: Type composition classes & instances
 dev-haskell/typed-process 0.2.10.1-r1: Run external processes, with strong typing of streams
 dev-haskell/typelits-witnesses 0.4.0.0: Existential witnesses, singletons, and classes for operations on GHC TypeLits
+dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/tz 0.1.3.5: Efficient time zone handling
 dev-haskell/tzdata 0.2.20201021.0: Time zone database (as files and as a module)
 dev-haskell/uglymemo 0.1.0.1-r1: A simple (but internally ugly) memoization function
 dev-haskell/unagi-chan 0.4.1.4: Fast concurrent queues with a Chan-like API, and more
 dev-haskell/unamb 0.2.7: Unambiguous choice
 dev-haskell/unbounded-delays 0.1.1.1: Unbounded thread delays and timeouts
+dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/unexceptionalio 0.5.1: IO without any non-error, synchronous exceptions
 dev-haskell/unexceptionalio-trans 0.5.1: A wrapper around UnexceptionalIO using monad transformers
 dev-haskell/unicode-collation 0.1.3.3: Haskell implementation of the Unicode Collation Algorithm
