@@ -1548,6 +1548,8 @@ dev-haskell/polynomial 0.7.3: Polynomials
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/polysemy 1.7.1.0: Higher-order, low-boilerplate free monads
 dev-haskell/polysemy-plugin 0.4.3.1: Disambiguate obvious uses of effects
+dev-haskell/polysemy-test 0.7.0.0: Polysemy Effects for Testing
+dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/polysemy-zoo 0.8.1.0: Experimental, user-contributed effects and interpreters for polysemy
 dev-haskell/port-utils 0.2.1.0: Utilities for creating and waiting on ports
 dev-haskell/portaudio 0.2.4-r1: Haskell bindings for the PortAudio library
