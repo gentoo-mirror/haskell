@@ -675,7 +675,7 @@ dev-haskell/generic-monoid 0.1.0.1: Derive monoid instances for product types
 dev-haskell/generic-random 1.3.0.1: Generic random generators
 dev-haskell/generic-trie 0.3.1: A map, where the keys may be complex structured data
 dev-haskell/genericpretty 1.2.2: A generic, derivable, haskell pretty printer
-dev-haskell/generics-sop 0.5.1.2: Generic Programming using True Sums of Products
+dev-haskell/generics-sop 0.5.1.3: Generic Programming using True Sums of Products
 dev-haskell/geniplate-mirror 0.7.8: Use Template Haskell to generate Uniplate-like functions
 dev-haskell/genvalidity 1.0.0.1: Testing utilities for the validity library
 dev-haskell/genvalidity-aeson 0.3.0.0: GenValidity support for aeson
@@ -800,7 +800,7 @@ dev-haskell/haddock 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool
 dev-haskell/haddock-api 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0: Library exposing some functionality of Haddock
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
-dev-haskell/hakyll 4.15.1.1-r3: A static website compiler library
+dev-haskell/hakyll 4.16.0.0: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
 dev-haskell/hakyll-sass 0.2.4: Hakyll SASS compiler over hsass
 dev-haskell/half 0.3-r1 0.3.1: Half-precision floating-point
@@ -1243,7 +1243,7 @@ dev-haskell/log-postgres 0.9.0.0: Structured logging solution (PostgreSQL back e
 dev-haskell/logfloat 0.13.3.3-r1: Log-domain floating point numbers
 dev-haskell/logging-effect 1.3.13: A mtl-style monad transformer for general purpose & compositional logging
 dev-haskell/logging-facade 0.3.0: Simple logging abstraction that allows multiple back-ends
-dev-haskell/logict 0.8.0.0: A backtracking logic-programming monad
+dev-haskell/logict 0.8.1.0: A backtracking logic-programming monad
 dev-haskell/logict-state 0.1.0.5: Library for logic programming based on haskell package logict
 dev-haskell/loop 0.3.0: Fast loops (for when GHC can't optimize forM_)
 dev-haskell/lpeg 1.0.4: LPeg – Parsing Expression Grammars For Lua
@@ -1887,7 +1887,7 @@ dev-haskell/strict-list 0.1.7: Strict linked list
 dev-haskell/strictify 0.1-r1: Find a local optimum of strictness annotations
 dev-haskell/string-conv 0.1.2: Standardized conversion between string types
 dev-haskell/string-conversions 0.4.0.1: Simplifies dealing with different types for strings
-dev-haskell/string-interpolate 0.3.2.0: Haskell string/text/bytestring interpolation that just works
+dev-haskell/string-interpolate 0.3.2.1: Haskell string/text/bytestring interpolation that just works
 dev-haskell/string-qq 0.0.4: QuasiQuoter for non-interpolated strings, texts and bytestrings
 dev-haskell/stringable 0.1.3: A Stringable type class, in the spirit of Foldable and Traversable
 dev-haskell/stringbuilder 0.5.1: A writer monad for multi-line string literals
