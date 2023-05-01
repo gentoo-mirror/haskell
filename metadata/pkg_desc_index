@@ -667,7 +667,7 @@ dev-haskell/gd 3000.7.3: A Haskell binding to a subset of the GD graphics librar
 dev-haskell/gdiff 1.1-r1: Generic diff and patch
 dev-haskell/generic-arbitrary 1.0.0: Generic implementation for QuickCheck's Arbitrary
 dev-haskell/generic-data 1.0.0.1: Deriving instances with GHC.Generics and related utilities
-dev-haskell/generic-deriving 1.14.2: Generic programming library for generalised deriving
+dev-haskell/generic-deriving 1.14.4: Generic programming library for generalised deriving
 dev-haskell/generic-lens 2.2.1.0: Generically derive traversals, lenses and prisms
 dev-haskell/generic-lens-core 2.2.1.0: Generically derive traversals, lenses and prisms
 dev-haskell/generic-lens-labels 0.1.0.2: GHC.OverloadedLabels.IsLabel instance for lenses from ghc-generics
@@ -884,7 +884,7 @@ dev-haskell/hgamer3d 0.9.5: Toolset for the Haskell Game Programmer
 dev-haskell/hgdbmi 0.2-r1: GDB Machine Interface: program-driven control of GDB
 dev-haskell/hgl 3.2.3.2: A simple graphics library based on X11 or Win32
 dev-haskell/hi 1.2.0.2: Generate scaffold for cabal project
-dev-haskell/hi-file-parser 0.1.2.0: Parser for GHC's hi files
+dev-haskell/hi-file-parser 0.1.4.0: Parser for GHC's hi files
 dev-haskell/hie-bios 0.11.0-r1: Set up a GHC API session
 dev-haskell/hie-compat 0.3.0.0: HIE files for GHC 8.6 and other HIE file backports
 dev-haskell/hiedb 0.4.2.0: Generates a references DB from .hie files
@@ -1369,7 +1369,7 @@ dev-haskell/multiset 0.3.4.3: The Data.MultiSet container type
 dev-haskell/multiset-comb 0.2.4.1: Combinatorial algorithms over multisets
 dev-haskell/multistate 0.8.0.4: like mtl's ReaderT / WriterT / StateT, but more than one contained value/type
 dev-haskell/murmur-hash 0.1.0.10: MurmurHash2 implementation for Haskell
-dev-haskell/mustache 2.4.0: A mustache template parser library
+dev-haskell/mustache 2.4.2: A mustache template parser library
 dev-haskell/mutable-containers 0.3.4: Abstractions and concrete implementations of mutable containers
 dev-haskell/mvc 1.1.7-r2: Model-view-controller
 dev-haskell/mwc-probability 2.3.1: Sampling function-based probability distributions
@@ -1956,7 +1956,7 @@ dev-haskell/tcp-streams 1.0.1.1: One stop solution for tcp client and server wit
 dev-haskell/tcp-streams-openssl 1.0.1.0-r1: Tcp streams using openssl for tls support
 dev-haskell/tdigest 0.2.1.1-r2: On-line accumulation of rank-based statistics
 dev-haskell/template 0.2.0.10-r1: Simple string substitution
-dev-haskell/template-haskell-compat-v0208 0.1.9: A backwards compatibility layer for Template Haskell newer than 2.8
+dev-haskell/template-haskell-compat-v0208 0.1.9.2: A backwards compatibility layer for Template Haskell newer than 2.8
 dev-haskell/temporary 1.3: Portable temporary file and directory support
 dev-haskell/temporary-rc 1.2.0.3: Portable temporary file and directory support for Windows and Unix
 dev-haskell/tensor 1.1.0.2: Tensor data types
