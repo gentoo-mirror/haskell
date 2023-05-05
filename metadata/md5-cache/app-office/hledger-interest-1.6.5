@@ -1,14 +1,14 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/cabal:= dev-haskell/decimal:= >=dev-haskell/hledger-lib-1.26:= <dev-haskell/hledger-lib-1.30:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0
+DEPEND=dev-haskell/cabal:= dev-haskell/decimal:= >=dev-haskell/hledger-lib-1.26:= <dev-haskell/hledger-lib-1.30:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0
 DESCRIPTION=computes interest for a given account
 EAPI=8
 HOMEPAGE=https://github.com/peti/hledger-interest
 INHERIT=haskell-cabal
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-haskell/cabal:= dev-haskell/decimal:= >=dev-haskell/hledger-lib-1.26:= <dev-haskell/hledger-lib-1.30:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:=
+RDEPEND=dev-haskell/cabal:= dev-haskell/decimal:= >=dev-haskell/hledger-lib-1.26:= <dev-haskell/hledger-lib-1.30:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:=[profile?]
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/hledger-interest-1.6.5/hledger-interest-1.6.5.tar.gz https://hackage.haskell.org/package/hledger-interest-1.6.5/revision/1.cabal -> hledger-interest-1.6.5-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=dad4cab7994725319b23a9c4c2304424
+_md5_=ccdc56b6831facc0f4f293cf941a5313

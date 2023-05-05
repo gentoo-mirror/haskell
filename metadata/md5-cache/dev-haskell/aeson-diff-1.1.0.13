@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-2.0.3:=[profile?] dev-haskell/edit-distance-vector:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 <dev-haskell/cabal-4 >=dev-haskell/cabal-doctest-1 <dev-haskell/cabal-doctest-1.1 test? ( >=dev-haskell/doctest-0.18.2 dev-haskell/glob dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-2.0.3:=[profile?] dev-haskell/edit-distance-vector:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 <dev-haskell/cabal-4 >=dev-haskell/cabal-doctest-1 <dev-haskell/cabal-doctest-1.1 test? ( >=dev-haskell/doctest-0.18.2 dev-haskell/glob dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Extract and apply patches to JSON documents
 EAPI=8
 HOMEPAGE=https://github.com/ysangkok/aeson-diff
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/aeson-2.0.3:=[profile?] dev-haskell/edit-distance-vector:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/aeson-2.0.3:=[profile?] dev-haskell/edit-distance-vector:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 RESTRICT=test !test? ( test )
 SLOT=0/1.1.0.13
 SRC_URI=https://hackage.haskell.org/package/aeson-diff-1.1.0.13/aeson-diff-1.1.0.13.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=b7defbc9899b806326a691489f6de783
+_md5_=d42f7259dd4b7e01ec123cc71452188d

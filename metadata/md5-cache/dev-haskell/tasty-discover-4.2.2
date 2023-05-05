@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/glob-0.8:=[profile?] <dev-haskell/glob-1.0:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hedgehog dev-haskell/hspec dev-haskell/tasty dev-haskell/tasty-hedgehog dev-haskell/tasty-hspec dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/tasty-smallcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/glob-0.8:=[profile?] <dev-haskell/glob-1.0:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hedgehog dev-haskell/hspec dev-haskell/tasty dev-haskell/tasty-hedgehog dev-haskell/tasty-hspec dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/tasty-smallcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Test discovery for the tasty framework
 EAPI=8
 HOMEPAGE=https://github.com/haskell-works/tasty-discover
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=+executable doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=>=dev-haskell/glob-0.8:=[profile?] <dev-haskell/glob-1.0:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/glob-0.8:=[profile?] <dev-haskell/glob-1.0:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4.2.2
 SRC_URI=https://hackage.haskell.org/package/tasty-discover-4.2.2/tasty-discover-4.2.2.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=af2e9acac4a27994334f49c3cfcaeda4
+_md5_=d3bb5cde0d9d923ad90b83ef7cb6d467

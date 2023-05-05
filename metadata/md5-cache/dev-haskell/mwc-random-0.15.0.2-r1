@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/math-functions-0.2.1.0:=[profile?] >=dev-haskell/primitive-0.6.2:=[profile?] >=dev-haskell/random-1.2:=[profile?] >=dev-haskell/vector-0.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.15 >=dev-haskell/quickcheck-2.2 >=dev-haskell/tasty-1.3.1 dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck >=dev-haskell/vector-0.12.1 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/math-functions-0.2.1.0:=[profile?] >=dev-haskell/primitive-0.6.2:=[profile?] >=dev-haskell/random-1.2:=[profile?] >=dev-haskell/vector-0.7:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.15 >=dev-haskell/quickcheck-2.2 >=dev-haskell/tasty-1.3.1 dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck >=dev-haskell/vector-0.12.1 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Fast, high quality pseudo random number generation
 EAPI=8
 HOMEPAGE=https://github.com/bos/mwc-random
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/math-functions-0.2.1.0:=[profile?] >=dev-haskell/primitive-0.6.2:=[profile?] >=dev-haskell/random-1.2:=[profile?] >=dev-haskell/vector-0.7:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/math-functions-0.2.1.0:=[profile?] >=dev-haskell/primitive-0.6.2:=[profile?] >=dev-haskell/random-1.2:=[profile?] >=dev-haskell/vector-0.7:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.15.0.2
 SRC_URI=https://hackage.haskell.org/package/mwc-random-0.15.0.2/mwc-random-0.15.0.2.tar.gz https://hackage.haskell.org/package/mwc-random-0.15.0.2/revision/1.cabal -> mwc-random-0.15.0.2-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=2bb73c731212fe36f74ac88f80d1a4de
+_md5_=a0927fb9e3bece9e4bc34b598cec4a17

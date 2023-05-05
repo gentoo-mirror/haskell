@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/math-functions-0.1.7:=[profile?] >=dev-haskell/primitive-0.3:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-haskell/vector-algorithms-0.4:=[profile?] >=dev-haskell/vector-binary-instances-0.2.1:=[profile?] dev-haskell/vector-th-unbox:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/math-functions-0.1.7:=[profile?] >=dev-haskell/primitive-0.3:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-haskell/vector-algorithms-0.4:=[profile?] >=dev-haskell/vector-binary-instances-0.2.1:=[profile?] dev-haskell/vector-th-unbox:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.10 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Simple and incomplete pure haskell implementation of linear algebra
 EAPI=7
 HOMEPAGE=https://hackage.haskell.org/package/dense-linear-algebra
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
-RDEPEND=>=dev-haskell/math-functions-0.1.7:=[profile?] >=dev-haskell/primitive-0.3:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-haskell/vector-algorithms-0.4:=[profile?] >=dev-haskell/vector-binary-instances-0.2.1:=[profile?] dev-haskell/vector-th-unbox:=[profile?] >=dev-lang/ghc-7.4.1:=
+RDEPEND=>=dev-haskell/math-functions-0.1.7:=[profile?] >=dev-haskell/primitive-0.3:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-haskell/vector-algorithms-0.4:=[profile?] >=dev-haskell/vector-binary-instances-0.2.1:=[profile?] dev-haskell/vector-th-unbox:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.0.0
 SRC_URI=https://hackage.haskell.org/package/dense-linear-algebra-0.1.0.0/dense-linear-algebra-0.1.0.0.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=9a1b3ae8c05e46b8cafb4e5d9f9e28e8
+_md5_=78d3031d52897d49b58d38b6433b07c8

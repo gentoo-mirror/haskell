@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/extra:=[profile?] dev-haskell/uniplate:=[profile?] >=dev-lang/ghc-8.6:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/record-hasfield ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/extra:=[profile?] dev-haskell/uniplate:=[profile?] >=dev-lang/ghc-8.6:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/record-hasfield ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Preprocessor to allow record.field syntax
 EAPI=8
 HOMEPAGE=https://github.com/ndmitchell/record-dot-preprocessor#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=executable doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-haskell/extra:=[profile?] dev-haskell/uniplate:=[profile?] >=dev-lang/ghc-8.6:=
+RDEPEND=dev-haskell/extra:=[profile?] dev-haskell/uniplate:=[profile?] >=dev-lang/ghc-8.6:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.15
 SRC_URI=https://hackage.haskell.org/package/record-dot-preprocessor-0.2.15/record-dot-preprocessor-0.2.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=a85cb5f8cff90d207e36a3d620b9d800
+_md5_=7564f1082ac923eef4c466ee03b3c5bf

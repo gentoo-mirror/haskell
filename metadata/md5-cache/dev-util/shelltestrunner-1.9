@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/cmdargs-0.7:= >=dev-haskell/diff-0.2.0:= >=dev-haskell/filemanip-0.3:= dev-haskell/hunit:= dev-haskell/parsec:= >=dev-haskell/pretty-show-1.6.5:= >=dev-haskell/regex-tdfa-1.1:= dev-haskell/safe:= >=dev-haskell/test-framework-0.3.2:= >=dev-haskell/test-framework-hunit-0.2:= >=dev-haskell/utf8-string-0.3.5:= >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6
+DEPEND=>=dev-haskell/cmdargs-0.7:= >=dev-haskell/diff-0.2.0:= >=dev-haskell/filemanip-0.3:= dev-haskell/hunit:= dev-haskell/parsec:= >=dev-haskell/pretty-show-1.6.5:= >=dev-haskell/regex-tdfa-1.1:= dev-haskell/safe:= >=dev-haskell/test-framework-0.3.2:= >=dev-haskell/test-framework-hunit-0.2:= >=dev-haskell/utf8-string-0.3.5:= >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.6
 DESCRIPTION=A tool for testing command-line programs
 EAPI=8
 HOMEPAGE=https://github.com/simonmichael/shelltestrunner
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=dev-haskell/cmdargs-0.7:= >=dev-haskell/diff-0.2.0:= >=dev-haskell/filemanip-0.3:= dev-haskell/hunit:= dev-haskell/parsec:= >=dev-haskell/pretty-show-1.6.5:= >=dev-haskell/regex-tdfa-1.1:= dev-haskell/safe:= >=dev-haskell/test-framework-0.3.2:= >=dev-haskell/test-framework-hunit-0.2:= >=dev-haskell/utf8-string-0.3.5:= >=dev-lang/ghc-7.4.1:=
+RDEPEND=>=dev-haskell/cmdargs-0.7:= >=dev-haskell/diff-0.2.0:= >=dev-haskell/filemanip-0.3:= dev-haskell/hunit:= dev-haskell/parsec:= >=dev-haskell/pretty-show-1.6.5:= >=dev-haskell/regex-tdfa-1.1:= dev-haskell/safe:= >=dev-haskell/test-framework-0.3.2:= >=dev-haskell/test-framework-hunit-0.2:= >=dev-haskell/utf8-string-0.3.5:= >=dev-lang/ghc-7.4.1:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/shelltestrunner-1.9/shelltestrunner-1.9.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=f199663debed3940261eeff5c1a9b401
+_md5_=b0de7af184c99fc39546cf75d66d9bc8

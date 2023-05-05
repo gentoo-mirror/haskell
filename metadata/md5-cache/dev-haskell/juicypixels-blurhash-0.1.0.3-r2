@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/juicypixels-3.2.8:=[profile?] <dev-haskell/juicypixels-3.4:=[profile?] >=dev-haskell/optparse-applicative-0.14.3:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/vector-0.10:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.16.2 >=dev-haskell/glob-0.10 <dev-haskell/glob-0.11 >=dev-haskell/hedgehog-1.0.2 <dev-haskell/hedgehog-1.2 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-discover-4.2.1 <dev-haskell/tasty-discover-4.3 >=dev-haskell/tasty-hedgehog-1.0.0.2 >=dev-haskell/tasty-hunit-0.10.0.2 <dev-haskell/tasty-hunit-0.11 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/juicypixels-3.2.8:=[profile?] <dev-haskell/juicypixels-3.4:=[profile?] >=dev-haskell/optparse-applicative-0.14.3:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/vector-0.10:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.16.2 >=dev-haskell/glob-0.10 <dev-haskell/glob-0.11 >=dev-haskell/hedgehog-1.0.2 <dev-haskell/hedgehog-1.2 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-discover-4.2.1 <dev-haskell/tasty-discover-4.3 >=dev-haskell/tasty-hedgehog-1.0.0.2 >=dev-haskell/tasty-hunit-0.10.0.2 <dev-haskell/tasty-hunit-0.11 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Blurhash is a very compact representation of a placeholder for an image
 EAPI=8
 HOMEPAGE=https://github.com/SamProtas/JuicyPixels-blurhash#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/juicypixels-3.2.8:=[profile?] <dev-haskell/juicypixels-3.4:=[profile?] >=dev-haskell/optparse-applicative-0.14.3:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/vector-0.10:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=>=dev-haskell/juicypixels-3.2.8:=[profile?] <dev-haskell/juicypixels-3.4:=[profile?] >=dev-haskell/optparse-applicative-0.14.3:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/vector-0.10:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.0.3
 SRC_URI=https://hackage.haskell.org/package/JuicyPixels-blurhash-0.1.0.3/JuicyPixels-blurhash-0.1.0.3.tar.gz -> juicypixels-blurhash-0.1.0.3.tar.gz https://hackage.haskell.org/package/JuicyPixels-blurhash-0.1.0.3/revision/8.cabal -> juicypixels-blurhash-0.1.0.3-rev8.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=ea338a200fdfae88b483b84dde62ddbb
+_md5_=8f26c58122d86553b761054d216e5a1a

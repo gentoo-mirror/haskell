@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/async:=[profile?] >=dev-haskell/http-types-0.7:=[profile?] || ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/streaming-commons-0.2:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/warp-3.0:=[profile?] <dev-haskell/warp-3.4:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/async:=[profile?] >=dev-haskell/http-types-0.7:=[profile?] || ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/streaming-commons-0.2:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/warp-3.0:=[profile?] <dev-haskell/warp-3.4:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Launch a web app in the default browser
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/wai-handler-launch
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-haskell/async:=[profile?] >=dev-haskell/http-types-0.7:=[profile?] || ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/streaming-commons-0.2:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/warp-3.0:=[profile?] <dev-haskell/warp-3.4:=[profile?] >=dev-lang/ghc-8.4.3:=
+RDEPEND=dev-haskell/async:=[profile?] >=dev-haskell/http-types-0.7:=[profile?] || ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/streaming-commons-0.2:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/warp-3.0:=[profile?] <dev-haskell/warp-3.4:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 SLOT=0/3.0.3.1
 SRC_URI=https://hackage.haskell.org/package/wai-handler-launch-3.0.3.1/wai-handler-launch-3.0.3.1.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=fee98ffeed59db1347a13517f1c7280a
+_md5_=81db66b5c75941a4e13b6a2793905fca

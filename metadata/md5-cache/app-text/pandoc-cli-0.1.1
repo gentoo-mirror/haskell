@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=app-text/pandoc-3.0:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:= lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.2:= <dev-haskell/pandoc-lua-engine-0.3:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= ) >=dev-haskell/cabal-3.0.0.0
+DEPEND=>=app-text/pandoc-3.0:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:=[profile?] lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.2:= <dev-haskell/pandoc-lua-engine-0.3:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= ) >=dev-haskell/cabal-3.0.0.0
 DESCRIPTION=Conversion between documentation formats
 EAPI=8
 HOMEPAGE=https://pandoc.org
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=+lua nightly +server
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=>=app-text/pandoc-3.0:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:= lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.2:= <dev-haskell/pandoc-lua-engine-0.3:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= )
+RDEPEND=>=app-text/pandoc-3.0:= dev-haskell/text:= >=dev-lang/ghc-8.8.1:=[profile?] lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.2:= <dev-haskell/pandoc-lua-engine-0.3:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= )
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/pandoc-cli-0.1.1/pandoc-cli-0.1.1.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=fbd3036e33c3140a08c3679fe827b8b5
+_md5_=984dd2234258216b0b8e86cf52aefe45

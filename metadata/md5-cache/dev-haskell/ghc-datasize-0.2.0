@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/ghc-heap-view-0.5:= >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/ghc-heap-view-0.5:= >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Determine the size of data structures in GHC's memory
 EAPI=6
 HOMEPAGE=http://felsin9.de/nnis/ghc-datasize
@@ -7,8 +7,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/ghc-heap-view-0.5:= >=dev-lang/ghc-7.4.1:=
+RDEPEND=>=dev-haskell/ghc-heap-view-0.5:= >=dev-lang/ghc-7.4.1:=[profile?]
 SLOT=0/0.2.0
 SRC_URI=https://hackage.haskell.org/package/ghc-datasize-0.2.0/ghc-datasize-0.2.0.tar.gz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	2b02655f061dfa25067b543539110259	eqawarn	c9847c43b3253a276ae2eabddedab3d7	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	21162ec96c87041004a75348d97342dd	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	ghc-package	2e4751f54ef269204d5d1cc12fe88185	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=9075a904c41c86c2b63d99342817fab1
+_md5_=138092a57e2f754868847c0ed883f9eb

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.10.2:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-7.10.2:=[profile?] >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=The Wadler/Leijen Pretty Printer, with annotation support
 EAPI=8
 HOMEPAGE=https://github.com/david-christiansen/annotated-wl-pprint
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.10.2:=
+RDEPEND=>=dev-lang/ghc-7.10.2:=[profile?]
 SLOT=0/0.7.0
 SRC_URI=https://hackage.haskell.org/package/annotated-wl-pprint-0.7.0/annotated-wl-pprint-0.7.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=0f9dd35208b5e6e3272184ca385e467f
+_md5_=15c4bbcc02c1e6f0a6d4a1810e309aa4
