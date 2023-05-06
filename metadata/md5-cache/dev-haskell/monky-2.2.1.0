@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/monky
 INHERIT=haskell-cabal
 IUSE=ibus +pulseaudio doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=LGPL-3
 RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/composition:=[profile?] >=dev-haskell/env-locale-1.0.0.1:=[profile?] dev-haskell/formatting:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/netlink-1.1:=[profile?] dev-haskell/network:=[profile?] dev-haskell/old-locale:=[profile?] dev-haskell/old-time:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/statvfs:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers-compat:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?] ibus? ( dev-haskell/dbus:=[profile?] dev-haskell/ibus-hs:=[profile?] ) pulseaudio? ( >=dev-haskell/pulseaudio-0.0.2.0:=[profile?] <dev-haskell/pulseaudio-0.1.0.0:=[profile?] )
 SLOT=0/2.2.1.0
 SRC_URI=https://hackage.haskell.org/package/monky-2.2.1.0/monky-2.2.1.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=506698458806b3756c89d7ab9c5fef0b
+_md5_=62f669db79623aa2131261c849939bb0

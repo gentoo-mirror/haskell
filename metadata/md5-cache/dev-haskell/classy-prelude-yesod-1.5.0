@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=https://github.com/snoyberg/mono-traversable#readme
 INHERIT=haskell-cabal
 IUSE=profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/classy-prelude-1.5.0:=[profile?] <dev-haskell/classy-prelude-1.5.1:=[profile?] >=dev-haskell/classy-prelude-conduit-1.5.0:=[profile?] <dev-haskell/classy-prelude-conduit-1.5.1:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/http-conduit:=[profile?] dev-haskell/http-types:=[profile?] >=dev-haskell/persistent-1.1:=[profile?] >=dev-haskell/yesod-1.2:=[profile?] dev-haskell/yesod-newsfeed:=[profile?] dev-haskell/yesod-static:=[profile?] >=dev-lang/ghc-8.0.1:=[profile?]
 SLOT=0/1.5.0
 SRC_URI=https://hackage.haskell.org/package/classy-prelude-yesod-1.5.0/classy-prelude-yesod-1.5.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=05785464278122d8bbc8948e79ae9f5e
+_md5_=f308507548ade6061491f0c7d87330b3

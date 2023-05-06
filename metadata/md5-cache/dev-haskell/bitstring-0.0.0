@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=http://code.haskell.org/~bkomuves/
 INHERIT=haskell-cabal
 IUSE=withquickcheck doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-7.4.1:=[profile?] withquickcheck? ( >=dev-haskell/quickcheck-2:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] )
 SLOT=0/0.0.0
 SRC_URI=https://hackage.haskell.org/package/bitstring-0.0.0/bitstring-0.0.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=59a08a6aeadd21956f7bad55f73fa1e1
+_md5_=6f35330ccc80b9b73dec70910e5a8a3e

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/haskell-nix/hnix-store
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/cryptonite:=[profile?] >=dev-haskell/hnix-store-core-0.5:=[profile?] <dev-haskell/hnix-store-core-0.6:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/network:=[profile?] >=dev-haskell/nix-derivation-1.1.1:=[profile?] <dev-haskell/nix-derivation-2:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 RESTRICT=test
 SLOT=0/0.5.0.0
 SRC_URI=https://hackage.haskell.org/package/hnix-store-remote-0.5.0.0/hnix-store-remote-0.5.0.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=82b0704931c2c5e099b30588b49ec693
+_md5_=de5a180a144a0936381b26e22f750a1a

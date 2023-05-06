@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=https://github.com/ocharles/logging-effect
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/async-2.0:=[profile?] <dev-haskell/async-2.3:=[profile?] >=dev-haskell/free-4.12.1:=[profile?] <dev-haskell/free-5.2:=[profile?] >=dev-haskell/monad-control-1.0.0.4:=[profile?] <dev-haskell/monad-control-1.1:=[profile?] >=dev-haskell/prettyprinter-1.2:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/semigroups-0.16.2.2:=[profile?] <dev-haskell/semigroups-0.21:=[profile?] >=dev-haskell/stm-2.4.4.1:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-haskell/stm-delay-0.1.1.1:=[profile?] <dev-haskell/stm-delay-0.2:=[profile?] >=dev-haskell/transformers-base-0.4.4:=[profile?] <dev-haskell/transformers-base-0.5:=[profile?] >=dev-haskell/unliftio-core-0.2.0.0:=[profile?] <dev-haskell/unliftio-core-0.3:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?]
 SLOT=0/1.3.13
 SRC_URI=https://hackage.haskell.org/package/logging-effect-1.3.13/logging-effect-1.3.13.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=f6d2a8bcebe5a8a9926869ffd88943b6
+_md5_=f1b9d06a4ea6775a9ffa235155f2b4ce

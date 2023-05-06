@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=https://github.com/haskellari/these
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/assoc-1:=[profile?] <dev-haskell/assoc-1.1:=[profile?] >=dev-haskell/hashable-1.2.7.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 SLOT=0/1.1.1.1
 SRC_URI=https://hackage.haskell.org/package/these-1.1.1.1/these-1.1.1.1.tar.gz https://hackage.haskell.org/package/these-1.1.1.1/revision/5.cabal -> these-1.1.1.1-r1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=f68942dddb7a0196af5f4f6a0c178a63
+_md5_=c3c4a86710fe8aadb3d6cf40a09a2210

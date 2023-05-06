@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/composewell/bench-show
 INHERIT=haskell-cabal
 IUSE=+charts +colors doc hscolour hoogle profile test
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/csv-0.1:=[profile?] <dev-haskell/csv-0.2:=[profile?] >=dev-haskell/mwc-random-0.13:=[profile?] <dev-haskell/mwc-random-0.16:=[profile?] >=dev-haskell/optparse-applicative-0.14.2:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/optparse-simple-0.1.0:=[profile?] <dev-haskell/optparse-simple-0.2:=[profile?] >=dev-haskell/split-0.2:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/statistics-0.15:=[profile?] <dev-haskell/statistics-0.17:=[profile?] >=dev-haskell/vector-0.10:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] charts? ( >=dev-haskell/chart-1.6:=[profile?] <dev-haskell/chart-2:=[profile?] >=dev-haskell/chart-diagrams-1.6:=[profile?] <dev-haskell/chart-diagrams-2:=[profile?] ) colors? ( >=dev-haskell/ansi-wl-pprint-0.6:=[profile?] <dev-haskell/ansi-wl-pprint-0.7:=[profile?] )
 RESTRICT=!test? ( test )
 SLOT=0/0.3.2
 SRC_URI=https://hackage.haskell.org/package/bench-show-0.3.2/bench-show-0.3.2.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=da784a4b84cb2521d7c0c3197a35ada1
+_md5_=fe50a856d873d684fcced44e3e79c102

@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=https://github.com/xmonad/xmonad-extras
 INHERIT=haskell-cabal
 IUSE=+alsa +brightness +eval +mpd doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=dev-haskell/regex-posix:=[profile?] >=dev-haskell/x11-1.4.3:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=x11-wm/xmonad-0.10:=[profile?] >=x11-wm/xmonad-contrib-0.10:=[profile?] alsa? ( >=dev-haskell/alsa-mixer-0.3:=[profile?] ) eval? ( >=dev-haskell/hint-0.3.3.3:=[profile?] <dev-haskell/hint-0.10:=[profile?] dev-haskell/network:=[profile?] ) mpd? ( >=dev-haskell/libmpd-0.9:=[profile?] )
 SLOT=0/0.17.0
 SRC_URI=https://hackage.haskell.org/package/xmonad-extras-0.17.0/xmonad-extras-0.17.0.tar.gz https://hackage.haskell.org/package/xmonad-extras-0.17.0/revision/1.cabal -> xmonad-extras-0.17.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=5c2c77a8fc00a98c2c0a353151819d69
+_md5_=4d53f78989cac902d9108f1470b3d2ae

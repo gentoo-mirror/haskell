@@ -6,10 +6,10 @@ EAPI=8
 HOMEPAGE=https://github.com/haskell-gi/haskell-gi
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=LGPL-2.1
 RDEPEND=>=dev-haskell/gi-cairo-1.0:=[profile?] <dev-haskell/gi-cairo-1.1:=[profile?] >=dev-haskell/gi-gdk-3.0:=[profile?] <dev-haskell/gi-gdk-3.1:=[profile?] >=dev-haskell/gi-gio-2.0:=[profile?] <dev-haskell/gi-gio-2.1:=[profile?] >=dev-haskell/gi-gobject-2.0:=[profile?] <dev-haskell/gi-gobject-2.1:=[profile?] >=dev-haskell/gi-xlib-2.0:=[profile?] <dev-haskell/gi-xlib-2.1:=[profile?] >=dev-haskell/haskell-gi-0.26:=[profile?] <dev-haskell/haskell-gi-0.27:=[profile?] >=dev-haskell/haskell-gi-base-0.26:=[profile?] <dev-haskell/haskell-gi-base-0.27:=[profile?] <dev-haskell/haskell-gi-overloading-1.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] x11-libs/gtk+:3[X,introspection]
 SLOT=0/3.0.12
 SRC_URI=https://hackage.haskell.org/package/gi-gdkx11-3.0.12/gi-gdkx11-3.0.12.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=9d0ed030bf3608434b4ca91957f33497
+_md5_=ff85a954588d4f0b168b23bfb5c36073

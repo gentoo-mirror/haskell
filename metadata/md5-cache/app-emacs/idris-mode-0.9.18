@@ -4,11 +4,11 @@ DESCRIPTION=Idris syntax highlighting and (eventually) other things for emacs
 EAPI=8
 HOMEPAGE=https://github.com/idris-hackers/idris-mode
 INHERIT=elisp
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=app-emacs/haskell-mode >=app-editors/emacs-25.3:*
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/idris-hackers/idris-mode/archive/0.9.18.tar.gz -> idris-mode-0.9.18.tar.gz
 _eclasses_=elisp-common	dcd21c5d379fc2217e95f529504c5fe0	elisp	7190c722d9e06fabcae26ef1e1dc9183
-_md5_=5b21ac8379b55d0a0dcc660428a6097e
+_md5_=a9168c5296ee6270798708be26771201

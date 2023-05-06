@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/didi-FP/tcp-streams
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/hsopenssl-0.10.3:=[profile?] <dev-haskell/hsopenssl-0.12:=[profile?] >=dev-haskell/hsopenssl-x509-system-0.1:=[profile?] <dev-haskell/hsopenssl-x509-system-0.2:=[profile?] >=dev-haskell/io-streams-1.2:=[profile?] <dev-haskell/io-streams-2.0:=[profile?] >=dev-haskell/network-2.3:=[profile?] <dev-haskell/network-4.0:=[profile?] >=dev-haskell/tcp-streams-1.0:=[profile?] <dev-haskell/tcp-streams-1.1:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?]
 RESTRICT=test !test? ( test )
 SLOT=0/1.0.1.0
 SRC_URI=https://hackage.haskell.org/package/tcp-streams-openssl-1.0.1.0/tcp-streams-openssl-1.0.1.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=2a4b7542135ba3cfa2b241d1421ad97b
+_md5_=b932b94efc426ea3dff3c97e2ecf7ca9

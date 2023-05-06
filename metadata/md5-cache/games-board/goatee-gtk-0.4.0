@@ -6,11 +6,11 @@ EAPI=7
 HOMEPAGE=http://khumba.net/projects/goatee
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=AGPL-3
 RDEPEND=>=dev-games/goatee-0.4:=[profile?] <dev-games/goatee-0.5:=[profile?] >=dev-haskell/cairo-0.13:=[profile?] <dev-haskell/cairo-0.14:=[profile?] >=dev-haskell/glib-0.13:=[profile?] <dev-haskell/glib-0.14:=[profile?] >=dev-haskell/gtk-0.13:=[profile?] <dev-haskell/gtk-0.16:=[profile?] >=dev-haskell/mtl-2.1:=[profile?] <dev-haskell/mtl-2.3:=[profile?] >=dev-haskell/parsec-3.1:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.0
 SRC_URI=https://hackage.haskell.org/package/goatee-gtk-0.4.0/goatee-gtk-0.4.0.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=615696e8f77c2357a08e63325086c1a5
+_md5_=0ac548fc33f38a9fd56ad0916b09cb7d
