@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base64-0.4.1:=[profile?] <dev-haskell/base64-0.5:=[profile
 RESTRICT=!test? ( test )
 SLOT=0/0.0.1.0.9999_pre20220729
 SRC_URI=https://github.com/kowainik/stan/archive/dcbc8682a964ae6f642ae37adbd46f6545d39aa6.tar.gz -> stan-dcbc8682a964ae6f642ae37adbd46f6545d39aa6.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	d1408425c7c4a7669b9b17735404b693	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
 _md5_=dc716c7d3ffc02ead706d5eb7582b922
