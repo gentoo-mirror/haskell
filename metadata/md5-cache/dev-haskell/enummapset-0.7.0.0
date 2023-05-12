@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/semigroups-0.1:=[profile?] <dev-haskell/semigroups-1.0:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hunit >=dev-haskell/quickcheck-2.7.1 dev-haskell/test-framework dev-haskell/test-framework-hunit dev-haskell/test-framework-quickcheck2 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/semigroups-0.1:=[profile?] <dev-haskell/semigroups-1.0:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hunit >=dev-haskell/quickcheck-2.7.1 dev-haskell/test-framework dev-haskell/test-framework-hunit dev-haskell/test-framework-quickcheck2 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=IntMap and IntSet with Enum keys/elements
 EAPI=8
 HOMEPAGE=https://github.com/Mikolaj/enummapset
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=debug doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/semigroups-0.1:=[profile?] <dev-haskell/semigroups-1.0:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/semigroups-0.1:=[profile?] <dev-haskell/semigroups-1.0:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.7.0.0
 SRC_URI=https://hackage.haskell.org/package/enummapset-0.7.0.0/enummapset-0.7.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=e87b78d0d5ac986600d1581036dcb964
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=8d9a88214309a0c72a54d3e07ca4b32b

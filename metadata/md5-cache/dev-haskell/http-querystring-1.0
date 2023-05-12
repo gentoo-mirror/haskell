@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/http-types:=[profile?] >=dev-lang/ghc-6.10.4:=[profile?] >=dev-haskell/cabal-1.8 test? ( dev-haskell/doctest dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/http-types:=[profile?] >=dev-lang/ghc-6.10.4:= >=dev-haskell/cabal-1.8 test? ( dev-haskell/doctest dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=The HTTP query builder
 EAPI=8
 HOMEPAGE=https://github.com/worksap-ate/http-querystring
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/http-types:=[profile?] >=dev-lang/ghc-6.10.4:=[profile?]
+RDEPEND=dev-haskell/http-types:=[profile?] >=dev-lang/ghc-6.10.4:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0
 SRC_URI=https://hackage.haskell.org/package/http-querystring-1.0/http-querystring-1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=fe301a432ccbaa12d1aebaf24384c6d9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=3e0c32808d58693c2345ea0f3b0d4dcc

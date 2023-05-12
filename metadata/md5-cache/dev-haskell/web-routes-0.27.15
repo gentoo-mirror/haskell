@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] dev-haskell/split:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?] >=dev-haskell/cabal-3.2.0.0 test? ( dev-haskell/hspec dev-haskell/hunit dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] dev-haskell/split:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( dev-haskell/hspec dev-haskell/hunit dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=portable, type-safe URL routing
 EAPI=8
 HOMEPAGE=https://www.happstack.com/docs/crashcourse/index.html#web-routes
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] dev-haskell/split:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?]
+RDEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] dev-haskell/split:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-8.10.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.27.15
 SRC_URI=https://hackage.haskell.org/package/web-routes-0.27.15/web-routes-0.27.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=19006aa83c968197b8189c060bf3c5fe
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=5640a48fad222f75dcf560b9dd7a6fd7

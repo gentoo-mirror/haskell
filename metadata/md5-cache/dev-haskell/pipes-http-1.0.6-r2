@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/http-client-0.2:=[profile?] <dev-haskell/http-client-0.8:=[profile?] <dev-haskell/http-client-tls-0.4:=[profile?] >=dev-haskell/pipes-4.0:=[profile?] <dev-haskell/pipes-4.4:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.8.0.2 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/http-client-0.2:=[profile?] <dev-haskell/http-client-0.8:=[profile?] <dev-haskell/http-client-tls-0.4:=[profile?] >=dev-haskell/pipes-4.0:=[profile?] <dev-haskell/pipes-4.4:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8.0.2 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=HTTP client with pipes interface
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/pipes-http
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/http-client-0.2:=[profile?] <dev-haskell/http-client-0.8:=[profile?] <dev-haskell/http-client-tls-0.4:=[profile?] >=dev-haskell/pipes-4.0:=[profile?] <dev-haskell/pipes-4.4:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=>=dev-haskell/http-client-0.2:=[profile?] <dev-haskell/http-client-0.8:=[profile?] <dev-haskell/http-client-tls-0.4:=[profile?] >=dev-haskell/pipes-4.0:=[profile?] <dev-haskell/pipes-4.4:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.0.6
 SRC_URI=https://hackage.haskell.org/package/pipes-http-1.0.6/pipes-http-1.0.6.tar.gz https://hackage.haskell.org/package/pipes-http-1.0.6/revision/1.cabal -> pipes-http-1.0.6-r2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=40e86593ace928cbdbd06f718e1549b3
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=efaaad7a400415f62cee30f482596a8d

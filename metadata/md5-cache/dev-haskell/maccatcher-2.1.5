@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/binary:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/binary:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Obtain the host MAC address on *NIX and Windows
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/maccatcher
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/binary:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=dev-haskell/binary:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/2.1.5
 SRC_URI=https://hackage.haskell.org/package/maccatcher-2.1.5/maccatcher-2.1.5.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=5eb2ea8a2b4d065f26857d90084707cc
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=5b5cb17223bf3b9e7d20a416bc91d9a2

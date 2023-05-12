@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/ghc-exactprint-0.6.4:=[profile?] || ( dev-lang/ghc >=dev-haskell/process-1.6[profile?] ) >=dev-haskell/refact-0.2:=[profile?] >=dev-haskell/syb-0.7.1:=[profile?] >=dev-haskell/uniplate-1.6.13:=[profile?] >=dev-haskell/unix-compat-0.5.2:=[profile?] >=dev-lang/ghc-8.6.5:=[profile?] executable? ( >=dev-haskell/optparse-applicative-0.15.1.0:=[profile?] ) >=dev-haskell/cabal-2.4.0.1 test? ( dev-haskell/optparse-applicative dev-haskell/silently dev-haskell/tasty dev-haskell/tasty-expected-failure dev-haskell/tasty-golden ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/ghc-exactprint-0.6.4:=[profile?] || ( dev-lang/ghc >=dev-haskell/process-1.6[profile?] ) >=dev-haskell/refact-0.2:=[profile?] >=dev-haskell/syb-0.7.1:=[profile?] >=dev-haskell/uniplate-1.6.13:=[profile?] >=dev-haskell/unix-compat-0.5.2:=[profile?] >=dev-lang/ghc-8.6.5:= executable? ( >=dev-haskell/optparse-applicative-0.15.1.0:=[profile?] ) >=dev-haskell/cabal-2.4.0.1 test? ( dev-haskell/optparse-applicative dev-haskell/silently dev-haskell/tasty dev-haskell/tasty-expected-failure dev-haskell/tasty-golden ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Perform refactorings specified by the refact library
 EAPI=8
 HOMEPAGE=https://github.com/mpickering/apply-refact
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=executable doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/ghc-exactprint-0.6.4:=[profile?] || ( dev-lang/ghc >=dev-haskell/process-1.6[profile?] ) >=dev-haskell/refact-0.2:=[profile?] >=dev-haskell/syb-0.7.1:=[profile?] >=dev-haskell/uniplate-1.6.13:=[profile?] >=dev-haskell/unix-compat-0.5.2:=[profile?] >=dev-lang/ghc-8.6.5:=[profile?] executable? ( >=dev-haskell/optparse-applicative-0.15.1.0:=[profile?] )
+RDEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/ghc-exactprint-0.6.4:=[profile?] || ( dev-lang/ghc >=dev-haskell/process-1.6[profile?] ) >=dev-haskell/refact-0.2:=[profile?] >=dev-haskell/syb-0.7.1:=[profile?] >=dev-haskell/uniplate-1.6.13:=[profile?] >=dev-haskell/unix-compat-0.5.2:=[profile?] >=dev-lang/ghc-8.6.5:= executable? ( >=dev-haskell/optparse-applicative-0.15.1.0:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.9.3.0
 SRC_URI=https://hackage.haskell.org/package/apply-refact-0.9.3.0/apply-refact-0.9.3.0.tar.gz https://hackage.haskell.org/package/apply-refact-0.9.3.0/revision/1.cabal -> apply-refact-0.9.3.0-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=aaffc3d5820d59420a2468c7e2bc1dda
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=0a62752f414818737ae1c9add96db1e6

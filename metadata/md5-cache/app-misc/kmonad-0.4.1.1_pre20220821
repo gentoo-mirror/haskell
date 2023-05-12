@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Advanced keyboard remapping utility
 EAPI=8
 HOMEPAGE=https://github.com/kmonad/kmonad#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.1.1_pre20220821
 SRC_URI=https://github.com/kmonad/kmonad/archive/296e463fe7761a919a2a3e39599293526ce55454.tar.gz -> kmonad-296e463fe7761a919a2a3e39599293526ce55454.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=05d9fb0b4412c57851c1822efad9c582
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=5a13d1f3d3f6b8ce46d368075dee5a47

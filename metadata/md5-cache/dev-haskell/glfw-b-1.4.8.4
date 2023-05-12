@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/bindings-glfw-3.2.1.0:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.10 test? ( >=dev-haskell/hunit-1.3 <dev-haskell/hunit-1.7 >=dev-haskell/test-framework-0.8 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.3 <dev-haskell/test-framework-hunit-0.4 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/bindings-glfw-3.2.1.0:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( >=dev-haskell/hunit-1.3 <dev-haskell/hunit-1.7 >=dev-haskell/test-framework-0.8 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.3 <dev-haskell/test-framework-hunit-0.4 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Bindings to GLFW OpenGL library
 EAPI=7
 HOMEPAGE=https://hackage.haskell.org/package/GLFW-b
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/bindings-glfw-3.2.1.0:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=>=dev-haskell/bindings-glfw-3.2.1.0:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/1.4.8.4
 SRC_URI=https://hackage.haskell.org/package/GLFW-b-1.4.8.4/GLFW-b-1.4.8.4.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=22a2140946e532dbaf8ce6c036948594
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=ab67acd0b68719c32636648c7f33034d

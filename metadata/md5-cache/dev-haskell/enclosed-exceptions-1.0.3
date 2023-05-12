@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/lifted-base-0.2:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/transformers-base:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?] >=dev-haskell/cabal-1.18.1.3 test? ( >=dev-haskell/async-2.0 >=dev-haskell/hspec-1.3 dev-haskell/quickcheck dev-haskell/stm ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/lifted-base-0.2:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/transformers-base:=[profile?] >=dev-lang/ghc-7.8.2:= >=dev-haskell/cabal-1.18.1.3 test? ( >=dev-haskell/async-2.0 >=dev-haskell/hspec-1.3 dev-haskell/quickcheck dev-haskell/stm ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Catching all exceptions from within an enclosed computation
 EAPI=8
 HOMEPAGE=https://github.com/jcristovao/enclosed-exceptions
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/lifted-base-0.2:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/transformers-base:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?]
+RDEPEND=>=dev-haskell/lifted-base-0.2:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/transformers-base:=[profile?] >=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0.3
 SRC_URI=https://hackage.haskell.org/package/enclosed-exceptions-1.0.3/enclosed-exceptions-1.0.3.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=c2737e02dc2e5d7b4e382ef8183e42e1
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=a3f05cff8d315c8c228731e35cd05b6e

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-1.4.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/fgl-5.7.0:=[profile?] <dev-haskell/fgl-5.8.1.0:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-haskell/quickcheck-2.14.2:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/regex-tdfa-1.2.0:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-1.4.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/fgl-5.7.0:=[profile?] <dev-haskell/fgl-5.8.1.0:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-haskell/quickcheck-2.14.2:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/regex-tdfa-1.2.0:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Shell script analysis tool
 EAPI=8
 HOMEPAGE=https://www.shellcheck.net/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=>=dev-haskell/aeson-1.4.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/fgl-5.7.0:=[profile?] <dev-haskell/fgl-5.8.1.0:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-haskell/quickcheck-2.14.2:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/regex-tdfa-1.2.0:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=>=dev-haskell/aeson-1.4.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] >=dev-haskell/fgl-5.7.0:=[profile?] <dev-haskell/fgl-5.8.1.0:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-haskell/quickcheck-2.14.2:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/regex-tdfa-1.2.0:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.9.0
 SRC_URI=https://hackage.haskell.org/package/ShellCheck-0.9.0/ShellCheck-0.9.0.tar.gz -> shellcheck-0.9.0.tar.gz https://hackage.haskell.org/package/ShellCheck-0.9.0/revision/1.cabal -> shellcheck-0.9.0-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=280971989f296ac8ef6901595030d559
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=5cfa719d8cbb11b469c63aa839e139c4

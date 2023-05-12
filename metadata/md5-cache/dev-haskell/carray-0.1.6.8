@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/ix-shapable-0.1:=[profile?] <dev-haskell/ix-shapable-0.2:=[profile?] >=dev-haskell/quickcheck-2.4:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.14 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/ix-shapable-0.1:=[profile?] <dev-haskell/ix-shapable-0.2:=[profile?] >=dev-haskell/quickcheck-2.4:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.14 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A C-compatible array library
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/carray
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/ix-shapable-0.1:=[profile?] <dev-haskell/ix-shapable-0.2:=[profile?] >=dev-haskell/quickcheck-2.4:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=>=dev-haskell/ix-shapable-0.1:=[profile?] <dev-haskell/ix-shapable-0.2:=[profile?] >=dev-haskell/quickcheck-2.4:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.6.8
 SRC_URI=https://hackage.haskell.org/package/carray-0.1.6.8/carray-0.1.6.8.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=2c5a4a1be26254350d95d591c0a8cc8a
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=9aa36c4b06136157b6089872eb16782c

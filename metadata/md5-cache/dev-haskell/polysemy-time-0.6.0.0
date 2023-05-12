@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-1.4:=[profile?] >=dev-haskell/incipit-core-0.4:=[profile?] >=dev-haskell/torsor-0.1:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/polysemy-test-0.6 dev-haskell/tasty ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-1.4:=[profile?] >=dev-haskell/incipit-core-0.4:=[profile?] >=dev-haskell/torsor-0.1:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/polysemy-test-0.6 dev-haskell/tasty ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Polysemy effects for time
 EAPI=8
 HOMEPAGE=https://github.com/tek/polysemy-time#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/aeson-1.4:=[profile?] >=dev-haskell/incipit-core-0.4:=[profile?] >=dev-haskell/torsor-0.1:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=>=dev-haskell/aeson-1.4:=[profile?] >=dev-haskell/incipit-core-0.4:=[profile?] >=dev-haskell/torsor-0.1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.6.0.0
 SRC_URI=https://hackage.haskell.org/package/polysemy-time-0.6.0.0/polysemy-time-0.6.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=91ca24d10622d2b1a5e909bc8eea83fe
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=c0f33a740bf1263d20c05bfa7443e03c

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=MurmurHash2 implementation for Haskell
 EAPI=8
 HOMEPAGE=https://github.com/nominolo/murmur-hash
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=>=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.0.10
 SRC_URI=https://hackage.haskell.org/package/murmur-hash-0.1.0.10/murmur-hash-0.1.0.10.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=d00aae79d390d5107dce553e2c5c6fc6
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=ef2c183914c6c1c095cff3bf094b0fd7

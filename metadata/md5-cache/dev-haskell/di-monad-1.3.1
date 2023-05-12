@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/di-core:=[profile?] dev-haskell/pipes:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?] >=dev-haskell/cabal-3.2.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/di-core:=[profile?] dev-haskell/pipes:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=mtl flavoured typeful hierarchical structured logging for di-core
 EAPI=8
 HOMEPAGE=https://github.com/k0001/di
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/di-core:=[profile?] dev-haskell/pipes:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?]
+RDEPEND=dev-haskell/di-core:=[profile?] dev-haskell/pipes:=[profile?] >=dev-lang/ghc-8.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.3.1
 SRC_URI=https://hackage.haskell.org/package/di-monad-1.3.1/di-monad-1.3.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=54fdd95e1a384aa07fbbe714966c325d
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=1d743ba6ad8dbc9217efc6ba0e553dc7

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:=[profile?] sys-libs/zlib >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.4.3:= sys-libs/zlib >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/digest
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~amd64-linux
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=[profile?] sys-libs/zlib
+RDEPEND=>=dev-lang/ghc-8.4.3:= sys-libs/zlib dev-lang/ghc:=[profile?]
 SLOT=0/0.0.1.3
 SRC_URI=https://hackage.haskell.org/package/digest-0.0.1.3/digest-0.0.1.3.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=66adcd5cdc5576b5925ecc5105b4663d
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=c3e53843e55eb0ec4ac29dc82740e60b

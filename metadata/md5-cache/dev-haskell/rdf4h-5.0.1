@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/algebraic-graphs-0.5:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/html-entities:=[profile?] >=dev-haskell/http-conduit-2.2.0:=[profile?] dev-haskell/lifted-base:=[profile?] dev-haskell/mmorph:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/parsers:=[profile?] dev-haskell/selective:=[profile?] >=dev-haskell/unordered-containers-0.2.10.0:=[profile?] dev-haskell/xeno:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?] >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/hunit-1.2.2.1 >=dev-haskell/quickcheck-1.2.0.0 dev-haskell/safe dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/temporary ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/algebraic-graphs-0.5:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/html-entities:=[profile?] >=dev-haskell/http-conduit-2.2.0:=[profile?] dev-haskell/lifted-base:=[profile?] dev-haskell/mmorph:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/parsers:=[profile?] dev-haskell/selective:=[profile?] >=dev-haskell/unordered-containers-0.2.10.0:=[profile?] dev-haskell/xeno:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/hunit-1.2.2.1 >=dev-haskell/quickcheck-1.2.0.0 dev-haskell/safe dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/temporary ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A library for RDF processing in Haskell
 EAPI=8
 HOMEPAGE=https://github.com/robstewart57/rdf4h
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/algebraic-graphs-0.5:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/html-entities:=[profile?] >=dev-haskell/http-conduit-2.2.0:=[profile?] dev-haskell/lifted-base:=[profile?] dev-haskell/mmorph:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/parsers:=[profile?] dev-haskell/selective:=[profile?] >=dev-haskell/unordered-containers-0.2.10.0:=[profile?] dev-haskell/xeno:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?]
+RDEPEND=>=dev-haskell/algebraic-graphs-0.5:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/html-entities:=[profile?] >=dev-haskell/http-conduit-2.2.0:=[profile?] dev-haskell/lifted-base:=[profile?] dev-haskell/mmorph:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/parsers:=[profile?] dev-haskell/selective:=[profile?] >=dev-haskell/unordered-containers-0.2.10.0:=[profile?] dev-haskell/xeno:=[profile?] >=dev-lang/ghc-8.10.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/5.0.1
 SRC_URI=https://hackage.haskell.org/package/rdf4h-5.0.1/rdf4h-5.0.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=fb9bc22c33c68e216977fe59979afbe9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=79616d3fee503b4c2de31038224bd8c0

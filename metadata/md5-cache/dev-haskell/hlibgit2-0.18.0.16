@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/bindings-dsl-1.0.11:=[profile?] >=dev-haskell/zlib-0.5.4:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] dev-libs/openssl virtual/libc >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/bindings-dsl-1.0.11:=[profile?] >=dev-haskell/zlib-0.5.4:=[profile?] >=dev-lang/ghc-7.4.1:= dev-libs/openssl virtual/libc >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Low-level bindings to libgit2
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/hlibgit2
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/bindings-dsl-1.0.11:=[profile?] >=dev-haskell/zlib-0.5.4:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] dev-libs/openssl virtual/libc
+RDEPEND=>=dev-haskell/bindings-dsl-1.0.11:=[profile?] >=dev-haskell/zlib-0.5.4:=[profile?] >=dev-lang/ghc-7.4.1:= dev-libs/openssl virtual/libc dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.18.0.16
 SRC_URI=https://hackage.haskell.org/package/hlibgit2-0.18.0.16/hlibgit2-0.18.0.16.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=431b67bbf8738ad7ef382e1de7f033d4
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=b31563b19946656e03758a62a5d95b8e

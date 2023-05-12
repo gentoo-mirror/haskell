@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/ap-normalize-0.1:=[profile?] <dev-haskell/ap-normalize-0.2:=[profile?] >=dev-haskell/base-orphans-0.8:=[profile?] dev-haskell/contravariant:=[profile?] dev-haskell/show-combinators:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/generic-lens-1.1.0.0 >=dev-haskell/one-liner-1.0 >=dev-haskell/show-combinators-0.2 dev-haskell/tasty dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/ap-normalize-0.1:=[profile?] <dev-haskell/ap-normalize-0.2:=[profile?] >=dev-haskell/base-orphans-0.8:=[profile?] dev-haskell/contravariant:=[profile?] dev-haskell/show-combinators:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/generic-lens-1.1.0.0 >=dev-haskell/one-liner-1.0 >=dev-haskell/show-combinators-0.2 dev-haskell/tasty dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Deriving instances with GHC.Generics and related utilities
 EAPI=8
 HOMEPAGE=https://github.com/Lysxia/generic-data#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/ap-normalize-0.1:=[profile?] <dev-haskell/ap-normalize-0.2:=[profile?] >=dev-haskell/base-orphans-0.8:=[profile?] dev-haskell/contravariant:=[profile?] dev-haskell/show-combinators:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/ap-normalize-0.1:=[profile?] <dev-haskell/ap-normalize-0.2:=[profile?] >=dev-haskell/base-orphans-0.8:=[profile?] dev-haskell/contravariant:=[profile?] dev-haskell/show-combinators:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0.0.1
 SRC_URI=https://hackage.haskell.org/package/generic-data-1.0.0.1/generic-data-1.0.0.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=dd313a7667dc9040c60cd1154fffbc8f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=79834e4b475aba9d41bfa43925846ea5

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/lua-2.0:=[profile?] <dev-haskell/lua-2.4:=[profile?] >=dev-haskell/quickcheck-2.7:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/lua-2.0:=[profile?] <dev-haskell/lua-2.4:=[profile?] >=dev-haskell/quickcheck-2.7:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Arbitrary instances for Lua types
 EAPI=8
 HOMEPAGE=https://hslua.org/
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/lua-2.0:=[profile?] <dev-haskell/lua-2.4:=[profile?] >=dev-haskell/quickcheck-2.7:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=>=dev-haskell/lua-2.0:=[profile?] <dev-haskell/lua-2.4:=[profile?] >=dev-haskell/quickcheck-2.7:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.0.1.1
 SRC_URI=https://hackage.haskell.org/package/lua-arbitrary-1.0.1.1/lua-arbitrary-1.0.1.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=56595f6acfc89ce5fdd00eea4b9d89b8
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=4b21f437f6a5f13f1b9844d89749a1f7

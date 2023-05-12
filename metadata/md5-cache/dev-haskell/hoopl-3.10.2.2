@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.6.1:=[profile?] >=dev-haskell/cabal-1.16.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-7.6.1:= >=dev-haskell/cabal-1.16.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A library to support dataflow analysis and optimization
 EAPI=8
 HOMEPAGE=https://github.com/haskell/hoopl
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.6.1:=[profile?]
+RDEPEND=>=dev-lang/ghc-7.6.1:= dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/3.10.2.2
 SRC_URI=https://hackage.haskell.org/package/hoopl-3.10.2.2/hoopl-3.10.2.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=01a76fac8fd485aceb1a472c2b4edfbf
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=5e82f123b7020a792c50fea13a5ab7c6

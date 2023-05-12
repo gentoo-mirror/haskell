@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/mono-traversable:=[profile?] >=dev-haskell/primitive-0.5.2.1:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.0.1:=[profile?] >=dev-haskell/cabal-1.24.0.0 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/mono-traversable:=[profile?] >=dev-haskell/primitive-0.5.2.1:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.0.1:= >=dev-haskell/cabal-1.24.0.0 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Abstractions and concrete implementations of mutable containers
 EAPI=8
 HOMEPAGE=https://github.com/snoyberg/mono-traversable#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/mono-traversable:=[profile?] >=dev-haskell/primitive-0.5.2.1:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.0.1:=[profile?]
+RDEPEND=dev-haskell/mono-traversable:=[profile?] >=dev-haskell/primitive-0.5.2.1:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.0.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.3.4
 SRC_URI=https://hackage.haskell.org/package/mutable-containers-0.3.4/mutable-containers-0.3.4.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=f4ab4f441c5cf4b199af1029f3802b45
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=b92cf6b3e5d451a325eead6a40225518

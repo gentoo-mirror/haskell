@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/generic-deriving-1.10:=[profile?] >=dev-haskell/listlike-4.4:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hunit ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/generic-deriving-1.10:=[profile?] >=dev-haskell/listlike-4.4:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hunit ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Process extras
 EAPI=8
 HOMEPAGE=https://github.com/seereason/process-extras
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/generic-deriving-1.10:=[profile?] >=dev-haskell/listlike-4.4:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/generic-deriving-1.10:=[profile?] >=dev-haskell/listlike-4.4:=[profile?] || ( dev-lang/ghc dev-haskell/process[profile?] ) >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.7.4
 SRC_URI=https://hackage.haskell.org/package/process-extras-0.7.4/process-extras-0.7.4.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=a3f83cf5dfecbf0fca1a33a4b7ebedcc
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=cc0f60cb7028c2de290422f58dd04726

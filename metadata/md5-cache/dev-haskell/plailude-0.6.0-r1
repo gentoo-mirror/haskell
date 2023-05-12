@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/mtl-2.2.1:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?] >=dev-haskell/cabal-1.18.1.3 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/mtl-2.2.1:=[profile?] >=dev-lang/ghc-7.8.2:= >=dev-haskell/cabal-1.18.1.3 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=plaimi's prelude
 EAPI=8
 HOMEPAGE=https://secure.plaimi.net/works/plailude
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=>=dev-haskell/mtl-2.2.1:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?]
+RDEPEND=>=dev-haskell/mtl-2.2.1:=[profile?] >=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.6.0
 SRC_URI=https://hackage.haskell.org/package/plailude-0.6.0/plailude-0.6.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=825a640dc3cbe2ccb2288bee68e41c3e
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=c87c943521823d5b29b7e80357143dfc

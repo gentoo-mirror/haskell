@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cmdargs:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] dev-haskell/th-lift:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/base-unicode-symbols dev-haskell/hspec dev-haskell/lens dev-haskell/tar dev-haskell/temporary dev-haskell/wreq dev-haskell/zlib ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cmdargs:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] dev-haskell/th-lift:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/base-unicode-symbols dev-haskell/hspec dev-haskell/lens dev-haskell/tar dev-haskell/temporary dev-haskell/wreq dev-haskell/zlib ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A mustache template parser library
 EAPI=8
 HOMEPAGE=https://github.com/JustusAdam/mustache
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cmdargs:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] dev-haskell/th-lift:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cmdargs:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] dev-haskell/th-lift:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/2.4.2
 SRC_URI=https://hackage.haskell.org/package/mustache-2.4.2/mustache-2.4.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=b0e50d45efb78f95c3816e2b59c04f21
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=3113afc8e524d48d66823f84e4f1c4ef

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=~dev-haskell/incipit-base-0.5.1.0:=[profile?] >=dev-haskell/polysemy-1.6:=[profile?] <dev-haskell/polysemy-2:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=~dev-haskell/incipit-base-0.5.1.0:=[profile?] >=dev-haskell/polysemy-1.6:=[profile?] <dev-haskell/polysemy-2:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A Prelude for Polysemy
 EAPI=8
 HOMEPAGE=https://github.com/tek/incipit-core#readme
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD-2-with-patent
-RDEPEND=~dev-haskell/incipit-base-0.5.1.0:=[profile?] >=dev-haskell/polysemy-1.6:=[profile?] <dev-haskell/polysemy-2:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=~dev-haskell/incipit-base-0.5.1.0:=[profile?] >=dev-haskell/polysemy-1.6:=[profile?] <dev-haskell/polysemy-2:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.5.1.0
 SRC_URI=https://hackage.haskell.org/package/incipit-core-0.5.1.0/incipit-core-0.5.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=a269927dfc489094b02beaf55d13bf05
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=b456d438b55cabdc6eddc34c56570e3c

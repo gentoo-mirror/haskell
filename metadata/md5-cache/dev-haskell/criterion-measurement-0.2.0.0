@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-0.8:=[profile?] >=dev-haskell/base-compat-0.9:=[profile?] >=dev-haskell/vector-0.7.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-0.8:=[profile?] >=dev-haskell/base-compat-0.9:=[profile?] >=dev-haskell/vector-0.7.1:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Criterion measurement functionality and associated types
 EAPI=8
 HOMEPAGE=https://github.com/haskell/criterion
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/aeson-0.8:=[profile?] >=dev-haskell/base-compat-0.9:=[profile?] >=dev-haskell/vector-0.7.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/aeson-0.8:=[profile?] >=dev-haskell/base-compat-0.9:=[profile?] >=dev-haskell/vector-0.7.1:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/0.2.0.0
 SRC_URI=https://hackage.haskell.org/package/criterion-measurement-0.2.0.0/criterion-measurement-0.2.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=bb75ac664e50ed282d7bbc6a29e1874c
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=ea7cf4e4a04e6facd8ec20f8fae14030

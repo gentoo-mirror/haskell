@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/primitive:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] mono-traversable? ( dev-haskell/mono-traversable:=[profile?] ) >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hunit dev-haskell/should-not-typecheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/primitive:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:= mono-traversable? ( dev-haskell/mono-traversable:=[profile?] ) >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hunit dev-haskell/should-not-typecheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A newtype-friendly variant of unboxed vectors
 EAPI=8
 HOMEPAGE=https://github.com/minoki/unboxing-vector#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=+mono-traversable doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/primitive:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] mono-traversable? ( dev-haskell/mono-traversable:=[profile?] )
+RDEPEND=dev-haskell/primitive:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:= mono-traversable? ( dev-haskell/mono-traversable:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.0.0
 SRC_URI=https://hackage.haskell.org/package/unboxing-vector-0.2.0.0/unboxing-vector-0.2.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=03c8c18bc6a9737fd927248ac93f69c6
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=b5d1a4183a7393238c816730c9376fb2

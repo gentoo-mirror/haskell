@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=executable doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/ghc-exactprint-1.5.0:=[profile?] <dev-haskell/ghc-exactprint-1.7:=[profile?] dev-haskell/ghc-paths:=[profile?] >=dev-haskell/refact-0.2:=[profile?] >=dev-haskell/syb-0.7.1:=[profile?] >=dev-haskell/uniplate-1.6.13:=[profile?] >=dev-haskell/unix-compat-0.5.2:=[profile?] >=dev-lang/ghc-9.2.1:=[profile?] executable? ( >=dev-haskell/optparse-applicative-0.15.1.0:=[profile?] )
+RDEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/ghc-exactprint-1.5.0:=[profile?] <dev-haskell/ghc-exactprint-1.7:=[profile?] dev-haskell/ghc-paths:=[profile?] >=dev-haskell/refact-0.2:=[profile?] >=dev-haskell/syb-0.7.1:=[profile?] >=dev-haskell/uniplate-1.6.13:=[profile?] >=dev-haskell/unix-compat-0.5.2:=[profile?] >=dev-lang/ghc-9.2.1:=[profile?] executable? ( >=dev-haskell/optparse-applicative-0.15.1.0:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.12.0.0
 SRC_URI=https://hackage.haskell.org/package/apply-refact-0.12.0.0/apply-refact-0.12.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=d517e22ba44e1ea6e62a2abe2290d0d0

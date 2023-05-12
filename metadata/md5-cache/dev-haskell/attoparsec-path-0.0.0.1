@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/path:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?] >=dev-haskell/cabal-1.18.1.3 test? ( dev-haskell/quickcheck dev-haskell/quickcheck-instances ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/path:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.8.2:= >=dev-haskell/cabal-1.18.1.3 test? ( dev-haskell/quickcheck dev-haskell/quickcheck-instances ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Convenience bindings between path and attoparsec
 EAPI=8
 HOMEPAGE=https://github.com/athanclark/attoparsec-path#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/path:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.8.2:=[profile?]
+RDEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/path:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.0.0.1
 SRC_URI=https://hackage.haskell.org/package/attoparsec-path-0.0.0.1/attoparsec-path-0.0.0.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=b4c12401f9f3b4854cfabf3f2e8af726
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=4819e3b4b9c0558992ea8458dd14c8df

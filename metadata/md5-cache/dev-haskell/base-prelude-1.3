@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.6.1:=[profile?] >=dev-haskell/cabal-1.16.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-7.6.1:= >=dev-haskell/cabal-1.16.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=The most complete prelude formed solely from the \
 EAPI=8
 HOMEPAGE=https://github.com/nikita-volkov/base-prelude
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-lang/ghc-7.6.1:=[profile?]
+RDEPEND=>=dev-lang/ghc-7.6.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.3
 SRC_URI=https://hackage.haskell.org/package/base-prelude-1.3/base-prelude-1.3.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=522d3871496c7ce4f34e4034f5ceb2f1
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=c45637e92ec192e2ea63f2ad0237cc12

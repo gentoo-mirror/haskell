@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/tasty-0.12:=[profile?] <dev-haskell/tasty-1.5:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/tasty-hunit-0.9 <dev-haskell/tasty-hunit-0.11 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/tasty-0.12:=[profile?] <dev-haskell/tasty-1.5:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/tasty-hunit-0.9 <dev-haskell/tasty-hunit-0.11 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Fancy Travis CI output for tasty tests
 EAPI=8
 HOMEPAGE=https://github.com/merijn/tasty-travis
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/tasty-0.12:=[profile?] <dev-haskell/tasty-1.5:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/tasty-0.12:=[profile?] <dev-haskell/tasty-1.5:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.0.2
 SRC_URI=https://hackage.haskell.org/package/tasty-travis-0.2.0.2/tasty-travis-0.2.0.2.tar.gz https://hackage.haskell.org/package/tasty-travis-0.2.0.2/revision/5.cabal -> tasty-travis-0.2.0.2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=c056e52a19726eae32f3d3e346d610c8
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=dc002a65151f1634bf27f88b5759f487

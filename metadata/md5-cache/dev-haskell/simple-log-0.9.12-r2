@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/async-2.0:=[profile?] <dev-haskell/async-3.0:=[profile?] >=dev-haskell/base-unicode-symbols-0.2:=[profile?] <dev-haskell/base-unicode-symbols-0.3:=[profile?] >=dev-haskell/data-default-0.5:=[profile?] <dev-haskell/data-default-0.8:=[profile?] >=dev-haskell/hformat-0.3:=[profile?] <dev-haskell/hformat-0.4:=[profile?] >=dev-haskell/microlens-0.4:=[profile?] <dev-haskell/microlens-0.5:=[profile?] >=dev-haskell/microlens-platform-0.3:=[profile?] <dev-haskell/microlens-platform-0.5:=[profile?] >=dev-haskell/mmorph-1.0:=[profile?] >=dev-haskell/safesemaphore-0.9.0:=[profile?] <dev-haskell/safesemaphore-1.0.0:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?] >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/hspec-2.3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/async-2.0:=[profile?] <dev-haskell/async-3.0:=[profile?] >=dev-haskell/base-unicode-symbols-0.2:=[profile?] <dev-haskell/base-unicode-symbols-0.3:=[profile?] >=dev-haskell/data-default-0.5:=[profile?] <dev-haskell/data-default-0.8:=[profile?] >=dev-haskell/hformat-0.3:=[profile?] <dev-haskell/hformat-0.4:=[profile?] >=dev-haskell/microlens-0.4:=[profile?] <dev-haskell/microlens-0.5:=[profile?] >=dev-haskell/microlens-platform-0.3:=[profile?] <dev-haskell/microlens-platform-0.5:=[profile?] >=dev-haskell/mmorph-1.0:=[profile?] >=dev-haskell/safesemaphore-0.9.0:=[profile?] <dev-haskell/safesemaphore-1.0.0:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/hspec-2.3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Simple log for Haskell
 EAPI=8
 HOMEPAGE=https://github.com/mvoidex/simple-log
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/async-2.0:=[profile?] <dev-haskell/async-3.0:=[profile?] >=dev-haskell/base-unicode-symbols-0.2:=[profile?] <dev-haskell/base-unicode-symbols-0.3:=[profile?] >=dev-haskell/data-default-0.5:=[profile?] <dev-haskell/data-default-0.8:=[profile?] >=dev-haskell/hformat-0.3:=[profile?] <dev-haskell/hformat-0.4:=[profile?] >=dev-haskell/microlens-0.4:=[profile?] <dev-haskell/microlens-0.5:=[profile?] >=dev-haskell/microlens-platform-0.3:=[profile?] <dev-haskell/microlens-platform-0.5:=[profile?] >=dev-haskell/mmorph-1.0:=[profile?] >=dev-haskell/safesemaphore-0.9.0:=[profile?] <dev-haskell/safesemaphore-1.0.0:=[profile?] >=dev-lang/ghc-8.10.1:=[profile?]
+RDEPEND=>=dev-haskell/async-2.0:=[profile?] <dev-haskell/async-3.0:=[profile?] >=dev-haskell/base-unicode-symbols-0.2:=[profile?] <dev-haskell/base-unicode-symbols-0.3:=[profile?] >=dev-haskell/data-default-0.5:=[profile?] <dev-haskell/data-default-0.8:=[profile?] >=dev-haskell/hformat-0.3:=[profile?] <dev-haskell/hformat-0.4:=[profile?] >=dev-haskell/microlens-0.4:=[profile?] <dev-haskell/microlens-0.5:=[profile?] >=dev-haskell/microlens-platform-0.3:=[profile?] <dev-haskell/microlens-platform-0.5:=[profile?] >=dev-haskell/mmorph-1.0:=[profile?] >=dev-haskell/safesemaphore-0.9.0:=[profile?] <dev-haskell/safesemaphore-1.0.0:=[profile?] >=dev-lang/ghc-8.10.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.9.12
 SRC_URI=https://hackage.haskell.org/package/simple-log-0.9.12/simple-log-0.9.12.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=7729b6bccf4ef33c7981631e7eab37ef
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=f6a259532544d32cede183c01561a5d9

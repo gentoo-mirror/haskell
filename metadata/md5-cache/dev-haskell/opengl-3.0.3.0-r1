@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/gluraw-2.0:=[profile?] <dev-haskell/gluraw-2.1:=[profile?] >=dev-haskell/objectname-1.1:=[profile?] <dev-haskell/objectname-1.2:=[profile?] >=dev-haskell/openglraw-3.0:=[profile?] <dev-haskell/openglraw-3.4:=[profile?] >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.3:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/gluraw-2.0:=[profile?] <dev-haskell/gluraw-2.1:=[profile?] >=dev-haskell/objectname-1.1:=[profile?] <dev-haskell/objectname-1.2:=[profile?] >=dev-haskell/openglraw-3.0:=[profile?] <dev-haskell/openglraw-3.4:=[profile?] >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.3:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A binding for the OpenGL graphics system
 EAPI=8
 HOMEPAGE=https://wiki.haskell.org/OpenGL
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/gluraw-2.0:=[profile?] <dev-haskell/gluraw-2.1:=[profile?] >=dev-haskell/objectname-1.1:=[profile?] <dev-haskell/objectname-1.2:=[profile?] >=dev-haskell/openglraw-3.0:=[profile?] <dev-haskell/openglraw-3.4:=[profile?] >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.3:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=>=dev-haskell/gluraw-2.0:=[profile?] <dev-haskell/gluraw-2.1:=[profile?] >=dev-haskell/objectname-1.1:=[profile?] <dev-haskell/objectname-1.2:=[profile?] >=dev-haskell/openglraw-3.0:=[profile?] <dev-haskell/openglraw-3.4:=[profile?] >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.3:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/3.0.3.0
 SRC_URI=https://hackage.haskell.org/package/OpenGL-3.0.3.0/OpenGL-3.0.3.0.tar.gz -> opengl-3.0.3.0.tar.gz https://hackage.haskell.org/package/OpenGL-3.0.3.0/revision/2.cabal -> opengl-3.0.3.0-rev2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=1e217b65f45bd35b2045354e67ce5ee5
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=d22e4f8ee19ba89540a5aa5773611b32

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/crypto-api-0.10:=[profile?] <dev-haskell/crypto-api-0.14:=[profile?] >=dev-haskell/crypto-pubkey-types-0.2:=[profile?] <dev-haskell/crypto-pubkey-types-0.6:=[profile?] >=dev-haskell/sha-1.6.4.1:=[profile?] <dev-haskell/sha-2.0:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/crypto-pubkey-types-0.4 <dev-haskell/crypto-pubkey-types-0.6 >=dev-haskell/quickcheck-2.5 <dev-haskell/quickcheck-3 >=dev-haskell/tagged-0.2 <dev-haskell/tagged-0.9 >=dev-haskell/test-framework-0.8.0.3 <dev-haskell/test-framework-0.10 >=dev-haskell/test-framework-quickcheck2-0.3.0.2 <dev-haskell/test-framework-quickcheck2-0.5 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/crypto-api-0.10:=[profile?] <dev-haskell/crypto-api-0.14:=[profile?] >=dev-haskell/crypto-pubkey-types-0.2:=[profile?] <dev-haskell/crypto-pubkey-types-0.6:=[profile?] >=dev-haskell/sha-1.6.4.1:=[profile?] <dev-haskell/sha-2.0:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/crypto-pubkey-types-0.4 <dev-haskell/crypto-pubkey-types-0.6 >=dev-haskell/quickcheck-2.5 <dev-haskell/quickcheck-3 >=dev-haskell/tagged-0.2 <dev-haskell/tagged-0.9 >=dev-haskell/test-framework-0.8.0.3 <dev-haskell/test-framework-0.10 >=dev-haskell/test-framework-quickcheck2-0.3.0.2 <dev-haskell/test-framework-quickcheck2-0.5 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Implementation of RSA, using the padding schemes of PKCS#1 v2.1
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/RSA
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/crypto-api-0.10:=[profile?] <dev-haskell/crypto-api-0.14:=[profile?] >=dev-haskell/crypto-pubkey-types-0.2:=[profile?] <dev-haskell/crypto-pubkey-types-0.6:=[profile?] >=dev-haskell/sha-1.6.4.1:=[profile?] <dev-haskell/sha-2.0:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/crypto-api-0.10:=[profile?] <dev-haskell/crypto-api-0.14:=[profile?] >=dev-haskell/crypto-pubkey-types-0.2:=[profile?] <dev-haskell/crypto-pubkey-types-0.6:=[profile?] >=dev-haskell/sha-1.6.4.1:=[profile?] <dev-haskell/sha-2.0:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/2.4.1
 SRC_URI=https://hackage.haskell.org/package/RSA-2.4.1/RSA-2.4.1.tar.gz -> rsa-2.4.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=3ed87447c56451bebbaac6e0764b4ebd
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=cf1344e6571c3752c7a7d0cbbafe02c2

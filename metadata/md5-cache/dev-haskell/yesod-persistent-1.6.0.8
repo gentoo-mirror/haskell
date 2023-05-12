@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/conduit:=[profile?] >=dev-haskell/persistent-2.8:=[profile?] >=dev-haskell/persistent-template-2.1:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-0.4.5:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hspec >=dev-haskell/persistent-sqlite-2.8 dev-haskell/wai-extra ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/conduit:=[profile?] >=dev-haskell/persistent-2.8:=[profile?] >=dev-haskell/persistent-template-2.1:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-0.4.5:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hspec >=dev-haskell/persistent-sqlite-2.8 dev-haskell/wai-extra ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Some helpers for using Persistent from Yesod
 EAPI=8
 HOMEPAGE=https://www.yesodweb.com/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/conduit:=[profile?] >=dev-haskell/persistent-2.8:=[profile?] >=dev-haskell/persistent-template-2.1:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-0.4.5:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/conduit:=[profile?] >=dev-haskell/persistent-2.8:=[profile?] >=dev-haskell/persistent-template-2.1:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-0.4.5:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.6.0.8
 SRC_URI=https://hackage.haskell.org/package/yesod-persistent-1.6.0.8/yesod-persistent-1.6.0.8.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=a024f9e788e9e2abe658a894a85126e0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=0779d78d0ee32aa70660c6a636fb6b86

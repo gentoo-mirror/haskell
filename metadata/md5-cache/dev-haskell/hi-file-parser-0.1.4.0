@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/rio:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/rio:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Parser for GHC's hi files
 EAPI=8
 HOMEPAGE=https://github.com/commercialhaskell/hi-file-parser#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/rio:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=dev-haskell/rio:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.4.0
 SRC_URI=https://hackage.haskell.org/package/hi-file-parser-0.1.4.0/hi-file-parser-0.1.4.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=5ca80cf0e0e57cb49064bf9a72d651a8
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=ec59db83cbdd63c27a114c73f6cccdf9

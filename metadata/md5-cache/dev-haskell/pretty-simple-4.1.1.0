@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/prettyprinter-1.7.0:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.2:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] examples? ( dev-haskell/aeson:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 >=dev-haskell/cabal-doctest-1.0.2 test? ( >=dev-haskell/doctest-0.13 dev-haskell/glob dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/prettyprinter-1.7.0:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.2:=[profile?] >=dev-lang/ghc-8.4.3:= examples? ( dev-haskell/aeson:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 >=dev-haskell/cabal-doctest-1.0.2 test? ( >=dev-haskell/doctest-0.13 dev-haskell/glob dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=pretty printer for data types with a 'Show' instance
 EAPI=8
 HOMEPAGE=https://github.com/cdepillabout/pretty-simple
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=examples executable doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/prettyprinter-1.7.0:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.2:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] examples? ( dev-haskell/aeson:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] )
+RDEPEND=>=dev-haskell/prettyprinter-1.7.0:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.2:=[profile?] >=dev-lang/ghc-8.4.3:= examples? ( dev-haskell/aeson:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4.1.1.0
 SRC_URI=https://hackage.haskell.org/package/pretty-simple-4.1.1.0/pretty-simple-4.1.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=f80b303ce33765e58271ed4bc78fa395
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=394e0ad426db75850b9e1536fff660cf

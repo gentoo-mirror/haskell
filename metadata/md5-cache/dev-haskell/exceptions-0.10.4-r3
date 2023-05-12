@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.10.6:=[profile?] >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Extensible optionally-pure exceptions
 EAPI=8
 HOMEPAGE=https://github.com/ekmett/exceptions/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.10.6:=[profile?]
+RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/0.10.4
 SRC_URI=https://hackage.haskell.org/package/exceptions-0.10.4/exceptions-0.10.4.tar.gz https://hackage.haskell.org/package/exceptions-0.10.4/revision/3.cabal -> exceptions-0.10.4-rev3.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=7bcbe37adb0e8056e950c8b023006ee5
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=77993e859800fbd8ffb0bf1a6f6817af

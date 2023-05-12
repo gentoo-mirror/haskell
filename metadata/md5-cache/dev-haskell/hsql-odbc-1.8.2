@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/hsql-1.8.2:=[profile?] >=dev-lang/ghc-6.10.1:=[profile?] >=dev-db/unixODBC-2.2 dev-haskell/cabal hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/hsql-1.8.2:=[profile?] >=dev-lang/ghc-6.10.1:= >=dev-db/unixODBC-2.2 dev-haskell/cabal hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A Haskell Interface to ODBC
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/hsql-odbc
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/hsql-1.8.2:=[profile?] >=dev-lang/ghc-6.10.1:=[profile?] >=dev-db/unixODBC-2.2
+RDEPEND=>=dev-haskell/hsql-1.8.2:=[profile?] >=dev-lang/ghc-6.10.1:= >=dev-db/unixODBC-2.2 dev-lang/ghc:=[profile?]
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/hsql-odbc-1.8.2/hsql-odbc-1.8.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=442acb054342351020f3214bfcfc2745
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=226ea6925499809b35951dd8623b86e5

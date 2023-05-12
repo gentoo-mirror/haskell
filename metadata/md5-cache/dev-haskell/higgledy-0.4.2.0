@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/barbies-2.0:=[profile?] <dev-haskell/barbies-2.1:=[profile?] >=dev-haskell/generic-lens-2.1:=[profile?] <dev-haskell/generic-lens-3.0:=[profile?] >=dev-haskell/generic-lens-core-2.1:=[profile?] <dev-haskell/generic-lens-core-3.0:=[profile?] >=dev-haskell/named-0.3.0.0:=[profile?] <dev-haskell/named-0.4:=[profile?] >=dev-haskell/quickcheck-2.12.6:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-lang/ghc-8.6.3:=[profile?] >=dev-haskell/cabal-2.4.0.1 >=dev-haskell/cabal-doctest-1.0 <dev-haskell/cabal-doctest-1.1 test? ( >=dev-haskell/base-compat-0.11 <dev-haskell/base-compat-0.13 >=dev-haskell/doctest-0.17 >=dev-haskell/hspec-2.6.1 >=dev-haskell/lens-4.17 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/barbies-2.0:=[profile?] <dev-haskell/barbies-2.1:=[profile?] >=dev-haskell/generic-lens-2.1:=[profile?] <dev-haskell/generic-lens-3.0:=[profile?] >=dev-haskell/generic-lens-core-2.1:=[profile?] <dev-haskell/generic-lens-core-3.0:=[profile?] >=dev-haskell/named-0.3.0.0:=[profile?] <dev-haskell/named-0.4:=[profile?] >=dev-haskell/quickcheck-2.12.6:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-lang/ghc-8.6.3:= >=dev-haskell/cabal-2.4.0.1 >=dev-haskell/cabal-doctest-1.0 <dev-haskell/cabal-doctest-1.1 test? ( >=dev-haskell/base-compat-0.11 <dev-haskell/base-compat-0.13 >=dev-haskell/doctest-0.17 >=dev-haskell/hspec-2.6.1 >=dev-haskell/lens-4.17 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Partial types as a type constructor
 EAPI=8
 HOMEPAGE=https://github.com/i-am-tom/higgledy
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/barbies-2.0:=[profile?] <dev-haskell/barbies-2.1:=[profile?] >=dev-haskell/generic-lens-2.1:=[profile?] <dev-haskell/generic-lens-3.0:=[profile?] >=dev-haskell/generic-lens-core-2.1:=[profile?] <dev-haskell/generic-lens-core-3.0:=[profile?] >=dev-haskell/named-0.3.0.0:=[profile?] <dev-haskell/named-0.4:=[profile?] >=dev-haskell/quickcheck-2.12.6:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-lang/ghc-8.6.3:=[profile?]
+RDEPEND=>=dev-haskell/barbies-2.0:=[profile?] <dev-haskell/barbies-2.1:=[profile?] >=dev-haskell/generic-lens-2.1:=[profile?] <dev-haskell/generic-lens-3.0:=[profile?] >=dev-haskell/generic-lens-core-2.1:=[profile?] <dev-haskell/generic-lens-core-3.0:=[profile?] >=dev-haskell/named-0.3.0.0:=[profile?] <dev-haskell/named-0.4:=[profile?] >=dev-haskell/quickcheck-2.12.6:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-lang/ghc-8.6.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.2.0
 SRC_URI=https://hackage.haskell.org/package/higgledy-0.4.2.0/higgledy-0.4.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=b396e9c6fa3585787a3788118cb08ee2
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=57df94afc0d94b7bdea9df0b4c8c6dba

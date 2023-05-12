@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/conduit:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] dev-haskell/xml-types:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/conduit:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] dev-haskell/xml-types:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Generate XML sitemaps
 EAPI=8
 HOMEPAGE=http://www.yesodweb.com/
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/conduit:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] dev-haskell/xml-types:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=dev-haskell/conduit:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] dev-haskell/xml-types:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.6.0
 SRC_URI=https://hackage.haskell.org/package/yesod-sitemap-1.6.0/yesod-sitemap-1.6.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=15cbc389844c3a0d01f062548ca6c732
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=82bc0a7df03801a66746fee2d9ad187d

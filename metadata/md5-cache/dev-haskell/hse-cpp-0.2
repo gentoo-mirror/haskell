@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/cpphs:=[profile?] >=dev-haskell/haskell-src-exts-1.18:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/cpphs:=[profile?] >=dev-haskell/haskell-src-exts-1.18:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Preprocess+parse haskell code
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/hse-cpp
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/cpphs:=[profile?] >=dev-haskell/haskell-src-exts-1.18:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=dev-haskell/cpphs:=[profile?] >=dev-haskell/haskell-src-exts-1.18:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.2
 SRC_URI=https://hackage.haskell.org/package/hse-cpp-0.2/hse-cpp-0.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=7b213eb50311c9fc86c3440463613b1a
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=3a13926cab00a367ed14394452960d37

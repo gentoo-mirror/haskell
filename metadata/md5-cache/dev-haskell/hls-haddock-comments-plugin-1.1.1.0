@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=<dev-haskell/ghc-exactprint-1:=[profile?] >=dev-haskell/ghcide-1.8:=[profile?] <dev-haskell/ghcide-1.10:=[profile?] >=dev-haskell/hls-plugin-api-1.5:=[profile?] <dev-haskell/hls-plugin-api-1.7:=[profile?] dev-haskell/hls-refactor-plugin:=[profile?] dev-haskell/lsp-types:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.6.3:=[profile?] >=dev-haskell/cabal-2.4.0.1 test? ( >=dev-haskell/hls-test-utils-1.5 <dev-haskell/hls-test-utils-1.6 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=<dev-haskell/ghc-exactprint-1:=[profile?] >=dev-haskell/ghcide-1.8:=[profile?] <dev-haskell/ghcide-1.10:=[profile?] >=dev-haskell/hls-plugin-api-1.5:=[profile?] <dev-haskell/hls-plugin-api-1.7:=[profile?] dev-haskell/hls-refactor-plugin:=[profile?] dev-haskell/lsp-types:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.6.3:= >=dev-haskell/cabal-2.4.0.1 test? ( >=dev-haskell/hls-test-utils-1.5 <dev-haskell/hls-test-utils-1.6 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Haddock comments plugin for Haskell Language Server
 EAPI=8
 HOMEPAGE=https://github.com/haskell/haskell-language-server/tree/master/plugins/hls-haddock-comments-plugin#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=<dev-haskell/ghc-exactprint-1:=[profile?] >=dev-haskell/ghcide-1.8:=[profile?] <dev-haskell/ghcide-1.10:=[profile?] >=dev-haskell/hls-plugin-api-1.5:=[profile?] <dev-haskell/hls-plugin-api-1.7:=[profile?] dev-haskell/hls-refactor-plugin:=[profile?] dev-haskell/lsp-types:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.6.3:=[profile?]
+RDEPEND=<dev-haskell/ghc-exactprint-1:=[profile?] >=dev-haskell/ghcide-1.8:=[profile?] <dev-haskell/ghcide-1.10:=[profile?] >=dev-haskell/hls-plugin-api-1.5:=[profile?] <dev-haskell/hls-plugin-api-1.7:=[profile?] dev-haskell/hls-refactor-plugin:=[profile?] dev-haskell/lsp-types:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.6.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.1.1.0
 SRC_URI=https://hackage.haskell.org/package/hls-haddock-comments-plugin-1.1.1.0/hls-haddock-comments-plugin-1.1.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=99cf9eb03ca1cae0c281376d111d9e0d
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=831b22626b17e50ea56b4925b8f10db0

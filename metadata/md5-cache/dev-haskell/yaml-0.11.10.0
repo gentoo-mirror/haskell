@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-0.11:=[profile?] >=dev-haskell/attoparsec-0.11.3.0:=[profile?] >=dev-haskell/conduit-1.2.8:=[profile?] <dev-haskell/conduit-1.4:=[profile?] >=dev-haskell/libyaml-0.1:=[profile?] <dev-haskell/libyaml-0.2:=[profile?] >=dev-haskell/resourcet-0.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] >=dev-haskell/scientific-0.3:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] examples? ( dev-haskell/raw-strings-qq:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/base-compat >=dev-haskell/hspec-1.3 dev-haskell/hunit dev-haskell/mockery dev-haskell/temporary examples? ( dev-haskell/raw-strings-qq ) ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-0.11:=[profile?] >=dev-haskell/attoparsec-0.11.3.0:=[profile?] >=dev-haskell/conduit-1.2.8:=[profile?] <dev-haskell/conduit-1.4:=[profile?] >=dev-haskell/libyaml-0.1:=[profile?] <dev-haskell/libyaml-0.2:=[profile?] >=dev-haskell/resourcet-0.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] >=dev-haskell/scientific-0.3:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.4.3:= examples? ( dev-haskell/raw-strings-qq:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/base-compat >=dev-haskell/hspec-1.3 dev-haskell/hunit dev-haskell/mockery dev-haskell/temporary examples? ( dev-haskell/raw-strings-qq ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Support for parsing and rendering YAML documents
 EAPI=8
 HOMEPAGE=https://github.com/snoyberg/yaml#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=examples executable doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~ppc64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/aeson-0.11:=[profile?] >=dev-haskell/attoparsec-0.11.3.0:=[profile?] >=dev-haskell/conduit-1.2.8:=[profile?] <dev-haskell/conduit-1.4:=[profile?] >=dev-haskell/libyaml-0.1:=[profile?] <dev-haskell/libyaml-0.2:=[profile?] >=dev-haskell/resourcet-0.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] >=dev-haskell/scientific-0.3:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] examples? ( dev-haskell/raw-strings-qq:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] )
+RDEPEND=>=dev-haskell/aeson-0.11:=[profile?] >=dev-haskell/attoparsec-0.11.3.0:=[profile?] >=dev-haskell/conduit-1.2.8:=[profile?] <dev-haskell/conduit-1.4:=[profile?] >=dev-haskell/libyaml-0.1:=[profile?] <dev-haskell/libyaml-0.2:=[profile?] >=dev-haskell/resourcet-0.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] >=dev-haskell/scientific-0.3:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.4.3:= examples? ( dev-haskell/raw-strings-qq:=[profile?] ) executable? ( dev-haskell/optparse-applicative:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.11.10.0
 SRC_URI=https://hackage.haskell.org/package/yaml-0.11.10.0/yaml-0.11.10.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=daad418cdc43ec9b8c518d85844a5654
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=66a43363954e3d481d2dab45125ce313

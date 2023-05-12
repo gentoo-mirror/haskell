@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A class for types with a default value
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/data-default-class
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~amd64-linux ~ppc-macos
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=>=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.2.0
 SRC_URI=https://hackage.haskell.org/package/data-default-class-0.1.2.0/data-default-class-0.1.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=057351c219cadb89084cbdf984424e51
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=550818943b0de7a9d4c274f3912ac980

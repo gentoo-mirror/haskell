@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/asn1-encoding-0.9:=[profile?] <dev-haskell/asn1-encoding-0.10:=[profile?] >=dev-haskell/asn1-parse-0.9.3:=[profile?] <dev-haskell/asn1-parse-0.10:=[profile?] >=dev-haskell/asn1-types-0.3.1:=[profile?] <dev-haskell/asn1-types-0.4:=[profile?] >=dev-haskell/cryptonite-0.24:=[profile?] dev-haskell/hourglass:=[profile?] dev-haskell/memory:=[profile?] >=dev-haskell/pem-0.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/tasty dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/asn1-encoding-0.9:=[profile?] <dev-haskell/asn1-encoding-0.10:=[profile?] >=dev-haskell/asn1-parse-0.9.3:=[profile?] <dev-haskell/asn1-parse-0.10:=[profile?] >=dev-haskell/asn1-types-0.3.1:=[profile?] <dev-haskell/asn1-types-0.4:=[profile?] >=dev-haskell/cryptonite-0.24:=[profile?] dev-haskell/hourglass:=[profile?] dev-haskell/memory:=[profile?] >=dev-haskell/pem-0.1:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/tasty dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=X509 reader and writer
 EAPI=8
 HOMEPAGE=https://github.com/vincenthz/hs-certificate
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/asn1-encoding-0.9:=[profile?] <dev-haskell/asn1-encoding-0.10:=[profile?] >=dev-haskell/asn1-parse-0.9.3:=[profile?] <dev-haskell/asn1-parse-0.10:=[profile?] >=dev-haskell/asn1-types-0.3.1:=[profile?] <dev-haskell/asn1-types-0.4:=[profile?] >=dev-haskell/cryptonite-0.24:=[profile?] dev-haskell/hourglass:=[profile?] dev-haskell/memory:=[profile?] >=dev-haskell/pem-0.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/asn1-encoding-0.9:=[profile?] <dev-haskell/asn1-encoding-0.10:=[profile?] >=dev-haskell/asn1-parse-0.9.3:=[profile?] <dev-haskell/asn1-parse-0.10:=[profile?] >=dev-haskell/asn1-types-0.3.1:=[profile?] <dev-haskell/asn1-types-0.4:=[profile?] >=dev-haskell/cryptonite-0.24:=[profile?] dev-haskell/hourglass:=[profile?] dev-haskell/memory:=[profile?] >=dev-haskell/pem-0.1:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.7.7
 SRC_URI=https://hackage.haskell.org/package/x509-1.7.7/x509-1.7.7.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=d77377fba1f9a969e01c3df32f41fd32
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=a87b82340e85ed39cd9a0f6dc26add7d

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/optparse-applicative-0.14:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/tomland-1.3.2.0:=[profile?] <dev-haskell/tomland-1.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/dhall-1.39.0:=[profile?] <dev-lang/dhall-1.42:=[profile?] >=dev-lang/ghc-8.6.3:=[profile?] >=dev-haskell/cabal-2.4.0.1 test? ( dev-haskell/doctest <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.2 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/optparse-applicative-0.14:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/tomland-1.3.2.0:=[profile?] <dev-haskell/tomland-1.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/dhall-1.39.0:=[profile?] <dev-lang/dhall-1.42:=[profile?] >=dev-lang/ghc-8.6.3:= >=dev-haskell/cabal-2.4.0.1 test? ( dev-haskell/doctest <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.2 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Convert between Dhall and TOML
 EAPI=8
 HOMEPAGE=https://dhall-lang.org/ https://hackage.haskell.org/package/dhall-toml
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/optparse-applicative-0.14:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/tomland-1.3.2.0:=[profile?] <dev-haskell/tomland-1.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/dhall-1.39.0:=[profile?] <dev-lang/dhall-1.42:=[profile?] >=dev-lang/ghc-8.6.3:=[profile?]
+RDEPEND=>=dev-haskell/optparse-applicative-0.14:=[profile?] <dev-haskell/optparse-applicative-0.18:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/tomland-1.3.2.0:=[profile?] <dev-haskell/tomland-1.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/dhall-1.39.0:=[profile?] <dev-lang/dhall-1.42:=[profile?] >=dev-lang/ghc-8.6.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0.2
 SRC_URI=https://hackage.haskell.org/package/dhall-toml-1.0.2/dhall-toml-1.0.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=21d4d5d8dd37a7bba120b4f31addd9e0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=5777f8fd7c4c77179b743a69565d2189

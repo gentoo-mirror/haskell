@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-1:=[profile?] >=dev-haskell/comonad-5.0.7:=[profile?] <dev-haskell/comonad-6:=[profile?] >=dev-haskell/th-abstraction-0.4.2.0:=[profile?] <dev-haskell/th-abstraction-0.5:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-1:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/hspec-1.8 >=dev-haskell/quickcheck-2 <dev-haskell/quickcheck-3 dev-haskell/transformers-compat ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-1:=[profile?] >=dev-haskell/comonad-5.0.7:=[profile?] <dev-haskell/comonad-6:=[profile?] >=dev-haskell/th-abstraction-0.4.2.0:=[profile?] <dev-haskell/th-abstraction-0.5:=[profile?] >=dev-lang/ghc-8.4.3:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-1:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/hspec-1.8 >=dev-haskell/quickcheck-2 <dev-haskell/quickcheck-3 dev-haskell/transformers-compat ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=The Bifunctors package authored by Edward Kmett
 EAPI=8
 HOMEPAGE=https://github.com/ekmett/bifunctors/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=+semigroups +tagged doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-1:=[profile?] >=dev-haskell/comonad-5.0.7:=[profile?] <dev-haskell/comonad-6:=[profile?] >=dev-haskell/th-abstraction-0.4.2.0:=[profile?] <dev-haskell/th-abstraction-0.5:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-1:=[profile?] )
+RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-1:=[profile?] >=dev-haskell/comonad-5.0.7:=[profile?] <dev-haskell/comonad-6:=[profile?] >=dev-haskell/th-abstraction-0.4.2.0:=[profile?] <dev-haskell/th-abstraction-0.5:=[profile?] >=dev-lang/ghc-8.4.3:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-1:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/5.5.13
 SRC_URI=https://hackage.haskell.org/package/bifunctors-5.5.13/bifunctors-5.5.13.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=bf8bd600ab83744883667a0effb91a5e
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=25ca30e118be029f3bdfa9db18cc5c50

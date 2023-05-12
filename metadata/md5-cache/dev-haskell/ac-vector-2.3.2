@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-6.10.4:=[profile?] >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-6.10.4:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Efficient geometric vectors and transformations
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/AC-Vector
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-6.10.4:=[profile?]
+RDEPEND=>=dev-lang/ghc-6.10.4:= dev-lang/ghc:=[profile?]
 SLOT=0/2.3.2
 SRC_URI=https://hackage.haskell.org/package/AC-Vector-2.3.2/AC-Vector-2.3.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=500be6aa3b7590099a3e4ade57a6ff6c
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=9cb665bdb5bf10827a726dd660c0a6e5

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/memory-0.14.18:=[profile?] >=dev-haskell/basement-0.0.6:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-kat dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/memory-0.14.18:=[profile?] >=dev-haskell/basement-0.0.6:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-kat dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Cryptography Primitives sink
 EAPI=8
 HOMEPAGE=https://github.com/haskell-crypto/cryptonite
@@ -8,9 +8,9 @@ INHERIT=flag-o-matic haskell-cabal
 IUSE=cpu_flags_x86_aes cpu_flags_x86_rdrand cpu_flags_x86_sse cpu_flags_x86_sse4_1 +integer-gmp +target-attributes doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/memory-0.14.18:=[profile?] >=dev-haskell/basement-0.0.6:=[profile?]
+RDEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/memory-0.14.18:=[profile?] >=dev-haskell/basement-0.0.6:=[profile?] dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.30
 SRC_URI=https://hackage.haskell.org/package/cryptonite-0.30/cryptonite-0.30.tar.gz
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	flag-o-matic	16483e58fadb0d47b4528f0aa7e171f6	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=5cd628d0fb9d2bf103083f01c1c181c9
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	flag-o-matic	16483e58fadb0d47b4528f0aa7e171f6	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=dabc0fc66e5c6f1b0567fd5dfb91af25

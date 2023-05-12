@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/text:=[profile?] dev-haskell/text-icu:=[profile?] >=dev-lang/ghc-7.10.1:=[profile?] >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/text:=[profile?] dev-haskell/text-icu:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Dealing with Strict Text in NFC normalization
 EAPI=8
 HOMEPAGE=https://gitlab.com/theunixman/text-icu-normalized
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/text:=[profile?] dev-haskell/text-icu:=[profile?] >=dev-lang/ghc-7.10.1:=[profile?]
+RDEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/text:=[profile?] dev-haskell/text-icu:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.6
 SRC_URI=https://hackage.haskell.org/package/text-icu-normalized-0.1.6/text-icu-normalized-0.1.6.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=2eda7131bdc2662d28f25c1438205bef
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=abee635b8be4c292b422249b144f1edf

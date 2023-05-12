@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Alternative arbitrary instance for Text
 EAPI=8
 HOMEPAGE=https://github.com/olorin/quickcheck-text
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.2.1
 SRC_URI=https://hackage.haskell.org/package/quickcheck-text-0.1.2.1/quickcheck-text-0.1.2.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=338eea826e4476f3c28c24f188893a68
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=dbd27974a684d2912bb9f9336d8a217e

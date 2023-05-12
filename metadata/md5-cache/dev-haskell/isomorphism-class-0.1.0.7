@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/hashable-1:=[profile?] <dev-haskell/hashable-2:=[profile?] >=dev-haskell/primitive-0.7.3:=[profile?] <dev-haskell/primitive-0.8:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.6.3:=[profile?] >=dev-haskell/cabal-3.0 test? ( >=dev-haskell/quickcheck-2.13 <dev-haskell/quickcheck-3 ~dev-haskell/quickcheck-instances-0.3.28 >=dev-haskell/rebase-1.15 <dev-haskell/rebase-2 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-2 >=dev-haskell/tasty-hunit-0.10.0.2 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10.1 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/hashable-1:=[profile?] <dev-haskell/hashable-2:=[profile?] >=dev-haskell/primitive-0.7.3:=[profile?] <dev-haskell/primitive-0.8:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.6.3:= >=dev-haskell/cabal-3.0 test? ( >=dev-haskell/quickcheck-2.13 <dev-haskell/quickcheck-3 ~dev-haskell/quickcheck-instances-0.3.28 >=dev-haskell/rebase-1.15 <dev-haskell/rebase-2 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-2 >=dev-haskell/tasty-hunit-0.10.0.2 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10.1 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Isomorphism typeclass solving the conversion problem
 EAPI=8
 HOMEPAGE=https://github.com/nikita-volkov/isomorphism-class
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/hashable-1:=[profile?] <dev-haskell/hashable-2:=[profile?] >=dev-haskell/primitive-0.7.3:=[profile?] <dev-haskell/primitive-0.8:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.6.3:=[profile?]
+RDEPEND=>=dev-haskell/hashable-1:=[profile?] <dev-haskell/hashable-2:=[profile?] >=dev-haskell/primitive-0.7.3:=[profile?] <dev-haskell/primitive-0.8:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.6.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.0.7
 SRC_URI=https://hackage.haskell.org/package/isomorphism-class-0.1.0.7/isomorphism-class-0.1.0.7.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=7bc846b9d41720b99bc26517a714880e
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=030eabdec28a9c84d1f113bdf83827cd

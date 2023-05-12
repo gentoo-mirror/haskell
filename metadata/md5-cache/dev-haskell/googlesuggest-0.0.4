@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/dataenc:=[profile?] >=dev-haskell/download-curl-0.1.2:=[profile?] dev-haskell/utf8-string:=[profile?] dev-haskell/xml:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/dataenc:=[profile?] >=dev-haskell/download-curl-0.1.2:=[profile?] dev-haskell/utf8-string:=[profile?] dev-haskell/xml:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Interface to Google Suggest API
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/GoogleSuggest
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-haskell/dataenc:=[profile?] >=dev-haskell/download-curl-0.1.2:=[profile?] dev-haskell/utf8-string:=[profile?] dev-haskell/xml:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=dev-haskell/dataenc:=[profile?] >=dev-haskell/download-curl-0.1.2:=[profile?] dev-haskell/utf8-string:=[profile?] dev-haskell/xml:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.0.4
 SRC_URI=https://hackage.haskell.org/package/GoogleSuggest-0.0.4/GoogleSuggest-0.0.4.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=b0d5b09d8ca8b1e0e3dc5592982e0298
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=6c6afc7fb32e1ca199260565d6e37e7e

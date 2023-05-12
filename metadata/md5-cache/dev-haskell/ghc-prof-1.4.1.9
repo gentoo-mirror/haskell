@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=<dev-haskell/attoparsec-0.15:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.4 test? ( >=dev-haskell/attoparsec-0.10 <dev-haskell/attoparsec-0.15 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.9.1 <dev-haskell/tasty-hunit-0.11 dev-haskell/temporary ) hscolour? ( dev-haskell/hscolour )
+DEPEND=<dev-haskell/attoparsec-0.15:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.4 test? ( >=dev-haskell/attoparsec-0.10 <dev-haskell/attoparsec-0.15 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.9.1 <dev-haskell/tasty-hunit-0.11 dev-haskell/temporary ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Library for parsing GHC time and allocation profiling reports
 EAPI=8
 HOMEPAGE=https://github.com/maoe/ghc-prof
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=dump doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=<dev-haskell/attoparsec-0.15:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=<dev-haskell/attoparsec-0.15:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.4.1.9
 SRC_URI=https://hackage.haskell.org/package/ghc-prof-1.4.1.9/ghc-prof-1.4.1.9.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=9ee486b724ecc9398ffddb579760bc83
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=3315efaabd4a7385b37bcf8691e7b110

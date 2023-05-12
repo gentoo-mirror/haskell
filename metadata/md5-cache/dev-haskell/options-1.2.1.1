@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare pretend setup test
-DEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/chell-0.4 <dev-haskell/chell-0.5 >=dev-haskell/chell-quickcheck-0.2 <dev-haskell/chell-quickcheck-0.3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/chell-0.4 <dev-haskell/chell-0.5 >=dev-haskell/chell-quickcheck-0.2 <dev-haskell/chell-quickcheck-0.3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A powerful and easy-to-use command-line option parser
 EAPI=8
 HOMEPAGE=https://john-millikin.com/software/haskell-options/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.2.1.1
 SRC_URI=https://hackage.haskell.org/package/options-1.2.1.1/options-1.2.1.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=a98b8bb9a142af10df3d3f24fec6a636
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=58699057891af5f0931f085dc9c7e283

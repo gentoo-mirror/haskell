@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/binary:=[profile?] dev-haskell/murmur-hash:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] sys-apps/util-linux >=dev-haskell/cabal-1.8.0.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/binary:=[profile?] dev-haskell/murmur-hash:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:= sys-apps/util-linux >=dev-haskell/cabal-1.8.0.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Bindings to system UUID functions
 EAPI=8
 HOMEPAGE=https://github.com/solidsnack/system-uuid/
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=cli doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/binary:=[profile?] dev-haskell/murmur-hash:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] sys-apps/util-linux
+RDEPEND=dev-haskell/binary:=[profile?] dev-haskell/murmur-hash:=[profile?] dev-haskell/parsec:=[profile?] >=dev-lang/ghc-7.4.1:= sys-apps/util-linux dev-lang/ghc:=[profile?]
 SLOT=0/2.1.1
 SRC_URI=https://hackage.haskell.org/package/system-uuid-2.1.1/system-uuid-2.1.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=da35bfc834a03fb8365a4dd6e6531512
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=69ee305eb84c3a0661f33c1939d25593

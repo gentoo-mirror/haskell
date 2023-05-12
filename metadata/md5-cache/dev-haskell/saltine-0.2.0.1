@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/hashable:=[profile?] >=dev-haskell/profunctors-5.3:=[profile?] <dev-haskell/profunctors-5.7:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-libs/libsodium-1.0.13 >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/quickcheck dev-haskell/semigroups dev-haskell/test-framework dev-haskell/test-framework-quickcheck2 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/hashable:=[profile?] >=dev-haskell/profunctors-5.3:=[profile?] <dev-haskell/profunctors-5.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-libs/libsodium-1.0.13 >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/quickcheck dev-haskell/semigroups dev-haskell/test-framework dev-haskell/test-framework-quickcheck2 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Cryptography that's easy to digest (NaCl/libsodium bindings)
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/saltine
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/hashable:=[profile?] >=dev-haskell/profunctors-5.3:=[profile?] <dev-haskell/profunctors-5.7:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] >=dev-libs/libsodium-1.0.13
+RDEPEND=dev-haskell/hashable:=[profile?] >=dev-haskell/profunctors-5.3:=[profile?] <dev-haskell/profunctors-5.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-libs/libsodium-1.0.13 dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.0.1
 SRC_URI=https://hackage.haskell.org/package/saltine-0.2.0.1/saltine-0.2.0.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=3862f3b53267260fd0e812c9772c7c88
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=0996b9e19868795bd4633c6564595457

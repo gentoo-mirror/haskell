@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-1.3:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] media-libs/glew:0 virtual/glu virtual/libc virtual/opengl x11-libs/libX11 examples? ( dev-haskell/gl:=[profile?] dev-haskell/glfw-b:=[profile?] dev-haskell/monad-loops:=[profile?] ) truetype? ( media-libs/freetype:2 ) dev-haskell/c2hs >=dev-haskell/cabal-3.0.0.0 virtual/pkgconfig test? ( dev-haskell/hspec dev-haskell/inline-c dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-1.3:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.8.1:= media-libs/glew:0 virtual/glu virtual/libc virtual/opengl x11-libs/libX11 examples? ( dev-haskell/gl:=[profile?] dev-haskell/glfw-b:=[profile?] dev-haskell/monad-loops:=[profile?] ) truetype? ( media-libs/freetype:2 ) dev-haskell/c2hs >=dev-haskell/cabal-3.0.0.0 virtual/pkgconfig test? ( dev-haskell/hspec dev-haskell/inline-c dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Haskell bindings for nanovg
 EAPI=8
 HOMEPAGE=https://github.com/cocreature/nanovg-hs
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=examples gles +truetype doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=ISC
-RDEPEND=>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-1.3:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] media-libs/glew:0 virtual/glu virtual/libc virtual/opengl x11-libs/libX11 examples? ( dev-haskell/gl:=[profile?] dev-haskell/glfw-b:=[profile?] dev-haskell/monad-loops:=[profile?] ) truetype? ( media-libs/freetype:2 )
+RDEPEND=>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-1.3:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.8.1:= media-libs/glew:0 virtual/glu virtual/libc virtual/opengl x11-libs/libX11 examples? ( dev-haskell/gl:=[profile?] dev-haskell/glfw-b:=[profile?] dev-haskell/monad-loops:=[profile?] ) truetype? ( media-libs/freetype:2 ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.8.1.0
 SRC_URI=https://hackage.haskell.org/package/nanovg-0.8.1.0/nanovg-0.8.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=9718b13102089190cdd3c1d6363ab411
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=739845befa598b55fe28eeb12b7205a7

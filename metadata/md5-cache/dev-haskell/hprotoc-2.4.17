@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/haskell-src-exts-1.18:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] ~dev-haskell/protocol-buffers-2.4.17:=[profile?] ~dev-haskell/protocol-buffers-descriptor-2.4.17:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?] dev-haskell/alex >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/haskell-src-exts-1.18:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] ~dev-haskell/protocol-buffers-2.4.17:=[profile?] ~dev-haskell/protocol-buffers-descriptor-2.4.17:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:= dev-haskell/alex >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Parse Google Protocol Buffer specifications
 EAPI=8
 HOMEPAGE=https://github.com/k-bx/protocol-buffers
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/haskell-src-exts-1.18:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] ~dev-haskell/protocol-buffers-2.4.17:=[profile?] ~dev-haskell/protocol-buffers-descriptor-2.4.17:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:=[profile?]
+RDEPEND=>=dev-haskell/haskell-src-exts-1.18:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] ~dev-haskell/protocol-buffers-2.4.17:=[profile?] ~dev-haskell/protocol-buffers-descriptor-2.4.17:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/2.4.17
 SRC_URI=https://hackage.haskell.org/package/hprotoc-2.4.17/hprotoc-2.4.17.tar.gz https://hackage.haskell.org/package/hprotoc-2.4.17/revision/2.cabal -> hprotoc-2.4.17-rev2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=c623a948f14b620302b77b9af771ff35
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=90ceb8d40d7666c9eccbda62121589a0

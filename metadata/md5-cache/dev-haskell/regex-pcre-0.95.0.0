@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] dev-libs/libpcre >=dev-haskell/cabal-1.12 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-7.4.1:= dev-libs/libpcre >=dev-haskell/cabal-1.12 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Replaces/Enhances Text.Regex
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/regex-pcre
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] dev-libs/libpcre
+RDEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-7.4.1:= dev-libs/libpcre dev-lang/ghc:=[profile?]
 SLOT=0/0.95.0.0
 SRC_URI=https://hackage.haskell.org/package/regex-pcre-0.95.0.0/regex-pcre-0.95.0.0.tar.gz https://hackage.haskell.org/package/regex-pcre-0.95.0.0/revision/4.cabal -> regex-pcre-0.95.0.0-rev4.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=275d66a6178465e49ad35285d622c5d3
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=57eb96ce06286b2e5ebe1fb2f176e238

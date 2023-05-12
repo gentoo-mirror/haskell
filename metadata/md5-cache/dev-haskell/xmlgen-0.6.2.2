@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/blaze-builder-0.3:=[profile?] >=dev-haskell/mtl-2.0:=[profile?] >=dev-haskell/text-0.10:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?] >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/blaze-builder-0.3:=[profile?] >=dev-haskell/mtl-2.0:=[profile?] >=dev-haskell/text-0.10:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Fast XML generation library
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/xmlgen
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/blaze-builder-0.3:=[profile?] >=dev-haskell/mtl-2.0:=[profile?] >=dev-haskell/text-0.10:=[profile?] >=dev-lang/ghc-7.4.1:=[profile?]
+RDEPEND=>=dev-haskell/blaze-builder-0.3:=[profile?] >=dev-haskell/mtl-2.0:=[profile?] >=dev-haskell/text-0.10:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/0.6.2.2
 SRC_URI=https://hackage.haskell.org/package/xmlgen-0.6.2.2/xmlgen-0.6.2.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=07c50d2693f192c24e21ccda1a49aed8
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=83d3b66db4442c7b013bc2b976e13d90

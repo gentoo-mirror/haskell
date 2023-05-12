@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:=[profile?] tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.4.3:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Boring and Absurd types
 EAPI=8
 HOMEPAGE=https://github.com/phadej/boring
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=+tagged doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:=[profile?] tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] )
+RDEPEND=>=dev-lang/ghc-8.4.3:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/0.2
 SRC_URI=https://hackage.haskell.org/package/boring-0.2/boring-0.2.tar.gz https://hackage.haskell.org/package/boring-0.2/revision/1.cabal -> boring-0.2-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=c97b19427f6c0d31997dde786200a530
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=644532cc97918e55e596cba300408e9f

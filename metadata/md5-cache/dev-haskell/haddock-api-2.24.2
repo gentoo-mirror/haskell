@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.9.0:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-8.10:=[profile?] <dev-lang/ghc-8.11:=[profile?] >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/ghc-paths-0.1.0.12 <dev-haskell/ghc-paths-0.2 >=dev-haskell/hspec-2.4.4 >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.9.0:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-8.10:= <dev-lang/ghc-8.11:= >=dev-haskell/cabal-3.2.0.0 test? ( >=dev-haskell/ghc-paths-0.1.0.12 <dev-haskell/ghc-paths-0.2 >=dev-haskell/hspec-2.4.4 >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A documentation-generation tool for Haskell libraries
 EAPI=8
 HOMEPAGE=https://www.haskell.org/haddock/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~amd64-linux
 LICENSE=BSD-2
-RDEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.9.0:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-8.10:=[profile?] <dev-lang/ghc-8.11:=[profile?]
+RDEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.9.0:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-8.10:= <dev-lang/ghc-8.11:= dev-lang/ghc:=[profile?]
 RESTRICT=test !test? ( test )
 SLOT=0/2.24.2
 SRC_URI=https://hackage.haskell.org/package/haddock-api-2.24.2/haddock-api-2.24.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=5d29186c925763f624cf664710ebcb80
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=e048061f3f344fc28f1c7df4d661a12f

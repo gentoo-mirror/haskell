@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/base-compat:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hspec-core-2:=[profile?] <dev-haskell/hspec-core-3:=[profile?] >=dev-haskell/hspec-expectations-0.8.0:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/wai-3:=[profile?] >=dev-haskell/wai-extra-3:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?] >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hspec >=dev-haskell/wai-3.2.2 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/base-compat:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hspec-core-2:=[profile?] <dev-haskell/hspec-core-3:=[profile?] >=dev-haskell/hspec-expectations-0.8.0:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/wai-3:=[profile?] >=dev-haskell/wai-extra-3:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hspec >=dev-haskell/wai-3.2.2 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Experimental Hspec support for testing WAI applications
 EAPI=8
 HOMEPAGE=https://github.com/hspec/hspec-wai#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/base-compat:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hspec-core-2:=[profile?] <dev-haskell/hspec-core-3:=[profile?] >=dev-haskell/hspec-expectations-0.8.0:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/wai-3:=[profile?] >=dev-haskell/wai-extra-3:=[profile?] >=dev-lang/ghc-8.8.1:=[profile?]
+RDEPEND=dev-haskell/base-compat:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/hspec-core-2:=[profile?] <dev-haskell/hspec-core-3:=[profile?] >=dev-haskell/hspec-expectations-0.8.0:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/wai-3:=[profile?] >=dev-haskell/wai-extra-3:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.11.1
 SRC_URI=https://hackage.haskell.org/package/hspec-wai-0.11.1/hspec-wai-0.11.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	3c47e72c64972899241dc69ee3524613
-_md5_=20782211a1b4efb06e74aa59d0f99ba8
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_md5_=1230f52386a9392914debb4bb15bc7d3
