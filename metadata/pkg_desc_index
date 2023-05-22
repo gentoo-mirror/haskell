@@ -260,7 +260,7 @@ dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application
 dev-haskell/cabal-plan 0.7.2.0-r3: Library and utility for processing cabal's plan.json file
 dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packages
 dev-haskell/cabal-syntax 3.8.1.0: A library for working with .cabal files
-dev-haskell/cairo 0.13.8.2: Binding to the Cairo library
+dev-haskell/cairo 0.13.10.0: Binding to the Cairo library
 dev-haskell/calamity 0.7.1.0: A library for writing discord bots in haskell
 dev-haskell/calamity-commands 0.4.0.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/call-stack 0.4.0: Use GHC call-stacks in a backward compatible way
@@ -347,7 +347,7 @@ dev-haskell/concatenative 1.0.1-r1: A library for postfix control flow
 dev-haskell/conceit 0.4.0.0: Concurrent actions that may fail with a value
 dev-haskell/concurrency 1.11.0.1: Typeclasses, functions, and data types for concurrency and STM
 dev-haskell/concurrent-extra 0.7.0.12: Extra concurrency primitives
-dev-haskell/concurrent-output 1.10.17: Ungarble output from several threads or commands
+dev-haskell/concurrent-output 1.10.18: Ungarble output from several threads or commands
 dev-haskell/concurrent-split 0.0.1.1: MVars and Channels with distinguished input and output side
 dev-haskell/concurrent-supply 0.1.8-r2: A fast concurrent unique identifier supply with a pure API
 dev-haskell/concurrentoutput 0.2.0.2: Ungarble output from several threads
@@ -492,9 +492,9 @@ dev-haskell/diagrams-builder 0.8.0.5-r4: hint-based build service for the diagra
 dev-haskell/diagrams-cairo 1.4.2-r1: Cairo backend for diagrams drawing EDSL
 dev-haskell/diagrams-canvas 1.4.1-r2: HTML5 canvas backend for diagrams drawing EDSL
 dev-haskell/diagrams-contrib 1.4.4-r5: Collection of user contributions to diagrams EDSL
-dev-haskell/diagrams-core 1.5.0.1: Core libraries for diagrams EDSL
+dev-haskell/diagrams-core 1.5.1: Core libraries for diagrams EDSL
 dev-haskell/diagrams-gtk 1.4-r1: Backend for rendering diagrams directly to GTK windows
-dev-haskell/diagrams-lib 1.4.5.3: Embedded domain-specific language for declarative graphics
+dev-haskell/diagrams-lib 1.4.6: Embedded domain-specific language for declarative graphics
 dev-haskell/diagrams-pgf 1.4.2: PGF backend for diagrams drawing EDSL
 dev-haskell/diagrams-postscript 1.5.1-r1: Postscript backend for diagrams drawing EDSL
 dev-haskell/diagrams-rasterific 1.4.2.2-r1: Rasterific backend for diagrams
@@ -745,7 +745,7 @@ dev-haskell/gi-vte 2.91.29: Vte bindings
 dev-haskell/gi-webkit2 4.0.28: WebKit2 bindings
 dev-haskell/gi-xlib 2.0.11: xlib bindings
 dev-haskell/ginger 0.10.4.0-r1: An implementation of the Jinja2 template language in Haskell
-dev-haskell/gio 0.13.8.2: Binding to GIO
+dev-haskell/gio 0.13.10.0: Binding to GIO
 dev-haskell/git 0.3.0: Git operations in haskell
 dev-haskell/git-lfs 1.2.0: git-lfs protocol
 dev-haskell/githash 0.1.6.3: Compile git revision info into Haskell projects
@@ -755,7 +755,7 @@ dev-haskell/gl 0.8.0-r3 0.9-r1: Complete OpenGL raw bindings
 dev-haskell/glambda 1.0.2: A simply typed lambda calculus interpreter, written with GADTs
 dev-haskell/glfw 0.5.2.5: A Haskell binding for GLFW
 dev-haskell/glfw-b 1.4.8.4 3.3.0.0: Bindings to GLFW OpenGL library
-dev-haskell/glib 0.13.8.2: Binding to the GLIB library for Gtk2Hs
+dev-haskell/glib 0.13.10.0: Binding to the GLIB library for Gtk2Hs
 dev-haskell/glob 0.10.2: Globbing library
 dev-haskell/gloss 1.13.2.1 1.13.2.2: Painless 2D vector graphics, animations and simulations
 dev-haskell/gloss-algorithms 1.13.0.2: Data structures and algorithms for working with 2D graphics
@@ -787,12 +787,12 @@ dev-haskell/groundhog-th 0.11: Type-safe datatype-database mapping library
 dev-haskell/groupoids 4.0: This package has been absorbed into semigroupoids 4.0
 dev-haskell/groups 0.5.3: A group is a monoid with invertibility
 dev-haskell/gsasl 0.3.7: Bindings for GNU libgsasl
-dev-haskell/gtk 0.15.7: Binding to the Gtk+ graphical user interface library
+dev-haskell/gtk 0.15.8: Binding to the Gtk+ graphical user interface library
 dev-haskell/gtk-serialized-event 0.12.0-r4: GTK+ Serialized event
 dev-haskell/gtk-strut 0.1.3.0: Library for creating strut windows with gi-gtk
 dev-haskell/gtk-traymanager 1.0.1: A wrapper around the eggtraymanager library for Linux system trays
-dev-haskell/gtk2hs-buildtools 0.13.8.3: Tools to build the Gtk2Hs suite of User Interface libraries
-dev-haskell/gtk3 0.15.7: Binding to the Gtk+ 3 graphical user interface library
+dev-haskell/gtk2hs-buildtools 0.13.10.0: Tools to build the Gtk2Hs suite of User Interface libraries
+dev-haskell/gtk3 0.15.8: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
 dev-haskell/hackage-security 0.6.1.0: Hackage security library
@@ -954,7 +954,7 @@ dev-haskell/hpack 0.35.1: A modern format for Haskell packages
 dev-haskell/hpath 0.9.2: Support for well-typed paths
 dev-haskell/hpdf 1.5.3: Generation of PDF documents
 dev-haskell/hpp 0.6.4: A Haskell pre-processor
-dev-haskell/hpqtypes 1.9.4.0: Haskell bindings to libpqtypes
+dev-haskell/hpqtypes 1.11.1.1: Haskell bindings to libpqtypes
 dev-haskell/hprotoc 2.4.17: Parse Google Protocol Buffer specifications
 dev-haskell/hps 0.15: Haskell Postscript
 dev-haskell/hs-bibutils 6.8.0.0: Haskell bindings to bibutils, the bibliography conversion utilities
@@ -1470,7 +1470,7 @@ dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
 dev-haskell/pandoc-types 1.23: Types for representing a structured document
-dev-haskell/pango 0.13.8.2: Binding to the Pango text rendering engine
+dev-haskell/pango 0.13.10.0: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.1: Content addressable Haskell package management
 dev-haskell/parallel 3.2.2.0: Parallel programming library
@@ -1695,7 +1695,7 @@ dev-haskell/req 3.13.0: HTTP client library
 dev-haskell/rere 0.2-r1: Regular-expressions extended with fixpoints for context-free powers
 dev-haskell/rerebase 1.16.1: Reexports from "base" with a bunch of other standard libraries
 dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresolv standard library routines
-dev-haskell/resource-pool 0.2.3.2: A high-performance striped resource pooling implementation
+dev-haskell/resource-pool 0.4.0.0: A high-performance striped resource pooling implementation
 dev-haskell/resourcet 1.2.6: Deterministic allocation and freeing of scarce resources
 dev-haskell/rest-rewrite 0.4.0: Rewriting library with online termination checking
 dev-haskell/retrie 1.1.0.0-r3 1.2.1.1: A powerful, easy-to-use codemodding tool for Haskell
