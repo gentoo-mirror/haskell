@@ -274,7 +274,7 @@ dev-haskell/cassava 0.5.2.0-r1: A CSV parsing and encoding library
 dev-haskell/cassava-megaparsec 2.0.4: Megaparsec parser of CSV files that plays nicely with Cassava
 dev-haskell/categories 1.0.7-r1: The Categories package authored by Edward Kmett
 dev-haskell/cautious-file 1.0.2-r1: Ways to write a file cautiously, reducing chances of data loss due to crashes
-dev-haskell/cborg 0.2.8.0: Concise Binary Object Representation (CBOR)
+dev-haskell/cborg 0.2.9.0: Concise Binary Object Representation (CBOR)
 dev-haskell/cborg-json 0.2.5.0: A library for encoding JSON as CBOR
 dev-haskell/cc-delcont 0.2.1.0: Delimited continuations and dynamically scoped variables
 dev-haskell/cereal 0.5.8.3: A binary serialization library
@@ -1101,7 +1101,7 @@ dev-haskell/infer-license 0.2.0: Infer software license from a given license fil
 dev-haskell/inflections 0.4.0.6-r1: Inflections library for Haskell
 dev-haskell/influxdb 1.9.2.2-r1: InfluxDB client library for Haskell
 dev-haskell/ini 0.4.1-r1: Quick and easy configuration files in the INI format
-dev-haskell/inline-c 0.9.1.6: Write Haskell source files including C code inline. No FFI required
+dev-haskell/inline-c 0.9.1.8: Write Haskell source files including C code inline. No FFI required
 dev-haskell/inline-c-cpp 0.2.1.0: Lets you embed C++ code into Haskell
 dev-haskell/insert-ordered-containers 0.2.5.1-r1: Associative containers retaining insertion order for traversals
 dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
@@ -1395,7 +1395,7 @@ dev-haskell/neat-interpolation 0.5.1.2: A quasiquoter for neat and simple multil
 dev-haskell/netlink 1.1.1.0: Netlink communication for Haskell
 dev-haskell/netpbm 1.0.4: Loading PBM, PGM, PPM image files
 dev-haskell/netwire 5.0.3: Functional reactive programming library
-dev-haskell/network 3.1.2.7: Low-level networking interface
+dev-haskell/network 3.1.2.7 3.1.3.0: Low-level networking interface
 dev-haskell/network-bsd 2.8.1.0-r1: Network.BSD
 dev-haskell/network-byte-order 0.1.6: Network byte order utilities
 dev-haskell/network-conduit 1.1.0: Stream socket data using conduits. (deprecated)
@@ -1601,7 +1601,7 @@ dev-haskell/protocol-buffers 2.4.13 2.4.17: Parse Google Protocol Buffer specifi
 dev-haskell/protocol-buffers-descriptor 2.4.13 2.4.17: Haskell implementation of the Google Protocol Buffer specification
 dev-haskell/protolude 0.3.2: A small prelude
 dev-haskell/pseudomacros 0.0.2: cpp-style built-in macros using Template Haskell
-dev-haskell/psqueue 1.1.0.1: Priority Search Queue
+dev-haskell/psqueue 1.2.0: Priority Search Queue
 dev-haskell/psqueues 0.2.7.3: Pure priority search queues
 dev-haskell/publicsuffixlist 0.1: Is a given string a domain suffix?
 dev-haskell/pulseaudio 0.0.2.1: A low-level (incomplete) wrapper around the pulseaudio client asynchronous api
