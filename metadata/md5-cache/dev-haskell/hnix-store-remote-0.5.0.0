@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/cryptonite:=[profile?] >=
 RESTRICT=test
 SLOT=0/0.5.0.0
 SRC_URI=https://hackage.haskell.org/package/hnix-store-remote-0.5.0.0/hnix-store-remote-0.5.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=05f340eff992172970f73c3484d25d80

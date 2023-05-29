@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.0.1.5:=[profile?] >=dev-haskell/concurrent-output-
 RESTRICT=!test? ( test )
 SLOT=0/0.3.3.0
 SRC_URI=https://hackage.haskell.org/package/ascii-progress-0.3.3.0/ascii-progress-0.3.3.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=1aaf8a38e6160d41dacbd6c77b80aa7f

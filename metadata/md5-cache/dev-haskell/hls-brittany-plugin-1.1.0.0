@@ -12,5 +12,5 @@ RDEPEND=>dev-haskell/brittany-0.14.0.1:=[profile?] dev-haskell/czipwith:=[profil
 RESTRICT=!test? ( test )
 SLOT=0/1.1.0.0
 SRC_URI=https://hackage.haskell.org/package/hls-brittany-plugin-1.1.0.0/hls-brittany-plugin-1.1.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=39bac7a4e5ad7f31cedda6ed0b0cbb66

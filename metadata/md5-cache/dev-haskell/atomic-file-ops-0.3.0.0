@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/filelock:=[profile?] dev-haskell/io-string-like:=[profile?] >=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.3.0.0
 SRC_URI=https://hackage.haskell.org/package/atomic-file-ops-0.3.0.0/atomic-file-ops-0.3.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=bb47922b814ae4bf28dc88d8fbe526cc

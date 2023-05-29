@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/blaze-html-0.5:=[profile?] <dev-haskell/blaze-html-0.10:=[profile?] >=dev-haskell/blaze-markup-0.5:=[profile?] <dev-haskell/blaze-markup-0.9:=[profile?] >=dev-haskell/digestive-functors-0.8.3:=[profile?] <dev-haskell/digestive-functors-0.9:=[profile?] >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-1.3:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.6.2.0
 SRC_URI=https://hackage.haskell.org/package/digestive-functors-blaze-0.6.2.0/digestive-functors-blaze-0.6.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=50646fd67c0fc042c9ecac0ac0f6261e

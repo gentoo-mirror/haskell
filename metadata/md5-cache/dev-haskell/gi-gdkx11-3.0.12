@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-haskell/gi-cairo-1.0:=[profile?] <dev-haskell/gi-cairo-1.1:=[profile?] >=dev-haskell/gi-gdk-3.0:=[profile?] <dev-haskell/gi-gdk-3.1:=[profile?] >=dev-haskell/gi-gio-2.0:=[profile?] <dev-haskell/gi-gio-2.1:=[profile?] >=dev-haskell/gi-gobject-2.0:=[profile?] <dev-haskell/gi-gobject-2.1:=[profile?] >=dev-haskell/gi-xlib-2.0:=[profile?] <dev-haskell/gi-xlib-2.1:=[profile?] >=dev-haskell/haskell-gi-0.26:=[profile?] <dev-haskell/haskell-gi-0.27:=[profile?] >=dev-haskell/haskell-gi-base-0.26:=[profile?] <dev-haskell/haskell-gi-base-0.27:=[profile?] <dev-haskell/haskell-gi-overloading-1.1:=[profile?] >=dev-lang/ghc-8.4.3:= x11-libs/gtk+:3[X,introspection] dev-lang/ghc:=[profile?]
 SLOT=0/3.0.12
 SRC_URI=https://hackage.haskell.org/package/gi-gdkx11-3.0.12/gi-gdkx11-3.0.12.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
 _md5_=279abad4f8ad643df3283f4f4427f650
