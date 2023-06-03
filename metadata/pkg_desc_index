@@ -1062,6 +1062,7 @@ dev-haskell/hvega 0.12.0.3: Create Vega-Lite visualizations (version 4) in Haske
 dev-haskell/hvega-theme 0.2.0.4: Theme for hvega
 dev-haskell/hw-fingertree 0.1.2.1: Generic finger-tree structure, with example instances
 dev-haskell/hw-hspec-hedgehog 0.1.1.1: Interoperability between hspec and hedgehog
+dev-haskell/hw-kafka-client 5.0.0: Kafka bindings for Haskell
 dev-haskell/hw-prim 0.6.3.2: Primitive functions and data types
 dev-haskell/hxt 9.3.1.22: A collection of tools for processing XML with Haskell
 dev-haskell/hxt-charproperties 9.5.0.0: Character properties and classes for XML and Unicode
@@ -1541,7 +1542,7 @@ dev-haskell/plugins 1.6.2: Dynamic linking for Haskell and C objects
 dev-haskell/plugins-auto 0.0.4: Automatic recompilation and reloading of haskell modules
 dev-haskell/pointed 5.0.3: Pointed and copointed data
 dev-haskell/pointedlist 0.6.1: A zipper-like comonad which works as a list, tracking a position
-dev-haskell/pointfree 1.1.1.9: Tool for refactoring expressions into pointfree form
+dev-haskell/pointfree 1.1.1.10: Tool for refactoring expressions into pointfree form
 dev-haskell/pointful 1.1.0.0: Pointful refactoring tool
 dev-haskell/poll 0.0.0.2: Bindings to poll.h
 dev-haskell/polynomial 0.7.3: Polynomials
