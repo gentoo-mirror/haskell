@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=<dev-haskell/data-fix-0.4:=[profile?] >=dev-haskell/hnix-0.7:=[profile?] >=dev-haskell/lens-family-core-1.0.0:=[profile?] <dev-haskell/lens-family-core-2.2:=[profile?] <dev-haskell/neat-interpolation-0.6:=[profile?] >=dev-haskell/optparse-generic-1.1.1:=[profile?] <dev-haskell/optparse-generic-1.5:=[profile?] >=dev-lang/dhall-1.41:=[profile?] <dev-lang/dhall-1.42:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/1.1.25
 SRC_URI=https://hackage.haskell.org/package/dhall-nix-1.1.25/dhall-nix-1.1.25.tar.gz https://hackage.haskell.org/package/dhall-nix-1.1.25/revision/1.cabal -> dhall-nix-1.1.25-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=ad4dbb94f79fc68c840856d8785a4244

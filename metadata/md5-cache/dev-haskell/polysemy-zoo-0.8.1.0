@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.2:=[profile?] <dev-haskell/async-3:=[profile?] >=d
 RESTRICT=!test? ( test )
 SLOT=0/0.8.1.0
 SRC_URI=https://hackage.haskell.org/package/polysemy-zoo-0.8.1.0/polysemy-zoo-0.8.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	ce21fece0e5d4363cf6feb09ca40ca11
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=95673829481a1db1ecebf9dea5ca4d88
