@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/dictionary-sharing-0.1:=[profile?] <dev-haskell/dictionary-sharing-1.0:=[profile?] >=dev-haskell/testing-type-modifiers-0.1:=[profile?] <dev-haskell/testing-type-modifiers-1.0:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.2.0
 SRC_URI=https://hackage.haskell.org/package/size-based-0.1.2.0/size-based-0.1.2.0.tar.gz https://hackage.haskell.org/package/size-based-0.1.2.0/revision/1.cabal -> size-based-0.1.2.0-r1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=1a3a60f29428af2d8953c56b78bd283c

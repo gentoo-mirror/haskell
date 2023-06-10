@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/exceptions:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/process-extras-0.3:=[profile?] dev-haskell/puremd5:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/zlib:=[profile?] >=dev-lang/ghc-8.4.3:= virtual/libcrypt:= dev-lang/ghc:=[profile?]
 SLOT=0/1.54.2
 SRC_URI=https://hackage.haskell.org/package/Unixutils-1.54.2/Unixutils-1.54.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=98b4781e6dc972cf107c00a6c1257689
