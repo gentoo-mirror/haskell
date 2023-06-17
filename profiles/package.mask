@@ -1,15 +1,22 @@
-# hololeap <hololeap@protonmail.com> (2022-03-07)
+# hololeap <hololeap@protonmail.com> (2023-06-16)
+# Package does not appear to be buildable on linux and is strictly for
+# iOS.
+# See: <https://hackage.haskell.org/package/jsaddle-wkwebview-0.9.8.2/jsaddle-wkwebview.cabal>
+# Masked for removal in 30 days.
+dev-haskell/jsaddle-wkwebview
+
+# hololeap <hololeap@protonmail.com> (2023-03-07)
 # Depends on >=ghc-9.4. Unmask when this enters the tree.
 >=dev-haskell/haddock-2.27
 >=dev-haskell/haddock-api-2.27
 >=dev-haskell/haddock-library-1.11
 
-# hololeap <hololeap@protonmail.com> (2022-03-01)
+# hololeap <hololeap@protonmail.com> (2023-03-01)
 # Not buildable on ghc-9.2
 # Masking until it is
 dev-haskell/hls-tactics-plugin
 
-# hololeap <hololeap@protonmail.com> (2022-02-27)
+# hololeap <hololeap@protonmail.com> (2023-02-27)
 # These currently depend on an old version of ghc-exactprint, which is
 # incompatible with ghc-9.2
 # See e.g. <https://github.com/lspitzner/brittany/pull/366>
@@ -53,21 +60,9 @@ dev-haskell/hls-stan-plugin
 # See: <https://github.com/martijnbastiaan/doctest-parallel/issues/45>
 dev-haskell/doctest-parallel
 
-# hololeap <hololeap@protonmail.com> (2022-08-12)
-# dev-haskell/stack currently requires <dev-haskell/persistent-2.14
->=dev-haskell/persistent-2.14
->=dev-haskell/persistent-test-2.13.1.3
-
 # Jack Todaro <solpeth@posteo.org> (2020-07-20)
 # Depends on pipes-text, which is masked.
 dev-haskell/zxcvbn-hs
-
-# Jack Todaro <solpeth@posteo.org> (2020-07-20)
-# Too many reverse dependencies require an older version.
-# Mask until they catch up.
->=dev-haskell/aeson-2.1
-dev-haskell/cabal-plan
-dev-haskell/cabal-install-parsers
 
 # hololeap <hololeap@protonmail.com> (2022-03-03)
 # >=random-fu-0.3.0.0 is needed to compile on >=base-4.15, but the latest
