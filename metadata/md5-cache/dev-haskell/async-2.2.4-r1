@@ -1,6 +1,6 @@
-BDEPEND=app-text/dos2unix app-text/dos2unix
+BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/hashable-1.1.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/stm-2.2:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hunit dev-haskell/test-framework dev-haskell/test-framework-hunit ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/hashable-1.1.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/hunit dev-haskell/test-framework dev-haskell/test-framework-hunit ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Run IO operations asynchronously and wait for their results
 EAPI=8
 HOMEPAGE=https://github.com/simonmar/async
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/hashable-1.1.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/stm-2.2:=[profile?] <dev-haskell/stm-2.6:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/hashable-1.1.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/2.2.4
-SRC_URI=https://hackage.haskell.org/package/async-2.2.4/async-2.2.4.tar.gz https://hackage.haskell.org/package/async-2.2.4/revision/1.cabal -> async-2.2.4-r1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
-_md5_=06f2e9e7f24deadc2b530b6868c97ce8
+SRC_URI=https://hackage.haskell.org/package/async-2.2.4/async-2.2.4.tar.gz https://hackage.haskell.org/package/async-2.2.4/revision/3.cabal -> async-2.2.4-rev3.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=67c01a23f8b58d091577858e9ffd61ba

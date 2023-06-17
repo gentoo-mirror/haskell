@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=>=dev-haskell/cabal-3.2:= <dev-haskell/cabal-3.9:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:2= <dev-haskell/quickcheck-2.15:2= ) >=dev-haskell/cabal-2.2.0.1
+DESCRIPTION=GHC build system
+EAPI=8
+HOMEPAGE=https://gitlab.haskell.org/ghc/ghc/-/tree/master/hadrian#readme
+INHERIT=haskell-cabal git-r3
+IUSE=static test +threaded
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=>=dev-haskell/cabal-3.2:= <dev-haskell/cabal-3.9:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:2= <dev-haskell/quickcheck-2.15:2= )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=f42df125516f27761bd50f6f8abdbadf

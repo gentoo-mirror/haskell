@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/network-2.6:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/httpd-shed-0.4 <dev-haskell/httpd-shed-0.5 >=dev-haskell/hunit-1.2.0.1 <dev-haskell/hunit-1.7 >=dev-haskell/puremd5-0.2.4 <dev-haskell/puremd5-2.2 >=dev-haskell/split-0.1.3 <dev-haskell/split-0.3 >=dev-haskell/test-framework-0.2.0 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.3.0 <dev-haskell/test-framework-hunit-0.4 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/network-2.6:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/httpd-shed-0.4 <dev-haskell/httpd-shed-0.5 >=dev-haskell/hunit-1.2.0.1 <dev-haskell/hunit-1.7 >=dev-haskell/puremd5-0.2.4 <dev-haskell/puremd5-2.2 >=dev-haskell/split-0.1.3 <dev-haskell/split-0.3 >=dev-haskell/test-framework-0.2.0 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.3.0 <dev-haskell/test-framework-hunit-0.4 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A library for client-side HTTP
 EAPI=8
 HOMEPAGE=https://github.com/haskell/HTTP
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/network-2.6:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/network-2.6:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4000.4.1
-SRC_URI=https://hackage.haskell.org/package/HTTP-4000.4.1/HTTP-4000.4.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
-_md5_=494b89b48f5aa6998badd36e5bdbfcb7
+SRC_URI=https://hackage.haskell.org/package/HTTP-4000.4.1/HTTP-4000.4.1.tar.gz -> http-4000.4.1.tar.gz https://hackage.haskell.org/package/HTTP-4000.4.1/revision/2.cabal -> http-4000.4.1-rev2.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=f1456a0fe33e10a810eace51e76e57d8

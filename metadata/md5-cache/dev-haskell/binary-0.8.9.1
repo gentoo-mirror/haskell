@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-9.4.4:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Binary serialisation for Haskell values using lazy ByteStrings
+EAPI=8
+HOMEPAGE=https://github.com/kolmodin/binary
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-9.4.4:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/0.8.9.1
+SRC_URI=https://hackage.haskell.org/package/binary-0.8.9.1/binary-0.8.9.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=6e22d1457ad54b91ec71431d5e4ed287

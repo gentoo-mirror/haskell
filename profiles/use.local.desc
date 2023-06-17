@@ -23,6 +23,7 @@ dev-haskell/alsa-seq:modifyfilter - Use native event filter functions that are p
 dev-haskell/ansi-terminal:example - Build the example application
 dev-haskell/ansi-wl-pprint:examples - Build the example application
 dev-haskell/apply-refact:executable - Install the apply-refactor executable
+dev-haskell/assoc:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/atomic-primops:debug - Enable extra internal checks.
 dev-haskell/beam-automigrate:ghcipretty - Enable pretty-show for pretty-printing purposes
 dev-haskell/bench-show:charts - Build the modules that provide charting functionality
@@ -62,7 +63,6 @@ dev-haskell/citeproc:executable - Build citeproc executable
 dev-haskell/citeproc:icu - Use Haskell bindings to the ICU library
 dev-haskell/clash-ghc:dynamic - Build Clash binaries with GHC flag `-dynamic`. This flag should only be used for packaging purposes. Installations using cabal should use `--enable-executable-dynamic`!
 dev-haskell/clash-ghc:ghc-paths - Locate the GHC core libraries using the `ghc-paths` package. Note: this flag may make binaries less relocatable, by hard-coding an absolute path to the core libraries.
-dev-haskell/clash-lib:debug - Build a debug compiler
 dev-haskell/cmark:system-cmark - use app-text/cmark instead of bundled copy
 dev-haskell/cmdargs:quotation - Build the Quote module
 dev-haskell/cmdargs:testprog - Build the test program
@@ -102,6 +102,7 @@ dev-haskell/filestore:maxcount - Make use of a recent (>= 2.3.0) Darcs feature w
 dev-haskell/finite-field:useghctypelits - GHC.TypeLits module
 dev-haskell/floskell:executable - Build the floskell executable
 dev-haskell/focuslist:examples - Build the focuslist-readme example executable
+dev-haskell/foldable1-classes-compat:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/foundation:experimental - Enable building experimental features, known as highly unstable or without good support cross-platform
 dev-haskell/fourmolu:executable - Build the fourmolu executable
 dev-haskell/fourmolu:fixity-th - Parse the default fixity information via Template Haskell
@@ -135,6 +136,8 @@ dev-haskell/gtk3:fmode-binary - Set the default file translation mode for file I
 dev-haskell/gtk3:gio - Depend on GIO package, thereby enabling certain features.
 dev-haskell/hackage-db:install-examples - Build and install example programs.
 dev-haskell/hackage-security:lukko - Use @lukko@ for file-locking, otherwise use @GHC.IO.Handle.Lock@
+dev-haskell/hadrian:test - Enables the hadrian selftest rules which require QuickCheck. Disabling it thus saves on a few dependencies which can be problematic when bootstrapping.
+dev-haskell/hadrian:threaded - Build with the threaded runtime for improved performance. Users with bootstrap compilers which don't support the threaded runtime should disable this flag.
 dev-haskell/hakyll:buildwebsite - Build the hakyll website
 dev-haskell/hakyll:checkexternal - Include external link checking
 dev-haskell/hakyll:previewserver - Include the preview server
@@ -194,7 +197,6 @@ dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
 dev-haskell/hsyaml-aeson:exe - Enable @exe:yaml-test@ component
 dev-haskell/hsyslog:install-examples - Build and install example programs
 dev-haskell/htf:executable - Build the htfpp executable
-dev-haskell/html-entity-map:dev - Turn on development settings.
 dev-haskell/http-api-data:text-show - Use text-show library for efficient ToHttpApiData implementations.
 dev-haskell/http-client-openssl:test-proxy - Test with http-proxy
 dev-haskell/httpd-shed:buildexamples - Build example executables.
@@ -240,9 +242,7 @@ dev-haskell/markdown-unlit:executable - Build executable
 dev-haskell/massiv:unsafe-checks - Enable all the bounds checks for unsafe functions at the cost of significant performance penalty
 dev-haskell/midi-alsa:buildexamples - Build example executables.
 dev-haskell/misfortune:executable - Build the misfortune and misfortune-strfile executables
-dev-haskell/miso:ios - Cross compile to iOS
-dev-haskell/miso:jsaddle - Compile with JSaddle
-dev-haskell/miso:tests - Builds Miso's tests
+dev-haskell/miso:jsstring-only - Always set MisoString = JSString
 dev-haskell/mod:semirings - Derive semiring instances
 dev-haskell/mod:vector - Derive unboxed and primitive vector instances
 dev-haskell/monad-logger:template-haskell - Enable Template Haskell support
@@ -321,6 +321,7 @@ dev-haskell/sandi:conduit - Build with conduit
 dev-haskell/sbv:skip-hlint-tester - Do not build the HLint tester
 dev-haskell/sdl2:examples - Build opengl-example
 dev-haskell/sdl2:no-linear - Do not depend on 'linear' library
+dev-haskell/semialign:semigroupoids - Build with semigroupoids dependency
 dev-haskell/semigroupoid-extras:profunctors - You can disable the use of the `profunctors` package using `-f-profunctors`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/sendfile:portable - Explicitly enable portable sendfile support (implemented in Haskell)
 dev-haskell/sha:exe - Build a sha1 and a sha384 executable similar to 'md5sum'.
@@ -369,9 +370,9 @@ dev-haskell/tasty-discover:executable - Build the tasty-discover executable
 dev-haskell/texmath:executable - Compile test executable.
 dev-haskell/texmath:server - Compile webserver.
 dev-haskell/text:integer-simple - Use the [simple integer library](http://hackage.haskell.org/package/integer-simple) instead of [integer-gmp](http://hackage.haskell.org/package/integer-gmp)
-dev-haskell/text-short:asserts - Enable runtime-checks via @assert@
+dev-haskell/text:simdutf - use simdutf library
+dev-haskell/text-short:debug - Enable runtime-checks via @assert@
 dev-haskell/themoviedb:maintainer - Enable settings for the package maintainer.
-dev-haskell/threepenny-gui:examples - Build example executables
 dev-haskell/threepenny-gui:rebug - Expose more bugs by increasing determinism
 dev-haskell/thyme:bug-for-bug - bug-for-bug compatibility with time
 dev-haskell/thyme:lens - use the full lens package
@@ -413,7 +414,7 @@ dev-haskell/yesod-paginator:examples - Build the examples
 dev-haskell/zip-archive:executable - Build the Zip executable.
 dev-haskell/zlib:bundled-c-zlib - Use the bundled zlib C sources. Requires pkg-config to be False. For windows, this is the default.
 dev-haskell/zlib:non-blocking-ffi - The (de)compression calls can sometimes take a long time, which prevents other Haskell threads running. Enabling this flag avoids this unfairness, but with greater overall cost.
-dev-haskell/zxcvbn-hs:tools - Build the data processing tools (i.e. dictionary compilers)
+dev-haskell/zxcvbn-hs:executable - Build the zxcvbn-tools executable
 dev-lang/cryptol:relocatable - Don't use the Cabal-provided data directory for looking up Cryptol libraries.
 dev-lang/dhall:http - Include support for importing dhall modules from HTTP URLs
 dev-lang/dhall:http-client-tls - Use http-client-tls for resolving HTTP imports by default (requires with-http to be enabled)
@@ -451,6 +452,7 @@ sci-mathematics/agda:stdlib - Install the standard library.
 www-apps/gitit:plugins - Compile in support for plugins. This will increase the size of the executable and the memory it uses, so those who will not need plugins should disable this flag.
 www-servers/mighttpd2:tls - HTTPS support.
 x11-misc/gtk-sni-tray:executable - Build the gtk-sni-tray-standalone executable
+x11-misc/taffybar:cryptocurrency - Enable crypto assets widget.
 x11-misc/xmobar:alsa - Use alsa-mixer to get the volume from soundcards.
 x11-misc/xmobar:datezone - Enables localized date support.
 x11-misc/xmobar:dbus - Publish a service on the session bus for controlling xmobar.

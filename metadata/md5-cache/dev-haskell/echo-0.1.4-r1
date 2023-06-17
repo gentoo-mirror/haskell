@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=|| ( dev-lang/ghc ( >=dev-haskell/process-1.0.1.1[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.4
 SRC_URI=https://hackage.haskell.org/package/echo-0.1.4/echo-0.1.4.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	2e4751f54ef269204d5d1cc12fe88185	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=145aa28418a807d2bbf9dcb43a8ebae3

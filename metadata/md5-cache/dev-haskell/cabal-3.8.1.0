@@ -1,0 +1,14 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cabal-syntax-3.8:=[profile?] <dev-haskell/cabal-syntax-3.9:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-8.8.1:= || ( ( >=dev-haskell/text-1.2.3.0 <dev-haskell/text-1.3 ) ( >=dev-haskell/text-2.0 <dev-haskell/text-2.1 ) ) dev-haskell/text:=[profile?] hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A framework for packaging Haskell software
+EAPI=8
+HOMEPAGE=https://www.haskell.org/cabal/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+LICENSE=BSD
+RDEPEND=>=dev-haskell/cabal-syntax-3.8:=[profile?] <dev-haskell/cabal-syntax-3.9:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-8.8.1:= || ( ( >=dev-haskell/text-1.2.3.0 <dev-haskell/text-1.3 ) ( >=dev-haskell/text-2.0 <dev-haskell/text-2.1 ) ) dev-haskell/text:=[profile?] dev-lang/ghc:=[profile?]
+SLOT=0/3.8.1.0
+SRC_URI=https://hackage.haskell.org/package/Cabal-3.8.1.0/Cabal-3.8.1.0.tar.gz -> cabal-3.8.1.0.tar.gz https://hackage.haskell.org/package/Cabal-3.8.1.0/revision/2.cabal -> cabal-3.8.1.0-rev2.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=2b6b17532934dba7541adae9412ca401
