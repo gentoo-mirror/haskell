@@ -136,6 +136,7 @@ dev-haskell/gtk3:fmode-binary - Set the default file translation mode for file I
 dev-haskell/gtk3:gio - Depend on GIO package, thereby enabling certain features.
 dev-haskell/hackage-db:install-examples - Build and install example programs.
 dev-haskell/hackage-security:lukko - Use @lukko@ for file-locking, otherwise use @GHC.IO.Handle.Lock@
+dev-haskell/hackage-security:new-cabal-syntax - Use newer cabal-syntax package (breaks cabal-install-3.6 and lower)
 dev-haskell/hadrian:test - Enables the hadrian selftest rules which require QuickCheck. Disabling it thus saves on a few dependencies which can be problematic when bootstrapping.
 dev-haskell/hadrian:threaded - Build with the threaded runtime for improved performance. Users with bootstrap compilers which don't support the threaded runtime should disable this flag.
 dev-haskell/hakyll:buildwebsite - Build the hakyll website

@@ -262,7 +262,7 @@ dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application
 dev-haskell/cabal-plan 0.7.3.0: Library and utility for processing cabal's plan.json file
 dev-haskell/cabal-quickcheck 3.8.1.0: QuickCheck instances for types in Cabal
 dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packages
-dev-haskell/cabal-syntax 3.8.1.0 3.10.1.0: A library for working with .cabal files
+dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0: A library for working with .cabal files
 dev-haskell/cabal-tree-diff 3.8.1.0: tree-diff for Cabal
 dev-haskell/cairo 0.13.10.0: Binding to the Cairo library
 dev-haskell/calamity 0.7.1.0: A library for writing discord bots in haskell
@@ -801,7 +801,7 @@ dev-haskell/gtk2hs-buildtools 0.13.10.0: Tools to build the Gtk2Hs suite of User
 dev-haskell/gtk3 0.15.8: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
-dev-haskell/hackage-security 0.6.2.3: Hackage security library
+dev-haskell/hackage-security 0.6.2.3-r1: Hackage security library
 dev-haskell/haddock 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-api 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0: Library exposing some functionality of Haddock
