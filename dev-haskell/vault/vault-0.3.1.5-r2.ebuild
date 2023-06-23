@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,7 @@ EAPI=8
 #hackport: flags: +useghc
 
 CABAL_FEATURES="lib profile haddock hoogle hscolour"
-CABAL_HACKAGE_REVISION="1"
+CABAL_HACKAGE_REVISION=3
 inherit haskell-cabal
 
 DESCRIPTION="a persistent store for values of arbitrary types"
@@ -34,9 +34,6 @@ src_prepare() {
 
 	# Convert to unix line endings
 	dos2unix "${S}/${PN}.cabal" || die
-
-	cabal_chdeps \
-		'base >= 4.5 && < 4.17' 'base >= 4.5'
 
 	# Apply patches *after* pulling the revised cabal
 	default
