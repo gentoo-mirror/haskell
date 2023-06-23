@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/ghc-paths:=[profile?] dev-haskell/random:=[profile?] dev-haskell/temporary:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( dev-haskell/hunit dev-haskell/stm dev-haskell/typed-process ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/ghc-paths:=[profile?] dev-haskell/random:=[profile?] dev-haskell/temporary:=[profile?] >=dev-lang/ghc-8.10.1:= >=dev-haskell/cabal-3.2.0.0 test? ( dev-haskell/hunit dev-haskell/stm dev-haskell/text dev-haskell/typed-process ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A Haskell interpreter built on top of the GHC API
 EAPI=8
 HOMEPAGE=https://github.com/haskell-hint/hint
@@ -10,7 +10,7 @@ KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=dev-haskell/ghc-paths:=[profile?] dev-haskell/random:=[profile?] dev-haskell/temporary:=[profile?] >=dev-lang/ghc-8.10.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.9.0.6
-SRC_URI=https://hackage.haskell.org/package/hint-0.9.0.6/hint-0.9.0.6.tar.gz
+SLOT=0/0.9.0.7
+SRC_URI=https://hackage.haskell.org/package/hint-0.9.0.7/hint-0.9.0.7.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
-_md5_=b5ccfa509167b5296c709e2b990da96d
+_md5_=901aff9ca6c29cd71d09f85f3182496a

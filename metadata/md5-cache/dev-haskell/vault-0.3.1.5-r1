@@ -12,4 +12,4 @@ RDEPEND=>=dev-haskell/hashable-1.1.2.5:=[profile?] <dev-haskell/hashable-1.5:=[p
 SLOT=0/0.3.1.5
 SRC_URI=https://hackage.haskell.org/package/vault-0.3.1.5/vault-0.3.1.5.tar.gz https://hackage.haskell.org/package/vault-0.3.1.5/revision/1.cabal -> vault-0.3.1.5-r1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
-_md5_=e91d35f6420d9a7b5da4c1c820bc0194
+_md5_=1c5a5a1ad173ca12ca298f077c616ab8
