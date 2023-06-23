@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,10 +21,6 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="exe"
 
-CABAL_CHDEPS=(
-	'base         >= 4.5      && < 4.17' 'base         >= 4.5'
-)
-
 RDEPEND=">=dev-lang/ghc-8.4.3:=
 	exe? ( >=dev-haskell/megaparsec-7.0:=[profile?] <dev-haskell/megaparsec-10:=[profile?]
 		>=dev-haskell/microaeson-0.1:=[profile?] <dev-haskell/microaeson-0.2:=[profile?] )
@@ -35,6 +31,13 @@ DEPEND="${RDEPEND}
 		>=dev-haskell/tasty-1.4 <dev-haskell/tasty-1.5
 		>=dev-haskell/tasty-quickcheck-0.10 <dev-haskell/tasty-quickcheck-0.11 )
 "
+
+src_prepare() {
+	default
+
+	cabal_chdeps \
+		'base         >= 4.5      && < 4.17' 'base         >= 4.5      && < 5'
+}
 
 src_configure() {
 	haskell-cabal_src_configure \
