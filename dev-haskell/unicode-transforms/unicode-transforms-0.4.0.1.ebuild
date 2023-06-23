@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,6 +7,7 @@ EAPI=8
 #hackport: flags: -dev,-has-icu,-has-llvm,-bench-show,-gauge
 
 CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
+CABAL_HACKAGE_REVISION="3"
 inherit haskell-cabal
 
 DESCRIPTION="Unicode normalization"
@@ -16,11 +17,6 @@ LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~ppc64"
 IUSE=""
-
-CABAL_CHDEPS=(
-	'base         >= 4.8 && < 4.17' 'base         >= 4.8'
-	'ghc-prim     >= 0.2 && < 0.9' 'ghc-prim     >= 0.2'
-)
 
 RDEPEND=">=dev-haskell/unicode-data-0.2:=[profile?] <dev-haskell/unicode-data-0.4:=[profile?]
 	>=dev-lang/ghc-8.4.3:=
