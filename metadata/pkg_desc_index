@@ -2139,7 +2139,7 @@ dev-haskell/validity-text 0.3.1.1: Validity instances for text
 dev-haskell/validity-unordered-containers 0.2.0.3: Validity instances for unordered-containers
 dev-haskell/validity-vector 0.2.0.3: Validity instances for vector
 dev-haskell/varying 0.8.1.0: FRP through value streams and monadic splines
-dev-haskell/vault 0.3.1.5-r1: a persistent store for values of arbitrary types
+dev-haskell/vault 0.3.1.5-r2: a persistent store for values of arbitrary types
 dev-haskell/vcs-revision 0.0.2-r1: Facilities for accessing the version control revision of the current directory
 dev-haskell/vcswrapper 0.1.6: Wrapper for source code management systems
 dev-haskell/vec 0.4.1-r1: Vec: length-indexed (sized) list
