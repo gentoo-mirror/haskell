@@ -9,7 +9,7 @@ IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
-SLOT=0/0.0.16
-SRC_URI=https://hackage.haskell.org/package/basement-0.0.16/basement-0.0.16.tar.gz
+SLOT=0/0.0.14
+SRC_URI=https://hackage.haskell.org/package/basement-0.0.14/basement-0.0.14.tar.gz https://hackage.haskell.org/package/basement-0.0.14/revision/2.cabal -> basement-0.0.14-rev2.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
-_md5_=decc249bbdcbad1468da2545c14028c2
+_md5_=e9847b5cf583f6d562efa6a85a444f39
