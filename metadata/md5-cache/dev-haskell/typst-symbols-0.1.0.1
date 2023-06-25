@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Symbol and emoji lookup for typst language
+EAPI=8
+HOMEPAGE=https://github.com/jgm/typst-symbols
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+SLOT=0/0.1.0.1
+SRC_URI=https://hackage.haskell.org/package/typst-symbols-0.1.0.1/typst-symbols-0.1.0.1.tar.gz https://hackage.haskell.org/package/typst-symbols-0.1.0.1/revision/1.cabal -> typst-symbols-0.1.0.1-rev1.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=07d98229f89d184300f1811670b0e24e

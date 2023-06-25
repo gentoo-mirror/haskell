@@ -74,6 +74,15 @@ dev-haskell/contravariant:tagged - You can disable the use of the `tagged` packa
 dev-haskell/country-codes:generate - Build generate executable?
 dev-haskell/criterion:embed-data-files - Embed the data files in the binary for a relocatable executable. (Warning: This will increase the executable size significantly.)
 dev-haskell/crypto-api:all-cpolys - Build all the CMAC polynomes up to 10000 bits instead of just the usual ones
+dev-haskell/crypton:check-alignment - extra check on alignment in C layers, which cause lowlevel assert errors. for debugging only.
+dev-haskell/crypton:integer-gmp - Whether or not to use GMP for some functions
+dev-haskell/crypton:old-toolchain-inliner - use -fgnu89-inline to workaround an old compiler / linker / glibc issue.
+dev-haskell/crypton:support-aesni - allow compilation with AESNI on system and architecture that supports it
+dev-haskell/crypton:support-deepseq - add deepseq instances for cryptographic types
+dev-haskell/crypton:support-pclmuldq - Allow compilation with pclmuldq on architecture that supports it
+dev-haskell/crypton:support-rdrand - allow compilation with RDRAND on system and architecture that supports it
+dev-haskell/crypton:support-sse - Use SSE optimized version of (BLAKE2, ARGON2)
+dev-haskell/crypton:target-attributes - use GCC / clang function attributes instead of global target options.
 dev-haskell/cryptonite:integer-gmp - Whether or not to use GMP for some functions
 dev-haskell/cryptonite:target-attributes - use GCC / clang function attributes instead of global target options.
 dev-haskell/data-lens:derivedatatypeable - Use the DeriveDataTypeable extension. This makes lens compile with old compilers. Users need not worry about it.
@@ -383,6 +392,7 @@ dev-haskell/tls:network - Use the base network library
 dev-haskell/tomland:example-play-tomland - Build play-tomland executable
 dev-haskell/tomland:example-readme - Build example-tomland generator
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
+dev-haskell/typst:executable - Compile executable to be used in testing and development.
 dev-haskell/tz:template-haskell - Enable the use of and export Template Haskell functionality. (Might need to disable this for cross-compiling.)
 dev-haskell/unagi-chan:compare-benchmarks - compare benchmarks with Chan, TQueue, and (eventually) lockfree-queue?
 dev-haskell/unboxing-vector:mono-traversable - Define instances for MonoTraversable
