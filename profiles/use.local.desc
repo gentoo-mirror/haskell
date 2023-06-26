@@ -379,7 +379,6 @@ dev-haskell/tasty:clock - Depend on the clock package for more accurate time mea
 dev-haskell/tasty-discover:executable - Build the tasty-discover executable
 dev-haskell/texmath:executable - Compile test executable.
 dev-haskell/texmath:server - Compile webserver.
-dev-haskell/text:integer-simple - Use the [simple integer library](http://hackage.haskell.org/package/integer-simple) instead of [integer-gmp](http://hackage.haskell.org/package/integer-gmp)
 dev-haskell/text:simdutf - use simdutf library
 dev-haskell/text-short:debug - Enable runtime-checks via @assert@
 dev-haskell/themoviedb:maintainer - Enable settings for the package maintainer.

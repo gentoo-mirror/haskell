@@ -1333,7 +1333,7 @@ dev-haskell/modern-uri 0.3.6.0: Modern library for working with URIs
 dev-haskell/modular-arithmetic 1.2.1.5: A type for integers modulo some constant
 dev-haskell/monad-control 1.0.3.1: Lift control operations, like exception catching, through monad transformers
 dev-haskell/monad-control-aligned 0.0.1.1-r1: Just like monad-control, except less efficient, and the monadic state terms are all * -> *
-dev-haskell/monad-dijkstra 0.1.1.3: A monad transformer for weighted graph searches
+dev-haskell/monad-dijkstra 0.1.1.3-r1: A monad transformer for weighted graph searches
 dev-haskell/monad-extras 0.6.0: Extra utility functions for working with monads
 dev-haskell/monad-journal 0.8.1: Pure logger typeclass and monad transformer
 dev-haskell/monad-logger 0.3.39: A class of monads which can log messages
@@ -1911,7 +1911,7 @@ dev-haskell/stringprep 1.0.0: Implements the "StringPrep" algorithm
 dev-haskell/stringsearch 0.3.6.6-r1: Fast searching, splitting and replacing of ByteStrings
 dev-haskell/strptime 1.0.10-r1: Efficient parsing of LocalTime using a binding to C's strptime
 dev-haskell/structured 0.1.1-r2: Structure (hash) of your data types
-dev-haskell/stylish-haskell 0.14.4.0: Haskell code prettifier
+dev-haskell/stylish-haskell 0.14.4.0-r1: Haskell code prettifier
 dev-haskell/styx 1.3.1: A generator of nix files
 dev-haskell/suffixtree 0.2.2.1: Efficient, lazy suffix tree implementation
 dev-haskell/suitable 0.1.1-r1: Abstract over the constraints on the parameters to type constructors
@@ -1988,7 +1988,7 @@ dev-haskell/testing-feat 1.1.0.0-r1: Functional Enumeration of Algebraic Types
 dev-haskell/testing-type-modifiers 0.1.0.1: Data type modifiers for property based testing
 dev-haskell/texmath 0.12.8: Conversion between math formats
 dev-haskell/texrunner 0.0.1.2-r2: Functions for running Tex from Haskell
-dev-haskell/text 1.2.4.1-r1 1.2.5.0-r1 2.0.1: An efficient packed Unicode text type
+dev-haskell/text 1.2.4.1-r1 1.2.5.0-r1 2.0.2: An efficient packed Unicode text type
 dev-haskell/text-ansi 0.2.1: Text styling for ANSI terminals
 dev-haskell/text-binary 0.2.1.1: Binary instances for text types
 dev-haskell/text-builder 0.6.7: An efficient strict text builder
