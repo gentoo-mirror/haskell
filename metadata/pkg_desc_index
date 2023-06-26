@@ -370,7 +370,7 @@ dev-haskell/config-schema 1.2.2.0: Schema definitions for the config-value packa
 dev-haskell/config-value 0.7.0.1 0.8.1: Simple, layout-based value language similar to YAML or JSON
 dev-haskell/configfile 1.1.4: Configuration file reading & writing
 dev-haskell/configurator 0.3.0.0-r1: Configuration management
-dev-haskell/connection 0.3.1: Simple and easy network connections API
+dev-haskell/connection 0.3.1-r1: Simple and easy network connections API
 dev-haskell/constraints 0.13.4: Constraint manipulation
 dev-haskell/constraints-deriving 1.1.1.2: Manipulating constraints and deriving class instances programmatically
 dev-haskell/constraints-extras 0.3.2.1: Utility package for constraints
@@ -1055,7 +1055,7 @@ dev-haskell/http-client-conduit 0.3.0: Frontend support for using http-client wi
 dev-haskell/http-client-multipart 0.3.0.0: Generate multipart uploads for http-client. (deprecated)
 dev-haskell/http-client-openssl 0.3.0.0: http-client backend using the OpenSSL library
 dev-haskell/http-client-restricted 0.0.5: restricting the servers that http-client will use
-dev-haskell/http-client-tls 0.3.6.1: http-client backend using the connection package and tls library
+dev-haskell/http-client-tls 0.3.6.2: http-client backend using the connection package and tls library
 dev-haskell/http-common 0.8.3.4: Common types for HTTP clients and servers
 dev-haskell/http-conduit 2.3.8: HTTP client package with conduit interface and HTTPS support
 dev-haskell/http-date 0.0.11: HTTP Date parser/formatter
@@ -1474,7 +1474,7 @@ dev-haskell/options 1.2.1.1: A powerful and easy-to-use command-line option pars
 dev-haskell/optparse-applicative 0.17.0.0: Utilities and combinators for parsing command line options
 dev-haskell/optparse-generic 1.4.9: Auto-generate a command-line parser for your datatype
 dev-haskell/optparse-simple 0.1.1.4: Simple interface to optparse-applicative
-dev-haskell/ordered-containers 0.2.2: Set- and Map-like types that remember the order elements were inserted
+dev-haskell/ordered-containers 0.2.3: Set- and Map-like types that remember the order elements were inserted
 dev-haskell/ormolu 0.5.2.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
@@ -2044,7 +2044,7 @@ dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs (RFC3
 dev-haskell/timespan 0.3.0.0: Useful timespan datatype and functions
 dev-haskell/timezone-olson 0.1.9 0.2.0 0.2.1: A pure Haskell parser and renderer for binary Olson timezone files
 dev-haskell/timezone-series 0.1.9 0.1.13: Enhanced timezone handling for Data.Time
-dev-haskell/tls 1.7.0: TLS/SSL protocol native implementation (Server and Client)
+dev-haskell/tls 1.6.0 1.7.0: TLS/SSL protocol native implementation (Server and Client)
 dev-haskell/tls-session-manager 0.0.4: In-memory TLS session manager
 dev-haskell/tmp-postgres 1.34.1.0-r2: Start and stop a temporary postgres
 dev-haskell/tomland 1.3.3.2-r1: Bidirectional TOML serialization
@@ -2227,9 +2227,9 @@ dev-haskell/wxdirect 0.92.3.0-r2: helper tool for building wxHaskell
 dev-haskell/x11 1.10.2: A binding to the X11 graphics library
 dev-haskell/x11-xft 0.3.4: Bindings to the Xft and some Xrender parts
 dev-haskell/x509 1.7.7: X509 reader and writer
-dev-haskell/x509-store 1.6.7: X.509 collection accessing and storing methods
+dev-haskell/x509-store 1.6.9: X.509 collection accessing and storing methods
 dev-haskell/x509-system 1.6.7: Handle per-operating-system X.509 accessors and storage
-dev-haskell/x509-validation 1.6.11: X.509 Certificate and CRL validation
+dev-haskell/x509-validation 1.6.12: X.509 Certificate and CRL validation
 dev-haskell/xattr 0.6.2: Haskell extended file attributes interface
 dev-haskell/xcb-types 0.12.0: Parses XML files used by the XCB project
 dev-haskell/xdg-basedir 0.2.2-r1: A basic implementation of the XDG Base Directory specification
