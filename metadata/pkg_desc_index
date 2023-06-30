@@ -100,7 +100,7 @@ dev-haskell/amazonka-stepfunctions 1.6.1: Amazon Step Functions SDK
 dev-haskell/amazonka-storagegateway 1.6.1: Amazon Storage Gateway SDK
 dev-haskell/amazonka-support 1.6.1: Amazon Support SDK
 dev-haskell/amazonka-test 1.6.1: Common functionality for Amazonka library test-suites
-dev-haskell/amqp 0.19.1: Client library for AMQP servers (currently only RabbitMQ)
+dev-haskell/amqp 0.22.1: Client library for AMQP servers (currently only RabbitMQ)
 dev-haskell/amqp-worker 0.3.2: High level functions for working with message queues
 dev-haskell/annotated-wl-pprint 0.7.0: The Wadler/Leijen Pretty Printer, with annotation support
 dev-haskell/ansi-terminal 0.11.5: Simple ANSI terminal support, with Windows compatibility
@@ -265,7 +265,7 @@ dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packa
 dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0: A library for working with .cabal files
 dev-haskell/cabal-tree-diff 3.8.1.0: tree-diff for Cabal
 dev-haskell/cairo 0.13.10.0: Binding to the Cairo library
-dev-haskell/calamity 0.7.1.0: A library for writing discord bots in haskell
+dev-haskell/calamity 0.8.0.0: A library for writing discord bots in haskell
 dev-haskell/calamity-commands 0.4.0.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/call-stack 0.4.0: Use GHC call-stacks in a backward compatible way
 dev-haskell/canonical-filepath 1.0.0.3: Abstract data type for canonical file paths
@@ -854,7 +854,7 @@ dev-haskell/haskell-src-exts-simple 1.23.0.0: A simplified view on the haskell-s
 dev-haskell/haskell-src-exts-util 0.2.5: Helper functions for working with haskell-src-exts trees
 dev-haskell/haskell-src-meta 0.8.11: Parse source to template-haskell abstract syntax
 dev-haskell/haskellnet 0.5.2-r1: Client support for POP3, SMTP, and IMAP
-dev-haskell/haskellnet-ssl 0.3.4.1-r1: Helpers to connect to SSL/TLS mail servers with HaskellNet
+dev-haskell/haskellnet-ssl 0.3.4.4: Helpers to connect to SSL/TLS mail servers with HaskellNet
 dev-haskell/haskey 0.3.1.0-r1: A transactional, ACID compliant, embeddable key-value store
 dev-haskell/haskey-btree 0.3.0.1: B+-tree implementation in Haskell
 dev-haskell/hasktags 0.71.2-r2 9999: Produces ctags "tags" and etags "TAGS" files for Haskell programs
@@ -1054,7 +1054,7 @@ dev-haskell/http-client 0.7.13.1: An HTTP client engine
 dev-haskell/http-client-conduit 0.3.0: Frontend support for using http-client with conduit (deprecated)
 dev-haskell/http-client-multipart 0.3.0.0: Generate multipart uploads for http-client. (deprecated)
 dev-haskell/http-client-openssl 0.3.0.0: http-client backend using the OpenSSL library
-dev-haskell/http-client-restricted 0.0.5: restricting the servers that http-client will use
+dev-haskell/http-client-restricted 0.0.5-r1: restricting the servers that http-client will use
 dev-haskell/http-client-tls 0.3.6.2: http-client backend using the connection package and tls library
 dev-haskell/http-common 0.8.3.4: Common types for HTTP clients and servers
 dev-haskell/http-conduit 2.3.8: HTTP client package with conduit interface and HTTPS support
@@ -1705,7 +1705,7 @@ dev-haskell/repa-algorithms 3.4.1.3: Algorithms using the Repa array library
 dev-haskell/repa-devil 0.3.2.6-r1: Support for image reading and writing of Repa arrays using in-place FFI calls
 dev-haskell/repa-io 3.4.1.1-r1: Read and write Repa arrays in various formats
 dev-haskell/repline 0.4.0.0: Haskeline wrapper for GHCi-like REPL interfaces
-dev-haskell/req 3.13.0: HTTP client library
+dev-haskell/req 3.13.1: HTTP client library
 dev-haskell/rere 0.2-r1: Regular-expressions extended with fixpoints for context-free powers
 dev-haskell/rerebase 1.16.1: Reexports from "base" with a bunch of other standard libraries
 dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresolv standard library routines
@@ -2219,7 +2219,7 @@ dev-haskell/wraparound 0.0.2-r1: Convenient handling of points on a seamless 2-d
 dev-haskell/wreq 0.5.3.3-r1: An easy-to-use HTTP client library
 dev-haskell/writer-cps-mtl 0.1.1.6: MonadWriter orphan instances for writer-cps-transformers
 dev-haskell/writer-cps-transformers 0.1.1.4 0.5.6.1: WriteT and RWST monad transformers
-dev-haskell/wuss 1.1.18 2.0.1.1: Secure WebSocket (WSS) clients
+dev-haskell/wuss 2.0.1.4: Secure WebSocket (WSS) clients
 dev-haskell/wx 0.92.3.0-r1: A portable and native GUI library for Haskell built on top of wxWidgets
 dev-haskell/wxc 0.92.3.0-r1: wxHaskell C++ wrapper
 dev-haskell/wxcore 0.92.3.0-r1: wxHaskell core
@@ -2321,14 +2321,14 @@ dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
 dev-util/hasmin 1.0.3-r2: CSS Minifier
 dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
 dev-util/hindent 5.3.2: Extensible Haskell pretty printer
-dev-util/hoogle 5.0.18.3: Haskell API Search
+dev-util/hoogle 5.0.18.3-r1: Haskell API Search
 dev-util/shake 0.19.7: Build system library, like Make, but more accurate dependencies
 dev-util/shellcheck 0.9.0-r1: Shell script analysis tool
 dev-util/shelltestrunner 1.9: A tool for testing command-line programs
 dev-util/spago 0.20.6: PureScript package manager and build tool powered by Dhall and package-sets
 dev-util/threadscope 0.2.14.1: A graphical tool for profiling parallel Haskell programs
 dev-vcs/darcs 2.16.5-r4: a distributed, interactive, smart revision control system
-dev-vcs/git-annex 10.20220624 10.20230214: manage files with git, without checking their contents into git
+dev-vcs/git-annex 10.20220624 10.20230214 10.20230626: manage files with git, without checking their contents into git
 dev-vcs/git-repair 1.20220404: repairs a damaged git repository
 games-action/monadius 0.99: 2-D arcade scroller
 games-arcade/shu-thing 1.1.4: A vector shooter game
