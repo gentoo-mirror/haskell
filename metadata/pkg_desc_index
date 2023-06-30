@@ -1873,7 +1873,7 @@ dev-haskell/stateref 0.3: Abstraction for things that work like IORef
 dev-haskell/statestack 0.3.1: Simple State-like monad transformer with saveable and restorable state
 dev-haskell/statevar 1.2.2: State variables
 dev-haskell/static-hash 0.0.1-r1: Immutable hash
-dev-haskell/statistics 0.15.2.0: A library of statistical types, data, and functions
+dev-haskell/statistics 0.16.2.0: A library of statistical types, data, and functions
 dev-haskell/status-notifier-item 0.3.1.0: A wrapper over the StatusNotifierItem/libappindicator dbus specification
 dev-haskell/statvfs 0.2: Get unix filesystem statistics with statfs, statvfs
 dev-haskell/stb-image-redux 0.2.1.0-r1: Image loading and writing microlibrary
