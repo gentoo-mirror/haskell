@@ -44,7 +44,7 @@ dev-haskell/aeson-compat 0.3.10-r2: Compatibility layer for aeson
 dev-haskell/aeson-diff 1.1.0.13: Extract and apply patches to JSON documents
 dev-haskell/aeson-extra 0.5.1.2: Extra goodies for aeson
 dev-haskell/aeson-lens 0.5.0.0: Lens of Aeson
-dev-haskell/aeson-optics 1.2.0.1: Law-abiding optics for aeson
+dev-haskell/aeson-optics 1.2.1: Law-abiding optics for aeson
 dev-haskell/aeson-pretty 0.8.9-r2: JSON pretty-printing library and command-line tool
 dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
 dev-haskell/aeson-yaml 1.1.0.1-r1: Output any Aeson value as YAML (pure Haskell library)
@@ -337,7 +337,7 @@ dev-haskell/colorize-haskell 1.0.1-r1: Highlight Haskell source
 dev-haskell/colour 2.3.6: A model for human colour/color perception
 dev-haskell/colourista 0.1.0.1 0.1.0.2: Convenient interface for printing colourful messages
 dev-haskell/command-qq 0.3.1.0: Quasiquoters for external commands
-dev-haskell/commonmark 0.2.2: Pure Haskell commonmark parser
+dev-haskell/commonmark 0.2.3: Pure Haskell commonmark parser
 dev-haskell/commonmark-extensions 0.2.3.4: Pure Haskell commonmark parser
 dev-haskell/commonmark-pandoc 0.2.1.3: Bridge between commonmark and pandoc AST
 dev-haskell/commutative-semigroups 0.1.0.0: Commutative semigroups
@@ -594,7 +594,7 @@ dev-haskell/extensible 0.8: Extensible, efficient, optics-friendly data types an
 dev-haskell/extensible-effects 5.0.0.1: An Alternative to Monad Transformers
 dev-haskell/extensible-exceptions 0.1.1.4: Extensible exceptions
 dev-haskell/extensions 0.1.0.0: Parse Haskell Language Extensions
-dev-haskell/extra 1.7.13: Extra functions I use
+dev-haskell/extra 1.7.14: Extra functions I use
 dev-haskell/fail 4.9.0.0: Forward-compatible MonadFail class
 dev-haskell/failure 0.2.0.3: A simple type class for success/failure computations. (deprecated)
 dev-haskell/fast-builder 0.1.2.1: Fast ByteString Builder
@@ -643,7 +643,7 @@ dev-haskell/fmlist 0.9.4: FoldMap lists
 dev-haskell/focus 1.0.3: A general abstraction for manipulating elements of container data structures
 dev-haskell/focuslist 0.1.1.0: Lists with a focused element
 dev-haskell/foldable1-classes-compat 0.1: Compatibility package for the Foldable1 and Bifoldable1 type classes
-dev-haskell/foldl 1.4.14: Composable, streaming, and efficient left folds
+dev-haskell/foldl 1.4.15: Composable, streaming, and efficient left folds
 dev-haskell/follow-file 0.0.3: Be notified when a file gets appended, solely with what was added
 dev-haskell/fontyfruity 0.5.3.5: A true type file format loader
 dev-haskell/force-layout 0.4.0.6-r5: Simple force-directed layout
@@ -707,7 +707,7 @@ dev-haskell/ghc-check 0.5.0.8-r1: detect mismatches between compile-time and run
 dev-haskell/ghc-core 0.5.6: Display GHC's core and assembly output in a pager
 dev-haskell/ghc-datasize 0.2.0: Determine the size of data structures in GHC's memory
 dev-haskell/ghc-events 0.17.0.3: Library and tool for parsing .eventlog files from GHC
-dev-haskell/ghc-exactprint 0.6.4-r1 1.5.0: ExactPrint for GHC
+dev-haskell/ghc-exactprint 0.6.4-r1 1.5.0 1.6.1.3: ExactPrint for GHC
 dev-haskell/ghc-gc-tune 0.3.2: Graph performance of Haskell programs with different GC flags
 dev-haskell/ghc-heap-view 0.6.4: Extract the heap representation of Haskell values and thunks
 dev-haskell/ghc-lib 9.4.4.20221225: The GHC API, decoupled from GHC versions
@@ -1211,7 +1211,7 @@ dev-haskell/ldap 0.6.11: Haskell binding for C LDAP API
 dev-haskell/leancheck 0.9.10: Enumerative property-based testing
 dev-haskell/lens 5.2.2: Lenses, Folds and Traversals
 dev-haskell/lens-action 0.2.5: Monadic Getters and Folds
-dev-haskell/lens-aeson 1.2.2: Law-abiding lenses for aeson
+dev-haskell/lens-aeson 1.2.3: Law-abiding lenses for aeson
 dev-haskell/lens-family 1.2.3 2.1.1: Lens Families
 dev-haskell/lens-family-core 1.2.3 2.1.0: Haskell 2022 Lens Families
 dev-haskell/lens-family-th 0.5.2.1: Generate lens-family style lenses
@@ -1481,7 +1481,7 @@ dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc-crossref 0.3.15.2: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-engine 0.2.1: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
-dev-haskell/pandoc-server 0.1: Pandoc document conversion as an HTTP servant-server
+dev-haskell/pandoc-server 0.1.0.1: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
 dev-haskell/pandoc-types 1.23: Types for representing a structured document
 dev-haskell/pango 0.13.10.0: Binding to the Pango text rendering engine
@@ -1560,8 +1560,8 @@ dev-haskell/pointful 1.1.0.0: Pointful refactoring tool
 dev-haskell/poll 0.0.0.2: Bindings to poll.h
 dev-haskell/polynomial 0.7.3: Polynomials
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
-dev-haskell/polysemy 1.7.1.0 1.9.1.0: Higher-order, low-boilerplate free monads
-dev-haskell/polysemy-plugin 0.4.3.1 0.4.5.0: Disambiguate obvious uses of effects
+dev-haskell/polysemy 1.9.1.0: Higher-order, low-boilerplate free monads
+dev-haskell/polysemy-plugin 0.4.5.0: Disambiguate obvious uses of effects
 dev-haskell/polysemy-test 0.7.0.0: Polysemy Effects for Testing
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/polysemy-zoo 0.8.1.0: Experimental, user-contributed effects and interpreters for polysemy
@@ -1771,11 +1771,11 @@ dev-haskell/seqloc 0.6.1.1: Handle sequence locations for bioinformatics
 dev-haskell/sequence-formats 1.5.1.4: A package with basic parsing utilities for several Bioinformatic data formats
 dev-haskell/serialise 0.2.6.0-r1: A binary serialisation library for Haskell values
 dev-haskell/serialport 0.4.7 0.5.1: Cross platform serial port library
-dev-haskell/servant 0.19.1: A family of combinators for defining webservices APIs
-dev-haskell/servant-client 0.19-r1: Automatic derivation of querying functions for servant
-dev-haskell/servant-client-core 0.19-r1: Core functionality and class for client function generation for servant APIs
-dev-haskell/servant-lucid 0.9.0.5: Servant support for lucid
-dev-haskell/servant-server 0.19.2: A family of combinators for defining webservices APIs and serving them
+dev-haskell/servant 0.20: A family of combinators for defining webservices APIs
+dev-haskell/servant-client 0.20: Automatic derivation of querying functions for servant
+dev-haskell/servant-client-core 0.20: Core functionality and class for client function generation for servant APIs
+dev-haskell/servant-lucid 0.9.0.6: Servant support for lucid
+dev-haskell/servant-server 0.20: A family of combinators for defining webservices APIs and serving them
 dev-haskell/serversession 1.0.2: Secure, modular server-side sessions
 dev-haskell/serversession-backend-redis 1.0.5: Storage backend for serversession using Redis
 dev-haskell/setenv 0.1.1.3: A cross-platform library for setting environment variables
@@ -2255,7 +2255,7 @@ dev-haskell/xmlhtml 0.2.5.2: XML parser and renderer with HTML 5 quirks mode
 dev-haskell/xmms 0.1.1-r1: XMMS2 client library
 dev-haskell/xss-sanitize 0.3.7.2: sanitize untrusted HTML to prevent XSS attacks
 dev-haskell/xxhash-ffi 0.2.0.0: Bindings to the C implementation the xxHash algorithm
-dev-haskell/yaml 0.11.11.1: Support for parsing and rendering YAML documents
+dev-haskell/yaml 0.11.11.2: Support for parsing and rendering YAML documents
 dev-haskell/yaml-light 0.1.4-r1: A light-weight wrapper with utility functions around HsSyck
 dev-haskell/yampa 0.13.1: Library for programming hybrid systems
 dev-haskell/yesod 1.6.2.1: Creation of type-safe, RESTful web applications
