@@ -2358,7 +2358,7 @@ www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some a
 www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
 www-apps/clckwrks-plugin-page 0.4.3.26-r1: support for CMS/Blogging in clckwrks
 www-apps/darcsweb 1.1: A web interface for darcs
-www-apps/gitit 0.15.1.0-r8: Wiki using happstack, git or darcs, and pandoc
+www-apps/gitit 0.15.1.1: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp
