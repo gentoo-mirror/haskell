@@ -22,6 +22,7 @@ RDEPEND=">=dev-haskell/aeson-2.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?]
 	>=dev-haskell/colour-2.3.5:=[profile?] <dev-haskell/colour-2.4:=[profile?]
 	>=dev-haskell/concurrent-extra-0.7:=[profile?] <dev-haskell/concurrent-extra-0.8:=[profile?]
 	>=dev-haskell/crypton-connection-0.2.6:=[profile?] <dev-haskell/crypton-connection-0.4:=[profile?]
+	>=dev-haskell/crypton-x509-system-1.6.6:=[profile?] <dev-haskell/crypton-x509-system-1.7:=[profile?]
 	>=dev-haskell/data-default-class-0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?]
 	>=dev-haskell/data-flags-0.0.3:=[profile?] <dev-haskell/data-flags-0.1:=[profile?]
 	>=dev-haskell/deque-0.4:=[profile?] <dev-haskell/deque-0.5:=[profile?]
@@ -48,20 +49,15 @@ RDEPEND=">=dev-haskell/aeson-2.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?]
 	>=dev-haskell/stm-containers-1.1:=[profile?] <dev-haskell/stm-containers-2:=[profile?]
 	>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.1:=[profile?]
 	>=dev-haskell/text-show-3.8:=[profile?] <dev-haskell/text-show-4:=[profile?]
-	>=dev-haskell/tls-1.4:=[profile?] <dev-haskell/tls-2:=[profile?]
+	>=dev-haskell/tls-1.7:=[profile?] <dev-haskell/tls-2:=[profile?]
 	>=dev-haskell/typerep-map-0.5:=[profile?] <dev-haskell/typerep-map-0.7:=[profile?]
 	>=dev-haskell/unagi-chan-0.4:=[profile?] <dev-haskell/unagi-chan-0.5:=[profile?]
 	>=dev-haskell/unboxing-vector-0.2:=[profile?] <dev-haskell/unboxing-vector-0.3:=[profile?]
 	>=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?]
 	>=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?]
 	>=dev-haskell/websockets-0.12:=[profile?] <dev-haskell/websockets-0.13:=[profile?]
-	>=dev-haskell/x509-system-1.6.6:=[profile?] <dev-haskell/x509-system-1.7:=[profile?]
 	>=dev-lang/ghc-8.10.1:=
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.2.0.0
 "
-
-CABAL_CHDEPS=(
-	'connection            >=0.2.6   && <0.4' 'crypton-connection            >=0.2.6   && <0.4'
-)
