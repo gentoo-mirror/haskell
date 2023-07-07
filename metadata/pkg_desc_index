@@ -1290,7 +1290,7 @@ dev-haskell/massiv-test 0.1.6.1 1.0.0.0: Library that contains generators, prope
 dev-haskell/math-functions 0.3.4.2: Collection of tools for numeric computations
 dev-haskell/matrices 0.5.0: native matrix based on vector
 dev-haskell/matrix 0.3.6.1: A native implementation of matrix operations
-dev-haskell/mecab 0.4.0-r1: A Haskell binding to MeCab
+dev-haskell/mecab 0.4.0-r2: A Haskell binding to MeCab
 dev-haskell/mediawiki 0.2.6: Interfacing with the MediaWiki API
 dev-haskell/megaparsec 9.2.2: Monadic parser combinators
 dev-haskell/megaparsec-tests 9.2.2: Test utilities and the test suite of Megaparsec
