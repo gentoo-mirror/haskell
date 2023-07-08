@@ -19,7 +19,7 @@ IUSE="embed-data-files"
 
 RESTRICT=test # one test case fails with newer deps
 
-RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.2:=[profile?]
+RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/aeson-pretty-0.8.9:=[profile?] <dev-haskell/aeson-pretty-0.9:=[profile?]
 	>=dev-haskell/attoparsec-0.12:=[profile?] <dev-haskell/attoparsec-0.15:=[profile?]
 	>=dev-haskell/base64-0.4:=[profile?] <dev-haskell/base64-0.5:=[profile?]
@@ -27,7 +27,7 @@ RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.2:=[profil
 	>=dev-haskell/blaze-markup-0.8:=[profile?] <dev-haskell/blaze-markup-0.9:=[profile?]
 	>=dev-haskell/case-insensitive-1.2:=[profile?] <dev-haskell/case-insensitive-1.3:=[profile?]
 	>=dev-haskell/citeproc-0.8.1:=[profile?] <dev-haskell/citeproc-0.9:=[profile?]
-	>=dev-haskell/commonmark-0.2.2:=[profile?] <dev-haskell/commonmark-0.3:=[profile?]
+	>=dev-haskell/commonmark-0.2.3:=[profile?] <dev-haskell/commonmark-0.3:=[profile?]
 	>=dev-haskell/commonmark-extensions-0.2.3.4:=[profile?] <dev-haskell/commonmark-extensions-0.3:=[profile?]
 	>=dev-haskell/commonmark-pandoc-0.2.1.3:=[profile?] <dev-haskell/commonmark-pandoc-0.3:=[profile?]
 	>=dev-haskell/crypton-connection-0.3.1:=[profile?] <dev-haskell/crypton-connection-0.4:=[profile?]
@@ -55,8 +55,8 @@ RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.2:=[profil
 	>=dev-haskell/safe-0.3.18:=[profile?] <dev-haskell/safe-0.4:=[profile?]
 	>=dev-haskell/scientific-0.3:=[profile?] <dev-haskell/scientific-0.4:=[profile?]
 	>=dev-haskell/sha-1.6:=[profile?] <dev-haskell/sha-1.7:=[profile?]
-	>=dev-haskell/skylighting-0.13.3:=[profile?] <dev-haskell/skylighting-0.14:=[profile?]
-	>=dev-haskell/skylighting-core-0.13.3:=[profile?] <dev-haskell/skylighting-core-0.14:=[profile?]
+	>=dev-haskell/skylighting-0.13.4:=[profile?] <dev-haskell/skylighting-0.14:=[profile?]
+	>=dev-haskell/skylighting-core-0.13.4:=[profile?] <dev-haskell/skylighting-core-0.14:=[profile?]
 	>=dev-haskell/split-0.2:=[profile?] <dev-haskell/split-0.3:=[profile?]
 	>=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?]
 	>=dev-haskell/tagsoup-0.14.6:=[profile?] <dev-haskell/tagsoup-0.15:=[profile?]
@@ -64,7 +64,7 @@ RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.2:=[profil
 	>=dev-haskell/texmath-0.12.8:=[profile?] <dev-haskell/texmath-0.13:=[profile?]
 	>=dev-haskell/text-1.1.1.0:=[profile?] <dev-haskell/text-2.1:=[profile?]
 	>=dev-haskell/text-conversions-0.3:=[profile?] <dev-haskell/text-conversions-0.4:=[profile?]
-	>=dev-haskell/typst-0.1:=[profile?] <dev-haskell/typst-0.2:=[profile?]
+	>=dev-haskell/typst-0.3:=[profile?] <dev-haskell/typst-0.4:=[profile?]
 	>=dev-haskell/unicode-collation-0.1.1:=[profile?] <dev-haskell/unicode-collation-0.2:=[profile?]
 	>=dev-haskell/unicode-transforms-0.3:=[profile?] <dev-haskell/unicode-transforms-0.5:=[profile?]
 	>=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?]

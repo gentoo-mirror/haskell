@@ -16,16 +16,16 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="executable"
 
-RESTRICT=test # fails on 1 out of 1011 test cases
-
 RDEPEND="dev-haskell/aeson:=[profile?]
 	dev-haskell/cassava:=[profile?]
+	dev-haskell/digits:=[profile?]
 	dev-haskell/ordered-containers:=[profile?]
 	dev-haskell/parsec:=[profile?]
 	dev-haskell/regex-tdfa:=[profile?]
 	dev-haskell/scientific:=[profile?]
 	dev-haskell/text:=[profile?]
-	>=dev-haskell/typst-symbols-0.1:=[profile?] <dev-haskell/typst-symbols-0.2:=[profile?]
+	dev-haskell/toml-parser:=[profile?]
+	>=dev-haskell/typst-symbols-0.1.2:=[profile?] <dev-haskell/typst-symbols-0.2:=[profile?]
 	dev-haskell/vector:=[profile?]
 	dev-haskell/xml-conduit:=[profile?]
 	dev-haskell/yaml:=[profile?]
