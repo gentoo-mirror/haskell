@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/aeson-1.0:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/colour-2.0:=[profile?] dev-haskell/safe:=[profile?] dev-haskell/text:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/xml-conduit-1.9.1.3:=[profile?] <dev-haskell/xml-conduit-1.10:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/diff dev-haskell/pretty-show dev-haskell/quickcheck dev-haskell/tasty dev-haskell/tasty-golden dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=syntax highlighting library
+EAPI=8
+HOMEPAGE=https://github.com/jgm/skylighting
+INHERIT=haskell-cabal
+IUSE=executable doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/aeson-1.0:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/colour-2.0:=[profile?] dev-haskell/safe:=[profile?] dev-haskell/text:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/xml-conduit-1.9.1.3:=[profile?] <dev-haskell/xml-conduit-1.10:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.13.4
+SRC_URI=https://hackage.haskell.org/package/skylighting-core-0.13.4/skylighting-core-0.13.4.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=6bb526197303a28bee24762c03ec91fe
