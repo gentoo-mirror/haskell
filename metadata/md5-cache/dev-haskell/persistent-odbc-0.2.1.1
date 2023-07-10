@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/conduit:=[profile?] dev-haskell/convertible:=[profile?] >=dev-haskell/hdbc-2.1.0:2=[profile?] >=dev-haskell/hdbc-odbc-2.6.0.0:=[profile?] dev-haskell/monad-logger:=[profile?] >=dev-haskell/persistent-2.6.0:=[profile?] >=dev-haskell/persistent-template-2.6.0:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= tester? ( dev-haskell/blaze-html:=[profile?] >=dev-haskell/esqueleto-2.1:=[profile?] ) >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Backend for the persistent library using ODBC
+EAPI=8
+HOMEPAGE=https://github.com/gbwey/persistent-odbc
+INHERIT=haskell-cabal
+IUSE=debug tester doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/conduit:=[profile?] dev-haskell/convertible:=[profile?] >=dev-haskell/hdbc-2.1.0:2=[profile?] >=dev-haskell/hdbc-odbc-2.6.0.0:=[profile?] dev-haskell/monad-logger:=[profile?] >=dev-haskell/persistent-2.6.0:=[profile?] >=dev-haskell/persistent-template-2.6.0:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= tester? ( dev-haskell/blaze-html:=[profile?] >=dev-haskell/esqueleto-2.1:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/0.2.1.1
+SRC_URI=https://hackage.haskell.org/package/persistent-odbc-0.2.1.1/persistent-odbc-0.2.1.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=7450bcce4b32a8ed70d6841d4375fcfd

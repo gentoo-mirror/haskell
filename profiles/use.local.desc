@@ -277,7 +277,6 @@ dev-haskell/parsers:attoparsec - You can disable the use of the `attoparsec` pac
 dev-haskell/parsers:binary - You can disable the use of the `binary` package using `-f-binary`.
 dev-haskell/parsers:parsec - You can disable the use of the `parsec` package using `-f-parsec`.
 dev-haskell/persistent-mongodb:high-precision-date - for MongoDB use a time storage with nano second precision.
-dev-haskell/persistent-odbc:debug - Enable debug
 dev-haskell/persistent-odbc:tester - Enable test
 dev-haskell/persistent-relational-record:test-examples - Test examples
 dev-haskell/persistent-sqlite:build-sanity-exe - Build a sanity check test executable

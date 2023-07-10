@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/aeson-1.0:=[profile?] dev-haskell/blaze-builder:=[profile?] >=dev-haskell/conduit-1.2.12:=[profile?] dev-haskell/monad-logger:=[profile?] >=dev-haskell/mysql-0.2.1:=[profile?] <dev-haskell/mysql-0.3:=[profile?] >=dev-haskell/mysql-simple-0.4.7:=[profile?] <dev-haskell/mysql-simple-0.5:=[profile?] >=dev-haskell/persistent-2.13.3:=[profile?] <dev-haskell/persistent-3:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-1.1:=[profile?] >=dev-haskell/text-1.2:=[profile?] dev-haskell/unliftio-core:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( dev-haskell/fast-logger >=dev-haskell/hspec-2.4 dev-haskell/http-api-data dev-haskell/hunit dev-haskell/path-pieces dev-haskell/persistent-qq dev-haskell/persistent-test dev-haskell/quickcheck dev-haskell/quickcheck-instances ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Backend for the persistent library using MySQL database server
+EAPI=8
+HOMEPAGE=https://www.yesodweb.com/book/persistent
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/aeson-1.0:=[profile?] dev-haskell/blaze-builder:=[profile?] >=dev-haskell/conduit-1.2.12:=[profile?] dev-haskell/monad-logger:=[profile?] >=dev-haskell/mysql-0.2.1:=[profile?] <dev-haskell/mysql-0.3:=[profile?] >=dev-haskell/mysql-simple-0.4.7:=[profile?] <dev-haskell/mysql-simple-0.5:=[profile?] >=dev-haskell/persistent-2.13.3:=[profile?] <dev-haskell/persistent-3:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-1.1:=[profile?] >=dev-haskell/text-1.2:=[profile?] dev-haskell/unliftio-core:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RESTRICT=test !test? ( test )
+SLOT=0/2.13.1.4
+SRC_URI=https://hackage.haskell.org/package/persistent-mysql-2.13.1.4/persistent-mysql-2.13.1.4.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=aa7f4d5d8329ec4ce2cc0d8fa64ce77e
