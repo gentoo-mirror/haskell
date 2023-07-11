@@ -1456,7 +1456,7 @@ dev-haskell/one-liner 2.1: Constraint-based generics
 dev-haskell/onetuple 0.4.1.1: Singleton Tuple
 dev-haskell/only 0.1: The 1-tuple type or single-value "collection"
 dev-haskell/oo-prototypes 0.1.0.0-r1: Support for OO-like prototypes
-dev-haskell/opaleye 0.9.3.1: An SQL-generating DSL targeting PostgreSQL
+dev-haskell/opaleye 0.10.0.0: An SQL-generating DSL targeting PostgreSQL
 dev-haskell/open-browser 0.2.1.0-r2: Open a web browser from Haskell
 dev-haskell/openal 1.7.0.5: A binding to the OpenAL cross-platform 3D audio API
 dev-haskell/opencl 1.0.3.4: Haskell high-level wrapper for OpenCL
@@ -1573,7 +1573,7 @@ dev-haskell/posix-escape 0.1: Quote arguments to be passed through the Unix shel
 dev-haskell/postgres-options 0.2.0.0: An Options type representing options for postgres connections
 dev-haskell/postgresql-binary 0.12.4.4: Encoders and decoders for the PostgreSQL's binary format
 dev-haskell/postgresql-libpq 0.9.4.3-r1: low-level binding to libpq
-dev-haskell/postgresql-simple 0.6.4-r2: Mid-Level PostgreSQL client library
+dev-haskell/postgresql-simple 0.6.5.1: Mid-Level PostgreSQL client library
 dev-haskell/postgresql-simple-migration 0.1.15.0-r2: PostgreSQL Schema Migrations
 dev-haskell/postgresql-syntax 0.4.1: PostgreSQL AST parsing and rendering
 dev-haskell/postgresql-typed 0.6.2.0: PostgreSQL interface with compile-time SQL type checking, optional HDBC backend
