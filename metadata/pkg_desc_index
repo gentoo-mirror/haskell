@@ -324,7 +324,7 @@ dev-haskell/clevercss 0.2.4-r2: A CSS preprocessor
 dev-haskell/cli 0.1.2: Command Line Interface
 dev-haskell/clientsession 0.9.1.2: Securely store session data in a client-side cookie
 dev-haskell/clock 0.8.3: High-resolution clock functions: monotonic, realtime, cputime
-dev-haskell/cmark 0.6: Fast, accurate CommonMark (Markdown) parser and renderer
+dev-haskell/cmark 0.6.1: Fast, accurate CommonMark (Markdown) parser and renderer
 dev-haskell/cmark-gfm 0.2.2: Fast, accurate GitHub Flavored Markdown parser and renderer
 dev-haskell/cmdargs 0.10.21: Command line argument processing
 dev-haskell/co-log-core 0.3.2.0: Composable Contravariant Comonadic Logging Library
@@ -499,10 +499,10 @@ dev-haskell/di-handle 1.0.1: IO support for file handles in di-core
 dev-haskell/di-monad 1.3.1: mtl flavoured typeful hierarchical structured logging for di-core
 dev-haskell/di-polysemy 0.2.0.0: DI logger wrapped for Polysemy
 dev-haskell/diagrams 1.4.0.1: Embedded domain-specific language for declarative vector graphics
-dev-haskell/diagrams-builder 0.8.0.5-r4: hint-based build service for the diagrams graphics EDSL
+dev-haskell/diagrams-builder 0.8.0.6: hint-based build service for the diagrams graphics EDSL
 dev-haskell/diagrams-cairo 1.4.2-r1: Cairo backend for diagrams drawing EDSL
 dev-haskell/diagrams-canvas 1.4.1-r2: HTML5 canvas backend for diagrams drawing EDSL
-dev-haskell/diagrams-contrib 1.4.4-r5: Collection of user contributions to diagrams EDSL
+dev-haskell/diagrams-contrib 1.4.5.1: Collection of user contributions to diagrams EDSL
 dev-haskell/diagrams-core 1.5.1: Core libraries for diagrams EDSL
 dev-haskell/diagrams-gtk 1.4-r1: Backend for rendering diagrams directly to GTK windows
 dev-haskell/diagrams-lib 1.4.6: Embedded domain-specific language for declarative graphics
@@ -2048,7 +2048,7 @@ dev-haskell/timezone-series 0.1.9 0.1.13: Enhanced timezone handling for Data.Ti
 dev-haskell/tls 1.6.0 1.7.0: TLS/SSL protocol native implementation (Server and Client)
 dev-haskell/tls-session-manager 0.0.4: In-memory TLS session manager
 dev-haskell/tmp-postgres 1.34.1.0-r2: Start and stop a temporary postgres
-dev-haskell/toml-parser 1.1.1.0: TOML 1.0.0 parser
+dev-haskell/toml-parser 1.2.0.0: TOML 1.0.0 parser
 dev-haskell/tomland 1.3.3.2-r1: Bidirectional TOML serialization
 dev-haskell/top 1.7: Constraint solving framework employed by the Helium Compiler
 dev-haskell/topograph 1.0.0.2: Directed acyclic graphs

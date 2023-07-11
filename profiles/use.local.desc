@@ -63,7 +63,7 @@ dev-haskell/citeproc:executable - Build citeproc executable
 dev-haskell/citeproc:icu - Use Haskell bindings to the ICU library
 dev-haskell/clash-ghc:dynamic - Build Clash binaries with GHC flag `-dynamic`. This flag should only be used for packaging purposes. Installations using cabal should use `--enable-executable-dynamic`!
 dev-haskell/clash-ghc:ghc-paths - Locate the GHC core libraries using the `ghc-paths` package. Note: this flag may make binaries less relocatable, by hard-coding an absolute path to the core libraries.
-dev-haskell/cmark:system-cmark - use app-text/cmark instead of bundled copy
+dev-haskell/cmark:system-cmark - use
 dev-haskell/cmdargs:quotation - Build the Quote module
 dev-haskell/cmdargs:testprog - Build the test program
 dev-haskell/comonad:indexed-traversable - You can disable the use of the `indexed-traversable` package using `-f-indexed-traversable`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users. If disabled we will not supply instances of `FunctorWithIndex`
