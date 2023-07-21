@@ -912,7 +912,7 @@ dev-haskell/hip 1.5.6.0: Haskell Image Processing (HIP) Library
 dev-haskell/hit 0.7.0: Git operations in haskell
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
-dev-haskell/hjsmin 0.2.0.4-r1: Haskell implementation of a javascript minifier
+dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
 dev-haskell/hledger-lib 1.30: A reusable library providing the core functionality of hledger
 dev-haskell/hlibev 0.4.0: FFI interface to libev
 dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
