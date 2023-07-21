@@ -1,3 +1,25 @@
+# hololeap <hololeap@protonmail.com> (2023-07-14)
+#
+# Modern ormolu and fourmolu require >=dev-haskell/text-2 which is
+# unkeyworded. Additionally, only recent versions support newer
+# ghc-lib-parser which means old versions of ormolu/fourmolu will force
+# ghc-lib-parser to downgrade.
+#
+# Since some other HLS plugins require >=ghc-lib-parser-9.6 we will
+# mask ormolu and fourmolu, plus their respective HLS plugins, until
+# >=text-2 is keyworded and the situation improves.
+dev-haskell/ormolu
+dev-haskell/fourmolu
+dev-haskell/hls-ormolu-plugin
+dev-haskell/hls-fourmolu-plugin
+
+# hololeap <hololeap@protonmail.com> (2023-07-13)
+# Cabal-syntax-3.10 could cause trouble on ghc-9.4
+# See: https://github.com/gentoo-haskell/gentoo-haskell/issues/1464
+>=dev-haskell/cabal-syntax-3.10
+dev-haskell/cabal-install-parsers
+dev-haskell/cabal-plan
+
 # Jack Todaro <solpeth@posteo.org> (2023-06-30)
 # Last rites dead packages for removal within 30 days.
 dev-haskell/conduit-connection
@@ -53,10 +75,6 @@ dev-haskell/brittany
 dev-haskell/hls-brittany-plugin
 dev-haskell/hls-haddock-comments-plugin
 dev-haskell/hls-class-plugin
-
-# hololeap <hololeap@protonmail.com> (2022-12-30)
-# Depends on old version of ghcide
-dev-haskell/hls-call-hierarchy-plugin
 
 # hololeap <hololeap@protonmail.com> (2022-12-29)
 # Many packages still depend on network-uri<2.7
