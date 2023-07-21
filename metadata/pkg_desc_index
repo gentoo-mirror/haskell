@@ -319,7 +319,7 @@ dev-haskell/classify 2013.11.6.1-r1: Library for classification of media files
 dev-haskell/classy-prelude 1.5.0.2: A typeclass-based Prelude
 dev-haskell/classy-prelude-conduit 1.5.0: conduit instances for classy-prelude
 dev-haskell/classy-prelude-yesod 1.5.0: Provide a classy prelude including common Yesod functionality
-dev-haskell/clay 0.13.3-r1: CSS preprocessor as embedded Haskell
+dev-haskell/clay 0.14.0: CSS preprocessor as embedded Haskell
 dev-haskell/clevercss 0.2.4-r2: A CSS preprocessor
 dev-haskell/cli 0.1.2: Command Line Interface
 dev-haskell/clientsession 0.9.1.2: Securely store session data in a client-side cookie
