@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base64-bytestring-1.0:=[profile?] <dev-haskell/base64-byte
 RESTRICT=test
 SLOT=0/0.1.15.0
 SRC_URI=https://hackage.haskell.org/package/postgresql-simple-migration-0.1.15.0/postgresql-simple-migration-0.1.15.0.tar.gz https://hackage.haskell.org/package/postgresql-simple-migration-0.1.15.0/revision/1.cabal -> postgresql-simple-migration-0.1.15.0-r2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	67b3e3d8916d690003f645486ed86aac	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=aa1c061ebd7b0e0ab63b0c8ef5dd6174

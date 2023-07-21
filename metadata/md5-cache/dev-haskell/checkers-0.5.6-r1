@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/quickcheck-2.3:2=[profile?] dev-haskell/random:=[profile?] >=dev-haskell/semigroupoids-5:=[profile?] <dev-haskell/semigroupoids-6:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.5.6
 SRC_URI=https://hackage.haskell.org/package/checkers-0.5.6/checkers-0.5.6.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	67b3e3d8916d690003f645486ed86aac	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=c35d81079933f818b669f9e914760904

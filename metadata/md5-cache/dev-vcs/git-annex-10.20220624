@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/aeson:= >=dev-haskell/ansi-terminal-0.9:= dev-haskell/async:
 REQUIRED_USE=webapp? ( assistant )
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/git-annex-10.20220624/git-annex-10.20220624.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	67b3e3d8916d690003f645486ed86aac	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	desktop	021728fdc1b03b36357dbc89489e0f0d
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	desktop	021728fdc1b03b36357dbc89489e0f0d
 _md5_=691c258663bfb68e0ec74cd3b5f42a4c
