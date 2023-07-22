@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0
 RESTRICT=!test? ( test )
 SLOT=0/0.4.2
 SRC_URI=https://hackage.haskell.org/package/witherable-0.4.2/witherable-0.4.2.tar.gz https://hackage.haskell.org/package/witherable-0.4.2/revision/4.cabal -> witherable-0.4.2-rev4.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=668e7e040ffdfeb054811d78d4af72be

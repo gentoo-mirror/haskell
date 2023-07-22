@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?] <dev-haskell/blaze-builder-0
 RESTRICT=!test? ( test )
 SLOT=0/0.27.15
 SRC_URI=https://hackage.haskell.org/package/web-routes-0.27.15/web-routes-0.27.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=5640a48fad222f75dcf560b9dd7a6fd7
