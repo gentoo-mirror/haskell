@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.4.3:= sys-libs/zlib dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.6.3.0
 SRC_URI=https://hackage.haskell.org/package/zlib-0.6.3.0/zlib-0.6.3.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=9348db8cf6ea9c2d84e67262f99f1f89

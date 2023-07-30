@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-7.6.1:= examples? ( dev-haskell/ansi-terminal:=[profile?] dev-haskell/linux-file-extents:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/0.2.0.0
 SRC_URI=https://hackage.haskell.org/package/btrfs-0.2.0.0/btrfs-0.2.0.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=e741d402a162d43adeaff6a387d6d0f0
