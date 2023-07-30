@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/mtl-1.1:=[profile?] <dev-haskell/mtl-2.3:=[profile?] >=dev-haskell/text-0.7.2:=[profile?] <dev-haskell/text-1.3:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/0.2.0.10
 SRC_URI=https://hackage.haskell.org/package/template-0.2.0.10/template-0.2.0.10.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=9584b5438544eb16f59996ee3e6e5bac

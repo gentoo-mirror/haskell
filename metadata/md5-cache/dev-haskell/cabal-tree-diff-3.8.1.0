@@ -10,5 +10,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/cabal-3.8.0.0:=[profile?] <dev-haskell/cabal-3.9:=[profile?] >=dev-haskell/cabal-syntax-3.8.0.0:=[profile?] <dev-haskell/cabal-syntax-3.9:=[profile?] >=dev-haskell/tree-diff-0.1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/3.8.1.0
 SRC_URI=https://github.com/haskell/cabal/archive/5d18b763356dca719f5286a52328cb41b9fa4192.tar.gz -> cabal-5d18b763356dca719f5286a52328cb41b9fa4192.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=3b383f84e54b6dbc8f9065da1d88787d

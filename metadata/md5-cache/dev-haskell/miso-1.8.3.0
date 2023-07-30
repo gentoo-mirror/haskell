@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/file-embed:=[profile?] dev-haskell/http-api-data:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/jsaddle:=[profile?] dev-haskell/lucid:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/servant:=[profile?] dev-haskell/servant-lucid:=[profile?] dev-haskell/tagsoup:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.8.3.0
 SRC_URI=https://hackage.haskell.org/package/miso-1.8.3.0/miso-1.8.3.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
 _md5_=e44862a983639dea6019498bea842486

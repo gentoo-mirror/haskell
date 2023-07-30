@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/resourcet:=[profile?] dev-haskell/rio:=[profile?] dev-haskell/unliftio:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=16ef9ac81af95aa9b945fd6583ac7205
