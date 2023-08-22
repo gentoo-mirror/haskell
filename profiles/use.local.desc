@@ -450,7 +450,6 @@ dev-vcs/git-annex:gitlfs - Build with git-lfs library (rather than vendored copy
 dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
 dev-vcs/git-annex:pairing - Enable pairing
 dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
-dev-vcs/git-annex:webapp - Enable git-annex webapp
 games-puzzle/intricacy:curses - Enables curses user interface
 games-puzzle/intricacy:sdl - Enables SDL user interface
 games-puzzle/intricacy:sound - Enables sound in SDL user interface

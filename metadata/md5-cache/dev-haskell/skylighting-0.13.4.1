@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=~dev-haskell/skylighting-core-0.13.4.1:=[profile?] >=dev-haskell/skylighting-format-ansi-0.1:=[profile?] <dev-haskell/skylighting-format-ansi-0.2:=[profile?] >=dev-haskell/skylighting-format-blaze-html-0.1:=[profile?] <dev-haskell/skylighting-format-blaze-html-0.2:=[profile?] >=dev-haskell/skylighting-format-context-0.1:=[profile?] <dev-haskell/skylighting-format-context-0.2:=[profile?] >=dev-haskell/skylighting-format-latex-0.1:=[profile?] <dev-haskell/skylighting-format-latex-0.2:=[profile?] >=dev-lang/ghc-8.8.1:= executable? ( >=dev-haskell/blaze-html-0.5:=[profile?] dev-haskell/pretty-show:=[profile?] dev-haskell/text:=[profile?] ) >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=syntax highlighting library
+EAPI=8
+HOMEPAGE=https://github.com/jgm/skylighting
+INHERIT=haskell-cabal
+IUSE=executable doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=~dev-haskell/skylighting-core-0.13.4.1:=[profile?] >=dev-haskell/skylighting-format-ansi-0.1:=[profile?] <dev-haskell/skylighting-format-ansi-0.2:=[profile?] >=dev-haskell/skylighting-format-blaze-html-0.1:=[profile?] <dev-haskell/skylighting-format-blaze-html-0.2:=[profile?] >=dev-haskell/skylighting-format-context-0.1:=[profile?] <dev-haskell/skylighting-format-context-0.2:=[profile?] >=dev-haskell/skylighting-format-latex-0.1:=[profile?] <dev-haskell/skylighting-format-latex-0.2:=[profile?] >=dev-lang/ghc-8.8.1:= executable? ( >=dev-haskell/blaze-html-0.5:=[profile?] dev-haskell/pretty-show:=[profile?] dev-haskell/text:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/0.13.4.1
+SRC_URI=https://hackage.haskell.org/package/skylighting-0.13.4.1/skylighting-0.13.4.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=e59070a4e2c898a73ab0cc84bec00684
