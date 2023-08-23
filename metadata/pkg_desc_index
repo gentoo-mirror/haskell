@@ -1638,7 +1638,7 @@ dev-haskell/quickcheck-arbitrary-template 0.2.1.1: Generate QuickCheck Gen for S
 dev-haskell/quickcheck-assertions 0.3.0: HUnit like assertions for QuickCheck
 dev-haskell/quickcheck-classes 0.6.5.0: QuickCheck common typeclasses
 dev-haskell/quickcheck-classes-base 0.6.2.0: QuickCheck common typeclasses from 'base'
-dev-haskell/quickcheck-instances 0.3.29.1: Common quickcheck instances
+dev-haskell/quickcheck-instances 0.3.29.1-r1: Common quickcheck instances
 dev-haskell/quickcheck-io 0.2.0: Use HUnit assertions as QuickCheck properties
 dev-haskell/quickcheck-properties 0.1-r1: QuickCheck properties for standard type classes
 dev-haskell/quickcheck-safe 0.1.0.6-r1: Safe reimplementation of QuickCheck's core
