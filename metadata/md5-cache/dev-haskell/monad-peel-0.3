@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/extensible-exceptions:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/hunit dev-haskell/test-framework dev-haskell/test-framework-hunit ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Lift control operations like exception catching through monad transformers
+EAPI=8
+HOMEPAGE=https://andersk.mit.edu/haskell/monad-peel/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/extensible-exceptions:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.3
+SRC_URI=https://hackage.haskell.org/package/monad-peel-0.3/monad-peel-0.3.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_md5_=4ec63aaa6f52b0221fec1bffef563120

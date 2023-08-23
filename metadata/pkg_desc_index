@@ -1349,7 +1349,7 @@ dev-haskell/monad-memo 0.5.4: Memoization monad transformer
 dev-haskell/monad-par 0.3.5-r1: A library for parallel programming based on a monad
 dev-haskell/monad-par-extras 0.3.3-r1: Combinators and extra features for Par monads
 dev-haskell/monad-parallel 0.8: Parallel execution of monadic computations
-dev-haskell/monad-peel 0.2.1.2: Lift control operations like exception catching through monad transformers
+dev-haskell/monad-peel 0.2.1.2 0.3: Lift control operations like exception catching through monad transformers
 dev-haskell/monad-products 4.0.1-r1: Monad products
 dev-haskell/monad-skeleton 0.1.5: Monads of program skeleta
 dev-haskell/monad-time 0.3.1.0: Type class for monads which carry the notion of the current time
