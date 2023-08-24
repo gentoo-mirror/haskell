@@ -490,7 +490,7 @@ dev-haskell/dependent-map 0.4.0.0-r1: Dependent finite maps (partial dependent p
 dev-haskell/dependent-sum 0.7.2.0: Dependent sum type
 dev-haskell/dependent-sum-template 0.1.1.1: Template Haskell code to generate instances of classes in dependent-sum package
 dev-haskell/deque 0.4.4: Double-ended queues
-dev-haskell/deriving-aeson 0.2.9: Type driven generic aeson instance customisation
+dev-haskell/deriving-aeson 0.2.9-r1: Type driven generic aeson instance customisation
 dev-haskell/deriving-compat 0.6.5: Backports of GHC deriving extensions
 dev-haskell/descriptive 0.9.5: Self-describing consumers/parsers; forms, cmd-line args, JSON, etc
 dev-haskell/df1 0.4.1: Type, render and parse the df1 hierarchical structured log format
@@ -766,7 +766,7 @@ dev-haskell/gio 0.13.10.0: Binding to GIO
 dev-haskell/git 0.3.0: Git operations in haskell
 dev-haskell/git-lfs 1.2.0-r1: git-lfs protocol
 dev-haskell/githash 0.1.6.3: Compile git revision info into Haskell projects
-dev-haskell/github 0.28.0.1: Access to the GitHub API, v3
+dev-haskell/github 0.29: Access to the GitHub API, v3
 dev-haskell/gitrev 1.3.1-r1: Compile git revision info into Haskell projects
 dev-haskell/gl 0.8.0-r3 0.9-r1: Complete OpenGL raw bindings
 dev-haskell/glambda 1.0.2: A simply typed lambda calculus interpreter, written with GADTs
@@ -1044,7 +1044,7 @@ dev-haskell/hstringtemplate 0.8.8-r1: StringTemplate implementation in Haskell
 dev-haskell/hsx-jmacro 7.3.8.1: hsp+jmacro support
 dev-haskell/hsx2hs 0.14.1.10: HSX (Haskell Source with XML) allows literal XML syntax in Haskell source code
 dev-haskell/hsyaml 0.2.1.1: Pure Haskell YAML 1.2 processor
-dev-haskell/hsyaml-aeson 0.2.0.1-r1: JSON to YAML Adapter
+dev-haskell/hsyaml-aeson 0.2.0.1-r2: JSON to YAML Adapter
 dev-haskell/hsyslog 5.0.2: FFI interface to syslog(3) from POSIX.1-2001
 dev-haskell/htf 0.15.0.0: The Haskell Test Framework
 dev-haskell/html 1.0.1.2-r1: HTML combinator library
@@ -1078,7 +1078,7 @@ dev-haskell/httpd-shed 0.4.1.1-r1: A simple web-server with an interact style AP
 dev-haskell/huffman 1.0.1: Pure Haskell implementation of the Huffman encoding algorithm
 dev-haskell/hunit 1.6.2.0: A unit testing framework for Haskell
 dev-haskell/hunit-approx 1.1.1.1: Approximate equality for floating point numbers with HUnit
-dev-haskell/hvega 0.12.0.3: Create Vega-Lite visualizations (version 4) in Haskell
+dev-haskell/hvega 0.12.0.5: Create Vega-Lite visualizations (version 4) in Haskell
 dev-haskell/hvega-theme 0.2.0.4: Theme for hvega
 dev-haskell/hw-fingertree 0.1.2.1: Generic finger-tree structure, with example instances
 dev-haskell/hw-hspec-hedgehog 0.1.1.1: Interoperability between hspec and hedgehog
@@ -1124,7 +1124,7 @@ dev-haskell/influxdb 1.9.2.2-r2: InfluxDB client library for Haskell
 dev-haskell/ini 0.4.1-r1: Quick and easy configuration files in the INI format
 dev-haskell/inline-c 0.9.1.8: Write Haskell source files including C code inline. No FFI required
 dev-haskell/inline-c-cpp 0.2.1.0: Lets you embed C++ code into Haskell
-dev-haskell/insert-ordered-containers 0.2.5.1-r1: Associative containers retaining insertion order for traversals
+dev-haskell/insert-ordered-containers 0.2.5.3: Associative containers retaining insertion order for traversals
 dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
 dev-haskell/integer-logarithms 1.0.3.1-r1: Integer logarithms
 dev-haskell/integer-roots 1.0: Integer roots and perfect powers
@@ -1142,7 +1142,7 @@ dev-haskell/iospec 0.3.1.1: A pure specification of the IO monad
 dev-haskell/iostring 0.0.0.0-r1: A class of strings that can be involved in IO
 dev-haskell/ipprint 0.6-r1: Tiny helper for pretty-printing values in ghci console
 dev-haskell/iproute 1.7.12: IP Routing Table
-dev-haskell/ipv6addr 2.0.5: Library to deal with IPv6 address text representations
+dev-haskell/ipv6addr 2.0.5.1: Library to deal with IPv6 address text representations
 dev-haskell/ipynb 0.2: Data structure for working with Jupyter notebooks (ipynb)
 dev-haskell/ipython-kernel 0.10.2.1: A library for creating kernels for IPython frontends
 dev-haskell/irc 0.6.1.0-r1: A small library for parsing IRC messages
@@ -1180,7 +1180,7 @@ dev-haskell/juicypixels-scale-dct 0.1.2-r2: Scale JuicyPixels images with DCT
 dev-haskell/jupyter 0.9.0-r1: A library for creating and using Jupyter kernels
 dev-haskell/jwt 0.11.0: JSON Web Token (JWT) decoding and encoding
 dev-haskell/kan-extensions 5.2.5: Kan extensions, Kan lifts, the Yoneda lemma, and (co)density (co)monads
-dev-haskell/kansas-comet 0.4.1: A JavaScript push mechanism based on the comet idiom
+dev-haskell/kansas-comet 0.4.1-r1: A JavaScript push mechanism based on the comet idiom
 dev-haskell/keenser 0.1.0.0: Initial project template from stack
 dev-haskell/keys 3.12.3-r1: Keyed functors and containers
 dev-haskell/kinds 0.0.1.5: Emulation of subkinds and subkind polymorphism
@@ -1309,7 +1309,7 @@ dev-haskell/mersenne-random 1.0.0.1-r2: Generate high quality pseudorandom numbe
 dev-haskell/mersenne-random-pure64 0.2.2.0: Generate high quality pseudorandom numbers purely using a Mersenne Twister
 dev-haskell/messagepack 0.5.4-r2: Serialize instance for Message Pack Object
 dev-haskell/mfsolve 0.3.2.1: Equation solver and calculator a la metafont
-dev-haskell/microaeson 0.1.0.1: A tiny JSON library with light dependency footprint
+dev-haskell/microaeson 0.1.0.1-r1: A tiny JSON library with light dependency footprint
 dev-haskell/microlens 0.4.13.0: A tiny lens library with no dependencies
 dev-haskell/microlens-aeson 2.5.0: Law-abiding lenses for Aeson, using microlens
 dev-haskell/microlens-ghc 0.4.14.0: microlens + array, bytestring, containers, transformers
