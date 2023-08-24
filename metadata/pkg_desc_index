@@ -172,7 +172,7 @@ dev-haskell/binary 0.8.8.0-r1 0.8.9.0-r1 0.8.9.1: Binary serialisation for Haske
 dev-haskell/binary-communicator 1.0.2.2-r1: Flexible way to ease transmission of binary data
 dev-haskell/binary-conduit 1.3.1: data serialization/deserialization conduit library
 dev-haskell/binary-ieee754 0.1.0.0: Backport ieee754 float double combinators to older binary
-dev-haskell/binary-instances 1.0.4: Orphan instances for binary
+dev-haskell/binary-instances 1.0.4-r1: Orphan instances for binary
 dev-haskell/binary-orphans 1.0.4.1: Compatibility package for binary; provides instances
 dev-haskell/binary-parser 0.5.7: A highly-efficient but limited parser API specialised for bytestrings
 dev-haskell/binary-parsers 0.2.4.0: Extends binary with parsec/attoparsec style parsing combinators
@@ -202,7 +202,7 @@ dev-haskell/bitvec 1.1.3.0: Space-efficient bit vectors
 dev-haskell/bitwise 1.0.0.1: fast multi-dimensional unboxed bit packed Bool arrays
 dev-haskell/bktrees 0.3.1: A set data structure with approximate searching
 dev-haskell/blake3 0.3: BLAKE3 hashing algorithm
-dev-haskell/blank-canvas 0.7.3-r2: HTML5 Canvas Graphics Library
+dev-haskell/blank-canvas 0.7.3-r3: HTML5 Canvas Graphics Library
 dev-haskell/blastxml 0.3.2: Library for reading Blast XML output
 dev-haskell/blaze-builder 0.4.2.2: Efficient buffered output
 dev-haskell/blaze-builder-conduit 1.1.0: Convert streams of builders to streams of bytestrings. (deprecated)
@@ -262,7 +262,7 @@ dev-haskell/cabal-install 3.2.0.0-r3 3.4.1.0-r3 3.6.2.0-r1 3.8.1.0 9999: The com
 dev-haskell/cabal-install-parsers 0.6.1: Utilities to work with cabal-install files
 dev-haskell/cabal-install-solver 3.8.1.0: The command-line interface for Cabal and Hackage
 dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application bundles
-dev-haskell/cabal-plan 0.7.3.0: Library and utility for processing cabal's plan.json file
+dev-haskell/cabal-plan 0.7.3.0-r1: Library and utility for processing cabal's plan.json file
 dev-haskell/cabal-quickcheck 3.8.1.0: QuickCheck instances for types in Cabal
 dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packages
 dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0: A library for working with .cabal files
@@ -2065,7 +2065,7 @@ dev-haskell/transformers-base 0.4.6: Lift computations from the bottom of a tran
 dev-haskell/transformers-compat 0.7.2: A small compatibility shim for the transformers library
 dev-haskell/transformers-free 1.0.1-r1: Free monad transformers
 dev-haskell/traverse-with-class 1.0.1.1: Generic applicative traversals
-dev-haskell/tree-diff 0.3.0.1: Diffing of (expression) trees
+dev-haskell/tree-diff 0.3.0.1-r1: Diffing of (expression) trees
 dev-haskell/tree-traversals 0.1.2.0: Functions and newtype wrappers for traversing Trees
 dev-haskell/trial 0.0.0.0-r1: Trial Data Structure
 dev-haskell/trial-optparse-applicative 0.0.0.0: Trial helper functions for optparse-applicative
