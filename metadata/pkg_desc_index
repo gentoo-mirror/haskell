@@ -18,7 +18,7 @@ app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.8.3.0 0.8.4.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
-app-text/pandoc 3.1.6.1: Conversion between markup formats
+app-text/pandoc 3.1.6.2: Conversion between markup formats
 app-text/pandoc-cli 0.1.1: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
@@ -818,7 +818,7 @@ dev-haskell/haddock-api 2.24.2 2.25.1 2.26.0 2.27.0: A documentation-generation 
 dev-haskell/haddock-library 1.10.0-r2 1.11.0: Library exposing some functionality of Haddock
 dev-haskell/hadrian 9.2.7 9.2.8 9.4.4 9.4.5 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
-dev-haskell/hakyll 4.16.0.0: A static website compiler library
+dev-haskell/hakyll 4.16.1.0: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
 dev-haskell/hakyll-sass 0.2.4: Hakyll SASS compiler over hsass
 dev-haskell/half 0.3-r1 0.3.1: Half-precision floating-point
