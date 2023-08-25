@@ -9,8 +9,8 @@ IUSE=executable doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cassava:=[profile?] dev-haskell/digits:=[profile?] dev-haskell/ordered-containers:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/toml-parser-1.3.0.0:=[profile?] <dev-haskell/toml-parser-1.4:=[profile?] >=dev-haskell/typst-symbols-0.1.4:=[profile?] <dev-haskell/typst-symbols-0.1.5:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/xml-conduit:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-8.10.1:= executable? ( dev-haskell/pretty-show:=[profile?] ) dev-lang/ghc:=[profile?]
-RESTRICT=!test? ( test )
+RESTRICT=test !test? ( test )
 SLOT=0/0.3.2.0
 SRC_URI=https://hackage.haskell.org/package/typst-0.3.2.0/typst-0.3.2.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
-_md5_=c06f833ab96a60b253f00f0dff30a89f
+_md5_=688c21948da8da16e7430988c12f0de8
