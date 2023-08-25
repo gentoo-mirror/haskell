@@ -1126,7 +1126,7 @@ dev-haskell/inline-c 0.9.1.8: Write Haskell source files including C code inline
 dev-haskell/inline-c-cpp 0.2.1.0: Lets you embed C++ code into Haskell
 dev-haskell/insert-ordered-containers 0.2.5.3: Associative containers retaining insertion order for traversals
 dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
-dev-haskell/integer-logarithms 1.0.3.1-r1: Integer logarithms
+dev-haskell/integer-logarithms 1.0.3.1-r2: Integer logarithms
 dev-haskell/integer-roots 1.0: Integer roots and perfect powers
 dev-haskell/integration 0.2.1-r1: Fast robust numeric integration via tanh-sinh quadrature
 dev-haskell/interlude 0.1.2-r1: Replaces some Prelude functions for enhanced error reporting
