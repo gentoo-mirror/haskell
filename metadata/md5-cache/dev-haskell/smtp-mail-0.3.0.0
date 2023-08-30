@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/base16-bytestring:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/connection:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/mime-mail:=[profile?] dev-haskell/network:=[profile?] dev-haskell/network-bsd:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Simple email sending via SMTP
+EAPI=7
+HOMEPAGE=https://github.com/jhickner/smtp-mail
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/base16-bytestring:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/connection:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/mime-mail:=[profile?] dev-haskell/network:=[profile?] dev-haskell/network-bsd:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+SLOT=0/0.3.0.0
+SRC_URI=https://hackage.haskell.org/package/smtp-mail-0.3.0.0/smtp-mail-0.3.0.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=6702d8a3449840d3f509d203417ffd70

@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.4 test? ( >=dev-haskell/doctest-0.16 dev-haskell/glob ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Combinators for writing pretty type errors easily
+EAPI=7
+HOMEPAGE=https://github.com/chshersh/type-errors-pretty
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MPL-2.0
+RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.0.1.1
+SRC_URI=https://hackage.haskell.org/package/type-errors-pretty-0.0.1.1/type-errors-pretty-0.0.1.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=9954a07b2c562378ada61ac484df13ab

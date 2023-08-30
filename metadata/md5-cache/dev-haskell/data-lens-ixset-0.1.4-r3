@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/data-lens-2.0:=[profile?] <dev-haskell/data-lens-2.11:=[profile?] >=dev-haskell/ixset-1.0:=[profile?] >=dev-lang/ghc-6.10.4:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A Lens for IxSet
+EAPI=7
+HOMEPAGE=https://github.com/dag/data-lens-ixset
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/data-lens-2.0:=[profile?] <dev-haskell/data-lens-2.11:=[profile?] >=dev-haskell/ixset-1.0:=[profile?] >=dev-lang/ghc-6.10.4:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/0.1.4
+SRC_URI=https://hackage.haskell.org/package/data-lens-ixset-0.1.4/data-lens-ixset-0.1.4.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=e9c1cc4c28cd8f03b3fa42c6bf272f08

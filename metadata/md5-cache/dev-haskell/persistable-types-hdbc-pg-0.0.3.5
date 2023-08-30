@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/convertible:=[profile?] dev-haskell/dlist:=[profile?] dev-haskell/hdbc:2=[profile?] >=dev-haskell/persistable-record-0.4:=[profile?] >=dev-haskell/relational-query-0.12:=[profile?] dev-haskell/relational-query-hdbc:=[profile?] dev-haskell/text-postgresql:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=HDBC and Relational-Record instances of PostgreSQL extended types
+EAPI=7
+HOMEPAGE=http://khibino.github.io/haskell-relational-record/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/convertible:=[profile?] dev-haskell/dlist:=[profile?] dev-haskell/hdbc:2=[profile?] >=dev-haskell/persistable-record-0.4:=[profile?] >=dev-haskell/relational-query-0.12:=[profile?] dev-haskell/relational-query-hdbc:=[profile?] dev-haskell/text-postgresql:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.0.3.5
+SRC_URI=https://hackage.haskell.org/package/persistable-types-HDBC-pg-0.0.3.5/persistable-types-HDBC-pg-0.0.3.5.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=f113d6fcb9f11ec38f24c6035255be9e

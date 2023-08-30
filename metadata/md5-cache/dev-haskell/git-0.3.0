@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/basement:=[profile?] >=dev-haskell/cryptonite-0.22:=[profile?] >=dev-haskell/hourglass-0.2:=[profile?] >=dev-haskell/memory-0.13:=[profile?] dev-haskell/random:=[profile?] dev-haskell/system-fileio:=[profile?] dev-haskell/system-filepath:=[profile?] dev-haskell/unix-compat:=[profile?] dev-haskell/utf8-string:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/zlib:=[profile?] >=dev-haskell/zlib-bindings-0.1:=[profile?] <dev-haskell/zlib-bindings-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8 test? ( >=dev-haskell/bytedump-1.0 dev-haskell/tasty dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Git operations in haskell
+EAPI=7
+HOMEPAGE=https://github.com/vincenthz/hs-git
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/basement:=[profile?] >=dev-haskell/cryptonite-0.22:=[profile?] >=dev-haskell/hourglass-0.2:=[profile?] >=dev-haskell/memory-0.13:=[profile?] dev-haskell/random:=[profile?] dev-haskell/system-fileio:=[profile?] dev-haskell/system-filepath:=[profile?] dev-haskell/unix-compat:=[profile?] dev-haskell/utf8-string:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/zlib:=[profile?] >=dev-haskell/zlib-bindings-0.1:=[profile?] <dev-haskell/zlib-bindings-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.3.0
+SRC_URI=https://hackage.haskell.org/package/git-0.3.0/git-0.3.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=5ede771095aca7fb6d607eb6a2bef228

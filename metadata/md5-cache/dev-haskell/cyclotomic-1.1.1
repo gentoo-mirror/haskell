@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/arithmoi-0.9:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( dev-haskell/hunit >=dev-haskell/quickcheck-2.4 dev-haskell/test-framework dev-haskell/test-framework-hunit dev-haskell/test-framework-quickcheck2 dev-haskell/test-framework-smallcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A subfield of the complex numbers for exact calculation
+EAPI=7
+HOMEPAGE=https://hackage.haskell.org/package/cyclotomic
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-haskell/arithmoi-0.9:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.1.1
+SRC_URI=https://hackage.haskell.org/package/cyclotomic-1.1.1/cyclotomic-1.1.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=1b897c94d44836c6314aad34d35a1e63

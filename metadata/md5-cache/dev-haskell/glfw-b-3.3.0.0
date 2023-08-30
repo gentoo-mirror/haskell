@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/bindings-glfw-3.3.0.0:=[profile?] >=dev-lang/ghc-8.6.3:= >=dev-haskell/cabal-2.4.0.1 test? ( >=dev-haskell/hunit-1.3 <dev-haskell/hunit-1.7 >=dev-haskell/test-framework-0.8 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.3 <dev-haskell/test-framework-hunit-0.4 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Bindings to GLFW OpenGL library
+EAPI=7
+HOMEPAGE=https://hackage.haskell.org/package/GLFW-b
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/bindings-glfw-3.3.0.0:=[profile?] >=dev-lang/ghc-8.6.3:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/3.3.0.0
+SRC_URI=https://hackage.haskell.org/package/GLFW-b-3.3.0.0/GLFW-b-3.3.0.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=eaad824698e9c51f699968f5755889d9

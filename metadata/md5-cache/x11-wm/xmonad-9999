@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-haskell/data-default-class:=[profile?] dev-haskell/setlocale:=[profile?] >=dev-haskell/x11-1.10:=[profile?] <dev-haskell/x11-1.11:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=2d74c25fe78b8ecb710a0349b7f32272

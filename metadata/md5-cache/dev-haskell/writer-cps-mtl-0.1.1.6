@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/mtl-2.2:=[profile?] <dev-haskell/mtl-2.4:=[profile?] >=dev-haskell/writer-cps-transformers-0.1.1.1:=[profile?] <dev-haskell/writer-cps-transformers-0.6:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=MonadWriter orphan instances for writer-cps-transformers
+EAPI=7
+HOMEPAGE=https://github.com/minad/writer-cps-mtl#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/mtl-2.2:=[profile?] <dev-haskell/mtl-2.4:=[profile?] >=dev-haskell/writer-cps-transformers-0.1.1.1:=[profile?] <dev-haskell/writer-cps-transformers-0.6:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+SLOT=0/0.1.1.6
+SRC_URI=https://hackage.haskell.org/package/writer-cps-mtl-0.1.1.6/writer-cps-mtl-0.1.1.6.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=1d66eb26b65a1f935f9f18af7d89b37c

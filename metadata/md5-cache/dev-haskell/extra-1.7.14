@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/clock-0.7:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:
 RESTRICT=!test? ( test )
 SLOT=2/1.7.14
 SRC_URI=https://hackage.haskell.org/package/extra-1.7.14/extra-1.7.14.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
 _md5_=77856d3e37c01d014e50ab2b270692ce

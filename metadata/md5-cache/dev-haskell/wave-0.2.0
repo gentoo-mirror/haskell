@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cereal-0.3:=[profile?] <dev-haskell/cereal-0.6:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-3.0 >=dev-haskell/quickcheck-2.8.2 <dev-haskell/quickcheck-3.0 >=dev-haskell/temporary-1.1 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=WAVE audio file IO library
+EAPI=7
+HOMEPAGE=https://github.com/mrkkrp/wave
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/cereal-0.3:=[profile?] <dev-haskell/cereal-0.6:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.0
+SRC_URI=https://hackage.haskell.org/package/wave-0.2.0/wave-0.2.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=3aa6c87eb0aca8badc5f59ab1db21f0e

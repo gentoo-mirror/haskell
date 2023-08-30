@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/http-types:=[profile?] dev-haskell/psqueues:=[profile?] dev-haskell/wai:=[profile?] dev-haskell/warp:=[profile?] dev-haskell/word8:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( >=dev-haskell/doctest-0.10.1 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=WAI utilities for HTTP/2
+EAPI=7
+HOMEPAGE=https://github.com/yesodweb/wai
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/http-types:=[profile?] dev-haskell/psqueues:=[profile?] dev-haskell/wai:=[profile?] dev-haskell/warp:=[profile?] dev-haskell/word8:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.3
+SRC_URI=https://hackage.haskell.org/package/wai-http2-extra-0.1.3/wai-http2-extra-0.1.3.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=8ae48c1f412bc11931a3e0bc7decd6b7

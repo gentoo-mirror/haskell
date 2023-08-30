@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/blaze-html-0.5:=[profile?] >=dev-haskell/blaze-markup-0.5.1:=[profile?] >=dev-haskell/shakespeare-2.0:=[profile?] >=dev-haskell/text-0.9:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Helper functions and data types for producing News feeds
+EAPI=7
+HOMEPAGE=http://www.yesodweb.com/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/blaze-html-0.5:=[profile?] >=dev-haskell/blaze-markup-0.5.1:=[profile?] >=dev-haskell/shakespeare-2.0:=[profile?] >=dev-haskell/text-0.9:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+SLOT=0/1.7.0.0
+SRC_URI=https://hackage.haskell.org/package/yesod-newsfeed-1.7.0.0/yesod-newsfeed-1.7.0.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=16bcf9344449ad1cdd1b7b6a192c7f93

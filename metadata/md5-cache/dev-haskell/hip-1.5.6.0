@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/colour-2.3.3:=[profile?] >=dev-haskell/juicypixels-3.3.5:=[profile?] >=dev-haskell/netpbm-1.0.1:=[profile?] >=dev-haskell/primitive-0.4:=[profile?] dev-haskell/random:=[profile?] >=dev-haskell/repa-3.2.1.1:=[profile?] <dev-haskell/repa-4:=[profile?] >=dev-haskell/temporary-1.1.1:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-lang/ghc-7.10.1:= !disable-chart? ( >=dev-haskell/chart-1.5:=[profile?] >=dev-haskell/chart-diagrams-1.5:=[profile?] ) >=dev-haskell/cabal-1.22.2.0 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell Image Processing (HIP) Library
+EAPI=7
+HOMEPAGE=https://github.com/lehins/hip
+INHERIT=haskell-cabal
+IUSE=disable-chart doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/colour-2.3.3:=[profile?] >=dev-haskell/juicypixels-3.3.5:=[profile?] >=dev-haskell/netpbm-1.0.1:=[profile?] >=dev-haskell/primitive-0.4:=[profile?] dev-haskell/random:=[profile?] >=dev-haskell/repa-3.2.1.1:=[profile?] <dev-haskell/repa-4:=[profile?] >=dev-haskell/temporary-1.1.1:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-lang/ghc-7.10.1:= !disable-chart? ( >=dev-haskell/chart-1.5:=[profile?] >=dev-haskell/chart-diagrams-1.5:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.5.6.0
+SRC_URI=https://hackage.haskell.org/package/hip-1.5.6.0/hip-1.5.6.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=6a74e2cbac67b9593b4c39865102ce6f

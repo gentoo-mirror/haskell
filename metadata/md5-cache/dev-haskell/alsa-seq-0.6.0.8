@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/alsa-core-0.5:=[profile?] <dev-haskell/alsa-core-0.6:=[profile?] >=dev-haskell/data-accessor-0.2.2:=[profile?] <dev-haskell/data-accessor-0.3:=[profile?] >=dev-haskell/enumset-0.0.5:=[profile?] <dev-haskell/enumset-0.1:=[profile?] >=dev-haskell/extensible-exceptions-0.1.1:=[profile?] <dev-haskell/extensible-exceptions-0.2:=[profile?] >=dev-haskell/poll-0.0:=[profile?] <dev-haskell/poll-0.1:=[profile?] >=dev-haskell/utility-ht-0.0.7:=[profile?] <dev-haskell/utility-ht-0.1:=[profile?] >=dev-lang/ghc-8.4.3:= media-libs/alsa-lib >=dev-haskell/cabal-2.2.0.1 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Binding to the ALSA Library API (MIDI sequencer)
+EAPI=7
+HOMEPAGE=https://www.haskell.org/haskellwiki/ALSA
+INHERIT=haskell-cabal
+IUSE=+modifyfilter doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/alsa-core-0.5:=[profile?] <dev-haskell/alsa-core-0.6:=[profile?] >=dev-haskell/data-accessor-0.2.2:=[profile?] <dev-haskell/data-accessor-0.3:=[profile?] >=dev-haskell/enumset-0.0.5:=[profile?] <dev-haskell/enumset-0.1:=[profile?] >=dev-haskell/extensible-exceptions-0.1.1:=[profile?] <dev-haskell/extensible-exceptions-0.2:=[profile?] >=dev-haskell/poll-0.0:=[profile?] <dev-haskell/poll-0.1:=[profile?] >=dev-haskell/utility-ht-0.0.7:=[profile?] <dev-haskell/utility-ht-0.1:=[profile?] >=dev-lang/ghc-8.4.3:= media-libs/alsa-lib dev-lang/ghc:=[profile?]
+SLOT=0/0.6.0.8
+SRC_URI=https://hackage.haskell.org/package/alsa-seq-0.6.0.8/alsa-seq-0.6.0.8.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=2b47c992f8ef2842a41ca2be8d023682

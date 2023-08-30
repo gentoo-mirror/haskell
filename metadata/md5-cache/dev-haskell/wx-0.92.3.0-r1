@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/stm:=[profile?] >=dev-haskell/wxcore-0.92:3.0-gtk3=[profile?] >=dev-lang/ghc-7.6.1:= !!dev-haskell/wx:3.0 >=dev-haskell/cabal-1.16.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A portable and native GUI library for Haskell built on top of wxWidgets
+EAPI=7
+HOMEPAGE=https://wiki.haskell.org/WxHaskell
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=wxWinLL-3.1
+RDEPEND=dev-haskell/stm:=[profile?] >=dev-haskell/wxcore-0.92:3.0-gtk3=[profile?] >=dev-lang/ghc-7.6.1:= !!dev-haskell/wx:3.0 dev-lang/ghc:=[profile?]
+SLOT=3.0-gtk3/0.92.3.0
+SRC_URI=https://hackage.haskell.org/package/wx-0.92.3.0/wx-0.92.3.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=e96ec115c82a5749bc8c3f9f3ddc90ea

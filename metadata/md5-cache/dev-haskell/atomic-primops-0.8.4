@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/primitive:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A safe approach to CAS and other atomic ops in Haskell
+EAPI=7
+HOMEPAGE=https://github.com/rrnewton/haskell-lockfree/wiki
+INHERIT=haskell-cabal
+IUSE=debug doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/primitive:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+SLOT=0/0.8.4
+SRC_URI=https://hackage.haskell.org/package/atomic-primops-0.8.4/atomic-primops-0.8.4.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=57bbe230498b0d152d3ee92e2965e133

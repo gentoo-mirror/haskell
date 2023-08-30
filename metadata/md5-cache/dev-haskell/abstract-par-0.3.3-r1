@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Type classes generalizing the functionality of the 'monad-par' library
+EAPI=7
+HOMEPAGE=https://github.com/simonmar/monad-par
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+SLOT=0/0.3.3
+SRC_URI=https://hackage.haskell.org/package/abstract-par-0.3.3/abstract-par-0.3.3.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=3fa85ecf5e22fd8b588f679ce7aea95b

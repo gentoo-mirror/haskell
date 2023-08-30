@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/continued-fractions-0.10:=[profile?] dev-haskell/converge:=[profile?] >=dev-haskell/vector-0.5:=[profile?] >=dev-lang/ghc-8.0.1:= >=dev-haskell/cabal-1.24.0.0 test? ( dev-haskell/erf dev-haskell/numbers >=dev-haskell/quickcheck-2.1.1 dev-haskell/test-framework dev-haskell/test-framework-quickcheck2 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Gamma function and related functions
+EAPI=7
+HOMEPAGE=https://github.com/rockbmb/gamma2
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=dev-haskell/continued-fractions-0.10:=[profile?] dev-haskell/converge:=[profile?] >=dev-haskell/vector-0.5:=[profile?] >=dev-lang/ghc-8.0.1:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/0.10.0.0
+SRC_URI=https://hackage.haskell.org/package/gamma-0.10.0.0/gamma-0.10.0.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=37b5eeba0e83122381b14a892f0f7299

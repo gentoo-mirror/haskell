@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/terminal-size-0.3.2:=[profile?] >=dev-haskell/text-1.2:=[profile?] >=dev-lang/ghc-8.2.1:= >=dev-haskell/cabal-2.0.0.2 test? ( >=dev-haskell/hunit-1.2.4.2 >=dev-haskell/test-framework-0.3.3 >=dev-haskell/test-framework-hunit-0.2.6 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A simple progress bar in the terminal
+EAPI=7
+HOMEPAGE=https://github.com/roelvandijk/terminal-progress-bar
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/terminal-size-0.3.2:=[profile?] >=dev-haskell/text-1.2:=[profile?] >=dev-lang/ghc-8.2.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.4.1
+SRC_URI=https://hackage.haskell.org/package/terminal-progress-bar-0.4.1/terminal-progress-bar-0.4.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=d405cec7e5b716261bac42c3c0c20ded

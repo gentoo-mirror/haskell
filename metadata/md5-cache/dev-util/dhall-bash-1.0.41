@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=<dev-haskell/neat-interpolation-0.6:=[profile?] >=dev-haskell/optparse-generic-1.1.1:=[profile?] <dev-haskell/optparse-generic-1.5:=[profile?] <dev-haskell/shell-escape-0.3:=[profile?] >=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/dhall-1.42.0:=[profile?] <dev-lang/dhall-1.43:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.0.41
 SRC_URI=https://hackage.haskell.org/package/dhall-bash-1.0.41/dhall-bash-1.0.41.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
 _md5_=552da7ba8b9bc260a1197c2e8df554eb

@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cairo-0.13.0.0:= <dev-haskell/cairo-0.14:= >=dev-haskell/glib-0.13.0.0:= <dev-haskell/glib-0.14:= dev-haskell/mtl:= dev-haskell/text:= >=dev-lang/ghc-7.4.1:= gnome-base/librsvg >=dev-haskell/cabal-1.24 >=dev-haskell/gtk2hs-buildtools-0.13.2.0 <dev-haskell/gtk2hs-buildtools-0.14 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Binding to the libsvg-cairo library
+EAPI=7
+HOMEPAGE=http://projects.haskell.org/gtk2hs/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/cairo-0.13.0.0:= <dev-haskell/cairo-0.14:= >=dev-haskell/glib-0.13.0.0:= <dev-haskell/glib-0.14:= dev-haskell/mtl:= dev-haskell/text:= >=dev-lang/ghc-7.4.1:= gnome-base/librsvg
+SLOT=0/0.13.2.1
+SRC_URI=https://hackage.haskell.org/package/svgcairo-0.13.2.1/svgcairo-0.13.2.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=34ec6744fccda80845b9ad05335a64ce

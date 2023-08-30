@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cereal:=[profile?] >=dev-haskell/cryptonite-0.7:=[profile?] >=dev-haskell/http-client-0.5:=[profile?] >=dev-haskell/http-client-tls-0.2:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/profunctors:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.1:=[profile?] >=dev-lang/ghc-7.8.2:= >=dev-haskell/cabal-1.18.1.3 test? ( dev-haskell/hspec >=dev-haskell/hspec-expectations-lens-0.3.0.0 >=dev-haskell/lens-4.4 >=dev-haskell/lens-aeson-1.0.0.1 >=dev-haskell/xml-html-conduit-lens-0.3 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Lastfm API interface
+EAPI=7
+HOMEPAGE=https://hackage.haskell.org/package/liblastfm
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cereal:=[profile?] >=dev-haskell/cryptonite-0.7:=[profile?] >=dev-haskell/http-client-0.5:=[profile?] >=dev-haskell/http-client-tls-0.2:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/profunctors:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.1:=[profile?] >=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.7.0
+SRC_URI=https://hackage.haskell.org/package/liblastfm-0.7.0/liblastfm-0.7.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=fa4c39eb5e571e9cd9ee980439e28914

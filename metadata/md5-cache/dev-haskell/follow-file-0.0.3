@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/attoparsec-path:=[profile?] dev-haskell/conduit:=[profile?] dev-haskell/conduit-combinators:=[profile?] dev-haskell/exceptions:=[profile?] >=dev-haskell/hinotify-0.4:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/path:=[profile?] dev-haskell/text:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Be notified when a file gets appended, solely with what was added
+EAPI=7
+HOMEPAGE=https://github.com/athanclark/follow-file#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/attoparsec:=[profile?] dev-haskell/attoparsec-path:=[profile?] dev-haskell/conduit:=[profile?] dev-haskell/conduit-combinators:=[profile?] dev-haskell/exceptions:=[profile?] >=dev-haskell/hinotify-0.4:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/path:=[profile?] dev-haskell/text:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+SLOT=0/0.0.3
+SRC_URI=https://hackage.haskell.org/package/follow-file-0.0.3/follow-file-0.0.3.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=4963ff7b63cc53583e40bdf4bdefb3cd

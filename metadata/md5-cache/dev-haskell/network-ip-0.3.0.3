@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/data-default-class:=[profile?] >=dev-haskell/data-dword-0.2:=[profile?] >=dev-haskell/data-endian-0.0.1:=[profile?] >=dev-haskell/data-serializer-0.2:=[profile?] >=dev-haskell/data-textual-0.3:=[profile?] >=dev-haskell/hashable-1.1:=[profile?] >=dev-haskell/parsers-0.5:=[profile?] >=dev-haskell/text-printer-0.4:=[profile?] >=dev-haskell/type-hint-0.1:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10.0 test? ( >=dev-haskell/tasty-0.4 >=dev-haskell/tasty-quickcheck-0.3 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Internet Protocol data structures
+EAPI=7
+HOMEPAGE=https://github.com/mvv/network-ip
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/data-default-class:=[profile?] >=dev-haskell/data-dword-0.2:=[profile?] >=dev-haskell/data-endian-0.0.1:=[profile?] >=dev-haskell/data-serializer-0.2:=[profile?] >=dev-haskell/data-textual-0.3:=[profile?] >=dev-haskell/hashable-1.1:=[profile?] >=dev-haskell/parsers-0.5:=[profile?] >=dev-haskell/text-printer-0.4:=[profile?] >=dev-haskell/type-hint-0.1:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.3.0.3
+SRC_URI=https://hackage.haskell.org/package/network-ip-0.3.0.3/network-ip-0.3.0.3.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=dc9abdfc946f0f33839d9482357532b6

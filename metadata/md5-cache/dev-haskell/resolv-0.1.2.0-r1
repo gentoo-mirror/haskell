@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/base16-bytestring-0.1:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-2.2 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Domain Name Service (DNS) lookup via the libresolv standard library routines
+EAPI=7
+HOMEPAGE=https://hackage.haskell.org/package/resolv
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-haskell/base16-bytestring-0.1:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/0.1.2.0
+SRC_URI=https://hackage.haskell.org/package/resolv-0.1.2.0/resolv-0.1.2.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=c6ca30e065ee02548eed9049569e1541

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.0:=[profile?] >=dev-haskell/base16-bytestring-0.1.
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/hackport-0.8.4.0/hackport-0.8.4.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=7cbd77d6538565f06d2dbaaf99f7c9b0

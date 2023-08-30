@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=>=dev-haskell/json-0.5:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( dev-haskell/hunit ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Produces ctags "tags" and etags "TAGS" files for Haskell programs
+EAPI=7
+HOMEPAGE=https://github.com/MarcWeber/hasktags
+INHERIT=haskell-cabal git-r3
+IUSE=debug doc hscolour hoogle profile test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=>=dev-haskell/json-0.5:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/9999
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=0011c6ab53d009547b61caed4b9c0004

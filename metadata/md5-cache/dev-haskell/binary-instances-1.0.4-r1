@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/binary-orphans-1.0.4:=[profile?] <dev-haskell/binary-orpha
 RESTRICT=!test? ( test )
 SLOT=0/1.0.4
 SRC_URI=https://hackage.haskell.org/package/binary-instances-1.0.4/binary-instances-1.0.4.tar.gz https://hackage.haskell.org/package/binary-instances-1.0.4/revision/2.cabal -> binary-instances-1.0.4-rev2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	c1a70e245419630bb5044d93d7fcbd01
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
 _md5_=85ce26de150825fb7fe956463d56f5c9

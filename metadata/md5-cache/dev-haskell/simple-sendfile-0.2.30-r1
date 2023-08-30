@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/network:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 test? ( dev-haskell/conduit dev-haskell/conduit-extra >=dev-haskell/hspec-1.3 dev-haskell/hunit dev-haskell/resourcet ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Cross platform library for the sendfile system call
+EAPI=7
+HOMEPAGE=https://hackage.haskell.org/package/simple-sendfile
+INHERIT=haskell-cabal
+IUSE=+allow-bsd doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/network:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.30
+SRC_URI=https://hackage.haskell.org/package/simple-sendfile-0.2.30/simple-sendfile-0.2.30.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=ce54d0819372fdb7d358e98f3a5921c0

@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Authentication methods for Haskell web applications
+EAPI=7
+HOMEPAGE=https://github.com/yesodweb/authenticate
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+SLOT=0/1.0.0
+SRC_URI=https://hackage.haskell.org/package/authenticate-kerberos-1.0.0/authenticate-kerberos-1.0.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=0b695b3ece66f7f0e66c6baeefd1796a

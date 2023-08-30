@@ -1,0 +1,14 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=app-text/pandoc-1.12:= dev-haskell/extra:= >=dev-haskell/pandoc-types-1.12:= dev-haskell/text:= >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0
+DESCRIPTION=Pandoc filter to customize links, images and paragraphs
+EAPI=7
+HOMEPAGE=https://github.com/lyokha/styleFromMeta
+INHERIT=haskell-cabal
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=app-text/pandoc-1.12:= dev-haskell/extra:= >=dev-haskell/pandoc-types-1.12:= dev-haskell/text:= >=dev-lang/ghc-7.10.1:=
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/pandoc-stylefrommeta-0.2.3.0/pandoc-stylefrommeta-0.2.3.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=9cbd5c95438595073b9d7dc0e50982e8

@@ -1,0 +1,14 @@
+BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=dev-haskell/extensible-exceptions:=[profile?] >=dev-haskell/mtl-1:=[profile?] <dev-haskell/mtl-3:=[profile?] dev-haskell/old-locale:=[profile?] dev-haskell/old-time:=[profile?] dev-haskell/random:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/x11-1.10:=[profile?] <dev-haskell/x11-1.11:=[profile?] >=dev-lang/ghc-8.0.1:= >=x11-wm/xmonad-0.16:=[profile?] xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] ) >=dev-haskell/cabal-1.24.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Third party extensions for xmonad
+EAPI=7
+HOMEPAGE=http://xmonad.org/
+INHERIT=haskell-cabal git-r3
+IUSE=+xft doc hscolour hoogle profile
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-haskell/extensible-exceptions:=[profile?] >=dev-haskell/mtl-1:=[profile?] <dev-haskell/mtl-3:=[profile?] dev-haskell/old-locale:=[profile?] dev-haskell/old-time:=[profile?] dev-haskell/random:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/x11-1.10:=[profile?] <dev-haskell/x11-1.11:=[profile?] >=dev-lang/ghc-8.0.1:= >=x11-wm/xmonad-0.16:=[profile?] xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/9999
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=83ac45aafa1cfa869d011b501befdd33
