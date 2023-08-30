@@ -1,0 +1,13 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cabal-1.2 dev-haskell/parsec >=dev-lang/ghc-6.10.4
+DESCRIPTION=Convert GHC profiles into GraphViz's dot format
+EAPI=7
+HOMEPAGE=http://antiope.com/downloads.html
+INHERIT=haskell-cabal
+KEYWORDS=~amd64
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/prof2dot-0.4.1/prof2dot-0.4.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=619de82720252dd7ece7a6027350592d

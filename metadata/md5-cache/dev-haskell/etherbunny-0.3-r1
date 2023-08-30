@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/binary:=[profile?] dev-haskell/network:=[profile?] dev-haskell/pcap:=[profile?] >=dev-lang/ghc-6.10.4:= net-libs/libpcap >=dev-haskell/cabal-0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A network analysis toolkit for Haskell
+EAPI=7
+HOMEPAGE=http://etherbunny.anytini.com/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=dev-haskell/binary:=[profile?] dev-haskell/network:=[profile?] dev-haskell/pcap:=[profile?] >=dev-lang/ghc-6.10.4:= net-libs/libpcap dev-lang/ghc:=[profile?]
+SLOT=0/0.3
+SRC_URI=https://hackage.haskell.org/package/Etherbunny-0.3/Etherbunny-0.3.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=303cf4218a8b1f4a801f41db50dde1ef
