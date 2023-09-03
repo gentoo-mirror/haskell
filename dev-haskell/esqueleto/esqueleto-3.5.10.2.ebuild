@@ -29,12 +29,11 @@ RDEPEND=">=dev-haskell/aeson-1.0:=[profile?]
 	>=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.1:=[profile?]
 	dev-haskell/unliftio:=[profile?]
 	>=dev-haskell/unordered-containers-0.2:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
-	test? ( dev-haskell/exceptions
-		dev-haskell/hspec
+	>=dev-haskell/cabal-3.2.1.0
+	test? ( dev-haskell/hspec
 		dev-haskell/hspec-core
 		dev-haskell/mysql
 		dev-haskell/mysql-simple

@@ -17,18 +17,18 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="executable"
 
-RDEPEND="~dev-haskell/skylighting-core-0.13.4.1:=[profile?]
+RDEPEND="~dev-haskell/skylighting-core-0.14:=[profile?]
 	>=dev-haskell/skylighting-format-ansi-0.1:=[profile?] <dev-haskell/skylighting-format-ansi-0.2:=[profile?]
 	>=dev-haskell/skylighting-format-blaze-html-0.1:=[profile?] <dev-haskell/skylighting-format-blaze-html-0.2:=[profile?]
 	>=dev-haskell/skylighting-format-context-0.1:=[profile?] <dev-haskell/skylighting-format-context-0.2:=[profile?]
 	>=dev-haskell/skylighting-format-latex-0.1:=[profile?] <dev-haskell/skylighting-format-latex-0.2:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 	executable? ( >=dev-haskell/blaze-html-0.5:=[profile?]
 			dev-haskell/pretty-show:=[profile?]
 			dev-haskell/text:=[profile?] )
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 "
 
 src_configure() {

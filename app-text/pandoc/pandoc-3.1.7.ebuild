@@ -17,7 +17,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="embed-data-files"
 
-RESTRICT=test # one test case fails with newer deps
+RESTRICT=test # test case fails
 
 RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/aeson-pretty-0.8.9:=[profile?] <dev-haskell/aeson-pretty-0.9:=[profile?]
@@ -55,14 +55,14 @@ RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.3:=[profil
 	>=dev-haskell/safe-0.3.18:=[profile?] <dev-haskell/safe-0.4:=[profile?]
 	>=dev-haskell/scientific-0.3:=[profile?] <dev-haskell/scientific-0.4:=[profile?]
 	>=dev-haskell/sha-1.6:=[profile?] <dev-haskell/sha-1.7:=[profile?]
-	>=dev-haskell/skylighting-0.13.4.1:=[profile?] <dev-haskell/skylighting-0.14:=[profile?]
-	>=dev-haskell/skylighting-core-0.13.4.1:=[profile?] <dev-haskell/skylighting-core-0.14:=[profile?]
+	>=dev-haskell/skylighting-0.14:=[profile?] <dev-haskell/skylighting-0.15:=[profile?]
+	>=dev-haskell/skylighting-core-0.14:=[profile?] <dev-haskell/skylighting-core-0.15:=[profile?]
 	>=dev-haskell/split-0.2:=[profile?] <dev-haskell/split-0.3:=[profile?]
 	>=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?]
 	>=dev-haskell/tagsoup-0.14.6:=[profile?] <dev-haskell/tagsoup-0.15:=[profile?]
 	>=dev-haskell/temporary-1.1:=[profile?] <dev-haskell/temporary-1.4:=[profile?]
 	>=dev-haskell/texmath-0.12.8.1:=[profile?] <dev-haskell/texmath-0.13:=[profile?]
-	>=dev-haskell/text-1.1.1.0:=[profile?] <dev-haskell/text-2.1:=[profile?]
+	>=dev-haskell/text-1.1.1.0:=[profile?] <dev-haskell/text-2.2:=[profile?]
 	>=dev-haskell/text-conversions-0.3:=[profile?] <dev-haskell/text-conversions-0.4:=[profile?]
 	>=dev-haskell/typst-0.3.2.0:=[profile?] <dev-haskell/typst-0.3.3:=[profile?]
 	>=dev-haskell/unicode-collation-0.1.1:=[profile?] <dev-haskell/unicode-collation-0.2:=[profile?]
@@ -74,10 +74,10 @@ RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.3:=[profil
 	>=dev-haskell/yaml-0.11:=[profile?] <dev-haskell/yaml-0.12:=[profile?]
 	>=dev-haskell/zip-archive-0.4.3:=[profile?] <dev-haskell/zip-archive-0.5:=[profile?]
 	>=dev-haskell/zlib-0.5:=[profile?] <dev-haskell/zlib-0.7:=[profile?]
-	>=dev-lang/ghc-8.10.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.2.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( >=dev-haskell/diff-0.2 <dev-haskell/diff-0.5
 		>=dev-haskell/tasty-0.11 <dev-haskell/tasty-1.5
 		>=dev-haskell/tasty-golden-2.3 <dev-haskell/tasty-golden-2.4

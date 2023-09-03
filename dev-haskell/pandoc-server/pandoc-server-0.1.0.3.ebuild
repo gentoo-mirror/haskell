@@ -22,13 +22,13 @@ RDEPEND=">=app-text/pandoc-3.0:=[profile?]
 	>=dev-haskell/doctemplates-0.11:=[profile?] <dev-haskell/doctemplates-0.12:=[profile?]
 	>=dev-haskell/pandoc-types-1.22:=[profile?] <dev-haskell/pandoc-types-1.24:=[profile?]
 	>=dev-haskell/servant-server-0.19:=[profile?] <dev-haskell/servant-server-0.21:=[profile?]
-	>=dev-haskell/skylighting-0.13:=[profile?] <dev-haskell/skylighting-0.14:=[profile?]
-	>=dev-haskell/text-1.1.1.0:=[profile?] <dev-haskell/text-2.1:=[profile?]
+	>=dev-haskell/skylighting-0.13:=[profile?] <dev-haskell/skylighting-0.15:=[profile?]
+	>=dev-haskell/text-1.1.1.0:=[profile?] <dev-haskell/text-2.2:=[profile?]
 	>=dev-haskell/unicode-collation-0.1.1:=[profile?] <dev-haskell/unicode-collation-0.2:=[profile?]
 	>=dev-haskell/wai-3.2:=[profile?] <dev-haskell/wai-3.3:=[profile?]
 	>=dev-haskell/wai-cors-0.2.7:=[profile?] <dev-haskell/wai-cors-0.3:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 "

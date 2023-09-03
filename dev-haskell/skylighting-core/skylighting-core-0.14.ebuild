@@ -26,10 +26,10 @@ RDEPEND=">=dev-haskell/aeson-1.0:=[profile?]
 	dev-haskell/text:=[profile?]
 	dev-haskell/utf8-string:=[profile?]
 	>=dev-haskell/xml-conduit-1.9.1.3:=[profile?] <dev-haskell/xml-conduit-1.10:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( dev-haskell/diff
 		dev-haskell/pretty-show
 		dev-haskell/quickcheck
