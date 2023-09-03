@@ -18,7 +18,7 @@ app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.8.3.0 0.8.4.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
-app-text/pandoc 3.1.6.2: Conversion between markup formats
+app-text/pandoc 3.1.7: Conversion between markup formats
 app-text/pandoc-cli 0.1.1: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
@@ -354,7 +354,7 @@ dev-haskell/concatenative 1.0.1-r1: A library for postfix control flow
 dev-haskell/conceit 0.4.0.0: Concurrent actions that may fail with a value
 dev-haskell/concurrency 1.11.0.1: Typeclasses, functions, and data types for concurrency and STM
 dev-haskell/concurrent-extra 0.7.0.12: Extra concurrency primitives
-dev-haskell/concurrent-output 1.10.18: Ungarble output from several threads or commands
+dev-haskell/concurrent-output 1.10.19: Ungarble output from several threads or commands
 dev-haskell/concurrent-split 0.0.1.1: MVars and Channels with distinguished input and output side
 dev-haskell/concurrent-supply 0.1.8-r2: A fast concurrent unique identifier supply with a pure API
 dev-haskell/concurrentoutput 0.2.0.2: Ungarble output from several threads
@@ -583,7 +583,7 @@ dev-haskell/equivalence 0.3.5: Maintaining an equivalence relation implemented a
 dev-haskell/erf 2.0.0.0: The error function, erf, and related functions
 dev-haskell/errorcall-eq-instance 0.3.0: An orphan Eq instance for ErrorCall
 dev-haskell/errors 2.3.0-r1: Simplified error-handling
-dev-haskell/esqueleto 3.5.10.1: Type-safe EDSL for SQL queries on persistent backends
+dev-haskell/esqueleto 3.5.10.2: Type-safe EDSL for SQL queries on persistent backends
 dev-haskell/etherbunny 0.3-r1: A network analysis toolkit for Haskell
 dev-haskell/event-list 0.1.2: Event lists with relative or absolute time stamps
 dev-haskell/exact-pi 0.5.0.1: Exact rational multiples of pi (and integer powers of pi)
@@ -984,7 +984,7 @@ dev-haskell/hs3 0.5.9-r1: Interface to Amazon's Simple Storage Service (S3)
 dev-haskell/hsass 0.8.0: Integrating Sass into Haskell applications
 dev-haskell/hsb2hs 0.3.1: Preprocesses a file, adding blobs from files as string literals
 dev-haskell/hscaffold 0.4.5.0: Very simple file/directory structure scaffolding writer monad EDSL
-dev-haskell/hscolour 1.24.4: Colourise Haskell code
+dev-haskell/hscolour 1.24.4 1.25: Colourise Haskell code
 dev-haskell/hscrtmpl 1.6: Haskell shell script template
 dev-haskell/hscurses 1.4.2.0: NCurses bindings for Haskell
 dev-haskell/hse-cpp 0.2: Preprocess+parse haskell code
@@ -1485,9 +1485,9 @@ dev-haskell/ormolu 0.5.2.0 0.7.1.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc-crossref 0.3.16.0: Pandoc filter for cross-references
-dev-haskell/pandoc-lua-engine 0.2.1.1: Lua engine to power custom pandoc conversions
+dev-haskell/pandoc-lua-engine 0.2.1.2: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
-dev-haskell/pandoc-server 0.1.0.2: Pandoc document conversion as an HTTP servant-server
+dev-haskell/pandoc-server 0.1.0.3: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
 dev-haskell/pandoc-types 1.23.1: Types for representing a structured document
 dev-haskell/pango 0.13.10.0: Binding to the Pango text rendering engine
@@ -1829,10 +1829,10 @@ dev-haskell/singletons-base 3.0 3.1: A promoted and singled version of the base 
 dev-haskell/singletons-th 3.0 3.1: A framework for generating singleton types
 dev-haskell/size-based 0.1.2.0-r1: Sized functors, for size-based enumerations
 dev-haskell/skein 1.0.9.4: Skein, a family of cryptographic hash functions. Includes Skein-MAC as well
-dev-haskell/skylighting 0.13.4.1: syntax highlighting library
-dev-haskell/skylighting-core 0.13.4.1: syntax highlighting library
+dev-haskell/skylighting 0.14: syntax highlighting library
+dev-haskell/skylighting-core 0.14: syntax highlighting library
 dev-haskell/skylighting-format-ansi 0.1: ANSI formatter for skylighting syntax highlighting library
-dev-haskell/skylighting-format-blaze-html 0.1.1: HTML formatter for skylighting syntax highlighting library
+dev-haskell/skylighting-format-blaze-html 0.1.1.1: HTML formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-context 0.1.0.1: ConTeXt formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-latex 0.1: LaTeX formatter for skylighting syntax highlighting library
 dev-haskell/slave-thread 1.1.0.1: A fundamental solution to ghost threads and silent exceptions
@@ -2366,7 +2366,7 @@ www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some a
 www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
 www-apps/clckwrks-plugin-page 0.4.3.26-r1: support for CMS/Blogging in clckwrks
 www-apps/darcsweb 1.1: A web interface for darcs
-www-apps/gitit 0.15.1.1: Wiki using happstack, git or darcs, and pandoc
+www-apps/gitit 0.15.1.1-r1: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp

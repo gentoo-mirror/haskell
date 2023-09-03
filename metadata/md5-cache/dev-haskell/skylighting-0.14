@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=~dev-haskell/skylighting-core-0.14:=[profile?] >=dev-haskell/skylighting-format-ansi-0.1:=[profile?] <dev-haskell/skylighting-format-ansi-0.2:=[profile?] >=dev-haskell/skylighting-format-blaze-html-0.1:=[profile?] <dev-haskell/skylighting-format-blaze-html-0.2:=[profile?] >=dev-haskell/skylighting-format-context-0.1:=[profile?] <dev-haskell/skylighting-format-context-0.2:=[profile?] >=dev-haskell/skylighting-format-latex-0.1:=[profile?] <dev-haskell/skylighting-format-latex-0.2:=[profile?] >=dev-lang/ghc-8.10.6:= executable? ( >=dev-haskell/blaze-html-0.5:=[profile?] dev-haskell/pretty-show:=[profile?] dev-haskell/text:=[profile?] ) >=dev-haskell/cabal-3.2.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=syntax highlighting library
+EAPI=8
+HOMEPAGE=https://github.com/jgm/skylighting
+INHERIT=haskell-cabal
+IUSE=executable doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=~dev-haskell/skylighting-core-0.14:=[profile?] >=dev-haskell/skylighting-format-ansi-0.1:=[profile?] <dev-haskell/skylighting-format-ansi-0.2:=[profile?] >=dev-haskell/skylighting-format-blaze-html-0.1:=[profile?] <dev-haskell/skylighting-format-blaze-html-0.2:=[profile?] >=dev-haskell/skylighting-format-context-0.1:=[profile?] <dev-haskell/skylighting-format-context-0.2:=[profile?] >=dev-haskell/skylighting-format-latex-0.1:=[profile?] <dev-haskell/skylighting-format-latex-0.2:=[profile?] >=dev-lang/ghc-8.10.6:= executable? ( >=dev-haskell/blaze-html-0.5:=[profile?] dev-haskell/pretty-show:=[profile?] dev-haskell/text:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/0.14
+SRC_URI=https://hackage.haskell.org/package/skylighting-0.14/skylighting-0.14.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_md5_=076ac94f83262e6eb49b3de886017d55
