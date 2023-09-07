@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/cmdargs-0.10:= >=dev-haskell/dns-2:= >=dev-haskell/email-v
 RESTRICT=test
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/email-validator-1.0.0/email-validator-1.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
 _md5_=946597b4dd3a23f1e248752937bc5561

@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/http-client-0.2:=[profile?] <dev-haskell/http-client-0.8:=[profile?] <dev-haskell/http-client-tls-0.4:=[profile?] >=dev-haskell/pipes-4.0:=[profile?] <dev-haskell/pipes-4.4:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.0.6
 SRC_URI=https://hackage.haskell.org/package/pipes-http-1.0.6/pipes-http-1.0.6.tar.gz https://hackage.haskell.org/package/pipes-http-1.0.6/revision/1.cabal -> pipes-http-1.0.6-r2.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	edc4eecfdfcf989e2644b3a8cb6777ff
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
 _md5_=efaaad7a400415f62cee30f482596a8d
