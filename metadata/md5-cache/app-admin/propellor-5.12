@@ -11,5 +11,5 @@ LICENSE=BSD-2
 RDEPEND=dev-haskell/ansi-terminal:=[profile?] dev-haskell/async:=[profile?] >=dev-haskell/exceptions-0.6:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/hslogger:=[profile?] dev-haskell/ifelse:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/network:=[profile?] dev-haskell/split:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unix-compat:=[profile?] >=dev-lang/ghc-8.0.1:= type-errors? ( dev-haskell/type-errors:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/5.12
 SRC_URI=https://hackage.haskell.org/package/propellor-5.12/propellor-5.12.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
 _md5_=05f2f5db9fe14c7e77290d2a627f75af

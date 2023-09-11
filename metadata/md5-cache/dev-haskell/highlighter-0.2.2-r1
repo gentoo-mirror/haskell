@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/blaze-html:=[profile?] dev-haskell/blaze-markup:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/pcre-light:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.2.2
 SRC_URI=https://hackage.haskell.org/package/highlighter-0.2.2/highlighter-0.2.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
 _md5_=f6c399e244c94ded219ee103ac0e8667

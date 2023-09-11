@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/colour-2.2.1:=[profile?] <dev-haskell/colour-2.4:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-haskell/lens-3.9:=[profile?] dev-haskell/old-locale:=[profile?] >=dev-haskell/operational-0.2.2:=[profile?] <dev-haskell/operational-0.3:=[profile?] >=dev-haskell/vector-0.9:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/1.9.4
 SRC_URI=https://hackage.haskell.org/package/Chart-1.9.4/Chart-1.9.4.tar.gz -> chart-1.9.4.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
 _md5_=657fcbdde23e2a90b8c2340d1fa3db8e

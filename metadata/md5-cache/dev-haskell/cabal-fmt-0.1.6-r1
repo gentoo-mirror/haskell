@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cabal-syntax-3.8.1.0:= <dev-haskell/cabal-syntax-3.9:= >=dev-haskell/optparse-applicative-0.14.3.0:= >=dev-haskell/parsec-3.1.13.0:= <dev-haskell/parsec-3.2:= >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( >=dev-haskell/integer-logarithms-1.0.3.1 <dev-haskell/integer-logarithms-1.1 dev-haskell/quickcheck dev-haskell/tasty dev-haskell/tasty-golden dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/temporary )
+DESCRIPTION=Format .cabal files
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/cabal-fmt
+INHERIT=haskell-cabal
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-haskell/cabal-syntax-3.8.1.0:= <dev-haskell/cabal-syntax-3.9:= >=dev-haskell/optparse-applicative-0.14.3.0:= >=dev-haskell/parsec-3.1.13.0:= <dev-haskell/parsec-3.2:= >=dev-lang/ghc-8.10.6:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/cabal-fmt-0.1.6/cabal-fmt-0.1.6.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_md5_=c683a96e6ffd3a75672a1ddc6ebae203

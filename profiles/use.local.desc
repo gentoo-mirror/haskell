@@ -21,7 +21,6 @@ dev-haskell/aeson-yaml:build-binaries - Build the binaries
 dev-haskell/alsa-pcm:buildexamples - Build example executables
 dev-haskell/alsa-seq:modifyfilter - Use native event filter functions that are provided by newer ALSA versions
 dev-haskell/ansi-terminal:example - Build the example application
-dev-haskell/ansi-wl-pprint:examples - Build the example application
 dev-haskell/apply-refact:executable - Install the apply-refactor executable
 dev-haskell/assoc:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/atomic-primops:debug - Enable extra internal checks.
@@ -183,7 +182,7 @@ dev-haskell/haskell-language-server:hls_plugins_rename - Enable rename plugin
 dev-haskell/haskell-language-server:hls_plugins_retrie - Enable retrie plugin
 dev-haskell/haskell-language-server:hls_plugins_splice - Enable splice plugin
 dev-haskell/hdbc-sqlite3:splitbase - Choose the new smaller, split-up package.
-dev-haskell/hedgehog-fn:build-examples - Build the example executables
+dev-haskell/hedgehog-fn:examples - Build the example executables
 dev-haskell/hiedb:executable - Install the hiedb executable
 dev-haskell/highlighter:executable - Install a "highlighter" executable
 dev-haskell/hip:disable-chart - Disable Chart-diagrams and Chart for a lighter dependency footprint
@@ -213,13 +212,12 @@ dev-haskell/http-api-data:text-show - Use text-show library for efficient ToHttp
 dev-haskell/http-client-openssl:test-proxy - Test with http-proxy
 dev-haskell/httpd-shed:buildexamples - Build example executables.
 dev-haskell/hvega:tools - Build associated tools (in general you won't need this)
-dev-haskell/hw-prim:bounds-checking-enabled - Enable bmi2 instruction set
+dev-haskell/hw-prim:bounds-checking - Enable bmi2 instruction set
 dev-haskell/hxt:profile - turn profiling on
 dev-haskell/hxt-regex-xmlschema:profile - turn profiling on
 dev-haskell/hyphenation:embed - Embed data in library binary (Warning: This increases the executable size by about 1Mb unless unneeded language data files are manually removed from the "data" directory before compiling)
 dev-haskell/ignore:without-pcre - Disable pcre support
 dev-haskell/implicit-hie:executable - Build the gen-hie executable
-dev-haskell/inline-c:gsl-example - Build GSL example
 dev-haskell/io-streams:network - Include network support
 dev-haskell/io-streams:zlib - Include zlib support
 dev-haskell/ipython-kernel:examples - Build example programs
@@ -232,6 +230,7 @@ dev-haskell/json:parsec - Add support for parsing with Parsec.
 dev-haskell/json:pretty - Add support for using pretty printing combinators.
 dev-haskell/judy:unsafe - Compile the library without locks. Code may be faster, but not threadsafe.
 dev-haskell/juicypixels:mmap - Enable the file loading via mmap (memory map)
+dev-haskell/juicypixels-blurhash:executable - Build the JuicyPixels-blurhash-exe executable
 dev-haskell/juicypixels-extra:dev - Turn on development settings.
 dev-haskell/jupyter:examples - Build example Jupyter kernel executables
 dev-haskell/language-c-quote:full-haskell-antiquotes - Support full Haskell expressions/patterns in antiquotes
@@ -388,8 +387,7 @@ dev-haskell/thyme:lens - use the full lens package
 dev-haskell/thyme:show-internal - instance Show of internal representation
 dev-haskell/tls:compat - Accept SSLv2 client hello for beginning SSLv3 / TLS handshake
 dev-haskell/tls:network - Use the base network library
-dev-haskell/tomland:example-play-tomland - Build play-tomland executable
-dev-haskell/tomland:example-readme - Build example-tomland generator
+dev-haskell/tomland:examples - Build example exes
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
 dev-haskell/typst:executable - Compile executable to be used in testing and development.
 dev-haskell/tz:template-haskell - Enable the use of and export Template Haskell functionality. (Might need to disable this for cross-compiling.)

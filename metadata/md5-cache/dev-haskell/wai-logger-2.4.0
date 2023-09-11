@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/byteorder:=[profile?] >=dev-haskell/fast-logger-3:=[profile?
 RESTRICT=test
 SLOT=0/2.4.0
 SRC_URI=https://hackage.haskell.org/package/wai-logger-2.4.0/wai-logger-2.4.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
 _md5_=4f12dd296ec4f1dfbf44d5f1f6319f5c

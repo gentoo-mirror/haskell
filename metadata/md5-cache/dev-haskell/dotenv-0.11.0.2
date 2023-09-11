@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/base-compat-0.4:=[profile?] >=dev-haskell/data-default-class-0.1.2:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-haskell/megaparsec-7.0.1:=[profile?] <dev-haskell/megaparsec-10.0:=[profile?] >=dev-haskell/optparse-applicative-0.11:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?] >=dev-haskell/shellwords-0.1.3.0:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/hspec >=dev-haskell/hspec-megaparsec-2.0 <dev-haskell/hspec-megaparsec-3.0 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Loads environment variables from dotenv files
+EAPI=8
+HOMEPAGE=https://github.com/stackbuilders/dotenv-hs
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/base-compat-0.4:=[profile?] >=dev-haskell/data-default-class-0.1.2:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-haskell/megaparsec-7.0.1:=[profile?] <dev-haskell/megaparsec-10.0:=[profile?] >=dev-haskell/optparse-applicative-0.11:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?] >=dev-haskell/shellwords-0.1.3.0:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.11.0.2
+SRC_URI=https://hackage.haskell.org/package/dotenv-0.11.0.2/dotenv-0.11.0.2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_md5_=1b699eefc9c8c0e53fe7b5f90dfad000
