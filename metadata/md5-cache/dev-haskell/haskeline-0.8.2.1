@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.0.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A command-line interface for user input, written in Haskell
+EAPI=8
+HOMEPAGE=https://github.com/judah/haskeline
+INHERIT=haskell-cabal
+IUSE=+terminfo doc hscolour hoogle profile
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/0.8.2.1
+SRC_URI=https://hackage.haskell.org/package/haskeline-0.8.2.1/haskeline-0.8.2.1.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
+_md5_=b8a08dca7e74bacee027c7e6a425e277

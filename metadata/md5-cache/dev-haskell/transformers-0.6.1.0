@@ -1,0 +1,14 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-8.10.6:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Concrete functor and monad transformers
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/transformers
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+SLOT=0/0.6.1.0
+SRC_URI=https://hackage.haskell.org/package/transformers-0.6.1.0/transformers-0.6.1.0.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
+_md5_=be791f36a29b529cc0075c17035999d7

@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/contravariant-1.3:=[profile?] <dev-haskell/contravariant-2.0:=[profile?] >=dev-haskell/hashable-1.3:=[profile?] <dev-haskell/hashable-2.0:=[profile?] >=dev-haskell/megaparsec-7.0:=[profile?] <dev-haskell/megaparsec-10.0:=[profile?] >=dev-haskell/profunctors-5.2.1:=[profile?] <dev-haskell/profunctors-6.0:=[profile?] >=dev-haskell/quickcheck-2.4:2=[profile?] <dev-haskell/quickcheck-3.0:2=[profile?] >=dev-haskell/reflection-2.0:=[profile?] <dev-haskell/reflection-3.0:=[profile?] >=dev-haskell/tagged-0.8:=[profile?] <dev-haskell/tagged-0.9:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.3.6.0
-SRC_URI=https://hackage.haskell.org/package/modern-uri-0.3.6.0/modern-uri-0.3.6.0.tar.gz
+SRC_URI=https://hackage.haskell.org/package/modern-uri-0.3.6.0/modern-uri-0.3.6.0.tar.gz https://hackage.haskell.org/package/modern-uri-0.3.6.0/revision/1.cabal -> modern-uri-0.3.6.0-rev1.cabal
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	27b2864e1ec0eb92520e935763fdc86a
-_md5_=b89ddd2471448946ea9e0401e3de12e3
+_md5_=dcb8d6c50387ebb9cfac15101d0f8317
