@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.3.0
 SRC_URI=https://hackage.haskell.org/package/from-sum-0.2.3.0/from-sum-0.2.3.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=6ba6378f8a7348b3bd596294bf0a67f9

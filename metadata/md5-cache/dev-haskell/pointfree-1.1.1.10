@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/haskell-src-exts-1.20:=[profile?] <dev-haskell/haskell-src
 RESTRICT=!test? ( test )
 SLOT=0/1.1.1.10
 SRC_URI=https://hackage.haskell.org/package/pointfree-1.1.1.10/pointfree-1.1.1.10.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=d09f80d4d967ef8e3917a3ea64b5be47

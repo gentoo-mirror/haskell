@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=dev-haskell/case-insensitive:= dev-haskell/data-default:= dev-haskell/ifelse:= dev-haskell/monad-loops:= dev-haskell/mtl:= dev-haskell/ncurses:= dev-haskell/optparse-applicative:= dev-haskell/random:= dev-haskell/text:= dev-haskell/vector:= >=dev-lang/ghc-7.4.1:=
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/scroll-1.20180421/scroll-1.20180421.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=8366b793b8437d73d14f460ed489991c

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/constraints-deriving-1.1.1.0:=[profile?] <dev-haskell/cons
 RESTRICT=!test? ( test )
 SLOT=0/2.1.1.0
 SRC_URI=https://hackage.haskell.org/package/dimensions-2.1.1.0/dimensions-2.1.1.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=1a680ec0267ce282d6a714da97c9ce60

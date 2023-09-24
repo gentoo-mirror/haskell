@@ -18,7 +18,6 @@ app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.8.3.0 0.8.4.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
-app-text/pandoc 3.1.7: Conversion between markup formats
 app-text/pandoc-cli 0.1.1: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
@@ -338,7 +337,7 @@ dev-haskell/colonnade 1.2.0.2-r2: Generic types and functions for columnar encod
 dev-haskell/color 0.3.2: Color spaces and conversions between them
 dev-haskell/colorize-haskell 1.0.1-r1: Highlight Haskell source
 dev-haskell/colour 2.3.6: A model for human colour/color perception
-dev-haskell/colourista 0.1.0.1 0.1.0.2: Convenient interface for printing colourful messages
+dev-haskell/colourista 0.1.0.2-r1: Convenient interface for printing colourful messages
 dev-haskell/command-qq 0.3.1.0: Quasiquoters for external commands
 dev-haskell/commonmark 0.2.3: Pure Haskell commonmark parser
 dev-haskell/commonmark-extensions 0.2.3.5: Pure Haskell commonmark parser
@@ -1484,7 +1483,8 @@ dev-haskell/ordered-containers 0.2.3: Set- and Map-like types that remember the 
 dev-haskell/ormolu 0.5.2.0 0.7.1.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
-dev-haskell/pandoc-crossref 0.3.16.0: Pandoc filter for cross-references
+dev-haskell/pandoc 3.1.7: Conversion between markup formats
+dev-haskell/pandoc-crossref 0.3.16.0-r1: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-engine 0.2.1.2: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1.0.3: Pandoc document conversion as an HTTP servant-server
@@ -1803,7 +1803,7 @@ dev-haskell/shellac-compatline 0.9.9: "compatline" backend module for Shellac
 dev-haskell/shellac-editline 0.9.9: Editline backend module for Shellac
 dev-haskell/shellac-readline 0.9.9: Readline backend module for Shellac
 dev-haskell/shellwords 0.1.3.1: Parse strings into words, like a shell would
-dev-haskell/shelly 1.10.0-r1: shell-like (systems) programming in Haskell
+dev-haskell/shelly 1.12.1: shell-like (systems) programming in Haskell
 dev-haskell/shh 0.7.1.0: Simple shell scripting from Haskell
 dev-haskell/should-not-typecheck 2.1.0: A HUnit/hspec assertion library to verify that an expression does not typecheck
 dev-haskell/show 0.6: 'Show' instances for Lambdabot

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/extra-1.7.3:=[profile?] >=dev-haskell/filemanip-0.3.6.3:=[
 RESTRICT=!test? ( test )
 SLOT=0/0.9.3.0
 SRC_URI=https://hackage.haskell.org/package/apply-refact-0.9.3.0/apply-refact-0.9.3.0.tar.gz https://hackage.haskell.org/package/apply-refact-0.9.3.0/revision/1.cabal -> apply-refact-0.9.3.0-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=0a62752f414818737ae1c9add96db1e6

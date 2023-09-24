@@ -11,5 +11,5 @@ LICENSE=GPL-2+
 RDEPEND=>=dev-haskell/hsyaml-0.2.0:=[profile?] <dev-haskell/hsyaml-0.3:=[profile?] >=dev-haskell/scientific-0.3.6.2:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/aeson-1.4.0.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/text-1.2.3:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/vector-0.12.0.2:=[profile?] <dev-haskell/vector-0.14:=[profile?] executable? ( dev-haskell/aeson:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/0.2.0.1
 SRC_URI=https://hackage.haskell.org/package/HsYAML-aeson-0.2.0.1/HsYAML-aeson-0.2.0.1.tar.gz -> hsyaml-aeson-0.2.0.1.tar.gz https://hackage.haskell.org/package/HsYAML-aeson-0.2.0.1/revision/8.cabal -> hsyaml-aeson-0.2.0.1-rev8.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=f8d9cc59530799125b93b5e969567af2
