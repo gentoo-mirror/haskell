@@ -24,7 +24,7 @@ RDEPEND=">=dev-haskell/pandoc-types-1.20:=[profile?] <dev-haskell/pandoc-types-1
 	dev-haskell/text:=[profile?]
 	>=dev-haskell/typst-symbols-0.1.4:=[profile?] <dev-haskell/typst-symbols-0.1.5:=[profile?]
 	dev-haskell/xml:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 	executable? ( dev-haskell/aeson:=[profile?]
 			>=dev-haskell/network-uri-2.6:=[profile?]
 			dev-haskell/pretty-show:=[profile?] )
@@ -37,7 +37,7 @@ RDEPEND=">=dev-haskell/pandoc-types-1.20:=[profile?] <dev-haskell/pandoc-types-1
 			dev-haskell/warp:=[profile?] )
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( dev-haskell/tagged
 		dev-haskell/tasty
 		dev-haskell/tasty-golden

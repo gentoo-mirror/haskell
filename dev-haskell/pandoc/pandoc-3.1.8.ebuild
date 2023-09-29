@@ -61,7 +61,7 @@ RDEPEND=">=dev-haskell/aeson-2.0.1.0:=[profile?] <dev-haskell/aeson-2.3:=[profil
 	>=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?]
 	>=dev-haskell/tagsoup-0.14.6:=[profile?] <dev-haskell/tagsoup-0.15:=[profile?]
 	>=dev-haskell/temporary-1.1:=[profile?] <dev-haskell/temporary-1.4:=[profile?]
-	>=dev-haskell/texmath-0.12.8.1:=[profile?] <dev-haskell/texmath-0.13:=[profile?]
+	>=dev-haskell/texmath-0.12.8.2:=[profile?] <dev-haskell/texmath-0.13:=[profile?]
 	>=dev-haskell/text-1.1.1.0:=[profile?] <dev-haskell/text-2.2:=[profile?]
 	>=dev-haskell/text-conversions-0.3:=[profile?] <dev-haskell/text-conversions-0.4:=[profile?]
 	>=dev-haskell/typst-0.3.2.0:=[profile?] <dev-haskell/typst-0.3.3:=[profile?]
