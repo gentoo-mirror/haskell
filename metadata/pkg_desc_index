@@ -1483,8 +1483,8 @@ dev-haskell/ordered-containers 0.2.3: Set- and Map-like types that remember the 
 dev-haskell/ormolu 0.5.2.0 0.7.1.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
-dev-haskell/pandoc 3.1.7: Conversion between markup formats
-dev-haskell/pandoc-crossref 0.3.16.0-r1: Pandoc filter for cross-references
+dev-haskell/pandoc 3.1.8: Conversion between markup formats
+dev-haskell/pandoc-crossref 0.3.17.0: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-engine 0.2.1.2: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1.0.3: Pandoc document conversion as an HTTP servant-server
@@ -1994,7 +1994,7 @@ dev-haskell/test-framework-smallcheck 0.2: Support for SmallCheck tests in test-
 dev-haskell/test-framework-th 0.2.4: Automagically generate the HUnit and Quickcheck using Template Haskell
 dev-haskell/testing-feat 1.1.0.0-r1: Functional Enumeration of Algebraic Types
 dev-haskell/testing-type-modifiers 0.1.0.1: Data type modifiers for property based testing
-dev-haskell/texmath 0.12.8.1: Conversion between math formats
+dev-haskell/texmath 0.12.8.3: Conversion between math formats
 dev-haskell/texrunner 0.0.1.2-r2: Functions for running Tex from Haskell
 dev-haskell/text 1.2.4.1-r1 1.2.5.0-r1 2.0.2: An efficient packed Unicode text type
 dev-haskell/text-ansi 0.2.1: Text styling for ANSI terminals
