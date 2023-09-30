@@ -737,7 +737,7 @@ dev-haskell/gi-cairo-connector 0.1.1: GI friendly Binding to the Cairo library
 dev-haskell/gi-cairo-render 0.1.1-r1: GI friendly Binding to the Cairo library
 dev-haskell/gi-dbusmenu 0.4.10: Dbusmenu bindings
 dev-haskell/gi-dbusmenugtk3 0.4.11: DbusmenuGtk bindings
-dev-haskell/gi-freetype2 2.0.1: freetype2 bindings
+dev-haskell/gi-freetype2 2.0.4: freetype2 bindings
 dev-haskell/gi-gdk 3.0.25 4.0.4: Gdk bindings
 dev-haskell/gi-gdkpixbuf 2.0.28: GdkPixbuf bindings
 dev-haskell/gi-gdkx11 3.0.12 4.0.4: GdkX11 bindings
