@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/haskell-gi-0.26:=[profile?] <dev-haskell/haskell-gi-0.27:=[profile?] >=dev-haskell/haskell-gi-base-0.26:=[profile?] <dev-haskell/haskell-gi-base-0.27:=[profile?] <dev-haskell/haskell-gi-overloading-1.1:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-8.10.6:= x11-libs/cairo >=dev-haskell/cabal-3.2.1.0 <dev-haskell/cabal-4 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Cairo bindings
+EAPI=8
+HOMEPAGE=https://github.com/haskell-gi/haskell-gi
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-haskell/haskell-gi-0.26:=[profile?] <dev-haskell/haskell-gi-0.27:=[profile?] >=dev-haskell/haskell-gi-base-0.26:=[profile?] <dev-haskell/haskell-gi-base-0.27:=[profile?] <dev-haskell/haskell-gi-overloading-1.1:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-8.10.6:= x11-libs/cairo dev-lang/ghc:=[profile?]
+SLOT=0/1.0.29
+SRC_URI=https://hackage.haskell.org/package/gi-cairo-1.0.29/gi-cairo-1.0.29.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_md5_=593d400eda667b1fae0a508b38693cfd

@@ -731,35 +731,35 @@ dev-haskell/ghcid 0.8.8-r1: GHCi based bare bones IDE
 dev-haskell/ghcide 2.0.0.1: The core of an IDE
 dev-haskell/ghcide-test-utils 1.8.0.0: Test utils for ghcide
 dev-haskell/ghcjs-codemirror 0.0.0.2: Installs CodeMirror JavaScript files
-dev-haskell/gi-atk 2.0.24: Atk bindings
-dev-haskell/gi-cairo 1.0.26: Cairo bindings
+dev-haskell/gi-atk 2.0.27: Atk bindings
+dev-haskell/gi-cairo 1.0.29: Cairo bindings
 dev-haskell/gi-cairo-connector 0.1.1: GI friendly Binding to the Cairo library
-dev-haskell/gi-cairo-render 0.1.1-r1: GI friendly Binding to the Cairo library
+dev-haskell/gi-cairo-render 0.1.2: GI friendly Binding to the Cairo library
 dev-haskell/gi-dbusmenu 0.4.10: Dbusmenu bindings
 dev-haskell/gi-dbusmenugtk3 0.4.11: DbusmenuGtk bindings
 dev-haskell/gi-freetype2 2.0.4: freetype2 bindings
-dev-haskell/gi-gdk 3.0.25 4.0.4: Gdk bindings
-dev-haskell/gi-gdkpixbuf 2.0.28: GdkPixbuf bindings
-dev-haskell/gi-gdkx11 3.0.12 4.0.4: GdkX11 bindings
-dev-haskell/gi-gio 2.0.29: Gio bindings
-dev-haskell/gi-glib 2.0.26: GLib bindings
-dev-haskell/gi-gmodule 2.0.2: GModule bindings
-dev-haskell/gi-gobject 2.0.27: GObject bindings
-dev-haskell/gi-graphene 1.0.4: Graphene bindings
-dev-haskell/gi-gsk 4.0.4: Gsk bindings
+dev-haskell/gi-gdk 3.0.25 4.0.7: Gdk bindings
+dev-haskell/gi-gdkpixbuf 2.0.31: GdkPixbuf bindings
+dev-haskell/gi-gdkx11 3.0.12 4.0.7: GdkX11 bindings
+dev-haskell/gi-gio 2.0.32: Gio bindings
+dev-haskell/gi-glib 2.0.29: GLib bindings
+dev-haskell/gi-gmodule 2.0.5: GModule bindings
+dev-haskell/gi-gobject 2.0.30: GObject bindings
+dev-haskell/gi-graphene 1.0.7: Graphene bindings
+dev-haskell/gi-gsk 4.0.7: Gsk bindings
 dev-haskell/gi-gst 1.0.25: GStreamer bindings
 dev-haskell/gi-gstbase 1.0.25: GStreamerBase bindings
 dev-haskell/gi-gstvideo 1.0.25: GStreamerVideo bindings
-dev-haskell/gi-gtk 3.0.38 4.0.5: Gtk bindings
+dev-haskell/gi-gtk 3.0.38 4.0.8: Gtk bindings
 dev-haskell/gi-gtk-hs 0.3.14: A wrapper for gi-gtk, adding a few more idiomatic API parts on top
 dev-haskell/gi-gtksource 3.0.25: GtkSource bindings
-dev-haskell/gi-harfbuzz 0.0.6: HarfBuzz bindings
+dev-haskell/gi-harfbuzz 0.0.9: HarfBuzz bindings
 dev-haskell/gi-javascriptcore 4.0.24: JavaScriptCore bindings
-dev-haskell/gi-pango 1.0.26: Pango bindings
+dev-haskell/gi-pango 1.0.29: Pango bindings
 dev-haskell/gi-soup 2.4.25: Libsoup bindings
 dev-haskell/gi-vte 2.91.29: Vte bindings
 dev-haskell/gi-webkit2 4.0.28: WebKit2 bindings
-dev-haskell/gi-xlib 2.0.11: xlib bindings
+dev-haskell/gi-xlib 2.0.13: xlib bindings
 dev-haskell/ginger 0.10.4.0-r1: An implementation of the Jinja2 template language in Haskell
 dev-haskell/gio 0.13.10.0: Binding to GIO
 dev-haskell/git 0.3.0: Git operations in haskell
@@ -2362,6 +2362,7 @@ sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
 sci-mathematics/agda 2.6.3.0: A dependently typed functional programming language and proof assistant
 sci-mathematics/agda-stdlib 2.6.3.0.1.7.2: Agda standard library
 sci-mathematics/spline3 1.0.0: A parallel implementation of the Sorokina/Zeilfelder spline scheme
+virtual/pandoc 0: Virtual for pandoc
 www-apps/clckwrks 0.28.0.1-r1: A secure, reliable content management system (CMS) and blogging platform
 www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some aspects of clckwrks
 www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
