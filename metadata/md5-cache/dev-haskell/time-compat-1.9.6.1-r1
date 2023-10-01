@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0
 RESTRICT=!test? ( test )
 SLOT=0/1.9.6.1
 SRC_URI=https://hackage.haskell.org/package/time-compat-1.9.6.1/time-compat-1.9.6.1.tar.gz https://hackage.haskell.org/package/time-compat-1.9.6.1/revision/5.cabal -> time-compat-1.9.6.1-rev5.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=71aad9c1558fd107275bfeec4bcee899

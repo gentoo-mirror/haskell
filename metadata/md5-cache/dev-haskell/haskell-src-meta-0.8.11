@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/haskell-src-exts-1.21:=[profile?] <dev-haskell/haskell-src
 RESTRICT=!test? ( test )
 SLOT=0/0.8.11
 SRC_URI=https://hackage.haskell.org/package/haskell-src-meta-0.8.11/haskell-src-meta-0.8.11.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=426b6eb6f4edaa8b7b2a1327e57b36d0

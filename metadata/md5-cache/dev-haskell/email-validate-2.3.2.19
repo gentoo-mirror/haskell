@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/attoparsec-0.10.0:=[profile?] <dev-haskell/attoparsec-0.15
 RESTRICT=!test? ( test )
 SLOT=0/2.3.2.19
 SRC_URI=https://hackage.haskell.org/package/email-validate-2.3.2.19/email-validate-2.3.2.19.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=bd1a86f4a690839106d10f23dffb98f3

@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=dev-haskell/async:=[profile?] >=dev-haskell/http-types-0.7:=[profile?] || ( dev-lang/ghc ( >=dev-haskell/process-1.0[profile?] <dev-haskell/process-1.7[profile?] ) ) >=dev-haskell/streaming-commons-0.2:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/warp-3.0:=[profile?] <dev-haskell/warp-3.4:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/3.0.3.1
 SRC_URI=https://hackage.haskell.org/package/wai-handler-launch-3.0.3.1/wai-handler-launch-3.0.3.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=a3d389f15095e8572a1c557643647070
