@@ -207,7 +207,7 @@ dev-haskell/blaze-builder 0.4.2.2: Efficient buffered output
 dev-haskell/blaze-builder-conduit 1.1.0: Convert streams of builders to streams of bytestrings. (deprecated)
 dev-haskell/blaze-colonnade 1.2.2.1-r1: Helper functions for using blaze-html with colonnade
 dev-haskell/blaze-html 0.9.1.2-r1: A blazingly fast HTML combinator library for Haskell
-dev-haskell/blaze-markup 0.8.2.8-r1: A blazingly fast markup combinator library for Haskell
+dev-haskell/blaze-markup 0.8.3.0: A blazingly fast markup combinator library for Haskell
 dev-haskell/blaze-svg 0.3.6.1 0.3.7: SVG combinator library
 dev-haskell/blaze-textual 0.2.2.1: Fast rendering of common datatypes
 dev-haskell/bloomfilter 2.0.1.0: Pure and impure Bloom Filter implementations
@@ -1042,7 +1042,7 @@ dev-haskell/hstatsd 0.1: Quick and dirty statsd interface
 dev-haskell/hstringtemplate 0.8.8-r1: StringTemplate implementation in Haskell
 dev-haskell/hsx-jmacro 7.3.8.1: hsp+jmacro support
 dev-haskell/hsx2hs 0.14.1.10: HSX (Haskell Source with XML) allows literal XML syntax in Haskell source code
-dev-haskell/hsyaml 0.2.1.1: Pure Haskell YAML 1.2 processor
+dev-haskell/hsyaml 0.2.1.2: Pure Haskell YAML 1.2 processor
 dev-haskell/hsyaml-aeson 0.2.0.1-r2: JSON to YAML Adapter
 dev-haskell/hsyslog 5.0.2: FFI interface to syslog(3) from POSIX.1-2001
 dev-haskell/htf 0.15.0.0: The Haskell Test Framework
@@ -1077,7 +1077,7 @@ dev-haskell/httpd-shed 0.4.1.1-r1: A simple web-server with an interact style AP
 dev-haskell/huffman 1.0.1: Pure Haskell implementation of the Huffman encoding algorithm
 dev-haskell/hunit 1.6.2.0: A unit testing framework for Haskell
 dev-haskell/hunit-approx 1.1.1.1: Approximate equality for floating point numbers with HUnit
-dev-haskell/hvega 0.12.0.5: Create Vega-Lite visualizations (version 4) in Haskell
+dev-haskell/hvega 0.12.0.7: Create Vega-Lite visualizations (version 4) in Haskell
 dev-haskell/hvega-theme 0.2.0.4: Theme for hvega
 dev-haskell/hw-fingertree 0.1.2.1-r1: Generic finger-tree structure, with example instances
 dev-haskell/hw-hspec-hedgehog 0.1.1.1-r1: Interoperability between hspec and hedgehog
@@ -1121,7 +1121,7 @@ dev-haskell/infer-license 0.2.0: Infer software license from a given license fil
 dev-haskell/inflections 0.4.0.6-r1: Inflections library for Haskell
 dev-haskell/influxdb 1.9.3: InfluxDB client library for Haskell
 dev-haskell/ini 0.4.1-r1: Quick and easy configuration files in the INI format
-dev-haskell/inline-c 0.9.1.8-r1: Write Haskell source files including C code inline. No FFI required
+dev-haskell/inline-c 0.9.1.10: Write Haskell source files including C code inline. No FFI required
 dev-haskell/inline-c-cpp 0.2.1.0: Lets you embed C++ code into Haskell
 dev-haskell/insert-ordered-containers 0.2.5.3: Associative containers retaining insertion order for traversals
 dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
@@ -1345,7 +1345,7 @@ dev-haskell/monad-logger 0.3.40: A class of monads which can log messages
 dev-haskell/monad-logger-syslog 0.1.4.0: syslog output for monad-logger
 dev-haskell/monad-loops 0.4.3: Monadic loops
 dev-haskell/monad-memo 0.5.4: Memoization monad transformer
-dev-haskell/monad-par 0.3.5-r1: A library for parallel programming based on a monad
+dev-haskell/monad-par 0.3.6: A library for parallel programming based on a monad
 dev-haskell/monad-par-extras 0.3.3-r1: Combinators and extra features for Par monads
 dev-haskell/monad-parallel 0.8: Parallel execution of monadic computations
 dev-haskell/monad-peel 0.2.1.2 0.3: Lift control operations like exception catching through monad transformers
@@ -1460,7 +1460,7 @@ dev-haskell/one-liner 2.1: Constraint-based generics
 dev-haskell/onetuple 0.4.1.1: Singleton Tuple
 dev-haskell/only 0.1: The 1-tuple type or single-value "collection"
 dev-haskell/oo-prototypes 0.1.0.0-r1: Support for OO-like prototypes
-dev-haskell/opaleye 0.10.0.0: An SQL-generating DSL targeting PostgreSQL
+dev-haskell/opaleye 0.10.1.1: An SQL-generating DSL targeting PostgreSQL
 dev-haskell/open-browser 0.2.1.0-r2: Open a web browser from Haskell
 dev-haskell/openal 1.7.0.5: A binding to the OpenAL cross-platform 3D audio API
 dev-haskell/opencl 1.0.3.4: Haskell high-level wrapper for OpenCL
@@ -1509,7 +1509,7 @@ dev-haskell/password 3.0.2.0: Hashing and checking of passwords
 dev-haskell/password-types 1.0.0.0-r1: Types for handling passwords
 dev-haskell/patch 0.0.8.2: Data structures for describing changes to other data structures
 dev-haskell/path 0.9.2-r1: Support for well-typed paths
-dev-haskell/path-extra 0.2.0: Chris Done's path library, enriched with URL-related goodies
+dev-haskell/path-extra 0.3.1: URLs without host information
 dev-haskell/path-io 1.8.0: Interface to ‘directory’ package for users of ‘path’
 dev-haskell/path-pieces 0.2.1: Components of paths
 dev-haskell/paths 0.2.0.0: Library for representing and manipulating type-safe file paths
@@ -1865,7 +1865,7 @@ dev-haskell/speculation 1.5.0.3-r1: A framework for safe, programmable, speculat
 dev-haskell/sphinx 0.6.0.2: Haskell bindings to the Sphinx full-text searching daemon
 dev-haskell/spintax 0.3.6: Random text generation based on spintax
 dev-haskell/split 0.2.3.5: Combinator library for splitting lists
-dev-haskell/splitmix 0.1.0.4: Fast Splittable PRNG
+dev-haskell/splitmix 0.1.0.5: Fast Splittable PRNG
 dev-haskell/spool 0.1: Convert between ByteString and Vector.Storable without copying
 dev-haskell/spoon 0.3.1-r1: Catch errors thrown from pure computations
 dev-haskell/sql-words 0.1.6.4: Simple idea SQL keywords data constructor into OverloadedString
@@ -2337,7 +2337,7 @@ dev-util/shelltestrunner 1.9: A tool for testing command-line programs
 dev-util/spago 0.20.6: PureScript package manager and build tool powered by Dhall and package-sets
 dev-util/threadscope 0.2.14.1: A graphical tool for profiling parallel Haskell programs
 dev-vcs/darcs 2.16.5-r5: a distributed, interactive, smart revision control system
-dev-vcs/git-annex 10.20230802: manage files with git, without checking their contents into git
+dev-vcs/git-annex 10.20230802 10.20230926: manage files with git, without checking their contents into git
 dev-vcs/git-repair 1.20220404: repairs a damaged git repository
 games-action/monadius 0.99: 2-D arcade scroller
 games-arcade/shu-thing 1.1.4: A vector shooter game
