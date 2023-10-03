@@ -3,9 +3,7 @@
 # * generated automatically using pmaint *
 
 app-admin/propellor:type-errors - Build with type-errors library for better error messages and less memory use
-app-office/hledger-ui:threaded - Build with support for multithreaded execution
 app-office/hledger-web:library-only - Build for use with "yesod devel"
-app-office/hledger-web:threaded - Build with support for multithreaded execution.
 app-portage/hackport:profile - Enable profiling flags
 app-text/pandoc-cli:lua - Support custom modifications and conversions with the pandoc Lua scripting engine.
 app-text/pandoc-cli:nightly - Add '-nightly-COMPILEDATE' to the output of '--version'.
