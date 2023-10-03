@@ -17,35 +17,23 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="examples"
 
-PATCHES=(
-	# <https://github.com/fpco/inline-c/pull/148>
-	"${FILESDIR}/${PN}-0.9.1.8-switch-to-prettyprinter.patch"
-)
-
-RDEPEND="
-	dev-haskell/hashable:=[profile?]
+RDEPEND="dev-haskell/hashable:=[profile?]
 	>=dev-haskell/parsec-3:=[profile?]
 	dev-haskell/parsers:=[profile?]
 	>=dev-haskell/prettyprinter-1.7:=[profile?]
 	dev-haskell/unordered-containers:=[profile?]
 	dev-haskell/vector:=[profile?]
 	>=dev-lang/ghc-8.10.6:=
-	examples? (
-		>=dev-haskell/chart-1.3:=[profile?]
-		dev-haskell/chart-cairo:=[profile?]
-		sci-libs/gsl
-		virtual/libc
-	)
+	examples? ( sci-libs/gsl
+			virtual/libc )
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.2.1.0
-	test? (
-		>=dev-haskell/hspec-2
+	test? ( >=dev-haskell/hspec-2
 		dev-haskell/quickcheck
 		dev-haskell/raw-strings-qq
 		dev-haskell/regex-posix
-		dev-haskell/split
-	)
+		dev-haskell/split )
 "
 
 src_configure() {

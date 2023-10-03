@@ -17,15 +17,15 @@ KEYWORDS="~amd64"
 IUSE="tools"
 
 RDEPEND=">=dev-haskell/aeson-0.11:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
-	>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.1:=[profile?]
+	>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.2:=[profile?]
 	>=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 	tools? ( >=dev-haskell/aeson-pretty-0.8:=[profile?] <dev-haskell/aeson-pretty-0.9:=[profile?]
 			>=dev-haskell/http-conduit-2.3:=[profile?] <dev-haskell/http-conduit-2.4:=[profile?]
 			>=dev-haskell/tagsoup-0.14:=[profile?] <dev-haskell/tagsoup-0.15:=[profile?] )
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( >=dev-haskell/aeson-1.4.2
 		dev-haskell/tasty
 		>=dev-haskell/tasty-golden-2.2 <dev-haskell/tasty-golden-2.4
