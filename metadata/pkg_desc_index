@@ -2142,7 +2142,7 @@ dev-haskell/uuagc-bootstrap 0.9.40.2-r1: Attribute Grammar System of Universitei
 dev-haskell/uuagc-cabal 1.2.0.0: Cabal plugin for UUAGC
 dev-haskell/uuid 1.3.15: For creating, comparing, parsing and printing Universally Unique Identifiers
 dev-haskell/uuid-orphans 1.4.6: Orphan instances for the UUID datatype
-dev-haskell/uuid-types 1.0.5-r1: Type definitions for Universally Unique Identifiers
+dev-haskell/uuid-types 1.0.5.1: Type definitions for Universally Unique Identifiers
 dev-haskell/uulib 0.9.24: Haskell Utrecht Tools Library
 dev-haskell/validated-literals 0.3.1: Compile-time checking for partial smart-constructors
 dev-haskell/validation 1.1.2-r1: A data-type like Either but with an accumulating Applicative
