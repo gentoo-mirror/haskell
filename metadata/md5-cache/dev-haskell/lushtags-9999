@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
-_eclasses_=vim-doc	f088862726f2bc672c57b1063b81ec52	vim-plugin	92ea4186891b666b0970fa1d713d64fa	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=vim-doc	f088862726f2bc672c57b1063b81ec52	vim-plugin	92ea4186891b666b0970fa1d713d64fa	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=aad18eb5a5edb8b3612ed018768f9ad6

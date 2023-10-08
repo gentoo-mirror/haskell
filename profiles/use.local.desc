@@ -70,6 +70,7 @@ dev-haskell/contravariant:tagged - You can disable the use of the `tagged` packa
 dev-haskell/country-codes:generate - Build generate executable?
 dev-haskell/criterion:embed-data-files - Embed the data files in the binary for a relocatable executable. (Warning: This will increase the executable size significantly.)
 dev-haskell/crypto-api:all-cpolys - Build all the CMAC polynomes up to 10000 bits instead of just the usual ones
+dev-haskell/cryptohash-sha256:executable - Build the cryptohash-sha256sum executable
 dev-haskell/crypton:check-alignment - extra check on alignment in C layers, which cause lowlevel assert errors. for debugging only.
 dev-haskell/crypton:integer-gmp - Whether or not to use GMP for some functions
 dev-haskell/crypton:old-toolchain-inliner - use -fgnu89-inline to workaround an old compiler / linker / glibc issue.
@@ -95,6 +96,7 @@ dev-haskell/diagrams-builder:rasterific - install rasterific-specific builder to
 dev-haskell/diagrams-builder:svg - install svg-specific builder tool
 dev-haskell/dimensions:unsafeindices - Disable bound checks on Idx and Idxs types.
 dev-haskell/dlist:werror - Enable -Werror
+dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"
 dev-haskell/extensible:cassava - "define instances for cassava"

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/ansi-terminal-0.10.3:=[profile?] >=dev-haskell/async-2.2.2
 RESTRICT=!test? ( test )
 SLOT=0/1.2.2
 SRC_URI=https://hackage.haskell.org/package/retrie-1.2.2/retrie-1.2.2.tar.gz https://hackage.haskell.org/package/retrie-1.2.2/revision/1.cabal -> retrie-1.2.2-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=79c7410c9375202f5a6fe3fb26b72b9b

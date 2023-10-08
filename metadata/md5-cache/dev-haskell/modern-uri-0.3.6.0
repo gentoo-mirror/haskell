@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/contravariant-1.3:=[profile?] <dev-haskell/contravariant-2
 RESTRICT=!test? ( test )
 SLOT=0/0.3.6.0
 SRC_URI=https://hackage.haskell.org/package/modern-uri-0.3.6.0/modern-uri-0.3.6.0.tar.gz https://hackage.haskell.org/package/modern-uri-0.3.6.0/revision/1.cabal -> modern-uri-0.3.6.0-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=dcb8d6c50387ebb9cfac15101d0f8317
