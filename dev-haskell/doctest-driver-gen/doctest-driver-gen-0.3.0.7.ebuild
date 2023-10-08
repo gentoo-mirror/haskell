@@ -8,27 +8,33 @@ EAPI=8
 CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 inherit haskell-cabal
 
-DESCRIPTION="Parser for JavaScript"
-HOMEPAGE="https://github.com/erikd/language-javascript"
+DESCRIPTION="Generate driver file for doctest's cabal integration"
+HOMEPAGE="https://github.com/Hexirp/doctest-driver-gen#readme"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64"
+IUSE="+executable"
+
+PATCHES=(
+	"${FILESDIR}/${PN}-0.3.0.7-add-executable-flag.patch"
+)
 
 RDEPEND="
-	>=dev-haskell/blaze-builder-0.2:=[profile?]
-	>=dev-haskell/text-1.2:=[profile?]
-	>=dev-haskell/utf8-string-0.3.7:=[profile?] <dev-haskell/utf8-string-2
 	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="
 	${RDEPEND}
-	dev-haskell/alex
 	>=dev-haskell/cabal-3.2.1.0
-	dev-haskell/happy
 	test? (
-		dev-haskell/hspec
-		>=dev-haskell/quickcheck-2
-		>=dev-haskell/utf8-light-0.4
+		dev-haskell/doctest
 	)
 "
+
+src_configure() {
+	local config_flags=(
+		$(cabal_flag executable executable)
+	)
+
+	haskell-cabal_src_configure "${config_flags[@]}"
+}
