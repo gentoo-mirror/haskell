@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/text:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A text editor zipper library
+EAPI=8
+HOMEPAGE=https://github.com/jtdaugherty/text-zipper/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/text:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.13
+SRC_URI=https://hackage.haskell.org/package/text-zipper-0.13/text-zipper-0.13.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_md5_=4632ea96637f70d5f30319abb753fa3a

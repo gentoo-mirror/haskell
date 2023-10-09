@@ -221,7 +221,7 @@ dev-haskell/boundedchan 1.0.3.0: Implementation of bounded channels
 dev-haskell/bower-json 1.0.0.1: Read bower.json from Haskell
 dev-haskell/boxes 0.1.5: 2D text pretty-printing library
 dev-haskell/breakpoint 0.1.0.0: Set breakpoints using a GHC plugin
-dev-haskell/brick 1.5: A declarative terminal user interface library
+dev-haskell/brick 1.5 1.10: A declarative terminal user interface library
 dev-haskell/brittany 0.14.0.2: Haskell source code formatter
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
 dev-haskell/bsb-http-chunked 0.0.0.4: Chunked HTTP transfer encoding for bytestring builders
@@ -2016,7 +2016,7 @@ dev-haskell/text-rope 0.2: Text lines and ropes
 dev-haskell/text-short 0.1.5: Memory-efficient representation of Unicode text strings
 dev-haskell/text-show 3.10.4: Efficient conversion of values into Text
 dev-haskell/text-stream-decode 0.1.0.5: Streaming decoding functions for UTF encodings. (deprecated)
-dev-haskell/text-zipper 0.12: A text editor zipper library
+dev-haskell/text-zipper 0.12 0.13: A text editor zipper library
 dev-haskell/tf-random 0.5: High-quality splittable pseudorandom number generator
 dev-haskell/tga 0.2: Reading and writing of tga image files
 dev-haskell/th-abstraction 0.4.5.0: Nicer interface for reified information about data types
