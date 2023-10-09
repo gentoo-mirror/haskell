@@ -2176,7 +2176,7 @@ dev-haskell/versions 4.0.3: Types and parsers for software version numbers
 dev-haskell/vinyl 0.13.3: Extensible Records
 dev-haskell/vinyl-gl 0.3.4: Utilities for working with OpenGL's GLSL shading language and vinyl records
 dev-haskell/void 0.7.3: A Haskell 98 logically uninhabited data type
-dev-haskell/vty 5.36: A simple terminal UI library
+dev-haskell/vty 5.36 5.38: A simple terminal UI library
 dev-haskell/wai 3.2.3: Web Application Interface
 dev-haskell/wai-app-file-cgi 3.1.9: File/CGI/Rev Proxy App of WAI
 dev-haskell/wai-app-static 3.1.7.2-r1: WAI application for static serving
