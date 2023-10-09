@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/classy-prelude-1.5.0:=[profile?] <dev-haskell/classy-prelude-1.5.1:=[profile?] >=dev-haskell/classy-prelude-conduit-1.5.0:=[profile?] <dev-haskell/classy-prelude-conduit-1.5.1:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/http-conduit:=[profile?] dev-haskell/http-types:=[profile?] >=dev-haskell/persistent-1.1:=[profile?] >=dev-haskell/yesod-1.2:=[profile?] dev-haskell/yesod-newsfeed:=[profile?] dev-haskell/yesod-static:=[profile?] >=dev-lang/ghc-8.0.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.5.0
 SRC_URI=https://hackage.haskell.org/package/classy-prelude-yesod-1.5.0/classy-prelude-yesod-1.5.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=97a78473d1d9a08dd737f111e010d9ed

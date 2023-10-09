@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/genvalidity-1.0:=[profile?] 
 RESTRICT=!test? ( test )
 SLOT=0/1.0.0.0
 SRC_URI=https://hackage.haskell.org/package/genvalidity-hspec-aeson-1.0.0.0/genvalidity-hspec-aeson-1.0.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=b46817377a7400d1778e5fbd5c9fba0b
