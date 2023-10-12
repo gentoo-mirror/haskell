@@ -4,14 +4,8 @@
 #
 # Removal: 2023-11-10
 <dev-lang/ghc-9
-
-# hololeap <hololeap@protonmail.org> (2023-07-21)
-# Package has not been updated on hackage for 10 years. Author has
-# archvied the project on GitHub.
-# Masked for removal
-#
-# Removal: 2023-08-20
-dev-haskell/opencl
+<dev-haskell/ghc-api-compat-9
+<dev-haskell/haddock-api-2.25
 
 # hololeap <hololeap@protonmail.com> (2023-07-14)
 #
@@ -34,41 +28,6 @@ dev-haskell/hls-fourmolu-plugin
 >=dev-haskell/cabal-syntax-3.10
 dev-haskell/cabal-install-parsers
 dev-haskell/cabal-plan
-
-# Jack Todaro <solpeth@posteo.org> (2023-06-30)
-# Last rites dead packages for removal within 30 days.
-dev-haskell/conduit-connection
-dev-haskell/simpleirc
-dev-haskell/smtp-mail
-
-# Jack Todaro <solpeth@posteo.org> (2023-07-10)
-# No reverse dependencies left. Deprecated upstream.
-# Masked for removal.
-#
-# Removal: 2023-08-09.
-dev-haskell/aeson-compat
-
-# Jack Todaro <solpeth@posteo.org> (2023-06-30)
-# Last rites dead packages for removal within 30 days.
-dev-haskell/conduit-connection
-dev-haskell/simpleirc
-dev-haskell/smtp-mail
-
-# Jack Todaro <solpeth@posteo.org> (2023-07-03)
-# Masked for removal in 30 days. Dead package with reverse dependencies
-# in the process of migrating over to crypton-connection.
-#
-# ::gentoo only users will not be affected by this mask, whereas ::haskell
-# users will be. This is the intended behaviour.
-#
-# Removal: 2023-08-02.
-=dev-haskell/connection-0.3.1-r1
-
-# Jack Todaro <solpeth@posteo.org> (2023-06-30)
-# Last rites dead packages for removal within 30 days.
-dev-haskell/conduit-connection
-dev-haskell/simpleirc
-dev-haskell/smtp-mail
 
 # hololeap <hololeap@protonmail.com> (2023-03-01)
 # Not buildable on ghc-9.2
