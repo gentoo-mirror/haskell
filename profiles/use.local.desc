@@ -328,7 +328,6 @@ dev-haskell/retrie:executable - build the retrie executable
 dev-haskell/sample-frame:buildbenchmarks - Build benchmark executables
 dev-haskell/sandi:conduit - Build with conduit
 dev-haskell/sbv:skip-hlint-tester - Do not build the HLint tester
-dev-haskell/sdl2:examples - Build opengl-example
 dev-haskell/sdl2:no-linear - Do not depend on 'linear' library
 dev-haskell/semialign:semigroupoids - Build with semigroupoids dependency
 dev-haskell/semigroupoid-extras:profunctors - You can disable the use of the `profunctors` package using `-f-profunctors`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
