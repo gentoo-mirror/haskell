@@ -5,11 +5,8 @@
 		<email>haskell@gentoo.org</email>
 		<name>Gentoo Haskell</name>
 	</maintainer>
-	<use>
-		<flag name="no-linear">Do not depend on 'linear' library</flag>
-	</use>
 	<upstream>
-		<remote-id type="hackage">sdl2</remote-id>
-		<remote-id type="github">haskell-game/sdl2</remote-id>
+		<remote-id type="hackage">linux-inotify</remote-id>
+		<remote-id type="github">lpsmith/linux-inotify</remote-id>
 	</upstream>
 </pkgmetadata>
