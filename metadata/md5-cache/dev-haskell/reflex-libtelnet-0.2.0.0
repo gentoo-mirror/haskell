@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/dependent-map-0.3:=[profile?] <dev-haskell/dependent-map-0.5 >=dev-haskell/dependent-sum-0.6.2.0:=[profile?] <=dev-haskell/dependent-sum-0.8 >=dev-haskell/dependent-sum-template-0.1:=[profile?] =dev-haskell/libtelnet-0.1*:=[profile?] >=dev-haskell/reflex-0.5:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Reflex bindings for libtelnet
+EAPI=8
+HOMEPAGE=https://git.sr.ht/~jack/reflex-libtelnet
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=dev-haskell/dependent-map-0.3:=[profile?] <dev-haskell/dependent-map-0.5 >=dev-haskell/dependent-sum-0.6.2.0:=[profile?] <=dev-haskell/dependent-sum-0.8 >=dev-haskell/dependent-sum-template-0.1:=[profile?] =dev-haskell/libtelnet-0.1*:=[profile?] >=dev-haskell/reflex-0.5:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+SLOT=0/0.2.0.0
+SRC_URI=https://hackage.haskell.org/package/reflex-libtelnet-0.2.0.0/reflex-libtelnet-0.2.0.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_md5_=a129e9294be176a86ba2046d1d8e1c49

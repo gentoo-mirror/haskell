@@ -112,7 +112,6 @@ dev-haskell/focuslist:examples - Build the focuslist-readme example executable
 dev-haskell/foldable1-classes-compat:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/foundation:experimental - Enable building experimental features, known as highly unstable or without good support cross-platform
 dev-haskell/fourmolu:executable - Build the fourmolu executable
-dev-haskell/fourmolu:fixity-th - Parse the default fixity information via Template Haskell
 dev-haskell/fourmolu:internal-bundle-fixities - An internal ad-hoc flag that is enabled by default, Ormolu Live disables it due to missing WASM TH support.
 dev-haskell/freer-effects:pedantic - Pass additional warning flags and -Werror to GHC.
 dev-haskell/freer-effects:test-hlint - Enable test suite that checks sources using HLint.
@@ -176,7 +175,6 @@ dev-haskell/haskell-language-server:hls_plugins_module-name - Enable moduleName 
 dev-haskell/haskell-language-server:hls_plugins_overloaded-record-dot - Enable overloadedRecordDot plugin
 dev-haskell/haskell-language-server:hls_plugins_pragmas - Enable pragmas plugin
 dev-haskell/haskell-language-server:hls_plugins_qualify-imported-names - Enable qualifyImportedNames plugin
-dev-haskell/haskell-language-server:hls_plugins_refine-imports - Enable refineImports plugin
 dev-haskell/haskell-language-server:hls_plugins_rename - Enable rename plugin
 dev-haskell/haskell-language-server:hls_plugins_retrie - Enable retrie plugin
 dev-haskell/haskell-language-server:hls_plugins_splice - Enable splice plugin
@@ -236,6 +234,7 @@ dev-haskell/language-c-quote:full-haskell-antiquotes - Support full Haskell expr
 dev-haskell/language-dot:executable - Build the `ppdot' executable
 dev-haskell/ldap:buildtests - Build the executable to run unit tests.
 dev-haskell/libffi:ghc-bundled-libffi - When GHC is configured without @--with-system-libffi@, it will bundle its own copies of @libffi@, one of them statically linked and the other dynamically linked. This flag will force linking against the static copy of @libffi@ that GHC bundles. This avoids a GHC bug (https://gitlab.haskell.org/ghc/ghc/-/issues/15397) that can arise when the linker confuses the system's dynamic @libffi@ with GHC's own dynamic @libffi@. Note that this flag only works when GHC is configured without the @--with-system-libffi@ option. This is the case for most GHC binary distributions, such as those provided by @ghcup@. If you are using a GHC that was configured with @--with-system-libffi@, however, you will need to disable this option and link against the system's version of @libffi@ instead.
+dev-haskell/libtelnet:examples - Build the example program
 dev-haskell/libyaml:system-libyaml - Use the system-wide libyaml instead of the bundled copy
 dev-haskell/libyaml:unicode - Enable unicode output. Otherwise, unicode characters will be escaped.
 dev-haskell/linux-file-extents:examples - Build examples
@@ -321,6 +320,7 @@ dev-haskell/reactive-banana-wx:examples - Build example executables.
 dev-haskell/record-dot-preprocessor:executable - Build the record-dot-preprocessor executable
 dev-haskell/reflex:plugin - Use the GHC plugin Reflex.Optimizer on some of the modules in the package. This is still experimental.
 dev-haskell/reflex:template-haskell - Use template haskell to generate lenses
+dev-haskell/reflex-backend-socket:examples - Build example executables
 dev-haskell/rere:cfg - CFG functionality, adds dependency on fin and vec
 dev-haskell/rere:intersection - Add intersection constructor. EXPERIMENTAL
 dev-haskell/retrie:buildexecutable - build the retrie executable
