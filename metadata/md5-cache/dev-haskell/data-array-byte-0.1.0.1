@@ -1,5 +1,5 @@
 BDEPEND=app-text/dos2unix
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEFINED_PHASES=compile configure install postinst postrm prepare pretend setup test
 DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( >=dev-haskell/quickcheck-classes-base-0.6 <dev-haskell/quickcheck-classes-base-0.7 >=dev-haskell/tasty-1.4 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-quickcheck-0.10 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Compatibility layer for Data.Array.Byte
 EAPI=8
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.1.0.1
 SRC_URI=https://hackage.haskell.org/package/data-array-byte-0.1.0.1/data-array-byte-0.1.0.1.tar.gz https://hackage.haskell.org/package/data-array-byte-0.1.0.1/revision/1.cabal -> data-array-byte-0.1.0.1-rev1.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
-_md5_=c6ba989540740a7725b06bef3755681f
+_md5_=5c20e78c3294865772d20dad19bae654

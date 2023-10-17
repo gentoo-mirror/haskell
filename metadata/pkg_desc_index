@@ -250,7 +250,7 @@ dev-haskell/bytestring-strict-builder 0.4.5.6: An efficient strict bytestring bu
 dev-haskell/bytestring-to-vector 0.3.0.1: Convert between ByteString and Vector.Storable without copying
 dev-haskell/bytestring-trie 0.2.5.0: An efficient finite map from (byte)strings to values
 dev-haskell/bzlib 0.5.1.0: Compression and decompression in the bzip2 format
-dev-haskell/c2hs 0.28.8-r1: C->Haskell FFI tool that gives some cross-language type safety
+dev-haskell/c2hs 0.28.8-r2: C->Haskell FFI tool that gives some cross-language type safety
 dev-haskell/cabal 3.2.1.0-r2 3.4.1.0-r1 3.6.3.0 3.8.1.0 3.10.1.0: A framework for packaging Haskell software
 dev-haskell/cabal-described 3.8.1.0: Described functionality for types in Cabal
 dev-haskell/cabal-doctest 1.0.9: A Setup.hs helper for running doctests
