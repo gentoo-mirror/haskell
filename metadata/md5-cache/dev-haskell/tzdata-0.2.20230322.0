@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/vector-0.9:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( >=dev-haskell/hunit-1.2 <dev-haskell/hunit-1.7 dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-th ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Time zone database (as files and as a module)
+EAPI=8
+HOMEPAGE=https://github.com/ysangkok/haskell-tzdata
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=dev-haskell/vector-0.9:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.20230322.0
+SRC_URI=https://hackage.haskell.org/package/tzdata-0.2.20230322.0/tzdata-0.2.20230322.0.tar.gz https://hackage.haskell.org/package/tzdata-0.2.20230322.0/revision/2.cabal -> tzdata-0.2.20230322.0-rev2.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_md5_=38dcc4a5d92f26453c1d248df76754d9
