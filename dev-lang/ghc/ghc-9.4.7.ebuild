@@ -17,7 +17,7 @@ PYTHON_COMPAT=( python3_{9..12} )
 inherit python-any-r1
 inherit autotools bash-completion-r1 flag-o-matic ghc-package
 inherit multiprocessing pax-utils toolchain-funcs prefix
-inherit check-reqs llvm unpacker haskell-cabal
+inherit check-reqs llvm unpacker
 DESCRIPTION="The Glasgow Haskell Compiler"
 HOMEPAGE="https://www.haskell.org/ghc/"
 
@@ -532,7 +532,7 @@ src_prepare() {
 		if [[ ${CHOST} != *-darwin* && ${CHOST} != *-solaris* ]]; then
 			# Modify the wrapper script from the binary tarball to use GHC_PERSISTENT_FLAGS.
 			# See bug #313635.
-			sed -i -e "s|\"\$topdir\"|\"\$topdir\" ${GHC_PERSISTENT_FLAGS}|" \
+			sed -i -e "s|\"\$libdir\"|\"\$libdir\" ${GHC_PERSISTENT_FLAGS}|" \
 				"${WORKDIR}/usr/bin/ghc-${BIN_PV}"
 
 			# allow hardened users use vanilla binary to bootstrap ghc
@@ -542,14 +542,14 @@ src_prepare() {
 		fi
 
 		# Make GHC's settings file comply with user's settings
-        GHC_SETTINGS="${WORKDIR}/usr/$(get_libdir)/${PN}-${BIN_PV}/lib/settings"
-        sed -i "s/,(\"C compiler command\", \".*\")/,(\"C compiler command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
-        sed -i "s/,(\"C++ compiler command\", \".*\")/,(\"C++ compiler command\", \"$(tc-getCXX)\")/" "${GHC_SETTINGS}" || die
-        sed -i "s/,(\"Haskell CPP command\", \".*\")/,(\"Haskell CPP command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
-        sed -i "s/,(\"ld command\", \".*\")/,(\"ld command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
-        sed -i "s/,(\"Merge objects command\", \".*\")/,(\"Merge objects command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
-        sed -i "s/,(\"ar command\", \".*\")/,(\"ar command\", \"$(tc-getAR)\")/" "${GHC_SETTINGS}" || die
-        sed -i "s/,(\"ranlib command\", \".*\")/,(\"ranlib command\", \"$(tc-getRANLIB)\")/" "${GHC_SETTINGS}" || die
+		GHC_SETTINGS="${WORKDIR}/usr/$(get_libdir)/${PN}-${BIN_PV}/lib/settings"
+		sed -i "s/,(\"C compiler command\", \".*\")/,(\"C compiler command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}"
+		sed -i "s/,(\"C++ compiler command\", \".*\")/,(\"C++ compiler command\", \"$(tc-getCXX)\")/" "${GHC_SETTINGS}"
+		sed -i "s/,(\"Haskell CPP command\", \".*\")/,(\"Haskell CPP command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}"
+		sed -i "s/,(\"ld command\", \".*\")/,(\"ld command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}"
+		sed -i "s/,(\"Merge objects command\", \".*\")/,(\"Merge objects command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}"
+		sed -i "s/,(\"ar command\", \".*\")/,(\"ar command\", \"$(tc-getAR)\")/" "${GHC_SETTINGS}"
+		sed -i "s/,(\"ranlib command\", \".*\")/,(\"ranlib command\", \"$(tc-getRANLIB)\")/" "${GHC_SETTINGS}"
 	fi
 
 	use llvm && ! use ghcbootstrap && llvmize "${WORKDIR}/usr/bin"
@@ -661,6 +661,10 @@ src_prepare() {
 		#eapply "${FILESDIR}"/${PN}-9.0.2-llvm-13.patch
 		#eapply "${FILESDIR}"/${PN}-9.0.2-llvm-14.patch
 
+		# https://gitlab.haskell.org/ghc/ghc/-/issues/22954
+		# https://gitlab.haskell.org/ghc/ghc/-/issues/21936
+		eapply "${FILESDIR}"/${PN}-9.4.5-llvm-16.patch
+
 		# Fix issue caused by non-standard "musleabi" target in
 		# https://gitlab.haskell.org/ghc/ghc/-/blob/ghc-9.4.5-release/m4/ghc_llvm_target.m4#L39
 		eapply "${FILESDIR}"/${PN}-9.4.5-musl-target.patch
@@ -668,6 +672,9 @@ src_prepare() {
 		# a bunch of crosscompiler patches
 		# needs newer version:
 		#eapply "${FILESDIR}"/${PN}-8.2.1_rc1-hp2ps-cross.patch
+
+		# https://gitlab.haskell.org/ghc/ghc/-/issues/22965
+		#eapply "${FILESDIR}/${PN}-9.2.6-fix-alignment-of-capability.patch"
 
 		# FIXME: A hack that allows dev-python/sphinx-7 to build the docs
 		#
