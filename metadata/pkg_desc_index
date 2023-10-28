@@ -760,7 +760,7 @@ dev-haskell/gi-xlib 2.0.13: xlib bindings
 dev-haskell/ginger 0.10.4.0-r1: An implementation of the Jinja2 template language in Haskell
 dev-haskell/gio 0.13.10.0: Binding to GIO
 dev-haskell/git 0.3.0: Git operations in haskell
-dev-haskell/git-lfs 1.2.0-r1: git-lfs protocol
+dev-haskell/git-lfs 1.2.0-r1 1.2.1: git-lfs protocol
 dev-haskell/githash 0.1.6.3: Compile git revision info into Haskell projects
 dev-haskell/github 0.29: Access to the GitHub API, v3
 dev-haskell/gitrev 1.3.1-r1: Compile git revision info into Haskell projects
@@ -1857,7 +1857,7 @@ dev-haskell/sop-core 0.5.0.2: True Sums of Products
 dev-haskell/sorted-list 0.2.1.0: Type-enforced sorted lists and related functions
 dev-haskell/sourcemap 0.1.7: Implementation of source maps as proposed by Google and Mozilla
 dev-haskell/sox 0.2.3.2: Play, write, read, convert audio signals using Sox
-dev-haskell/spdx 1.0.0.3: SPDX license expression language, Extras
+dev-haskell/spdx 1.0.0.3-r1: SPDX license expression language, Extras
 dev-haskell/special-values 0.1.0.0-r1: Typeclass providing special values
 dev-haskell/speculation 1.5.0.3-r1: A framework for safe, programmable, speculative parallelism
 dev-haskell/sphinx 0.6.0.2: Haskell bindings to the Sphinx full-text searching daemon
