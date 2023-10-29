@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.0.12
 SRC_URI=https://hackage.haskell.org/package/ghc-paths-0.1.0.12/ghc-paths-0.1.0.12.tar.gz https://hackage.haskell.org/package/ghc-paths-0.1.0.12/revision/5.cabal -> ghc-paths-0.1.0.12-rev5.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=fd5a964571c995440a67588d64628033

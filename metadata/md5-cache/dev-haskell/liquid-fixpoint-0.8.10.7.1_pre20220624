@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/ansi-terminal:=[profile?] >=de
 RESTRICT=!test? ( test )
 SLOT=0/0.8.10.7.1_pre20220624
 SRC_URI=https://github.com/ucsd-progsys/liquid-fixpoint/archive/a63a20e8e73f2a3c214a874cc6b2da0f76a57318.tar.gz -> liquid-fixpoint-a63a20e8e73f2a3c214a874cc6b2da0f76a57318.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
 _md5_=f35341e292eac9ecae4e845500460e60

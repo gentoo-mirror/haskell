@@ -11,5 +11,5 @@ LICENSE=LGPL-3
 RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/composition:=[profile?] >=dev-haskell/env-locale-1.0.0.1:=[profile?] dev-haskell/formatting:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/netlink-1.1:=[profile?] dev-haskell/network:=[profile?] dev-haskell/old-locale:=[profile?] dev-haskell/old-time:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/statvfs:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers-compat:=[profile?] >=dev-lang/ghc-7.8.2:= ibus? ( dev-haskell/dbus:=[profile?] dev-haskell/ibus-hs:=[profile?] ) pulseaudio? ( >=dev-haskell/pulseaudio-0.0.2.0:=[profile?] <dev-haskell/pulseaudio-0.1.0.0:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/2.2.1.0
 SRC_URI=https://hackage.haskell.org/package/monky-2.2.1.0/monky-2.2.1.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=bbff82eb43dd9d9e70e0afe98726375d

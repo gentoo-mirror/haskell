@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-haskell/gi-gio-2.0:=[profile?] <dev-haskell/gi-gio-2.1:=[profile?] >=dev-haskell/gi-glib-2.0:=[profile?] <dev-haskell/gi-glib-2.1:=[profile?] >=dev-haskell/gi-gmodule-2.0:=[profile?] <dev-haskell/gi-gmodule-2.1:=[profile?] >=dev-haskell/gi-gobject-2.0:=[profile?] <dev-haskell/gi-gobject-2.1:=[profile?] >=dev-haskell/haskell-gi-0.26:=[profile?] <dev-haskell/haskell-gi-0.27:=[profile?] >=dev-haskell/haskell-gi-base-0.26:=[profile?] <dev-haskell/haskell-gi-base-0.27:=[profile?] <dev-haskell/haskell-gi-overloading-1.1:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-8.10.6:= x11-libs/gtk+:2 dev-lang/ghc:=[profile?]
 SLOT=0/2.0.31
 SRC_URI=https://hackage.haskell.org/package/gi-gdkpixbuf-2.0.31/gi-gdkpixbuf-2.0.31.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=c13efecf9d02521f377debfc7ce43e33

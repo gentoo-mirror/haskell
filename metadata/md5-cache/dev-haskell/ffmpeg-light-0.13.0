@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/either:=[profile?] dev-haskell/exceptions:=[profile?] >=dev-haskell/mtl-2.2.1:=[profile?] <dev-haskell/mtl-2.3:=[profile?] >=dev-haskell/vector-0.10.9:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-7.10.1:= media-video/ffmpeg buildrasterdemo? ( >=dev-haskell/juicypixels-3.2:=[profile?] <dev-haskell/juicypixels-3.4:=[profile?] >=dev-haskell/rasterific-0.3:=[profile?] ) !buildrasterdemo? ( >=dev-haskell/juicypixels-3.1:=[profile?] <dev-haskell/juicypixels-3.4:=[profile?] ) buildvplaydemo? ( dev-haskell/monad-loops:=[profile?] dev-haskell/sdl2:=[profile?] dev-haskell/text:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/0.13.0
 SRC_URI=https://hackage.haskell.org/package/ffmpeg-light-0.13.0/ffmpeg-light-0.13.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=ea8363cebffc74c5ae8559a6c79f5ecb

@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/aeson-0.9:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/data-default-class-0.0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-haskell/scotty-0.10:=[profile?] <dev-haskell/scotty-0.13:=[profile?] >=dev-haskell/text-0.11.3.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/unordered-containers-0.2.3:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.4.1
 SRC_URI=https://hackage.haskell.org/package/kansas-comet-0.4.1/kansas-comet-0.4.1.tar.gz https://hackage.haskell.org/package/kansas-comet-0.4.1/revision/7.cabal -> kansas-comet-0.4.1-rev7.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=e17bee70e17b00b54226b24b04d18081
