@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/syb:=[profile?] >=dev-haskell/th-abstraction-0.4.3:=[profile?] <dev-haskell/th-abstraction-0.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Expands type synonyms in Template Haskell ASTs
+EAPI=8
+HOMEPAGE=https://github.com/DanielSchuessler/th-expand-syns
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/syb:=[profile?] >=dev-haskell/th-abstraction-0.4.3:=[profile?] <dev-haskell/th-abstraction-0.7:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.4.11.0
+SRC_URI=https://hackage.haskell.org/package/th-expand-syns-0.4.11.0/th-expand-syns-0.4.11.0.tar.gz https://hackage.haskell.org/package/th-expand-syns-0.4.11.0/revision/2.cabal -> th-expand-syns-0.4.11.0-rev2.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_md5_=15b9053dc983c7a53b624049249c0998

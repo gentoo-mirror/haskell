@@ -2023,7 +2023,7 @@ dev-haskell/th-constraint-compat 0.0.1.0: Compatibility for type constraint temp
 dev-haskell/th-data-compat 0.1.0.0: Compatibility for data definition template of TH
 dev-haskell/th-desugar 1.12 1.13.1: Functions to desugar Template Haskell
 dev-haskell/th-env 0.1.1: Template Haskell splices that expand to an environment variable
-dev-haskell/th-expand-syns 0.4.9.0: Expands type synonyms in Template Haskell ASTs
+dev-haskell/th-expand-syns 0.4.11.0: Expands type synonyms in Template Haskell ASTs
 dev-haskell/th-extras 0.0.0.6: A grab bag of functions for use with Template Haskell
 dev-haskell/th-lift 0.8.4: Derive Template Haskell's Lift class for datatypes
 dev-haskell/th-lift-instances 0.1.20: Lift instances for template-haskell for common data types
