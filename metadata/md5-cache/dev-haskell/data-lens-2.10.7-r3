@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/comonad-4.0:=[profile?] >=dev-haskell/semigroupoids-4.0:=[profile?] >=dev-haskell/transformers-0.2.0:=[profile?] >=dev-haskell/transformers-compat-0.4:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/2.10.7
 SRC_URI=https://hackage.haskell.org/package/data-lens-2.10.7/data-lens-2.10.7.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
 _md5_=d720ccf8451351f0b4f73dff5030a933

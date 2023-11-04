@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.3
 SRC_URI=https://hackage.haskell.org/package/map-syntax-0.3/map-syntax-0.3.tar.gz https://hackage.haskell.org/package/map-syntax-0.3/revision/3.cabal -> map-syntax-0.3-r2.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
 _md5_=9bb23cb0c35efdc9b6603996f3c8e75c

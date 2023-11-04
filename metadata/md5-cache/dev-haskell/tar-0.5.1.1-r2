@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/0.5.1.1
 SRC_URI=https://hackage.haskell.org/package/tar-0.5.1.1/tar-0.5.1.1.tar.gz https://hackage.haskell.org/package/tar-0.5.1.1/revision/6.cabal -> tar-0.5.1.1-rev6.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
 _md5_=a049723f8c97781e23ce7c3646eaec96

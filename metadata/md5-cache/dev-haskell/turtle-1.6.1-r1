@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/ansi-wl-pprint-0.6:=[profile?] <dev-haskell/ansi-wl-pprint
 RESTRICT=!test? ( test )
 SLOT=0/1.6.1
 SRC_URI=https://hackage.haskell.org/package/turtle-1.6.1/turtle-1.6.1.tar.gz https://hackage.haskell.org/package/turtle-1.6.1/revision/5.cabal -> turtle-1.6.1-rev5.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
 _md5_=c2ff413b642439f2aae158d473dd75aa
