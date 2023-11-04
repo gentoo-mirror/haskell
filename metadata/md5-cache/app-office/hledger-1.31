@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/aeson-1:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=d
 RESTRICT=!test? ( test )
 SLOT=0/1.31
 SRC_URI=https://hackage.haskell.org/package/hledger-1.31/hledger-1.31.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=845de61214361879346dc0313bcbed04

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/juicypixels-3.2.8:=[profile?] <dev-haskell/juicypixels-3.4
 RESTRICT=!test? ( test )
 SLOT=0/0.1.0.3
 SRC_URI=https://hackage.haskell.org/package/JuicyPixels-blurhash-0.1.0.3/JuicyPixels-blurhash-0.1.0.3.tar.gz -> juicypixels-blurhash-0.1.0.3.tar.gz https://hackage.haskell.org/package/JuicyPixels-blurhash-0.1.0.3/revision/8.cabal -> juicypixels-blurhash-0.1.0.3-rev8.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	f935263f08aeaf95896fec8f25148fc0
 _md5_=613d9974ee07b5e0970657f10e02f17d
