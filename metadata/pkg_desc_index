@@ -251,12 +251,12 @@ dev-haskell/bytestring-to-vector 0.3.0.1: Convert between ByteString and Vector.
 dev-haskell/bytestring-trie 0.2.5.0: An efficient finite map from (byte)strings to values
 dev-haskell/bzlib 0.5.1.0: Compression and decompression in the bzip2 format
 dev-haskell/c2hs 0.28.8-r2: C->Haskell FFI tool that gives some cross-language type safety
-dev-haskell/cabal 3.2.1.0-r2 3.4.1.0-r1 3.6.3.0 3.8.1.0 3.10.1.0: A framework for packaging Haskell software
+dev-haskell/cabal 3.4.1.0-r1 3.6.3.0 3.8.1.0 3.10.1.0: A framework for packaging Haskell software
 dev-haskell/cabal-described 3.8.1.0: Described functionality for types in Cabal
 dev-haskell/cabal-doctest 1.0.9: A Setup.hs helper for running doctests
 dev-haskell/cabal-file-th 0.2.7: Template Haskell expressions for reading fields from a project's cabal file
 dev-haskell/cabal-fmt 0.1.6-r1: Format .cabal files
-dev-haskell/cabal-install 3.2.0.0-r3 3.4.1.0-r3 3.6.2.0-r1 3.8.1.0 3.10.1.0 9999: The command-line interface for Cabal and Hackage
+dev-haskell/cabal-install 3.4.1.0-r3 3.6.2.0-r1 3.8.1.0 3.10.1.0 9999: The command-line interface for Cabal and Hackage
 dev-haskell/cabal-install-parsers 0.6.1: Utilities to work with cabal-install files
 dev-haskell/cabal-install-solver 3.8.1.0 3.10.1.0: The command-line interface for Cabal and Hackage
 dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application bundles
@@ -700,7 +700,7 @@ dev-haskell/genvalidity-text 1.0.0.0: GenValidity support for Text
 dev-haskell/genvalidity-unordered-containers 1.0.0.0: GenValidity support for unordered-containers
 dev-haskell/genvalidity-vector 1.0.0.0: GenValidity support for vector
 dev-haskell/getopt-generics 0.13.0.4: Create command line interfaces with ease
-dev-haskell/ghc-api-compat 8.10.6 9.0.1: GHC-API compatibility helpers
+dev-haskell/ghc-api-compat 9.0.1: GHC-API compatibility helpers
 dev-haskell/ghc-byteorder 4.11.0.0.10: "GHC.ByteOrder" API Compatibility Layer
 dev-haskell/ghc-check 0.5.0.8-r1: detect mismatches between compile-time and run-time versions of the ghc api
 dev-haskell/ghc-core 0.5.6: Display GHC's core and assembly output in a pager
@@ -809,8 +809,8 @@ dev-haskell/gtk3 0.15.8: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
 dev-haskell/hackage-security 0.6.2.3-r2: Hackage security library
-dev-haskell/haddock 2.24.2 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
-dev-haskell/haddock-api 2.24.2 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
+dev-haskell/haddock 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
+dev-haskell/haddock-api 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0-r1: Library exposing some functionality of Haddock
 dev-haskell/hadrian 9.2.7 9.2.8 9.4.4 9.4.5 9.4.7 9.6.2 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
@@ -2306,7 +2306,7 @@ dev-lang/brainfuck 0.1.0.3: Brainfuck interpreter
 dev-lang/cryptol 2.6.0: Cryptol: The Language of Cryptography
 dev-lang/dhall 1.42.0: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
-dev-lang/ghc 8.10.6-r3 8.10.7-r2 9.0.2-r4 9.2.7-r1 9.2.8 9.4.4 9.4.5 9.4.7 9.6.2: The Glasgow Haskell Compiler
+dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.4 9.4.5 9.4.7 9.6.2: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
 dev-lang/prolog 0.3.2: A Prolog interpreter written in Haskell
