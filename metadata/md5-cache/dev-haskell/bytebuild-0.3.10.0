@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/byteslice-0.2.6:=[profile?] <dev-haskell/byteslice-0.3:=[p
 RESTRICT=!test? ( test )
 SLOT=0/0.3.10.0
 SRC_URI=https://hackage.haskell.org/package/bytebuild-0.3.10.0/bytebuild-0.3.10.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
 _md5_=12466e95c24e8a0ef4ab1a4b0a627664
