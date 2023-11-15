@@ -812,7 +812,7 @@ dev-haskell/hackage-security 0.6.2.3-r2: Hackage security library
 dev-haskell/haddock 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-api 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0-r1: Library exposing some functionality of Haddock
-dev-haskell/hadrian 9.2.7 9.2.8 9.4.4 9.4.5 9.4.7 9.4.8 9.6.2 9999: GHC build system
+dev-haskell/hadrian 9.2.7 9.2.8 9.4.4 9.4.5 9.4.7 9.4.8 9.6.2 9.6.3 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
 dev-haskell/hakyll 4.16.2.0: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
@@ -2306,7 +2306,7 @@ dev-lang/brainfuck 0.1.0.3: Brainfuck interpreter
 dev-lang/cryptol 2.6.0: Cryptol: The Language of Cryptography
 dev-lang/dhall 1.42.0: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
-dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.4 9.4.5 9.4.7 9.4.8 9.6.2: The Glasgow Haskell Compiler
+dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.4 9.4.5 9.4.7 9.4.8 9.6.2 9.6.3: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
 dev-lang/prolog 0.3.2: A Prolog interpreter written in Haskell
