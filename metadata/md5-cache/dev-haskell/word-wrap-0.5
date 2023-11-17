@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/text:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 test? ( >=dev-haskell/hspec-2.4 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/hspec-2.4 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A library for word-wrapping
 EAPI=8
 HOMEPAGE=https://github.com/jtdaugherty/word-wrap/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/text:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.4.1
-SRC_URI=https://hackage.haskell.org/package/word-wrap-0.4.1/word-wrap-0.4.1.tar.gz
+SLOT=0/0.5
+SRC_URI=https://hackage.haskell.org/package/word-wrap-0.5/word-wrap-0.5.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=2fa4cf8705c784809674e1d3a32577ee
+_md5_=cdb88bc0c61455248fe18e4a191279d3

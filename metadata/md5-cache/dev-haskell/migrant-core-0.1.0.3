@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/hunit-1.6.1.0 <dev-haskell/hunit-1.7 >=dev-haskell/quickcheck-2.14.2 <dev-haskell/quickcheck-2.15 >=dev-haskell/tasty-1.4 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.10.0.2 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10.1.1 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Semi-automatic database schema migrations
+EAPI=8
+HOMEPAGE=https://github.com/tdammers/migrant
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.0.3
+SRC_URI=https://hackage.haskell.org/package/migrant-core-0.1.0.3/migrant-core-0.1.0.3.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
+_md5_=eec27d864caaa8ef55de17068ec4d0b8
