@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">brick</remote-id>
-		<remote-id type="github">jtdaugherty/brick</remote-id>
+		<remote-id type="hackage">optparse-declarative</remote-id>
+		<remote-id type="github">tanakh/optparse-declarative</remote-id>
 	</upstream>
 </pkgmetadata>

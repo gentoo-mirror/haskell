@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">brick</remote-id>
-		<remote-id type="github">jtdaugherty/brick</remote-id>
+		<remote-id type="hackage">migrant-sqlite-simple</remote-id>
+		<remote-id type="github">tdammers/migrant</remote-id>
 	</upstream>
 </pkgmetadata>
