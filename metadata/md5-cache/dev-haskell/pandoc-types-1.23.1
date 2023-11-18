@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-0.6.2:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/quickcheck-2.10:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/hunit-1.2 <dev-haskell/hunit-1.7 >=dev-haskell/test-framework-0.3 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.2 <dev-haskell/test-framework-hunit-0.4 >=dev-haskell/test-framework-quickcheck2-0.2.9 <dev-haskell/test-framework-quickcheck2-0.4 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-0.6.2:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/quickcheck-2.10:=[profile?] <dev-haskell/quickcheck-2.15:=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/hunit-1.2 <dev-haskell/hunit-1.7 >=dev-haskell/test-framework-0.3 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.2 <dev-haskell/test-framework-hunit-0.4 >=dev-haskell/test-framework-quickcheck2-0.2.9 <dev-haskell/test-framework-quickcheck2-0.4 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Types for representing a structured document
 EAPI=8
 HOMEPAGE=https://pandoc.org/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/aeson-0.6.2:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/quickcheck-2.10:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/aeson-0.6.2:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/quickcheck-2.10:=[profile?] <dev-haskell/quickcheck-2.15:=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.23.1
 SRC_URI=https://hackage.haskell.org/package/pandoc-types-1.23.1/pandoc-types-1.23.1.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=d6e8fb092d49e8a489fe7604048d9449
+_md5_=b874bcdacd17a84e0858bdcc33b69642

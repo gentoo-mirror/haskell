@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/quickcheck-2.8:2=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/quickcheck-2.8:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=High performance, regular, shape polymorphic parallel arrays
 EAPI=7
 HOMEPAGE=http://repa.ouroborus.net
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/quickcheck-2.8:2=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/quickcheck-2.8:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.13:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/3.4.1.4
 SRC_URI=https://hackage.haskell.org/package/repa-3.4.1.4/repa-3.4.1.4.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=2d094f3066b3f1b631106e4a38919f1d
+_md5_=f58b5b26d53cbbe28af9ade9ee4f2a35

@@ -1,15 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/cabal-3.2:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:2= <dev-haskell/quickcheck-2.15:2= ) >=dev-haskell/cabal-2.2.0.1
+DEPEND=>=dev-haskell/cabal-3.2:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= ) >=dev-haskell/cabal-2.2.0.1
 DESCRIPTION=GHC build system
 EAPI=8
 HOMEPAGE=https://gitlab.haskell.org/ghc/ghc/-/tree/master/hadrian#readme
 INHERIT=haskell-cabal
 IUSE=static test +threaded
 LICENSE=BSD
-RDEPEND=>=dev-haskell/cabal-3.2:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:2= <dev-haskell/quickcheck-2.15:2= )
+RDEPEND=>=dev-haskell/cabal-3.2:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://downloads.haskell.org/ghc/9.4.7/ghc-9.4.7-src.tar.xz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=d4cb74b00246eb38e984d799bbf1e781
+_md5_=c61454f0b5a4763cb22a98b4a87bfa46

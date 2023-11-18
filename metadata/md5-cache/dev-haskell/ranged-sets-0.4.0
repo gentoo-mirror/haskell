@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/hunit:=[profile?] >=dev-haskell/quickcheck-2:2=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/hunit:=[profile?] >=dev-haskell/quickcheck-2:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Ranged sets for Haskell
 EAPI=7
 HOMEPAGE=https://github.com/PaulJohnson/Ranged-sets
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-haskell/hunit:=[profile?] >=dev-haskell/quickcheck-2:2=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/hunit:=[profile?] >=dev-haskell/quickcheck-2:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.0
 SRC_URI=https://hackage.haskell.org/package/Ranged-sets-0.4.0/Ranged-sets-0.4.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=84075c9265526efa78a50b91473a0f43
+_md5_=1317c7951b3c4fe9b60bad52d99f08d3

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/fgl-5.5.2.0:=[profile?] <dev-haskell/fgl-6:=[profile?] >=dev-haskell/quickcheck-2.3:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( >=dev-haskell/hspec-2.1 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/fgl-5.5.2.0:=[profile?] <dev-haskell/fgl-6:=[profile?] >=dev-haskell/quickcheck-2.3:=[profile?] <dev-haskell/quickcheck-2.15:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( >=dev-haskell/hspec-2.1 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=QuickCheck support for fgl
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/fgl-arbitrary
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/fgl-5.5.2.0:=[profile?] <dev-haskell/fgl-6:=[profile?] >=dev-haskell/quickcheck-2.3:2=[profile?] <dev-haskell/quickcheck-2.15:2=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/fgl-5.5.2.0:=[profile?] <dev-haskell/fgl-6:=[profile?] >=dev-haskell/quickcheck-2.3:=[profile?] <dev-haskell/quickcheck-2.15:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.0.6
 SRC_URI=https://hackage.haskell.org/package/fgl-arbitrary-0.2.0.6/fgl-arbitrary-0.2.0.6.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=48b103de4c7982e4c50ca67d6fbd8e22
+_md5_=d808b8345f19040e7df4a0bef479ceec

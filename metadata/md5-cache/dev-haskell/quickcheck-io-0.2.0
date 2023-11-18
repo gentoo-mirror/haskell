@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/hunit-1.2.5:=[profile?] >=dev-haskell/quickcheck-2.7:2=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/hunit-1.2.5:=[profile?] >=dev-haskell/quickcheck-2.7:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Use HUnit assertions as QuickCheck properties
 EAPI=8
 HOMEPAGE=https://github.com/hspec/quickcheck-io#readme
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/hunit-1.2.5:=[profile?] >=dev-haskell/quickcheck-2.7:2=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/hunit-1.2.5:=[profile?] >=dev-haskell/quickcheck-2.7:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.2.0
 SRC_URI=https://hackage.haskell.org/package/quickcheck-io-0.2.0/quickcheck-io-0.2.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=d08f8b133c7a11d94d65d4726124bc7d
+_md5_=5cc606657c56a5658936173603a06c0e

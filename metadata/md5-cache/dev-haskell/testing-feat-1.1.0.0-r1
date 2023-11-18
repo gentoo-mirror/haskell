@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>dev-haskell/quickcheck-2:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] <dev-haskell/size-based-0.2:=[profile?] <dev-haskell/testing-type-modifiers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=>dev-haskell/quickcheck-2:=[profile?] <dev-haskell/quickcheck-3:=[profile?] <dev-haskell/size-based-0.2:=[profile?] <dev-haskell/testing-type-modifiers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Functional Enumeration of Algebraic Types
 EAPI=8
 HOMEPAGE=https://github.com/JonasDuregard/testing-feat
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>dev-haskell/quickcheck-2:2=[profile?] <dev-haskell/quickcheck-3:2=[profile?] <dev-haskell/size-based-0.2:=[profile?] <dev-haskell/testing-type-modifiers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>dev-haskell/quickcheck-2:=[profile?] <dev-haskell/quickcheck-3:=[profile?] <dev-haskell/size-based-0.2:=[profile?] <dev-haskell/testing-type-modifiers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.1.0.0
 SRC_URI=https://hackage.haskell.org/package/testing-feat-1.1.0.0/testing-feat-1.1.0.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
-_md5_=06276b4168c03a3c485dd300ef2df80e
+_md5_=78e4bd9011ce46a5c9bca27b340510de
