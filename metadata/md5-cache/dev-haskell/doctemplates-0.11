@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/doclayout-0.4:=[profile?] <d
 RESTRICT=!test? ( test )
 SLOT=0/0.11
 SRC_URI=https://hackage.haskell.org/package/doctemplates-0.11/doctemplates-0.11.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=74a2588283792a37b9b68c2e2cdc770b

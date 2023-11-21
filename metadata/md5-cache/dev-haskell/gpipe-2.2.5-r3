@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/boolean-0.2:=[profile?] <dev-haskell/boolean-0.3:=[profile?] >=dev-haskell/exception-transformers-0.3:=[profile?] <dev-haskell/exception-transformers-0.5:=[profile?] >=dev-haskell/gl-0.8:=[profile?] >=dev-haskell/hashtables-1.2:=[profile?] >=dev-haskell/linear-1.18:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/2.2.5
 SRC_URI=https://hackage.haskell.org/package/GPipe-2.2.5/GPipe-2.2.5.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=599efc323d959bb3d5d0e8c6ea0647f2

@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/base64-string:=[profile?] >=dev-haskell/cryptohash-0.6:=[profile?] >=dev-haskell/fail-4.9.0.0:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/mime-mail-0.4.7:=[profile?] <dev-haskell/mime-mail-0.6:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/old-time:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-7.8.2:= >=dev-haskell/network-2.7:=[profile?] <dev-haskell/network-3.2:=[profile?] >=dev-haskell/network-bsd-2.7:=[profile?] <dev-haskell/network-bsd-2.9:=[profile?] dev-lang/ghc:=[profile?]
 SLOT=0/0.5.2
 SRC_URI=https://hackage.haskell.org/package/HaskellNet-0.5.2/HaskellNet-0.5.2.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=1b59b0c74a212fdcc4e8da66bf717581

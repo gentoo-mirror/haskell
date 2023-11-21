@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/hashable-1.1:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/g
 RESTRICT=!test? ( test )
 SLOT=0/0.1.8
 SRC_URI=https://hackage.haskell.org/package/concurrent-supply-0.1.8/concurrent-supply-0.1.8.tar.gz https://hackage.haskell.org/package/concurrent-supply-0.1.8/revision/1.cabal -> concurrent-supply-0.1.8-rev1.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	19ffeaf25de726558ac578bd7c92b372
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=480b6ca44dee1f4b31674930838e4d04
