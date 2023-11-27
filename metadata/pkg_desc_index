@@ -567,7 +567,7 @@ dev-haskell/edit-distance-vector 1.0.0.4: Calculate edit distances and edit scri
 dev-haskell/editline 0.2.1.1-r1: Bindings to the editline library (libedit)
 dev-haskell/editor-open 0.6.0.0: Open the user's $VISUAL or $EDITOR for text input
 dev-haskell/egison 3.10.3: Programming language with non-linear pattern-matching against non-free data
-dev-haskell/either 5.0.1.1: An either monad transformer
+dev-haskell/either 5.0.1.1 5.0.2: Combinators for working with sums
 dev-haskell/either-unwrap 1.1-r1: Functions for probing and unwrapping values inside of Either
 dev-haskell/email-validate 2.3.2.19: Email address validation
 dev-haskell/emoji 0.1.0.2: emoji utility
