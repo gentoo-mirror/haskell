@@ -10,11 +10,11 @@ app-emacs/haskell-mode 16.1-r1 17.4 9999: Mode for editing (and running) Haskell
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
 app-misc/brick-trading-journal 0.1.2.1: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
-app-office/hledger 1.31: Command-line interface for the hledger accounting system
-app-office/hledger-iadd 1.3.19: A terminal UI as drop-in replacement for hledger add
-app-office/hledger-interest 1.6.6: computes interest for a given account
-app-office/hledger-ui 1.31: Curses-style terminal interface for the hledger accounting system
-app-office/hledger-web 1.31: Web-based user interface for the hledger accounting system
+app-office/hledger 1.32.1: Command-line interface for the hledger accounting system
+app-office/hledger-iadd 1.3.19-r1: A terminal UI as drop-in replacement for hledger add
+app-office/hledger-interest 1.6.6-r1: computes interest for a given account
+app-office/hledger-ui 1.32.1: Terminal interface for the hledger accounting system
+app-office/hledger-web 1.32.1: Web user interface for the hledger accounting system
 app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.8.3.0 0.8.4.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
@@ -914,7 +914,7 @@ dev-haskell/hit 0.7.0: Git operations in haskell
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
 dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
-dev-haskell/hledger-lib 1.31: A reusable library providing the core functionality of hledger
+dev-haskell/hledger-lib 1.32.1: A library providing the core functionality of hledger
 dev-haskell/hlibev 0.4.0: FFI interface to libev
 dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
 dev-haskell/hlibsass 0.1.10.1: Low-level bindings to Libsass
@@ -1071,7 +1071,7 @@ dev-haskell/http-media 0.8.0.0: Processing HTTP Content-Type and Accept headers
 dev-haskell/http-querystring 1.0: The HTTP query builder
 dev-haskell/http-reverse-proxy 0.6.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
 dev-haskell/http-streams 0.8.9.6: An HTTP client using io-streams
-dev-haskell/http-types 0.12.3: Generic HTTP types for Haskell (for both client and server code)
+dev-haskell/http-types 0.12.4: Generic HTTP types for Haskell (for both client and server code)
 dev-haskell/http2 4.1.2: HTTP/2 library
 dev-haskell/httpd-shed 0.4.1.1-r1: A simple web-server with an interact style API
 dev-haskell/huffman 1.0.1: Pure Haskell implementation of the Huffman encoding algorithm
@@ -1145,7 +1145,7 @@ dev-haskell/ipv6addr 2.0.5.1: Library to deal with IPv6 address text representat
 dev-haskell/ipynb 0.2: Data structure for working with Jupyter notebooks (ipynb)
 dev-haskell/ipython-kernel 0.10.2.1: A library for creating kernels for IPython frontends
 dev-haskell/irc 0.6.1.0-r1: A small library for parsing IRC messages
-dev-haskell/irc-core 2.11: IRC core library for glirc
+dev-haskell/irc-core 2.11 2.12: IRC core library for glirc
 dev-haskell/ireal 0.2.3-r1: Real numbers and intervals with relatively efficient exact arithmetic
 dev-haskell/iso-deriving 0.0.8: Deriving via arbitrary isomorphisms
 dev-haskell/iso3166-country-codes 0.20140203.8: A datatype for ISO 3166 country codes
@@ -1528,16 +1528,16 @@ dev-haskell/pdfinfo 1.5.4: Wrapper around the pdfinfo command
 dev-haskell/pem 0.2.4: Privacy Enhanced Mail (PEM) format reader and writer
 dev-haskell/persistable-record 0.6.0.4: Binding between SQL database values and haskell records
 dev-haskell/persistable-types-hdbc-pg 0.0.3.5: HDBC and Relational-Record instances of PostgreSQL extended types
-dev-haskell/persistent 2.14.5.1: Type-safe, multi-backend data serialization
+dev-haskell/persistent 2.14.6.0: Type-safe, multi-backend data serialization
 dev-haskell/persistent-instances-iproute 0.1.0.1-r1: Persistent instances for types in iproute
 dev-haskell/persistent-mongodb 2.13.0.1-r1: Backend for the persistent library using mongoDB
-dev-haskell/persistent-mysql 2.13.1.4: Backend for the persistent library using MySQL database server
+dev-haskell/persistent-mysql 2.13.1.5: Backend for the persistent library using MySQL database server
 dev-haskell/persistent-odbc 0.2.1.1: Backend for the persistent library using ODBC
-dev-haskell/persistent-postgresql 2.13.5.2: Backend for the persistent library using postgresql
-dev-haskell/persistent-qq 2.12.0.5: Provides a quasi-quoter for raw SQL for persistent
+dev-haskell/persistent-postgresql 2.13.6.1: Backend for the persistent library using postgresql
+dev-haskell/persistent-qq 2.12.0.6: Provides a quasi-quoter for raw SQL for persistent
 dev-haskell/persistent-redis 2.13.0.1: Backend for persistent library using Redis
 dev-haskell/persistent-relational-record 0.3.0: relational-record on persistent backends
-dev-haskell/persistent-sqlite 2.13.1.1: Backend for the persistent library using sqlite3
+dev-haskell/persistent-sqlite 2.13.3.0: Backend for the persistent library using sqlite3
 dev-haskell/persistent-template 2.12.0.0: Type-safe, non-relational, multi-backend persistence
 dev-haskell/persistent-test 2.13.1.3: Tests for Persistent
 dev-haskell/pgm 0.1.4-r1: Pure Haskell implementation of PGM image format
@@ -1835,8 +1835,8 @@ dev-haskell/singletons-base 3.0 3.1: A promoted and singled version of the base 
 dev-haskell/singletons-th 3.0 3.1: A framework for generating singleton types
 dev-haskell/size-based 0.1.2.0-r1: Sized functors, for size-based enumerations
 dev-haskell/skein 1.0.9.4: Skein, a family of cryptographic hash functions. Includes Skein-MAC as well
-dev-haskell/skylighting 0.14: syntax highlighting library
-dev-haskell/skylighting-core 0.14: syntax highlighting library
+dev-haskell/skylighting 0.14.1: syntax highlighting library
+dev-haskell/skylighting-core 0.14.1: syntax highlighting library
 dev-haskell/skylighting-format-ansi 0.1: ANSI formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-blaze-html 0.1.1.1: HTML formatter for skylighting syntax highlighting library
 dev-haskell/skylighting-format-context 0.1.0.1: ConTeXt formatter for skylighting syntax highlighting library
@@ -2119,7 +2119,7 @@ dev-haskell/units-parser 0.1.1.4: A parser for units of measure
 dev-haskell/universe-base 1.1.3.1: A class for finite and recursively enumerable types
 dev-haskell/universe-reverse-instances 1.1.1: Instances of standard classes that are made possible by enumerations
 dev-haskell/unix-bytestring 0.3.7.3: Unix/Posix-specific functions for ByteStrings
-dev-haskell/unix-compat 0.7: Portable POSIX-compatibility layer
+dev-haskell/unix-compat 0.7.1: Portable POSIX-compatibility layer
 dev-haskell/unix-memory 0.1.2-r1: Unix memory syscalls
 dev-haskell/unix-time 0.4.10: Unix time parser/formatter and utilities
 dev-haskell/unixutils 1.54.2-r1: A crude interface between Haskell and Unix-like operating systems

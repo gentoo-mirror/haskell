@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/haskell-src-meta:=[profile?] >=dev-haskell/persistent-2.12:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/aeson dev-haskell/fast-logger dev-haskell/hspec dev-haskell/hunit dev-haskell/monad-logger >=dev-haskell/persistent-2.14 dev-haskell/persistent-sqlite dev-haskell/resourcet dev-haskell/unliftio ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Provides a quasi-quoter for raw SQL for persistent
+EAPI=8
+HOMEPAGE=https://github.com/yesodweb/persistent#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/haskell-src-meta:=[profile?] >=dev-haskell/persistent-2.12:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/2.12.0.6
+SRC_URI=https://hackage.haskell.org/package/persistent-qq-2.12.0.6/persistent-qq-2.12.0.6.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_md5_=d79b558abe44a5334adc97c94e0ad623
