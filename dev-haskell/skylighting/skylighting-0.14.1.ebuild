@@ -17,7 +17,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="executable"
 
-RDEPEND="~dev-haskell/skylighting-core-0.14:=[profile?]
+RDEPEND="~dev-haskell/skylighting-core-0.14.1:=[profile?]
 	>=dev-haskell/skylighting-format-ansi-0.1:=[profile?] <dev-haskell/skylighting-format-ansi-0.2:=[profile?]
 	>=dev-haskell/skylighting-format-blaze-html-0.1:=[profile?] <dev-haskell/skylighting-format-blaze-html-0.2:=[profile?]
 	>=dev-haskell/skylighting-format-context-0.1:=[profile?] <dev-haskell/skylighting-format-context-0.2:=[profile?]

@@ -18,10 +18,10 @@ KEYWORDS="~amd64"
 RDEPEND="dev-haskell/haskell-src-meta:=[profile?]
 	>=dev-haskell/persistent-2.12:=[profile?]
 	dev-haskell/text:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( dev-haskell/aeson
 		dev-haskell/fast-logger
 		dev-haskell/hspec

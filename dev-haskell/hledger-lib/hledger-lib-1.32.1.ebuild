@@ -9,7 +9,7 @@ EAPI=8
 CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 inherit haskell-cabal
 
-DESCRIPTION="A reusable library providing the core functionality of hledger"
+DESCRIPTION="A library providing the core functionality of hledger"
 HOMEPAGE="https://hledger.org"
 
 LICENSE="GPL-3"
@@ -47,7 +47,7 @@ RDEPEND=">=dev-haskell/aeson-1:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/tasty-1.2.3:=[profile?]
 	>=dev-haskell/tasty-hunit-0.10.0.2:=[profile?]
 	>=dev-haskell/terminal-size-0.3.3:=[profile?]
-	>=dev-haskell/text-1.2:=[profile?]
+	>=dev-haskell/text-1.2.4.1:=[profile?]
 	>=dev-haskell/text-ansi-0.2.1:=[profile?]
 	dev-haskell/timeit:=[profile?]
 	dev-haskell/uglymemo:=[profile?]

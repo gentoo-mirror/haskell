@@ -23,18 +23,18 @@ RDEPEND=">=dev-haskell/aeson-1.0:=[profile?]
 	>=dev-haskell/conduit-1.2.12:=[profile?]
 	>=dev-haskell/monad-logger-0.3.25:=[profile?]
 	>=dev-haskell/persistent-2.13.3:=[profile?] <dev-haskell/persistent-3:=[profile?]
-	>=dev-haskell/postgresql-libpq-0.9.4.2:=[profile?] <dev-haskell/postgresql-libpq-0.10:=[profile?]
-	>=dev-haskell/postgresql-simple-0.6.1:=[profile?] <dev-haskell/postgresql-simple-0.7:=[profile?]
+	>=dev-haskell/postgresql-libpq-0.9.4.2:=[profile?] <dev-haskell/postgresql-libpq-0.11:=[profile?]
+	>=dev-haskell/postgresql-simple-0.6.1:=[profile?] <dev-haskell/postgresql-simple-0.8:=[profile?]
 	dev-haskell/resource-pool:=[profile?]
 	>=dev-haskell/resourcet-1.1.9:=[profile?]
 	dev-haskell/string-conversions:=[profile?]
 	>=dev-haskell/text-1.2:=[profile?]
 	dev-haskell/unliftio-core:=[profile?]
 	dev-haskell/vault:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( dev-haskell/fast-logger
 		>=dev-haskell/hspec-2.4
 		dev-haskell/hspec-expectations

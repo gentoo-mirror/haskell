@@ -28,10 +28,10 @@ RDEPEND=">=dev-haskell/aeson-1.0:=[profile?]
 	>=dev-haskell/resourcet-1.1:=[profile?]
 	>=dev-haskell/text-1.2:=[profile?]
 	dev-haskell/unliftio-core:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
+	>=dev-haskell/cabal-3.2.1.0
 	test? ( dev-haskell/fast-logger
 		>=dev-haskell/hspec-2.4
 		dev-haskell/http-api-data

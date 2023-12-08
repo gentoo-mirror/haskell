@@ -9,7 +9,7 @@ EAPI=8
 CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 inherit ghc-package haskell-cabal
 
-DESCRIPTION="Web-based user interface for the hledger accounting system"
+DESCRIPTION="Web user interface for the hledger accounting system"
 HOMEPAGE="https://hledger.org"
 
 LICENSE="GPL-3"
@@ -17,7 +17,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="library-only"
 
-RDEPEND=">=app-office/hledger-1.31:=[profile?] <app-office/hledger-1.32:=[profile?]
+RDEPEND=">=app-office/hledger-1.32.1:=[profile?] <app-office/hledger-1.33:=[profile?]
 	>=dev-haskell/aeson-1:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	dev-haskell/base64:=[profile?]
 	dev-haskell/blaze-html:=[profile?]
@@ -31,15 +31,16 @@ RDEPEND=">=app-office/hledger-1.31:=[profile?] <app-office/hledger-1.32:=[profil
 	>=dev-haskell/decimal-0.5.1:=[profile?]
 	>=dev-haskell/extra-1.6.3:=[profile?]
 	dev-haskell/hjsmin:=[profile?]
-	>=dev-haskell/hledger-lib-1.31:=[profile?] <dev-haskell/hledger-lib-1.32:=[profile?]
+	>=dev-haskell/hledger-lib-1.32.1:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
 	dev-haskell/hspec:=[profile?]
 	dev-haskell/http-client:=[profile?]
 	dev-haskell/http-conduit:=[profile?]
 	dev-haskell/http-types:=[profile?]
 	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.6:=[profile?]
 	dev-haskell/network:=[profile?]
+	>=dev-haskell/safe-0.3.19:=[profile?]
 	>=dev-haskell/shakespeare-2.0.2.2:=[profile?]
-	>=dev-haskell/text-1.2:=[profile?]
+	>=dev-haskell/text-1.2.4.1:=[profile?]
 	dev-haskell/unix-compat:=[profile?]
 	dev-haskell/unordered-containers:=[profile?]
 	dev-haskell/utf8-string:=[profile?]

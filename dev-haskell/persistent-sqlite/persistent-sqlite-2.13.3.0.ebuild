@@ -28,13 +28,12 @@ RDEPEND=">=dev-db/sqlite-3.0
 	>=dev-haskell/text-1.2:=[profile?]
 	dev-haskell/unliftio-core:=[profile?]
 	dev-haskell/unordered-containers:=[profile?]
-	>=dev-lang/ghc-8.8.1:=
+	>=dev-lang/ghc-8.10.6:=
 	virtual/libc
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.0.0.0
-	test? ( dev-haskell/exceptions
-		dev-haskell/fast-logger
+	>=dev-haskell/cabal-3.2.1.0
+	test? ( dev-haskell/fast-logger
 		>=dev-haskell/hspec-2.4
 		dev-haskell/hunit
 		dev-haskell/microlens
