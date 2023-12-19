@@ -1473,7 +1473,7 @@ dev-haskell/openglraw 3.3.4.1: A raw binding for the OpenGL graphics system
 dev-haskell/openssl-streams 1.2.3.0: OpenSSL network support for io-streams
 dev-haskell/opentelemetry 0.8.0: The OpenTelemetry Haskell Client https://opentelemetry.io
 dev-haskell/operational 0.2.4.1: Implementation of difficult monads made easy with operational semantics
-dev-haskell/optics 0.4.2: Optics as an abstract interface
+dev-haskell/optics 0.4.2.1: Optics as an abstract interface
 dev-haskell/optics-core 0.4.1.1: Optics as an abstract interface: core definitions
 dev-haskell/optics-extra 0.4.2.1: Extra utilities and instances for optics-core
 dev-haskell/optics-th 0.4.1: Optics construction using TemplateHaskell
