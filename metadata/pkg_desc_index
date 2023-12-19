@@ -1487,7 +1487,7 @@ dev-haskell/ordered-containers 0.2.3: Set- and Map-like types that remember the 
 dev-haskell/ormolu 0.7.2.0: A formatter for Haskell source code
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
-dev-haskell/pandoc 3.1.8: Conversion between markup formats
+dev-haskell/pandoc 3.1.8-r1: Conversion between markup formats
 dev-haskell/pandoc-crossref 0.3.17.0: Pandoc filter for cross-references
 dev-haskell/pandoc-lua-engine 0.2.1.2: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.2: Use pandoc types in Lua
