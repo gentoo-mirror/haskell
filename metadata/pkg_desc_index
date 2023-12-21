@@ -112,7 +112,7 @@ dev-haskell/appar 0.1.8: A simple applicative parser
 dev-haskell/applicative-numbers 0.1.3: Applicative-based numeric instances
 dev-haskell/apply-refact 0.9.3.0-r1 0.12.0.0: Perform refactorings specified by the refact library
 dev-haskell/argparser 0.3.4: Command line parsing framework for console applications
-dev-haskell/arithmoi 0.12.0.0: Efficient basic number-theoretic functions
+dev-haskell/arithmoi 0.12.0.0 0.13.0.0: Efficient basic number-theoretic functions
 dev-haskell/arrows 0.4.4.2: Arrow classes and transformers
 dev-haskell/ascii-progress 0.3.3.0-r1: A simple progress bar for the console
 dev-haskell/asn1-encoding 0.9.6: ASN1 data reader and writer in RAW, BER and DER forms
@@ -302,7 +302,7 @@ dev-haskell/cheapskate 0.1.1.2: Experimental markdown processor
 dev-haskell/checkers 0.5.6-r1: Check properties on standard classes and data structures
 dev-haskell/chell 0.5.0.2: A simple and intuitive library for automated testing
 dev-haskell/chell-quickcheck 0.2.5.3: QuickCheck support for the Chell testing library
-dev-haskell/chimera 0.3.1.0: Lazy infinite streams with O(1) indexing
+dev-haskell/chimera 0.3.1.0 0.3.3.0: Lazy infinite streams with O(1) indexing and applications for memoization
 dev-haskell/chr-data 0.1.0.1: Datatypes required for chr library
 dev-haskell/chr-parse 0.1.0.0: Parsing for chr library
 dev-haskell/chr-pretty 0.1.0.0: Pretty printing for chr library
@@ -585,7 +585,7 @@ dev-haskell/errors 2.3.0-r1: Simplified error-handling
 dev-haskell/esqueleto 3.5.10.2: Type-safe EDSL for SQL queries on persistent backends
 dev-haskell/etherbunny 0.3-r1: A network analysis toolkit for Haskell
 dev-haskell/event-list 0.1.2: Event lists with relative or absolute time stamps
-dev-haskell/exact-pi 0.5.0.1: Exact rational multiples of pi (and integer powers of pi)
+dev-haskell/exact-pi 0.5.0.1 0.5.0.2: Exact rational multiples of pi (and integer powers of pi)
 dev-haskell/exception-mtl 0.4.0.1: Exception monad transformer instances for mtl classes
 dev-haskell/exception-transformers 0.4.0.11: Type classes and monads for unchecked extensible exceptions
 dev-haskell/exceptions 0.10.4-r3 0.10.5 0.10.7: Extensible optionally-pure exceptions
@@ -1126,7 +1126,7 @@ dev-haskell/inline-c-cpp 0.2.1.0: Lets you embed C++ code into Haskell
 dev-haskell/insert-ordered-containers 0.2.5.3: Associative containers retaining insertion order for traversals
 dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
 dev-haskell/integer-logarithms 1.0.3.1-r2: Integer logarithms
-dev-haskell/integer-roots 1.0: Integer roots and perfect powers
+dev-haskell/integer-roots 1.0 1.0.2.0: Integer roots and perfect powers
 dev-haskell/integration 0.2.1-r1: Fast robust numeric integration via tanh-sinh quadrature
 dev-haskell/interlude 0.1.2-r1: Replaces some Prelude functions for enhanced error reporting
 dev-haskell/intern 0.9.4-r1: Efficient hash-consing for arbitrary data types
