@@ -1118,6 +1118,7 @@ dev-haskell/indexed-profunctors 0.1.1: Utilities for indexed profunctors
 dev-haskell/indexed-traversable 0.1.2.1: FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 dev-haskell/indexed-traversable-instances 0.1.1.2: More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 dev-haskell/infer-license 0.2.0: Infer software license from a given license file
+dev-haskell/infinite-list 0.1: Infinite lists
 dev-haskell/inflections 0.4.0.6-r1: Inflections library for Haskell
 dev-haskell/influxdb 1.9.3: InfluxDB client library for Haskell
 dev-haskell/ini 0.4.1-r1: Quick and easy configuration files in the INI format
