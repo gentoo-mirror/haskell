@@ -2167,7 +2167,7 @@ dev-haskell/vcswrapper 0.1.6: Wrapper for source code management systems
 dev-haskell/vec 0.4.1-r1: Vec: length-indexed (sized) list
 dev-haskell/vect 0.4.7: A low-dimensional linear algebra library, tailored to computer graphics
 dev-haskell/vector 0.12.3.1-r1: Efficient Arrays
-dev-haskell/vector-algorithms 0.9.0.1: Efficient algorithms for vector arrays
+dev-haskell/vector-algorithms 0.9.0.1-r1: Efficient algorithms for vector arrays
 dev-haskell/vector-binary-instances 0.2.5.2: Instances of Data.Binary for vector
 dev-haskell/vector-builder 0.3.8.3: Vector builder
 dev-haskell/vector-hashtables 0.1.1.2: Efficient vector-based mutable hashtables implementation
