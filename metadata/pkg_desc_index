@@ -2354,6 +2354,7 @@ games-puzzle/raincat 1.2.1: A puzzle game written in Haskell with a cat in lead 
 games-roguelike/scroll 1.20180421: scroll(6), a roguelike game
 media-fonts/hasklig 1.2: Hasklig - a Haskell code font with monospaced ligatures
 media-gfx/gifcurry 3.0.0.1: GIF creation utility
+media-gfx/implicitcad 0.4.1.0: A math-inspired programmatic 2D & 3D CAD system
 media-sound/hpodder 1.1.6-r2: Podcast Aggregator (downloader)
 net-irc/glirc 2.39.0.1-r2: Console IRC client
 net-irc/lambdabot 5.3.0.1: Lambdabot is a development tool and advanced IRC bot

@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/blaze-markup:=[profile?] dev-haskell/blaze-svg:=[profile?] dev-haskell/data-default-class:=[profile?] dev-haskell/juicypixels:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/linear:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/random:=[profile?] dev-haskell/show-combinators:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= extopenscad? ( >=dev-haskell/optparse-applicative-0.10.0:=[profile?] ) implicitsnap? ( dev-haskell/aeson:=[profile?] dev-haskell/snap-core:=[profile?] dev-haskell/snap-server:=[profile?] dev-haskell/utf8-string:=[profile?] ) >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/hedgehog dev-haskell/hspec dev-haskell/hunit dev-haskell/hw-hspec-hedgehog dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A math-inspired programmatic 2D & 3D CAD system
+EAPI=8
+HOMEPAGE=https://implicitcad.org/
+INHERIT=haskell-cabal
+IUSE=+docgen +extopenscad implicitsnap doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=AGPL-3+
+RDEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/blaze-markup:=[profile?] dev-haskell/blaze-svg:=[profile?] dev-haskell/data-default-class:=[profile?] dev-haskell/juicypixels:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/linear:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/random:=[profile?] dev-haskell/show-combinators:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= extopenscad? ( >=dev-haskell/optparse-applicative-0.10.0:=[profile?] ) implicitsnap? ( dev-haskell/aeson:=[profile?] dev-haskell/snap-core:=[profile?] dev-haskell/snap-server:=[profile?] dev-haskell/utf8-string:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.4.1.0
+SRC_URI=https://hackage.haskell.org/package/implicit-0.4.1.0/implicit-0.4.1.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_md5_=341d25f26e1593e6c129cff5b07004b1
