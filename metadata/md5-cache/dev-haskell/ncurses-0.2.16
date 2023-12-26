@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=>=dev-haskell/text-0.7:=[profile?] >=dev-haskell/transformers-0.2:=[profile?] >=dev-lang/ghc-7.4.1:= sys-libs/ncurses:0= dev-lang/ghc:=[profile?]
 SLOT=0/0.2.16
 SRC_URI=https://hackage.haskell.org/package/ncurses-0.2.16/ncurses-0.2.16.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=a7636f6a17cc1dc159f06d6fb7993bba

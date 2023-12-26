@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/haskell-src-exts-1.23:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] >=dev-lang/ghc-8.0.1:= dev-lang/ghc:=[profile?]
 SLOT=1.23/1.23.0.0
 SRC_URI=https://hackage.haskell.org/package/haskell-src-exts-simple-1.23.0.0/haskell-src-exts-simple-1.23.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=d377d0176f0f182ba8afce309a65475e

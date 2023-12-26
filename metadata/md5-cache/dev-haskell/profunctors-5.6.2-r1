@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0.10:=[profile?] >=dev-haskell/bifunctors-5.5.9:=[profile?] <dev-haskell/bifunctors-6:=[profile?] >=dev-haskell/comonad-5.0.8:=[profile?] <dev-haskell/comonad-6:=[profile?] >=dev-haskell/contravariant-1.5.3:=[profile?] <dev-haskell/contravariant-2:=[profile?] >=dev-haskell/distributive-0.5.2:=[profile?] <dev-haskell/distributive-1:=[profile?] >=dev-haskell/tagged-0.8.6.1:=[profile?] <dev-haskell/tagged-1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/5.6.2
 SRC_URI=https://hackage.haskell.org/package/profunctors-5.6.2/profunctors-5.6.2.tar.gz https://hackage.haskell.org/package/profunctors-5.6.2/revision/3.cabal -> profunctors-5.6.2-rev3.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=da526b44e7e3c086e268f3af8e71ec70

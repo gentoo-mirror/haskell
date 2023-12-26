@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/attoparsec-0.10:=[profile?] >=dev-haskell/bytestring-nums-0.3.1:=[profile?] >=dev-haskell/bytestring-trie-0.1.4:=[profile?] >=dev-haskell/utf8-string-0.3:=[profile?] >=dev-lang/ghc-6.10.4:= dev-lang/ghc:=[profile?]
 SLOT=0/1.0.8
 SRC_URI=https://hackage.haskell.org/package/JSONb-1.0.8/JSONb-1.0.8.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=b635d154ee4ab7d9aedc41145b62dbb1
