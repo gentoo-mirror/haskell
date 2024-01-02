@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -35,7 +35,7 @@ RDEPEND=">=dev-haskell/aeson-1:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/file-embed-0.0.10:=[profile?]
 	>=dev-haskell/glob-0.9:=[profile?]
 	>=dev-haskell/hashtables-1.2.3.1:=[profile?]
-	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.6:=[profile?]
+	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.7:=[profile?]
 	>=dev-haskell/microlens-0.4:=[profile?]
 	>=dev-haskell/microlens-th-0.4:=[profile?]
 	>=dev-haskell/pager-0.1.1.0:=[profile?]

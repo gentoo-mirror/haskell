@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,10 +26,10 @@ RDEPEND=">=dev-haskell/aeson-1:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/githash-0.1.6.2:=[profile?]
 	>=dev-haskell/hashable-1.2.4:=[profile?]
 	>=dev-haskell/haskeline-0.6:=[profile?]
-	>=dev-haskell/hledger-lib-1.32.1:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
+	>=dev-haskell/hledger-lib-1.32.2:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
 	dev-haskell/lucid:=[profile?]
 	>=dev-haskell/math-functions-0.3.3.0:=[profile?]
-	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.6:=[profile?]
+	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.7:=[profile?]
 	>=dev-haskell/microlens-0.4:=[profile?]
 	dev-haskell/regex-tdfa:=[profile?]
 	>=dev-haskell/safe-0.3.19:=[profile?]

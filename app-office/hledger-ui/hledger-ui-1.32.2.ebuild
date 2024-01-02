@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,17 +15,17 @@ LICENSE="GPL-3"
 SLOT="0/${PV}"
 KEYWORDS="~amd64"
 
-RDEPEND=">=app-office/hledger-1.32.1:=[profile?] <app-office/hledger-1.33:=[profile?]
+RDEPEND=">=app-office/hledger-1.32.2:=[profile?] <app-office/hledger-1.33:=[profile?]
 	>=dev-haskell/ansi-terminal-0.9:=[profile?]
 	dev-haskell/async:=[profile?]
-	>=dev-haskell/brick-1.5:=[profile?] <dev-haskell/brick-2:=[profile?]
+	>=dev-haskell/brick-2.1.1:=[profile?] <dev-haskell/brick-2.3:=[profile?]
 	>=dev-haskell/cmdargs-0.8:=[profile?]
 	dev-haskell/data-default:=[profile?]
 	>=dev-haskell/doclayout-0.3:=[profile?] <dev-haskell/doclayout-0.5:=[profile?]
 	>=dev-haskell/extra-1.6.3:=[profile?]
 	>=dev-haskell/fsnotify-0.4:=[profile?] <dev-haskell/fsnotify-0.5:=[profile?]
-	>=dev-haskell/hledger-lib-1.32.1:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
-	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.6:=[profile?]
+	>=dev-haskell/hledger-lib-1.32.2:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
+	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.7:=[profile?]
 	>=dev-haskell/microlens-0.4:=[profile?]
 	>=dev-haskell/microlens-platform-0.2.3.1:=[profile?]
 	>=dev-haskell/safe-0.3.19:=[profile?]
@@ -33,7 +33,8 @@ RDEPEND=">=app-office/hledger-1.32.1:=[profile?] <app-office/hledger-1.33:=[prof
 	>=dev-haskell/text-1.2.4.1:=[profile?]
 	>=dev-haskell/text-zipper-0.4:=[profile?]
 	dev-haskell/vector:=[profile?]
-	>=dev-haskell/vty-5.15:=[profile?] <dev-haskell/vty-6:=[profile?]
+	>=dev-haskell/vty-6.1:=[profile?] <dev-haskell/vty-6.2:=[profile?]
+	>=dev-haskell/vty-crossplatform-0.4.0.0:=[profile?] <dev-haskell/vty-crossplatform-0.5.0.0:=[profile?]
 	>=dev-lang/ghc-8.10.6:=
 "
 DEPEND="${RDEPEND}

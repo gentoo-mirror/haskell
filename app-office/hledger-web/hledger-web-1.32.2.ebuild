@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,7 +17,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="library-only"
 
-RDEPEND=">=app-office/hledger-1.32.1:=[profile?] <app-office/hledger-1.33:=[profile?]
+RDEPEND=">=app-office/hledger-1.32.2:=[profile?] <app-office/hledger-1.33:=[profile?]
 	>=dev-haskell/aeson-1:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	dev-haskell/base64:=[profile?]
 	dev-haskell/blaze-html:=[profile?]
@@ -31,12 +31,12 @@ RDEPEND=">=app-office/hledger-1.32.1:=[profile?] <app-office/hledger-1.33:=[prof
 	>=dev-haskell/decimal-0.5.1:=[profile?]
 	>=dev-haskell/extra-1.6.3:=[profile?]
 	dev-haskell/hjsmin:=[profile?]
-	>=dev-haskell/hledger-lib-1.32.1:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
+	>=dev-haskell/hledger-lib-1.32.2:=[profile?] <dev-haskell/hledger-lib-1.33:=[profile?]
 	dev-haskell/hspec:=[profile?]
 	dev-haskell/http-client:=[profile?]
 	dev-haskell/http-conduit:=[profile?]
 	dev-haskell/http-types:=[profile?]
-	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.6:=[profile?]
+	>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-9.7:=[profile?]
 	dev-haskell/network:=[profile?]
 	>=dev-haskell/safe-0.3.19:=[profile?]
 	>=dev-haskell/shakespeare-2.0.2.2:=[profile?]

@@ -6,6 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">brick-tabular-list</remote-id>
+		<remote-id type="hackage">vty-unix</remote-id>
+		<remote-id type="github">jtdaugherty/vty-unix</remote-id>
 	</upstream>
 </pkgmetadata>
