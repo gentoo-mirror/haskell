@@ -224,7 +224,6 @@ dev-haskell/breakpoint 0.1.0.0: Set breakpoints using a GHC plugin
 dev-haskell/brick 1.5 1.10 2.2: A declarative terminal user interface library
 dev-haskell/brick-list-skip 0.1.1.11: Skip a certain kind of items when moving in brick list
 dev-haskell/brick-tabular-list 2.2.0.9: Tabular list widgets for brick
-dev-haskell/brittany 0.14.0.2: Haskell source code formatter
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
 dev-haskell/bsb-http-chunked 0.0.0.4: Chunked HTTP transfer encoding for bytestring builders
 dev-haskell/bson 0.3.2.8-r1 0.4.0.1-r1: BSON documents are JSON-like objects with a standard binary encoding
@@ -920,7 +919,6 @@ dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
 dev-haskell/hlibsass 0.1.10.1: Low-level bindings to Libsass
 dev-haskell/hlint 3.6.1: Source code suggestions
 dev-haskell/hls-alternate-number-format-plugin 2.4.0.0: Provide Alternate Number Formats plugin for Haskell Language Server
-dev-haskell/hls-brittany-plugin 1.1.0.0: Integration with the Brittany code formatter
 dev-haskell/hls-cabal-fmt-plugin 2.4.0.0: Integration with the cabal-fmt code formatter
 dev-haskell/hls-cabal-plugin 2.4.0.0: Cabal integration plugin with Haskell Language Server
 dev-haskell/hls-call-hierarchy-plugin 2.4.0.0: Call hierarchy plugin for Haskell Language Server
@@ -935,7 +933,6 @@ dev-haskell/hls-floskell-plugin 2.4.0.0: Integration with the Floskell code form
 dev-haskell/hls-fourmolu-plugin 2.4.0.0: Integration with the Fourmolu code formatter
 dev-haskell/hls-gadt-plugin 2.4.0.0: Convert to GADT syntax plugin
 dev-haskell/hls-graph 2.4.0.0: Haskell Language Server internal graph API
-dev-haskell/hls-haddock-comments-plugin 2.0.0.1: Haddock comments plugin for Haskell Language Server
 dev-haskell/hls-hlint-plugin 2.4.0.0: Hlint integration plugin with Haskell Language Server
 dev-haskell/hls-module-name-plugin 2.4.0.0: Module name plugin for Haskell Language Server
 dev-haskell/hls-ormolu-plugin 2.4.0.0: Integration with the Ormolu code formatter
@@ -944,13 +941,10 @@ dev-haskell/hls-plugin-api 2.4.0.0: Haskell Language Server API for plugin commu
 dev-haskell/hls-pragmas-plugin 2.4.0.0: Pragmas plugin for Haskell Language Server
 dev-haskell/hls-qualify-imported-names-plugin 2.4.0.0: A Haskell Language Server plugin that qualifies imported names
 dev-haskell/hls-refactor-plugin 2.4.0.0: Exactprint refactorings for Haskell Language Server
-dev-haskell/hls-refine-imports-plugin 2.0.0.1: Refine imports plugin for Haskell Language Server
 dev-haskell/hls-rename-plugin 2.4.0.0: Rename plugin for Haskell Language Server
 dev-haskell/hls-retrie-plugin 2.4.0.0: Retrie integration plugin for Haskell Language Server
 dev-haskell/hls-splice-plugin 2.4.0.0: HLS Plugin to expand TemplateHaskell Splices and QuasiQuotes
-dev-haskell/hls-stan-plugin 1.0.0.0: Stan integration plugin with Haskell Language Server
 dev-haskell/hls-stylish-haskell-plugin 2.4.0.0: Integration with the Stylish Haskell code formatter
-dev-haskell/hls-tactics-plugin 2.0.0.1: Wingman plugin for Haskell Language Server
 dev-haskell/hls-test-utils 2.4.0.0: Utilities used in the tests of Haskell Language Server
 dev-haskell/hmatrix 0.20.2: Numeric Linear Algebra
 dev-haskell/hmatrix-gsl 0.19.0.1: Numerical computation
@@ -1881,7 +1875,6 @@ dev-haskell/srcloc 0.5.1.2: Data types for managing source code locations
 dev-haskell/ssh-known-hosts 0.2.0.0: Read and interpret the SSH known-hosts file
 dev-haskell/stack 2.9.3.1 2.11.1 9.9.9: The Haskell Tool Stack
 dev-haskell/stack-bin 2.3.1 2.5.1: The Haskell Tool Stack (Binary)
-dev-haskell/stan 0.0.1.0.9999_pre20220729: Haskell STatic ANalyser
 dev-haskell/stateref 0.3: Abstraction for things that work like IORef
 dev-haskell/statestack 0.3.1: Simple State-like monad transformer with saveable and restorable state
 dev-haskell/statevar 1.2.2: State variables
@@ -1989,7 +1982,6 @@ dev-haskell/temporary-rc 1.2.0.3: Portable temporary file and directory support 
 dev-haskell/tensor 1.1.0.2: Tensor data types
 dev-haskell/terminal-progress-bar 0.4.1: A simple progress bar in the terminal
 dev-haskell/terminal-size 0.3.3: Get terminal window height and width
-dev-haskell/terminfo 0.4.1.4-r1 0.4.1.5-r1 0.4.1.6: Haskell bindings to the terminfo library
 dev-haskell/terminfo-hs 0.2.1.1: A pure-Haskell (no FFI) module for accessing terminfo databases
 dev-haskell/test-framework 0.8.2.0-r4: Framework for running and organising tests, with HUnit and QuickCheck support
 dev-haskell/test-framework-hunit 0.3.0.2-r1: HUnit support for the test-framework package
