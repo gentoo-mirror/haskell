@@ -6,10 +6,10 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<use>
-		<flag name="workaround-ghc-mmap-crash">Only use this flag when hit by GHC bug #19421. See clash-compiler PR #2444.</flag>
+		<flag name="template-haskell">Build with QuasiQuoter usage parsers, which requires Template Haskell</flag>
 	</use>
 	<upstream>
-		<remote-id type="hackage">clash-prelude</remote-id>
-		<remote-id type="github">clash-lang/clash-compiler</remote-id>
+		<remote-id type="hackage">docopt</remote-id>
+		<remote-id type="github">docopt/docopt.hs.git</remote-id>
 	</upstream>
 </pkgmetadata>

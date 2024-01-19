@@ -6,10 +6,10 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<use>
-		<flag name="workaround-ghc-mmap-crash">Only use this flag when hit by GHC bug #19421. See clash-compiler PR #2444.</flag>
+		<flag name="sumtypes">Use sumtypes within benchmark and tests.</flag>
 	</use>
 	<upstream>
-		<remote-id type="hackage">clash-prelude</remote-id>
-		<remote-id type="github">clash-lang/clash-compiler</remote-id>
+		<remote-id type="hackage">derive-storable-plugin</remote-id>
+		<remote-id type="github">mkloczko/derive-storable-plugin</remote-id>
 	</upstream>
 </pkgmetadata>
