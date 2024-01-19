@@ -56,8 +56,15 @@ dev-haskell/chell:color-output - use colors in program output
 dev-haskell/chimera:representable - Define Representable instance from adjunctions package
 dev-haskell/citeproc:executable - Build citeproc executable
 dev-haskell/citeproc:icu - Use Haskell bindings to the ICU library
+dev-haskell/clash-cores:haddock - Work-around haddock bug on GHC 8.6.*
+dev-haskell/clash-cores:nix - Are we building this package from nix
+dev-haskell/clash-cores:unittests - You can disable testing with unittests using `-f-unittests`.
 dev-haskell/clash-ghc:dynamic - Build Clash binaries with GHC flag `-dynamic`. This flag should only be used for packaging purposes. Installations using cabal should use `--enable-executable-dynamic`!
 dev-haskell/clash-ghc:ghc-paths - Locate the GHC core libraries using the `ghc-paths` package. Note: this flag may make binaries less relocatable, by hard-coding an absolute path to the core libraries.
+dev-haskell/clash-ghc:workaround-ghc-mmap-crash - Only use this flag when hit by GHC bug #19421. See clash-compiler PR #2444.
+dev-haskell/clash-lib:unittests - You can disable testing with unittests using `-f-unittests`.
+dev-haskell/clash-lib:workaround-ghc-mmap-crash - Only use this flag when hit by GHC bug #19421. See clash-compiler PR #2444.
+dev-haskell/clash-prelude:workaround-ghc-mmap-crash - Only use this flag when hit by GHC bug #19421. See clash-compiler PR #2444.
 dev-haskell/cmark:system-cmark - use
 dev-haskell/cmdargs:examples - Build the cmdargs-demo program
 dev-haskell/cmdargs:quotation - Build the Quote module
@@ -83,6 +90,8 @@ dev-haskell/cryptonite:integer-gmp - Whether or not to use GMP for some function
 dev-haskell/cryptonite:target-attributes - use GCC / clang function attributes instead of global target options.
 dev-haskell/data-lens:derivedatatypeable - Use the DeriveDataTypeable extension. This makes lens compile with old compilers. Users need not worry about it.
 dev-haskell/data-reify:examples - Install test executables
+dev-haskell/derive-storable:sumtypes - Enable support for non-recursive sum types.
+dev-haskell/derive-storable-plugin:sumtypes - Use sumtypes within benchmark and tests.
 dev-haskell/diagrams:cairo - Enable the cairo backend
 dev-haskell/diagrams:canvas - Enable the Haskell-native Canvas backend
 dev-haskell/diagrams:gtk - Enable the GTK backend
@@ -95,6 +104,7 @@ dev-haskell/diagrams-builder:rasterific - install rasterific-specific builder to
 dev-haskell/diagrams-builder:svg - install svg-specific builder tool
 dev-haskell/dimensions:unsafeindices - Disable bound checks on Idx and Idxs types.
 dev-haskell/dlist:werror - Enable -Werror
+dev-haskell/docopt:template-haskell - Build with QuasiQuoter usage parsers, which requires Template Haskell
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"

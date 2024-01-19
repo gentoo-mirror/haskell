@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/ghc-tcplugins-extra-0.3.1:=[profile?] >=dev-lang/ghc-8.0.1:=[profile?] <dev-lang/ghc-9.10:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/tasty-0.10 >=dev-haskell/tasty-hunit-0.9 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=GHC typechecker plugin for types of kind GHC.TypeLits.Nat
+EAPI=8
+HOMEPAGE=https://www.clash-lang.org/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=>=dev-haskell/ghc-tcplugins-extra-0.3.1:=[profile?] >=dev-lang/ghc-8.0.1:=[profile?] <dev-lang/ghc-9.10:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.7.9
+SRC_URI=https://hackage.haskell.org/package/ghc-typelits-natnormalise-0.7.9/ghc-typelits-natnormalise-0.7.9.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_md5_=c79c65a4941b94231283cc3f652cd222
