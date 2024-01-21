@@ -1884,7 +1884,7 @@ dev-haskell/stack 2.9.3.1 2.11.1 9.9.9: The Haskell Tool Stack
 dev-haskell/stack-bin 2.3.1 2.5.1: The Haskell Tool Stack (Binary)
 dev-haskell/stateref 0.3: Abstraction for things that work like IORef
 dev-haskell/statestack 0.3.1: Simple State-like monad transformer with saveable and restorable state
-dev-haskell/statevar 1.2.2: State variables
+dev-haskell/statevar 1.2.2-r1: State variables
 dev-haskell/static-hash 0.0.1-r1: Immutable hash
 dev-haskell/statistics 0.16.2.0: A library of statistical types, data, and functions
 dev-haskell/status-notifier-item 0.3.1.0: A wrapper over the StatusNotifierItem/libappindicator dbus specification
