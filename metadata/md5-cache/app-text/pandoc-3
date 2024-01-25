@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=metapackage
 RDEPEND=app-text/pandoc-cli
 SLOT=0
-_md5_=e66911cc6bc79833ee882767ec33dd92
+_md5_=ee74ec68901d3a5580694b4bd5587d86
