@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/memory-0.14.18:=[profile?] >=dev-ha
 RESTRICT=!test? ( test )
 SLOT=0/0.30
 SRC_URI=https://hackage.haskell.org/package/cryptonite-0.30/cryptonite-0.30.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	b2b07efa51009704f88173b2c7feab47	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
 _md5_=dabc0fc66e5c6f1b0567fd5dfb91af25
