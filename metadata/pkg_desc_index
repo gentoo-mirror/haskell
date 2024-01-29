@@ -863,7 +863,7 @@ dev-haskell/haskell-src-exts 1.23.1: Manipulating Haskell source: abstract synta
 dev-haskell/haskell-src-exts-simple 1.23.0.0: A simplified view on the haskell-src-exts AST
 dev-haskell/haskell-src-exts-util 0.2.5: Helper functions for working with haskell-src-exts trees
 dev-haskell/haskell-src-meta 0.8.11: Parse source to template-haskell abstract syntax
-dev-haskell/haskellnet 0.5.2-r1: Client support for POP3, SMTP, and IMAP
+dev-haskell/haskellnet 0.5.2-r1 0.6.1.2: Client support for POP3, SMTP, and IMAP
 dev-haskell/haskellnet-ssl 0.3.4.4: Helpers to connect to SSL/TLS mail servers with HaskellNet
 dev-haskell/haskey 0.3.1.0-r1: A transactional, ACID compliant, embeddable key-value store
 dev-haskell/haskey-btree 0.3.0.1: B+-tree implementation in Haskell
