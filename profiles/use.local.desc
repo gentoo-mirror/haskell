@@ -474,6 +474,7 @@ x11-misc/xmobar:dbus - Publish a service on the session bus for controlling xmob
 x11-misc/xmobar:mpd - MPD support. Needs libmpd installed.
 x11-misc/xmobar:mpris - MPRIS v1, v2 support.
 x11-misc/xmobar:rtsopts - Use -with-rtsopts=-V0 to reduce wakeups.
+x11-misc/xmobar:shared - Use shared libraries. Required when dependencies are built as shared libraries.
 x11-misc/xmobar:uvmeter - UVMeter only useful to australians.
 x11-misc/xmobar:weather - Enable weather plugin.
 x11-misc/xmobar:wifi - Wireless info support via nl80211. Required for the Wireless plugin on systems running Linux, the kernel.

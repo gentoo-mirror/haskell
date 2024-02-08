@@ -2385,7 +2385,7 @@ www-servers/yesod-bin 1.6.2.2: The yesod helper executable
 x11-misc/arbtt 0.12.0.1: Automatic Rule-Based Time Tracker
 x11-misc/gtk-sni-tray 0.1.8.0: A standalone StatusNotifierItem/AppIndicator tray
 x11-misc/taffybar 4.0.0: A desktop bar similar to xmobar, but with more GUI
-x11-misc/xmobar 0.46 9999: A Minimalistic Text Based Status Bar
+x11-misc/xmobar 0.46 0.47.3 9999: A Minimalistic Text Based Status Bar
 x11-misc/xmonad-extras 0.17.0: Third party extensions for xmonad with wacky dependencies
 x11-misc/xmonad-screenshot 0.1.2-r1: Workspaces screenshooting utility for XMonad
 x11-misc/xmonad-utils 0.1.3.3-r1: A small collection of X utilities
