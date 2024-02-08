@@ -1915,6 +1915,7 @@ dev-haskell/streamly 0.8.3: Dataflow programming and declarative concurrency
 dev-haskell/strict 0.5: Strict data types and String IO
 dev-haskell/strict-list 0.1.7: Strict linked list
 dev-haskell/strictify 0.1-r1: Find a local optimum of strictness annotations
+dev-haskell/string-class 0.1.7.1: String class library
 dev-haskell/string-conv 0.1.2: Standardized conversion between string types
 dev-haskell/string-conversions 0.4.0.1: Simplifies dealing with different types for strings
 dev-haskell/string-interpolate 0.3.2.1: Haskell string/text/bytestring interpolation that just works
