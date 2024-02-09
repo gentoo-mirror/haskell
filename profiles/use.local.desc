@@ -313,6 +313,7 @@ dev-haskell/prettyprinter:text - While it's a core value of @prettyprinter@ to u
 dev-haskell/profiteur:embed-data-files - Embed data files into the executable (needed for ghcjs packaging)
 dev-haskell/publicsuffixlist:create - export Network.PublicSuffixList.Create module
 dev-haskell/publicsuffixlist:runtimelist - read suffix list from dist at startup instead of embedding list into library
+dev-haskell/purebred-email:demos - Build demonstration programs
 dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/quickcheck:template-haskell - Build Test.QuickCheck.All, which uses Template Haskell.
 dev-haskell/quickcheck-classes:aeson - You can disable the use of the `aeson` package using `-f-aeson`. This may be useful for accelerating builds in sandboxes for expert users.
