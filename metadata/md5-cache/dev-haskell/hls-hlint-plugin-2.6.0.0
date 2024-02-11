@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/apply-refact:=[profile?] dev-haskell/data-default:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] dev-haskell/extra:=[profile?] >=dev-haskell/ghc-exactprint-0.6.3.4:=[profile?] dev-haskell/ghc-lib-parser:=[profile?] dev-haskell/ghc-lib-parser-ex:=[profile?] ~dev-haskell/ghcide-2.6.0.0:=[profile?] dev-haskell/hashable:=[profile?] >=dev-haskell/hlint-3.5:=[profile?] <dev-haskell/hlint-3.7:=[profile?] ~dev-haskell/hls-plugin-api-2.6.0.0:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/lsp:=[profile?] dev-haskell/refact:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/temporary:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hls-plugin-api ~dev-haskell/hls-test-utils-2.6.0.0 dev-haskell/lsp-types dev-haskell/row-types ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Hlint integration plugin with Haskell Language Server
+EAPI=8
+HOMEPAGE=https://github.com/haskell/haskell-language-server/tree/master/plugins/hls-hlint-plugin#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/apply-refact:=[profile?] dev-haskell/data-default:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] dev-haskell/extra:=[profile?] >=dev-haskell/ghc-exactprint-0.6.3.4:=[profile?] dev-haskell/ghc-lib-parser:=[profile?] dev-haskell/ghc-lib-parser-ex:=[profile?] ~dev-haskell/ghcide-2.6.0.0:=[profile?] dev-haskell/hashable:=[profile?] >=dev-haskell/hlint-3.5:=[profile?] <dev-haskell/hlint-3.7:=[profile?] ~dev-haskell/hls-plugin-api-2.6.0.0:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/lsp:=[profile?] dev-haskell/refact:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/temporary:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=test !test? ( test )
+SLOT=0/2.6.0.0
+SRC_URI=https://hackage.haskell.org/package/hls-hlint-plugin-2.6.0.0/hls-hlint-plugin-2.6.0.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_md5_=2b4d16c12299e3d90e6b0fec965fbd53

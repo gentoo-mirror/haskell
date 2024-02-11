@@ -186,6 +186,7 @@ dev-haskell/haskell-language-server:hls_plugins_pragmas - Enable pragmas plugin
 dev-haskell/haskell-language-server:hls_plugins_qualify-imported-names - Enable qualifyImportedNames plugin
 dev-haskell/haskell-language-server:hls_plugins_rename - Enable rename plugin
 dev-haskell/haskell-language-server:hls_plugins_retrie - Enable retrie plugin
+dev-haskell/haskell-language-server:hls_plugins_semantic-tokens - Enable semanticTokens plugin
 dev-haskell/haskell-language-server:hls_plugins_splice - Enable splice plugin
 dev-haskell/hdbc-sqlite3:splitbase - Choose the new smaller, split-up package.
 dev-haskell/hedgehog-fn:examples - Build the example executables
