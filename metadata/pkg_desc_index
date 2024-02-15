@@ -111,7 +111,7 @@ dev-haskell/ap-normalize 0.1.0.1: Self-normalizing applicative expressions
 dev-haskell/api-field-json-th 0.1.0.2: option of aeson's deriveJSON
 dev-haskell/appar 0.1.8: A simple applicative parser
 dev-haskell/applicative-numbers 0.1.3: Applicative-based numeric instances
-dev-haskell/apply-refact 0.9.3.0-r1 0.12.0.0: Perform refactorings specified by the refact library
+dev-haskell/apply-refact 0.9.3.0-r1 0.14.0.0: Perform refactorings specified by the refact library
 dev-haskell/argparser 0.3.4: Command line parsing framework for console applications
 dev-haskell/arithmoi 0.12.0.0 0.13.0.0: Efficient basic number-theoretic functions
 dev-haskell/arrows 0.4.4.2: Arrow classes and transformers
@@ -1346,7 +1346,7 @@ dev-haskell/modern-uri 0.3.6.0: Modern library for working with URIs
 dev-haskell/modular-arithmetic 1.2.1.5: A type for integers modulo some constant
 dev-haskell/monad-control 1.0.3.1: Lift control operations, like exception catching, through monad transformers
 dev-haskell/monad-control-aligned 0.0.1.1-r1: Just like monad-control, except less efficient, and the monadic state terms are all * -> *
-dev-haskell/monad-dijkstra 0.1.1.3-r1: A monad transformer for weighted graph searches
+dev-haskell/monad-dijkstra 0.1.1.5: A monad transformer for weighted graph searches
 dev-haskell/monad-extras 0.6.0: Extra utility functions for working with monads
 dev-haskell/monad-journal 0.8.1: Pure logger typeclass and monad transformer
 dev-haskell/monad-logger 0.3.40: A class of monads which can log messages
@@ -1899,7 +1899,7 @@ dev-haskell/stickykeyshotkey 0.1.0.2-r1: get and set STICKYKEYS.SKF_HOTKEYACTIVE
 dev-haskell/stm 2.5.0.0-r1 2.5.0.1-r1 2.5.0.2-r1 2.5.1.0: Software Transactional Memory
 dev-haskell/stm-chans 3.0.0.4: Additional types of channels for STM
 dev-haskell/stm-conduit 4.0.1: Introduces conduits to channels, and promotes using conduits concurrently
-dev-haskell/stm-containers 1.2: Containers for STM
+dev-haskell/stm-containers 1.2.0.3: Containers for STM
 dev-haskell/stm-delay 0.1.1.1: Updatable one-shot timer polled with STM
 dev-haskell/stm-hamt 1.2.0.8 1.2.0.11: STM-specialised Hash Array Mapped Trie
 dev-haskell/stm-linkedlist 0.1.0.0: Mutable, doubly linked lists for STM
