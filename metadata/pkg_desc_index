@@ -549,7 +549,7 @@ dev-haskell/dns 4.0.1: DNS library in Haskell
 dev-haskell/doclayout 0.4.0.1: A prettyprinting library for laying out text documents
 dev-haskell/docopt 0.7.0.6: A command-line interface parser that will make you smile
 dev-haskell/doctemplates 0.11: Pandoc-style document templates
-dev-haskell/doctest 0.22.0: Test interactive Haskell examples
+dev-haskell/doctest 0.22.0 0.22.2: Test interactive Haskell examples
 dev-haskell/doctest-discover 0.2.0.0: Easy way to run doctests via cabal
 dev-haskell/doctest-driver-gen 0.3.0.7: Generate driver file for doctest's cabal integration
 dev-haskell/doctest-parallel 0.2.4: Test interactive Haskell examples
