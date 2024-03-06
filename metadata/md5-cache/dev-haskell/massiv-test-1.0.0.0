@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/data-default-class:=[profile?] dev-haskell/exceptions:=[prof
 RESTRICT=!test? ( test )
 SLOT=0/1.0.0.0
 SRC_URI=https://hackage.haskell.org/package/massiv-test-1.0.0.0/massiv-test-1.0.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=e6c7480fd533b2b0d2c6f5eb7bf84435

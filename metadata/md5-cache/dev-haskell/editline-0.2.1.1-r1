@@ -2,7 +2,7 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=dev-build/
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-lang/ghc-6.10.4:= dev-libs/libedit >=dev-haskell/cabal-1.2 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Bindings to the editline library (libedit)
-EAPI=7
+EAPI=8
 HOMEPAGE=http://code.haskell.org/editline
 INHERIT=autotools haskell-cabal
 IUSE=doc hscolour hoogle profile
@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-6.10.4:= dev-libs/libedit dev-lang/ghc:=[profile?]
 SLOT=0/0.2.1.1
 SRC_URI=https://hackage.haskell.org/package/editline-0.2.1.1/editline-0.2.1.1.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	e4cf390b19033d5ca443765bc8537b81	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=6654f5428a92bd83f3c80d9f1da999f0
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	e4cf390b19033d5ca443765bc8537b81	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=80f73530f9febf433994c0b1ec081829

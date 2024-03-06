@@ -2,15 +2,15 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/cereal-0.5:=[profile?] <dev-haskell/cereal-0.6:=[profile?] >=dev-haskell/cipher-aes128-0.6:=[profile?] >=dev-haskell/crypto-api-0.13:=[profile?] >=dev-haskell/cryptohash-cryptoapi-0.1:=[profile?] dev-haskell/entropy:=[profile?] >=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.3:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/prettyclass:=[profile?] >=dev-haskell/tagged-0.7:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 test? ( dev-haskell/crypto-api-tests dev-haskell/hunit dev-haskell/quickcheck dev-haskell/test-framework dev-haskell/test-framework-hunit ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Deterministic random bit generator (aka PRNG) based HMACs, Hashes, and Ciphers
-EAPI=7
+EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/DRBG
 INHERIT=haskell-cabal
 IUSE=test doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/cereal-0.5:=[profile?] <dev-haskell/cereal-0.6:=[profile?] >=dev-haskell/cipher-aes128-0.6:=[profile?] >=dev-haskell/crypto-api-0.13:=[profile?] >=dev-haskell/cryptohash-cryptoapi-0.1:=[profile?] dev-haskell/entropy:=[profile?] >=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.3:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/prettyclass:=[profile?] >=dev-haskell/tagged-0.7:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
-RESTRICT=test
+RESTRICT=test !test? ( test )
 SLOT=0/0.5.5
 SRC_URI=https://hackage.haskell.org/package/DRBG-0.5.5/DRBG-0.5.5.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=41bb465d24717728e4c6d8d65cd5fad8
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=774a94e634205449f7618ea4ed14e55f

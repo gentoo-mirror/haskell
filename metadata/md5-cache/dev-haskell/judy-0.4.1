@@ -2,7 +2,7 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-lang/ghc-7.4.1:= dev-libs/judy >=dev-haskell/cabal-1.10 test? ( dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Fast, scalable, mutable dynamic arrays, maps and hashes
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/mwotton/judy
 INHERIT=haskell-cabal
 IUSE=unsafe doc hscolour hoogle profile test
@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-7.4.1:= dev-libs/judy dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.1
 SRC_URI=https://hackage.haskell.org/package/judy-0.4.1/judy-0.4.1.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=c7686113a0da0cfbc5a88efa06c87e97
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=3671026b933322cf665ce157c35a4abb

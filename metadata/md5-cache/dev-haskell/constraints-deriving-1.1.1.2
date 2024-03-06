@@ -2,15 +2,15 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-lang/ghc-8.0.1:=[profile?] <dev-lang/ghc-9.1:=[profile?] >=dev-lang/ghc-8.4.3:= constraints? ( >=dev-haskell/constraints-0.6:=[profile?] ) >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/ghc-paths >=dev-haskell/path-0.5.13 dev-haskell/path-io ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Manipulating constraints and deriving class instances programmatically
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/achirkin/constraints-deriving#readme
 INHERIT=haskell-cabal
 IUSE=constraints debug examples doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-8.0.1:=[profile?] <dev-lang/ghc-9.1:=[profile?] >=dev-lang/ghc-8.4.3:= constraints? ( >=dev-haskell/constraints-0.6:=[profile?] ) dev-lang/ghc:=[profile?]
-RESTRICT=test
+RESTRICT=test !test? ( test )
 SLOT=0/1.1.1.2
 SRC_URI=https://hackage.haskell.org/package/constraints-deriving-1.1.1.2/constraints-deriving-1.1.1.2.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=3bf5a59d49beed0eadd777b5f803a922
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=5bb309a5b2b68bd7d7eb9f1c2cfd829c

@@ -2,7 +2,7 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/uulib-0.9:=[profile?] <dev-haskell/uulib-0.10:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Parsing for chr library
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/atzedijkstra/chr
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/uulib-0.9:=[profile?] <dev-haskell/uulib-0.10:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.0.0
 SRC_URI=https://hackage.haskell.org/package/chr-parse-0.1.0.0/chr-parse-0.1.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=ef95b86ad2d449b139e3bdd81285c11f
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f2de5c9984e4060472b21e704bff390b

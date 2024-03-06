@@ -2,15 +2,15 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/byteable:=[profile?] >=dev-haskell/crypto-numbers-0.2.2:=[profile?] >=dev-haskell/crypto-pubkey-types-0.4.1:=[profile?] <dev-haskell/crypto-pubkey-types-0.5:=[profile?] >=dev-haskell/crypto-random-0.0:=[profile?] <dev-haskell/crypto-random-0.1:=[profile?] >=dev-haskell/cryptohash-0.9.1:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8 test? ( dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-kat dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Public Key cryptography
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/vincenthz/hs-crypto-pubkey
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=dev-haskell/byteable:=[profile?] >=dev-haskell/crypto-numbers-0.2.2:=[profile?] >=dev-haskell/crypto-pubkey-types-0.4.1:=[profile?] <dev-haskell/crypto-pubkey-types-0.5:=[profile?] >=dev-haskell/crypto-random-0.0:=[profile?] <dev-haskell/crypto-random-0.1:=[profile?] >=dev-haskell/cryptohash-0.9.1:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
-RESTRICT=test
+RESTRICT=test !test? ( test )
 SLOT=0/0.2.8
 SRC_URI=https://hackage.haskell.org/package/crypto-pubkey-0.2.8/crypto-pubkey-0.2.8.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=3f82e8a393f9aab71972a4ff7f9ea05c
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=00132b30291232e3ccc168ae607f48e4

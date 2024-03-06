@@ -2,15 +2,15 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/cmdargs-0.10:= >=dev-haskell/dns-1.4:= >=dev-haskell/iproute-1.2:= >=dev-haskell/parallel-io-0.3:= >=dev-lang/ghc-7.6.2:= >=dev-haskell/cabal-1.16.0 test? ( >=dev-haskell/doctest-0.9 >=dev-haskell/filemanip-0.3.6 dev-util/shelltestrunner )
 DESCRIPTION=Confirm delegation of NS and MX records
-EAPI=7
+EAPI=8
 HOMEPAGE=http://michael.orlitzky.com/code/haeredes.xhtml
 INHERIT=haskell-cabal
 IUSE=test
 KEYWORDS=~amd64
 LICENSE=AGPL-3
 RDEPEND=>=dev-haskell/cmdargs-0.10:= >=dev-haskell/dns-1.4:= >=dev-haskell/iproute-1.2:= >=dev-haskell/parallel-io-0.3:= >=dev-lang/ghc-7.6.2:=
-RESTRICT=test
+RESTRICT=test !test? ( test )
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/haeredes-0.5.2/haeredes-0.5.2.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=abfd2d71aa7ab4bb419e224eec2e85ff
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f61a26f6562f5769fae2ed2699ea725b

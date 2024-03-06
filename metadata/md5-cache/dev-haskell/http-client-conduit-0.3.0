@@ -2,7 +2,7 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/http-client-0.3:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Frontend support for using http-client with conduit (deprecated)
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/snoyberg/http-client
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/http-client-0.3:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.3.0
 SRC_URI=https://hackage.haskell.org/package/http-client-conduit-0.3.0/http-client-conduit-0.3.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=45b1215c4ef64337b876f302e48b1a8e
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=d5f0251029dc30f5f09924ecfdc65a23

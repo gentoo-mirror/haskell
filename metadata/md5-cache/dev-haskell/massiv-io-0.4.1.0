@@ -2,7 +2,7 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/color-0.2:=[profile?] dev-haskell/data-default-class:=[profile?] dev-haskell/exceptions:=[profile?] >=dev-haskell/juicypixels-3.3.5:=[profile?] >=dev-haskell/massiv-0.3:=[profile?] dev-haskell/netpbm:=[profile?] >=dev-haskell/unliftio-0.2.12:=[profile?] >=dev-haskell/vector-0.10:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.15 dev-haskell/hspec dev-haskell/massiv-test dev-haskell/quickcheck dev-haskell/random ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Import/export of Image files into massiv Arrays
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/lehins/massiv-io
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/color-0.2:=[profile?] dev-haskell/data-default-class:=[pro
 RESTRICT=!test? ( test )
 SLOT=0/0.4.1.0
 SRC_URI=https://hackage.haskell.org/package/massiv-io-0.4.1.0/massiv-io-0.4.1.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=e363b80d52e78ea67b5f5787e71087eb
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=55105bfdf1796aaac950eaa1357a7828

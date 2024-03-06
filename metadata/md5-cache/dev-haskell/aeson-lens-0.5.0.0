@@ -2,15 +2,15 @@ BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/aeson-0.6:=[profile?] >=dev-haskell/lens-3.8:=[profile?] >=dev-haskell/text-0.11:=[profile?] >=dev-haskell/unordered-containers-0.2.2:=[profile?] >=dev-haskell/vector-0.9:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8 test? ( >=dev-haskell/doctest-0.9 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Lens of Aeson
-EAPI=7
+EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/aeson-lens
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/aeson-0.6:=[profile?] >=dev-haskell/lens-3.8:=[profile?] >=dev-haskell/text-0.11:=[profile?] >=dev-haskell/unordered-containers-0.2.2:=[profile?] >=dev-haskell/vector-0.9:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
-RESTRICT=test
+RESTRICT=test !test? ( test )
 SLOT=0/0.5.0.0
 SRC_URI=https://hackage.haskell.org/package/aeson-lens-0.5.0.0/aeson-lens-0.5.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	631fe867aec883d7c7caf617c36aba72	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	ef6ed0e24d9a427fe265d67c231419a2
-_md5_=4ae3c8a7ffae26524064bee619225c1e
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=9f2373a8e995baea7887f007e9c7382f

@@ -5,8 +5,9 @@ acct-user/mighttpd2 0: A user for www-servers/mighttpd2
 app-accessibility/hsay 1.1.0-r3: (ab)Use Google Translate as a speech synthesiser
 app-admin/haskell-updater 1.3.2 9999: Rebuild Haskell dependencies in Gentoo
 app-admin/propellor 5.12: property-based host configuration management in haskell
+app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early 1980s
 app-crypt/hb3sum 0.0.0.1: A command line tool to compute BLAKE3 hashes
-app-emacs/haskell-mode 16.1-r1 17.4 9999: Mode for editing (and running) Haskell programs in Emacs
+app-emacs/haskell-mode 17.4 17.5 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
 app-misc/brick-trading-journal 0.1.3.0: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
