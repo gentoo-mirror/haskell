@@ -1,49 +1,63 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit elisp
 
 DESCRIPTION="Mode for editing (and running) Haskell programs in Emacs"
-HOMEPAGE="http://projects.haskell.org/haskellmode-emacs/
+HOMEPAGE="https://haskell.github.io/haskell-mode/
 	https://www.haskell.org/haskellwiki/Emacs#Haskell-mode"
-SRC_URI="https://github.com/haskell/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+
+if [[ ${PV} == *9999* ]] ; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/haskell/${PN}.git"
+else
+	SRC_URI="https://github.com/haskell/${PN}/archive/v${PV}.tar.gz
+		-> ${P}.tar.gz"
+	KEYWORDS="~amd64 ~arm64 ~x86"
+fi
 
 LICENSE="GPL-3+ FDL-1.2+"
 SLOT="0"
-KEYWORDS="~amd64"
+IUSE="test"
+RESTRICT="!test? ( test )"
 
-DOCS="NEWS README.md"
+DEPEND="test? ( dev-lang/ghc )"
+BDEPEND="sys-apps/texinfo"
+
+ELISP_REMOVE="
+	tests/haskell-cabal-tests.el
+	tests/haskell-customize-tests.el
+	tests/haskell-lexeme-tests.el
+"
+
+DOCS=( NEWS README.md )
 ELISP_TEXINFO="doc/${PN}.texi"
 SITEFILE="50${PN}-gentoo.el"
 
-RESTRICT=test # needs network access to elpa packages
-
 src_prepare() {
-	default
-
 	# We install the logo in SITEETC, not in SITELISP
 	# https://github.com/haskell/haskell-mode/issues/102
 	sed -i -e "/defconst haskell-process-logo/{n;" \
 		-e "s:(.*\"\\(.*\\)\".*):\"${SITEETC}/${PN}/\\1\":}" \
 		haskell-process.el || die
+
+	elisp_src_prepare
 }
 
 src_compile() {
-	# The autoloads aren't present in new releases and must be built.
-	emake haskell-mode-autoloads.el
 	elisp_src_compile
+	elisp-make-autoload-file haskell-site-file.el
 }
 
 src_test() {
-	# perform tests in a separate directory #504660
-	mkdir test && cp -R *.el tests Makefile test || die
-	emake -j1 -C test check
+	emake check-ert
 }
 
 src_install() {
 	elisp_src_install
-	insinto "${SITEETC}/${PN}"
+
+	insinto "${SITEETC}"/${PN}
 	doins logo.svg
 }
