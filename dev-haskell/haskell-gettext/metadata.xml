@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">brick-list-skip</remote-id>
-		<remote-id type="codeberg">amano.kenji/brick-list-skip</remote-id>
+		<remote-id type="hackage">haskell-gettext</remote-id>
+		<remote-id type="github">portnov/haskell-gettext</remote-id>
 	</upstream>
 </pkgmetadata>
