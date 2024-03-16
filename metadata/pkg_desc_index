@@ -9,7 +9,7 @@ app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early
 app-crypt/hb3sum 0.0.0.1: A command line tool to compute BLAKE3 hashes
 app-emacs/haskell-mode 17.4 17.5 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
-app-misc/brick-trading-journal 0.1.4.0: Terminal UI program for basic trading statistics
+app-misc/brick-trading-journal 0.1.5.0: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
 app-office/hledger 1.32.3: Command-line interface for the hledger accounting system
 app-office/hledger-iadd 1.3.20: A terminal UI as drop-in replacement for hledger add
