@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-2.11 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-2.12 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Access Unicode Character Database (UCD)
 EAPI=8
 HOMEPAGE=https://github.com/composewell/unicode-data
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.0.1
-SRC_URI=https://hackage.haskell.org/package/unicode-data-0.4.0.1/unicode-data-0.4.0.1.tar.gz https://hackage.haskell.org/package/unicode-data-0.4.0.1/revision/1.cabal -> unicode-data-0.4.0.1-rev1.cabal
+SRC_URI=https://hackage.haskell.org/package/unicode-data-0.4.0.1/unicode-data-0.4.0.1.tar.gz https://hackage.haskell.org/package/unicode-data-0.4.0.1/revision/2.cabal -> unicode-data-0.4.0.1-rev2.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=3f57343f913a0446b02a8f3b5b1650b3
+_md5_=e9acbe4385a5e8267152f66fbb153df7

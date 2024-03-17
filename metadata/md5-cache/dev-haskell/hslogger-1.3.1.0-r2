@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/1.3.1.0
 SRC_URI=https://hackage.haskell.org/package/hslogger-1.3.1.0/hslogger-1.3.1.0.tar.gz https://hackage.haskell.org/package/hslogger-1.3.1.0/revision/7.cabal -> hslogger-1.3.1.0-rev7.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=f70b9231d9c0178e830496f58faaa27c
+_md5_=c010c7ef3d108c5eaef4b356d35c406d

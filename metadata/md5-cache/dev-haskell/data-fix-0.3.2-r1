@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/hashable-1.2.7.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Fixpoint data types
+EAPI=8
+HOMEPAGE=https://github.com/spell-music/data-fix
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/hashable-1.2.7.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.3.2
+SRC_URI=https://hackage.haskell.org/package/data-fix-0.3.2/data-fix-0.3.2.tar.gz https://hackage.haskell.org/package/data-fix-0.3.2/revision/5.cabal -> data-fix-0.3.2-rev5.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=faa88c4f03cf9528ac0b578844832780

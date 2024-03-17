@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/deferred-folds-0.9.10.1:=[profile?] <dev-haskell/deferred-folds-0.10:=[profile?] >=dev-haskell/isomorphism-class-0.1.0.1:=[profile?] <dev-haskell/isomorphism-class-0.2:=[profile?] >=dev-haskell/quickcheck-2.14:=[profile?] <dev-haskell/quickcheck-3:=[profile?] >=dev-haskell/quickcheck-instances-0.3.28:=[profile?] <dev-haskell/quickcheck-instances-0.4:=[profile?] >=dev-haskell/split-0.2.3.4:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-9.4.5:= >=dev-haskell/cabal-3.8.1.0 test? ( >=dev-haskell/base-compat-0.13.1 <dev-haskell/base-compat-0.14 >=dev-haskell/quickcheck-classes-0.6.5 <dev-haskell/quickcheck-classes-0.7 <dev-haskell/rerebase-2 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-2 >=dev-haskell/tasty-hunit-0.10.0.2 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10.1 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Edge of developments for "text-builder"
+EAPI=8
+HOMEPAGE=https://github.com/nikita-volkov/text-builder-dev
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/deferred-folds-0.9.10.1:=[profile?] <dev-haskell/deferred-folds-0.10:=[profile?] >=dev-haskell/isomorphism-class-0.1.0.1:=[profile?] <dev-haskell/isomorphism-class-0.2:=[profile?] >=dev-haskell/quickcheck-2.14:=[profile?] <dev-haskell/quickcheck-3:=[profile?] >=dev-haskell/quickcheck-instances-0.3.28:=[profile?] <dev-haskell/quickcheck-instances-0.4:=[profile?] >=dev-haskell/split-0.2.3.4:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-9.4.5:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.3.4.2
+SRC_URI=https://hackage.haskell.org/package/text-builder-dev-0.3.4.2/text-builder-dev-0.3.4.2.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=ea6b63c9134275e6468a1e17ee7b2023

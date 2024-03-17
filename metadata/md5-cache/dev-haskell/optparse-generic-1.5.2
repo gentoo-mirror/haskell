@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=<dev-haskell/only-0.2:=[profile?] >=dev-haskell/optparse-applicative-0.16.0.0:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/transformers-compat-0.3:=[profile?] <dev-haskell/transformers-compat-0.8:=[profile?] <dev-haskell/void-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Auto-generate a command-line parser for your datatype
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/optparse-generic
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=<dev-haskell/only-0.2:=[profile?] >=dev-haskell/optparse-applicative-0.16.0.0:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/transformers-compat-0.3:=[profile?] <dev-haskell/transformers-compat-0.8:=[profile?] <dev-haskell/void-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/1.5.2
+SRC_URI=https://hackage.haskell.org/package/optparse-generic-1.5.2/optparse-generic-1.5.2.tar.gz https://hackage.haskell.org/package/optparse-generic-1.5.2/revision/1.cabal -> optparse-generic-1.5.2-rev1.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=9d8ea6171f0e54ded7db889b0b48bd9c

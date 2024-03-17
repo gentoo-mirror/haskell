@@ -6,9 +6,10 @@ EAPI=8
 HOMEPAGE=https://github.com/haskell/cabal#readme
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/cabal-3.8.0.0:=[profile?] <dev-haskell/cabal-3.9:=[profile?] >=dev-haskell/cabal-syntax-3.8.0.0:=[profile?] <dev-haskell/cabal-syntax-3.9:=[profile?] >=dev-haskell/tree-diff-0.1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/3.8.1.0
 SRC_URI=https://github.com/haskell/cabal/archive/5d18b763356dca719f5286a52328cb41b9fa4192.tar.gz -> cabal-5d18b763356dca719f5286a52328cb41b9fa4192.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=3b383f84e54b6dbc8f9065da1d88787d
+_md5_=3281aa096acb876e9547736272b8a98a

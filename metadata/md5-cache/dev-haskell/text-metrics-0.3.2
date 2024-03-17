@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-3.0 >=dev-haskell/quickcheck-2.8 <dev-haskell/quickcheck-3.0 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-3 >=dev-haskell/quickcheck-2.8 <dev-haskell/quickcheck-3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Calculate various string metrics efficiently
 EAPI=8
 HOMEPAGE=https://github.com/mrkkrp/text-metrics
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.3.2
-SRC_URI=https://hackage.haskell.org/package/text-metrics-0.3.2/text-metrics-0.3.2.tar.gz https://hackage.haskell.org/package/text-metrics-0.3.2/revision/2.cabal -> text-metrics-0.3.2-rev2.cabal
+SRC_URI=https://hackage.haskell.org/package/text-metrics-0.3.2/text-metrics-0.3.2.tar.gz https://hackage.haskell.org/package/text-metrics-0.3.2/revision/3.cabal -> text-metrics-0.3.2-rev3.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=c0b459cf19b54a4865c700aa330fbc73
+_md5_=f814cbfb580cc823b8633f264b9ea9bd

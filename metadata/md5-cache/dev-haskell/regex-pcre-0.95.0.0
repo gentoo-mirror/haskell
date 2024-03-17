@@ -1,15 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-7.4.1:= dev-libs/libpcre >=dev-haskell/cabal-1.12 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=Replaces/Enhances Text.Regex
+DEPEND=>=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-9.0.2:= dev-libs/libpcre >=dev-haskell/cabal-3.4.1.0 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=PCRE Backend for "Text.Regex" (regex-base)
 EAPI=8
-HOMEPAGE=https://hackage.haskell.org/package/regex-pcre
+HOMEPAGE=https://wiki.haskell.org/Regular_expressions
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-7.4.1:= dev-libs/libpcre dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/regex-base-0.94:=[profile?] <dev-haskell/regex-base-0.95:=[profile?] >=dev-lang/ghc-9.0.2:= dev-libs/libpcre dev-lang/ghc:=[profile?]
 SLOT=0/0.95.0.0
-SRC_URI=https://hackage.haskell.org/package/regex-pcre-0.95.0.0/regex-pcre-0.95.0.0.tar.gz https://hackage.haskell.org/package/regex-pcre-0.95.0.0/revision/4.cabal -> regex-pcre-0.95.0.0-rev4.cabal
+SRC_URI=https://hackage.haskell.org/package/regex-pcre-0.95.0.0/regex-pcre-0.95.0.0.tar.gz https://hackage.haskell.org/package/regex-pcre-0.95.0.0/revision/6.cabal -> regex-pcre-0.95.0.0-rev6.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=57eb96ce06286b2e5ebe1fb2f176e238
+_md5_=9c7cab5d4581191602435d544d9044b7

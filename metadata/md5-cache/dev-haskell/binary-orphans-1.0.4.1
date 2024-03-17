@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/data-array-byte-0.1.0.1:=[profile?] <dev-haskell/data-array-byte-0.2:=[profile?] >=dev-haskell/onetuple-0.3:=[profile?] <dev-haskell/onetuple-0.5:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/quickcheck-2.13.1 <dev-haskell/quickcheck-2.15 >=dev-haskell/quickcheck-instances-0.3.28 <dev-haskell/quickcheck-instances-0.4 >=dev-haskell/tagged-0.8.6 <dev-haskell/tagged-0.9 >=dev-haskell/tasty-0.10.1.2 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-quickcheck-0.8.3.2 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/data-array-byte-0.1.0.1:=[profile?] <dev-haskell/data-array-byte-0.2:=[profile?] >=dev-haskell/onetuple-0.3:=[profile?] <dev-haskell/onetuple-0.5:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/quickcheck-2.13.1 <dev-haskell/quickcheck-2.15 >=dev-haskell/quickcheck-instances-0.3.28 <dev-haskell/quickcheck-instances-0.4 >=dev-haskell/tagged-0.8.6 <dev-haskell/tagged-0.9 >=dev-haskell/tasty-0.10.1.2 <dev-haskell/tasty-1.6 >=dev-haskell/tasty-quickcheck-0.8.3.2 <dev-haskell/tasty-quickcheck-0.11 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Compatibility package for binary; provides instances
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/binary-orphans
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/data-array-byte-0.1.0.1:=[profile?] <dev-haskell/data-array-byte-0.2:=[profile?] >=dev-haskell/onetuple-0.3:=[profile?] <dev-haskell/onetuple-0.5:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/data-array-byte-0.1.0.1:=[profile?] <dev-haskell/data-array-byte-0.2:=[profile?] >=dev-haskell/onetuple-0.3:=[profile?] <dev-haskell/onetuple-0.5:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0.4.1
-SRC_URI=https://hackage.haskell.org/package/binary-orphans-1.0.4.1/binary-orphans-1.0.4.1.tar.gz https://hackage.haskell.org/package/binary-orphans-1.0.4.1/revision/2.cabal -> binary-orphans-1.0.4.1-rev2.cabal
+SRC_URI=https://hackage.haskell.org/package/binary-orphans-1.0.4.1/binary-orphans-1.0.4.1.tar.gz https://hackage.haskell.org/package/binary-orphans-1.0.4.1/revision/3.cabal -> binary-orphans-1.0.4.1-rev3.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=027da371e5abf4b48984d54cd7a53f11
+_md5_=85db969490b2e1251ff27873e06f46a6

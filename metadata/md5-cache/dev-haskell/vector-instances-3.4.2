@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/comonad-3:=[profile?] >=dev-haskell/keys-3:=[profile?] >=dev-haskell/pointed-3:=[profile?] >=dev-haskell/semigroupoids-3:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= hashable? ( >=dev-haskell/hashable-1.2.5.0:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Orphan Instances for 'Data.Vector'
+EAPI=8
+HOMEPAGE=https://github.com/ekmett/vector-instances
+INHERIT=haskell-cabal
+IUSE=+hashable doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/comonad-3:=[profile?] >=dev-haskell/keys-3:=[profile?] >=dev-haskell/pointed-3:=[profile?] >=dev-haskell/semigroupoids-3:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= hashable? ( >=dev-haskell/hashable-1.2.5.0:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/3.4.2
+SRC_URI=https://hackage.haskell.org/package/vector-instances-3.4.2/vector-instances-3.4.2.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=7e4e20adc6ab7ec1948422b27b0a6159

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/base-compat-0.6 <dev-haskell/base-compat-0.14 >=dev-haskell/hspec-2 <dev-haskell/hspec-3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/base-compat-0.6 <dev-haskell/base-compat-0.14 >=dev-haskell/hspec-2 <dev-haskell/hspec-3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Backward- (and forward-)compatible Quote and Code types
 EAPI=8
 HOMEPAGE=https://github.com/haskell-compat/th-compat
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.1.4
-SRC_URI=https://hackage.haskell.org/package/th-compat-0.1.4/th-compat-0.1.4.tar.gz https://hackage.haskell.org/package/th-compat-0.1.4/revision/2.cabal -> th-compat-0.1.4-rev2.cabal
+SRC_URI=https://hackage.haskell.org/package/th-compat-0.1.4/th-compat-0.1.4.tar.gz https://hackage.haskell.org/package/th-compat-0.1.4/revision/4.cabal -> th-compat-0.1.4-rev4.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=ec4808c5e89acffd6e122c9f6b1c745c
+_md5_=a20a4418939392f10422a1d37e9dabef

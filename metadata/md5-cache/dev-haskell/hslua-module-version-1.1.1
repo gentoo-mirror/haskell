@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/hslua-core-2.3:=[profile?] <dev-haskell/hslua-core-2.4:=[profile?] >=dev-haskell/hslua-marshalling-2.3:=[profile?] <dev-haskell/hslua-marshalling-2.4:=[profile?] >=dev-haskell/hslua-packaging-2.3:=[profile?] <dev-haskell/hslua-packaging-2.4:=[profile?] >=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/tasty dev-haskell/tasty-hunit >=dev-haskell/tasty-lua-1.0 <dev-haskell/tasty-lua-1.2 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Lua module to work with version specifiers
+EAPI=8
+HOMEPAGE=https://hslua.org/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/hslua-core-2.3:=[profile?] <dev-haskell/hslua-core-2.4:=[profile?] >=dev-haskell/hslua-marshalling-2.3:=[profile?] <dev-haskell/hslua-marshalling-2.4:=[profile?] >=dev-haskell/hslua-packaging-2.3:=[profile?] <dev-haskell/hslua-packaging-2.4:=[profile?] >=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.1.1
+SRC_URI=https://hackage.haskell.org/package/hslua-module-version-1.1.1/hslua-module-version-1.1.1.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f95b0f46666b15a10bbd7c69f43d2dca

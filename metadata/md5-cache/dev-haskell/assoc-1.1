@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.8.1:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=swap and assoc: Symmetric and Semigroupy Bifunctors
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/assoc
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=+tagged doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.8.1:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= tagged? ( >=dev-haskell/tagged-0.8.6:=[profile?] <dev-haskell/tagged-0.9:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/1.1
-SRC_URI=https://hackage.haskell.org/package/assoc-1.1/assoc-1.1.tar.gz
+SRC_URI=https://hackage.haskell.org/package/assoc-1.1/assoc-1.1.tar.gz https://hackage.haskell.org/package/assoc-1.1/revision/1.cabal -> assoc-1.1-rev1.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=a7bb8fcdfcaea63376a5f98c9e1634f7
+_md5_=bf403af0a9275ed7b990750a71faa1a9

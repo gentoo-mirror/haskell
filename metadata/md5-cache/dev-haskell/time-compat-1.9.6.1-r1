@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0.10:=[profile?] >=dev-haskell/hashable-1.3.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( >=dev-haskell/base-compat-0.10.5 <dev-haskell/base-compat-0.14 >=dev-haskell/quickcheck-2.13 <dev-haskell/quickcheck-2.15 >=dev-haskell/tagged-0.8.6 <dev-haskell/tagged-0.9 >=dev-haskell/tasty-1.2.1 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.10 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10 <dev-haskell/tasty-quickcheck-0.11 || ( ( >=dev-haskell/hunit-1.3.1 <dev-haskell/hunit-1.3.2 ) ( >=dev-haskell/hunit-1.6.0.0 <dev-haskell/hunit-1.7 ) ) ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0.10:=[profile?] >=dev-haskell/hashable-1.3.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/base-compat-0.10.5 <dev-haskell/base-compat-0.14 >=dev-haskell/quickcheck-2.13 <dev-haskell/quickcheck-2.15 >=dev-haskell/tagged-0.8.6 <dev-haskell/tagged-0.9 >=dev-haskell/tasty-1.2.1 <dev-haskell/tasty-1.5 >=dev-haskell/tasty-hunit-0.10 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10 <dev-haskell/tasty-quickcheck-0.11 || ( ( >=dev-haskell/hunit-1.3.1 <dev-haskell/hunit-1.3.2 ) ( >=dev-haskell/hunit-1.6.0.0 <dev-haskell/hunit-1.7 ) ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Compatibility package for time
 EAPI=8
 HOMEPAGE=https://github.com/haskellari/time-compat
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=BSD
-RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0.10:=[profile?] >=dev-haskell/hashable-1.3.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0.10:=[profile?] >=dev-haskell/hashable-1.3.2.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.9.6.1
-SRC_URI=https://hackage.haskell.org/package/time-compat-1.9.6.1/time-compat-1.9.6.1.tar.gz https://hackage.haskell.org/package/time-compat-1.9.6.1/revision/5.cabal -> time-compat-1.9.6.1-rev5.cabal
+SRC_URI=https://hackage.haskell.org/package/time-compat-1.9.6.1/time-compat-1.9.6.1.tar.gz https://hackage.haskell.org/package/time-compat-1.9.6.1/revision/6.cabal -> time-compat-1.9.6.1-rev6.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=7cffe50a4cc7187c9a6a121790103fdc
+_md5_=6cd363802152488b0a3c76535184da4b

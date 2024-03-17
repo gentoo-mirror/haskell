@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/vector-0.7.1:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/data-default ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/vector-0.7.1:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/data-default ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Deriver for Data.Vector.Unboxed using Template Haskell
 EAPI=8
 HOMEPAGE=https://github.com/tsurucapital/vector-th-unbox
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/vector-0.7.1:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/vector-0.7.1:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.2
-SRC_URI=https://hackage.haskell.org/package/vector-th-unbox-0.2.2/vector-th-unbox-0.2.2.tar.gz https://hackage.haskell.org/package/vector-th-unbox-0.2.2/revision/4.cabal -> vector-th-unbox-0.2.2-rev4.cabal
+SRC_URI=https://hackage.haskell.org/package/vector-th-unbox-0.2.2/vector-th-unbox-0.2.2.tar.gz https://hackage.haskell.org/package/vector-th-unbox-0.2.2/revision/5.cabal -> vector-th-unbox-0.2.2-rev5.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=26884c48c6fabcb4743f7612da959b6a
+_md5_=e847c824787663fc2b84a58d2fffe64f

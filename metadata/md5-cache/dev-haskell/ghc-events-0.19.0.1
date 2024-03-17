@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/text-0.11.2.3:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/vector-0.7:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Library and tool for parsing .eventlog files from GHC
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/ghc-events
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/text-0.11.2.3:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/vector-0.7:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.19.0.1
+SRC_URI=https://hackage.haskell.org/package/ghc-events-0.19.0.1/ghc-events-0.19.0.1.tar.gz https://hackage.haskell.org/package/ghc-events-0.19.0.1/revision/1.cabal -> ghc-events-0.19.0.1-rev1.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f325a20a23932fde39fe11f872da4588

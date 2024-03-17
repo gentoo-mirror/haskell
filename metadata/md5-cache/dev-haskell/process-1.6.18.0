@@ -1,15 +1,16 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.10.6:= hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Process libraries
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/process
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.6.18.0
-SRC_URI=https://hackage.haskell.org/package/process-1.6.18.0/process-1.6.18.0.tar.gz
+SRC_URI=https://hackage.haskell.org/package/process-1.6.18.0/process-1.6.18.0.tar.gz https://hackage.haskell.org/package/process-1.6.18.0/revision/2.cabal -> process-1.6.18.0-rev2.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=c4794ed161ba9f429e261156681f751e
+_md5_=36d17ca4a55fca249a9dc57b655d6ba9

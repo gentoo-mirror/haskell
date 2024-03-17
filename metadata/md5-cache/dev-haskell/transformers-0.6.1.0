@@ -11,4 +11,4 @@ RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 SLOT=0/0.6.1.0
 SRC_URI=https://hackage.haskell.org/package/transformers-0.6.1.0/transformers-0.6.1.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=3bc451b57ffa1f84d80e43e30d155abd
+_md5_=eeeac08b202caad6be2a8617bbe91381

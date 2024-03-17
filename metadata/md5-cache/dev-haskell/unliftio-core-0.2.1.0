@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=The MonadUnliftIO typeclass for unlifting monads to IO
 EAPI=8
 HOMEPAGE=https://github.com/fpco/unliftio/tree/master/unliftio-core#readme
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.2.1.0
-SRC_URI=https://hackage.haskell.org/package/unliftio-core-0.2.1.0/unliftio-core-0.2.1.0.tar.gz https://hackage.haskell.org/package/unliftio-core-0.2.1.0/revision/2.cabal -> unliftio-core-0.2.1.0-rev2.cabal
+SRC_URI=https://hackage.haskell.org/package/unliftio-core-0.2.1.0/unliftio-core-0.2.1.0.tar.gz https://hackage.haskell.org/package/unliftio-core-0.2.1.0/revision/3.cabal -> unliftio-core-0.2.1.0-rev3.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=aa6ccd8ac2330603e00b68e64ecd7388
+_md5_=be54019bb2220f88918e02a29b50eb0e
