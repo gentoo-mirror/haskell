@@ -18,8 +18,12 @@ HOMEPAGE="https://www.haskell.org/cabal/"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-# KEYWORDS="~amd64"
+KEYWORDS="~amd64"
 IUSE="+lukko +native-dns"
+
+PATCHES=(
+	"${FILESDIR}/${PN}-3.8.1.0-fix-unit-test-imports.patch"
+)
 
 RDEPEND="
 	>=dev-haskell/async-2.0:=[profile?] <dev-haskell/async-2.3:=[profile?]

@@ -16,8 +16,7 @@ HOMEPAGE="https://github.com/kolmodin/binary"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-# keep in sync with ghc-9.4
-#KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 
 RESTRICT=test # circular depend: test-framework->base-orphans->cabal->semigroups->nats->binary
 
@@ -35,4 +34,4 @@ DEPEND="${RDEPEND}
 #		>=dev-haskell/test-framework-quickcheck2-0.3
 #	)
 
-CABAL_CORE_LIB_GHC_PV="9.4.4 9.4.5 9.4.7 9.4.8 9.6.3 9.6.4"
+CABAL_CORE_LIB_GHC_PV="9.4.4 9.4.5 9.4.7 9.4.8 9.6.3 9.6.4 9.8.2"
