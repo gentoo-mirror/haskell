@@ -1321,7 +1321,7 @@ dev-haskell/messagepack 0.5.4-r2: Serialize instance for Message Pack Object
 dev-haskell/mfsolve 0.3.2.1: Equation solver and calculator a la metafont
 dev-haskell/microaeson 0.1.0.1-r1: A tiny JSON library with light dependency footprint
 dev-haskell/microlens 0.4.13.0: A tiny lens library with no dependencies
-dev-haskell/microlens-aeson 2.5.0: Law-abiding lenses for Aeson, using microlens
+dev-haskell/microlens-aeson 2.5.2: Law-abiding lenses for Aeson, using microlens
 dev-haskell/microlens-ghc 0.4.14.2: microlens + array, bytestring, containers, transformers
 dev-haskell/microlens-mtl 0.2.0.2: microlens support for Reader/Writer/State from mtl
 dev-haskell/microlens-platform 0.4.3.5: microlens + all batteries included (best for apps)
