@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/th-abstraction-0.4:=[profile?] <dev-haskell/th-abstraction-0.5:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2 <dev-haskell/hspec-3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/th-abstraction-0.5:=[profile?] <dev-haskell/th-abstraction-0.7:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2 <dev-haskell/hspec-3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Generic programming library for generalised deriving
 EAPI=8
 HOMEPAGE=https://github.com/linear-generics/linear-generics
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/th-abstraction-0.4:=[profile?] <dev-haskell/th-abstraction-0.5:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/th-abstraction-0.5:=[profile?] <dev-haskell/th-abstraction-0.7:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.2
-SRC_URI=https://hackage.haskell.org/package/linear-generics-0.2/linear-generics-0.2.tar.gz
+SLOT=0/0.2.3
+SRC_URI=https://hackage.haskell.org/package/linear-generics-0.2.3/linear-generics-0.2.3.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=6034915372d310edc099c829d0173eaa
+_md5_=7281292f89feb9136d65cd538e71ddae
