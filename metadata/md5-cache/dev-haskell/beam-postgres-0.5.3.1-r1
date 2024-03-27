@@ -9,8 +9,8 @@ IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=dev-haskell/aeson-0.11:=[profile?] >=dev-haskell/attoparsec-0.13:=[profile?] <dev-haskell/attoparsec-0.15 =dev-haskell/beam-core-0.10*:=[profile?] =dev-haskell/beam-migrate-0.5*:=[profile?] =dev-haskell/case-insensitive-1.2*:=[profile?] >=dev-haskell/conduit-1.2:=[profile?] <dev-haskell/conduit-1.4 >=dev-haskell/free-4.12:=[profile?] <dev-haskell/free-5.3 >=dev-haskell/hashable-1.1:=[profile?] <dev-haskell/hashable-1.5 >=dev-haskell/haskell-src-exts-1.18:=[profile?] <dev-haskell/haskell-src-exts-1.24 =dev-haskell/lifted-base-0.2*:=[profile?] =dev-haskell/monad-control-1.0*:=[profile?] =dev-haskell/network-uri-2.6*:=[profile?] >=dev-haskell/postgresql-libpq-0.8:=[profile?] <dev-haskell/postgresql-libpq-0.10 >=dev-haskell/postgresql-simple-0.5:=[profile?] <dev-haskell/postgresql-simple-0.7 =dev-haskell/scientific-0.3*:=[profile?] =dev-haskell/tagged-0.8*:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-2.1 =dev-haskell/transformers-base-0.4*:=[profile?] =dev-haskell/unordered-containers-0.2*:=[profile?] =dev-haskell/uuid-types-1.0*:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14 >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
-RESTRICT=!test? ( test )
+RESTRICT=test !test? ( test )
 SLOT=0/0.5.3.1
 SRC_URI=https://hackage.haskell.org/package/beam-postgres-0.5.3.1/beam-postgres-0.5.3.1.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=a00e8da2106f958ecd83a230f7f72b41
+_md5_=55675398f31a7a220a573b71dc624812
