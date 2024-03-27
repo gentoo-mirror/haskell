@@ -63,11 +63,12 @@ S="${WORKDIR}"/${GHC_P}
 
 BUMP_LIBRARIES=(
 	# "hackage-name          hackage-version"
+	"process 1.6.18.0"
 )
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-#KEYWORDS="~amd64 ~ppc64 ~x86"
+KEYWORDS="~amd64"
 IUSE="big-endian doc elfutils ghcbootstrap ghcmakebinary +gmp llvm numa profile test unregisterised"
 RESTRICT="!test? ( test )"
 
@@ -183,9 +184,6 @@ bump_lib() {
 
 	einfo "Bumping ${pn} up to ${pv}"
 
-	for f in ghc.mk GNUmakefile; do
-		mv libraries/"${pn}"/$f "${WORKDIR}"/"${p}"/$f || die
-	done
 	mv libraries/"${pn}" "${WORKDIR}"/"${pn}".old || die
 	mv "${WORKDIR}"/"${p}" libraries/"${pn}" || die
 }
