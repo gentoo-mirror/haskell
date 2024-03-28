@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=<dev-haskell/regex-posix-1:= >=dev-haskell/unordered-containers-0.2:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.0.1:= inotify? ( >=dev-haskell/hinotify-0.3.6:= <dev-haskell/hinotify-0.5:= )
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/ztail-1.2.0.2/ztail-1.2.0.2.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=585f0e12e0c5ac1f518856575fbade0d

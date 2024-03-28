@@ -843,7 +843,7 @@ dev-haskell/happstack-hamlet 7.0.4-r1: Support for Hamlet HTML templates in Happ
 dev-haskell/happstack-hsp 7.3.7.6: Support for using HSP templates in Happstack
 dev-haskell/happstack-jmacro 7.0.12.4: Support for using JMacro with Happstack
 dev-haskell/happstack-plugins 7.0.2-r3: The haskell application server stack + reload
-dev-haskell/happstack-server 7.8.0.1: Web related tools and services
+dev-haskell/happstack-server 7.8.0.2: Web related tools and services
 dev-haskell/happstack-server-tls 7.2.1.3: extend happstack-server with https:// support (TLS/SSL)
 dev-haskell/happy 1.20.1.1: Happy is a parser generator for Haskell
 dev-haskell/harp 0.4.3.4: HaRP allows pattern-matching with regular expressions
@@ -869,7 +869,7 @@ dev-haskell/haskell-src 1.0.3.1: Support for manipulating Haskell source code
 dev-haskell/haskell-src-exts 1.23.1: Manipulating Haskell source: abstract syntax, lexer, parser, and pretty-printer
 dev-haskell/haskell-src-exts-simple 1.23.0.0: A simplified view on the haskell-src-exts AST
 dev-haskell/haskell-src-exts-util 0.2.5: Helper functions for working with haskell-src-exts trees
-dev-haskell/haskell-src-meta 0.8.11: Parse source to template-haskell abstract syntax
+dev-haskell/haskell-src-meta 0.8.13: Parse source to template-haskell abstract syntax
 dev-haskell/haskellnet 0.5.2-r1 0.6.1.2: Client support for POP3, SMTP, and IMAP
 dev-haskell/haskellnet-ssl 0.3.4.4: Helpers to connect to SSL/TLS mail servers with HaskellNet
 dev-haskell/haskey 0.3.1.0-r1: A transactional, ACID compliant, embeddable key-value store
@@ -1275,7 +1275,7 @@ dev-haskell/log-domain 0.13.2: Log-domain arithmetic
 dev-haskell/log-postgres 0.9.0.0: Structured logging solution (PostgreSQL back end)
 dev-haskell/logfloat 0.13.3.3-r1: Log-domain floating point numbers
 dev-haskell/logging-effect 1.3.13: A mtl-style monad transformer for general purpose & compositional logging
-dev-haskell/logging-facade 0.3.0: Simple logging abstraction that allows multiple back-ends
+dev-haskell/logging-facade 0.3.1: Simple logging abstraction that allows multiple back-ends
 dev-haskell/logict 0.8.1.0: A backtracking logic-programming monad
 dev-haskell/logict-state 0.1.0.5: Library for logic programming based on haskell package logict
 dev-haskell/loop 0.3.0: Fast loops (for when GHC can't optimize forM_)
@@ -1985,7 +1985,7 @@ dev-haskell/tasty-hedgehog 1.4.0.2: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.1.0: Tasty helpers to test HsLua
 dev-haskell/tasty-hspec 1.2.0.4: Hspec support for the Tasty test framework
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
-dev-haskell/tasty-inspection-testing 0.2: Inspection testing support for tasty
+dev-haskell/tasty-inspection-testing 0.2.1: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.1.0: Write tests in Lua, integrate into tasty
 dev-haskell/tasty-quickcheck 0.10.2: QuickCheck support for the Tasty test framework
@@ -2051,14 +2051,14 @@ dev-haskell/th-expand-syns 0.4.11.0: Expands type synonyms in Template Haskell A
 dev-haskell/th-extras 0.0.0.6: A grab bag of functions for use with Template Haskell
 dev-haskell/th-lift 0.8.4: Derive Template Haskell's Lift class for datatypes
 dev-haskell/th-lift-instances 0.1.20: Lift instances for template-haskell for common data types
-dev-haskell/th-orphans 0.13.13: Orphan instances for TH datatypes
+dev-haskell/th-orphans 0.13.14: Orphan instances for TH datatypes
 dev-haskell/th-reify-compat 0.0.1.5: Compatibility for the result type of TH reify
 dev-haskell/th-reify-many 0.1.10: Recurseively reify template haskell datatype info
 dev-haskell/th-utilities 0.2.4.3: Collection of useful functions for use with Template Haskell
 dev-haskell/themoviedb 1.2.2: Haskell API bindings for http://themoviedb.org
 dev-haskell/these 1.2: An either-or-both data type
 dev-haskell/these-lens 1.0.1.3: Lenses for These
-dev-haskell/threads 0.5.1.7: Fork threads and wait for their result
+dev-haskell/threads 0.5.1.8: Fork threads and wait for their result
 dev-haskell/threepenny-gui 0.9.4.1: GUI framework that uses the web browser as a display
 dev-haskell/thyme 0.3.5.5: A faster time library
 dev-haskell/tidal 1.7.10: Pattern language for improvised music
@@ -2230,7 +2230,7 @@ dev-haskell/webdriver 0.8.5 0.9.0.1: a Haskell client for the Selenium WebDriver
 dev-haskell/websockets 0.12.7.3: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-haskell/websockets-snap 0.10.3.1: Snap integration for the websockets library
 dev-haskell/weeder 1.0.8: Detect dead code
-dev-haskell/weigh 0.0.16-r1: Measure allocations of a Haskell functions/values
+dev-haskell/weigh 0.0.17: Measure allocations of a Haskell functions/values
 dev-haskell/which 0.2.0.1: Determine the full path to an executable
 dev-haskell/wide-word 0.1.5.0: Data types for large but fixed width signed and unsigned integers
 dev-haskell/winery 1.1.3: Sustainable serialisation library

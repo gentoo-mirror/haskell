@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/monad-control-0.3:=[profile?] >=dev-haskell/transformers-base-0.4:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.8 test? ( >=dev-haskell/hunit-1.2.2 >=dev-haskell/monad-control-1.0.0.3 >=dev-haskell/test-framework-0.2.4 >=dev-haskell/test-framework-hunit-0.2.4 >=dev-haskell/transformers-0.3 >=dev-haskell/transformers-base-0.4.4 >=dev-haskell/transformers-compat-0.3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/monad-control-0.3:=[profile?] >=dev-haskell/transformers-base-0.4:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hunit-1.2.2 >=dev-haskell/monad-control-1.0.0.3 >=dev-haskell/test-framework-0.2.4 >=dev-haskell/test-framework-hunit-0.2.4 >=dev-haskell/transformers-base-0.4.4 >=dev-haskell/transformers-compat-0.3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=lifted IO operations from the base library
 EAPI=8
 HOMEPAGE=https://github.com/basvandijk/lifted-base
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~amd64-linux
 LICENSE=BSD
-RDEPEND=>=dev-haskell/monad-control-0.3:=[profile?] >=dev-haskell/transformers-base-0.4:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/monad-control-0.3:=[profile?] >=dev-haskell/transformers-base-0.4:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.2.3.12
 SRC_URI=https://hackage.haskell.org/package/lifted-base-0.2.3.12/lifted-base-0.2.3.12.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=3764ee5451058ab85db7409adfa937b5
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=018ee6aa7f4f16d8514eec0ed0a5eb65

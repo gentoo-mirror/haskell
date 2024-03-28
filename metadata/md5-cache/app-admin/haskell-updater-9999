@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=|| ( >=sys-apps/portage-2.1.6 sys-apps/pkgcore )
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	208c8ba795e59387cd4001ad24c064ed	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=c20e3d312e898ff896aeed78d2789cff
