@@ -9,7 +9,8 @@ IUSE=build-sanity-exe doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=dev-db/sqlite-3.0 >=dev-haskell/aeson-1.0:=[profile?] >=dev-haskell/conduit-1.2.12:=[profile?] >=dev-haskell/microlens-th-0.4.1.1:=[profile?] >=dev-haskell/monad-logger-0.3.25:=[profile?] >=dev-haskell/persistent-2.13.3:=[profile?] <dev-haskell/persistent-3:=[profile?] dev-haskell/resource-pool:=[profile?] >=dev-haskell/resourcet-1.1.9:=[profile?] >=dev-haskell/text-1.2:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-8.10.6:= virtual/libc dev-lang/ghc:=[profile?]
+RESTRICT=test
 SLOT=0/2.13.3.0
 SRC_URI=https://hackage.haskell.org/package/persistent-sqlite-2.13.3.0/persistent-sqlite-2.13.3.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=4174197728ef5b82fa89b26d1d44b008
+_md5_=25762a6023e82ad87a5f8665debae5c0
