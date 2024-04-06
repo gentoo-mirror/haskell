@@ -261,7 +261,7 @@ dev-haskell/logfloat:useffi - Use FFI to link C's log1p. Improves accuracy while
 dev-haskell/lpeg:rely-on-shared-lpeg-library - Do not build lpeg from source, but trust that lpeg is made available in other ways, e.g., through a system-wide installation. The loader will be replaced with a placeholder function that only emits a message.
 dev-haskell/lua:system-lua - Use @pkg-config@ to discover library and include paths. Setting this flag implies `pkg-config`.
 dev-haskell/markdown-unlit:executable - Build executable
-dev-haskell/massiv:unsafe-checks - Enable all the bounds checks for unsafe functions at the cost of significant performance penalty
+dev-haskell/massiv:unsafe-checks - Enable all the bounds checks for unsafe functions at the cost of performance penalty
 dev-haskell/midi-alsa:buildexamples - Build example executables.
 dev-haskell/misfortune:executable - Build the misfortune and misfortune-strfile executables
 dev-haskell/miso:jsstring-only - Always set MisoString = JSString
