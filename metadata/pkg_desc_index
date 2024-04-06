@@ -874,7 +874,7 @@ dev-haskell/haskellnet 0.5.2-r1 0.6.1.2: Client support for POP3, SMTP, and IMAP
 dev-haskell/haskellnet-ssl 0.3.4.4: Helpers to connect to SSL/TLS mail servers with HaskellNet
 dev-haskell/haskey 0.3.1.0-r1: A transactional, ACID compliant, embeddable key-value store
 dev-haskell/haskey-btree 0.3.0.1: B+-tree implementation in Haskell
-dev-haskell/hasktags 0.71.2-r2 9999: Produces ctags "tags" and etags "TAGS" files for Haskell programs
+dev-haskell/hasktags 0.73.0 9999: Produces ctags "tags" and etags "TAGS" files for Haskell programs
 dev-haskell/haspell 1.1.0: Haskell bindings to aspell
 dev-haskell/hatex 3.22.3.1: The Haskell LaTeX library
 dev-haskell/haxml 1.25.8: Utilities for manipulating XML documents
