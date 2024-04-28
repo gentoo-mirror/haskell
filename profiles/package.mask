@@ -1,21 +1,5 @@
 # hololeap <hololeap@protonmail.com> (2024-03-27)
 #
-# system-fileio has been deprecated for years. Mask for removal.
-#
-# Removal: 2024-04-26
-dev-haskell/system-fileio
-
-# hololeap <hololeap@protonmail.com> (2024-03-27)
-#
-# dev-haskell/git has no upstream activity for over three years. Mask 
-# it and revdeps for removal.
-#
-# Removal: 2024-04-26
-dev-haskell/git
-dev-haskell/hit
-
-# hololeap <hololeap@protonmail.com> (2024-03-27)
-#
 # These package versions depend on a minimum GHC of 9.8, which is still
 # considered experimental.
 #
@@ -118,12 +102,6 @@ dev-haskell/hit
 >=dev-haskell/hlint-3.8
 >=dev-haskell/hoauth2-2.12
 >=dev-haskell/stack-2.11
-
-# hololeap <hololeap@protonmail.com> (2024-02-11)
-#
-# No longer needed by HLS ecosystem, masked for removal
-# Removal: 2024-03-12
-dev-haskell/implicit-hie-cradle
 
 # Jack Todaro <solpeth@posteo.org> (2023-12-08)
 # Mask irc-core-2.12 until glirc-2.40 blockers can be cleared (e.g. vty)
