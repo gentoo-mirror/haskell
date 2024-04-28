@@ -774,7 +774,6 @@ dev-haskell/gi-webkit2 4.0.28: WebKit2 bindings
 dev-haskell/gi-xlib 2.0.13: xlib bindings
 dev-haskell/ginger 0.10.4.0-r1: An implementation of the Jinja2 template language in Haskell
 dev-haskell/gio 0.13.10.0: Binding to GIO
-dev-haskell/git 0.3.0: Git operations in haskell
 dev-haskell/git-lfs 1.2.2: git-lfs protocol
 dev-haskell/githash 0.1.7.0: Compile git revision info into Haskell projects
 dev-haskell/github 0.29: Access to the GitHub API, v3
@@ -923,7 +922,6 @@ dev-haskell/highlighter 0.2.2-r1: source code highlighting
 dev-haskell/hinotify 0.4.1: Haskell binding to inotify
 dev-haskell/hint 0.9.0.7: A Haskell interpreter built on top of the GHC API
 dev-haskell/hip 1.5.6.0: Haskell Image Processing (HIP) Library
-dev-haskell/hit 0.7.0: Git operations in haskell
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
 dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
@@ -1117,7 +1115,6 @@ dev-haskell/ilist 0.3.1.0 0.4.0.1: Optimised list functions for doing index-rela
 dev-haskell/imagesize-conduit 1.1-r1: Determine the size of some common image formats
 dev-haskell/imlib 0.1.2-r1: Haskell binding for Imlib 2
 dev-haskell/implicit-hie 0.1.4.0: Auto generate hie-bios cradles & hie.yaml
-dev-haskell/implicit-hie-cradle 0.5.0.0-r1: Auto generate hie-bios cradles
 dev-haskell/incipit-base 0.5.1.0: A Prelude for Polysemy – Base Reexports
 dev-haskell/incipit-core 0.5.1.0: A Prelude for Polysemy
 dev-haskell/indents 0.5.0.1: indentation sensitive parser-combinators for parsec
@@ -1958,7 +1955,6 @@ dev-haskell/synthesizer-core 0.8.3: Audio signal processing coded in Haskell: Lo
 dev-haskell/synthesizer-dimensional 0.8.1: Audio signal processing with static physical dimensions
 dev-haskell/synthesizer-midi 0.6.1.1: Render audio signals from MIDI files or realtime messages
 dev-haskell/system-argv0 0.1.1-r1: Get argv[0] as a FilePath
-dev-haskell/system-fileio 0.3.16.4: Consistent filesystem interaction across GHC versions (deprecated)
 dev-haskell/system-filepath 0.4.14-r1: High-level, byte-based file and directory path manipulations (deprecated)
 dev-haskell/system-info 0.5.2: Get the name of the operating system
 dev-haskell/system-posix-redirect 1.1.0.1: A toy module to temporarily redirect a program's stdout
