@@ -2383,7 +2383,7 @@ sci-biology/bamstats 0.4: A program to extract various information from BAM alig
 sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
 sci-mathematics/agda 2.6.3.0: A dependently typed functional programming language and proof assistant
 sci-mathematics/agda-stdlib 2.6.3.0.1.7.2: Agda standard library
-sci-mathematics/spline3 1.0.0: A parallel implementation of the Sorokina/Zeilfelder spline scheme
+sci-mathematics/spline3 1.0.2: parallel implementation of the Sorokina/Zeilfelder spline scheme
 virtual/pandoc 0: Virtual for pandoc
 www-apps/clckwrks 0.28.0.1-r1: A secure, reliable content management system (CMS) and blogging platform
 www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some aspects of clckwrks
