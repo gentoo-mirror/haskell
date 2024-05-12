@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/co-log-core:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/dependent-map:=[profile?] >=dev-haskell/dependent-sum-0.7:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] dev-haskell/dlist:=[profile?] dev-haskell/extra:=[profile?] dev-haskell/hashable:=[profile?] ~dev-haskell/hls-graph-2.7.0.0:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/lens-aeson:=[profile?] >=dev-haskell/lsp-2.4:=[profile?] <dev-haskell/lsp-2.5:=[profile?] >=dev-haskell/megaparsec-9.0:=[profile?] >=dev-haskell/opentelemetry-0.4:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/prettyprinter:=[profile?] >=dev-haskell/regex-tdfa-1.3.1.0:=[profile?] dev-haskell/row-types:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unliftio:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= fingertree? ( dev-haskell/hw-fingertree:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/lsp-types dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/tasty-rerun ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell Language Server API for plugin communication
+EAPI=8
+HOMEPAGE=https://github.com/haskell/haskell-language-server#readme
+INHERIT=haskell-cabal
+IUSE=+fingertree doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/co-log-core:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/dependent-map:=[profile?] >=dev-haskell/dependent-sum-0.7:=[profile?] >=dev-haskell/diff-0.4.0:=[profile?] <dev-haskell/diff-0.5:=[profile?] dev-haskell/dlist:=[profile?] dev-haskell/extra:=[profile?] dev-haskell/hashable:=[profile?] ~dev-haskell/hls-graph-2.7.0.0:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/lens-aeson:=[profile?] >=dev-haskell/lsp-2.4:=[profile?] <dev-haskell/lsp-2.5:=[profile?] >=dev-haskell/megaparsec-9.0:=[profile?] >=dev-haskell/opentelemetry-0.4:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/prettyprinter:=[profile?] >=dev-haskell/regex-tdfa-1.3.1.0:=[profile?] dev-haskell/row-types:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unliftio:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= fingertree? ( dev-haskell/hw-fingertree:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/2.7.0.0
+SRC_URI=https://hackage.haskell.org/package/hls-plugin-api-2.7.0.0/hls-plugin-api-2.7.0.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f1fc7c9145cdab37ff24e153657520ee

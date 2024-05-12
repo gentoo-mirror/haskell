@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/extra:=[profile?] ~dev-haskell/ghcide-2.6.0.0:=[profile?] dev-haskell/hiedb:=[profile?] ~dev-haskell/hls-graph-2.6.0.0:=[profile?] ~dev-haskell/hls-plugin-api-2.6.0.0:=[profile?] dev-haskell/lens:=[profile?] >=dev-haskell/lsp-2.3:=[profile?] dev-haskell/sqlite-simple:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/extra:=[profile?] ~dev-haskell/ghcide-2.6.0.0:=[profile?] >=dev-haskell/hiedb-0.5:=[profile?] <dev-haskell/hiedb-0.6 ~dev-haskell/hls-graph-2.6.0.0:=[profile?] ~dev-haskell/hls-plugin-api-2.6.0.0:=[profile?] dev-haskell/lens:=[profile?] >=dev-haskell/lsp-2.3:=[profile?] <dev-haskell/lsp-2.4 dev-haskell/sqlite-simple:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Call hierarchy plugin for Haskell Language Server
 EAPI=8
 HOMEPAGE=https://github.com/haskell/haskell-language-server/tree/master/plugins/hls-semantic-tokens-plugin#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=Apache-2.0
-RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/extra:=[profile?] ~dev-haskell/ghcide-2.6.0.0:=[profile?] dev-haskell/hiedb:=[profile?] ~dev-haskell/hls-graph-2.6.0.0:=[profile?] ~dev-haskell/hls-plugin-api-2.6.0.0:=[profile?] dev-haskell/lens:=[profile?] >=dev-haskell/lsp-2.3:=[profile?] dev-haskell/sqlite-simple:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/extra:=[profile?] ~dev-haskell/ghcide-2.6.0.0:=[profile?] >=dev-haskell/hiedb-0.5:=[profile?] <dev-haskell/hiedb-0.6 ~dev-haskell/hls-graph-2.6.0.0:=[profile?] ~dev-haskell/hls-plugin-api-2.6.0.0:=[profile?] dev-haskell/lens:=[profile?] >=dev-haskell/lsp-2.3:=[profile?] <dev-haskell/lsp-2.4 dev-haskell/sqlite-simple:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/2.6.0.0
 SRC_URI=https://hackage.haskell.org/package/hls-semantic-tokens-plugin-2.6.0.0/hls-semantic-tokens-plugin-2.6.0.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=34ccab8867671df818ec1142e6e5a5a6
+_md5_=ac3a4aaab670f68e3af09579f1e928cc

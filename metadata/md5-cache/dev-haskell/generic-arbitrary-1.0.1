@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/quickcheck:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/tasty dev-haskell/tasty-discover dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/quickcheck:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/tasty dev-haskell/tasty-discover dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Generic implementation for QuickCheck's Arbitrary
 EAPI=8
 HOMEPAGE=https://github.com/typeable/generic-arbitrary#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/quickcheck:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/quickcheck:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/1.0.0
-SRC_URI=https://hackage.haskell.org/package/generic-arbitrary-1.0.0/generic-arbitrary-1.0.0.tar.gz
+SLOT=0/1.0.1
+SRC_URI=https://hackage.haskell.org/package/generic-arbitrary-1.0.1/generic-arbitrary-1.0.1.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=47aeb184d5f29cd6a49dd0445ba1a841
+_md5_=1c71276293edfb68087e66f161bf3170
