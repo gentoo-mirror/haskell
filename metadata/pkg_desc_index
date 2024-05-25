@@ -3,7 +3,7 @@ acct-group/mighttpd2 0: A group for www-servers/mighttpd2
 acct-user/hoogle 0: A user for dev-util/hoogle
 acct-user/mighttpd2 0: A user for www-servers/mighttpd2
 app-accessibility/hsay 1.1.0-r3: (ab)Use Google Translate as a speech synthesiser
-app-admin/haskell-updater 1.3.2 1.3.3 9999: Rebuild Haskell dependencies in Gentoo
+app-admin/haskell-updater 1.3.2 1.3.3 1.4.0.0 9999: Rebuild Haskell dependencies in Gentoo
 app-admin/propellor 5.12: property-based host configuration management in haskell
 app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early 1980s
 app-crypt/hb3sum 0.0.0.1: A command line tool to compute BLAKE3 hashes

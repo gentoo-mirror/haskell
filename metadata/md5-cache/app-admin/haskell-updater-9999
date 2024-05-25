@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=>=dev-lang/ghc-6.12.1
+DEPEND=>=dev-lang/ghc-9.0.2:=
 DESCRIPTION=Rebuild Haskell dependencies in Gentoo
 EAPI=8
 HOMEPAGE=https://github.com/gentoo-haskell/haskell-updater#readme
@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=|| ( >=sys-apps/portage-2.1.6 sys-apps/pkgcore )
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=c20e3d312e898ff896aeed78d2789cff
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=a70d0c94177d43c8a51e565b3f365308
