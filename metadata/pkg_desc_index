@@ -740,7 +740,7 @@ dev-haskell/ghc-typelits-knownnat 0.7.10: Derive KnownNat constraints from other
 dev-haskell/ghc-typelits-natnormalise 0.7.9: GHC typechecker plugin for types of kind GHC.TypeLits.Nat
 dev-haskell/ghci-pretty 0.0.2: colored pretty-printing within ghci
 dev-haskell/ghcid 0.8.8-r1: GHCi based bare bones IDE
-dev-haskell/ghcide 2.6.0.0 2.7.0.0: The core of an IDE
+dev-haskell/ghcide 2.6.0.0 2.7.0.0-r1: The core of an IDE
 dev-haskell/ghcide-test-utils 1.9.0.0: Test utils for ghcide
 dev-haskell/ghcjs-codemirror 0.0.0.2: Installs CodeMirror JavaScript files
 dev-haskell/gi-atk 2.0.27: Atk bindings

@@ -136,6 +136,7 @@ dev-haskell/ghc-lib-parser:threads - Pass -DTHREADED_RTS to the C toolchain
 dev-haskell/ghc-prof:dump - Build the executable "dump"
 dev-haskell/ghcide:executable - Build the ghcide executable
 dev-haskell/ghcide:test-exe - Build the ghcide-test-preprocessor executable
+dev-haskell/ghcide:test-lib - Build the ghcide-test-utils library
 dev-haskell/gi-cairo-render:svg - Build the Scalable Vector Graphics (SVG) backend of Cairo.
 dev-haskell/github:openssl - "Use http-client-openssl"
 dev-haskell/glfw:system-glfw - use media-libs/glfw instead of bundled version
