@@ -58,7 +58,7 @@ dev-haskell/algebraic-graphs 0.6.1 0.7: A library for algebraic graph constructi
 dev-haskell/align 0.1.1.2: Sequence alignment algorithms
 dev-haskell/allocated-processor 0.0.2-r1: Functional combinators for monadic actions that require (de)allocation
 dev-haskell/alsa-core 0.5.0.1-r2: Binding to the ALSA Library API (Exceptions)
-dev-haskell/alsa-mixer 0.3.0: Bindings to the ALSA simple mixer API
+dev-haskell/alsa-mixer 0.3.0.1: Bindings to the ALSA simple mixer API
 dev-haskell/alsa-pcm 0.6.1.1: Binding to the ALSA Library API (PCM audio)
 dev-haskell/alsa-seq 0.6.0.8: Binding to the ALSA Library API (MIDI sequencer)
 dev-haskell/alut 2.4.0.3: A binding for the OpenAL Utility Toolkit
@@ -920,7 +920,7 @@ dev-haskell/hiedb 0.5.0.1 0.6.0.0: Generates a references DB from .hie files
 dev-haskell/higgledy 0.4.2.1-r2: Partial types as a type constructor
 dev-haskell/highlighter 0.2.2-r1: source code highlighting
 dev-haskell/hinotify 0.4.1: Haskell binding to inotify
-dev-haskell/hint 0.9.0.7: A Haskell interpreter built on top of the GHC API
+dev-haskell/hint 0.9.0.8: A Haskell interpreter built on top of the GHC API
 dev-haskell/hip 1.5.6.0: Haskell Image Processing (HIP) Library
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjscript 0.7.0: HJScript is a Haskell EDSL for writing JavaScript programs
@@ -1580,7 +1580,7 @@ dev-haskell/poll 0.0.0.2: Bindings to poll.h
 dev-haskell/polynomial 0.7.3: Polynomials
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/polysemy 1.9.1.3: Higher-order, low-boilerplate free monads
-dev-haskell/polysemy-plugin 0.4.5.0-r1: Disambiguate obvious uses of effects
+dev-haskell/polysemy-plugin 0.4.5.2: Disambiguate obvious uses of effects
 dev-haskell/polysemy-test 0.7.0.0: Polysemy Effects for Testing
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/polysemy-zoo 0.8.2.0: Experimental, user-contributed effects and interpreters for polysemy
