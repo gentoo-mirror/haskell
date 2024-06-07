@@ -78,6 +78,15 @@ S="${WORKDIR}"/${GHC_P}
 
 BUMP_LIBRARIES=(
 	# "hackage-name          hackage-version"
+
+	# These libs are a higher version in ghc-9.6.5 than they are in ghc-9.8.2
+	# This could cause problems for hackport when determining minimum ghc
+	# version, so we upgrade them.
+	"Cabal-syntax 3.10.3.0"
+	"Cabal        3.10.3.0"
+	"directory    1.3.8.4"
+	"filepath     1.4.300.1"
+	"process      1.6.19.0"
 )
 
 LICENSE="BSD"
@@ -86,7 +95,7 @@ KEYWORDS="~amd64"
 IUSE="big-endian doc elfutils ghcbootstrap ghcmakebinary +gmp llvm numa profile test unregisterised"
 RESTRICT="!test? ( test )"
 
-LLVM_MAX_SLOT="16"
+LLVM_MAX_SLOT="17"
 RDEPEND="
 	>=dev-lang/perl-5.6.1
 	dev-libs/gmp:0=
@@ -99,6 +108,7 @@ RDEPEND="
 		|| (
 			sys-devel/llvm:15
 			sys-devel/llvm:16
+			sys-devel/llvm:17
 		)
 	)
 "
@@ -188,21 +198,19 @@ append-ghc-cflags() {
 	done
 }
 
-# $1 - lib name (under libraries/)
-# $2 - lib version
+# $1 - subdirectory (under libraries/)
+# $2 - lib name (under libraries/)
+# $3 - lib version
 # example: bump_lib "transformers" "0.4.2.0"
 bump_lib() {
-	local pn=$1 pv=$2
+	local subdir="$1" pn=$2 pv=$3
 	local p=${pn}-${pv}
 	local f
 
 	einfo "Bumping ${pn} up to ${pv}"
 
-	for f in ghc.mk GNUmakefile; do
-		mv libraries/"${pn}"/$f "${WORKDIR}"/"${p}"/$f || die
-	done
-	mv libraries/"${pn}" "${WORKDIR}"/"${pn}".old || die
-	mv "${WORKDIR}"/"${p}" libraries/"${pn}" || die
+	mv libraries/"${subdir}"/"${pn}" "${WORKDIR}"/"${pn}".old || die
+	mv "${WORKDIR}"/"${p}" libraries/"${subdir}"/"${pn}" || die
 }
 
 update_SRC_URI() {
@@ -218,12 +226,18 @@ update_SRC_URI() {
 update_SRC_URI
 
 bump_libs() {
-	local p pn pv
+	local p pn pv subdir
 	for p in "${BUMP_LIBRARIES[@]}"; do
 		set -- $p
 		pn=$1 pv=$2
 
-		bump_lib "${pn}" "${pv}"
+		if [[ "$pn" == "Cabal-syntax" ]] || [[ "$pn" == "Cabal" ]]; then
+			subdir="Cabal"
+		else
+			subdir=""
+		fi
+
+		bump_lib "${subdir}" "${pn}" "${pv}"
 	done
 }
 
@@ -454,14 +468,14 @@ src_prepare() {
 
 	if ! use ghcbootstrap && ! upstream_binary; then
 		# Make GHC's settings file comply with user's settings
-			GHC_SETTINGS="${WORKDIR}/usr/$(get_libdir)/${PN}-${BIN_PV}/lib/settings"
-			sed -i "s/,(\"C compiler command\", \".*\")/,(\"C compiler command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
-			sed -i "s/,(\"C++ compiler command\", \".*\")/,(\"C++ compiler command\", \"$(tc-getCXX)\")/" "${GHC_SETTINGS}" || die
-			sed -i "s/,(\"Haskell CPP command\", \".*\")/,(\"Haskell CPP command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
-			sed -i "s/,(\"ld command\", \".*\")/,(\"ld command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
-			sed -i "s/,(\"Merge objects command\", \".*\")/,(\"Merge objects command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
-			sed -i "s/,(\"ar command\", \".*\")/,(\"ar command\", \"$(tc-getAR)\")/" "${GHC_SETTINGS}" || die
-			sed -i "s/,(\"ranlib command\", \".*\")/,(\"ranlib command\", \"$(tc-getRANLIB)\")/" "${GHC_SETTINGS}" || die
+		GHC_SETTINGS="${WORKDIR}/usr/$(get_libdir)/${PN}-${BIN_PV}/lib/settings"
+		sed -i "s/,(\"C compiler command\", \".*\")/,(\"C compiler command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
+		sed -i "s/,(\"C++ compiler command\", \".*\")/,(\"C++ compiler command\", \"$(tc-getCXX)\")/" "${GHC_SETTINGS}" || die
+		sed -i "s/,(\"Haskell CPP command\", \".*\")/,(\"Haskell CPP command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
+		sed -i "s/,(\"ld command\", \".*\")/,(\"ld command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
+		sed -i "s/,(\"Merge objects command\", \".*\")/,(\"Merge objects command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
+		sed -i "s/,(\"ar command\", \".*\")/,(\"ar command\", \"$(tc-getAR)\")/" "${GHC_SETTINGS}" || die
+		sed -i "s/,(\"ranlib command\", \".*\")/,(\"ranlib command\", \"$(tc-getRANLIB)\")/" "${GHC_SETTINGS}" || die
 	fi
 	use llvm && ! use ghcbootstrap && llvmize "$(ghc_bin_path)"
 
@@ -505,9 +519,9 @@ src_prepare() {
 	#eapply "${FILESDIR}"/${PN}-9.0.2-llvm-13.patch
 	#eapply "${FILESDIR}"/${PN}-9.0.2-llvm-14.patch
 
-		# https://gitlab.haskell.org/ghc/ghc/-/issues/22954
-		# https://gitlab.haskell.org/ghc/ghc/-/issues/21936
-		eapply "${FILESDIR}"/${PN}-9.6.4-llvm-16.patch
+	# https://gitlab.haskell.org/ghc/ghc/-/issues/22954
+	# https://gitlab.haskell.org/ghc/ghc/-/issues/21936
+	eapply "${FILESDIR}"/${PN}-9.6.4-llvm-17.patch
 
 	# Fix issue caused by non-standard "musleabi" target in
 	# https://gitlab.haskell.org/ghc/ghc/-/blob/ghc-9.4.5-release/m4/ghc_llvm_target.m4#L39

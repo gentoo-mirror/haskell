@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -78,7 +78,6 @@ S="${WORKDIR}"/${GHC_P}
 
 BUMP_LIBRARIES=(
 	# "hackage-name          hackage-version"
-	"process 1.6.18.0"
 )
 
 LICENSE="BSD"
@@ -190,19 +189,18 @@ append-ghc-cflags() {
 	done
 }
 
-# $1 - subdirectory (under libraries/)
-# $2 - lib name (under libraries/)
-# $3 - lib version
+# $1 - lib name (under libraries/)
+# $2 - lib version
 # example: bump_lib "transformers" "0.4.2.0"
 bump_lib() {
-	local subdir="$1" pn=$2 pv=$3
+	local pn=$1 pv=$2
 	local p=${pn}-${pv}
 	local f
 
 	einfo "Bumping ${pn} up to ${pv}"
 
-	mv libraries/"${subdir}"/"${pn}" "${WORKDIR}"/"${pn}".old || die
-	mv "${WORKDIR}"/"${p}" libraries/"${subdir}"/"${pn}" || die
+	mv libraries/"${pn}" "${WORKDIR}"/"${pn}".old || die
+	mv "${WORKDIR}"/"${p}" libraries/"${pn}" || die
 }
 
 update_SRC_URI() {
@@ -218,18 +216,12 @@ update_SRC_URI() {
 update_SRC_URI
 
 bump_libs() {
-	local p pn pv subdir
+	local p pn pv
 	for p in "${BUMP_LIBRARIES[@]}"; do
 		set -- $p
 		pn=$1 pv=$2
 
-		if [[ "$pn" == "Cabal-syntax" ]] || [[ "$pn" == "Cabal" ]]; then
-			subdir="Cabal"
-		else
-			subdir=""
-		fi
-
-		bump_lib "${subdir}" "${pn}" "${pv}"
+		bump_lib "${pn}" "${pv}"
 	done
 }
 
@@ -460,14 +452,14 @@ src_prepare() {
 
 	if ! use ghcbootstrap && ! upstream_binary; then
 		# Make GHC's settings file comply with user's settings
-		GHC_SETTINGS="${WORKDIR}/usr/$(get_libdir)/${PN}-${BIN_PV}/lib/settings"
-		sed -i "s/,(\"C compiler command\", \".*\")/,(\"C compiler command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
-		sed -i "s/,(\"C++ compiler command\", \".*\")/,(\"C++ compiler command\", \"$(tc-getCXX)\")/" "${GHC_SETTINGS}" || die
-		sed -i "s/,(\"Haskell CPP command\", \".*\")/,(\"Haskell CPP command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
-		sed -i "s/,(\"ld command\", \".*\")/,(\"ld command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
-		sed -i "s/,(\"Merge objects command\", \".*\")/,(\"Merge objects command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
-		sed -i "s/,(\"ar command\", \".*\")/,(\"ar command\", \"$(tc-getAR)\")/" "${GHC_SETTINGS}" || die
-		sed -i "s/,(\"ranlib command\", \".*\")/,(\"ranlib command\", \"$(tc-getRANLIB)\")/" "${GHC_SETTINGS}" || die
+	        GHC_SETTINGS="${WORKDIR}/usr/$(get_libdir)/${PN}-${BIN_PV}/lib/settings"
+	        sed -i "s/,(\"C compiler command\", \".*\")/,(\"C compiler command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
+	        sed -i "s/,(\"C++ compiler command\", \".*\")/,(\"C++ compiler command\", \"$(tc-getCXX)\")/" "${GHC_SETTINGS}" || die
+	        sed -i "s/,(\"Haskell CPP command\", \".*\")/,(\"Haskell CPP command\", \"$(tc-getCC)\")/" "${GHC_SETTINGS}" || die
+	        sed -i "s/,(\"ld command\", \".*\")/,(\"ld command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
+	        sed -i "s/,(\"Merge objects command\", \".*\")/,(\"Merge objects command\", \"$(tc-getLD)\")/" "${GHC_SETTINGS}" || die
+	        sed -i "s/,(\"ar command\", \".*\")/,(\"ar command\", \"$(tc-getAR)\")/" "${GHC_SETTINGS}" || die
+	        sed -i "s/,(\"ranlib command\", \".*\")/,(\"ranlib command\", \"$(tc-getRANLIB)\")/" "${GHC_SETTINGS}" || die
 	fi
 	use llvm && ! use ghcbootstrap && llvmize "$(ghc_bin_path)"
 
@@ -496,17 +488,9 @@ src_prepare() {
 	#eapply "${FILESDIR}"/${PN}-9.0.2-CHOST-prefix.patch
 	#eapply "${FILESDIR}"/${PN}-9.0.2-darwin.patch
 
-	# Incompatible with ghc-9.0.2-modorigin-semigroup.patch
-	# Below patch should not be needed by ghc-9.2
-	#eapply "${FILESDIR}"/${PN}-9.0.2-modorigin.patch
-
 	# ModUnusable pretty-printing should include the reason
-	eapply "${FILESDIR}/${PN}-9.0.2-verbose-modunusable.patch"
-
-	# Fixes panic when compiling some packages
-	# https://github.com/gentoo-haskell/gentoo-haskell/issues/1250#issuecomment-1044257595
-	# https://gitlab.haskell.org/ghc/ghc/-/issues/21097
-	eapply "${FILESDIR}/${PN}-9.2.7-modorigin-semigroup.patch"
+	# broken in 9.6.4
+	#eapply "${FILESDIR}/${PN}-9.0.2-verbose-modunusable.patch"
 
 	# Needed for testing with python-3.10
 	#use test && eapply "${FILESDIR}/${PN}-9.0.2-fix-tests-python310.patch"
