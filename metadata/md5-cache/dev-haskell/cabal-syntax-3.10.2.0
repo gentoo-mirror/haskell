@@ -12,4 +12,4 @@ RDEPEND=>=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[prof
 SLOT=0/3.10.2.0
 SRC_URI=https://hackage.haskell.org/package/Cabal-syntax-3.10.2.0/Cabal-syntax-3.10.2.0.tar.gz -> cabal-syntax-3.10.2.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=467ae6087fa62967929cb75b6a432846
+_md5_=d71a74d4d0bfd5a63e331b01bfbeefe9

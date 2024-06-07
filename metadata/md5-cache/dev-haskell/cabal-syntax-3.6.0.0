@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=<dev-haskell/cabal-3.7:=[profile?] >=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.8.1:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A library for working with .cabal files
 EAPI=8
 HOMEPAGE=https://www.haskell.org/cabal/
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=<dev-haskell/cabal-3.7:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/3.6.0.0
 SRC_URI=https://hackage.haskell.org/package/Cabal-syntax-3.6.0.0/Cabal-syntax-3.6.0.0.tar.gz -> cabal-syntax-3.6.0.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=bc6a94fd734e7e3cf9813fd815a815b1
+_md5_=4476287a2460e65f4854cc5de6f82688
