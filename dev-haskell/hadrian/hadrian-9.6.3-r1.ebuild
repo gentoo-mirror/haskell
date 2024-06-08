@@ -17,13 +17,10 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="static test +threaded"
+
 RESTRICT="!test? ( test )"
 S="${WORKDIR}/ghc-${PV}/hadrian"
 CABAL_FILE="${S}/hadrian.cabal"
-
-CABAL_CHDEPS=(
-	'Cabal                >= 3.2     && < 3.9' 'Cabal >= 3.2'
-)
 
 RDEPEND="
 	>=dev-haskell/cabal-3.2:=
@@ -44,6 +41,14 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
 "
+
+PATCHES=( "${FILESDIR}/12603.patch" )
+
+src_prepare() {
+	default
+	cabal_chdeps \
+		'Cabal                >= 3.2     && < 3.9' 'Cabal                >= 3.2'
+}
 
 src_configure() {
 	local configure_flags=(
