@@ -51,7 +51,7 @@ dev-haskell/aeson-pretty 0.8.10: JSON pretty-printing library and command-line t
 dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
 dev-haskell/aeson-warning-parser 0.1.1: Library providing JSON parser that warns about unexpected fields in objects
 dev-haskell/aeson-yaml 1.1.0.1-r1: Output any Aeson value as YAML (pure Haskell library)
-dev-haskell/alex 3.2.7.2: Alex is a tool for generating lexical analysers in Haskell
+dev-haskell/alex 3.2.7.2 3.5.1.0: Alex is a tool for generating lexical analysers in Haskell
 dev-haskell/alex-tools 0.4: A set of functions for a common use case of Alex
 dev-haskell/algebra 4.3.1: Constructive abstract algebra
 dev-haskell/algebraic-graphs 0.6.1 0.7: A library for algebraic graph construction and transformation
@@ -299,7 +299,7 @@ dev-haskell/chart-cairo 1.9.3-r1: Cairo backend for Charts
 dev-haskell/chart-diagrams 1.9.4-r1: Diagrams backend for Charts
 dev-haskell/chart-gtk 1.9.3: Utility functions for using the chart library with GTK
 dev-haskell/chaselev-deque 0.5.0.5: Chase & Lev work-stealing lock-free double-ended queues (deques)
-dev-haskell/chasingbottoms 1.3.1.12: For testing partial and infinite values
+dev-haskell/chasingbottoms 1.3.1.14: For testing partial and infinite values
 dev-haskell/cheapskate 0.1.1.2: Experimental markdown processor
 dev-haskell/checkers 0.6.0: Check properties on standard classes and data structures
 dev-haskell/chell 0.5.0.2: A simple and intuitive library for automated testing
@@ -362,7 +362,7 @@ dev-haskell/conceit 0.4.0.0: Concurrent actions that may fail with a value
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
 dev-haskell/concurrency 1.11.0.1: Typeclasses, functions, and data types for concurrency and STM
 dev-haskell/concurrent-extra 0.7.0.12: Extra concurrency primitives
-dev-haskell/concurrent-output 1.10.19: Ungarble output from several threads or commands
+dev-haskell/concurrent-output 1.10.21: Ungarble output from several threads or commands
 dev-haskell/concurrent-split 0.0.1.1: MVars and Channels with distinguished input and output side
 dev-haskell/concurrent-supply 0.1.8-r2: A fast concurrent unique identifier supply with a pure API
 dev-haskell/concurrentoutput 0.2.0.2: Ungarble output from several threads
@@ -1456,7 +1456,7 @@ dev-haskell/nonce 1.0.7-r1: Generate cryptographic nonces
 dev-haskell/nonempty-containers 0.3.4.4: Non-empty variants of containers data types, with full API
 dev-haskell/nonempty-vector 0.2.3: Non-empty vectors
 dev-haskell/normaldistribution 1.1.0.3-r1: Minimum fuss normally distributed random values
-dev-haskell/nothunks 0.1.4-r1: Examine values for unexpected thunks
+dev-haskell/nothunks 0.1.5: Examine values for unexpected thunks
 dev-haskell/numbers 3000.2.0.2: Various number types
 dev-haskell/numbersieves 0.1.2: Number Theoretic Sieves: primes, factorization, and Euler's Totient
 dev-haskell/numeric-extras 0.1-r1: Useful tools from the C standard library
@@ -1977,7 +1977,7 @@ dev-haskell/tasty-ant-xml 1.1.8: Render tasty output to XML for Jenkins
 dev-haskell/tasty-discover 4.2.2: Test discovery for the tasty framework
 dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
 dev-haskell/tasty-golden 2.3.5: Golden tests support for tasty
-dev-haskell/tasty-hedgehog 1.4.0.2: Integration for tasty and hedgehog
+dev-haskell/tasty-hedgehog 1.4.0.2-r1: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.1.0: Tasty helpers to test HsLua
 dev-haskell/tasty-hspec 1.2.0.4: Hspec support for the Tasty test framework
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
@@ -2237,7 +2237,7 @@ dev-haskell/witherable 0.4.2-r1: filterable traversable
 dev-haskell/witherable-class 0: Witherable = Traversable + Filterable
 dev-haskell/wizards 1.0.3-r1: High level, generic library for interrogative user interfaces
 dev-haskell/wl-pprint 1.2.1: The Wadler/Leijen Pretty Printer
-dev-haskell/wl-pprint-annotated 0.1.0.1-r2: Pretty printer with annotation support
+dev-haskell/wl-pprint-annotated 0.1.0.1-r3: Pretty printer with annotation support
 dev-haskell/wl-pprint-text 1.2.0.2-r1: A Wadler/Leijen Pretty Printer for Text values
 dev-haskell/word-trie 0.3.0: Implementation of a finite trie over words
 dev-haskell/word-wrap 0.5: A library for word-wrapping
