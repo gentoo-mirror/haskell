@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cabal-syntax-3.12:=[profile?] <dev-haskell/cabal-syntax-3.13:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-9.0.2:= <dev-lang/ghc-9.11:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A framework for packaging Haskell software
+EAPI=8
+HOMEPAGE=https://www.haskell.org/cabal/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/cabal-syntax-3.12:=[profile?] <dev-haskell/cabal-syntax-3.13:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-9.0.2:= <dev-lang/ghc-9.11:= dev-lang/ghc:=[profile?]
+SLOT=0/3.12.0.0
+SRC_URI=https://hackage.haskell.org/package/Cabal-3.12.0.0/Cabal-3.12.0.0.tar.gz -> cabal-3.12.0.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=361b9a50b51435ff3a9eefa585d36de3

@@ -170,7 +170,7 @@ dev-haskell/besout 0.2.0.1: Extended GCD of polynomials over F_p[x]
 dev-haskell/bibtex 0.1.0.6: Parse, format and processing BibTeX files
 dev-haskell/bifunctors 5.5.15 5.6.1: Bifunctors
 dev-haskell/bimap 0.5.0: Bidirectional mapping between two key types
-dev-haskell/binary 0.8.8.0-r1 0.8.9.0-r1 0.8.9.1: Binary serialisation for Haskell values using lazy ByteStrings
+dev-haskell/binary 0.8.8.0-r1 0.8.9.0-r1 0.8.9.1 0.8.9.2: Binary serialisation for Haskell values using lazy ByteStrings
 dev-haskell/binary-communicator 1.0.2.2-r1: Flexible way to ease transmission of binary data
 dev-haskell/binary-conduit 1.3.1: data serialization/deserialization conduit library
 dev-haskell/binary-ieee754 0.1.0.0: Backport ieee754 float double combinators to older binary
@@ -256,7 +256,7 @@ dev-haskell/bytestring-to-vector 0.3.0.1: Convert between ByteString and Vector.
 dev-haskell/bytestring-trie 0.2.5.0: An efficient finite map from (byte)strings to values
 dev-haskell/bzlib 0.5.1.0: Compression and decompression in the bzip2 format
 dev-haskell/c2hs 0.28.8-r2: C->Haskell FFI tool that gives some cross-language type safety
-dev-haskell/cabal 3.4.1.0-r1 3.6.3.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0: A framework for packaging Haskell software
+dev-haskell/cabal 3.4.1.0-r1 3.6.3.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0 3.12.0.0: A framework for packaging Haskell software
 dev-haskell/cabal-described 3.8.1.0 3.10.1.0: Described functionality for types in Cabal
 dev-haskell/cabal-doctest 1.0.9: A Setup.hs helper for running doctests
 dev-haskell/cabal-file-th 0.2.7: Template Haskell expressions for reading fields from a project's cabal file
@@ -268,7 +268,7 @@ dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application
 dev-haskell/cabal-plan 0.7.3.0-r1: Library and utility for processing cabal's plan.json file
 dev-haskell/cabal-quickcheck 3.8.1.0 3.10.1.0: QuickCheck instances for types in Cabal
 dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packages
-dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0: A library for working with .cabal files
+dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0 3.12.0.0: A library for working with .cabal files
 dev-haskell/cabal-tree-diff 3.8.1.0 3.10.1.0: tree-diff for Cabal
 dev-haskell/cairo 0.13.10.0: Binding to the Cairo library
 dev-haskell/calamity 0.9.0.0: A library for writing discord bots in haskell
@@ -729,11 +729,13 @@ dev-haskell/ghc-lib-parser 9.4.4.20221225 9.6.2.20230523 9.8.2.20240223: The GHC
 dev-haskell/ghc-lib-parser-ex 9.4.0.0 9.6.0.0 9.8.0.2: Algorithms on GHC parse trees
 dev-haskell/ghc-parser 0.2.3.0: Haskell source parser from GHC
 dev-haskell/ghc-paths 0.1.0.12-r3: Knowledge of GHC's installation directories
+dev-haskell/ghc-platform 9.10.1: Platform information used by GHC and friends
 dev-haskell/ghc-prof 1.4.1.9: Library for parsing GHC time and allocation profiling reports
 dev-haskell/ghc-prof-aeson 0.1.0.0: Parser for GHC's JSON profiling output
 dev-haskell/ghc-prof-aeson-flamegraph 0.1.0.0: Turn GHC '-pj' profiling output into FlameGraph format
 dev-haskell/ghc-source-gen 0.4.3.0: Constructs Haskell syntax trees for the GHC API
 dev-haskell/ghc-tcplugins-extra 0.4.5: Utilities for writing GHC type-checker plugins
+dev-haskell/ghc-toolchain 9.10.1: Utility for managing GHC target toolchains
 dev-haskell/ghc-trace-events 0.1.2.8: Faster traceEvent and traceMarker, and binary object logging for eventlog
 dev-haskell/ghc-typelits-extra 0.4.6: Additional type-level operations on GHC.TypeLits.Nat
 dev-haskell/ghc-typelits-knownnat 0.7.10: Derive KnownNat constraints from other KnownNat constraints
@@ -826,7 +828,7 @@ dev-haskell/hackage-security 0.6.2.3-r2: Hackage security library
 dev-haskell/haddock 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-api 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0-r3: Library exposing some functionality of Haddock
-dev-haskell/hadrian 9.4.7-r1 9.4.8-r1 9.6.3-r1 9.6.4-r1 9.6.5-r1 9.8.2-r2 9999: GHC build system
+dev-haskell/hadrian 9.4.7-r1 9.4.8-r1 9.6.3-r1 9.6.4-r1 9.6.5-r1 9.8.2-r2 9.10.1 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
 dev-haskell/hakyll 4.16.2.0: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
@@ -1903,7 +1905,7 @@ dev-haskell/statvfs 0.2: Get unix filesystem statistics with statfs, statvfs
 dev-haskell/stb-image-redux 0.2.1.0-r1: Image loading and writing microlibrary
 dev-haskell/stemmer 0.5.2: Haskell bindings to the Snowball stemming library
 dev-haskell/stickykeyshotkey 0.1.0.2-r1: get and set STICKYKEYS.SKF_HOTKEYACTIVE
-dev-haskell/stm 2.5.0.0-r1 2.5.0.1-r1 2.5.0.2-r1 2.5.1.0 2.5.2.1: Software Transactional Memory
+dev-haskell/stm 2.5.0.0-r1 2.5.0.1-r1 2.5.0.2-r1 2.5.1.0 2.5.2.1 2.5.3.1: Software Transactional Memory
 dev-haskell/stm-chans 3.0.0.4: Additional types of channels for STM
 dev-haskell/stm-conduit 4.0.1: Introduces conduits to channels, and promotes using conduits concurrently
 dev-haskell/stm-containers 1.2.0.3: Containers for STM
@@ -2079,7 +2081,7 @@ dev-haskell/top 1.7: Constraint solving framework employed by the Helium Compile
 dev-haskell/topograph 1.0.0.2: Directed acyclic graphs
 dev-haskell/torrent 10000.1.1: BitTorrent file parser and generator
 dev-haskell/torsor 0.1: Torsor Typeclass
-dev-haskell/transformers 0.5.6.2-r1 0.6.1.0: Concrete functor and monad transformers
+dev-haskell/transformers 0.5.6.2-r1 0.6.1.0 0.6.1.1: Concrete functor and monad transformers
 dev-haskell/transformers-base 0.4.6: Lift computations from the bottom of a transformer stack
 dev-haskell/transformers-compat 0.7.2: A small compatibility shim for the transformers library
 dev-haskell/transformers-free 1.0.1-r1: Free monad transformers
@@ -2329,7 +2331,7 @@ dev-lang/brainfuck 0.1.0.3: Brainfuck interpreter
 dev-lang/cryptol 2.6.0: Cryptol: The Language of Cryptography
 dev-lang/dhall 1.42.0: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
-dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.8.2-r1: The Glasgow Haskell Compiler
+dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.8.2-r1 9.10.1: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
 dev-lang/prolog 0.3.2: A Prolog interpreter written in Haskell
