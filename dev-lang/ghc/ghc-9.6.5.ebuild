@@ -738,16 +738,16 @@ src_compile() {
 	###
 
 	# Control the build flavour
-	if use profile; then
-		: ${HADRIAN_FLAVOUR:="default"}
-	else
-		: ${HADRIAN_FLAVOUR:="default+no_profiled_libs"}
-	fi
+	local hadrian_flavour="default"
+	use profile || hadrian_flavour+="+no_profiled_libs"
+	use llvm && hadrian_flavour+="+llvm"
+
+	: ${HADRIAN_FLAVOUR:="${hadrian_flavour}"}
 
 	hadrian_vars+=("--flavour=${HADRIAN_FLAVOUR}")
 
 	# Control the verbosity of hadrian. Default is one level of --verbose
-	${HADRIAN_VERBOSITY:=1}
+	: ${HADRIAN_VERBOSITY:=1}
 
 	local n="${HADRIAN_VERBOSITY}"
 	until [[ $n -le 0 ]]; do
@@ -755,6 +755,7 @@ src_compile() {
 		n=$(($n - 1 ))
 	done
 
+	# Add any -j* flags passed in via $MAKEOPTS
 	for i in $MAKEOPTS; do
 		case $i in
 			-j*) hadrian_vars+=("$i") ;;
