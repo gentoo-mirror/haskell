@@ -2185,7 +2185,7 @@ dev-haskell/vector 0.12.3.1-r1 0.13.1.0: Efficient Arrays
 dev-haskell/vector-algorithms 0.9.0.1-r2: Efficient algorithms for vector arrays
 dev-haskell/vector-binary-instances 0.2.5.2: Instances of Data.Binary for vector
 dev-haskell/vector-builder 0.3.8.3: Vector builder
-dev-haskell/vector-hashtables 0.1.1.2: Efficient vector-based mutable hashtables implementation
+dev-haskell/vector-hashtables 0.1.2.0: Efficient vector-based mutable hashtables implementation
 dev-haskell/vector-instances 3.4.2: Orphan Instances for 'Data.Vector'
 dev-haskell/vector-random 0.2: Generate vectors filled with high quality pseudorandom numbers
 dev-haskell/vector-sized 1.6.1: Size tagged vectors
