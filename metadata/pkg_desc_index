@@ -2137,7 +2137,7 @@ dev-haskell/universe-reverse-instances 1.1.1: Instances of standard classes that
 dev-haskell/unix-bytestring 0.3.7.3: Unix/Posix-specific functions for ByteStrings
 dev-haskell/unix-compat 0.7.1: Portable POSIX-compatibility layer
 dev-haskell/unix-memory 0.1.2-r1: Unix memory syscalls
-dev-haskell/unix-time 0.4.10: Unix time parser/formatter and utilities
+dev-haskell/unix-time 0.4.10 0.4.15: Unix time parser/formatter and utilities
 dev-haskell/unixutils 1.54.2-r1: A crude interface between Haskell and Unix-like operating systems
 dev-haskell/unlambda 0.1.4.2: Unlambda interpreter
 dev-haskell/unliftio 0.2.23.0-r1: The MonadUnliftIO typeclass for unlifting monads to IO (batteries included)
