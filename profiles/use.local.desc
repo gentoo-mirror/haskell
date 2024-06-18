@@ -400,6 +400,7 @@ dev-haskell/thyme:bug-for-bug - bug-for-bug compatibility with time
 dev-haskell/thyme:lens - use the full lens package
 dev-haskell/thyme:show-internal - instance Show of internal representation
 dev-haskell/tls:compat - Accept SSLv2 client hello for beginning SSLv3 / TLS handshake
+dev-haskell/tls:devel - Development commands
 dev-haskell/tls:network - Use the base network library
 dev-haskell/tomland:examples - Build example exes
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
