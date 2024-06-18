@@ -1732,7 +1732,7 @@ dev-haskell/repa-algorithms 3.4.1.5: Algorithms using the Repa array library
 dev-haskell/repa-devil 0.3.2.6-r1: Support for image reading and writing of Repa arrays using in-place FFI calls
 dev-haskell/repa-io 3.4.1.2: Read and write Repa arrays in various formats
 dev-haskell/repline 0.4.0.0: Haskeline wrapper for GHCi-like REPL interfaces
-dev-haskell/req 3.13.1 3.13.2: HTTP client library
+dev-haskell/req 3.13.1 3.13.2 3.13.3: HTTP client library
 dev-haskell/rere 0.2.0.1: Regular-expressions extended with fixpoints for context-free powers
 dev-haskell/rerebase 1.20.2: Reexports from "base" with a bunch of other standard libraries
 dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresolv standard library routines
