@@ -36,7 +36,7 @@ dev-haskell/ac-vector 2.3.2: Efficient geometric vectors and transformations
 dev-haskell/ac-vector-fancy 2.4.0-r1: Fancy type-system stuff for AC-Vector
 dev-haskell/acid-state 0.16.1.1: Add ACID guarantees to any serializable Haskell data structure
 dev-haskell/action-permutations 0.0.0.1-r1: Execute a set of actions (e.g. parsers) in each possible order
-dev-haskell/active 0.2.0.16: Abstractions for animation
+dev-haskell/active 0.2.0.16 0.2.1: Abstractions for animation
 dev-haskell/ad 4.5.2: Automatic Differentiation
 dev-haskell/adjunctions 4.4.2-r1: Adjunctions and representable functors
 dev-haskell/aes 0.2.9-r1: Fast AES encryption/decryption for bytestrings
@@ -514,7 +514,7 @@ dev-haskell/diagrams-builder 0.8.0.6: hint-based build service for the diagrams 
 dev-haskell/diagrams-cairo 1.4.2.1: Cairo backend for diagrams drawing EDSL
 dev-haskell/diagrams-canvas 1.4.1-r2: HTML5 canvas backend for diagrams drawing EDSL
 dev-haskell/diagrams-contrib 1.4.5.1: Collection of user contributions to diagrams EDSL
-dev-haskell/diagrams-core 1.5.1: Core libraries for diagrams EDSL
+dev-haskell/diagrams-core 1.5.1 1.5.1.1: Core libraries for diagrams EDSL
 dev-haskell/diagrams-gtk 1.4-r1: Backend for rendering diagrams directly to GTK windows
 dev-haskell/diagrams-lib 1.4.6-r1: Embedded domain-specific language for declarative graphics
 dev-haskell/diagrams-pgf 1.4.2.1: PGF backend for diagrams drawing EDSL
