@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cassava:=[profile?] dev-haskell/ordered-containers:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/toml-parser-2.0.0.0:=[profile?] <dev-haskell/toml-parser-2.1:=[profile?] >=dev-haskell/typst-symbols-0.1.6:=[profile?] <dev-haskell/typst-symbols-0.1.7:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/xml-conduit:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-9.0.2:= executable? ( dev-haskell/pretty-show:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/tasty dev-haskell/tasty-golden !executable? ( dev-haskell/pretty-show ) ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Parsing and evaluating typst syntax
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/typst
+INHERIT=haskell-cabal
+IUSE=executable doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/cassava:=[profile?] dev-haskell/ordered-containers:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/regex-tdfa:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/toml-parser-2.0.0.0:=[profile?] <dev-haskell/toml-parser-2.1:=[profile?] >=dev-haskell/typst-symbols-0.1.6:=[profile?] <dev-haskell/typst-symbols-0.1.7:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/xml-conduit:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-9.0.2:= executable? ( dev-haskell/pretty-show:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.5.0.4
+SRC_URI=https://hackage.haskell.org/package/typst-0.5.0.4/typst-0.5.0.4.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=0aa8624f317aa8e830e8ee8724ac71b5
