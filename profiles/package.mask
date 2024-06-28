@@ -1,3 +1,26 @@
+# hololeap <hololeap@protonmail.com> (2024-06-28)
+#
+# Last-rite old obsolete packages with no revdeps
+# (Removal: 2024-07-28)
+dev-haskell/attojson
+dev-haskell/binary-communicator
+dev-haskell/binary-ieee754
+dev-haskell/binary-shared
+dev-haskell/binary-state
+dev-haskell/buster
+dev-haskell/bytestring-show
+dev-haskell/etherbunny
+dev-haskell/googletranslate
+dev-haskell/hs-java
+dev-haskell/largeword
+dev-haskell/maccatcher
+dev-haskell/network-msg
+dev-haskell/simpleaes
+dev-haskell/system-uuid
+dev-haskell/txt-sushi
+dev-haskell/wire-streams
+dev-haskell/word-trie
+
 # hololeap <hololeap@protonmail.com> (2024-06-09)
 #
 # These package versions depend on a minimum GHC of 9.10, which is still
@@ -54,6 +77,8 @@
 >=dev-haskell/parsec-3.1.17
 >=dev-haskell/stm-2.5.2
 >=dev-haskell/text-2.1
+>=dev-haskell/singletons-th-3.3
+>=dev-haskell/singletons-base-3.3
 
 # hololeap <hololeap@protonmail.com> (2024-03-23)
 #
@@ -85,6 +110,10 @@
 >=dev-haskell/transformers-0.6.1
 >=dev-haskell/haddock-api-2.29
 >=dev-haskell/haddock-2.29
+>=dev-haskell/ghc-lib-parser-9.10
+>=dev-haskell/ghc-lib-parser-ex-9.10
+>=dev-haskell/singletons-th-3.2
+>=dev-haskell/singletons-base-3.2
 
 # hololeap <hololeap@protonmail.com> (2024-03-16)
 #
@@ -132,6 +161,13 @@
 >=dev-haskell/hlint-3.8
 >=dev-haskell/hoauth2-2.12
 >=dev-haskell/stack-2.11
+>=dev-haskell/singletons-th-3.1.1
+>=dev-haskell/singletons-base-3.1.1
+>=dev-haskell/djot-0.1.2
+>=dev-haskell/pandoc-3.2
+>=app-text/pandoc-cli-3.2
+>=dev-haskell/pandoc-server-0.1.0.6
+>=dev-haskell/pandoc-lua-engine-0.3
 
 # Jack Todaro <solpeth@posteo.org> (2023-12-08)
 # Mask irc-core-2.12 until glirc-2.40 blockers can be cleared (e.g. vty)
