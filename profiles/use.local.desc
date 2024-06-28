@@ -6,6 +6,7 @@ app-admin/propellor:type-errors - Build with type-errors library for better erro
 app-office/hledger:threaded - Build with support for multithreaded execution
 app-office/hledger-ui:threaded - Build with support for multithreaded execution
 app-office/hledger-web:library-only - Build for use with "yesod devel"
+app-office/hledger-web:threaded - Build with support for multithreaded execution.
 app-portage/hackport:profile - Enable profiling flags
 app-text/pandoc-cli:lua - Support custom modifications and conversions with the pandoc Lua scripting engine.
 app-text/pandoc-cli:nightly - Add '-nightly-COMPILEDATE' to the output of '--version'.
@@ -131,6 +132,8 @@ dev-haskell/gargoyle-postgresql:executables - Install executables
 dev-haskell/gargoyle-postgresql-nix:executable - Install executables
 dev-haskell/gauge:analysis - Build with statistical analysis support
 dev-haskell/ghc-check:package-abis - record package abis at compile time for improved precision (requires compile-time TH)
+dev-haskell/ghc-debug-stub:eras - Enable eras
+dev-haskell/ghc-debug-stub:trace - Enable tracing
 dev-haskell/ghc-exactprint:roundtrip - Build roundtripping executables
 dev-haskell/ghc-heap-view:prim-supports-any - The used GHC supports Any as an argument to foreign prim functions (GHC ticket #5931)
 dev-haskell/ghc-lib-parser:threads - Pass -DTHREADED_RTS to the C toolchain
@@ -170,9 +173,12 @@ dev-haskell/hashable:random-initial-seed - Randomly initialize the seed on every
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
 dev-haskell/hashtables:detailed-profiling - add detailed profiling information to profiled build-depends
 dev-haskell/haskeline:terminfo - Use the terminfo package for POSIX consoles.
+dev-haskell/haskell-language-server:ghcide-bench - Build the ghcide-bench executable
+dev-haskell/haskell-language-server:ghcide-bench-lib - Build the ghcide-bench-lib library
 dev-haskell/haskell-language-server:hls_plugins_alternate-number-format - Enable Alternate Number Format plugin
 dev-haskell/haskell-language-server:hls_plugins_cabal - Enable cabal plugin
 dev-haskell/haskell-language-server:hls_plugins_cabal-fmt - Enable cabalfmt plugin
+dev-haskell/haskell-language-server:hls_plugins_cabal-gild - Enable cabalgild plugin
 dev-haskell/haskell-language-server:hls_plugins_call-hierarchy - Enable callHierarchy plugin
 dev-haskell/haskell-language-server:hls_plugins_change-type-signature - Change a declarations type signature with a Code Action
 dev-haskell/haskell-language-server:hls_plugins_class - Enable class plugin
@@ -185,6 +191,7 @@ dev-haskell/haskell-language-server:hls_plugins_gadt - Enable GADT plugin
 dev-haskell/haskell-language-server:hls_plugins_hlint - Enable hlint plugin
 dev-haskell/haskell-language-server:hls_plugins_import-lens - Enable importLens plugin
 dev-haskell/haskell-language-server:hls_plugins_module-name - Enable moduleName plugin
+dev-haskell/haskell-language-server:hls_plugins_notes - Enable notes plugin
 dev-haskell/haskell-language-server:hls_plugins_overloaded-record-dot - Enable overloadedRecordDot plugin
 dev-haskell/haskell-language-server:hls_plugins_pragmas - Enable pragmas plugin
 dev-haskell/haskell-language-server:hls_plugins_qualify-imported-names - Enable qualifyImportedNames plugin
@@ -453,6 +460,7 @@ dev-lang/ghc:unregisterised - Create an unregisterised build in which only the C
 dev-util/bustle:interactivetests - Build interactive test programs
 dev-util/bustle:threaded - Build with the multi-threaded runtime
 dev-util/shake:embed-files - Embed data files into the shake library
+dev-util/shake:threaded - Build shake with the threaded RTS
 dev-vcs/darcs:curl - Use libcurl for HTTP support.
 dev-vcs/darcs:terminfo - Use the terminfo package for enhanced console support.
 dev-vcs/darcs:threaded - Use threading and SMP support.

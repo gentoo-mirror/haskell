@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/quickcheck-2.10 <dev-haskell/quickcheck-2.15 >=dev-haskell/smallcheck-1.1.1 <dev-haskell/smallcheck-1.3 >=dev-haskell/tasty-0.10.1.2 <dev-haskell/tasty-1.5 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.8.3.2 <dev-haskell/tasty-quickcheck-0.11 >=dev-haskell/tasty-smallcheck-0.8.0.1 <dev-haskell/tasty-smallcheck-0.9 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=An efficient finite map from bytestrings to values
+EAPI=8
+HOMEPAGE=https://wrengr.org/software/hackage.html
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.7.3
+SRC_URI=https://hackage.haskell.org/package/bytestring-trie-0.2.7.3/bytestring-trie-0.2.7.3.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=4fbfbe00aa719add5d73e4d774ad7675

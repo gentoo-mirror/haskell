@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/singletons-3.0:=[profile?] <dev-haskell/singletons-3.1:=[profile?] >=dev-haskell/singletons-th-3.3:=[profile?] <dev-haskell/singletons-th-3.4:=[profile?] >=dev-haskell/text-1.2:=[profile?] >=dev-haskell/th-desugar-1.16:=[profile?] <dev-haskell/th-desugar-1.17:=[profile?] >=dev-lang/ghc-9.8.2:= >=dev-haskell/cabal-3.10.3.0 <dev-haskell/cabal-3.13 test? ( >=dev-haskell/tasty-1.2 >=dev-haskell/tasty-golden-2.2 >=dev-haskell/turtle-1.5 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A promoted and singled version of the base library
+EAPI=8
+HOMEPAGE=https://www.github.com/goldfirere/singletons
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/singletons-3.0:=[profile?] <dev-haskell/singletons-3.1:=[profile?] >=dev-haskell/singletons-th-3.3:=[profile?] <dev-haskell/singletons-th-3.4:=[profile?] >=dev-haskell/text-1.2:=[profile?] >=dev-haskell/th-desugar-1.16:=[profile?] <dev-haskell/th-desugar-1.17:=[profile?] >=dev-lang/ghc-9.8.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/3.3
+SRC_URI=https://hackage.haskell.org/package/singletons-base-3.3/singletons-base-3.3.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=5f22c759c75309c5d1bda88c2540ff23

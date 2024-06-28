@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/ordered-containers-0.2.2:=[profile?] >=dev-haskell/syb-0.4:=[profile?] >=dev-haskell/th-abstraction-0.5:=[profile?] <dev-haskell/th-abstraction-0.7:=[profile?] >=dev-haskell/th-orphans-0.13.7:=[profile?] >=dev-haskell/transformers-compat-0.6.3:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-1.3 >=dev-haskell/hunit-1.2 >=dev-haskell/th-orphans-0.13.9 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Functions to desugar Template Haskell
+EAPI=8
+HOMEPAGE=https://github.com/goldfirere/th-desugar
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/ordered-containers-0.2.2:=[profile?] >=dev-haskell/syb-0.4:=[profile?] >=dev-haskell/th-abstraction-0.5:=[profile?] <dev-haskell/th-abstraction-0.7:=[profile?] >=dev-haskell/th-orphans-0.13.7:=[profile?] >=dev-haskell/transformers-compat-0.6.3:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.15
+SRC_URI=https://hackage.haskell.org/package/th-desugar-1.15/th-desugar-1.15.tar.gz https://hackage.haskell.org/package/th-desugar-1.15/revision/1.cabal -> th-desugar-1.15-rev1.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=1c5b0379cdc9a4e2814a9457b0ada447
