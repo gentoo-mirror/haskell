@@ -1,14 +1,14 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-6.12.1
+DEPEND=>=dev-lang/ghc-9.0.2:=
 DESCRIPTION=Rebuild Haskell dependencies in Gentoo
 EAPI=8
 HOMEPAGE=https://github.com/gentoo-haskell/haskell-updater#readme
 INHERIT=haskell-cabal
 KEYWORDS=~amd64 ~ppc64 ~amd64-linux ~ppc-macos ~x64-macos
-LICENSE=GPL-2
-RDEPEND=|| ( >=sys-apps/portage-2.1.6 sys-apps/pkgcore )
+LICENSE=GPL-3+
+RDEPEND=|| ( >=sys-apps/portage-2.1.10 sys-apps/pkgcore )
 SLOT=0
-SRC_URI=https://hackage.haskell.org/package/haskell-updater-1.3.2/haskell-updater-1.3.2.tar.gz
+SRC_URI=https://hackage.haskell.org/package/haskell-updater-1.4.1.0/haskell-updater-1.4.1.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=93db0214d66eafab3f8be8a089db8976
+_md5_=2bce1f8a2c4c6f46f76d0afaf17ed409

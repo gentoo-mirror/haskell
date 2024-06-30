@@ -461,7 +461,6 @@ dev-util/bustle:interactivetests - Build interactive test programs
 dev-util/bustle:threaded - Build with the multi-threaded runtime
 dev-util/shake:embed-files - Embed data files into the shake library
 dev-util/shake:threaded - Build shake with the threaded RTS
-dev-vcs/darcs:curl - Use libcurl for HTTP support.
 dev-vcs/darcs:terminfo - Use the terminfo package for enhanced console support.
 dev-vcs/darcs:threaded - Use threading and SMP support.
 dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
