@@ -330,7 +330,7 @@ dev-haskell/classy-prelude-yesod 1.5.0: Provide a classy prelude including commo
 dev-haskell/clay 0.14.0: CSS preprocessor as embedded Haskell
 dev-haskell/clevercss 0.2.4-r2: A CSS preprocessor
 dev-haskell/cli 0.2.0: Command Line Interface
-dev-haskell/clientsession 0.9.1.2: Securely store session data in a client-side cookie
+dev-haskell/clientsession 0.9.2.0: Securely store session data in a client-side cookie
 dev-haskell/clock 0.8.3: High-resolution clock functions: monotonic, realtime, cputime
 dev-haskell/cmark 0.6.1: Fast, accurate CommonMark (Markdown) parser and renderer
 dev-haskell/cmark-gfm 0.2.2: Fast, accurate GitHub Flavored Markdown parser and renderer
