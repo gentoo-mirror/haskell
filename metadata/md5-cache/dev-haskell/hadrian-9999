@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=>=dev-haskell/cabal-3.2:= <dev-haskell/cabal-3.9:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-8.4.3:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=1f203e7dd802dc41bec585dbd81b5d64
