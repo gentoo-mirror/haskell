@@ -9,7 +9,7 @@ app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early
 app-crypt/hb3sum 0.0.0.1: A command line tool to compute BLAKE3 hashes
 app-emacs/haskell-mode 17.4 17.5 9999: Mode for editing (and running) Haskell programs in Emacs
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
-app-misc/brick-trading-journal 0.1.7.1: Terminal UI program for basic trading statistics
+app-misc/brick-trading-journal 0.1.7.2: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
 app-misc/lsql-csv 0.1.0.4: A tool for CSV files data querying from the shell with short queries.
 app-office/hledger 1.34: Command-line interface for the hledger accounting system
@@ -226,8 +226,8 @@ dev-haskell/bower-json 1.0.0.1: Read bower.json from Haskell
 dev-haskell/boxes 0.1.5: 2D text pretty-printing library
 dev-haskell/breakpoint 0.1.0.0: Set breakpoints using a GHC plugin
 dev-haskell/brick 1.5 1.10 2.3.1: A declarative terminal user interface library
-dev-haskell/brick-list-skip 0.1.1.12: Skip a certain kind of items when moving in brick list
-dev-haskell/brick-tabular-list 2.2.0.10: Tabular list widgets for brick
+dev-haskell/brick-list-skip 0.1.1.13: Skip a certain kind of items when moving in brick list
+dev-haskell/brick-tabular-list 2.2.0.11: Tabular list widgets for brick
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
 dev-haskell/bsb-http-chunked 0.0.0.4-r1: Chunked HTTP transfer encoding for bytestring builders
 dev-haskell/bson 0.3.2.8-r1 0.4.0.1-r1: BSON documents are JSON-like objects with a standard binary encoding
@@ -835,7 +835,7 @@ dev-haskell/haddock-api 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation 
 dev-haskell/haddock-library 1.10.0-r2 1.11.0-r3: Library exposing some functionality of Haddock
 dev-haskell/hadrian 9.4.7-r1 9.4.8-r1 9.6.3-r1 9.6.4-r1 9.6.5-r1 9.8.2-r2 9.10.1 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
-dev-haskell/hakyll 4.16.2.0: A static website compiler library
+dev-haskell/hakyll 4.16.2.1: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
 dev-haskell/hakyll-sass 0.2.4: Hakyll SASS compiler over hsass
 dev-haskell/half 0.3-r1 0.3.1: Half-precision floating-point
@@ -980,7 +980,7 @@ dev-haskell/hookup 0.7: Abstraction over creating network connections with SOCKS
 dev-haskell/hoopl 3.10.2.2: A library to support dataflow analysis and optimization
 dev-haskell/hopfli 0.2.2.1: Bindings to Google's Zopfli compression library
 dev-haskell/hora 2.2.0: Convenient type, timestamp, timezone, format
-dev-haskell/hosc 0.17: Haskell Open Sound Control
+dev-haskell/hosc 0.20: Haskell Open Sound Control
 dev-haskell/hostname 1.0-r1: A a cross-platform means of determining the hostname
 dev-haskell/hourglass 0.2.12: simple performant time related library
 dev-haskell/hpack 0.36.0: A modern format for Haskell packages
@@ -2066,7 +2066,8 @@ dev-haskell/these-lens 1.0.1.3: Lenses for These
 dev-haskell/threads 0.5.1.8: Fork threads and wait for their result
 dev-haskell/threepenny-gui 0.9.4.1: GUI framework that uses the web browser as a display
 dev-haskell/thyme 0.3.5.5: A faster time library
-dev-haskell/tidal 1.7.10: Pattern language for improvised music
+dev-haskell/tidal 1.9.5: Pattern language for improvised music
+dev-haskell/tidal-link 1.0.3: Ableton Link integration for Tidal
 dev-haskell/time-compat 1.9.6.1-r1: Compatibility package for time
 dev-haskell/time-lens 0.4.0.2: Lens-based interface to Data.Time data structures
 dev-haskell/time-locale-compat 0.1.1.5: Compatibility of TimeLocale between old-locale and time-1.5
@@ -2132,6 +2133,7 @@ dev-haskell/unexceptionalio 0.5.1: IO without any non-error, synchronous excepti
 dev-haskell/unexceptionalio-trans 0.5.1: A wrapper around UnexceptionalIO using monad transformers
 dev-haskell/unicode-collation 0.1.3.6: Haskell implementation of the Unicode Collation Algorithm
 dev-haskell/unicode-data 0.4.0.1-r1: Access Unicode Character Database (UCD)
+dev-haskell/unicode-show 0.1.1.1: print and show in unicode
 dev-haskell/unicode-transforms 0.4.0.1: Unicode normalization
 dev-haskell/unification-fd 0.10.0.1: Simple generic unification algorithms
 dev-haskell/union-find 0.2-r1: Efficient union and equivalence testing of sets
@@ -2359,7 +2361,7 @@ dev-util/dzen-dhall 1.0.2: Configure dzen2 bars in Dhall language
 dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
 dev-util/hasmin 1.0.3-r2: CSS Minifier
 dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
-dev-util/hindent 5.3.4: Extensible Haskell pretty printer
+dev-util/hindent 6.1.1: Extensible Haskell pretty printer
 dev-util/hoogle 5.0.18.4: Haskell API Search
 dev-util/shake 0.19.8: Build system library, like Make, but more accurate dependencies
 dev-util/shellcheck 0.9.0-r2 0.10.0: Shell script analysis tool
