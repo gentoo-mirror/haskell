@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">curly-expander</remote-id>
-		<remote-id type="github">stastnypremysl/curly-expander</remote-id>
+		<remote-id type="hackage">os-string</remote-id>
+		<remote-id type="github">haskell/os-string</remote-id>
 	</upstream>
 </pkgmetadata>

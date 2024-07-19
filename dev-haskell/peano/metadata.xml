@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">curly-expander</remote-id>
-		<remote-id type="github">stastnypremysl/curly-expander</remote-id>
+		<remote-id type="hackage">peano</remote-id>
+		<remote-id type="github">andreasabel/peano.hs</remote-id>
 	</upstream>
 </pkgmetadata>
