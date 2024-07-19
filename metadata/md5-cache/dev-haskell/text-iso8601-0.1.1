@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/integer-conversion-0.1:=[profile?] <dev-haskell/integer-conversion-0.2:=[profile?] >=dev-haskell/time-compat-1.9.4:=[profile?] <dev-haskell/time-compat-1.10:=[profile?] >=dev-lang/ghc-9.0.2:= || ( ( >=dev-haskell/text-1.2.3.0 <dev-haskell/text-1.3.0.0 ) ( >=dev-haskell/text-2.0 <dev-haskell/text-2.2 ) ) dev-haskell/text:=[profile?] >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/quickcheck-2.14.3 <dev-haskell/quickcheck-2.16 >=dev-haskell/quickcheck-instances-0.3.29.1 <dev-haskell/quickcheck-instances-0.4 >=dev-haskell/tasty-1.4.3 <dev-haskell/tasty-1.6 >=dev-haskell/tasty-hunit-0.10.0.3 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10.2 <dev-haskell/tasty-quickcheck-0.11 dev-haskell/text ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Converting time to and from ISO 8601 text
+EAPI=8
+HOMEPAGE=https://github.com/haskell/aeson
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/integer-conversion-0.1:=[profile?] <dev-haskell/integer-conversion-0.2:=[profile?] >=dev-haskell/time-compat-1.9.4:=[profile?] <dev-haskell/time-compat-1.10:=[profile?] >=dev-lang/ghc-9.0.2:= || ( ( >=dev-haskell/text-1.2.3.0 <dev-haskell/text-1.3.0.0 ) ( >=dev-haskell/text-2.0 <dev-haskell/text-2.2 ) ) dev-haskell/text:=[profile?] dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.1
+SRC_URI=https://hackage.haskell.org/package/text-iso8601-0.1.1/text-iso8601-0.1.1.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=45c31b5496e3c2bb4dea907987151e8c

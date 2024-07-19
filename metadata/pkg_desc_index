@@ -11,6 +11,7 @@ app-emacs/haskell-mode 17.4 17.5 9999: Mode for editing (and running) Haskell pr
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
 app-misc/brick-trading-journal 0.1.7.1: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
+app-misc/lsql-csv 0.1.0.4: A tool for CSV files data querying from the shell with short queries.
 app-office/hledger 1.34: Command-line interface for the hledger accounting system
 app-office/hledger-iadd 1.3.21: A terminal UI as drop-in replacement for hledger add
 app-office/hledger-interest 1.6.6-r2: computes interest for a given account
@@ -40,7 +41,7 @@ dev-haskell/active 0.2.0.16 0.2.1: Abstractions for animation
 dev-haskell/ad 4.5.2: Automatic Differentiation
 dev-haskell/adjunctions 4.4.2-r1: Adjunctions and representable functors
 dev-haskell/aes 0.2.9-r1: Fast AES encryption/decryption for bytestrings
-dev-haskell/aeson 2.1.2.1 2.2.1.0: Fast JSON parsing and encoding
+dev-haskell/aeson 2.1.2.1 2.2.3.0: Fast JSON parsing and encoding
 dev-haskell/aeson-better-errors 0.9.1.1: Better error messages when decoding JSON values
 dev-haskell/aeson-casing 0.2.0.0: Tools to change the formatting of field names in Aeson instances
 dev-haskell/aeson-diff 1.1.0.13: Extract and apply patches to JSON documents
@@ -292,6 +293,7 @@ dev-haskell/cereal-conduit 0.8.0: Turn Data.Serialize Gets and Puts into Sources
 dev-haskell/cereal-text 0.1.0.2: Data.Text instances for the cereal serialization library
 dev-haskell/cereal-vector 0.2.0.1: Serialize instances for Data.Vector types
 dev-haskell/cgi 3001.5.0.0: A library for writing CGI programs
+dev-haskell/character-ps 0.1: Pattern synonyms for ASCII characters for Word8, Word16 etc
 dev-haskell/charset 0.3.10: Fast unicode character sets based on complemented PATRICIA tries
 dev-haskell/charsetdetect-ae 1.1.0.4: Character set detection using Mozilla's Universal Character Set Detector
 dev-haskell/chart 1.9.4-r1: A library for generating 2D Charts and Plots
@@ -445,7 +447,7 @@ dev-haskell/cubicbezier 0.6.0.6 0.6.0.7: Efficient manipulating of 2D cubic bezi
 dev-haskell/cuda 0.10.1.0: FFI binding to the CUDA interface for programming NVIDIA GPUs
 dev-haskell/cufft 0.8.0.0: Haskell bindings for the CUFFT library
 dev-haskell/curl 1.3.8: Haskell binding to libcurl
-dev-haskell/curly-expander 0.3.0.1: Curly braces (brackets) expanding
+dev-haskell/curly-expander 0.3.0.1 0.3.0.3: Curly braces (brackets) expanding
 dev-haskell/curve25519 0.2.7: Fast implementations of the curve25519 elliptic curve primitives
 dev-haskell/cyclotomic 1.1.1: A subfield of the complex numbers for exact calculation
 dev-haskell/czipwith 1.0.1.4: CZipWith class and deriving via TH
@@ -851,7 +853,7 @@ dev-haskell/happstack-server 7.8.0.2: Web related tools and services
 dev-haskell/happstack-server-tls 7.2.1.3: extend happstack-server with https:// support (TLS/SSL)
 dev-haskell/happy 1.20.1.1: Happy is a parser generator for Haskell
 dev-haskell/harp 0.4.3.4: HaRP allows pattern-matching with regular expressions
-dev-haskell/hashable 1.4.3.0: A class for types that can be converted to a hash value
+dev-haskell/hashable 1.4.7.0: A class for types that can be converted to a hash value
 dev-haskell/hashable-time 0.3: Hashable instances for Data.Time
 dev-haskell/hashing 0.1.0.1: A pure haskell library implements several hash algorithms
 dev-haskell/hashmap 1.3.3: Persistent containers Map and Set based on hashing
@@ -1499,6 +1501,7 @@ dev-haskell/optparse-generic 1.5.2: Auto-generate a command-line parser for your
 dev-haskell/optparse-simple 0.1.1.4: Simple interface to optparse-applicative
 dev-haskell/ordered-containers 0.2.3: Set- and Map-like types that remember the order elements were inserted
 dev-haskell/ormolu 0.7.2.0: A formatter for Haskell source code
+dev-haskell/os-string 2.0.6: Library for manipulating Operating system strings
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc 3.1.13-r1 3.2.1: Conversion between markup formats
@@ -1539,6 +1542,7 @@ dev-haskell/pcg-random 0.1.4.0: Haskell bindings to the PCG random number genera
 dev-haskell/pcre-heavy 1.0.0.2: A regexp library on top of pcre-light you can actually use
 dev-haskell/pcre-light 0.4.1.0: Portable regex library for Perl 5 compatible regular expressions
 dev-haskell/pdfinfo 1.5.4: Wrapper around the pdfinfo command
+dev-haskell/peano 0.1.0.2: Peano numbers
 dev-haskell/pem 0.2.4: Privacy Enhanced Mail (PEM) format reader and writer
 dev-haskell/persistable-record 0.6.0.4: Binding between SQL database values and haskell records
 dev-haskell/persistable-types-hdbc-pg 0.0.3.5: HDBC and Relational-Record instances of PostgreSQL extended types
@@ -2028,7 +2032,7 @@ dev-haskell/text-format 0.3.2-r1: Text formatting
 dev-haskell/text-format-simple 1.1.0-r1: Simple text formatting library
 dev-haskell/text-icu 0.8.0.4: Bindings to the ICU library
 dev-haskell/text-icu-normalized 0.1.6: Dealing with Strict Text in NFC normalization
-dev-haskell/text-iso8601 0.1: Converting time to and from ISO 8601 text
+dev-haskell/text-iso8601 0.1.1: Converting time to and from ISO 8601 text
 dev-haskell/text-latin1 0.3.1: Latin-1 (including ASCII) utility functions
 dev-haskell/text-manipulate 0.2.0.1: Case conversion, word boundary manipulation, and textual subjugation
 dev-haskell/text-metrics 0.3.2: Calculate various string metrics efficiently
@@ -2381,8 +2385,8 @@ net-irc/glirc 2.39.0.1-r2: Console IRC client
 net-irc/lambdabot 5.3.0.1: Lambdabot is a development tool and advanced IRC bot
 sci-biology/bamstats 0.4: A program to extract various information from BAM alignment files
 sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
-sci-mathematics/agda 2.6.3.0: A dependently typed functional programming language and proof assistant
-sci-mathematics/agda-stdlib 2.6.3.0.1.7.2: Agda standard library
+sci-mathematics/agda 2.6.4.3: A dependently typed functional programming language and proof assistant
+sci-mathematics/agda-stdlib 2.6.4.3.2.0: Agda standard library
 sci-mathematics/spline3 1.0.2: parallel implementation of the Sorokina/Zeilfelder spline scheme
 virtual/pandoc 0: Virtual for pandoc
 www-apps/clckwrks 0.28.0.1-r1: A secure, reliable content management system (CMS) and blogging platform
@@ -2390,7 +2394,7 @@ www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some a
 www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
 www-apps/clckwrks-plugin-page 0.4.3.26-r1: support for CMS/Blogging in clckwrks
 www-apps/darcsweb 1.1: A web interface for darcs
-www-apps/gitit 0.15.1.2: Wiki using happstack, git or darcs, and pandoc
+www-apps/gitit 0.15.1.2-r1: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp

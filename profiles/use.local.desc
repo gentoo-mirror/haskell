@@ -169,6 +169,7 @@ dev-haskell/hakyll:usepandoc - Include Pandoc support
 dev-haskell/hakyll:watchserver - Include the watch server
 dev-haskell/handsomesoup:examples - Build examples
 dev-haskell/happstack-plugins:tests - Build the testsuite, and include the tests in the library.
+dev-haskell/hashable:ghc-9-0 - Use dependencies compatible with ghc-9.0
 dev-haskell/hashable:random-initial-seed - Randomly initialize the seed on every executable invocation. This is not a security feature and is intended only for testing (it can affect legitimate use cases).
 dev-haskell/hashtables:bounds-checking - if on, use bounds-checking array accesses
 dev-haskell/hashtables:detailed-profiling - add detailed profiling information to profiled build-depends
