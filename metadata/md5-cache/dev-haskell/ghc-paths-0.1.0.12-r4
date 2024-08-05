@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 <dev-haskell/cabal-3.11 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 <dev-haskell/cabal-3.13 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Knowledge of GHC's installation directories
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/ghc-paths
@@ -10,6 +10,6 @@ KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.0.12
-SRC_URI=https://hackage.haskell.org/package/ghc-paths-0.1.0.12/ghc-paths-0.1.0.12.tar.gz https://hackage.haskell.org/package/ghc-paths-0.1.0.12/revision/5.cabal -> ghc-paths-0.1.0.12-rev5.cabal
+SRC_URI=https://hackage.haskell.org/package/ghc-paths-0.1.0.12/ghc-paths-0.1.0.12.tar.gz https://hackage.haskell.org/package/ghc-paths-0.1.0.12/revision/6.cabal -> ghc-paths-0.1.0.12-rev6.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=fd5a964571c995440a67588d64628033
+_md5_=c2215799a6639ee05290571b24016337
