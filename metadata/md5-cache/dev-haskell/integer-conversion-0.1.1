@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/primitive-0.9.0.0:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-lang/ghc-9.0.2:= dev-haskell/text:=[profile?] >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/tasty-quickcheck-0.10.2 <dev-haskell/tasty-quickcheck-0.11 dev-haskell/text >=dev-haskell/quickcheck-2.14.3 <dev-haskell/quickcheck-2.16 >=dev-haskell/tasty-1.4.3 <dev-haskell/tasty-1.6 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Conversion from strings to Integer
+EAPI=8
+HOMEPAGE=https://github.com/phadej/integer-conversion
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/primitive-0.9.0.0:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-lang/ghc-9.0.2:= dev-haskell/text:=[profile?] dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.1
+SRC_URI=https://hackage.haskell.org/package/integer-conversion-0.1.1/integer-conversion-0.1.1.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=9fed14cd7f8e61f87b071333102db2a2

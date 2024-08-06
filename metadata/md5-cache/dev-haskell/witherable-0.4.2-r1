@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/base-orphans-0.8.4:=[profile?] <dev-haskell/base-orphans-0.10:=[profile?] >=dev-haskell/hashable-1.2.7.0:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/indexed-traversable-0.1.1:=[profile?] <dev-haskell/indexed-traversable-0.2:=[profile?] >=dev-haskell/indexed-traversable-instances-0.1:=[profile?] <dev-haskell/indexed-traversable-instances-0.2:=[profile?] >=dev-haskell/unordered-containers-0.2.12.0:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-haskell/vector-0.12.2.0:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.2
-SRC_URI=https://hackage.haskell.org/package/witherable-0.4.2/witherable-0.4.2.tar.gz https://hackage.haskell.org/package/witherable-0.4.2/revision/4.cabal -> witherable-0.4.2-rev4.cabal
+SRC_URI=https://hackage.haskell.org/package/witherable-0.4.2/witherable-0.4.2.tar.gz https://hackage.haskell.org/package/witherable-0.4.2/revision/5.cabal -> witherable-0.4.2-rev5.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=668e7e040ffdfeb054811d78d4af72be
+_md5_=f32f15f0e9fa4b7c741cf6e4d95d37c5

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/haskell/primitive
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
-KEYWORDS=~amd64 ~amd64-linux
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86 ~amd64-linux
 LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.7.4.0
 SRC_URI=https://hackage.haskell.org/package/primitive-0.7.4.0/primitive-0.7.4.0.tar.gz https://hackage.haskell.org/package/primitive-0.7.4.0/revision/1.cabal -> primitive-0.7.4.0-rev1.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=7de4e13b742720ccd15245dec4287a4f
+_md5_=217467611639adf7c08c4da0cd9eab04
