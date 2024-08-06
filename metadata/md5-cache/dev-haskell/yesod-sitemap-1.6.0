@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=dev-haskell/conduit:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/xml-conduit-1.0:=[profile?] dev-haskell/xml-types:=[profile?] >=dev-haskell/yesod-core-1.6:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 SLOT=0/1.6.0
 SRC_URI=https://hackage.haskell.org/package/yesod-sitemap-1.6.0/yesod-sitemap-1.6.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=82bc0a7df03801a66746fee2d9ad187d

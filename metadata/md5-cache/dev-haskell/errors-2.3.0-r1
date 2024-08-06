@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/safe-0.3.3:=[profile?] <dev-haskell/safe-0.4:=[profile?] >=dev-haskell/transformers-compat-0.4:=[profile?] <dev-haskell/transformers-compat-0.8:=[profile?] >=dev-lang/ghc-8.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/2.3.0
 SRC_URI=https://hackage.haskell.org/package/errors-2.3.0/errors-2.3.0.tar.gz https://hackage.haskell.org/package/errors-2.3.0/revision/5.cabal -> errors-2.3.0-rev5.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=c1890a006adee67d394e687c9f8a0cf0
