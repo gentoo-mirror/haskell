@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/pem-0.1:=[profile?] <dev-haskell/pem-0.3:=[profile?] >=dev-haskell/x509-1.6:=[profile?] >=dev-haskell/x509-store-1.6.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/1.6.7
 SRC_URI=https://hackage.haskell.org/package/x509-system-1.6.7/x509-system-1.6.7.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=1fbb1e139a4263dfaa8a731d8eeb9b76

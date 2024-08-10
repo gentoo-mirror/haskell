@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/uulib-0.9:=[profile?] <dev-haskell/uulib-0.10:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.0.0
 SRC_URI=https://hackage.haskell.org/package/chr-parse-0.1.0.0/chr-parse-0.1.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=f2de5c9984e4060472b21e704bff390b

@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/binary:=[profile?] dev-haskell/dataenc:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/parsec-3.0.0:=[profile?] dev-haskell/time-locale-compat:=[profile?] >=dev-lang/ghc-6.10.4:= dev-lang/ghc:=[profile?]
 SLOT=0/2.51
 SRC_URI=https://hackage.haskell.org/package/buster-2.51/buster-2.51.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=07ac8eef1aa8cc1c22d1c737d40b6603

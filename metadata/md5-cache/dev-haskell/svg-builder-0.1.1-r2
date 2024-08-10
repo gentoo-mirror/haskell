@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/blaze-builder-0.4:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/hashable-1.1:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.1
 SRC_URI=https://hackage.haskell.org/package/svg-builder-0.1.1/svg-builder-0.1.1.tar.gz https://hackage.haskell.org/package/svg-builder-0.1.1/revision/8.cabal -> svg-builder-0.1.1-rev8.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=40afa0b2a9b842bda0aabe2786d62d30

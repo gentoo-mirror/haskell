@@ -10,5 +10,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=dev-haskell/extensible-exceptions:=[profile?] >=dev-haskell/mtl-1:=[profile?] <dev-haskell/mtl-3:=[profile?] dev-haskell/old-locale:=[profile?] dev-haskell/old-time:=[profile?] dev-haskell/random:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/x11-1.10:=[profile?] <dev-haskell/x11-1.11:=[profile?] >=dev-lang/ghc-8.0.1:= >=x11-wm/xmonad-0.16:=[profile?] xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] ) dev-lang/ghc:=[profile?]
 SLOT=0/9999
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=905060bbfad13d8bad9862354ebdc8a8
