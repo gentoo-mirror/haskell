@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/mmap-0.5:=[profile?] <dev-haskell/mmap-0.6:=[profile?] >=d
 RESTRICT=!test? ( test )
 SLOT=0/0.6.3.2
 SRC_URI=https://hackage.haskell.org/package/hw-prim-0.6.3.2/hw-prim-0.6.3.2.tar.gz https://hackage.haskell.org/package/hw-prim-0.6.3.2/revision/1.cabal -> hw-prim-0.6.3.2-rev1.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=7443d8dcfc05a07fc9819d3e9ae30ed2

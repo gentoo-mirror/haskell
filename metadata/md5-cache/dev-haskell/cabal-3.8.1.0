@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/cabal-syntax-3.8:=[profile?] <dev-haskell/cabal-syntax-3.9:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-8.8.1:= <dev-lang/ghc-9.5:= || ( ( >=dev-haskell/text-1.2.3.0 <dev-haskell/text-1.3 ) ( >=dev-haskell/text-2.0 <dev-haskell/text-2.1 ) ) dev-haskell/text:=[profile?] dev-lang/ghc:=[profile?]
 SLOT=0/3.8.1.0
 SRC_URI=https://hackage.haskell.org/package/Cabal-3.8.1.0/Cabal-3.8.1.0.tar.gz -> cabal-3.8.1.0.tar.gz https://hackage.haskell.org/package/Cabal-3.8.1.0/revision/2.cabal -> cabal-3.8.1.0-rev2.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=17731868e996e532b72f8b3e88372237

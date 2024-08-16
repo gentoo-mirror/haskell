@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/haskell-src-exts-1.18:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] ~dev-haskell/protocol-buffers-2.4.17:=[profile?] ~dev-haskell/protocol-buffers-descriptor-2.4.17:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/2.4.17
 SRC_URI=https://hackage.haskell.org/package/hprotoc-2.4.17/hprotoc-2.4.17.tar.gz https://hackage.haskell.org/package/hprotoc-2.4.17/revision/2.cabal -> hprotoc-2.4.17-rev2.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=90ceb8d40d7666c9eccbda62121589a0

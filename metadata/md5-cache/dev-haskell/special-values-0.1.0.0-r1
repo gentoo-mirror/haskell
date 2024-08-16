@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/ieee754-0.8:=[profile?] <dev-haskell/ieee754-0.9:=[profile?] >=dev-haskell/scientific-0.2:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-haskell/text-0.7:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
 SLOT=0/0.1.0.0
 SRC_URI=https://hackage.haskell.org/package/special-values-0.1.0.0/special-values-0.1.0.0.tar.gz https://hackage.haskell.org/package/special-values-0.1.0.0/revision/2.cabal -> special-values-0.1.0.0-rev2.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=16f54bfeaaa4bde5c3f5d890c3d0ca6c

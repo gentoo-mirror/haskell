@@ -11,5 +11,5 @@ LICENSE=wxWinLL-3.1
 RDEPEND=dev-haskell/parsec:=[profile?] dev-haskell/stm:=[profile?] >=dev-haskell/wxc-0.92:3.0-gtk3=[profile?,gstreamer?] >=dev-haskell/wxdirect-0.91:3.0-gtk3=[profile?] >=dev-lang/ghc-7.4.1:= x11-libs/wxGTK:3.0-gtk3=[X,gstreamer?,opengl] !!dev-haskell/wxcore:3.0 dev-lang/ghc:=[profile?]
 SLOT=3.0-gtk3/0.92.3.0
 SRC_URI=https://hackage.haskell.org/package/wxcore-0.92.3.0/wxcore-0.92.3.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
 _md5_=ad70517f294b5aa172fbb8ceaff39970
