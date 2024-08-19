@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=
 RESTRICT=!test? ( test )
 SLOT=0/2.26.0
 SRC_URI=https://hackage.haskell.org/package/haddock-api-2.26.0/haddock-api-2.26.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=c4eb4da4db92f1fd64ab3cf1041b8e1b

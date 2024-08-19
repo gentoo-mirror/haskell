@@ -11,5 +11,5 @@ LICENSE=GPL-2+
 RDEPEND=~dev-haskell/pandoc-3.1.13:= dev-haskell/text:= >=dev-lang/ghc-9.0.2:= lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.2.1:= <dev-haskell/pandoc-lua-engine-0.3:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= ) !<app-text/pandoc-3
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/pandoc-cli-3.1.13/pandoc-cli-3.1.13.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=ba5578b4971bf09574c5c1a6d1971a5a
