@@ -12,4 +12,4 @@ RDEPEND=acct-group/hoogle acct-user/hoogle dev-haskell/aeson:=[profile?] dev-has
 SLOT=0/5.0.18.4
 SRC_URI=https://hackage.haskell.org/package/hoogle-5.0.18.4/hoogle-5.0.18.4.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	systemd	c8b03e8df84486aa991d4396686e8942
-_md5_=9112e2cecf76ab5c09fdbb731f2b5ba0
+_md5_=88b9e3006b05b61b876c6422160403d1
