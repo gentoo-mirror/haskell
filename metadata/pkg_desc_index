@@ -22,7 +22,7 @@ app-portage/hackport 0.8.3.0 0.8.4.0 0.8.5.1 9999: Hackage and Portage integrati
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
 app-text/pandoc 3: Metapackage for pandoc version 3
-app-text/pandoc-cli 0.1.1 3.1.13 3.2.1: Conversion between documentation formats
+app-text/pandoc-cli 0.1.1 3.1.13 3.2.1 3.3: Conversion between documentation formats
 app-text/pdfsplit 0.0.1-r1: split two-column PDFs, so there is one column per page
 app-vim/haskellindent 0.1-r2: vim plugin: Indent settings and filetype detection for Haskell sources
 app-vim/haskellmode 20101118-r1: vim plugin: Provides IDE-like features for Haskell development
@@ -1504,9 +1504,9 @@ dev-haskell/ormolu 0.7.2.0: A formatter for Haskell source code
 dev-haskell/os-string 2.0.6: Library for manipulating Operating system strings
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
-dev-haskell/pandoc 3.1.13-r1 3.2.1: Conversion between markup formats
+dev-haskell/pandoc 3.1.13-r1 3.2.1 3.3: Conversion between markup formats
 dev-haskell/pandoc-crossref 0.3.17.0: Pandoc filter for cross-references
-dev-haskell/pandoc-lua-engine 0.2.1.2 0.3: Lua engine to power custom pandoc conversions
+dev-haskell/pandoc-lua-engine 0.2.1.2 0.3 0.3.1: Lua engine to power custom pandoc conversions
 dev-haskell/pandoc-lua-marshal 0.2.4 0.2.7: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1.0.5 0.1.0.6: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
@@ -2120,7 +2120,7 @@ dev-haskell/typecompose 0.9.14: Type composition classes & instances
 dev-haskell/typed-process 0.2.11.1: Run external processes, with strong typing of streams
 dev-haskell/typelits-witnesses 0.4.0.0: Existential witnesses, singletons, and classes for operations on GHC TypeLits
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
-dev-haskell/typst 0.5.0.4: Parsing and evaluating typst syntax
+dev-haskell/typst 0.5.0.5: Parsing and evaluating typst syntax
 dev-haskell/typst-symbols 0.1.6: Symbol and emoji lookup for typst language
 dev-haskell/tz 0.1.3.5 0.1.3.6: Efficient time zone handling
 dev-haskell/tzdata 0.2.20201021.0 0.2.20230322.0: Time zone database (as files and as a module)
@@ -2369,7 +2369,7 @@ dev-util/shelltestrunner 1.9: A tool for testing command-line programs
 dev-util/spago 0.20.6: PureScript package manager and build tool powered by Dhall and package-sets
 dev-util/threadscope 0.2.14.1-r1: A graphical tool for profiling parallel Haskell programs
 dev-vcs/darcs 2.18.1 2.18.3: a distributed, interactive, smart revision control system
-dev-vcs/git-annex 10.20230802 10.20230926: manage files with git, without checking their contents into git
+dev-vcs/git-annex 10.20230802 10.20230926 10.20240808: manage files with git, without checking their contents into git
 dev-vcs/git-repair 1.20230814: repairs a damaged git repository
 games-action/monadius 0.99: 2-D arcade scroller
 games-arcade/shu-thing 1.1.4: A vector shooter game
@@ -2405,7 +2405,7 @@ x11-misc/arbtt 0.12.0.1: Automatic Rule-Based Time Tracker
 x11-misc/deadd-notification-center 2.1.1: A notification daemon and center
 x11-misc/gtk-sni-tray 0.1.8.0: A standalone StatusNotifierItem/AppIndicator tray
 x11-misc/taffybar 4.0.0: A desktop bar similar to xmobar, but with more GUI
-x11-misc/xmobar 0.46 0.47.3 9999: A Minimalistic Text Based Status Bar
+x11-misc/xmobar 0.46 0.47.3 0.48.1 9999: A Minimalistic Text Based Status Bar
 x11-misc/xmonad-extras 0.17.0: Third party extensions for xmonad with wacky dependencies
 x11-misc/xmonad-screenshot 0.1.2-r1: Workspaces screenshooting utility for XMonad
 x11-misc/xmonad-utils 0.1.3.3-r1: A small collection of X utilities
@@ -2413,4 +2413,4 @@ x11-misc/xmonad-wallpaper 0.0.1.5-r1: xmonad wallpaper extension
 x11-misc/yeganesh 2.5: small dmenu wrapper
 x11-terms/termonad 4.2.0.1: Terminal emulator configurable in Haskell
 x11-wm/xmonad 0.17.2 0.18.0 9999: A tiling window manager
-x11-wm/xmonad-contrib 0.17.1 0.18.0 9999: Third party extensions for xmonad
+x11-wm/xmonad-contrib 0.17.1 0.18.0 0.18.1 9999: Third party extensions for xmonad

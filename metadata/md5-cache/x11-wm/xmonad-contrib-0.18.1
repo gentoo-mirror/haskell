@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/random:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/x11-1.10:=[profile?] <dev-haskell/x11-1.11:=[profile?] >=dev-lang/ghc-9.0.2:= >=x11-wm/xmonad-0.18.0:=[profile?] <x11-wm/xmonad-0.19:=[profile?] xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2.4.0 <dev-haskell/hspec-3 >=dev-haskell/quickcheck-2 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Community-maintained extensions for xmonad
+EAPI=8
+HOMEPAGE=https://xmonad.org/
+INHERIT=haskell-cabal
+IUSE=+xft doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/random:=[profile?] dev-haskell/utf8-string:=[profile?] >=dev-haskell/x11-1.10:=[profile?] <dev-haskell/x11-1.11:=[profile?] >=dev-lang/ghc-9.0.2:= >=x11-wm/xmonad-0.18.0:=[profile?] <x11-wm/xmonad-0.19:=[profile?] xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.18.1
+SRC_URI=https://hackage.haskell.org/package/xmonad-contrib-0.18.1/xmonad-contrib-0.18.1.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=3cec8a720e48a75e9d7594b803c25db5

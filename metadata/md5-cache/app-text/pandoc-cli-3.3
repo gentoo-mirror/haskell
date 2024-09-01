@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=~dev-haskell/pandoc-3.3:= dev-haskell/text:= >=dev-lang/ghc-9.0.2:= lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.3.1:= <dev-haskell/pandoc-lua-engine-0.4:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1.0.6:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= ) !<app-text/pandoc-3 >=dev-haskell/cabal-3.4.1.0
+DESCRIPTION=Conversion between documentation formats
+EAPI=8
+HOMEPAGE=https://pandoc.org
+INHERIT=haskell-cabal
+IUSE=+lua nightly +server
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=~dev-haskell/pandoc-3.3:= dev-haskell/text:= >=dev-lang/ghc-9.0.2:= lua? ( >=dev-haskell/hslua-cli-1.4.1:= <dev-haskell/hslua-cli-1.5:= >=dev-haskell/pandoc-lua-engine-0.3.1:= <dev-haskell/pandoc-lua-engine-0.4:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= ) server? ( >=dev-haskell/pandoc-server-0.1.0.6:= <dev-haskell/pandoc-server-0.2:= dev-haskell/safe:= >=dev-haskell/wai-extra-3.0.24:= dev-haskell/warp:= ) !<app-text/pandoc-3
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/pandoc-cli-3.3/pandoc-cli-3.3.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=823bdbbf8890314b45626443e933d9a2

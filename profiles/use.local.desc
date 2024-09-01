@@ -466,6 +466,7 @@ dev-vcs/git-annex:dbus - Enable dbus support
 dev-vcs/git-annex:gitlfs - Build with git-lfs library (rather than vendored copy)
 dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
 dev-vcs/git-annex:pairing - Enable pairing
+dev-vcs/git-annex:parallelbuild - Enable production build (slower build; faster binary)
 dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
 games-puzzle/intricacy:curses - Enables curses user interface
 games-puzzle/intricacy:sdl - Enables SDL user interface
@@ -497,4 +498,5 @@ x11-misc/xmonad-extras:eval - Build modules depending on hint(for evaluating Has
 x11-misc/xmonad-extras:mpd - Build modules depending on libmpd.
 x11-misc/yeganesh:profiling - Build with profiling and -auto-all
 x11-wm/xmonad:no-autorepeat-keys - Allow ignoring of keyboard autorepeat.
+x11-wm/xmonad-contrib:pedantic - Be pedantic (-Werror and the like)
 x11-wm/xmonad-contrib:xft - Use Xft to render text
