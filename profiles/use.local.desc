@@ -392,7 +392,6 @@ dev-haskell/string-interpolate:text-builder - Use Text Builders to construct Tex
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/synthesizer-alsa:examples - Build example executables
 dev-haskell/synthesizer-midi:buildexamples - Build example executables
-dev-haskell/system-uuid:cli - Enable command line tool
 dev-haskell/tasty-discover:executable - Build the tasty-discover executable
 dev-haskell/texmath:executable - Compile test executable.
 dev-haskell/texmath:server - Compile webserver.
