@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/polyparse-1.12.1:=[profile?] <dev-haskell/polyparse-1.14:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.3:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Utilities for manipulating XML documents
+EAPI=8
+HOMEPAGE=https://github.com/HaXml/HaXml
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-haskell/polyparse-1.12.1:=[profile?] <dev-haskell/polyparse-1.14:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.3:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/1.25.13
+SRC_URI=https://hackage.haskell.org/package/HaXml-1.25.13/HaXml-1.25.13.tar.gz -> haxml-1.25.13.tar.gz https://hackage.haskell.org/package/HaXml-1.25.13/revision/2.cabal -> haxml-1.25.13-rev2.cabal
+_eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=e507fe88eb885d76e82d4587dfa080fe
