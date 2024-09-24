@@ -12,5 +12,5 @@ RDEPEND=X? ( || ( x11-libs/libX11 virtual/x11 ) ) opengl? ( virtual/opengl media
 RESTRICT=test
 SLOT=0
 SRC_URI=https://www.haskell.org/hugs/downloads/2006-09/hugs98-plus-Sep2006.tar.gz
-_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	gnuconfig	f8b9cc21e72de8cbedde6ca5108d208b	libtool	f9e6905c12590c1cac06d85371a0819a	autotools	61927ff6474f1d141b4ea4a5b9870424
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	gnuconfig	f8b9cc21e72de8cbedde6ca5108d208b	libtool	f9e6905c12590c1cac06d85371a0819a	autotools	88360f474e629ee45f99b739f02b7d2d
 _md5_=84dfa5ab360a062c1d3c926d01f1ce9f
