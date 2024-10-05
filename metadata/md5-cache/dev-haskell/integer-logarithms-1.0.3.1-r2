@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/haskellari/integer-logarithms
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
-KEYWORDS=amd64 ~arm64 ~ppc64 ~riscv ~x86
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0.3.1
 SRC_URI=https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/integer-logarithms-1.0.3.1.tar.gz https://hackage.haskell.org/package/integer-logarithms-1.0.3.1/revision/6.cabal -> integer-logarithms-1.0.3.1-rev6.cabal
 _eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=f2abb33b3ae3cafa56326693ff654496
+_md5_=3d40f47505b6a7368572f06318be25d5

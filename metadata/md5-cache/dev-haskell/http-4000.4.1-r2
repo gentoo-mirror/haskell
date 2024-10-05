@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/haskell/HTTP
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
-KEYWORDS=amd64 ~arm64 ~ppc64 ~riscv ~x86
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=BSD
 RDEPEND=>=dev-haskell/network-2.6:=[profile?] <dev-haskell/network-3.3:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4000.4.1
 SRC_URI=https://hackage.haskell.org/package/HTTP-4000.4.1/HTTP-4000.4.1.tar.gz -> http-4000.4.1.tar.gz https://hackage.haskell.org/package/HTTP-4000.4.1/revision/4.cabal -> http-4000.4.1-rev4.cabal
 _eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=22fadbefafc4f2a86c50aa93342bc596
+_md5_=24a0cb5acfe3fe2d531717fcdccd9ee4
