@@ -230,7 +230,7 @@ dev-haskell/btrfs 0.2.0.0: Bindings to the btrfs API
 dev-haskell/bug 1.0.1: Better alternatives to the "error" function
 dev-haskell/butcher 1.3.3.2-r1: Chops a command or program invocation into digestable pieces
 dev-haskell/byline 1.1.2: Library for creating command-line interfaces (colors, menus, etc.)
-dev-haskell/byte-order 0.1.2.0: Portable big-endian and little-endian conversions
+dev-haskell/byte-order 0.1.2.0 0.1.3.1: Portable big-endian and little-endian conversions
 dev-haskell/byteable 0.1.1: Type class for sequence of bytes
 dev-haskell/bytebuild 0.3.10.0: Serialize to a small byte arrays
 dev-haskell/bytedump 1.0: Flexible byte dump helpers for human readers
@@ -1605,12 +1605,12 @@ dev-haskell/prettyprinter-compat-ansi-wl-pprint 1.0.2: Drop-in compatibility pac
 dev-haskell/prettyprinter-interp 0.2.0.0: Efficient interpolation for Prettyprinter
 dev-haskell/prim-uniq 0.1.0.1-r1 0.2: Opaque unique identifiers in primitive state monads
 dev-haskell/primes 0.2.1.0-r1: Efficient, purely functional generation of prime numbers
-dev-haskell/primitive 0.7.4.0 0.9.0.0: Primitive memory-related operations
+dev-haskell/primitive 0.9.0.0: Primitive memory-related operations
 dev-haskell/primitive-addr 0.1.0.2-r1: Addresses to unmanaged memory
 dev-haskell/primitive-checked 0.7.3.0-r1: primitive functions with bounds-checking
 dev-haskell/primitive-extras 0.10.1.10: Extras for the "primitive" library
 dev-haskell/primitive-offset 0.2.0.0: Types for offsets into unboxed arrays
-dev-haskell/primitive-unaligned 0.1.1.1: Unaligned access to primitive arrays
+dev-haskell/primitive-unaligned 0.1.1.2: Unaligned access to primitive arrays
 dev-haskell/primitive-unlifted 0.1.3.1-r1 2.1.0.0: Primitive GHC types with unlifted types inside
 dev-haskell/probability 0.2.7: Probabilistic Functional Programming
 dev-haskell/proc 0.0.9: Parse process information for Linux
@@ -2219,7 +2219,7 @@ dev-haskell/websockets-snap 0.10.3.1: Snap integration for the websockets librar
 dev-haskell/weeder 1.0.8: Detect dead code
 dev-haskell/weigh 0.0.17: Measure allocations of a Haskell functions/values
 dev-haskell/which 0.2.0.1: Determine the full path to an executable
-dev-haskell/wide-word 0.1.5.0: Data types for large but fixed width signed and unsigned integers
+dev-haskell/wide-word 0.1.6.0: Data types for large but fixed width signed and unsigned integers
 dev-haskell/winery 1.1.3: Sustainable serialisation library
 dev-haskell/with-location 0.1.0: Use ImplicitParams-based source locations in a backward compatible way
 dev-haskell/with-utf8 1.0.2.3: Get your IO right on the first try
