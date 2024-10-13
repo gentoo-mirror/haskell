@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/persistent-2.1:=[profile?] >=dev-haskell/text-0.7:=[profile?] >=dev-haskell/yesod-auth-1.4.18:=[profile?] <dev-haskell/yesod-auth-1.7:=[profile?] >=dev-haskell/yesod-core-1.4.19:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-haskell/yesod-form-1.4:=[profile?] <dev-haskell/yesod-form-1.8:=[profile?] >=dev-haskell/yesod-persistent-1.2:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/basic-prelude >=dev-haskell/hspec-2.0.0 dev-haskell/http-conduit dev-haskell/http-types dev-haskell/monad-logger dev-haskell/network-uri >=dev-haskell/persistent-sqlite-2.1 dev-haskell/resourcet dev-haskell/unordered-containers dev-haskell/wai-extra dev-haskell/yesod >=dev-haskell/yesod-test-1.5.0.1 >=dev-haskell/yesod-auth-1.6.1 <dev-haskell/yesod-auth-1.7 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/persistent-2.1:=[profile?] >=dev-haskell/text-0.7:=[profile?] >=dev-haskell/yesod-auth-1.4.18:=[profile?] <dev-haskell/yesod-auth-1.7:=[profile?] >=dev-haskell/yesod-core-1.4.19:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-haskell/yesod-form-1.4:=[profile?] <dev-haskell/yesod-form-1.8:=[profile?] >=dev-haskell/yesod-persistent-1.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/basic-prelude >=dev-haskell/hspec-2.0.0 dev-haskell/http-conduit dev-haskell/http-types dev-haskell/monad-logger dev-haskell/network-uri >=dev-haskell/persistent-sqlite-2.1 dev-haskell/resourcet dev-haskell/unordered-containers dev-haskell/wai-extra dev-haskell/yesod >=dev-haskell/yesod-test-1.5.0.1 || ( ( >=dev-haskell/yesod-auth-1.4.18 <dev-haskell/yesod-auth-1.5 ) ( >=dev-haskell/yesod-auth-1.6.1 <dev-haskell/yesod-auth-1.7 ) ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Authentication plugin for Yesod
 EAPI=8
 HOMEPAGE=https://github.com/paul-rouse/yesod-auth-hashdb
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/persistent-2.1:=[profile?] >=dev-haskell/text-0.7:=[profile?] >=dev-haskell/yesod-auth-1.4.18:=[profile?] <dev-haskell/yesod-auth-1.7:=[profile?] >=dev-haskell/yesod-core-1.4.19:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-haskell/yesod-form-1.4:=[profile?] <dev-haskell/yesod-form-1.8:=[profile?] >=dev-haskell/yesod-persistent-1.2:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/aeson:=[profile?] >=dev-haskell/persistent-2.1:=[profile?] >=dev-haskell/text-0.7:=[profile?] >=dev-haskell/yesod-auth-1.4.18:=[profile?] <dev-haskell/yesod-auth-1.7:=[profile?] >=dev-haskell/yesod-core-1.4.19:=[profile?] <dev-haskell/yesod-core-1.7:=[profile?] >=dev-haskell/yesod-form-1.4:=[profile?] <dev-haskell/yesod-form-1.8:=[profile?] >=dev-haskell/yesod-persistent-1.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.7.1.7
 SRC_URI=https://hackage.haskell.org/package/yesod-auth-hashdb-1.7.1.7/yesod-auth-hashdb-1.7.1.7.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=5e9f8e2910e8cbd397aa621ad04192b1
+_md5_=91855e8778e3030a20379482b3fd9e01
