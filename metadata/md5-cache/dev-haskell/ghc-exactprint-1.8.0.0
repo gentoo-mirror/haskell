@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/free-4.12:=[profile?] dev-haskell/ordered-containers:=[profile?] >=dev-haskell/syb-0.5:=[profile?] >=dev-lang/ghc-9.8.1:= <dev-lang/ghc-9.10 >=dev-haskell/cabal-3.10.3.0 test? ( dev-haskell/cabal-syntax dev-haskell/diff dev-haskell/extra >=dev-haskell/ghc-paths-0.1 >=dev-haskell/hunit-1.2 >=dev-haskell/silently-1.2 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=ExactPrint for GHC
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/ghc-exactprint
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/data-default:=[profile?] >=dev-haskell/free-4.12:=[profile?] dev-haskell/ordered-containers:=[profile?] >=dev-haskell/syb-0.5:=[profile?] >=dev-lang/ghc-9.8.1:= <dev-lang/ghc-9.10 dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.8.0.0
+SRC_URI=https://hackage.haskell.org/package/ghc-exactprint-1.8.0.0/ghc-exactprint-1.8.0.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=d29a92740f3b14ab958a1bd2f2a9755b
