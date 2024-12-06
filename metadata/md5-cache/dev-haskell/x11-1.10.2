@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/data-default-class-0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-lang/ghc-8.4.3:= x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-libs/libXScrnSaver xinerama? ( x11-libs/libXinerama ) >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/data-default-class-0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-lang/ghc-8.4.3:= x11-base/xorg-proto x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-libs/libXScrnSaver xinerama? ( x11-libs/libXinerama ) >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A binding to the X11 graphics library
 EAPI=8
 HOMEPAGE=https://github.com/xmonad/X11
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=+xinerama doc hscolour hoogle profile
 KEYWORDS=~amd64 ~amd64-linux ~ppc-macos
 LICENSE=BSD
-RDEPEND=>=dev-haskell/data-default-class-0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-lang/ghc-8.4.3:= x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-libs/libXScrnSaver xinerama? ( x11-libs/libXinerama ) dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/data-default-class-0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-lang/ghc-8.4.3:= x11-base/xorg-proto x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr x11-libs/libXScrnSaver xinerama? ( x11-libs/libXinerama ) dev-lang/ghc:=[profile?]
 SLOT=0/1.10.2
 SRC_URI=https://hackage.haskell.org/package/X11-1.10.2/X11-1.10.2.tar.gz -> x11-1.10.2.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=1e7f9f426e0cd8118ca6245589644b1e
+_md5_=d93d19c3cf3ef4a9c90e6f1faf00331c

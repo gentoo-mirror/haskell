@@ -2334,6 +2334,7 @@ dev-util/dhall-nix 1.1.26: Dhall to Nix compiler
 dev-util/dhall-toml 1.0.3-r1: Convert between Dhall and TOML
 dev-util/dhall-yaml 1.2.12-r1: Convert between Dhall and YAML
 dev-util/dzen-dhall 1.0.2: Configure dzen2 bars in Dhall language
+dev-util/ghcup-bin 0.1.30.0: Rust toolchain installer
 dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
 dev-util/hasmin 1.0.3-r2: CSS Minifier
 dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
@@ -2366,6 +2367,7 @@ sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
 sci-mathematics/agda 2.6.4.3: A dependently typed functional programming language and proof assistant
 sci-mathematics/agda-stdlib 2.6.4.3.2.0: Agda standard library
 sci-mathematics/spline3 1.0.2: parallel implementation of the Sorokina/Zeilfelder spline scheme
+sec-keys/openpgp-keys-ghcup 0: OpenPGP keys used to sign GHCup releases
 virtual/pandoc 0: Virtual for pandoc
 www-apps/clckwrks 0.28.0.1-r1: A secure, reliable content management system (CMS) and blogging platform
 www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some aspects of clckwrks
