@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.0:=[profile?] >=dev-haskell/base16-bytestring-0.1.
 REQUIRED_USE=profile? ( threads ) test? ( threads )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	bash-completion-r1	767861f3744f589ee5291c1698b1c082
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	bash-completion-r1	767861f3744f589ee5291c1698b1c082
 _md5_=c18f0d0925a5943dbb7a8a9266ef8ea4

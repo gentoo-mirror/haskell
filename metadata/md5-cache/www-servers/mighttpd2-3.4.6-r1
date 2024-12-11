@@ -12,5 +12,5 @@ RDEPEND=acct-group/mighttpd2 acct-user/mighttpd2 dev-haskell/async:=[profile?] d
 RESTRICT=!test? ( test )
 SLOT=0/3.4.6
 SRC_URI=https://hackage.haskell.org/package/mighttpd2-3.4.6/mighttpd2-3.4.6.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	systemd	54bd206bb5c4efac6ae28b6b006713b0
 _md5_=ea4c3d1725366a76e76ec2b8e25b8949

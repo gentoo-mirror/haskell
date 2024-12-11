@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/hxt-charproperties-9.1:=[profile?] >=dev-haskell/hxt-regex-xmlschema-9.2:=[profile?] >=dev-haskell/hxt-unicode-9.0.1:=[profile?] >=dev-haskell/mtl-2.0.1:=[profile?] <dev-haskell/mtl-3:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] >=dev-haskell/parsec-2.1:=[profile?] <dev-haskell/parsec-4:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 SLOT=0/9.3.1.22
 SRC_URI=https://hackage.haskell.org/package/hxt-9.3.1.22/hxt-9.3.1.22.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=2a9573ea90231669fe2e9cd77d97159f
