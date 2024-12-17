@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/data-default-class-0.0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?] >=dev-haskell/lens-3.0:=[profile?] <dev-haskell/lens-5.4:=[profile?] >=dev-haskell/linear-1.10:=[profile?] <dev-haskell/linear-1.24:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.4.0.6
 SRC_URI=https://hackage.haskell.org/package/force-layout-0.4.0.6/force-layout-0.4.0.6.tar.gz https://hackage.haskell.org/package/force-layout-0.4.0.6/revision/13.cabal -> force-layout-0.4.0.6-rev13.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=5366c165570f0263776fd061edfeeb24
