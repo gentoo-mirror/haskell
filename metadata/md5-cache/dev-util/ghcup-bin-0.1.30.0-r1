@@ -1,4 +1,4 @@
-BDEPEND=sec-keys/openpgp-keys-ghcup verify-sig? ( app-crypt/gnupg >=app-portage/gemato-20 )
+BDEPEND=verify-sig? ( sec-keys/openpgp-keys-ghcup ) verify-sig? ( app-crypt/gnupg >=app-portage/gemato-20 )
 DEFINED_PHASES=install postinst unpack
 DESCRIPTION=Rust toolchain installer
 EAPI=8
@@ -10,4 +10,4 @@ LICENSE=LGPL-3
 SLOT=0
 SRC_URI=amd64? ( https://downloads.haskell.org/~ghcup/0.1.30.0/x86_64-linux-ghcup-0.1.30.0 -> ghcup-bin-0.1.30.0-x86_64-linux-exe ) arm64? ( https://downloads.haskell.org/~ghcup/0.1.30.0/aarch64-linux-static-ghcup-0.1.30.0 -> ghcup-bin-0.1.30.0-aarch64-linux-static-exe ) arm? ( https://downloads.haskell.org/~ghcup/0.1.30.0/armv7-linux-ghcup-0.1.30.0 -> ghcup-bin-0.1.30.0-armv7-linux-exe ) x86? ( https://downloads.haskell.org/~ghcup/0.1.30.0/i386-linux-ghcup-0.1.30.0 -> ghcup-bin-0.1.30.0-i386-linux-exe ) verify-sig? ( https://downloads.haskell.org/~ghcup/0.1.30.0/SHA256SUMS -> ghcup-bin-0.1.30.0-SHA256SUMS https://downloads.haskell.org/~ghcup/0.1.30.0/SHA256SUMS.sig -> ghcup-bin-0.1.30.0-SHA256SUMS.sig )
 _eclasses_=verify-sig	745dccb7d4656514f1e966cce314d7db
-_md5_=73f7da9c340b7fcb6285e9f284d2a74c
+_md5_=7d33f37322f9b1d5e9e736c420a575f9

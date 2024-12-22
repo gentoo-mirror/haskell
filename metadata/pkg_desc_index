@@ -8,7 +8,7 @@ app-admin/propellor 5.12: property-based host configuration management in haskel
 app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early 1980s
 app-crypt/hb3sum 0.0.0.1: A command line tool to compute BLAKE3 hashes
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
-app-misc/brick-trading-journal 0.1.7.2: Terminal UI program for basic trading statistics
+app-misc/brick-trading-journal 0.1.7.4: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.1.1_pre20220821 9999: Advanced keyboard remapping utility
 app-misc/lsql-csv 0.1.0.4: A tool for CSV files data querying from the shell with short queries.
 app-office/hledger 1.34: Command-line interface for the hledger accounting system
@@ -219,8 +219,8 @@ dev-haskell/bower-json 1.0.0.1: Read bower.json from Haskell
 dev-haskell/boxes 0.1.5: 2D text pretty-printing library
 dev-haskell/breakpoint 0.1.0.0: Set breakpoints using a GHC plugin
 dev-haskell/brick 1.5 1.10 2.3.1: A declarative terminal user interface library
-dev-haskell/brick-list-skip 0.1.1.13: Skip a certain kind of items when moving in brick list
-dev-haskell/brick-tabular-list 2.2.0.11: Tabular list widgets for brick
+dev-haskell/brick-list-skip 0.1.1.16: Skip a certain kind of items when moving in brick list
+dev-haskell/brick-tabular-list 2.2.0.15: Tabular list widgets for brick
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
 dev-haskell/bsb-http-chunked 0.0.0.4-r1: Chunked HTTP transfer encoding for bytestring builders
 dev-haskell/bson 0.3.2.8-r1 0.4.0.1-r1: BSON documents are JSON-like objects with a standard binary encoding
@@ -1742,6 +1742,7 @@ dev-haskell/rosezipper 0.2: Generic zipper implementation for Data.Tree
 dev-haskell/rotating-log 0.4.3: Size-limited, concurrent, automatically-rotating log writer
 dev-haskell/row-types 1.0.1.2: Open Records and Variants
 dev-haskell/rsa 2.4.1: Implementation of RSA, using the padding schemes of PKCS#1 v2.1
+dev-haskell/rset 1.0.0: Range set: Data structure that stores a set of ranges
 dev-haskell/rss 3000.2.0.7-r2: A library for generating RSS 2.0 feeds
 dev-haskell/run-st 0.1.1.0: runST without boxing penalty
 dev-haskell/rvar 0.3.0.0 0.3.0.2: Random Variables
@@ -2334,7 +2335,7 @@ dev-util/dhall-nix 1.1.26: Dhall to Nix compiler
 dev-util/dhall-toml 1.0.3-r1: Convert between Dhall and TOML
 dev-util/dhall-yaml 1.2.12-r1: Convert between Dhall and YAML
 dev-util/dzen-dhall 1.0.2: Configure dzen2 bars in Dhall language
-dev-util/ghcup-bin 0.1.30.0: Rust toolchain installer
+dev-util/ghcup-bin 0.1.30.0-r1: Rust toolchain installer
 dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
 dev-util/hasmin 1.0.3-r2: CSS Minifier
 dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
@@ -2362,6 +2363,7 @@ media-gfx/implicitcad 0.4.1.0: A math-inspired programmatic 2D & 3D CAD system
 media-sound/hpodder 1.1.6-r2: Podcast Aggregator (downloader)
 net-irc/glirc 2.39.0.1-r2: Console IRC client
 net-irc/lambdabot 5.3.0.1: Lambdabot is a development tool and advanced IRC bot
+net-misc/htalkat 0.1.2.5: Talk across TLS
 sci-biology/bamstats 0.4: A program to extract various information from BAM alignment files
 sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
 sci-mathematics/agda 2.6.4.3: A dependently typed functional programming language and proof assistant
