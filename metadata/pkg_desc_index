@@ -445,7 +445,7 @@ dev-haskell/data-accessor-template 0.2.1.16: Utilities for accessing and manipul
 dev-haskell/data-accessor-transformers 0.2.1.7-r1: Use Accessor to access state in transformers State monad
 dev-haskell/data-array-byte 0.1.0.1: Compatibility layer for Data.Array.Byte
 dev-haskell/data-binary-ieee754 0.4.4: Parser/Serialiser for IEEE-754 floating-point values
-dev-haskell/data-bword 0.1.0.1: Extra operations on binary words of fixed length
+dev-haskell/data-bword 0.1.0.2: Extra operations on binary words of fixed length
 dev-haskell/data-checked 0.3: Type-indexed runtime-checked properties
 dev-haskell/data-clist 0.1.2.3-r1 0.2: Simple functional ring type
 dev-haskell/data-default 0.7.1.1: A class for types with a default value
