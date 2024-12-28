@@ -402,9 +402,7 @@ dev-haskell/threepenny-gui:rebug - Expose more bugs by increasing determinism
 dev-haskell/thyme:bug-for-bug - bug-for-bug compatibility with time
 dev-haskell/thyme:lens - use the full lens package
 dev-haskell/thyme:show-internal - instance Show of internal representation
-dev-haskell/tls:compat - Accept SSLv2 client hello for beginning SSLv3 / TLS handshake
 dev-haskell/tls:devel - Development commands
-dev-haskell/tls:network - Use the base network library
 dev-haskell/tomland:examples - Build example exes
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
 dev-haskell/typst:executable - Compile executable to be used in testing and development.
@@ -429,6 +427,7 @@ dev-haskell/vector-algorithms:properties - Enable the quickcheck tests
 dev-haskell/vector-algorithms:unsafechecks - Enable bounds checking in unsafe operations at the cost of a significant performance penalty.
 dev-haskell/vector-instances:hashable - use
 dev-haskell/void:safe - Disable effective but unsafe coercions
+dev-haskell/wai-app-static:crypton - Use the crypton library for MD5 computation
 dev-haskell/wai-app-static:print - print debug info
 dev-haskell/warp:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
 dev-haskell/wcwidth:cli - Enable command line tool
@@ -467,6 +466,7 @@ dev-vcs/git-annex:gitlfs - Build with git-lfs library (rather than vendored copy
 dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
 dev-vcs/git-annex:pairing - Enable pairing
 dev-vcs/git-annex:parallelbuild - Enable production build (slower build; faster binary)
+dev-vcs/git-annex:servant - Use the servant library, enabling using annex+http urls and git-annex p2phttp
 dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
 games-puzzle/intricacy:curses - Enables curses user interface
 games-puzzle/intricacy:sdl - Enables SDL user interface
