@@ -718,13 +718,14 @@ dev-haskell/ghc-heap-view 0.6.4: Extract the heap representation of Haskell valu
 dev-haskell/ghc-lib 9.4.4.20221225: The GHC API, decoupled from GHC versions
 dev-haskell/ghc-lib-parser 9.4.4.20221225 9.6.2.20230523 9.8.2.20240223 9.10.1.20240511: The GHC API, decoupled from GHC versions
 dev-haskell/ghc-lib-parser-ex 9.4.0.0 9.6.0.0 9.8.0.2 9.10.0.0: Programming with GHC parse trees
-dev-haskell/ghc-parser 0.2.3.0: Haskell source parser from GHC
+dev-haskell/ghc-parser 0.2.7.0: Haskell source parser from GHC
 dev-haskell/ghc-paths 0.1.0.12-r4: Knowledge of GHC's installation directories
 dev-haskell/ghc-platform 9.10.1: Platform information used by GHC and friends
 dev-haskell/ghc-prof 1.4.1.9: Library for parsing GHC time and allocation profiling reports
 dev-haskell/ghc-prof-aeson 0.1.0.0: Parser for GHC's JSON profiling output
 dev-haskell/ghc-prof-aeson-flamegraph 0.1.0.0: Turn GHC '-pj' profiling output into FlameGraph format
 dev-haskell/ghc-source-gen 0.4.3.0: Constructs Haskell syntax trees for the GHC API
+dev-haskell/ghc-syntax-highlighter 0.0.10.0 0.0.11.0 0.0.12.0: Syntax highlighter for Haskell using the lexer of GHC
 dev-haskell/ghc-tcplugins-extra 0.4.6: Utilities for writing GHC type-checker plugins
 dev-haskell/ghc-toolchain 9.10.1: Utility for managing GHC target toolchains
 dev-haskell/ghc-trace-events 0.1.2.8: Faster traceEvent and traceMarker, and binary object logging for eventlog
@@ -1099,7 +1100,7 @@ dev-haskell/idna 0.3.0: Implements IDNA (RFC 3490)
 dev-haskell/ieee754 0.8.0: Utilities for dealing with IEEE floating point numbers
 dev-haskell/ifelse 0.85-r1: Anaphoric and miscellaneous useful control-flow
 dev-haskell/ignore 0.1.1.0: Handle ignore files of different VCSes
-dev-haskell/ihaskell 0.10.2.0: A Haskell backend kernel for the IPython project
+dev-haskell/ihaskell 0.12.0.0: A Haskell backend kernel for the Jupyter project
 dev-haskell/ihaskell-charts 0.3.0.1: IHaskell display instances for charts types
 dev-haskell/ihaskell-diagrams 0.3.2.1: IHaskell display instances for diagram types
 dev-haskell/ihaskell-hatex 0.2.1.1: IHaskell display instances for hatex
@@ -1144,7 +1145,7 @@ dev-haskell/ipprint 0.6-r1: Tiny helper for pretty-printing values in ghci conso
 dev-haskell/iproute 1.7.12: IP Routing Table
 dev-haskell/ipv6addr 2.0.5.1: Library to deal with IPv6 address text representations
 dev-haskell/ipynb 0.2: Data structure for working with Jupyter notebooks (ipynb)
-dev-haskell/ipython-kernel 0.10.2.1: A library for creating kernels for IPython frontends
+dev-haskell/ipython-kernel 0.11.0.0: A library for creating kernels for IPython frontends
 dev-haskell/irc 0.6.1.0-r1: A small library for parsing IRC messages
 dev-haskell/irc-core 2.11 2.12: IRC core library for glirc
 dev-haskell/ireal 0.2.3-r1: Real numbers and intervals with relatively efficient exact arithmetic
@@ -2345,7 +2346,7 @@ dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
 dev-util/hindent 6.1.1: Extensible Haskell pretty printer
 dev-util/hoogle 5.0.18.4-r1: Haskell API Search
 dev-util/shake 0.19.8: Build system library, like Make, but more accurate dependencies
-dev-util/shellcheck 0.9.0-r2 0.10.0: Shell script analysis tool
+dev-util/shellcheck 0.9.0-r2 0.10.0-r1: Shell script analysis tool
 dev-util/shelltestrunner 1.9: A tool for testing command-line programs
 dev-util/spago 0.20.6: PureScript package manager and build tool powered by Dhall and package-sets
 dev-util/threadscope 0.2.14.1-r1: A graphical tool for profiling parallel Haskell programs
