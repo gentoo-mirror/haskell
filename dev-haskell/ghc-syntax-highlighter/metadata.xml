@@ -5,11 +5,8 @@
 		<email>haskell@gentoo.org</email>
 		<name>Gentoo Haskell</name>
 	</maintainer>
-	<use>
-		<flag name="hlint">Include HLint support</flag>
-	</use>
 	<upstream>
-		<remote-id type="hackage">ihaskell</remote-id>
-		<remote-id type="github">gibiansky/IHaskell</remote-id>
+		<remote-id type="hackage">ghc-syntax-highlighter</remote-id>
+		<remote-id type="github">mrkkrp/ghc-syntax-highlighter</remote-id>
 	</upstream>
 </pkgmetadata>
