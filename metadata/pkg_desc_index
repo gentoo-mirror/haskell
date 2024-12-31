@@ -2339,7 +2339,7 @@ dev-util/dhall-nix 1.1.26: Dhall to Nix compiler
 dev-util/dhall-toml 1.0.3-r1: Convert between Dhall and TOML
 dev-util/dhall-yaml 1.2.12-r1: Convert between Dhall and YAML
 dev-util/dzen-dhall 1.0.2: Configure dzen2 bars in Dhall language
-dev-util/ghcup-bin 0.1.30.0-r1: Rust toolchain installer
+dev-util/ghcup-bin 0.1.30.0-r2: The GHCup Haskell installer
 dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
 dev-util/hasmin 1.0.3-r2: CSS Minifier
 dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
