@@ -16,18 +16,21 @@ fi
 PYTHON_COMPAT=( python3_{9..12} )
 inherit python-any-r1
 inherit autotools bash-completion-r1 flag-o-matic ghc-package
-inherit toolchain-funcs prefix check-reqs llvm unpacker haskell-cabal
+inherit toolchain-funcs prefix check-reqs llvm unpacker haskell-cabal verify-sig
 
 DESCRIPTION="The Glasgow Haskell Compiler"
 HOMEPAGE="https://www.haskell.org/ghc/"
 
-GHC_BRANCH_COMMIT="f3225ed4b3f3c4309f9342c5e40643eeb0cc45da" # ghc-9.10.1-release
+VERIFY_SIG_OPENPGP_KEY_PATH=/usr/share/openpgp-keys/ghc.asc
 
-GHC_BINARY_PV="9.8.1"
+GHC_BRANCH_COMMIT="a3401159f2846605abb517e71af463df47398e72" # ghc-9.8.4-release
+
+GHC_BINARY_PV="9.6.2"
 SRC_URI="
 	https://downloads.haskell.org/~ghc/${PV}/${P}-src.tar.xz
+	verify-sig? ( https://downloads.haskell.org/~ghc/${PV}/${P}-src.tar.xz.sig )
 	!ghcbootstrap? (
-		https://downloads.haskell.org/~ghc/${PV}/hadrian-bootstrap-sources/hadrian-bootstrap-sources-${GHC_BINARY_PV}.tar.gz
+		https://downloads.haskell.org/~ghc/9.8.2/hadrian-bootstrap-sources/hadrian-bootstrap-sources-${GHC_BINARY_PV}.tar.gz
 		amd64? ( https://downloads.haskell.org/~ghc/${GHC_BINARY_PV}/ghc-${GHC_BINARY_PV}-x86_64-alpine3_12-linux-static-int_native.tar.xz )
 	)
 	test? (
@@ -91,7 +94,6 @@ S="${WORKDIR}"/${GHC_P}
 
 BUMP_LIBRARIES=(
 	# "hackage-name          hackage-version"
-	"directory 1.3.8.5"
 )
 
 LICENSE="BSD"
@@ -133,12 +135,14 @@ BDEPEND="
 	)
 	ghcbootstrap? (
 		ghcmakebinary? ( dev-haskell/hadrian[static] )
-		dev-haskell/alex
 		~dev-haskell/hadrian-${PV}
 	)
 	test? (
 		${PYTHON_DEPS}
 		${LLVM_DEPS}
+	)
+	verify-sig? (
+		sec-keys/openpgp-keys-ghc
 	)
 "
 
@@ -476,7 +480,16 @@ src_unpack() {
 	case ${CHOST} in
 		*-darwin* | *-solaris*)  ONLYA=${GHC_P}-src.tar.xz  ;;
 	esac
-	unpacker ${ONLYA}
+	if use verify-sig; then
+		verify-sig_verify_detached "${DISTDIR}"/${P}-src.tar.xz{,.sig}
+	fi
+	# Strip signature files from the list of files to unpack
+	for f in ${ONLYA}; do
+		if [[ ${f} != *.sig ]]; then
+			nosig="${nosig} ${f}"
+		fi
+	done
+	unpacker ${nosig}
 }
 
 src_prepare() {
@@ -548,7 +561,7 @@ src_prepare() {
 
 	# https://gitlab.haskell.org/ghc/ghc/-/issues/22954
 	# https://gitlab.haskell.org/ghc/ghc/-/issues/21936
-	eapply "${FILESDIR}"/${PN}-9.10.1-llvm-18.patch
+	eapply "${FILESDIR}"/${PN}-9.6.4-llvm-18.patch
 
 	# Fix issue caused by non-standard "musleabi" target in
 	# https://gitlab.haskell.org/ghc/ghc/-/blob/ghc-9.4.5-release/m4/ghc_llvm_target.m4#L39
@@ -559,7 +572,7 @@ src_prepare() {
 
 	pushd "${S}/hadrian" || die
 		# Fix QA Notice: Unrecognized configure options: --with-cc
-		eapply "${FILESDIR}/hadrian-9.10.1-remove-with-cc-configure-flag.patch"
+		eapply "${FILESDIR}/hadrian-9.4.8-remove-with-cc-configure-flag.patch"
 		# Fix QA Notice: One or more compressed files were found in docompress-ed directories
 		eapply "${FILESDIR}/hadrian-9.4.8-disable-doc-archives.patch"
 	popd
