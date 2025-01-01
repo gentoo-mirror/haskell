@@ -12,4 +12,4 @@ RDEPEND=>=dev-haskell/cabal-syntax-3.10:=[profile?] <dev-haskell/cabal-syntax-3.
 SLOT=0/3.10.3.0
 SRC_URI=https://hackage.haskell.org/package/Cabal-3.10.3.0/Cabal-3.10.3.0.tar.gz -> cabal-3.10.3.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=54cacbd5cd782602ae77c0d370f1a326
+_md5_=743a7e961c0ef818d271b55df005aa7c

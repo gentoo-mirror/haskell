@@ -1,15 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.10.6:= hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=Monad classes, using functional dependencies
+DEPEND=>=dev-lang/ghc-9.0.2:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Process libraries
 EAPI=8
-HOMEPAGE=https://github.com/haskell/mtl
+HOMEPAGE=https://hackage.haskell.org/package/process
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
-SLOT=0/2.3.1
-SRC_URI=https://hackage.haskell.org/package/mtl-2.3.1/mtl-2.3.1.tar.gz
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/1.6.25.0
+SRC_URI=https://hackage.haskell.org/package/process-1.6.25.0/process-1.6.25.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=59e761d444f9378dedfbaf5897338c51
+_md5_=e7da2549cfa96088430553a33c48a3c8
