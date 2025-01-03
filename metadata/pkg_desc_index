@@ -1382,9 +1382,9 @@ dev-haskell/monomer 1.5.1.0: A GUI library for writing native Haskell applicatio
 dev-haskell/morsecode 0.0.5: Morse code
 dev-haskell/mountpoints 1.0.2: list mount points
 dev-haskell/msgpack 1.0.1.0-r3: A Haskell implementation of MessagePack
-dev-haskell/mtl 2.2.2-r1 2.3.1: Monad classes, using functional dependencies
+dev-haskell/mtl 2.2.2-r2 2.3.1-r1: Monad classes, using functional dependencies
 dev-haskell/mtl-compat 0.2.2: Backported Control.Monad.Except module from mtl
-dev-haskell/mtl-prelude 2.0.3.1: Reexports of most definitions from "mtl" and "transformers"
+dev-haskell/mtl-prelude 2.0.3.2: Reexports of most definitions from "mtl" and "transformers"
 dev-haskell/mtlparse 0.1.4.0: parse library using mtl package
 dev-haskell/mueval 0.9.3: Safely evaluate pure Haskell expressions
 dev-haskell/multimap 1.2.1-r1: A multimap
