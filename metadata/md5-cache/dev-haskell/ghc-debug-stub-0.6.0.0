@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=~dev-haskell/ghc-debug-convention-0.6.0.0:=[profile?] >=dev-lang/ghc-9.2.4:= || ( sys-devel/clang sys-devel/gcc[cxx] ) >=dev-haskell/cabal-3.6.3.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=~dev-haskell/ghc-debug-convention-0.6.0.0:=[profile?] >=dev-lang/ghc-9.2.4:= || ( llvm-core/clang sys-devel/gcc[cxx] ) >=dev-haskell/cabal-3.6.3.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Functions for instrumenting your application so the heap can be analysed with ghc-debug-common
 EAPI=8
 HOMEPAGE=https://gitlab.haskell.org/ghc/ghc-debug
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=eras trace doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=~dev-haskell/ghc-debug-convention-0.6.0.0:=[profile?] >=dev-lang/ghc-9.2.4:= || ( sys-devel/clang sys-devel/gcc[cxx] ) dev-lang/ghc:=[profile?]
+RDEPEND=~dev-haskell/ghc-debug-convention-0.6.0.0:=[profile?] >=dev-lang/ghc-9.2.4:= || ( llvm-core/clang sys-devel/gcc[cxx] ) dev-lang/ghc:=[profile?]
 SLOT=0/0.6.0.0
 SRC_URI=https://hackage.haskell.org/package/ghc-debug-stub-0.6.0.0/ghc-debug-stub-0.6.0.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=b6a7d8179b1d410c077a37ef7b5827ad
+_md5_=ddf0ac76b1522b15846d28c03b622160

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-9.4.1:= simdutf? ( || ( sys-devel/clang sys-devel/gcc[cxx] ) ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.4.1:= simdutf? ( || ( llvm-core/clang sys-devel/gcc[cxx] ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=An efficient packed Unicode text type
 EAPI=8
 HOMEPAGE=https://github.com/haskell/text
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=+simdutf doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD-2
-RDEPEND=>=dev-lang/ghc-9.4.1:= simdutf? ( || ( sys-devel/clang sys-devel/gcc[cxx] ) ) dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.4.1:= simdutf? ( || ( llvm-core/clang sys-devel/gcc[cxx] ) ) dev-lang/ghc:=[profile?]
 RESTRICT=test
 SLOT=0/2.0.2
 SRC_URI=https://hackage.haskell.org/package/text-2.0.2/text-2.0.2.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=77eae68ace8730448f18a9e922e89eef
+_md5_=a13368b14b1bd8edf82de91165711869
