@@ -1582,6 +1582,7 @@ dev-haskell/port-utils 0.2.1.0: Utilities for creating and waiting on ports
 dev-haskell/portaudio 0.2.4-r1: Haskell bindings for the PortAudio library
 dev-haskell/portmidi 0.2.0.0: A binding for PortMedia/PortMidi
 dev-haskell/posix-escape 0.1: Quote arguments to be passed through the Unix shell
+dev-haskell/posix-timer 0.3.0.1: Bindings to POSIX clock and timer functions
 dev-haskell/postgres-options 0.2.0.0: An Options type representing options for postgres connections
 dev-haskell/postgresql-binary 0.12.4.4: Encoders and decoders for the PostgreSQL's binary format
 dev-haskell/postgresql-libpq 0.9.4.3-r1: low-level binding to libpq
