@@ -1289,7 +1289,7 @@ dev-haskell/magic 1.1: Interface to C file/magic library
 dev-haskell/mainland-pretty 0.7.1: Pretty printing designed for printing source code
 dev-haskell/managed 1.0.9: A monad for managed values
 dev-haskell/map-syntax 0.3-r2: Syntax sugar for defining maps
-dev-haskell/markdown 0.1.17.4: Convert Markdown to HTML, with XSS protection
+dev-haskell/markdown 0.1.17.5: Convert Markdown to HTML, with XSS protection
 dev-haskell/markdown-unlit 0.6.0: Literate Haskell support for Markdown
 dev-haskell/markov-chain 0.0.3.4: Markov Chains for generating random sequences with a user definable behaviour
 dev-haskell/massiv 1.0.4.0: Massiv (Массив) is an Array Library
