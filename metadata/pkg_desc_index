@@ -589,7 +589,7 @@ dev-haskell/event-list 0.1.2: Event lists with relative or absolute time stamps
 dev-haskell/exact-pi 0.5.0.1 0.5.0.2: Exact rational multiples of pi (and integer powers of pi)
 dev-haskell/exception-mtl 0.4.0.1: Exception monad transformer instances for mtl classes
 dev-haskell/exception-transformers 0.4.0.11: Type classes and monads for unchecked extensible exceptions
-dev-haskell/exceptions 0.10.4-r3 0.10.5 0.10.7: Extensible optionally-pure exceptions
+dev-haskell/exceptions 0.10.4-r3 0.10.5 0.10.7 0.10.9: Extensible optionally-pure exceptions
 dev-haskell/executable-path 0.0.3.1: Finding out the full path of the executable
 dev-haskell/exif 3000.0.0-r1: A Haskell binding to a subset of libexif
 dev-haskell/explicit-exception 0.2: Exceptions which are explicit in the type signature
@@ -720,14 +720,14 @@ dev-haskell/ghc-lib-parser 9.4.4.20221225 9.6.2.20230523 9.8.2.20240223 9.8.4.20
 dev-haskell/ghc-lib-parser-ex 9.4.0.0 9.6.0.0 9.8.0.2 9.10.0.0: Programming with GHC parse trees
 dev-haskell/ghc-parser 0.2.7.0: Haskell source parser from GHC
 dev-haskell/ghc-paths 0.1.0.12-r4: Knowledge of GHC's installation directories
-dev-haskell/ghc-platform 9.10.1: Platform information used by GHC and friends
+dev-haskell/ghc-platform 9.10.1 9.12.1: Platform information used by GHC and friends
 dev-haskell/ghc-prof 1.4.1.9: Library for parsing GHC time and allocation profiling reports
 dev-haskell/ghc-prof-aeson 0.1.0.0: Parser for GHC's JSON profiling output
 dev-haskell/ghc-prof-aeson-flamegraph 0.1.0.0: Turn GHC '-pj' profiling output into FlameGraph format
 dev-haskell/ghc-source-gen 0.4.3.0: Constructs Haskell syntax trees for the GHC API
 dev-haskell/ghc-syntax-highlighter 0.0.10.0 0.0.11.0 0.0.12.0: Syntax highlighter for Haskell using the lexer of GHC
 dev-haskell/ghc-tcplugins-extra 0.4.6: Utilities for writing GHC type-checker plugins
-dev-haskell/ghc-toolchain 9.10.1: Utility for managing GHC target toolchains
+dev-haskell/ghc-toolchain 9.10.1 9.12.1: Utility for managing GHC target toolchains
 dev-haskell/ghc-trace-events 0.1.2.8: Faster traceEvent and traceMarker, and binary object logging for eventlog
 dev-haskell/ghc-typelits-extra 0.4.6: Additional type-level operations on GHC.TypeLits.Nat
 dev-haskell/ghc-typelits-knownnat 0.7.10: Derive KnownNat constraints from other KnownNat constraints
