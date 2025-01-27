@@ -816,8 +816,8 @@ dev-haskell/gtk3 0.15.8: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
 dev-haskell/hackage-security 0.6.2.6: Hackage security library
-dev-haskell/haddock 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
-dev-haskell/haddock-api 2.25.1 2.26.0 2.27.0 2.29.1: A documentation-generation tool for Haskell libraries
+dev-haskell/haddock 2.25.1 2.26.0 2.27.0 2.29.1 2.30.0: A documentation-generation tool for Haskell libraries
+dev-haskell/haddock-api 2.25.1 2.26.0 2.27.0 2.29.1 2.30.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.10.0-r2 1.11.0-r3: Library exposing some functionality of Haddock
 dev-haskell/hadrian 9.4.7-r1 9.4.8-r1 9.6.3-r1 9.6.4-r1 9.6.5-r1 9.6.6 9.8.2-r3 9.8.3 9.8.4 9.10.1 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
@@ -2008,7 +2008,7 @@ dev-haskell/testing-feat 1.1.0.0-r1: Functional Enumeration of Algebraic Types
 dev-haskell/testing-type-modifiers 0.1.0.1: Data type modifiers for property based testing
 dev-haskell/texmath 0.12.8.9 0.12.8.12: Conversion between math formats
 dev-haskell/texrunner 0.0.1.2-r2: Functions for running Tex from Haskell
-dev-haskell/text 1.2.4.1-r1 1.2.5.0-r1 2.0.2 2.1.1: An efficient packed Unicode text type
+dev-haskell/text 1.2.4.1-r1 1.2.5.0-r1 2.0.2 2.1.1 2.1.2: An efficient packed Unicode text type
 dev-haskell/text-ansi 0.2.1 0.3.0.1: Text styling for ANSI terminals
 dev-haskell/text-binary 0.2.1.1: Binary instances for text types
 dev-haskell/text-builder 0.6.7 0.6.7.2: Efficient strict text builder
@@ -2076,7 +2076,7 @@ dev-haskell/top 1.7: Constraint solving framework employed by the Helium Compile
 dev-haskell/topograph 1.0.0.2: Directed acyclic graphs
 dev-haskell/torrent 10000.1.1: BitTorrent file parser and generator
 dev-haskell/torsor 0.1: Torsor Typeclass
-dev-haskell/transformers 0.5.6.2-r1 0.6.1.0 0.6.1.1: Concrete functor and monad transformers
+dev-haskell/transformers 0.5.6.2-r1 0.6.1.0 0.6.1.1 0.6.1.2: Concrete functor and monad transformers
 dev-haskell/transformers-base 0.4.6: Lift computations from the bottom of a transformer stack
 dev-haskell/transformers-compat 0.7.2: A small compatibility shim for the transformers library
 dev-haskell/transformers-free 1.0.1-r1: Free monad transformers
