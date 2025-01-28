@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/primitive-0.5:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/primitive-0.5 <dev-haskell/primitive-0.10 >=dev-haskell/quickcheck-classes-0.6.1 <dev-haskell/quickcheck-classes-0.7 <dev-haskell/quickcheck-classes-base-0.7 <dev-haskell/tasty-1.6 <dev-haskell/tasty-quickcheck-0.12 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Space-efficient bit vectors
+EAPI=8
+HOMEPAGE=https://github.com/Bodigrim/bitvec
+INHERIT=haskell-cabal
+IUSE=+simd doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/primitive-0.5:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.1.5.0
+SRC_URI=https://hackage.haskell.org/package/bitvec-1.1.5.0/bitvec-1.1.5.0.tar.gz https://hackage.haskell.org/package/bitvec-1.1.5.0/revision/3.cabal -> bitvec-1.1.5.0-rev3.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=570f6c8214e495d09e92faeec4830971

@@ -106,7 +106,7 @@ dev-haskell/amazonka-test 1.6.1: Common functionality for Amazonka library test-
 dev-haskell/amqp 0.22.1: Client library for AMQP servers (currently only RabbitMQ)
 dev-haskell/amqp-worker 0.3.2: High level functions for working with message queues
 dev-haskell/annotated-wl-pprint 0.7.0: The Wadler/Leijen Pretty Printer, with annotation support
-dev-haskell/ansi-terminal 1.0: Simple ANSI terminal support
+dev-haskell/ansi-terminal 1.0.2: Simple ANSI terminal support
 dev-haskell/ansi-terminal-types 0.11.5: Types and functions used to represent SGR aspects
 dev-haskell/ansi-wl-pprint 1.0.2: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 dev-haskell/ap-normalize 0.1.0.1: Self-normalizing applicative expressions
@@ -194,7 +194,7 @@ dev-haskell/bits-extras 0.1.3: Efficient high-level bit operations not found in 
 dev-haskell/bitstring 0.0.0: Lazy bit strings
 dev-haskell/bitstringrandommonad 1.1.0.2: A library which turns a bytestring into a random monad
 dev-haskell/bitsyntax 0.3.2.2: A module to aid in the (de)serialisation of binary data
-dev-haskell/bitvec 1.1.3.0: Space-efficient bit vectors
+dev-haskell/bitvec 1.1.5.0: Space-efficient bit vectors
 dev-haskell/bitwise 1.0.0.1: fast multi-dimensional unboxed bit packed Bool arrays
 dev-haskell/bktrees 0.3.1: A set data structure with approximate searching
 dev-haskell/blake3 0.3: BLAKE3 hashing algorithm
@@ -343,7 +343,7 @@ dev-haskell/commonmark 0.2.6.1: Pure Haskell commonmark parser
 dev-haskell/commonmark-extensions 0.2.5.5 0.2.5.6: Pure Haskell commonmark parser
 dev-haskell/commonmark-pandoc 0.2.2.1 0.2.2.3: Bridge between commonmark and pandoc AST
 dev-haskell/commutative-semigroups 0.1.0.2: Commutative semigroups
-dev-haskell/comonad 5.0.8-r1: The Comonads package authored by Edward Kmett
+dev-haskell/comonad 5.0.9: Provides comonads, the categorical dual of monads
 dev-haskell/comonad-extras 4.0.1: Exotic comonad transformers
 dev-haskell/comonad-transformers 4.0: This package has been merged into comonad 4.0
 dev-haskell/comonads-fd 4.0: This package has been merged into comonad 4.0
@@ -1877,7 +1877,7 @@ dev-haskell/special-values 0.1.0.0-r1: Typeclass providing special values
 dev-haskell/speculation 1.5.0.3-r1: A framework for safe, programmable, speculative parallelism
 dev-haskell/sphinx 0.6.1: Haskell bindings to the Sphinx full-text searching daemon
 dev-haskell/spintax 0.3.6: Random text generation based on spintax
-dev-haskell/split 0.2.3.5: Combinator library for splitting lists
+dev-haskell/split 0.2.5: Combinator library for splitting lists
 dev-haskell/splitmix 0.1.1: Fast Splittable PRNG
 dev-haskell/spool 0.1: Convert between ByteString and Vector.Storable without copying
 dev-haskell/spoon 0.3.1-r1: Catch errors thrown from pure computations
@@ -1968,7 +1968,7 @@ dev-haskell/tagstream-conduit 0.5.6: streamlined html tag parser
 dev-haskell/tar 0.5.1.1-r3: Reading, writing and manipulating ".tar" archive files
 dev-haskell/tar-conduit 0.4.1: Extract and create tar files using conduit for streaming
 dev-haskell/tardis 0.4.3.0: Bidirectional state monad transformer
-dev-haskell/tasty 1.4.3: Modern and extensible testing framework
+dev-haskell/tasty 1.4.3 1.5.3: Modern and extensible testing framework
 dev-haskell/tasty-ant-xml 1.1.8: Render tasty output to XML for Jenkins
 dev-haskell/tasty-discover 4.2.2: Test discovery for the tasty framework
 dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
@@ -1980,7 +1980,7 @@ dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
 dev-haskell/tasty-inspection-testing 0.2.1: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.1.0: Write tests in Lua, integrate into tasty
-dev-haskell/tasty-quickcheck 0.10.2: QuickCheck support for the Tasty test framework
+dev-haskell/tasty-quickcheck 0.10.2 0.11.1: QuickCheck support for the Tasty test framework
 dev-haskell/tasty-rerun 1.1.18: Rerun only tests which failed in a previous test run
 dev-haskell/tasty-silver 3.3.1: A fancy test runner, including support for golden tests
 dev-haskell/tasty-smallcheck 0.8.2: SmallCheck support for the Tasty test framework
@@ -2033,8 +2033,8 @@ dev-haskell/text-stream-decode 0.1.0.5: Streaming decoding functions for UTF enc
 dev-haskell/text-zipper 0.12 0.13: A text editor zipper library
 dev-haskell/tf-random 0.5: High-quality splittable pseudorandom number generator
 dev-haskell/tga 0.2: Reading and writing of tga image files
-dev-haskell/th-abstraction 0.6.0.0: Nicer interface for reified information about data types
-dev-haskell/th-compat 0.1.5: Backward- (and forward-)compatible Quote and Code types
+dev-haskell/th-abstraction 0.6.0.0 0.7.1.0: Nicer interface for reified information about data types
+dev-haskell/th-compat 0.1.6: Backward- (and forward-)compatible Quote and Code types
 dev-haskell/th-constraint-compat 0.0.1.0: Compatibility for type constraint template
 dev-haskell/th-data-compat 0.1.0.0: Compatibility for data definition template of TH
 dev-haskell/th-desugar 1.12-r1 1.13 1.14 1.15 1.16: Functions to desugar Template Haskell
@@ -2177,7 +2177,7 @@ dev-haskell/vcswrapper 0.1.6: Wrapper for source code management systems
 dev-haskell/vec 0.5: Vec: length-indexed (sized) list
 dev-haskell/vect 0.4.7: A low-dimensional linear algebra library, tailored to computer graphics
 dev-haskell/vector 0.12.3.1-r1 0.13.2.0: Efficient Arrays
-dev-haskell/vector-algorithms 0.9.0.1-r2: Efficient algorithms for vector arrays
+dev-haskell/vector-algorithms 0.9.0.3: Efficient algorithms for vector arrays
 dev-haskell/vector-binary-instances 0.2.5.2: Instances of Data.Binary for vector
 dev-haskell/vector-builder 0.3.8.3: Vector builder
 dev-haskell/vector-hashtables 0.1.2.0: Efficient vector-based mutable hashtables implementation
