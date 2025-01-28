@@ -1495,7 +1495,7 @@ dev-haskell/pandoc-lua-engine 0.3 0.3.1 0.4.1: Lua engine to power custom pandoc
 dev-haskell/pandoc-lua-marshal 0.2.7 0.3.0: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1.0.6 0.1.0.10: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
-dev-haskell/pandoc-types 1.23.1: Types for representing a structured document
+dev-haskell/pandoc-types 1.23.1-r1: Types for representing a structured document
 dev-haskell/pango 0.13.10.0: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.3 0.9.3.2: Content addressable Haskell package management
