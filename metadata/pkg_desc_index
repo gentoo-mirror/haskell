@@ -146,7 +146,7 @@ dev-haskell/barbies 2.0.4.0: Classes for working with types that can change clot
 dev-haskell/base-compat 0.13.1: A compatibility layer for base
 dev-haskell/base-compat-batteries 0.13.1: base-compat with extra batteries
 dev-haskell/base-noprelude 4.13.0.0: "base" package sans "Prelude" module
-dev-haskell/base-orphans 0.9.2: Backwards-compatible orphan instances for base
+dev-haskell/base-orphans 0.9.3: Backwards-compatible orphan instances for base
 dev-haskell/base-prelude 1.6.1.1: Featureful preludes formed solely from the "base" package
 dev-haskell/base-unicode-symbols 0.2.4.2: Unicode alternatives for common functions and operators
 dev-haskell/base16-bytestring 1.0.2.0: RFC 4648-compliant Base16 encodings for ByteStrings
@@ -1646,7 +1646,7 @@ dev-haskell/pwstore-purehaskell 2.1.4: Secure password storage, in pure Haskell
 dev-haskell/pyf 0.11.1.1: Quasiquotations for a python like interpolated string formatter
 dev-haskell/python-pickle 0.2.3-r1: Serialization/deserialization using Python Pickle format
 dev-haskell/qr-imager 2.0.0.2: Library to generate images
-dev-haskell/quickcheck 2.14.3: Automatic testing of Haskell programs
+dev-haskell/quickcheck 2.14.3 2.15.0.1: Automatic testing of Haskell programs
 dev-haskell/quickcheck-arbitrary-template 0.2.1.1: Generate QuickCheck Gen for Sum Types
 dev-haskell/quickcheck-assertions 0.3.0: HUnit like assertions for QuickCheck
 dev-haskell/quickcheck-classes 0.6.5.0-r2: QuickCheck common typeclasses
@@ -1661,7 +1661,7 @@ dev-haskell/quickcheck-unicode 1.0.1.0: Generator and shrink functions for testi
 dev-haskell/quickcheckvariant 0.2.0.0: Generator of "valid" and "invalid" data in a type class
 dev-haskell/quicktest 0.1.3: A reflective batch tester for Haskell
 dev-haskell/quote-quot 0.2.1.0: Divide without division
-dev-haskell/random 1.2.1.2: Pseudo-random number generation
+dev-haskell/random 1.2.1.3: Pseudo-random number generation
 dev-haskell/random-bytestring 0.1.4: Efficient generation of random bytestrings
 dev-haskell/random-fu 0.3.0.0: Random number generation
 dev-haskell/random-shuffle 0.0.4-r1: Random shuffle implementation
@@ -2055,7 +2055,7 @@ dev-haskell/threepenny-gui 0.9.4.1: GUI framework that uses the web browser as a
 dev-haskell/thyme 0.3.5.5: A faster time library
 dev-haskell/tidal 1.9.5: Pattern language for improvised music
 dev-haskell/tidal-link 1.0.3: Ableton Link integration for Tidal
-dev-haskell/time-compat 1.9.7: Compatibility package for time
+dev-haskell/time-compat 1.9.8: Compatibility package for time
 dev-haskell/time-lens 0.4.0.2: Lens-based interface to Data.Time data structures
 dev-haskell/time-locale-compat 0.1.1.5: Compatibility of TimeLocale between old-locale and time-1.5
 dev-haskell/time-manager 0.0.0 0.2.2: Scalable timer
