@@ -6,9 +6,10 @@ EAPI=8
 HOMEPAGE=https://www.haskell.org/cabal/
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/cabal-syntax-3.14:=[profile?] <dev-haskell/cabal-syntax-3.15:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/3.14.1.0
 SRC_URI=https://hackage.haskell.org/package/Cabal-3.14.1.0/Cabal-3.14.1.0.tar.gz -> cabal-3.14.1.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=6cfab549d451ae7a309bf1412e89f977
+_md5_=55d36003f805b1e687afd9e3db5fd820
