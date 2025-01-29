@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=BSD
 RDEPEND=>=dev-haskell/hashable-1.1.2.5:=[profile?] <dev-haskell/hashable-1.5:=[profile?] >=dev-haskell/unordered-containers-0.2.3.0:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.3.1.5
-SRC_URI=https://hackage.haskell.org/package/vault-0.3.1.5/vault-0.3.1.5.tar.gz https://hackage.haskell.org/package/vault-0.3.1.5/revision/7.cabal -> vault-0.3.1.5-rev7.cabal
+SRC_URI=https://hackage.haskell.org/package/vault-0.3.1.5/vault-0.3.1.5.tar.gz https://hackage.haskell.org/package/vault-0.3.1.5/revision/9.cabal -> vault-0.3.1.5-rev9.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=0e2bf696002df3ef07a54e4229dc5c46
+_md5_=e5e9c7a2dde6af421220a481366a0ac7

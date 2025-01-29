@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/fixed-0.2:=[profile?] <dev-haskell/fixed-0.4:=[profile?] >=dev-haskell/half-0.2.2.1:=[profile?] <dev-haskell/half-0.4:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= virtual/opengl >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/fixed-0.2:=[profile?] <dev-haskell/fixed-0.4:=[profile?] >=dev-haskell/half-0.2.2.1:=[profile?] <dev-haskell/half-0.4:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-8.8.1:= virtual/opengl >=dev-haskell/cabal-3.0.0.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A raw binding for the OpenGL graphics system
 EAPI=8
 HOMEPAGE=https://www.haskell.org/haskellwiki/Opengl
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/fixed-0.2:=[profile?] <dev-haskell/fixed-0.4:=[profile?] >=dev-haskell/half-0.2.2.1:=[profile?] <dev-haskell/half-0.4:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.8.1:= virtual/opengl dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/fixed-0.2:=[profile?] <dev-haskell/fixed-0.4:=[profile?] >=dev-haskell/half-0.2.2.1:=[profile?] <dev-haskell/half-0.4:=[profile?] >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-8.8.1:= virtual/opengl dev-lang/ghc:=[profile?]
 SLOT=0/3.3.4.1
-SRC_URI=https://hackage.haskell.org/package/OpenGLRaw-3.3.4.1/OpenGLRaw-3.3.4.1.tar.gz -> openglraw-3.3.4.1.tar.gz https://hackage.haskell.org/package/OpenGLRaw-3.3.4.1/revision/1.cabal -> openglraw-3.3.4.1-rev1.cabal
+SRC_URI=https://hackage.haskell.org/package/OpenGLRaw-3.3.4.1/OpenGLRaw-3.3.4.1.tar.gz -> openglraw-3.3.4.1.tar.gz https://hackage.haskell.org/package/OpenGLRaw-3.3.4.1/revision/3.cabal -> openglraw-3.3.4.1-rev3.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=007b59a9543396bd0911788b6ced27d9
+_md5_=e39c3a09175f203305ba734fec14aa8b

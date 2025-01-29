@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/unicode-data-0.2:=[profile?] <dev-haskell/unicode-data-0.5:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-3 >=dev-haskell/quickcheck-2.1 <dev-haskell/quickcheck-2.15 >=dev-haskell/split-0.2 <dev-haskell/split-0.3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/unicode-data-0.2:=[profile?] <dev-haskell/unicode-data-0.7:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/hspec-2.0 <dev-haskell/hspec-3 >=dev-haskell/quickcheck-2.1 <dev-haskell/quickcheck-2.15 >=dev-haskell/split-0.2 <dev-haskell/split-0.3 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Unicode normalization
 EAPI=8
 HOMEPAGE=https://github.com/composewell/unicode-transforms
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64 ~ppc64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/unicode-data-0.2:=[profile?] <dev-haskell/unicode-data-0.5:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/unicode-data-0.2:=[profile?] <dev-haskell/unicode-data-0.7:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.0.1
-SRC_URI=https://hackage.haskell.org/package/unicode-transforms-0.4.0.1/unicode-transforms-0.4.0.1.tar.gz https://hackage.haskell.org/package/unicode-transforms-0.4.0.1/revision/3.cabal -> unicode-transforms-0.4.0.1-rev3.cabal
+SRC_URI=https://hackage.haskell.org/package/unicode-transforms-0.4.0.1/unicode-transforms-0.4.0.1.tar.gz https://hackage.haskell.org/package/unicode-transforms-0.4.0.1/revision/6.cabal -> unicode-transforms-0.4.0.1-rev6.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=23a3bfe66f23a65f9534555443d4819e
+_md5_=4d7d0c3ed49f50ed022bdf17119f4f18
