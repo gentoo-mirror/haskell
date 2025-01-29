@@ -11,6 +11,6 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/network-2.6:=[profile?] <dev-haskell/network-3.3:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4000.4.1
-SRC_URI=https://hackage.haskell.org/package/HTTP-4000.4.1/HTTP-4000.4.1.tar.gz -> http-4000.4.1.tar.gz https://hackage.haskell.org/package/HTTP-4000.4.1/revision/4.cabal -> http-4000.4.1-rev4.cabal
+SRC_URI=https://hackage.haskell.org/package/HTTP-4000.4.1/HTTP-4000.4.1.tar.gz -> http-4000.4.1.tar.gz https://hackage.haskell.org/package/HTTP-4000.4.1/revision/5.cabal -> http-4000.4.1-rev5.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=24a0cb5acfe3fe2d531717fcdccd9ee4
+_md5_=31b84b93e5b9969b3bfb2ddd5e7beded
