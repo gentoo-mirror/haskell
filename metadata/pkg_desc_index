@@ -249,13 +249,13 @@ dev-haskell/bytestring-trie 0.2.7.3: An efficient finite map from bytestrings to
 dev-haskell/bzlib 0.5.1.0: Compression and decompression in the bzip2 format
 dev-haskell/c2hs 0.28.8-r2: C->Haskell FFI tool that gives some cross-language type safety
 dev-haskell/cabal 3.4.1.0-r1 3.6.3.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0 3.12.0.0 3.14.1.0: A framework for packaging Haskell software
-dev-haskell/cabal-described 3.8.1.0 3.10.1.0: Described functionality for types in Cabal
+dev-haskell/cabal-described 3.8.1.0 3.10.1.0 3.14.1.1: Described functionality for types in Cabal
 dev-haskell/cabal-doctest 1.0.9: A Setup.hs helper for running doctests
 dev-haskell/cabal-file-th 0.2.7: Template Haskell expressions for reading fields from a project's cabal file
 dev-haskell/cabal-fmt 0.1.6-r1 0.1.11 0.1.12: Format .cabal files
 dev-haskell/cabal-install 3.4.1.0-r3 3.6.2.0-r1 3.8.1.0-r1 3.10.1.0 3.10.2.1 3.10.3.0 9999: The command-line interface for Cabal and Hackage
 dev-haskell/cabal-install-parsers 0.6.1: Utilities to work with cabal-install files
-dev-haskell/cabal-install-solver 3.8.1.0 3.10.1.0 3.10.2.1 3.10.3.0: The command-line interface for Cabal and Hackage
+dev-haskell/cabal-install-solver 3.8.1.0 3.10.1.0 3.10.2.1 3.10.3.0 3.14.1.0: The solver component of cabal-install
 dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application bundles
 dev-haskell/cabal-plan 0.7.3.0-r1: Library and utility for processing cabal's plan.json file
 dev-haskell/cabal-quickcheck 3.8.1.0 3.10.1.0: QuickCheck instances for types in Cabal
@@ -624,7 +624,7 @@ dev-haskell/filemanip 0.3.6.3: Expressive file and directory manipulation for Ha
 dev-haskell/filepath-bytestring 1.4.2.1.13: Library for manipulating RawFilePaths in a cross platform way
 dev-haskell/filepattern 0.1.3: File path glob-like matching
 dev-haskell/filestore 0.6.5-r2: Interface for versioning file stores
-dev-haskell/fin 0.2.1 0.3: Nat and Fin: peano naturals and finite numbers
+dev-haskell/fin 0.2.1 0.3.2: Nat and Fin: peano naturals and finite numbers
 dev-haskell/findbin 0.0.5-r1: Locate directory of original program
 dev-haskell/fingertree 0.1.5.0: Generic finger-tree structure, with example instances
 dev-haskell/finite-field 0.9.0: Finite Fields
@@ -1728,7 +1728,7 @@ dev-haskell/repa-devil 0.3.2.6-r1: Support for image reading and writing of Repa
 dev-haskell/repa-io 3.4.1.2-r1: Read and write Repa arrays in various formats
 dev-haskell/repline 0.4.0.0: Haskeline wrapper for GHCi-like REPL interfaces
 dev-haskell/req 3.13.4: HTTP client library
-dev-haskell/rere 0.2.0.1: Regular-expressions extended with fixpoints for context-free powers
+dev-haskell/rere 0.2.0.1-r1: Regular-expressions extended with fixpoints for context-free powers
 dev-haskell/rerebase 1.20.2: Reexports from "base" with a bunch of other standard libraries
 dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresolv standard library routines
 dev-haskell/resource-pool 0.4.0.0: A high-performance striped resource pooling implementation
@@ -2127,7 +2127,7 @@ dev-haskell/uniplate 1.6.13: Help writing simple, concise and fast generic opera
 dev-haskell/uniqueid 0.1.1: Splittable Unique Identifier Supply
 dev-haskell/units 2.4.1.5-r1: A domain-specific type system for dimensional analysis
 dev-haskell/units-parser 0.1.1.4: A parser for units of measure
-dev-haskell/universe-base 1.1.3.1: A class for finite and recursively enumerable types
+dev-haskell/universe-base 1.1.4: A class for finite and recursively enumerable types
 dev-haskell/universe-reverse-instances 1.1.1: Instances of standard classes that are made possible by enumerations
 dev-haskell/unix-bytestring 0.3.7.3: Unix/Posix-specific functions for ByteStrings
 dev-haskell/unix-compat 0.7.1: Portable POSIX-compatibility layer
@@ -2174,7 +2174,7 @@ dev-haskell/varying 0.8.1.0: FRP through value streams and monadic splines
 dev-haskell/vault 0.3.1.5-r2: a persistent store for values of arbitrary types
 dev-haskell/vcs-revision 0.0.2-r1: Facilities for accessing the version control revision of the current directory
 dev-haskell/vcswrapper 0.1.6: Wrapper for source code management systems
-dev-haskell/vec 0.5: Vec: length-indexed (sized) list
+dev-haskell/vec 0.5.1: Vec: length-indexed (sized) list
 dev-haskell/vect 0.4.7: A low-dimensional linear algebra library, tailored to computer graphics
 dev-haskell/vector 0.12.3.1-r1 0.13.2.0: Efficient Arrays
 dev-haskell/vector-algorithms 0.9.0.3: Efficient algorithms for vector arrays
