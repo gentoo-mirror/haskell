@@ -646,7 +646,7 @@ dev-haskell/flow2dot 0.9.2: Library and binary to generate sequence/flow diagram
 dev-haskell/fmlist 0.9.4: FoldMap lists
 dev-haskell/focus 1.0.3.2: A general abstraction for manipulating elements of container data structures
 dev-haskell/focuslist 0.1.1.0: Lists with a focused element
-dev-haskell/foldable1-classes-compat 0.1: Compatibility package for the Foldable1 and Bifoldable1 type classes
+dev-haskell/foldable1-classes-compat 0.1 0.1.1: Compatibility package for the Foldable1 and Bifoldable1 type classes
 dev-haskell/foldl 1.4.16: Composable, streaming, and efficient left folds
 dev-haskell/follow-file 0.0.3: Be notified when a file gets appended, solely with what was added
 dev-haskell/fontyfruity 0.5.3.5: A true type file format loader
