@@ -887,7 +887,7 @@ dev-haskell/heap 1.0.4: Heaps in Haskell
 dev-haskell/heaps 0.4: Asymptotically optimal Brodal/Okasaki heaps
 dev-haskell/heapsize 0.3.0.1: Determine the size of runtime data structures
 dev-haskell/heckle 2.0.2.1: Jekyll in Haskell (feat. LaTeX)
-dev-haskell/hedgehog 1.4-r1: Release with confidence
+dev-haskell/hedgehog 1.4-r2: Release with confidence
 dev-haskell/hedgehog-fn 1.0-r1: Function generation for 'hedgehog'
 dev-haskell/hedis 0.15.1: Client library for the Redis datastore: supports full command set, pipelining
 dev-haskell/hedis-config 0.0.3 1.0.0: Easy trivial configuration for Redis
@@ -1238,7 +1238,7 @@ dev-haskell/libyaml 0.1.4: Low-level, streaming YAML interface
 dev-haskell/libyaml-clib 0.2.5: libyaml clibs
 dev-haskell/libzip 1.0.1: Bindings to libzip, a library for manipulating zip archives
 dev-haskell/lift-type 0.1.0.1: Lift a type from a Typeable constraint to a Template Haskell type
-dev-haskell/lifted-async 0.10.2.5: Run lifted IO operations asynchronously and wait for their results
+dev-haskell/lifted-async 0.10.2.7: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/lifted-base 0.2.3.12: lifted IO operations from the base library
 dev-haskell/linear 1.21.10 1.22: Linear Algebra
 dev-haskell/linear-base 0.3.0: Standard library for linear types
@@ -1448,7 +1448,7 @@ dev-haskell/nonce 1.0.7-r1: Generate cryptographic nonces
 dev-haskell/nonempty-containers 0.3.4.4: Non-empty variants of containers data types, with full API
 dev-haskell/nonempty-vector 0.2.3: Non-empty vectors
 dev-haskell/normaldistribution 1.1.0.3-r1: Minimum fuss normally distributed random values
-dev-haskell/nothunks 0.1.5: Examine values for unexpected thunks
+dev-haskell/nothunks 0.3.0.0: Examine values for unexpected thunks
 dev-haskell/numbers 3000.2.0.2: Various number types
 dev-haskell/numbersieves 0.1.2: Number Theoretic Sieves: primes, factorization, and Euler's Totient
 dev-haskell/numeric-extras 0.1-r1: Useful tools from the C standard library
@@ -1486,7 +1486,7 @@ dev-haskell/optparse-generic 1.5.2: Auto-generate a command-line parser for your
 dev-haskell/optparse-simple 0.1.1.4: Simple interface to optparse-applicative
 dev-haskell/ordered-containers 0.2.4: Set- and Map-like types that remember the order elements were inserted
 dev-haskell/ormolu 0.7.2.0: A formatter for Haskell source code
-dev-haskell/os-string 2.0.6: Library for manipulating Operating system strings
+dev-haskell/os-string 2.0.7: Library for manipulating Operating system strings
 dev-haskell/pager 0.1.1.0: Open up a pager, like 'less' or 'more'
 dev-haskell/palette 0.3.0.2: Utilities for choosing and creating color schemes
 dev-haskell/pandoc 3.2.1 3.3 3.6.1: Conversion between markup formats
@@ -2224,6 +2224,7 @@ dev-haskell/websockets 0.12.7.3 0.13.0.0: A sensible and clean way to write WebS
 dev-haskell/websockets-snap 0.10.3.1: Snap integration for the websockets library
 dev-haskell/weeder 1.0.8: Detect dead code
 dev-haskell/weigh 0.0.17: Measure allocations of a Haskell functions/values
+dev-haskell/wherefrom-compat 0.1.1.1: A compatibility layer for GHC's 'wherefrom' function
 dev-haskell/which 0.2.0.1: Determine the full path to an executable
 dev-haskell/wide-word 0.1.6.0: Data types for large but fixed width signed and unsigned integers
 dev-haskell/winery 1.1.3: Sustainable serialisation library
@@ -2324,7 +2325,7 @@ dev-lang/brainfuck 0.1.0.3: Brainfuck interpreter
 dev-lang/cryptol 2.6.0: Cryptol: The Language of Cryptography
 dev-lang/dhall 1.42.0: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
-dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.6.6 9.8.2-r3 9.8.3 9.8.4 9.10.1-r3 9.12.1: The Glasgow Haskell Compiler
+dev-lang/ghc 9.0.2-r4 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.6.6 9.8.2-r3 9.8.3 9.8.4 9.10.1-r4 9.12.1: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
 dev-lang/prolog 0.3.2: A Prolog interpreter written in Haskell
