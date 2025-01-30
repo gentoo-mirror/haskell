@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/base16-bytestring-0.1.1:= <dev-haskell/base16-bytestring-1.1.0.0:= >=dev-haskell/cabal-3.2:= >=dev-haskell/cryptohash-sha256-0.11:= <dev-haskell/cryptohash-sha256-0.12:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/parsec-3.1:= <dev-haskell/parsec-3.2:= >=dev-haskell/text-1.2:= <dev-haskell/text-3:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-9.0.2:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= ) >=dev-haskell/cabal-3.4.1.0
+DEPEND=>=dev-haskell/base16-bytestring-0.1.1:= <dev-haskell/base16-bytestring-1.1.0.0:= >=dev-haskell/cryptohash-sha256-0.11:= <dev-haskell/cryptohash-sha256-0.12:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/parsec-3.1:= <dev-haskell/parsec-3.2:= >=dev-haskell/text-1.2:= <dev-haskell/text-3:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-9.0.2:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= || ( ( >=dev-haskell/cabal-3.2 <dev-haskell/cabal-3.12 ) >=dev-haskell/cabal-3.12.1.0 ) dev-haskell/cabal:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= ) >=dev-haskell/cabal-3.4.1.0
 DESCRIPTION=GHC build system
 EAPI=8
 HOMEPAGE=https://gitlab.haskell.org/ghc/ghc/-/tree/master/hadrian#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=static test +threaded
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/base16-bytestring-0.1.1:= <dev-haskell/base16-bytestring-1.1.0.0:= >=dev-haskell/cabal-3.2:= >=dev-haskell/cryptohash-sha256-0.11:= <dev-haskell/cryptohash-sha256-0.12:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/parsec-3.1:= <dev-haskell/parsec-3.2:= >=dev-haskell/text-1.2:= <dev-haskell/text-3:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-9.0.2:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= )
+RDEPEND=>=dev-haskell/base16-bytestring-0.1.1:= <dev-haskell/base16-bytestring-1.1.0.0:= >=dev-haskell/cryptohash-sha256-0.11:= <dev-haskell/cryptohash-sha256-0.12:= >=dev-haskell/extra-1.4.7:= >=dev-haskell/parsec-3.1:= <dev-haskell/parsec-3.2:= >=dev-haskell/text-1.2:= <dev-haskell/text-3:= >=dev-haskell/unordered-containers-0.2.1:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-9.0.2:= >=dev-util/shake-0.18.3:= <dev-util/shake-0.20:= || ( ( >=dev-haskell/cabal-3.2 <dev-haskell/cabal-3.12 ) >=dev-haskell/cabal-3.12.1.0 ) dev-haskell/cabal:= static? ( dev-libs/libffi[static-libs] dev-libs/gmp[static-libs] ) test? ( >=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:= )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://downloads.haskell.org/ghc/9.8.3/ghc-9.8.3-src.tar.xz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=08da8f44375b6eeadc16d0cbfae6a8f9
+_md5_=d8fb4e34b7542e7abbb89d56825a0920

@@ -10,7 +10,7 @@ KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=dev-haskell/async-2.0:=[profile?] dev-haskell/unliftio-core:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.2.11.1
-SRC_URI=https://hackage.haskell.org/package/typed-process-0.2.11.1/typed-process-0.2.11.1.tar.gz
+SLOT=0/0.2.12.0
+SRC_URI=https://hackage.haskell.org/package/typed-process-0.2.12.0/typed-process-0.2.12.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=64c924ce0477467d2fac2e6008687c89
+_md5_=6f969eef1a8285d859ba54e3f4fd8dae

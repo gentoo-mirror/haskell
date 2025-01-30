@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/quickcheck-2.10:=[profile?] <dev-haskell/quickcheck-2.16:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-haskell/syb-0.1.0.2:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=For testing partial and infinite values
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/ChasingBottoms
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/quickcheck-2.10:=[profile?] <dev-haskell/quickcheck-2.16:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-haskell/syb-0.1.0.2:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.3.1.15
+SRC_URI=https://hackage.haskell.org/package/ChasingBottoms-1.3.1.15/ChasingBottoms-1.3.1.15.tar.gz -> chasingbottoms-1.3.1.15.tar.gz https://hackage.haskell.org/package/ChasingBottoms-1.3.1.15/revision/2.cabal -> chasingbottoms-1.3.1.15-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=882ba949d0dc5500d86b5c3c4d8b2b3e
