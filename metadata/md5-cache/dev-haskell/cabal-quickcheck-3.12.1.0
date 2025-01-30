@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/cabal-3.12.1.0:=[profile?] <dev-haskell/cabal-3.13:=[profile?] >=dev-haskell/cabal-syntax-3.12.1.0:=[profile?] <dev-haskell/cabal-syntax-3.13:=[profile?] >=dev-lang/ghc-9.0.2:= || ( ( >=dev-haskell/quickcheck-2.13.2 <dev-haskell/quickcheck-2.14 ) ( >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 ) ) dev-haskell/quickcheck:=[profile?] >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=QuickCheck instances for types in Cabal
+EAPI=8
+HOMEPAGE=https://github.com/haskell/cabal#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/cabal-3.12.1.0:=[profile?] <dev-haskell/cabal-3.13:=[profile?] >=dev-haskell/cabal-syntax-3.12.1.0:=[profile?] <dev-haskell/cabal-syntax-3.13:=[profile?] >=dev-lang/ghc-9.0.2:= || ( ( >=dev-haskell/quickcheck-2.13.2 <dev-haskell/quickcheck-2.14 ) ( >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 ) ) dev-haskell/quickcheck:=[profile?] dev-lang/ghc:=[profile?]
+SLOT=0/3.12.1.0
+SRC_URI=https://github.com/haskell/cabal/archive/3d6753ebe13f246d3290c9263fbef38e8319ab59.tar.gz -> cabal-3d6753ebe13f246d3290c9263fbef38e8319ab59.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=b88f1ae46dcb86c1c016cb96d6340070

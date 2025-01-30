@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/cabal:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/base-compat-0.11.0 <dev-haskell/base-compat-0.14 >=dev-haskell/base-orphans-0.6 <dev-haskell/base-orphans-0.10 dev-haskell/cabal-described dev-haskell/cabal-quickcheck dev-haskell/cabal-syntax dev-haskell/cabal-tree-diff >=dev-haskell/clock-0.8 <dev-haskell/clock-0.9 >=dev-haskell/diff-0.4 <dev-haskell/diff-0.6 >=dev-haskell/nothunks-0.1.1.0 <dev-haskell/nothunks-0.3 >=dev-haskell/optparse-applicative-0.13.2.0 <dev-haskell/optparse-applicative-0.19 >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 >=dev-haskell/tar-0.5.0.3 <dev-haskell/tar-0.7 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-1.6 >=dev-haskell/tasty-golden-2.3.1.1 <dev-haskell/tasty-golden-2.4 dev-haskell/tasty-hunit <dev-haskell/tasty-quickcheck-0.12 dev-haskell/temporary dev-haskell/text >=dev-haskell/tree-diff-0.1 <dev-haskell/tree-diff-0.4 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Tests for Cabal library
+EAPI=8
+HOMEPAGE=https://www.haskell.org/cabal/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/cabal:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/3.14.1.1
+SRC_URI=https://github.com/haskell/cabal/archive/15d9d9765cdd0e8870ea8b0f1c63835f55fdd03f.tar.gz -> cabal-15d9d9765cdd0e8870ea8b0f1c63835f55fdd03f.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=9e467ebf949cdf0cdf7f3f983f85a5d4
