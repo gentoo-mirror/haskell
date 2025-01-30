@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/universe-base-1.1.4:=[profile?] <dev-haskell/universe-base-1.1.5:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Instances of standard classes that are made possible by enumerations
+EAPI=8
+HOMEPAGE=https://github.com/dmwit/universe
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/universe-base-1.1.4:=[profile?] <dev-haskell/universe-base-1.1.5:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/1.1.2
+SRC_URI=https://hackage.haskell.org/package/universe-reverse-instances-1.1.2/universe-reverse-instances-1.1.2.tar.gz https://hackage.haskell.org/package/universe-reverse-instances-1.1.2/revision/1.cabal -> universe-reverse-instances-1.1.2-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=39f47c0ee5a7c6824bb169f03a3bc27a

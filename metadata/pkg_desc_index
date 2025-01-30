@@ -575,7 +575,7 @@ dev-haskell/email-validate 2.3.2.19: Email address validation
 dev-haskell/emoji 0.1.0.2: emoji utility
 dev-haskell/emojis 0.1.4.1: Conversion between emoji characters and their names
 dev-haskell/enclosed-exceptions 1.0.3: Catching all exceptions from within an enclosed computation
-dev-haskell/entropy 0.4.1.10: A platform independent entropy source
+dev-haskell/entropy 0.4.1.11: A platform independent entropy source
 dev-haskell/enumerator 0.4.20: Reliable, high-performance processing with left-fold enumerators
 dev-haskell/enummapset 0.7.2.0: IntMap and IntSet with Enum keys/elements
 dev-haskell/enumset 0.0.5: Sets of enumeration values represented by machine words
@@ -1998,7 +1998,7 @@ dev-haskell/tensor 1.1.0.2: Tensor data types
 dev-haskell/terminal-progress-bar 0.4.1: A simple progress bar in the terminal
 dev-haskell/terminal-size 0.3.4: Get terminal window height and width
 dev-haskell/terminfo-hs 0.2.1.1: A pure-Haskell (no FFI) module for accessing terminfo databases
-dev-haskell/test-framework 0.8.2.0-r4: Framework for running and organising tests, with HUnit and QuickCheck support
+dev-haskell/test-framework 0.8.2.0-r5: Framework for running and organising tests, with HUnit and QuickCheck support
 dev-haskell/test-framework-hunit 0.3.0.2-r1: HUnit support for the test-framework package
 dev-haskell/test-framework-leancheck 0.0.1: LeanCheck support for test-framework
 dev-haskell/test-framework-quickcheck2 0.3.0.5-r2: QuickCheck2 support for the test-framework package
@@ -2128,7 +2128,7 @@ dev-haskell/uniqueid 0.1.1: Splittable Unique Identifier Supply
 dev-haskell/units 2.4.1.5-r1: A domain-specific type system for dimensional analysis
 dev-haskell/units-parser 0.1.1.4: A parser for units of measure
 dev-haskell/universe-base 1.1.4: A class for finite and recursively enumerable types
-dev-haskell/universe-reverse-instances 1.1.1: Instances of standard classes that are made possible by enumerations
+dev-haskell/universe-reverse-instances 1.1.2: Instances of standard classes that are made possible by enumerations
 dev-haskell/unix-bytestring 0.3.7.3: Unix/Posix-specific functions for ByteStrings
 dev-haskell/unix-compat 0.7.1: Portable POSIX-compatibility layer
 dev-haskell/unix-memory 0.1.2-r1: Unix memory syscalls
