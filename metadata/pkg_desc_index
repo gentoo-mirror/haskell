@@ -682,7 +682,7 @@ dev-haskell/gd 3000.7.3: A Haskell binding to a subset of the GD graphics librar
 dev-haskell/gdiff 1.1-r1: Generic diff and patch
 dev-haskell/generic-arbitrary 1.0.1: Generic implementation for QuickCheck's Arbitrary
 dev-haskell/generic-data 1.1.0.0: Deriving instances with GHC.Generics and related utilities
-dev-haskell/generic-deriving 1.14.5-r1: Generic programming library for generalised deriving
+dev-haskell/generic-deriving 1.14.6: Generic programming library for generalised deriving
 dev-haskell/generic-lens 2.2.1.0: Generically derive traversals, lenses and prisms
 dev-haskell/generic-lens-core 2.2.1.0-r1: Generically derive traversals, lenses and prisms
 dev-haskell/generic-lens-labels 0.1.0.2: GHC.OverloadedLabels.IsLabel instance for lenses from ghc-generics
@@ -888,7 +888,7 @@ dev-haskell/heap 1.0.4: Heaps in Haskell
 dev-haskell/heaps 0.4: Asymptotically optimal Brodal/Okasaki heaps
 dev-haskell/heapsize 0.3.0.1: Determine the size of runtime data structures
 dev-haskell/heckle 2.0.2.1: Jekyll in Haskell (feat. LaTeX)
-dev-haskell/hedgehog 1.4-r2: Release with confidence
+dev-haskell/hedgehog 1.4-r2 1.5: Release with confidence
 dev-haskell/hedgehog-fn 1.0-r1: Function generation for 'hedgehog'
 dev-haskell/hedis 0.15.1: Client library for the Redis datastore: supports full command set, pipelining
 dev-haskell/hedis-config 0.0.3 1.0.0: Easy trivial configuration for Redis
@@ -1974,7 +1974,7 @@ dev-haskell/tasty-ant-xml 1.1.8: Render tasty output to XML for Jenkins
 dev-haskell/tasty-discover 4.2.2: Test discovery for the tasty framework
 dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
 dev-haskell/tasty-golden 2.3.5: Golden tests support for tasty
-dev-haskell/tasty-hedgehog 1.4.0.2-r1: Integration for tasty and hedgehog
+dev-haskell/tasty-hedgehog 1.4.0.2-r2: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.1.0: Tasty helpers to test HsLua
 dev-haskell/tasty-hspec 1.2.0.4: Hspec support for the Tasty test framework
 dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
