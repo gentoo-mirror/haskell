@@ -1015,12 +1015,12 @@ dev-haskell/hsopenssl 0.11.7.5: Partial OpenSSL binding for Haskell
 dev-haskell/hsopenssl-x509-system 0.1.0.4: Use the system's native CA certificate store with HsOpenSSL
 dev-haskell/hsp 0.10.0: Haskell Server Pages is a library for writing dynamic server-side web pages
 dev-haskell/hsparql 0.3.6: A SPARQL query generator and DSL, and a client to query a SPARQL server
-dev-haskell/hspec 2.10.6 2.11.7: A Testing Framework for Haskell
-dev-haskell/hspec-api 2.11.7: A Testing Framework for Haskell
+dev-haskell/hspec 2.10.6 2.11.10: A Testing Framework for Haskell
+dev-haskell/hspec-api 2.11.10: A Testing Framework for Haskell
 dev-haskell/hspec-attoparsec 0.1.0.2-r1: Utility functions for testing your attoparsec parsers with hspec
 dev-haskell/hspec-contrib 0.5.1: Contributed functionality for Hspec
-dev-haskell/hspec-core 2.10.6 2.11.7: A Testing Framework for Haskell
-dev-haskell/hspec-discover 2.10.6 2.11.7: Automatically discover and run Hspec tests
+dev-haskell/hspec-core 2.10.6 2.11.10: A Testing Framework for Haskell
+dev-haskell/hspec-discover 2.10.6 2.11.10: Automatically discover and run Hspec tests
 dev-haskell/hspec-expectations 0.8.4: Catchy combinators for HUnit
 dev-haskell/hspec-expectations-lens 0.4.0-r1: Hspec expectations for the lens stuff
 dev-haskell/hspec-expectations-lifted 0.10.0: A version of hspec-expectations generalized to MonadIO
@@ -1028,7 +1028,7 @@ dev-haskell/hspec-expectations-pretty-diff 0.7.2.5: Catchy combinators for HUnit
 dev-haskell/hspec-golden 0.2.0.0: Golden tests for hspec
 dev-haskell/hspec-hedgehog 0.0.1.2: Integrate Hedgehog and Hspec!
 dev-haskell/hspec-megaparsec 2.2.0: Utility functions for testing Megaparsec parsers with Hspec
-dev-haskell/hspec-meta 2.10.5 2.11.7: A version of Hspec which is used to test Hspec itself
+dev-haskell/hspec-meta 2.10.5 2.11.10: A version of Hspec which is used to test Hspec itself
 dev-haskell/hspec-smallcheck 0.5.2: SmallCheck support for the Hspec testing framework
 dev-haskell/hspec-wai 0.11.1: Experimental Hspec support for testing WAI applications
 dev-haskell/hspecvariant 0.1.0.1: Spec for testing properties for variant types
