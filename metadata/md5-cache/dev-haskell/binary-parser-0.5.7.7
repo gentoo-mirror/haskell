@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/text-1:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/base-prelude-1.6 <dev-haskell/base-prelude-2 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-2 >=dev-haskell/tasty-hunit-0.10 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10 <dev-haskell/tasty-quickcheck-0.12 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=An efficient but limited parser API specialised to bytestrings
+EAPI=8
+HOMEPAGE=https://github.com/nikita-volkov/binary-parser
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/text-1:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.5.7.7
+SRC_URI=https://hackage.haskell.org/package/binary-parser-0.5.7.7/binary-parser-0.5.7.7.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=15b1a4ecc20ab6105c83d82ae579a1f7

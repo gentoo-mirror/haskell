@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.8.1:= >=dev-haskell/cabal-3.0.0.0 test? ( <dev-haskell/quickcheck-3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( <dev-haskell/quickcheck-3 <dev-haskell/tasty-1.6 <dev-haskell/tasty-quickcheck-0.12 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Priority Search Queue
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/PSQueue
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/1.2.0
-SRC_URI=https://hackage.haskell.org/package/PSQueue-1.2.0/PSQueue-1.2.0.tar.gz -> psqueue-1.2.0.tar.gz
+SLOT=0/1.2.1
+SRC_URI=https://hackage.haskell.org/package/PSQueue-1.2.1/PSQueue-1.2.1.tar.gz -> psqueue-1.2.1.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=f197e9dee4ba9c6931931572aca42501
+_md5_=7037d90c5edb8653f9f7ddb97e553fa6
