@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=~dev-haskell/haddock-api-2.29.2.9.8:= >=dev-lang/ghc-9.8:= <dev-lang/ghc-9.9:= >=dev-haskell/cabal-3.4.1.0 test? ( ~dev-haskell/haddock-test-9.8 )
+DESCRIPTION=A documentation-generation tool for Haskell libraries
+EAPI=8
+HOMEPAGE=https://www.haskell.org/haddock/
+INHERIT=haskell-cabal
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=~dev-haskell/haddock-api-2.29.2.9.8:= >=dev-lang/ghc-9.8:= <dev-lang/ghc-9.9:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.haskell.org/ghc/haddock/-/archive/bb7b9480b0825d3fa978e61c7faf25dce718a305.tar.gz -> haddock-bb7b9480b0825d3fa978e61c7faf25dce718a305.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=9c00d9e12590480e8bab16382aad6198

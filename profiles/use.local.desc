@@ -22,6 +22,7 @@ dev-haskell/aeson-yaml:build-binaries - Build the binaries
 dev-haskell/alsa-mixer:cross - Set this flag if cross-compiling
 dev-haskell/alsa-pcm:buildexamples - Build example executables
 dev-haskell/alsa-seq:modifyfilter - Use native event filter functions that are provided by newer ALSA versions
+dev-haskell/ansi-terminal:example - Build the example application
 dev-haskell/apply-refact:executable - Install the apply-refactor executable
 dev-haskell/assoc:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/atomic-primops:debug - Enable extra internal checks.
