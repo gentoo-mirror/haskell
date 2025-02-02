@@ -5,11 +5,7 @@
 		<email>haskell@gentoo.org</email>
 		<name>Gentoo Haskell</name>
 	</maintainer>
-	<use>
-		<flag name="example">Build the example application</flag>
-	</use>
 	<upstream>
-		<remote-id type="hackage">ansi-terminal</remote-id>
-		<remote-id type="github">UnkindPartition/ansi-terminal</remote-id>
+		<remote-id type="hackage">haddock-test</remote-id>
 	</upstream>
 </pkgmetadata>
