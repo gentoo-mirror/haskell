@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">uri-bytestring</remote-id>
-		<remote-id type="github">Soostone/uri-bytestring</remote-id>
+		<remote-id type="hackage">skylighting-format-typst</remote-id>
+		<remote-id type="github">jgm/skylighting</remote-id>
 	</upstream>
 </pkgmetadata>

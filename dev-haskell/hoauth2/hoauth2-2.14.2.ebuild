@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,8 +20,7 @@ CABAL_CHDEPS=(
 	'data-default          ^>=0.8' 'data-default >=0.7 && <0.9'
 )
 
-RDEPEND="
-	>=dev-haskell/aeson-2.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
+RDEPEND=">=dev-haskell/aeson-2.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/base64-1.0:=[profile?] <dev-haskell/base64-1.1:=[profile?]
 	>=dev-haskell/crypton-0.32:=[profile?] <dev-haskell/crypton-1.1:=[profile?]
 	>=dev-haskell/data-default-0.7:=[profile?] <dev-haskell/data-default-0.9:=[profile?]
@@ -30,15 +29,13 @@ RDEPEND="
 	>=dev-haskell/memory-0.18:=[profile?] <dev-haskell/memory-0.19:=[profile?]
 	>=dev-haskell/microlens-0.4.0:=[profile?] <dev-haskell/microlens-0.5:=[profile?]
 	>=dev-haskell/text-2.0:=[profile?] <dev-haskell/text-2.3:=[profile?]
-	>=dev-haskell/uri-bytestring-0.2.3:=[profile?] <dev-haskell/uri-bytestring-0.4:=[profile?]
+	>=dev-haskell/uri-bytestring-0.3:=[profile?] <dev-haskell/uri-bytestring-0.5:=[profile?]
 	>=dev-haskell/uri-bytestring-aeson-0.1:=[profile?] <dev-haskell/uri-bytestring-aeson-0.2:=[profile?]
 	>=dev-lang/ghc-9.0.2:=
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
-	test? (
-		>=dev-haskell/hspec-2 <dev-haskell/hspec-3
-	)
+	test? ( >=dev-haskell/hspec-2 <dev-haskell/hspec-3 )
 "
 
 src_configure() {

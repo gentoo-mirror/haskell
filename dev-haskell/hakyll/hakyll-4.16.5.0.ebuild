@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -28,7 +28,7 @@ RDEPEND=">=dev-haskell/blaze-html-0.5:=[profile?] <dev-haskell/blaze-html-0.10:=
 	>=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?]
 	>=dev-haskell/optparse-applicative-0.12:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?]
 	>=dev-haskell/parsec-3.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?]
-	>=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.3:=[profile?]
+	>=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?]
 	>=dev-haskell/regex-tdfa-1.1:=[profile?] <dev-haskell/regex-tdfa-1.4:=[profile?]
 	>=dev-haskell/resourcet-1.1:=[profile?] <dev-haskell/resourcet-1.4:=[profile?]
 	>=dev-haskell/scientific-0.3.4:=[profile?] <dev-haskell/scientific-0.4:=[profile?]
@@ -38,39 +38,19 @@ RDEPEND=">=dev-haskell/blaze-html-0.5:=[profile?] <dev-haskell/blaze-html-0.10:=
 	>=dev-haskell/wai-app-static-3.1:=[profile?] <dev-haskell/wai-app-static-3.2:=[profile?]
 	>=dev-haskell/yaml-0.8.11:=[profile?] <dev-haskell/yaml-0.12:=[profile?]
 	>=dev-lang/ghc-9.0.2:=
-	|| (
-		( >=dev-haskell/aeson-1.0 <dev-haskell/aeson-1.6 )
-		( >=dev-haskell/aeson-2.0 <dev-haskell/aeson-2.3 )
-	)
-	dev-haskell/aeson:=[profile?]
-	|| (
-		( >=dev-haskell/text-0.11 <dev-haskell/text-1.3 )
-		( >=dev-haskell/text-2.0 <dev-haskell/text-2.2 )
-	)
-	dev-haskell/text:=[profile?]
-	buildwebsite? (
-		|| (
-			( >=dev-haskell/pandoc-2.11 <dev-haskell/pandoc-2.20 )
-			( >=dev-haskell/pandoc-3.0 <dev-haskell/pandoc-3.7 )
-		)
-		dev-haskell/pandoc:=[profile?]
-	)
+	>=dev-haskell/aeson-1.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
+	>=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.2:=[profile?]
+	buildwebsite? ( >=dev-haskell/pandoc-types-1.22:=[profile?] <dev-haskell/pandoc-types-1.24:=[profile?]
+			>=dev-haskell/pandoc-2.11:=[profile?] <dev-haskell/pandoc-3.7:=[profile?] )
 	checkexternal? ( >=dev-haskell/http-conduit-2.2:=[profile?] <dev-haskell/http-conduit-2.4:=[profile?] )
-	previewserver? (
-		>=dev-haskell/fsnotify-0.2:=[profile?] <dev-haskell/fsnotify-0.5:=[profile?]
-		>=dev-haskell/http-types-0.9:=[profile?] <dev-haskell/http-types-0.13:=[profile?]
-		>=dev-haskell/wai-3.2:=[profile?] <dev-haskell/wai-3.3:=[profile?]
-		>=dev-haskell/warp-3.2:=[profile?] <dev-haskell/warp-3.5:=[profile?]
-	)
+	previewserver? ( >=dev-haskell/fsnotify-0.2:=[profile?] <dev-haskell/fsnotify-0.5:=[profile?]
+				>=dev-haskell/http-types-0.9:=[profile?] <dev-haskell/http-types-0.13:=[profile?]
+				>=dev-haskell/wai-3.2:=[profile?] <dev-haskell/wai-3.3:=[profile?]
+				>=dev-haskell/warp-3.2:=[profile?] <dev-haskell/warp-3.5:=[profile?] )
 	!previewserver? ( checkexternal? ( >=dev-haskell/http-types-0.7:=[profile?] <dev-haskell/http-types-0.13:=[profile?] )
 				watchserver? ( >=dev-haskell/fsnotify-0.2:=[profile?] <dev-haskell/fsnotify-0.5:=[profile?] ) )
-	usepandoc? (
-		|| (
-			( >=dev-haskell/pandoc-2.11 <dev-haskell/pandoc-2.20 )
-			( >=dev-haskell/pandoc-3.0 <dev-haskell/pandoc-3.7 )
-		)
-		dev-haskell/pandoc:=[profile?]
-	)
+	usepandoc? ( >=dev-haskell/pandoc-types-1.22:=[profile?] <dev-haskell/pandoc-types-1.24:=[profile?]
+			>=dev-haskell/pandoc-2.11:=[profile?] <dev-haskell/pandoc-3.7:=[profile?] )
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
