@@ -263,7 +263,7 @@ dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packa
 dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0 3.12.0.0 3.12.1.0 3.14.1.0: A library for working with .cabal files
 dev-haskell/cabal-tests 3.12.1.0 3.14.1.1: Tests for Cabal library
 dev-haskell/cabal-tree-diff 3.8.1.0 3.10.1.0 3.12.0.0 3.14.0.0: tree-diff for Cabal
-dev-haskell/cairo 0.13.10.0: Binding to the Cairo library
+dev-haskell/cairo 0.13.11.0: Binding to the Cairo library
 dev-haskell/calamity 0.12.1.0: A library for writing discord bots in haskell
 dev-haskell/calamity-commands 0.4.1.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/call-stack 0.4.0: Use GHC call-stacks in a backward compatible way
@@ -777,7 +777,7 @@ dev-haskell/gl 0.8.0-r3 0.9-r1: Complete OpenGL raw bindings
 dev-haskell/glambda 1.0.2: A simply typed lambda calculus interpreter, written with GADTs
 dev-haskell/glfw 0.5.2.5: A Haskell binding for GLFW
 dev-haskell/glfw-b 1.4.8.4 3.3.0.0: Bindings to GLFW OpenGL library
-dev-haskell/glib 0.13.10.0: Binding to the GLIB library for Gtk2Hs
+dev-haskell/glib 0.13.11.0: Binding to the GLIB library for Gtk2Hs
 dev-haskell/glob 0.10.2: Globbing library
 dev-haskell/gloss 1.13.2.1 1.13.2.2: Painless 2D vector graphics, animations and simulations
 dev-haskell/gloss-algorithms 1.13.0.2: Data structures and algorithms for working with 2D graphics
