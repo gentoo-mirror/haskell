@@ -278,7 +278,7 @@ dev-haskell/cassava-megaparsec 2.1.1: Megaparsec parser of CSV files that plays 
 dev-haskell/categories 1.0.7-r1: The Categories package authored by Edward Kmett
 dev-haskell/cautious-file 1.0.2-r1: Ways to write a file cautiously, reducing chances of data loss due to crashes
 dev-haskell/cborg 0.2.10.0: Concise Binary Object Representation (CBOR)
-dev-haskell/cborg-json 0.2.5.0: A library for encoding JSON as CBOR
+dev-haskell/cborg-json 0.2.6.0: A library for encoding JSON as CBOR
 dev-haskell/cc-delcont 0.2.1.0: Delimited continuations and dynamically scoped variables
 dev-haskell/cereal 0.5.8.3: A binary serialization library
 dev-haskell/cereal-conduit 0.8.0: Turn Data.Serialize Gets and Puts into Sources, Sinks, and Conduits
@@ -1019,7 +1019,7 @@ dev-haskell/hsparql 0.3.6: A SPARQL query generator and DSL, and a client to que
 dev-haskell/hspec 2.10.6 2.11.10: A Testing Framework for Haskell
 dev-haskell/hspec-api 2.11.10: A Testing Framework for Haskell
 dev-haskell/hspec-attoparsec 0.1.0.2-r1: Utility functions for testing your attoparsec parsers with hspec
-dev-haskell/hspec-contrib 0.5.1: Contributed functionality for Hspec
+dev-haskell/hspec-contrib 0.5.1 0.5.2: Contributed functionality for Hspec
 dev-haskell/hspec-core 2.10.6 2.11.10: A Testing Framework for Haskell
 dev-haskell/hspec-discover 2.10.6 2.11.10: Automatically discover and run Hspec tests
 dev-haskell/hspec-expectations 0.8.4: Catchy combinators for HUnit
@@ -1924,7 +1924,7 @@ dev-haskell/streaming-commons 0.2.3.0: Common lower-level functions needed by va
 dev-haskell/streamly 0.8.3: Dataflow programming and declarative concurrency
 dev-haskell/strict 0.5: Strict data types and String IO
 dev-haskell/strict-identity 0.1.0.0: Strict Identity Monad, handy for writing fast code!
-dev-haskell/strict-list 0.1.7.5: Strict linked list
+dev-haskell/strict-list 0.1.7.6: Strict linked list
 dev-haskell/strictify 0.1-r1: Find a local optimum of strictness annotations
 dev-haskell/string-class 0.1.7.2: String class library
 dev-haskell/string-conv 0.1.2: Standardized conversion between string types
@@ -2354,7 +2354,7 @@ dev-util/hindent 6.1.1: Extensible Haskell pretty printer
 dev-util/hoogle 5.0.18.4-r1: Haskell API Search
 dev-util/shake 0.19.8: Build system library, like Make, but more accurate dependencies
 dev-util/shellcheck 0.9.0-r2 0.10.0-r1: Shell script analysis tool
-dev-util/shelltestrunner 1.9: A tool for testing command-line programs
+dev-util/shelltestrunner 1.9 1.10: Easy, repeatable testing of CLI programs/commands
 dev-util/spago 0.20.6: PureScript package manager and build tool powered by Dhall and package-sets
 dev-util/threadscope 0.2.14.1-r1: A graphical tool for profiling parallel Haskell programs
 dev-vcs/darcs 2.18.4 2.18.5: a distributed, interactive, smart revision control system
