@@ -288,8 +288,8 @@ dev-haskell/cgi 3001.5.0.0: A library for writing CGI programs
 dev-haskell/character-ps 0.1: Pattern synonyms for ASCII characters for Word8, Word16 etc
 dev-haskell/charset 0.3.11: Fast unicode character sets based on complemented PATRICIA tries
 dev-haskell/charsetdetect-ae 1.1.0.4: Character set detection using Mozilla's Universal Character Set Detector
-dev-haskell/chart 1.9.4-r1: A library for generating 2D Charts and Plots
-dev-haskell/chart-cairo 1.9.3-r1: Cairo backend for Charts
+dev-haskell/chart 1.9.4-r1 1.9.5: A library for generating 2D Charts and Plots
+dev-haskell/chart-cairo 1.9.3-r1 1.9.4.1: Cairo backend for Charts
 dev-haskell/chart-diagrams 1.9.4-r1: Diagrams backend for Charts
 dev-haskell/chart-gtk 1.9.3: Utility functions for using the chart library with GTK
 dev-haskell/chaselev-deque 0.5.0.5: Chase & Lev work-stealing lock-free double-ended queues (deques)
@@ -1471,7 +1471,7 @@ dev-haskell/opengl 3.0.3.0-r1: A binding for the OpenGL graphics system
 dev-haskell/openglraw 3.3.4.1: A raw binding for the OpenGL graphics system
 dev-haskell/openssl-streams 1.2.3.0: OpenSSL network support for io-streams
 dev-haskell/opentelemetry 0.8.0: The OpenTelemetry Haskell Client https://opentelemetry.io
-dev-haskell/operational 0.2.4.1: Implementation of difficult monads made easy with operational semantics
+dev-haskell/operational 0.2.4.1 0.2.4.2: Implementation of difficult monads made easy with operational semantics
 dev-haskell/optics 0.4.2.1: Optics as an abstract interface
 dev-haskell/optics-core 0.4.1.1: Optics as an abstract interface: core definitions
 dev-haskell/optics-extra 0.4.2.1: Extra utilities and instances for optics-core
