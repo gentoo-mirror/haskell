@@ -73,7 +73,6 @@ dev-haskell/cmark:system-cmark - use
 dev-haskell/cmdargs:examples - Build the cmdargs-demo program
 dev-haskell/cmdargs:quotation - Build the Quote module
 dev-haskell/comonad:indexed-traversable - You can disable the use of the `indexed-traversable` package using `-f-indexed-traversable`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users. If disabled we will not supply instances of `FunctorWithIndex`
-dev-haskell/constraints-deriving:constraints - Use vanilla constraints package as a dependency instead of the manual minimalistic definitions copied from there.
 dev-haskell/contravariant:semigroups - You can disable the use of the `semigroups` package using `-f-semigroups`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/contravariant:statevar - You can disable the use of the `StateVar` package using `-f-StateVar`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/contravariant:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
@@ -101,7 +100,6 @@ dev-haskell/diagrams-builder:cairo - install cairo-specific builder tool
 dev-haskell/diagrams-builder:pgf - install PGF-specific builder tool
 dev-haskell/diagrams-builder:rasterific - install rasterific-specific builder tool
 dev-haskell/diagrams-builder:svg - install svg-specific builder tool
-dev-haskell/dimensions:unsafeindices - Disable bound checks on Idx and Idxs types.
 dev-haskell/dlist:werror - Enable -Werror
 dev-haskell/docopt:template-haskell - Build with QuasiQuoter usage parsers, which requires Template Haskell
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
@@ -130,7 +128,6 @@ dev-haskell/gauge:analysis - Build with statistical analysis support
 dev-haskell/ghc-check:package-abis - record package abis at compile time for improved precision (requires compile-time TH)
 dev-haskell/ghc-debug-stub:eras - Enable eras
 dev-haskell/ghc-debug-stub:trace - Enable tracing
-dev-haskell/ghc-exactprint:roundtrip - Build roundtripping executables
 dev-haskell/ghc-heap-view:prim-supports-any - The used GHC supports Any as an argument to foreign prim functions (GHC ticket #5931)
 dev-haskell/ghc-lib-parser:threads - Pass -DTHREADED_RTS to the C toolchain
 dev-haskell/ghc-prof:dump - Build the executable "dump"
