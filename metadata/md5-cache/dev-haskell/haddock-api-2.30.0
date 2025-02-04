@@ -1,16 +1,16 @@
-BDEPEND=test? ( >=dev-haskell/hspec-discover-2.9 ) app-text/dos2unix
+BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.11:=[profile?] <dev-haskell/haddock-library-1.12:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-9.6:= <dev-lang/ghc-9.13:= >=dev-haskell/cabal-3.6.3.0 test? ( >=dev-haskell/ghc-paths-0.1.0.12 <dev-haskell/ghc-paths-0.2 >=dev-haskell/hspec-2.9 >=dev-haskell/quickcheck-2.14 <dev-haskell/quickcheck-2.15 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/haddock-library-1.11:=[profile?] <dev-haskell/haddock-library-1.12:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-9.12:= <dev-lang/ghc-9.13:= >=dev-haskell/cabal-3.6.3.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A documentation-generation tool for Haskell libraries
 EAPI=8
 HOMEPAGE=https://www.haskell.org/haddock/
 INHERIT=haskell-cabal
-IUSE=doc hscolour hoogle profile test
+IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD-2
-RDEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/haddock-library-1.11:=[profile?] <dev-haskell/haddock-library-1.12:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-9.6:= <dev-lang/ghc-9.13:= dev-lang/ghc:=[profile?]
-RESTRICT=!test? ( test )
+RDEPEND=>=dev-haskell/haddock-library-1.11:=[profile?] <dev-haskell/haddock-library-1.12:=[profile?] >=dev-haskell/parsec-3.1.13.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-haskell/xhtml-3000.2.2:=[profile?] <dev-haskell/xhtml-3000.3:=[profile?] >=dev-lang/ghc-9.12:= <dev-lang/ghc-9.13:= dev-lang/ghc:=[profile?]
+RESTRICT=test
 SLOT=0/2.30.0
 SRC_URI=https://gitlab.haskell.org/ghc/ghc/-/archive/daf659b6e3c8f2a84100fbee797cd9d457c00df5.tar.gz?path=utils/haddock/haddock-api -> haddock-api-2.30.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=04187821166ca2dda4151b09de8cf013
+_md5_=6ac0256d5384971802930ab5804abb20
