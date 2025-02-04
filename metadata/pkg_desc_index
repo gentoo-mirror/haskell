@@ -115,7 +115,7 @@ dev-haskell/appar 0.1.8: A simple applicative parser
 dev-haskell/applicative-numbers 0.1.3: Applicative-based numeric instances
 dev-haskell/apply-refact 0.14.0.0: Perform refactorings specified by the refact library
 dev-haskell/argparser 0.3.4: Command line parsing framework for console applications
-dev-haskell/arithmoi 0.12.0.0 0.13.0.0: Efficient basic number-theoretic functions
+dev-haskell/arithmoi 0.12.0.0 0.13.0.0-r1: Efficient basic number-theoretic functions
 dev-haskell/arrows 0.4.4.2: Arrow classes and transformers
 dev-haskell/ascii-progress 0.3.3.0-r1: A simple progress bar for the console
 dev-haskell/asn1-encoding 0.9.6: ASN1 data reader and writer in RAW, BER and DER forms
@@ -1789,7 +1789,7 @@ dev-haskell/semialign 1.3.1: Align and Zip type-classes from the common Semialig
 dev-haskell/semigroupoid-extras 5: Semigroupoids that depend on PolyKinds
 dev-haskell/semigroupoids 5.3.7-r1 6.0.1: Semigroupoids: Category sans id
 dev-haskell/semigroups 0.20: Anything that associates
-dev-haskell/semirings 0.6-r2: two monoids as one, in holy haskimony
+dev-haskell/semirings 0.6-r2 0.7: two monoids as one, in holy haskimony
 dev-haskell/semver 0.3.4: Representation, manipulation, and de/serialisation of Semantic Versions
 dev-haskell/semver-range 0.2.8: An implementation of semver and semantic version ranges
 dev-haskell/sendfile 0.7.11.4: A portable sendfile library
