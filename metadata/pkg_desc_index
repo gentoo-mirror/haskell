@@ -810,7 +810,7 @@ dev-haskell/gtk 0.15.8: Binding to the Gtk+ graphical user interface library
 dev-haskell/gtk-serialized-event 0.12.0-r4: GTK+ Serialized event
 dev-haskell/gtk-strut 0.1.3.0: Library for creating strut windows with gi-gtk
 dev-haskell/gtk-traymanager 1.0.1: A wrapper around the eggtraymanager library for Linux system trays
-dev-haskell/gtk2hs-buildtools 0.13.10.0: Tools to build the Gtk2Hs suite of User Interface libraries
+dev-haskell/gtk2hs-buildtools 0.13.11.0: Tools to build the Gtk2Hs suite of User Interface libraries
 dev-haskell/gtk3 0.15.8: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
@@ -1494,7 +1494,7 @@ dev-haskell/pandoc-lua-marshal 0.2.7 0.3.0: Use pandoc types in Lua
 dev-haskell/pandoc-server 0.1.0.10: Pandoc document conversion as an HTTP servant-server
 dev-haskell/pandoc-stylefrommeta 0.2.3.0: Pandoc filter to customize links, images and paragraphs
 dev-haskell/pandoc-types 1.23.1-r1: Types for representing a structured document
-dev-haskell/pango 0.13.10.0: Binding to the Pango text rendering engine
+dev-haskell/pango 0.13.11.0: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
 dev-haskell/pantry 0.8.3 0.9.3.2: Content addressable Haskell package management
 dev-haskell/parallel 3.2.2.0: Parallel programming library
@@ -1619,7 +1619,7 @@ dev-haskell/probability 0.2.7: Probabilistic Functional Programming
 dev-haskell/proc 0.0.9: Parse process information for Linux
 dev-haskell/process 1.6.16.0-r2 1.6.17.0 1.6.18.0 1.6.19.0 1.6.25.0: Process libraries
 dev-haskell/process-extras 0.7.4-r2: Process extras
-dev-haskell/proctest 0.1.3.0-r2: An IO library for testing interactive command line programs
+dev-haskell/proctest 0.1.3.1: An IO library for testing interactive command line programs
 dev-haskell/product-isomorphic 0.0.3.3: Weaken applicative functor on products
 dev-haskell/product-profunctors 0.11.0.3: product-profunctors haskell library
 dev-haskell/prof2dot 0.4.1-r1: Convert GHC profiles into GraphViz's dot format
