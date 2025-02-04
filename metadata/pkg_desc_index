@@ -254,10 +254,10 @@ dev-haskell/cabal-doctest 1.0.9 1.0.11: A Setup.hs helper for running doctests
 dev-haskell/cabal-file-th 0.2.7: Template Haskell expressions for reading fields from a project's cabal file
 dev-haskell/cabal-fmt 0.1.6-r1 0.1.11 0.1.12: Format .cabal files
 dev-haskell/cabal-install 3.6.2.0-r1 3.8.1.0-r1 3.10.1.0 3.10.2.1 3.10.3.0 3.12.1.0 3.14.1.1 9999: The command-line interface for Cabal and Hackage
-dev-haskell/cabal-install-parsers 0.6.1: Utilities to work with cabal-install files
+dev-haskell/cabal-install-parsers 0.6.1 0.6.2: Utilities to work with cabal-install files
 dev-haskell/cabal-install-solver 3.8.1.0 3.10.1.0 3.10.2.1 3.10.3.0 3.14.1.0: The solver component of cabal-install
 dev-haskell/cabal-macosx 0.2.4.2: Cabal support for creating Mac OSX application bundles
-dev-haskell/cabal-plan 0.7.3.0-r1: Library and utility for processing cabal's plan.json file
+dev-haskell/cabal-plan 0.7.3.0-r1 0.7.5.0: Library and utility for processing cabal's plan.json file
 dev-haskell/cabal-quickcheck 3.8.1.0 3.10.1.0 3.12.1.0 3.14.0.0: QuickCheck instances for types in Cabal
 dev-haskell/cabal-rpm 2.0.11.1: RPM packaging tool for Haskell Cabal-based packages
 dev-haskell/cabal-syntax 3.6.0.0 3.8.1.0 3.10.1.0 3.10.2.0 3.10.3.0 3.12.0.0 3.12.1.0 3.14.1.0: A library for working with .cabal files
@@ -313,10 +313,10 @@ dev-haskell/circle-packing 0.1.0.6: Simple heuristic for packing discs of varyin
 dev-haskell/citeproc 0.8.1.1 0.8.1.2: Generates citations and bibliography from CSL styles
 dev-haskell/clash-cores 1.8.1: A collection of IP cores for Clash
 dev-haskell/clash-ffi 1.8.1: Interact with Simulators from Clash
-dev-haskell/clash-ghc 1.6.5 1.8.1: Clash: a functional hardware description language - GHC frontend
-dev-haskell/clash-lib 1.6.5 1.8.1: Clash: a functional hardware description language - As a library
-dev-haskell/clash-prelude 1.6.5 1.8.1: Clash: a functional hardware description language - Prelude library
-dev-haskell/clash-prelude-hedgehog 1.8.1: Hedgehog Generators for clash-prelude
+dev-haskell/clash-ghc 1.8.1 1.8.2: Clash: a functional hardware description language - GHC frontend
+dev-haskell/clash-lib 1.8.1 1.8.2: Clash: a functional hardware description language - As a library
+dev-haskell/clash-prelude 1.8.1 1.8.2: Clash: a functional hardware description language - Prelude library
+dev-haskell/clash-prelude-hedgehog 1.8.1 1.8.2: Hedgehog Generators for clash-prelude
 dev-haskell/classify 2013.11.6.1-r1: Library for classification of media files
 dev-haskell/classy-prelude 1.5.0.3: A typeclass-based Prelude
 dev-haskell/classy-prelude-conduit 1.5.0: conduit instances for classy-prelude
@@ -2337,10 +2337,10 @@ dev-util/darcs-monitor 0.4.2-r2: Darcs repository monitor (sends email)
 dev-util/dhall-bash 1.0.41-r1: Compile Dhall to Bash
 dev-util/dhall-csv 1.0.4: Convert bidirectionally between Dhall and CSV files
 dev-util/dhall-docs 1.0.11: Generate HTML docs from a dhall package
-dev-util/dhall-json 1.7.12-r1: Convert between Dhall and JSON or YAML
+dev-util/dhall-json 1.7.12-r2: Convert between Dhall and JSON or YAML
 dev-util/dhall-nix 1.1.26: Dhall to Nix compiler
 dev-util/dhall-toml 1.0.3-r1: Convert between Dhall and TOML
-dev-util/dhall-yaml 1.2.12-r1: Convert between Dhall and YAML
+dev-util/dhall-yaml 1.2.12-r2: Convert between Dhall and YAML
 dev-util/dzen-dhall 1.0.2: Configure dzen2 bars in Dhall language
 dev-util/ghcup-bin 0.1.30.0-r2: The GHCup Haskell installer
 dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
