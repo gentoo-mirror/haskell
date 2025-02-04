@@ -50,44 +50,6 @@ dev-haskell/country-codes
 >=dev-haskell/text-2.1.2
 >=dev-haskell/transformers-0.6.1.2
 
-# hololeap <hololeap@protonmail.com> (2024-12-29)
-#
-# GHC 9.0 is outdated at this point and is likely unused. Mask for removal,
-# along with old versions of other packages that were kept for compatibility
-# and packages that require GHC 9.0.
-#
-# Removal: 2025-01-28
-=dev-lang/ghc-9.0*
-=dev-haskell/cabal-install-3.4*
-=dev-haskell/cabal-3.4*
-=dev-haskell/parsec-3.1.14*
-~dev-haskell/stm-2.5.0.0
-~dev-haskell/singletons-base-3.0
-~dev-haskell/singletons-th-3.0
-=dev-haskell/th-desugar-1.12*
-=dev-haskell/ghc-exactprint-0.6*
-=dev-haskell/haddock-2.25*
-=dev-haskell/haddock-api-2.25*
-=dev-haskell/retrie-1.1*
-dev-haskell/constraints-deriving
-dev-haskell/dimensions
-
-# hololeap <hololeap@protonmail.com> (2024-12-28)
-#
-# Ancient package; patch distfile is a 404. Mask for removal.
-#
-# Removal: 2025-01-27
-games-fps/frag
-
-# hololeap <hololeap@protonmail.com> (2024-12-25)
-#
-# HaskellNet-SSL seems abandoned, no uploads since 2021. Mask it and its parent
-# project for removal.
-#
-# Removal: 2025-01-24
-dev-haskell/haskellnet
-dev-haskell/haskellnet-ssl
-
 # hololeap <hololeap@protonmail.com> (2024-06-09)
 #
 # These package versions depend on a minimum GHC of 9.10, which is still
@@ -218,11 +180,6 @@ dev-haskell/hls-fourmolu-plugin
 dev-haskell/cabal-install-parsers
 dev-haskell/cabal-plan
 
-# hololeap <hololeap@protonmail.com> (2023-03-01)
-# Not buildable on ghc-9.2
-# Masking until it is
-dev-haskell/hls-tactics-plugin
-
 # hololeap <hololeap@protonmail.com> (2023-02-27)
 # These currently depend on an old version of ghc-exactprint, which is
 # incompatible with ghc-9.2
@@ -242,13 +199,6 @@ dev-haskell/liquidhaskell
 # Hackage doesn't allow for removal of versions that have already been
 # uploaded so it is masked to prevent accidental usage.
 =dev-haskell/liquid-fixpoint-8.10.7
-
-# hololeap <hololeap@protonmail.com> (2022-09-22)
-# dev-haskell/stan does not build on >=ghc-9.0 and needs extensive patching or
-# a rewrite to do so.
-# See: <https://github.com/kowainik/stan/issues/423>
-dev-haskell/stan
-dev-haskell/hls-stan-plugin
 
 # hololeap <hololeap@protonmail.com> (2022-09-01)
 # doctest-parallel does not currently work with Setup.hs (used internally by
