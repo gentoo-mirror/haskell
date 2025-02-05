@@ -126,7 +126,7 @@ dev-haskell/astar 0.3.0.0-r1: General A* search algorithm
 dev-haskell/async 2.2.5-r1: Run IO operations asynchronously and wait for their results
 dev-haskell/async-pool 0.9.1: async that supports worker groups and many-to-many task dependencies
 dev-haskell/atomic-file-ops 0.3.0.0: Functions to atomically write to files
-dev-haskell/atomic-primops 0.8.4: A safe approach to CAS and other atomic ops in Haskell
+dev-haskell/atomic-primops 0.8.4 0.8.8: A safe approach to CAS and other atomic ops in Haskell
 dev-haskell/atomic-write 0.2.0.7: Atomically write to a file
 dev-haskell/attobencode 0.3.1.0: Fast Bencode encoding and parsing library
 dev-haskell/attoparsec 0.14.4-r1: Fast combinator parsing for bytestrings and text
@@ -666,7 +666,7 @@ dev-haskell/ftgl 2.1-r1: Portable TrueType font rendering for OpenGL using the F
 dev-haskell/funcmp 1.9: Functional MetaPost
 dev-haskell/functor-classes-compat 2.0.0.2: Data.Functor.Classes instances for core packages
 dev-haskell/functor-monadic 0.1.0.3: Monad-style combinators for functors
-dev-haskell/fusion-plugin 0.2.3: GHC plugin to make stream fusion more predictable
+dev-haskell/fusion-plugin 0.2.3 0.2.7: GHC plugin to make stream fusion more predictable
 dev-haskell/fusion-plugin-types 0.1.0: Types for the fusion-plugin package
 dev-haskell/fuzzy 0.1.0.1: Filters a list based on a fuzzy string search
 dev-haskell/gamma 0.10.0.0: Gamma function and related functions
@@ -1917,7 +1917,8 @@ dev-haskell/store-core 0.4.4.4: Fast and lightweight binary serialization
 dev-haskell/stream 0.4.7.2: A library for manipulating infinite lists
 dev-haskell/streaming 0.2.3.1 0.2.4.0: an elementary streaming prelude and general stream type
 dev-haskell/streaming-commons 0.2.3.0: Common lower-level functions needed by various streaming data libraries
-dev-haskell/streamly 0.8.3: Dataflow programming and declarative concurrency
+dev-haskell/streamly 0.8.3 0.10.1: Streaming, dataflow programming and declarative concurrency
+dev-haskell/streamly-core 0.2.2: Streaming, parsers, arrays, serialization and more
 dev-haskell/strict 0.5: Strict data types and String IO
 dev-haskell/strict-identity 0.1.0.0: Strict Identity Monad, handy for writing fast code!
 dev-haskell/strict-list 0.1.7.6: Strict linked list
@@ -2117,7 +2118,7 @@ dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vecto
 dev-haskell/unexceptionalio 0.5.1: IO without any non-error, synchronous exceptions
 dev-haskell/unexceptionalio-trans 0.5.1: A wrapper around UnexceptionalIO using monad transformers
 dev-haskell/unicode-collation 0.1.3.6: Haskell implementation of the Unicode Collation Algorithm
-dev-haskell/unicode-data 0.4.0.1-r1: Access Unicode Character Database (UCD)
+dev-haskell/unicode-data 0.4.0.1-r1 0.6.0: Access Unicode Character Database (UCD)
 dev-haskell/unicode-show 0.1.1.1: print and show in unicode
 dev-haskell/unicode-transforms 0.4.0.1: Unicode normalization
 dev-haskell/unification-fd 0.10.0.1: Simple generic unification algorithms

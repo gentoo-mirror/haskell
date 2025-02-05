@@ -25,7 +25,6 @@ dev-haskell/alsa-seq:modifyfilter - Use native event filter functions that are p
 dev-haskell/ansi-terminal:example - Build the example application
 dev-haskell/apply-refact:executable - Install the apply-refactor executable
 dev-haskell/assoc:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
-dev-haskell/atomic-primops:debug - Enable extra internal checks.
 dev-haskell/beam-automigrate:ghcipretty - Enable pretty-show for pretty-printing purposes
 dev-haskell/bench-show:charts - Build the modules that provide charting functionality
 dev-haskell/bench-show:colors - Use pretty printing with colors
@@ -383,6 +382,13 @@ dev-haskell/streamly:minimal - Build only the core modules
 dev-haskell/streamly:no-fusion - Disable rewrite rules for stream fusion
 dev-haskell/streamly:streamk - Use CPS style streams when possible
 dev-haskell/streamly:unliftio - Use unliftio-core instead of monad-control
+dev-haskell/streamly-core:dev - Development build
+dev-haskell/streamly-core:folds - Use folds for elimination everywhere
+dev-haskell/streamly-core:has-llvm - Use llvm backend for code generation
+dev-haskell/streamly-core:limit-build-mem - Limits memory when building
+dev-haskell/streamly-core:opt - off=GHC default, on=-O2
+dev-haskell/streamly-core:unfolds - Use unfolds for generation everywhere
+dev-haskell/streamly-core:unliftio - Use unliftio-core instead of monad-control
 dev-haskell/string-interpolate:bytestring-builder - Use ByteString Builders to construct ByteString outputs instead of the ByteString type itself. If you're regularly constructing large (>50KB) bytestrings, enabling this can speed up your code. Otherwise, enabling this is likely to be a net slowdown.
 dev-haskell/string-interpolate:extended-benchmarks - Enable benchmarks for Interpolation and interpolatedstring-perl6
 dev-haskell/string-interpolate:text-builder - Use Text Builders to construct Text outputs instead of the Text type itself. If you're regularly constructing large (>50KB) text objects, enabling this can speed up your code. Otherwise, enabling this is likely to be a net slowdown.
@@ -409,6 +415,7 @@ dev-haskell/unagi-chan:compare-benchmarks - compare benchmarks with Chan, TQueue
 dev-haskell/unboxing-vector:mono-traversable - Define instances for MonoTraversable
 dev-haskell/unicode-collation:doctests - Run doctests as part of test suite. Use with: @--write-ghc-environment-files=always@.
 dev-haskell/unicode-collation:executable - Build the unicode-collate executable.
+dev-haskell/unicode-data:dev-has-icu - Use ICU for test and benchmark. Intended for development on the repository.
 dev-haskell/unix-compat:old-time - build against old-time package
 dev-haskell/uri-encode:tools - Build executables
 dev-haskell/uuagc:loag - Use MiniSat as external SAT-solver to schedule all Linear Ordered AGs
