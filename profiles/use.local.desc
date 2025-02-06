@@ -339,6 +339,7 @@ dev-haskell/record-dot-preprocessor:executable - Build the record-dot-preprocess
 dev-haskell/reflex:plugin - Use the GHC plugin Reflex.Optimizer on some of the modules in the package. This is still experimental.
 dev-haskell/reflex:template-haskell - Use template haskell to generate lenses
 dev-haskell/reflex-backend-socket:examples - Build example executables
+dev-haskell/repa:no-template-haskell - Disable Template Haskell
 dev-haskell/rere:cfg - CFG functionality, adds dependency on fin and vec
 dev-haskell/rere:intersection - Add intersection constructor. EXPERIMENTAL
 dev-haskell/retrie:executable - build the retrie executable

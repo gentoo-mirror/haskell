@@ -10,7 +10,7 @@ KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/haskell-src-exts-1.21:=[profile?] <dev-haskell/haskell-src-exts-1.24:=[profile?] >=dev-haskell/syb-0.1:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-haskell/th-orphans-0.12:=[profile?] <dev-haskell/th-orphans-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.8.13
-SRC_URI=https://hackage.haskell.org/package/haskell-src-meta-0.8.13/haskell-src-meta-0.8.13.tar.gz
+SLOT=0/0.8.15
+SRC_URI=https://hackage.haskell.org/package/haskell-src-meta-0.8.15/haskell-src-meta-0.8.15.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=21b52602d802075c6c035962f7d745e6
+_md5_=74eb9db909bdb710bc8de0e07acfcbe5

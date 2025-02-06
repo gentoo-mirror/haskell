@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.8.2:= >=dev-haskell/cabal-1.18.1.3 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Utilities for accessing and manipulating fields of records
 EAPI=8
 HOMEPAGE=https://www.haskell.org/haskellwiki/Record_access
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.8.2:= dev-lang/ghc:=[profile?]
-SLOT=0/0.2.3
-SRC_URI=https://hackage.haskell.org/package/data-accessor-0.2.3/data-accessor-0.2.3.tar.gz
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.2.3.1
+SRC_URI=https://hackage.haskell.org/package/data-accessor-0.2.3.1/data-accessor-0.2.3.1.tar.gz https://hackage.haskell.org/package/data-accessor-0.2.3.1/revision/1.cabal -> data-accessor-0.2.3.1-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=a5ee7623cc6b9adfd19d303daf008ebd
+_md5_=184a06476f3507b331ddd6ea6c1731b9
