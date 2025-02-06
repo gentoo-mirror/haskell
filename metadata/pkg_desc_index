@@ -1986,7 +1986,7 @@ dev-haskell/tasty-silver 3.3.1: A fancy test runner, including support for golde
 dev-haskell/tasty-smallcheck 0.8.2: SmallCheck support for the Tasty test framework
 dev-haskell/tasty-th 0.1.7: Automatic tasty test case discovery using TH
 dev-haskell/tasty-travis 0.2.0.2: Fancy Travis CI output for tasty tests
-dev-haskell/tcache 0.12.1: A Transactional cache with user-defined persistence
+dev-haskell/tcache 0.13.3: A Transactional cache with user-defined persistence
 dev-haskell/tcp-streams 1.0.1.1-r1: One stop solution for tcp client and server with tls support
 dev-haskell/tcp-streams-openssl 1.0.1.0-r1: Tcp streams using openssl for tls support
 dev-haskell/tdigest 0.2.1.1-r2: On-line accumulation of rank-based statistics
