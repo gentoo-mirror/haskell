@@ -1271,7 +1271,7 @@ dev-haskell/lpeg 1.0.4 1.1.0: LPeg – Parsing Expression Grammars For Lua
 dev-haskell/lrucache 1.2.0.1: a simple, pure LRU cache
 dev-haskell/lsp 2.3.0.0 2.4.0.0 2.7.0.0: Haskell library for the Microsoft Language Server Protocol
 dev-haskell/lsp-test 0.16.0.1 0.17.0.0 0.17.1.0: Functional test framework for LSP servers
-dev-haskell/lsp-types 2.1.0.0 2.1.1.0 2.3.0.0: Haskell library for the Microsoft Language Server Protocol, data types
+dev-haskell/lsp-types 2.1.0.0 2.1.1.0 2.3.0.1: Haskell library for the Microsoft Language Server Protocol, data types
 dev-haskell/lua 2.3.1: Lua, an embeddable scripting language
 dev-haskell/lua-arbitrary 1.0.1.1: Arbitrary instances for Lua types
 dev-haskell/lua-bc 0.1.1-r1: Lua bytecode parser
