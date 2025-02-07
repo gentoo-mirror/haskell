@@ -1008,7 +1008,7 @@ dev-haskell/hslua-repl 0.1.2: Isocline-based Lua REPL
 dev-haskell/hslua-typing 0.1.1: Type specifiers for Lua
 dev-haskell/hsndfile 0.8.0-r1: Haskell bindings for libsndfile
 dev-haskell/hsndfile-vector 0.5.2: Haskell bindings for libsndfile (Data.Vector interface)
-dev-haskell/hsopenssl 0.11.7.5: Partial OpenSSL binding for Haskell
+dev-haskell/hsopenssl 0.11.7.9: Partial OpenSSL binding for Haskell
 dev-haskell/hsopenssl-x509-system 0.1.0.4: Use the system's native CA certificate store with HsOpenSSL
 dev-haskell/hsp 0.10.0: Haskell Server Pages is a library for writing dynamic server-side web pages
 dev-haskell/hsparql 0.3.6: A SPARQL query generator and DSL, and a client to query a SPARQL server
@@ -1118,7 +1118,7 @@ dev-haskell/indexed-traversable-instances 0.1.2: More instances of FunctorWithIn
 dev-haskell/infer-license 0.2.0: Infer software license from a given license file
 dev-haskell/infinite-list 0.1: Infinite lists
 dev-haskell/inflections 0.4.0.6-r1: Inflections library for Haskell
-dev-haskell/influxdb 1.9.3: InfluxDB client library for Haskell
+dev-haskell/influxdb 1.9.3.2: InfluxDB client library for Haskell
 dev-haskell/ini 0.4.1-r1: Quick and easy configuration files in the INI format
 dev-haskell/inline-c 0.9.1.10: Write Haskell source files including C code inline. No FFI required
 dev-haskell/inline-c-cpp 0.2.1.0: Lets you embed C++ code into Haskell
@@ -1184,12 +1184,12 @@ dev-haskell/keenser 0.1.0.0: Initial project template from stack
 dev-haskell/keys 3.12.3-r2: Keyed functors and containers
 dev-haskell/kinds 0.0.1.5: Emulation of subkinds and subkind polymorphism
 dev-haskell/knob 0.2.1: Memory-backed handles
-dev-haskell/lambdabot-core 5.3.0.1: Lambdabot core functionality
-dev-haskell/lambdabot-haskell-plugins 5.3: Lambdabot Haskell plugins
-dev-haskell/lambdabot-irc-plugins 5.3: IRC plugins for lambdabot
-dev-haskell/lambdabot-misc-plugins 5.3: Lambdabot miscellaneous plugins
+dev-haskell/lambdabot-core 5.3.1.2: Lambdabot core functionality
+dev-haskell/lambdabot-haskell-plugins 5.3.1.2: Lambdabot Haskell plugins
+dev-haskell/lambdabot-irc-plugins 5.3.1.2: IRC plugins for lambdabot
+dev-haskell/lambdabot-misc-plugins 5.3.1.2: Lambdabot miscellaneous plugins
 dev-haskell/lambdabot-novelty-plugins 5.3: Novelty plugins for Lambdabot
-dev-haskell/lambdabot-reference-plugins 5.3: Lambdabot reference plugins
+dev-haskell/lambdabot-reference-plugins 5.3.1.2: Lambdabot reference plugins
 dev-haskell/lambdabot-social-plugins 5.3: Social plugins for Lambdabot
 dev-haskell/lambdabot-trusted 5.3: Lambdabot trusted code
 dev-haskell/language-bash 0.9.2: Parsing and pretty-printing Bash shell scripts
@@ -1417,8 +1417,8 @@ dev-haskell/neat-interpolation 0.5.1.3 0.5.1.4: Quasiquoter for neat and simple 
 dev-haskell/netlink 1.1.1.0: Netlink communication for Haskell
 dev-haskell/netpbm 1.0.4: Loading PBM, PGM, PPM image files
 dev-haskell/netwire 5.0.3: Functional reactive programming library
-dev-haskell/network 3.1.4.0: Low-level networking interface
-dev-haskell/network-bsd 2.8.1.0-r1: POSIX network database (<netdb.h>) API
+dev-haskell/network 3.1.4.0 3.2.7.0: Low-level networking interface
+dev-haskell/network-bsd 2.8.1.0-r2: POSIX network database (<netdb.h>) API
 dev-haskell/network-byte-order 0.1.6 0.1.7: Network byte order utilities
 dev-haskell/network-conduit 1.1.0: Stream socket data using conduits. (deprecated)
 dev-haskell/network-control 0.1.3: Library to control network protocols
@@ -1469,7 +1469,7 @@ dev-haskell/openal 1.7.0.5: A binding to the OpenAL cross-platform 3D audio API
 dev-haskell/openclwrappers 0.1.0.3: The OpenCL Standard for heterogeneous data-parallel computing
 dev-haskell/opengl 3.0.3.0-r1: A binding for the OpenGL graphics system
 dev-haskell/openglraw 3.3.4.1: A raw binding for the OpenGL graphics system
-dev-haskell/openssl-streams 1.2.3.0: OpenSSL network support for io-streams
+dev-haskell/openssl-streams 1.2.3.0-r1: OpenSSL network support for io-streams
 dev-haskell/opentelemetry 0.8.0: The OpenTelemetry Haskell Client https://opentelemetry.io
 dev-haskell/operational 0.2.4.1 0.2.4.2: Implementation of difficult monads made easy with operational semantics
 dev-haskell/optics 0.4.2.1: Optics as an abstract interface
@@ -1748,7 +1748,7 @@ dev-haskell/rotating-log 0.4.3: Size-limited, concurrent, automatically-rotating
 dev-haskell/row-types 1.0.1.2: Open Records and Variants
 dev-haskell/rsa 2.4.1: Implementation of RSA, using the padding schemes of PKCS#1 v2.1
 dev-haskell/rset 1.0.0: Range set: Data structure that stores a set of ranges
-dev-haskell/rss 3000.2.0.7-r2: A library for generating RSS 2.0 feeds
+dev-haskell/rss 3000.2.0.8: A library for generating RSS 2.0 feeds
 dev-haskell/run-st 0.1.1.0: runST without boxing penalty
 dev-haskell/rvar 0.3.0.0 0.3.0.2: Random Variables
 dev-haskell/safe 0.3.21: Library of safe (exception free) functions
@@ -1788,13 +1788,13 @@ dev-haskell/semigroups 0.20: Anything that associates
 dev-haskell/semirings 0.6-r2 0.7: two monoids as one, in holy haskimony
 dev-haskell/semver 0.3.4: Representation, manipulation, and de/serialisation of Semantic Versions
 dev-haskell/semver-range 0.2.8: An implementation of semver and semantic version ranges
-dev-haskell/sendfile 0.7.11.4: A portable sendfile library
+dev-haskell/sendfile 0.7.11.6: A portable sendfile library
 dev-haskell/seqloc 0.6.1.1: Handle sequence locations for bioinformatics
 dev-haskell/sequence-formats 1.5.1.4: A package with basic parsing utilities for several Bioinformatic data formats
 dev-haskell/serialise 0.2.6.1: A binary serialisation library for Haskell values
 dev-haskell/serialport 0.4.7 0.5.1: Cross platform serial port library
 dev-haskell/servant 0.20.2: A family of combinators for defining webservices APIs
-dev-haskell/servant-client 0.20: Automatic derivation of querying functions for servant
+dev-haskell/servant-client 0.20.2: Automatic derivation of querying functions for servant
 dev-haskell/servant-client-core 0.20.2: Core functionality and class for client function generation for servant APIs
 dev-haskell/servant-lucid 0.9.0.6: Servant support for lucid
 dev-haskell/servant-server 0.20.2: A family of combinators for defining webservices APIs and serving them
@@ -1855,10 +1855,10 @@ dev-haskell/smallcheck 1.2.1: A property-based testing library
 dev-haskell/smtlib 1.1: A library for working with the SMTLIB format
 dev-haskell/smtpclient 1.1.0-r1: A simple SMTP client library
 dev-haskell/snap 1.1.3.1-r5: Top-level package for the Snap Web Framework
-dev-haskell/snap-core 1.0.5.1-r1: Snap: A Haskell Web Framework (core interfaces and types)
+dev-haskell/snap-core 1.0.5.1-r2: Snap: A Haskell Web Framework (core interfaces and types)
 dev-haskell/snap-loader-dynamic 1.0.0.2: Snap dynamic loader
 dev-haskell/snap-loader-static 1.0.0.1: Snap static loader
-dev-haskell/snap-server 1.1.2.1-r1: A web server for the Snap Framework
+dev-haskell/snap-server 1.1.2.1-r2: A web server for the Snap Framework
 dev-haskell/snap-templates 1.0.0.2-r1: Scaffolding CLI for the Snap Framework
 dev-haskell/snaplet-sqlite-simple 1.0.0.2-r2: sqlite-simple snaplet for the Snap Framework
 dev-haskell/sockaddr 0.0.0-r1: Printing SockAddr
@@ -1917,7 +1917,7 @@ dev-haskell/store-core 0.4.4.4: Fast and lightweight binary serialization
 dev-haskell/stream 0.4.7.2: A library for manipulating infinite lists
 dev-haskell/streaming 0.2.3.1 0.2.4.0: an elementary streaming prelude and general stream type
 dev-haskell/streaming-commons 0.2.3.0: Common lower-level functions needed by various streaming data libraries
-dev-haskell/streamly 0.8.3 0.10.1: Streaming, dataflow programming and declarative concurrency
+dev-haskell/streamly 0.10.1-r1: Streaming, dataflow programming and declarative concurrency
 dev-haskell/streamly-core 0.2.2: Streaming, parsers, arrays, serialization and more
 dev-haskell/strict 0.5: Strict data types and String IO
 dev-haskell/strict-identity 0.1.0.0: Strict Identity Monad, handy for writing fast code!

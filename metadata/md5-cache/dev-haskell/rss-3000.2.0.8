@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/haxml-1.24:=[profile?] <dev-haskell/haxml-1.26:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A library for generating RSS 2.0 feeds
+EAPI=8
+HOMEPAGE=https://github.com/haskell-hvr/rss
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=public-domain
+RDEPEND=>=dev-haskell/haxml-1.24:=[profile?] <dev-haskell/haxml-1.26:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] <dev-haskell/network-uri-2.7:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/3000.2.0.8
+SRC_URI=https://hackage.haskell.org/package/rss-3000.2.0.8/rss-3000.2.0.8.tar.gz https://hackage.haskell.org/package/rss-3000.2.0.8/revision/1.cabal -> rss-3000.2.0.8-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=752d81e04950ae98684edc7fa66b56db
