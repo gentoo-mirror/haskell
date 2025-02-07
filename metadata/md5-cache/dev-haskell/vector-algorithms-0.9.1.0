@@ -1,16 +1,16 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/bitvec-1.0:=[profile?] <dev-haskell/bitvec-1.2:=[profile?] >=dev-haskell/primitive-0.6.2.0:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-haskell/vector-0.6:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc[gmp] >=dev-haskell/cabal-3.4.1.0 test? ( properties? ( >dev-haskell/quickcheck-2.9 <dev-haskell/quickcheck-2.16 ) ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/bitvec-1.0:=[profile?] <dev-haskell/bitvec-1.2:=[profile?] >=dev-haskell/primitive-0.6.2.0:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-haskell/vector-0.6:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >dev-haskell/quickcheck-2.9 <dev-haskell/quickcheck-2.16 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Efficient algorithms for vector arrays
 EAPI=8
 HOMEPAGE=https://github.com/erikd/vector-algorithms/
 INHERIT=haskell-cabal
-IUSE=+bench +boundschecks internalchecks +properties unsafechecks doc hscolour hoogle profile test
+IUSE=+bench +boundschecks internalchecks unsafechecks doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/bitvec-1.0:=[profile?] <dev-haskell/bitvec-1.2:=[profile?] >=dev-haskell/primitive-0.6.2.0:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-haskell/vector-0.6:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc[gmp] dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.9.0.3
-SRC_URI=https://hackage.haskell.org/package/vector-algorithms-0.9.0.3/vector-algorithms-0.9.0.3.tar.gz
+SLOT=0/0.9.1.0
+SRC_URI=https://hackage.haskell.org/package/vector-algorithms-0.9.1.0/vector-algorithms-0.9.1.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=c253fce342e9455e0de09c78cd315df4
+_md5_=71917e077dbeb4b6e1545d2efc0e0003
