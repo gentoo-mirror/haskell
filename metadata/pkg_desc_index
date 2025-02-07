@@ -2220,7 +2220,7 @@ dev-haskell/web-routes-happstack 0.23.12.2: Adds support for using web-routes wi
 dev-haskell/web-routes-hsp 0.24.6.1: Adds XMLGenerator instance for RouteT monad
 dev-haskell/web-routes-th 0.22.7: Support for deriving PathInfo using Template Haskell
 dev-haskell/webdriver 0.8.5 0.9.0.1: a Haskell client for the Selenium WebDriver protocol
-dev-haskell/websockets 0.12.7.3 0.13.0.0-r1: A sensible and clean way to write WebSocket-capable servers in Haskell
+dev-haskell/websockets 0.13.0.0-r1: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-haskell/websockets-snap 0.10.3.1-r1: Snap integration for the websockets library
 dev-haskell/weeder 1.0.8: Detect dead code
 dev-haskell/weigh 0.0.17: Measure allocations of a Haskell functions/values
@@ -2385,7 +2385,7 @@ www-apps/clckwrks-cli 0.3.0.5: a command-line interface for adminstrating some a
 www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
 www-apps/clckwrks-plugin-page 0.4.3.26-r1: support for CMS/Blogging in clckwrks
 www-apps/darcsweb 1.1: A web interface for darcs
-www-apps/gitit 0.15.1.2-r1: Wiki using happstack, git or darcs, and pandoc
+www-apps/gitit 0.15.1.2-r2: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp
