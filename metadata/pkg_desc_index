@@ -529,7 +529,7 @@ dev-haskell/directory-layout 0.7.4.1: Directory layout DSL
 dev-haskell/directory-listing-webpage-parser 0.1.1.0: directory listing webpage parser
 dev-haskell/directory-tree 0.12.1: A simple directory-like tree datatype, with useful IO functions
 dev-haskell/disassembler 0.2.0.1-r1: Disassembler for X86 & AMD64 machine code
-dev-haskell/discord-haskell 1.15.6: Write bots for Discord in Haskell
+dev-haskell/discord-haskell 1.17.1: Write bots for Discord in Haskell
 dev-haskell/disk-free-space 0.1.0.1: Retrieve information about disk space usage
 dev-haskell/distributed-static 0.3.10: Compositional, type-safe, polymorphic static values and closures
 dev-haskell/distributive 0.6.2.1: Distributive functors -- Dual to Traversable
@@ -1165,7 +1165,7 @@ dev-haskell/js-dgtable 0.5.2: Obtain minified jquery.dgtable code
 dev-haskell/js-flot 0.8.3: Obtain minified flot code
 dev-haskell/js-jquery 3.3.1: Obtain minified jQuery code
 dev-haskell/jsaddle 0.9.9.2: Interface for JavaScript that works with GHCJS and GHC
-dev-haskell/jsaddle-warp 0.9.8.2-r1: Interface for JavaScript that works with GHCJS and GHC
+dev-haskell/jsaddle-warp 0.9.9.2: Interface for JavaScript that works with GHCJS and GHC
 dev-haskell/json 0.10: Support for serialising Haskell to and from JSON
 dev-haskell/json-ast 0.3.1: Universal JSON AST datastructure
 dev-haskell/json-bytes-builder 0.5.2.1: Direct-to-bytes JSON Builder
@@ -2221,7 +2221,7 @@ dev-haskell/web-routes-hsp 0.24.6.1: Adds XMLGenerator instance for RouteT monad
 dev-haskell/web-routes-th 0.22.7: Support for deriving PathInfo using Template Haskell
 dev-haskell/webdriver 0.8.5 0.9.0.1: a Haskell client for the Selenium WebDriver protocol
 dev-haskell/websockets 0.12.7.3 0.13.0.0-r1: A sensible and clean way to write WebSocket-capable servers in Haskell
-dev-haskell/websockets-snap 0.10.3.1: Snap integration for the websockets library
+dev-haskell/websockets-snap 0.10.3.1-r1: Snap integration for the websockets library
 dev-haskell/weeder 1.0.8: Detect dead code
 dev-haskell/weigh 0.0.17: Measure allocations of a Haskell functions/values
 dev-haskell/wherefrom-compat 0.1.1.1: A compatibility layer for GHC's 'wherefrom' function

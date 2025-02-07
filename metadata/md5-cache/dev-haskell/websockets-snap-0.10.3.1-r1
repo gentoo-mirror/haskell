@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/bytestring-builder-0.10:=[profile?] <dev-haskell/bytestring-builder-0.11:=[profile?] >=dev-haskell/io-streams-1.3:=[profile?] <dev-haskell/io-streams-1.6:=[profile?] >=dev-haskell/snap-core-1.0:=[profile?] <dev-haskell/snap-core-1.1:=[profile?] >=dev-haskell/snap-server-1.0:=[profile?] <dev-haskell/snap-server-1.2:=[profile?] >=dev-haskell/websockets-0.9.5:=[profile?] <dev-haskell/websockets-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Snap integration for the websockets library
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/websockets-snap
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/bytestring-builder-0.10:=[profile?] <dev-haskell/bytestring-builder-0.11:=[profile?] >=dev-haskell/io-streams-1.3:=[profile?] <dev-haskell/io-streams-1.6:=[profile?] >=dev-haskell/snap-core-1.0:=[profile?] <dev-haskell/snap-core-1.1:=[profile?] >=dev-haskell/snap-server-1.0:=[profile?] <dev-haskell/snap-server-1.2:=[profile?] >=dev-haskell/websockets-0.9.5:=[profile?] <dev-haskell/websockets-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.10.3.1
+SRC_URI=https://hackage.haskell.org/package/websockets-snap-0.10.3.1/websockets-snap-0.10.3.1.tar.gz https://hackage.haskell.org/package/websockets-snap-0.10.3.1/revision/2.cabal -> websockets-snap-0.10.3.1-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=419950d2dd6152093060a9cb0861cb64
