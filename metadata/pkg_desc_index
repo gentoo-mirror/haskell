@@ -34,7 +34,7 @@ dev-haskell/ac-angle 1.0: Angles in degrees and radians
 dev-haskell/ac-ppm 1.1.1: Trivial package for writing PPM images
 dev-haskell/ac-vector 2.3.2: Efficient geometric vectors and transformations
 dev-haskell/ac-vector-fancy 2.4.0-r1: Fancy type-system stuff for AC-Vector
-dev-haskell/acid-state 0.16.1.1: Add ACID guarantees to any serializable Haskell data structure
+dev-haskell/acid-state 0.16.1.3: Add ACID guarantees to any serializable Haskell data structure
 dev-haskell/action-permutations 0.0.0.1-r1: Execute a set of actions (e.g. parsers) in each possible order
 dev-haskell/active 0.2.0.16 0.2.1: Abstractions for animation
 dev-haskell/ad 4.5.2: Automatic Differentiation
@@ -670,9 +670,9 @@ dev-haskell/fusion-plugin 0.2.3 0.2.7: GHC plugin to make stream fusion more pre
 dev-haskell/fusion-plugin-types 0.1.0: Types for the fusion-plugin package
 dev-haskell/fuzzy 0.1.0.1: Filters a list based on a fuzzy string search
 dev-haskell/gamma 0.10.0.0: Gamma function and related functions
-dev-haskell/gargoyle 0.1.1.0: Automatically spin up and spin down local daemons
-dev-haskell/gargoyle-postgresql 0.2.0.1: Manage PostgreSQL servers with gargoyle
-dev-haskell/gargoyle-postgresql-connect 0.1.0.0-r1: Connect to gargoyle-managed postgresql instances
+dev-haskell/gargoyle 0.1.2.1: Automatically spin up and spin down local daemons
+dev-haskell/gargoyle-postgresql 0.2.0.3: Manage PostgreSQL servers with gargoyle
+dev-haskell/gargoyle-postgresql-connect 0.1.0.3: Connect to gargoyle-managed postgresql instances
 dev-haskell/gargoyle-postgresql-nix 0.3.0.0-r1: Manage PostgreSQL servers with gargoyle and nix
 dev-haskell/gasp 1.2.0.0: A framework of algebraic classes
 dev-haskell/gauge 0.2.5: small framework for performance measurement and analysis
@@ -835,8 +835,8 @@ dev-haskell/happstack-hamlet 7.0.4-r1: Support for Hamlet HTML templates in Happ
 dev-haskell/happstack-hsp 7.3.7.6: Support for using HSP templates in Happstack
 dev-haskell/happstack-jmacro 7.0.12.4: Support for using JMacro with Happstack
 dev-haskell/happstack-plugins 7.0.2-r3: The haskell application server stack + reload
-dev-haskell/happstack-server 7.8.0.2: Web related tools and services
-dev-haskell/happstack-server-tls 7.2.1.3: extend happstack-server with https:// support (TLS/SSL)
+dev-haskell/happstack-server 7.9.2.1: Web related tools and services
+dev-haskell/happstack-server-tls 7.2.1.6: extend happstack-server with https:// support (TLS/SSL)
 dev-haskell/happy 1.20.1.1: Happy is a parser generator for Haskell
 dev-haskell/harp 0.4.3.4: HaRP allows pattern-matching with regular expressions
 dev-haskell/hashable 1.4.7.0: A class for types that can be converted to a hash value
@@ -868,7 +868,7 @@ dev-haskell/hasktags 0.73.0 9999: Produces ctags "tags" and etags "TAGS" files f
 dev-haskell/haspell 1.1.0: Haskell bindings to aspell
 dev-haskell/hatex 3.22.3.1: The Haskell LaTeX library
 dev-haskell/haxml 1.25.13: Utilities for manipulating XML documents
-dev-haskell/haxr 3000.11.4.1-r2: XML-RPC client and server library
+dev-haskell/haxr 3000.11.5.1: XML-RPC client and server library
 dev-haskell/hcg-minus 0.15: haskell cg (minus)
 dev-haskell/hclip 3.0.0.4: A small cross-platform library for reading and modifying the system clipboard
 dev-haskell/hcodecs 0.5.2: A library to read, write and manipulate MIDI, WAVE, and SoundFont2 files
@@ -887,7 +887,7 @@ dev-haskell/heapsize 0.3.0.1: Determine the size of runtime data structures
 dev-haskell/heckle 2.0.2.1: Jekyll in Haskell (feat. LaTeX)
 dev-haskell/hedgehog 1.4-r2 1.5: Release with confidence
 dev-haskell/hedgehog-fn 1.0-r1: Function generation for 'hedgehog'
-dev-haskell/hedis 0.15.1: Client library for the Redis datastore: supports full command set, pipelining
+dev-haskell/hedis 0.15.2: Client library for the Redis datastore: supports full command set, pipelining
 dev-haskell/hedis-config 0.0.3 1.0.0: Easy trivial configuration for Redis
 dev-haskell/heist 1.1.1.2: An Haskell template system supporting both HTML5 and XML
 dev-haskell/here 1.2.13: Here docs & interpolated strings via quasiquotation
@@ -988,7 +988,7 @@ dev-haskell/hsemail 1.7.7 2.2.1: Parsec parsers for the Internet Message format 
 dev-haskell/hsexif 0.6.1.8: EXIF handling library in pure Haskell
 dev-haskell/hsh 2.1.3: Library to mix shell scripting with Haskell programs
 dev-haskell/hsimport 0.11.0-r2: Extend the import list of a Haskell source file
-dev-haskell/hslogger 1.3.1.0-r2: Versatile logging framework
+dev-haskell/hslogger 1.3.1.1: Versatile logging framework
 dev-haskell/hslua 2.3.1: Bindings to Lua, an embeddable scripting language
 dev-haskell/hslua-aeson 2.3.1: Allow aeson data types to be used with Lua
 dev-haskell/hslua-classes 2.3.1: Type classes for HsLua
@@ -1072,7 +1072,7 @@ dev-haskell/http-semantics 0.3.0: HTTP senmatics libarry
 dev-haskell/http-streams 0.8.9.9: An HTTP client using io-streams
 dev-haskell/http-types 0.12.4: Generic HTTP types for Haskell (for both client and server code)
 dev-haskell/http2 4.1.2 5.3.9: HTTP/2 library
-dev-haskell/httpd-shed 0.4.1.1-r1: A simple web-server with an interact style API
+dev-haskell/httpd-shed 0.4.1.2: A simple web-server with an interact style API
 dev-haskell/huffman 1.0.1: Pure Haskell implementation of the Huffman encoding algorithm
 dev-haskell/hunit 1.6.2.0: A unit testing framework for Haskell
 dev-haskell/hunit-approx 1.1.1.1: Approximate equality for floating point numbers with HUnit
@@ -1134,8 +1134,8 @@ dev-haskell/interpolate 0.2.1: String interpolation done right
 dev-haskell/intervals 0.9.2: Interval Arithmetic
 dev-haskell/invariant 0.6.4: Haskell98 invariant functors
 dev-haskell/io-storage 0.3-r2: A key-value store in the IO monad
-dev-haskell/io-streams 1.5.2.2-r1: Simple, composable, and easy-to-use stream I/O
-dev-haskell/io-streams-haproxy 1.0.1.0-r2: HAProxy protocol 1.5 support for io-streams
+dev-haskell/io-streams 1.5.2.2-r2: Simple, composable, and easy-to-use stream I/O
+dev-haskell/io-streams-haproxy 1.0.1.0-r3: HAProxy protocol 1.5 support for io-streams
 dev-haskell/io-string-like 0.1.0.1: Classes to handle Prelude style IO functions for different datatypes
 dev-haskell/iospec 0.3.1.1: A pure specification of the IO monad
 dev-haskell/iostring 0.0.0.0-r1: A class of strings that can be involved in IO
