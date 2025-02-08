@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/text-1.2.0.4:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/alex-3.2 >=dev-haskell/cabal-3.4.1.0 >=dev-haskell/happy-1.19 <dev-haskell/happy-2.2 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Simple, layout-based value language similar to YAML or JSON
+EAPI=8
+HOMEPAGE=https://github.com/glguy/config-value
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/text-1.2.0.4:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.8.3
+SRC_URI=https://hackage.haskell.org/package/config-value-0.8.3/config-value-0.8.3.tar.gz https://hackage.haskell.org/package/config-value-0.8.3/revision/9.cabal -> config-value-0.8.3-rev9.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=02dca093b7118801c78961125a360719

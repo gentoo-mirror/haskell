@@ -370,8 +370,8 @@ dev-haskell/conduit-combinators 1.3.0: Commonly used conduit functions, for both
 dev-haskell/conduit-extra 1.3.7: Batteries included conduit: adapters for common libraries
 dev-haskell/conduit-parse 0.2.1.1: Parsing framework based on conduit
 dev-haskell/config-ini 0.2.7.0: A library for simple INI-based configuration files
-dev-haskell/config-schema 1.3.0.0: Schema definitions for the config-value package
-dev-haskell/config-value 0.8.3: Simple, layout-based value language similar to YAML or JSON
+dev-haskell/config-schema 1.3.0.0-r1: Schema definitions for the config-value package
+dev-haskell/config-value 0.8.3-r1: Simple, layout-based value language similar to YAML or JSON
 dev-haskell/configfile 1.1.4: Configuration file reading & writing
 dev-haskell/configurator 0.3.0.0-r1: Configuration management
 dev-haskell/constraints 0.14: Constraint manipulation
@@ -435,7 +435,7 @@ dev-haskell/cuda 0.10.1.0: FFI binding to the CUDA interface for programming NVI
 dev-haskell/cufft 0.8.0.0: Haskell bindings for the CUFFT library
 dev-haskell/curl 1.3.8: Haskell binding to libcurl
 dev-haskell/curly-expander 0.3.0.1 0.3.0.3: Curly braces (brackets) expanding
-dev-haskell/curve25519 0.2.7: Fast implementations of the curve25519 elliptic curve primitives
+dev-haskell/curve25519 0.2.8: Fast implementations of the curve25519 elliptic curve primitives
 dev-haskell/cyclotomic 1.1.1: A subfield of the complex numbers for exact calculation
 dev-haskell/czipwith 1.0.1.4: CZipWith class and deriving via TH
 dev-haskell/daemons 0.3.0: Daemons in Haskell made fun and easy
@@ -476,7 +476,7 @@ dev-haskell/date-cache 0.3.0-r1: Date cacher
 dev-haskell/dates 0.2.3.0: Small library for parsing different dates formats
 dev-haskell/datetime 0.3.1: Utilities to make Data.Time.* easier to use
 dev-haskell/dav 1.3.4: RFC 4918 WebDAV support
-dev-haskell/dbus 1.3.2: A client library for the D-Bus IPC system
+dev-haskell/dbus 1.3.11: A client library for the D-Bus IPC system
 dev-haskell/dbus-hslogger 0.1.0.1: Expose a dbus server to control hslogger
 dev-haskell/dec 0.0.6: Decidable propositions
 dev-haskell/decimal 0.5.2: Decimal numbers with variable precision
@@ -529,7 +529,7 @@ dev-haskell/directory-layout 0.7.4.1: Directory layout DSL
 dev-haskell/directory-listing-webpage-parser 0.1.1.0: directory listing webpage parser
 dev-haskell/directory-tree 0.12.1: A simple directory-like tree datatype, with useful IO functions
 dev-haskell/disassembler 0.2.0.1-r1: Disassembler for X86 & AMD64 machine code
-dev-haskell/discord-haskell 1.17.1: Write bots for Discord in Haskell
+dev-haskell/discord-haskell 1.17.1-r1: Write bots for Discord in Haskell
 dev-haskell/disk-free-space 0.1.0.1: Retrieve information about disk space usage
 dev-haskell/distributed-static 0.3.10: Compositional, type-safe, polymorphic static values and closures
 dev-haskell/distributive 0.6.2.1: Distributive functors -- Dual to Traversable
@@ -960,7 +960,7 @@ dev-haskell/hnix-store-remote 0.5.0.0: Remote hnix store
 dev-haskell/hoauth2 2.14.2: Haskell OAuth2 authentication client
 dev-haskell/hogg 0.4.1.2: Library and tools to manipulate the Ogg container format
 dev-haskell/hood 0.3.1: Debugging by observing in place
-dev-haskell/hookup 0.7: Abstraction over creating network connections with SOCKS5 and TLS
+dev-haskell/hookup 0.8: Abstraction over creating network connections with SOCKS5 and TLS
 dev-haskell/hoopl 3.10.2.2: A library to support dataflow analysis and optimization
 dev-haskell/hopfli 0.2.2.1: Bindings to Google's Zopfli compression library
 dev-haskell/hora 2.2.0: Convenient type, timestamp, timezone, format
@@ -1145,7 +1145,7 @@ dev-haskell/ipv6addr 2.0.5.1: Library to deal with IPv6 address text representat
 dev-haskell/ipynb 0.2: Data structure for working with Jupyter notebooks (ipynb)
 dev-haskell/ipython-kernel 0.11.0.0: A library for creating kernels for IPython frontends
 dev-haskell/irc 0.6.1.0-r1: A small library for parsing IRC messages
-dev-haskell/irc-core 2.11 2.12: IRC core library for glirc
+dev-haskell/irc-core 2.13: IRC core library for glirc
 dev-haskell/ireal 0.2.3-r1: Real numbers and intervals with relatively efficient exact arithmetic
 dev-haskell/iso-deriving 0.0.8: Deriving via arbitrary isomorphisms
 dev-haskell/iso3166-country-codes 0.20140203.8: A datatype for ISO 3166 country codes
@@ -1693,7 +1693,7 @@ dev-haskell/refact 0.3.0.2: Specify refactorings to perform with apply-refact
 dev-haskell/refinery 0.4.0.0: Toolkit for building proof automation systems
 dev-haskell/reflection 2.1.9: Reifies arbitrary terms into types that can be reflected back into terms
 dev-haskell/reflex 0.9.3.3: Higher-order Functional Reactive Programming
-dev-haskell/reflex-backend-socket 0.2.0.1-r1: Reflex bindings for TCP sockets
+dev-haskell/reflex-backend-socket 0.2.0.1-r2: Reflex bindings for TCP sockets
 dev-haskell/reflex-libtelnet 0.2.0.0: Reflex bindings for libtelnet
 dev-haskell/reform 0.2.7.4-r1: reform is a type-safe HTML form generation and validation library
 dev-haskell/reform-hamlet 0.0.5.3: Add support for using Hamlet with Reform
@@ -1725,7 +1725,7 @@ dev-haskell/repa-algorithms 3.4.2.0: Algorithms using the Repa array library
 dev-haskell/repa-devil 0.3.2.6-r1: Support for image reading and writing of Repa arrays using in-place FFI calls
 dev-haskell/repa-io 3.4.1.2-r1: Read and write Repa arrays in various formats
 dev-haskell/repline 0.4.0.0: Haskeline wrapper for GHCi-like REPL interfaces
-dev-haskell/req 3.13.4: HTTP client library
+dev-haskell/req 3.13.4-r1: HTTP client library
 dev-haskell/rere 0.2.0.1-r1: Regular-expressions extended with fixpoints for context-free powers
 dev-haskell/rerebase 1.20.2: Reexports from "base" with a bunch of other standard libraries
 dev-haskell/resolv 0.1.2.0-r1: Domain Name Service (DNS) lookup via the libresolv standard library routines
@@ -2192,7 +2192,7 @@ dev-haskell/versions 6.0.8: Types and parsers for software version numbers
 dev-haskell/vinyl 0.13.3: Extensible Records
 dev-haskell/vinyl-gl 0.3.4: Utilities for working with OpenGL's GLSL shading language and vinyl records
 dev-haskell/void 0.7.3: A Haskell 98 logically uninhabited data type
-dev-haskell/vty 5.39 6.1: A simple terminal UI library
+dev-haskell/vty 6.2: A simple terminal UI library
 dev-haskell/vty-crossplatform 0.4.0.0: Cross-platform support for Vty
 dev-haskell/vty-unix 0.2.0.0: Unix backend for Vty
 dev-haskell/wai 3.2.4: Web Application Interface
@@ -2369,7 +2369,7 @@ media-gfx/gifcurry 3.0.0.1: GIF creation utility
 media-gfx/implicitcad 0.4.1.0: A math-inspired programmatic 2D & 3D CAD system
 media-sound/hpodder 1.1.6-r2: Podcast Aggregator (downloader)
 net-im/hsendxmpp 0.1.3.3: sendxmpp clone, sending XMPP messages via CLI
-net-irc/glirc 2.39.0.1-r2: Console IRC client
+net-irc/glirc 2.41: Console IRC client
 net-irc/lambdabot 5.3.0.1: Lambdabot is a development tool and advanced IRC bot
 net-misc/htalkat 0.1.2.5-r1: Talk across TLS
 sci-biology/bamstats 0.4: A program to extract various information from BAM alignment files
