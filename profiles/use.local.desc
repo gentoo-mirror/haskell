@@ -134,7 +134,6 @@ dev-haskell/ghcide:executable - Build the ghcide executable
 dev-haskell/ghcide:test-exe - Build the ghcide-test-preprocessor executable
 dev-haskell/ghcide:test-lib - Build the ghcide-test-utils library
 dev-haskell/gi-cairo-render:svg - Build the Scalable Vector Graphics (SVG) backend of Cairo.
-dev-haskell/github:openssl - "Use http-client-openssl"
 dev-haskell/glfw:system-glfw - use media-libs/glfw instead of bundled version
 dev-haskell/glib:closure-signals - Use the the GClosure-based signals implementation.
 dev-haskell/gloss:glfw - Enable the GLFW backend
@@ -361,7 +360,6 @@ dev-haskell/skein:force-endianness - Use a manually selected endian when compili
 dev-haskell/skein:reference - Use the reference implementation instead of the optimized one.
 dev-haskell/skylighting:executable - Whether to build the skylighting program
 dev-haskell/skylighting-core:executable - Build skylighting-extract tool
-dev-haskell/snap-server:openssl - Enable https support using the HsOpenSSL library.
 dev-haskell/snap-server:pong-server - Build a server that just returns "PONG". Normally useful only for benchmarks.
 dev-haskell/snap-server:test-server - Build the blackbox testserver
 dev-haskell/some:newtype-unsafe - Use implementation using @newtype@ and unsafe @Any@, instead of GADT
