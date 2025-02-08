@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/primitive:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/th-abstraction-0.4:=[profile?] dev-haskell/th-orphans:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hspec dev-haskell/th-lift dev-haskell/vector ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Collection of useful functions for use with Template Haskell
+EAPI=8
+HOMEPAGE=https://github.com/fpco/th-utilities#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/primitive:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] >=dev-haskell/th-abstraction-0.4:=[profile?] dev-haskell/th-orphans:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.5.2
+SRC_URI=https://hackage.haskell.org/package/th-utilities-0.2.5.2/th-utilities-0.2.5.2.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f8b8290224ae13f50ed4b3b2832e7765

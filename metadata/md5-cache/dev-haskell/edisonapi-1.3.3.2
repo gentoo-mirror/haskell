@@ -1,15 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/mtl-1.0:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A library of efficient, purely-functional data structures (API)
 EAPI=8
-HOMEPAGE=http://rwd.rdockins.name/edison/home/
+HOMEPAGE=https://github.com/robdockins/edison
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/mtl-1.0:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
-SLOT=0/1.3.1
-SRC_URI=https://hackage.haskell.org/package/EdisonAPI-1.3.1/EdisonAPI-1.3.1.tar.gz
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/1.3.3.2
+SRC_URI=https://hackage.haskell.org/package/EdisonAPI-1.3.3.2/EdisonAPI-1.3.3.2.tar.gz -> edisonapi-1.3.3.2.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=a221b28d1abbddeb214ee14bac111213
+_md5_=a54627403ee2596d5f842646adaf4915

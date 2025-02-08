@@ -562,7 +562,7 @@ dev-haskell/easyrender 0.1.1.4: User-friendly creation of EPS, PostScript, and P
 dev-haskell/echo 0.1.4-r2: A cross-platform, cross-console way to handle echoing terminal input
 dev-haskell/ed25519 0.0.5.0-r1: Ed25519 cryptographic signatures
 dev-haskell/ede 0.3.2.0: Templating language with similar syntax and features to Liquid or Jinja2
-dev-haskell/edisonapi 1.3.1-r1: A library of efficient, purely-functional data structures (API)
+dev-haskell/edisonapi 1.3.3.2: A library of efficient, purely-functional data structures (API)
 dev-haskell/edit-distance 0.2.2.1-r1: Levenshtein and restricted Damerau-Levenshtein edit distances
 dev-haskell/edit-distance-vector 1.0.0.4: Calculate edit distances and edit scripts between vectors
 dev-haskell/editline 0.2.1.1-r1: Bindings to the editline library (libedit)
@@ -2046,7 +2046,7 @@ dev-haskell/th-lift-instances 0.1.20: Lift instances for template-haskell for co
 dev-haskell/th-orphans 0.13.16: Orphan instances for TH datatypes
 dev-haskell/th-reify-compat 0.0.1.5: Compatibility for the result type of TH reify
 dev-haskell/th-reify-many 0.1.10: Recurseively reify template haskell datatype info
-dev-haskell/th-utilities 0.2.4.3: Collection of useful functions for use with Template Haskell
+dev-haskell/th-utilities 0.2.5.2: Collection of useful functions for use with Template Haskell
 dev-haskell/themoviedb 1.2.2: Haskell API bindings for http://themoviedb.org
 dev-haskell/these 1.2.1: An either-or-both data type
 dev-haskell/these-lens 1.0.2: Lenses for These
@@ -2188,7 +2188,7 @@ dev-haskell/vector-space 0.16: Vector & affine spaces, linear maps, and derivati
 dev-haskell/vector-space-points 0.2.1.2-r2: A type for points, as distinct from vectors
 dev-haskell/vector-stream 0.1.0.1: Efficient Streams
 dev-haskell/vector-th-unbox 0.2.2: Deriver for Data.Vector.Unboxed using Template Haskell
-dev-haskell/versions 4.0.3: Types and parsers for software version numbers
+dev-haskell/versions 6.0.8: Types and parsers for software version numbers
 dev-haskell/vinyl 0.13.3: Extensible Records
 dev-haskell/vinyl-gl 0.3.4: Utilities for working with OpenGL's GLSL shading language and vinyl records
 dev-haskell/void 0.7.3: A Haskell 98 logically uninhabited data type
