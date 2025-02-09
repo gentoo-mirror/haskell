@@ -2219,7 +2219,7 @@ dev-haskell/web-routes-boomerang 0.28.4.2: Use boomerang for type-safe URL parse
 dev-haskell/web-routes-happstack 0.23.12.2: Adds support for using web-routes with Happstack
 dev-haskell/web-routes-hsp 0.24.6.1: Adds XMLGenerator instance for RouteT monad
 dev-haskell/web-routes-th 0.22.7: Support for deriving PathInfo using Template Haskell
-dev-haskell/webdriver 0.8.5 0.9.0.1: a Haskell client for the Selenium WebDriver protocol
+dev-haskell/webdriver 0.12.0.1: a Haskell client for the Selenium WebDriver protocol
 dev-haskell/websockets 0.13.0.0-r1: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-haskell/websockets-snap 0.10.3.1-r1: Snap integration for the websockets library
 dev-haskell/weeder 1.0.8: Detect dead code
