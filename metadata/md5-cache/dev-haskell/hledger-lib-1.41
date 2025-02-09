@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/1.41
 SRC_URI=https://hackage.haskell.org/package/hledger-lib-1.41/hledger-lib-1.41.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=120099b1eef3b38c393a2df848840523
+_md5_=0137aed0abd14aff887852479c4418b0
