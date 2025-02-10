@@ -1183,14 +1183,14 @@ dev-haskell/kansas-comet 0.4.3: A JavaScript push mechanism based on the comet i
 dev-haskell/keenser 0.1.0.0: Initial project template from stack
 dev-haskell/keys 3.12.3-r2: Keyed functors and containers
 dev-haskell/kinds 0.0.1.5: Emulation of subkinds and subkind polymorphism
-dev-haskell/knob 0.2.1: Memory-backed handles
+dev-haskell/knob 0.2.1 0.2.2: Memory-backed handles
 dev-haskell/lambdabot-core 5.3.1.2: Lambdabot core functionality
 dev-haskell/lambdabot-haskell-plugins 5.3.1.2: Lambdabot Haskell plugins
 dev-haskell/lambdabot-irc-plugins 5.3.1.2: IRC plugins for lambdabot
 dev-haskell/lambdabot-misc-plugins 5.3.1.2: Lambdabot miscellaneous plugins
-dev-haskell/lambdabot-novelty-plugins 5.3: Novelty plugins for Lambdabot
+dev-haskell/lambdabot-novelty-plugins 5.3 5.3.1.2: Novelty plugins for Lambdabot
 dev-haskell/lambdabot-reference-plugins 5.3.1.2: Lambdabot reference plugins
-dev-haskell/lambdabot-social-plugins 5.3: Social plugins for Lambdabot
+dev-haskell/lambdabot-social-plugins 5.3 5.3.1.2: Social plugins for Lambdabot
 dev-haskell/lambdabot-trusted 5.3: Lambdabot trusted code
 dev-haskell/language-bash 0.9.2: Parsing and pretty-printing Bash shell scripts
 dev-haskell/language-c 0.9.3: Analysis and generation of C code
