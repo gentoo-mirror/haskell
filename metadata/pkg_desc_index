@@ -1137,7 +1137,7 @@ dev-haskell/io-storage 0.3-r2: A key-value store in the IO monad
 dev-haskell/io-streams 1.5.2.2-r2: Simple, composable, and easy-to-use stream I/O
 dev-haskell/io-streams-haproxy 1.0.1.0-r3: HAProxy protocol 1.5 support for io-streams
 dev-haskell/io-string-like 0.1.0.1: Classes to handle Prelude style IO functions for different datatypes
-dev-haskell/iospec 0.3.1.1: A pure specification of the IO monad
+dev-haskell/iospec 0.3.1.1 0.3.1.2: A pure specification of the IO monad
 dev-haskell/iostring 0.0.0.0-r1: A class of strings that can be involved in IO
 dev-haskell/ipprint 0.6-r1: Tiny helper for pretty-printing values in ghci console
 dev-haskell/iproute 1.7.12: IP Routing Table
@@ -1384,7 +1384,7 @@ dev-haskell/mtl 2.2.2-r2 2.3.1-r1: Monad classes, using functional dependencies
 dev-haskell/mtl-compat 0.2.2: Backported Control.Monad.Except module from mtl
 dev-haskell/mtl-prelude 2.0.3.2: Reexports of most definitions from "mtl" and "transformers"
 dev-haskell/mtlparse 0.1.4.0: parse library using mtl package
-dev-haskell/mueval 0.9.3: Safely evaluate pure Haskell expressions
+dev-haskell/mueval 0.9.3 0.9.4: Safely evaluate pure Haskell expressions
 dev-haskell/multimap 1.2.1-r1: A multimap
 dev-haskell/multipart 0.2.1: Parsers for the HTTP multipart format
 dev-haskell/multiset 0.3.4.3: The Data.MultiSet container type

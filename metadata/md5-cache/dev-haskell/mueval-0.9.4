@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/cabal:=[profile?] dev-haskell/extensible-exceptions:=[profile?] >=dev-haskell/hint-0.3.1:=[profile?] >dev-haskell/mtl-2:=[profile?] dev-haskell/quickcheck:=[profile?] >=dev-haskell/show-0.3:=[profile?] dev-haskell/simple-reflect:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Safely evaluate pure Haskell expressions
+EAPI=8
+HOMEPAGE=https://github.com/gwern/mueval
+INHERIT=haskell-cabal pax-utils
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/cabal:=[profile?] dev-haskell/extensible-exceptions:=[profile?] >=dev-haskell/hint-0.3.1:=[profile?] >dev-haskell/mtl-2:=[profile?] dev-haskell/quickcheck:=[profile?] >=dev-haskell/show-0.3:=[profile?] dev-haskell/simple-reflect:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+SLOT=0/0.9.4
+SRC_URI=https://hackage.haskell.org/package/mueval-0.9.4/mueval-0.9.4.tar.gz https://hackage.haskell.org/package/mueval-0.9.4/revision/3.cabal -> mueval-0.9.4-rev3.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	pax-utils	5555f2e75744739fe100ee62c22d28fe
+_md5_=f9c64f4a99665fd798c49a54cd76535b
