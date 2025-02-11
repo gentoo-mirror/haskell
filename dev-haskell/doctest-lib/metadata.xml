@@ -6,8 +6,6 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">th-data-compat</remote-id>
-		<remote-id type="bitbucket">khibino/haskell-th-data-compat</remote-id>
-		<remote-id type="github">khibino/haskell-th-data-compat</remote-id>
+		<remote-id type="hackage">doctest-lib</remote-id>
 	</upstream>
 </pkgmetadata>
