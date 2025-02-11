@@ -99,6 +99,7 @@ dev-haskell/diagrams-builder:cairo - install cairo-specific builder tool
 dev-haskell/diagrams-builder:pgf - install PGF-specific builder tool
 dev-haskell/diagrams-builder:rasterific - install rasterific-specific builder tool
 dev-haskell/diagrams-builder:svg - install svg-specific builder tool
+dev-haskell/dimensional:binary - Provide instances for use with the binary package.
 dev-haskell/dlist:werror - Enable -Werror
 dev-haskell/docopt:template-haskell - Build with QuasiQuoter usage parsers, which requires Template Haskell
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
