@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/doctest ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/doctest ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Generate driver file for doctest's cabal integration
 EAPI=8
 HOMEPAGE=https://github.com/Hexirp/doctest-driver-gen#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=executable doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.3.0.7
-SRC_URI=https://hackage.haskell.org/package/doctest-driver-gen-0.3.0.7/doctest-driver-gen-0.3.0.7.tar.gz
+SLOT=0/0.3.0.8
+SRC_URI=https://hackage.haskell.org/package/doctest-driver-gen-0.3.0.8/doctest-driver-gen-0.3.0.8.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=12fb886cb1f4858da328c0d2c57dc5a1
+_md5_=8f82857bd01b071a4aba9b3ac9b606b4
