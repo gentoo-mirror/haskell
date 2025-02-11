@@ -1933,7 +1933,7 @@ dev-haskell/strictify 0.1-r1: Find a local optimum of strictness annotations
 dev-haskell/string-class 0.1.7.2: String class library
 dev-haskell/string-conv 0.1.2: Standardized conversion between string types
 dev-haskell/string-conversions 0.4.0.1: Simplifies dealing with different types for strings
-dev-haskell/string-interpolate 0.3.2.1: Haskell string/text/bytestring interpolation that just works
+dev-haskell/string-interpolate 0.3.4.0: Haskell string/text/bytestring interpolation that just works
 dev-haskell/string-qq 0.0.4: QuasiQuoter for non-interpolated strings, texts and bytestrings
 dev-haskell/stringable 0.1.3: A Stringable type class, in the spirit of Foldable and Traversable
 dev-haskell/stringbuilder 0.5.1: A writer monad for multi-line string literals
