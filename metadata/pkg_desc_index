@@ -1253,6 +1253,7 @@ dev-haskell/liquid-fixpoint 0.8.10.7.1_pre20220624 8.10.7 9999: Predicate Abstra
 dev-haskell/liquiddesugar 9999: Haskell to GHC Core Desugarar for Liquid Haskell
 dev-haskell/liquidhaskell 0.8.10.7 9999: Liquid Types for Haskell
 dev-haskell/list 0.6.2: List monad transformer and class
+dev-haskell/list-shuffle 1.0.0.1: List shuffling and sampling
 dev-haskell/list-t 1.0.5.7: ListT done right
 dev-haskell/listlike 4.7.8.2: Generalized support for list-like structures
 dev-haskell/listsafe 0.1.0.1: Safe wrappers for partial list functions, supporting MonadThrow
