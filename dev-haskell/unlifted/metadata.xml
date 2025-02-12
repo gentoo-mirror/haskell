@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">nix-derivation</remote-id>
-		<remote-id type="github">Gabriella439/Haskell-Nix-Derivation-Library</remote-id>
+		<remote-id type="hackage">unlifted</remote-id>
+		<remote-id type="github">byteverse/unlifted</remote-id>
 	</upstream>
 </pkgmetadata>
