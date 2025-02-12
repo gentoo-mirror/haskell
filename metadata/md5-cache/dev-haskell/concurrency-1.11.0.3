@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/atomic-primops-0.8:=[profile?] <dev-haskell/atomic-primops-0.9:=[profile?] >=dev-haskell/monad-control-1.0:=[profile?] <dev-haskell/monad-control-1.1:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Typeclasses, functions, and data types for concurrency and STM
+EAPI=8
+HOMEPAGE=https://github.com/barrucadu/dejafu
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/atomic-primops-0.8:=[profile?] <dev-haskell/atomic-primops-0.9:=[profile?] >=dev-haskell/monad-control-1.0:=[profile?] <dev-haskell/monad-control-1.1:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/1.11.0.3
+SRC_URI=https://hackage.haskell.org/package/concurrency-1.11.0.3/concurrency-1.11.0.3.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=619daabecedb7618a0ecaebb15493e2b
