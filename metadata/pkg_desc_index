@@ -1884,7 +1884,7 @@ dev-haskell/sorted-list 0.2.1.0: Type-enforced sorted lists and related function
 dev-haskell/sourcemap 0.1.7: Implementation of source maps as proposed by Google and Mozilla
 dev-haskell/sox 0.2.3.2-r1: Play, write, read, convert audio signals using Sox
 dev-haskell/spdx 1.0.0.3-r1: SPDX license expression language, Extras
-dev-haskell/special-values 0.1.0.0-r1: Typeclass providing special values
+dev-haskell/special-values 0.1.0.0-r2: Typeclass providing special values
 dev-haskell/speculation 1.5.0.3-r1: A framework for safe, programmable, speculative parallelism
 dev-haskell/sphinx 0.6.1: Haskell bindings to the Sphinx full-text searching daemon
 dev-haskell/spintax 0.3.6: Random text generation based on spintax
@@ -1994,7 +1994,7 @@ dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.1.1: Write tests in Lua, integrate into tasty
 dev-haskell/tasty-quickcheck 0.10.2 0.11.1: QuickCheck support for the Tasty test framework
 dev-haskell/tasty-rerun 1.1.18: Rerun only tests which failed in a previous test run
-dev-haskell/tasty-silver 3.3.1: A fancy test runner, including support for golden tests
+dev-haskell/tasty-silver 3.3.2: A fancy test runner, including support for golden tests
 dev-haskell/tasty-smallcheck 0.8.2: SmallCheck support for the Tasty test framework
 dev-haskell/tasty-th 0.1.7: Automatic tasty test case discovery using TH
 dev-haskell/tasty-travis 0.2.0.2: Fancy Travis CI output for tasty tests
@@ -2033,7 +2033,7 @@ dev-haskell/text-icu 0.8.0.4: Bindings to the ICU library
 dev-haskell/text-icu-normalized 0.1.6: Dealing with Strict Text in NFC normalization
 dev-haskell/text-iso8601 0.1.1: Converting time to and from ISO 8601 text
 dev-haskell/text-latin1 0.3.1: Latin-1 (including ASCII) utility functions
-dev-haskell/text-manipulate 0.2.0.1: Case conversion, word boundary manipulation, and textual subjugation
+dev-haskell/text-manipulate 0.3.1.0: Case conversion, word boundary manipulation, and textual subjugation
 dev-haskell/text-metrics 0.3.2: Calculate various string metrics efficiently
 dev-haskell/text-postgresql 0.0.3.1: Parser and Printer of PostgreSQL extended types
 dev-haskell/text-printer 0.5.0.1: Abstract interface for text builders/printers
@@ -2083,7 +2083,7 @@ dev-haskell/tls 2.0.6 2.1.5: TLS protocol native implementation
 dev-haskell/tls-session-manager 0.0.5 0.0.7: In-memory TLS session DB and session ticket
 dev-haskell/tmp-postgres 1.35.0.0_pre20230808: Start and stop a temporary postgres
 dev-haskell/toml-parser 2.0.1.0: TOML 1.0.0 parser
-dev-haskell/tomland 1.3.3.2-r2: Bidirectional TOML serialization
+dev-haskell/tomland 1.3.3.3: Bidirectional TOML serialization
 dev-haskell/top 1.7: Constraint solving framework employed by the Helium Compiler
 dev-haskell/topograph 1.0.0.2: Directed acyclic graphs
 dev-haskell/torrent 10000.1.1: BitTorrent file parser and generator
@@ -2103,7 +2103,7 @@ dev-haskell/ttrie 0.1.2.1-r1: Contention-free STM hash map
 dev-haskell/tuple 0.3.0.2-r1: Various functions on tuples
 dev-haskell/tuple-th 0.2.5-r1: Generate (non-recursive) utility functions for tuples of statically known size
 dev-haskell/tuples 0.1.0.0-r1: Small monomorphic tuples
-dev-haskell/turtle 1.6.1-r1: Shell programming, Haskell-style
+dev-haskell/turtle 1.6.2: Shell programming, Haskell-style
 dev-haskell/type-aligned 0.9.6-r1: Various type-aligned sequence data structures
 dev-haskell/type-equality 1: Type equality, coercion/cast and other operations
 dev-haskell/type-equality-check 0.0.0.4: Type equality check
@@ -2174,7 +2174,7 @@ dev-haskell/uuid-types 1.0.6: Type definitions for Universally Unique Identifier
 dev-haskell/uulib 0.9.24: Haskell Utrecht Tools Library
 dev-haskell/validated-literals 0.3.1: Compile-time checking for partial smart-constructors
 dev-haskell/validation 1.1.2-r1: A data-type like Either but with an accumulating Applicative
-dev-haskell/validation-selective 0.2.0.0-r1: Lighweight pure data validation based on Applicative and Selective functors
+dev-haskell/validation-selective 0.2.0.0-r2: Lighweight pure data validation based on Applicative and Selective functors
 dev-haskell/validity 0.12.0.1: Validity typeclass
 dev-haskell/validity-aeson 0.2.0.4: Validity instances for aeson
 dev-haskell/validity-containers 0.5.0.4: Validity instances for containers

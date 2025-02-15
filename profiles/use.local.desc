@@ -409,8 +409,8 @@ dev-haskell/thyme:bug-for-bug - bug-for-bug compatibility with time
 dev-haskell/thyme:lens - use the full lens package
 dev-haskell/thyme:show-internal - instance Show of internal representation
 dev-haskell/tls:devel - Development commands
-dev-haskell/tomland:examples - Build example exes
 dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes.
+dev-haskell/turtle:new-deps - Use new versions of ansi-wl-pprint and optparse-applicative
 dev-haskell/typst:executable - Compile executable to be used in testing and development.
 dev-haskell/tz:template-haskell - Enable the use of and export Template Haskell functionality. (Might need to disable this for cross-compiling.)
 dev-haskell/unagi-chan:compare-benchmarks - compare benchmarks with Chan, TQueue, and (eventually) lockfree-queue?
