@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/attoparsec:=[profile?] >=dev-haskell/base16-bytestring-1.0:=[profile?] >=dev-haskell/base64-bytestring-1.2.1:=[profile?] dev-haskell/constraints-extras:=[profile?] dev-haskell/crypton:=[profile?] dev-haskell/data-default-class:=[profile?] >dev-haskell/dependent-sum-0.7:=[profile?] >=dev-haskell/dependent-sum-template-0.2.0.1:=[profile?] <dev-haskell/dependent-sum-template-0.3:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/memory:=[profile?] >=dev-haskell/nix-derivation-1.1.1:=[profile?] <dev-haskell/nix-derivation-2:=[profile?] >dev-haskell/some-1.0.5:=[profile?] <dev-haskell/some-2:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hspec dev-haskell/tasty dev-haskell/tasty-discover dev-haskell/tasty-golden dev-haskell/tasty-hspec ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Core types used for interacting with the Nix store
+EAPI=8
+HOMEPAGE=https://github.com/haskell-nix/hnix-store
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=dev-haskell/attoparsec:=[profile?] >=dev-haskell/base16-bytestring-1.0:=[profile?] >=dev-haskell/base64-bytestring-1.2.1:=[profile?] dev-haskell/constraints-extras:=[profile?] dev-haskell/crypton:=[profile?] dev-haskell/data-default-class:=[profile?] >dev-haskell/dependent-sum-0.7:=[profile?] >=dev-haskell/dependent-sum-template-0.2.0.1:=[profile?] <dev-haskell/dependent-sum-template-0.3:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/memory:=[profile?] >=dev-haskell/nix-derivation-1.1.1:=[profile?] <dev-haskell/nix-derivation-2:=[profile?] >dev-haskell/some-1.0.5:=[profile?] <dev-haskell/some-2:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.8.0.0
+SRC_URI=https://hackage.haskell.org/package/hnix-store-core-0.8.0.0/hnix-store-core-0.8.0.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=bef76dc56c8c51dc13c4af1fde80a263

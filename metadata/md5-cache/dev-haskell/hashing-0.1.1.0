@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/mtl-2.2.1:=[profile?] >=dev-haskell/quickcheck-2.8.1:=[profile?] >=dev-lang/ghc-7.10.1:= >=dev-haskell/cabal-1.22.2.0 test? ( >=dev-haskell/cryptonite-0.15 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/quickcheck-2.8.1:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/cryptonite-0.15 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=A pure haskell library implements several hash algorithms
 EAPI=8
 HOMEPAGE=https://github.com/wangbj/hashing
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/mtl-2.2.1:=[profile?] >=dev-haskell/quickcheck-2.8.1:=[profile?] >=dev-lang/ghc-7.10.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/quickcheck-2.8.1:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.1.0.1
-SRC_URI=https://hackage.haskell.org/package/hashing-0.1.0.1/hashing-0.1.0.1.tar.gz
+SLOT=0/0.1.1.0
+SRC_URI=https://hackage.haskell.org/package/hashing-0.1.1.0/hashing-0.1.1.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=5f9a9502b81980b3237c53a1d23826d8
+_md5_=abe927a5d00506bb4e381238e8f005e1

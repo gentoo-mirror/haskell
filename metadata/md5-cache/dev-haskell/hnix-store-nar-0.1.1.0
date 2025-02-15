@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/algebraic-graphs-0.5:=[profile?] <dev-haskell/algebraic-graphs-0.8:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/cereal:=[profile?] dev-haskell/lifted-base:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/base64-bytestring dev-haskell/cryptonite dev-haskell/hspec dev-haskell/tasty dev-haskell/tasty-hspec dev-haskell/tasty-hunit dev-haskell/tasty-quickcheck dev-haskell/temporary ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=NAR file format
+EAPI=8
+HOMEPAGE=https://github.com/haskell-nix/hnix-store
+INHERIT=haskell-cabal
+IUSE=bounded-memory doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=>=dev-haskell/algebraic-graphs-0.5:=[profile?] <dev-haskell/algebraic-graphs-0.8:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/cereal:=[profile?] dev-haskell/lifted-base:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.1.0
+SRC_URI=https://hackage.haskell.org/package/hnix-store-nar-0.1.1.0/hnix-store-nar-0.1.1.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=6cd5f568e1249f433460387be89a8701

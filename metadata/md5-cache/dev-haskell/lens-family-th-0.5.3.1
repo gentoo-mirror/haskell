@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Generate lens-family style lenses
 EAPI=8
 HOMEPAGE=https://github.com/DanBurton/lens-family-th#readme
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.5.2.1
-SRC_URI=https://hackage.haskell.org/package/lens-family-th-0.5.2.1/lens-family-th-0.5.2.1.tar.gz
+SLOT=0/0.5.3.1
+SRC_URI=https://hackage.haskell.org/package/lens-family-th-0.5.3.1/lens-family-th-0.5.3.1.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=cde4cbe00b651a35feedffdaa4ae8480
+_md5_=f433a96a6512c486db10976848760089

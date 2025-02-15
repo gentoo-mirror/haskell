@@ -211,6 +211,7 @@ dev-haskell/hls-plugin-api:fingertree - Use fingertree implementation of RangeMa
 dev-haskell/hmatrix:no-random-r - When enabled, hmatrix will not depend on the random_r() C function, it is needed for musl libc support.
 dev-haskell/hnix:executable - Build the hnix executable
 dev-haskell/hnix:optimize - Enable all optimization flags
+dev-haskell/hnix-store-nar:bounded-memory - Run tests of constant memory use (requires +RTS -T)
 dev-haskell/hps:build-exec - Build the `hps-fractals` executable
 dev-haskell/hsexif:iconv - Enable encoding conversion of the User Comment tag with iconv. It's a nice thing to have but iconv is difficult to install on windows.
 dev-haskell/hslua-cli:executable - Compile `hslua` standalone executable.
