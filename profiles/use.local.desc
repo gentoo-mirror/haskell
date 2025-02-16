@@ -203,7 +203,6 @@ dev-haskell/hlibsass:sharedlibsass - Build LibSass as a shared library (only if 
 dev-haskell/hlint:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/hlint:gpl - Use GPL libraries, specifically hscolour
 dev-haskell/hlint:hsyaml - Use HsYAML instead of yaml
-dev-haskell/hlint:threaded - Build with support for multithreaded execution
 dev-haskell/hlint:threads - Build with support for multithreaded execution
 dev-haskell/hls-graph:embed-files - Embed data files into the shake library
 dev-haskell/hls-graph:stm-stats - Collect STM transaction stats
