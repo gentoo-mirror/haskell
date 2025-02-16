@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/cabal-3.14.0.0:=[profile?] <dev-haskell/cabal-3.11:=[profile?] >=dev-haskell/cabal-syntax-3.14.0.0:=[profile?] <dev-haskell/cabal-syntax-3.15:=[profile?] >=dev-haskell/tree-diff-0.1:=[profile?] <dev-haskell/tree-diff-0.4:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/3.14.0.0
 SRC_URI=https://github.com/haskell/cabal/archive/d8b8b94a5aed29ff3ee0c876603a025d5b6a72f0.tar.gz -> cabal-d8b8b94a5aed29ff3ee0c876603a025d5b6a72f0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=8e7359a9bd06027981a9f24baf21bf5a

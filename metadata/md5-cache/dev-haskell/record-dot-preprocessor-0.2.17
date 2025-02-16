@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/extra:=[profile?] dev-haskell/uniplate:=[profile?] >=dev-lan
 RESTRICT=!test? ( test )
 SLOT=0/0.2.17
 SRC_URI=https://hackage.haskell.org/package/record-dot-preprocessor-0.2.17/record-dot-preprocessor-0.2.17.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=e578e230291bfc181926e26c55e8843c

@@ -10,5 +10,5 @@ LICENSE=AGPL-3
 PROPERTIES=live
 RDEPEND=~dev-haskell/parsable-9999:=[profile?] <dev-haskell/tasty-1.6:=[profile?] <dev-haskell/tasty-hunit-0.11:=[profile?] <dev-haskell/tasty-quickcheck-0.12:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/9999
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=bde9234b7696667283dcde928f0287c4

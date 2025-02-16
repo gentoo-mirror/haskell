@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/aeson-0.9:=[profile?] <dev-haskell/aeson-3:=[profile?] >=d
 RESTRICT=!test? ( test )
 SLOT=0/3.13.4
 SRC_URI=https://hackage.haskell.org/package/req-3.13.4/req-3.13.4.tar.gz https://hackage.haskell.org/package/req-3.13.4/revision/2.cabal -> req-3.13.4-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
 _md5_=9d69a3a30353cab93ca044ed12f7022d
