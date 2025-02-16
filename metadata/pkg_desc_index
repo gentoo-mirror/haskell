@@ -51,7 +51,7 @@ dev-haskell/aeson-optics 1.2.1: Law-abiding optics for aeson
 dev-haskell/aeson-pretty 0.8.10: JSON pretty-printing library and command-line tool
 dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
 dev-haskell/aeson-warning-parser 0.1.1: Library providing JSON parser that warns about unexpected fields in objects
-dev-haskell/aeson-yaml 1.1.0.1-r1: Output any Aeson value as YAML (pure Haskell library)
+dev-haskell/aeson-yaml 1.1.0.1-r2: Output any Aeson value as YAML (pure Haskell library)
 dev-haskell/alex 3.2.7.2 3.5.1.0: Alex is a tool for generating lexical analysers in Haskell
 dev-haskell/alex-tools 0.4: A set of functions for a common use case of Alex
 dev-haskell/algebra 4.3.1: Constructive abstract algebra
@@ -1054,7 +1054,7 @@ dev-haskell/htf 0.15.0.2: The Haskell Test Framework
 dev-haskell/html 1.0.1.2-r1: HTML combinator library
 dev-haskell/html-conduit 1.3.2.2: Parse HTML documents using xml-conduit datatypes
 dev-haskell/html-entities 1.1.4.5: A codec library for HTML-escaped text and HTML-entities
-dev-haskell/html-entity-map 0.1.0.0-r1: Map from HTML5 entity names to the corresponding Unicode text
+dev-haskell/html-entity-map 0.1.0.0-r2: Map from HTML5 entity names to the corresponding Unicode text
 dev-haskell/html-parse 0.2.0.2-r1: A high-performance HTML tokenizer
 dev-haskell/htoml 1.0.0.3: Parser for TOML files
 dev-haskell/htrace 0.1: Hierarchical tracing for debugging of lazy evaluation
@@ -1342,7 +1342,7 @@ dev-haskell/miso 1.8.3.0: A tasty Haskell front-end framework
 dev-haskell/missing-foreign 0.1.1-r1: Convenience functions for FFI work
 dev-haskell/missingh 1.6.0.1: Large utility library
 dev-haskell/mmap 0.5.9: Memory mapped files for POSIX and Windows
-dev-haskell/mmark 0.0.7.5: Strict markdown processor for writers
+dev-haskell/mmark 0.0.8.0: Strict markdown processor for writers
 dev-haskell/mmorph 1.2.0: Monad morphisms
 dev-haskell/mockery 0.3.5: Support functions for automated testing
 dev-haskell/mod 0.1.2.2 0.2.0.1: Fast type-safe modular arithmetic
@@ -1556,7 +1556,7 @@ dev-haskell/pgm 0.1.4-r1: Pure Haskell implementation of PGM image format
 dev-haskell/pgp-wordlist 0.1.0.3: Translate between binary data and a human-readable collection of words
 dev-haskell/picedit 0.2.3.0-r5: simple image manipulation functions
 dev-haskell/pid1 0.1.2.0: Do signal handling and orphan reaping for Unix PID1 init processes
-dev-haskell/pipes 4.3.16-r1: Compositional pipelines
+dev-haskell/pipes 4.3.16-r2: Compositional pipelines
 dev-haskell/pipes-attoparsec 0.5.1.5: Attoparsec and Pipes integration
 dev-haskell/pipes-binary 0.4.3: Encode and decode binary streams using the pipes and binary libraries
 dev-haskell/pipes-bytestring 2.1.7: ByteString support for pipes
@@ -2336,7 +2336,7 @@ dev-haskell/ztail 1.2.0.2-r1: Multi-file, colored, filtered log tailer
 dev-haskell/zxcvbn-hs 0.3.5: Password strength estimation based on zxcvbn
 dev-lang/brainfuck 0.1.0.4: Brainfuck interpreter
 dev-lang/cryptol 2.6.0: Cryptol: The Language of Cryptography
-dev-lang/dhall 1.42.0: A configuration language guaranteed to terminate
+dev-lang/dhall 1.42.2: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
 dev-lang/ghc 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.6.6 9.8.2-r3 9.8.3 9.8.4 9.10.1-r5 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
@@ -2348,15 +2348,15 @@ dev-util/bnfc 2.9.2: A compiler front-end generator
 dev-util/bustle 0.8.0: Draw sequence diagrams of D-Bus traffic
 dev-util/change-monger 0.0: Parse VCS changelogs into ChangeLogs
 dev-util/darcs-monitor 0.4.2-r2: Darcs repository monitor (sends email)
-dev-util/dhall-bash 1.0.41-r1: Compile Dhall to Bash
-dev-util/dhall-csv 1.0.4: Convert bidirectionally between Dhall and CSV files
-dev-util/dhall-docs 1.0.11: Generate HTML docs from a dhall package
+dev-util/dhall-bash 1.0.41-r2: Compile Dhall to Bash
+dev-util/dhall-csv 1.0.4-r1: Convert bidirectionally between Dhall and CSV files
+dev-util/dhall-docs 1.0.12: Generate HTML docs from a dhall package
 dev-util/dhall-json 1.7.12-r2: Convert between Dhall and JSON or YAML
-dev-util/dhall-nix 1.1.26: Dhall to Nix compiler
-dev-util/dhall-toml 1.0.3-r1: Convert between Dhall and TOML
-dev-util/dhall-yaml 1.2.12-r2: Convert between Dhall and YAML
+dev-util/dhall-nix 1.1.27: Dhall to Nix compiler
+dev-util/dhall-toml 1.0.4: Convert between Dhall and TOML
+dev-util/dhall-yaml 1.2.12-r3: Convert between Dhall and YAML
 dev-util/dzen-dhall 1.0.2: Configure dzen2 bars in Dhall language
-dev-util/ghcup-bin 0.1.30.0-r2: The GHCup Haskell installer
+dev-util/ghcup-bin 0.1.30.0-r2 0.1.40.0: The GHCup Haskell installer
 dev-util/hadolint 2.10.0: Dockerfile Linter JavaScript API
 dev-util/hasmin 1.0.3-r2: CSS Minifier
 dev-util/hdocs 0.5.5.0-r1: Haskell docs tool
