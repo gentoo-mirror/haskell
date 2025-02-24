@@ -262,6 +262,7 @@ dev-haskell/liquidhaskell:no-plugin - Use the legacy executable for testing.
 dev-haskell/logfloat:useffi - Use FFI to link C's log1p. Improves accuracy while maintaining the same performance. Disable only if your compiler doesn't support FFI.
 dev-haskell/lpeg:rely-on-shared-lpeg-library - Do not build lpeg from source, but trust that lpeg is made available in other ways, e.g., through a system-wide installation. The loader will be replaced with a placeholder function that only emits a message.
 dev-haskell/lua:system-lua - Use @pkg-config@ to discover library and include paths. Setting this flag implies `pkg-config`.
+dev-haskell/lzma:pkgconfig - Use @pkgconfig@ on unix system to find @liblzma@
 dev-haskell/markdown-unlit:executable - Build executable
 dev-haskell/massiv:unsafe-checks - Enable all the bounds checks for unsafe functions at the cost of performance penalty
 dev-haskell/midi-alsa:buildexamples - Build example executables.

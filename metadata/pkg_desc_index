@@ -618,7 +618,7 @@ dev-haskell/fgl 5.8.2.0: Martin Erwig's Functional Graph Library
 dev-haskell/fgl-arbitrary 0.2.0.6: QuickCheck support for fgl
 dev-haskell/fgl-visualize 0.1.0.1-r1: Convert FGL graphs to dot (graphviz) files
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
-dev-haskell/file-embed-lzma 0: Use Template Haskell to embed (LZMA compressed) data
+dev-haskell/file-embed-lzma 0.1: Use Template Haskell to embed (LZMA compressed) data
 dev-haskell/file-location 0.4.9.1: common functions that show file location information
 dev-haskell/file-modules 0.1.2.4: Takes a Haskell source-code file and outputs its modules
 dev-haskell/filelock 0.1.1.7: Portable interface to file locking (flock / LockFileEx)
@@ -1289,7 +1289,7 @@ dev-haskell/lucid-svg 0.7.1: DSL for SVG using lucid for HTML
 dev-haskell/lukko 0.1.2: File locking
 dev-haskell/lushtags 0.0.1-r2 9999: Create ctags compatible tags files for Haskell programs
 dev-haskell/lz4 0.2.3.1: LZ4 compression for ByteStrings
-dev-haskell/lzma 0.0.0.3: LZMA/XZ compression and decompression
+dev-haskell/lzma 0.0.1.1: LZMA/XZ compression and decompression
 dev-haskell/machines 0.7.3: Networked stream transducers
 dev-haskell/mackerel-client 0.2.0: An API client library for Mackerel
 dev-haskell/magic 1.1: Interface to C file/magic library
@@ -1988,7 +1988,7 @@ dev-haskell/tasty-golden 2.3.5: Golden tests support for tasty
 dev-haskell/tasty-hedgehog 1.4.0.2-r2: Integration for tasty and hedgehog
 dev-haskell/tasty-hslua 1.1.1: Tasty helpers to test HsLua
 dev-haskell/tasty-hspec 1.2.0.4: Hspec support for the Tasty test framework
-dev-haskell/tasty-hunit 0.10.0.3: HUnit support for the Tasty test framework
+dev-haskell/tasty-hunit 0.10.2: HUnit support for the Tasty test framework
 dev-haskell/tasty-inspection-testing 0.2.1-r1: Inspection testing support for tasty
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.1.1: Write tests in Lua, integrate into tasty
