@@ -86,7 +86,6 @@ dev-haskell/crypton:target-attributes - use GCC / clang function attributes inst
 dev-haskell/cryptonite:integer-gmp - Whether or not to use GMP for some functions
 dev-haskell/cryptonite:target-attributes - use GCC / clang function attributes instead of global target options.
 dev-haskell/data-lens:derivedatatypeable - Use the DeriveDataTypeable extension. This makes lens compile with old compilers. Users need not worry about it.
-dev-haskell/data-reify:examples - Install test executables
 dev-haskell/derive-storable:sumtypes - Enable support for non-recursive sum types.
 dev-haskell/derive-storable-plugin:sumtypes - Use sumtypes within benchmark and tests.
 dev-haskell/diagrams:cairo - Enable the cairo backend
@@ -103,6 +102,7 @@ dev-haskell/dimensional:binary - Provide instances for use with the binary packa
 dev-haskell/dlist:werror - Enable -Werror
 dev-haskell/docopt:template-haskell - Build with QuasiQuoter usage parsers, which requires Template Haskell
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
+dev-haskell/effectful:benchmark-foreign-libraries - Include other effect libraries in the benchmarks.
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"
 dev-haskell/extensible:cassava - "define instances for cassava"

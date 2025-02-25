@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/async-2.2.2:=[profile?] >=dev-haskell/effectful-core-2.5.1.0:=[profile?] <dev-haskell/effectful-core-2.5.2.0:=[profile?] >=dev-haskell/strict-mutable-base-1.1.0.0:=[profile?] >=dev-haskell/unliftio-0.2.20:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/lifted-base dev-haskell/primitive dev-haskell/safe-exceptions dev-haskell/tasty dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=An easy to use, performant extensible effects library
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/effectful
+INHERIT=haskell-cabal
+IUSE=benchmark-foreign-libraries doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/async-2.2.2:=[profile?] >=dev-haskell/effectful-core-2.5.1.0:=[profile?] <dev-haskell/effectful-core-2.5.2.0:=[profile?] >=dev-haskell/strict-mutable-base-1.1.0.0:=[profile?] >=dev-haskell/unliftio-0.2.20:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/2.5.1.0
+SRC_URI=https://hackage.haskell.org/package/effectful-2.5.1.0/effectful-2.5.1.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=2fcc7373174d3dafe379c88ed7ab0ba1
