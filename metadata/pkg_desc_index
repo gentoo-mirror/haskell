@@ -330,7 +330,7 @@ dev-haskell/clock 0.8.4: High-resolution clock functions: monotonic, realtime, c
 dev-haskell/cmark 0.6.1: Fast, accurate CommonMark (Markdown) parser and renderer
 dev-haskell/cmark-gfm 0.2.2: Fast, accurate GitHub Flavored Markdown parser and renderer
 dev-haskell/cmdargs 0.10.22: Command line argument processing
-dev-haskell/co-log-core 0.3.2.1 0.3.2.4: Composable Contravariant Comonadic Logging Library
+dev-haskell/co-log-core 0.3.2.4: Composable Contravariant Comonadic Logging Library
 dev-haskell/code-page 0.2.1: Windows code page library for Haskell
 dev-haskell/codec-compression-lzf 0.2-r2: LZF compression bindings
 dev-haskell/codec-image-devil 0.2.4: An FFI interface to the DevIL library
@@ -544,7 +544,7 @@ dev-haskell/dns 4.0.1: DNS library in Haskell
 dev-haskell/doclayout 0.4.0.1 0.5: A prettyprinting library for laying out text documents
 dev-haskell/docopt 0.7.0.6: A command-line interface parser that will make you smile
 dev-haskell/doctemplates 0.11.0.1: Pandoc-style document templates
-dev-haskell/doctest 0.22.0 0.22.2: Test interactive Haskell examples
+dev-haskell/doctest 0.22.2 0.24.0: Test interactive Haskell examples
 dev-haskell/doctest-discover 0.2.0.0: Easy way to run doctests via cabal
 dev-haskell/doctest-driver-gen 0.3.0.8: Generate driver file for doctest's cabal integration
 dev-haskell/doctest-exitcode-stdio 0.0: Run doctest's in a Cabal.Test.exitcode-stdio environment
@@ -1587,7 +1587,7 @@ dev-haskell/pointful 1.1.0.0: Pointful refactoring tool
 dev-haskell/poll 0.0.0.2: Bindings to poll.h
 dev-haskell/polynomial 0.7.3: Polynomials
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
-dev-haskell/polysemy 1.9.1.3: Higher-order, low-boilerplate free monads
+dev-haskell/polysemy 1.9.2.0: Higher-order, low-boilerplate free monads
 dev-haskell/polysemy-plugin 0.4.5.2: Disambiguate obvious uses of effects
 dev-haskell/polysemy-test 0.7.0.0: Polysemy Effects for Testing
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time

@@ -101,6 +101,7 @@ dev-haskell/diagrams-builder:svg - install svg-specific builder tool
 dev-haskell/dimensional:binary - Provide instances for use with the binary package.
 dev-haskell/dlist:werror - Enable -Werror
 dev-haskell/docopt:template-haskell - Build with QuasiQuoter usage parsers, which requires Template Haskell
+dev-haskell/doctest:cabal-doctest - Install (experimental) cabal-doctest executable
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
 dev-haskell/effectful:benchmark-foreign-libraries - Include other effect libraries in the benchmarks.
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
