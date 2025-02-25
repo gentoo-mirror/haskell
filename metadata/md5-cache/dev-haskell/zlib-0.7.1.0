@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-9.0.2:= bundled-c-zlib? ( <dev-haskell/zlib-clib-2:=[profile?] ) !bundled-c-zlib? ( sys-libs/zlib ) >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/quickcheck-2 <dev-haskell/quickcheck-3 >=dev-haskell/tasty-0.8 <dev-haskell/tasty-1.6 >=dev-haskell/tasty-quickcheck-0.8 <dev-haskell/tasty-quickcheck-1 ) !bundled-c-zlib? ( virtual/pkgconfig ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Compression and decompression in the gzip and zlib formats
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/zlib
+INHERIT=haskell-cabal
+IUSE=bundled-c-zlib non-blocking-ffi doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~ppc-macos
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-9.0.2:= bundled-c-zlib? ( <dev-haskell/zlib-clib-2:=[profile?] ) !bundled-c-zlib? ( sys-libs/zlib ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.7.1.0
+SRC_URI=https://hackage.haskell.org/package/zlib-0.7.1.0/zlib-0.7.1.0.tar.gz https://hackage.haskell.org/package/zlib-0.7.1.0/revision/2.cabal -> zlib-0.7.1.0-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=fc96413b088e14a9e7e05898a709cb55
