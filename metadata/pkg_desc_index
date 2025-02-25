@@ -63,47 +63,47 @@ dev-haskell/alsa-mixer 0.3.0.1: Bindings to the ALSA simple mixer API
 dev-haskell/alsa-pcm 0.6.1.1: Binding to the ALSA Library API (PCM audio)
 dev-haskell/alsa-seq 0.6.0.8: Binding to the ALSA Library API (MIDI sequencer)
 dev-haskell/alut 2.4.0.3: A binding for the OpenAL Utility Toolkit
-dev-haskell/amazonka-cloudformation 1.6.1: Amazon CloudFormation SDK
-dev-haskell/amazonka-cloudfront 1.6.1: Amazon CloudFront SDK
-dev-haskell/amazonka-cloudhsm 1.6.1: Amazon CloudHSM SDK
-dev-haskell/amazonka-cloudsearch 1.6.1: Amazon CloudSearch SDK
-dev-haskell/amazonka-cloudsearch-domains 1.6.1: Amazon CloudSearch Domain SDK
-dev-haskell/amazonka-cloudtrail 1.6.1: Amazon CloudTrail SDK
-dev-haskell/amazonka-cloudwatch 1.6.1: Amazon CloudWatch SDK
-dev-haskell/amazonka-codedeploy 1.6.1: Amazon CodeDeploy SDK
-dev-haskell/amazonka-cognito-identity 1.6.1: Amazon Cognito Identity SDK
-dev-haskell/amazonka-cognito-sync 1.6.1: Amazon Cognito Sync SDK
-dev-haskell/amazonka-config 1.6.1: Amazon Config SDK
-dev-haskell/amazonka-core 1.6.1-r1: Core data types and functionality for Amazonka libraries
-dev-haskell/amazonka-datapipeline 1.6.1: Amazon Data Pipeline SDK
-dev-haskell/amazonka-devicefarm 1.6.1: Amazon Device Farm SDK
-dev-haskell/amazonka-directconnect 1.6.1: Amazon Direct Connect SDK
-dev-haskell/amazonka-discovery 1.6.1: Amazon Application Discovery Service SDK
-dev-haskell/amazonka-dms 1.6.1: Amazon Database Migration Service SDK
-dev-haskell/amazonka-dynamodb 1.6.1: Amazon DynamoDB SDK
-dev-haskell/amazonka-ec2 1.6.1: Amazon Elastic Compute Cloud SDK
-dev-haskell/amazonka-ecr 1.6.1: Amazon EC2 Container Registry SDK
-dev-haskell/amazonka-elasticache 1.6.1: Amazon ElastiCache SDK
-dev-haskell/amazonka-elasticsearch 1.6.1: Amazon Elasticsearch Service SDK
-dev-haskell/amazonka-elastictranscoder 1.6.1: Amazon Elastic Transcoder SDK
-dev-haskell/amazonka-iam 1.6.1: Amazon Identity and Access Management SDK
-dev-haskell/amazonka-kinesis 1.6.1: Amazon Kinesis SDK
-dev-haskell/amazonka-lambda 1.6.1: Amazon Lambda SDK
-dev-haskell/amazonka-marketplace-analytics 1.6.1: Amazon Marketplace Commerce Analytics SDK
-dev-haskell/amazonka-opsworks 1.6.1: Amazon OpsWorks SDK
-dev-haskell/amazonka-redshift 1.6.1: Amazon Redshift SDK
-dev-haskell/amazonka-route53 1.6.1: Amazon Route 53 SDK
-dev-haskell/amazonka-route53-domains 1.6.1: Amazon Route 53 Domains SDK
-dev-haskell/amazonka-s3 1.6.1: Amazon Simple Storage Service SDK
-dev-haskell/amazonka-sdb 1.6.1: Amazon SimpleDB SDK
-dev-haskell/amazonka-ses 1.6.1: Amazon Simple Email Service SDK
-dev-haskell/amazonka-shield 1.6.1: Amazon Shield SDK
-dev-haskell/amazonka-sms 1.6.1: Amazon Server Migration Service SDK
-dev-haskell/amazonka-sns 1.6.1: Amazon Simple Notification Service SDK
-dev-haskell/amazonka-stepfunctions 1.6.1: Amazon Step Functions SDK
-dev-haskell/amazonka-storagegateway 1.6.1: Amazon Storage Gateway SDK
-dev-haskell/amazonka-support 1.6.1: Amazon Support SDK
-dev-haskell/amazonka-test 1.6.1: Common functionality for Amazonka library test-suites
+dev-haskell/amazonka-cloudformation 2.0: Amazon CloudFormation SDK
+dev-haskell/amazonka-cloudfront 2.0: Amazon CloudFront SDK
+dev-haskell/amazonka-cloudhsm 2.0: Amazon CloudHSM SDK
+dev-haskell/amazonka-cloudsearch 2.0: Amazon CloudSearch SDK
+dev-haskell/amazonka-cloudsearch-domains 2.0: Amazon CloudSearch Domain SDK
+dev-haskell/amazonka-cloudtrail 2.0: Amazon CloudTrail SDK
+dev-haskell/amazonka-cloudwatch 2.0: Amazon CloudWatch SDK
+dev-haskell/amazonka-codedeploy 2.0: Amazon CodeDeploy SDK
+dev-haskell/amazonka-cognito-identity 2.0: Amazon Cognito Identity SDK
+dev-haskell/amazonka-cognito-sync 2.0: Amazon Cognito Sync SDK
+dev-haskell/amazonka-config 2.0: Amazon Config SDK
+dev-haskell/amazonka-core 2.0: Core data types and functionality for Amazonka libraries
+dev-haskell/amazonka-datapipeline 2.0: Amazon Data Pipeline SDK
+dev-haskell/amazonka-devicefarm 2.0: Amazon Device Farm SDK
+dev-haskell/amazonka-directconnect 2.0: Amazon Direct Connect SDK
+dev-haskell/amazonka-discovery 2.0: Amazon Application Discovery Service SDK
+dev-haskell/amazonka-dms 2.0: Amazon Database Migration Service SDK
+dev-haskell/amazonka-dynamodb 2.0: Amazon DynamoDB SDK
+dev-haskell/amazonka-ec2 2.0: Amazon Elastic Compute Cloud SDK
+dev-haskell/amazonka-ecr 2.0: Amazon EC2 Container Registry SDK
+dev-haskell/amazonka-elasticache 2.0: Amazon ElastiCache SDK
+dev-haskell/amazonka-elasticsearch 2.0: Amazon Elasticsearch Service SDK
+dev-haskell/amazonka-elastictranscoder 2.0: Amazon Elastic Transcoder SDK
+dev-haskell/amazonka-iam 2.0: Amazon Identity and Access Management SDK
+dev-haskell/amazonka-kinesis 2.0: Amazon Kinesis SDK
+dev-haskell/amazonka-lambda 2.0: Amazon Lambda SDK
+dev-haskell/amazonka-marketplace-analytics 2.0: Amazon Marketplace Commerce Analytics SDK
+dev-haskell/amazonka-opsworks 2.0: Amazon OpsWorks SDK
+dev-haskell/amazonka-redshift 2.0: Amazon Redshift SDK
+dev-haskell/amazonka-route53 2.0: Amazon Route 53 SDK
+dev-haskell/amazonka-route53-domains 2.0: Amazon Route 53 Domains SDK
+dev-haskell/amazonka-s3 2.0: Amazon Simple Storage Service SDK
+dev-haskell/amazonka-sdb 2.0: Amazon SimpleDB SDK
+dev-haskell/amazonka-ses 2.0: Amazon Simple Email Service SDK
+dev-haskell/amazonka-shield 2.0: Amazon Shield SDK
+dev-haskell/amazonka-sms 2.0: Amazon Server Migration Service SDK
+dev-haskell/amazonka-sns 2.0: Amazon Simple Notification Service SDK
+dev-haskell/amazonka-stepfunctions 2.0: Amazon Step Functions SDK
+dev-haskell/amazonka-storagegateway 2.0: Amazon Storage Gateway SDK
+dev-haskell/amazonka-support 2.0: Amazon Support SDK
+dev-haskell/amazonka-test 2.0: Common functionality for Amazonka library test-suites
 dev-haskell/amqp 0.22.1: Client library for AMQP servers (currently only RabbitMQ)
 dev-haskell/amqp-worker 0.3.2: High level functions for working with message queues
 dev-haskell/annotated-wl-pprint 0.7.0: The Wadler/Leijen Pretty Printer, with annotation support

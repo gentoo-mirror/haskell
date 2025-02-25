@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/amazonka-core-2.0:=[profile?] <dev-haskell/amazonka-core-2.1:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/amazonka-test-2.0 <dev-haskell/amazonka-test-2.1 dev-haskell/case-insensitive dev-haskell/tasty dev-haskell/tasty-hunit dev-haskell/text dev-haskell/unordered-containers ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Amazon Elasticsearch Service SDK
+EAPI=8
+HOMEPAGE=https://github.com/brendanhay/amazonka
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MPL-2.0
+RDEPEND=>=dev-haskell/amazonka-core-2.0:=[profile?] <dev-haskell/amazonka-core-2.1:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/2.0
+SRC_URI=https://hackage.haskell.org/package/amazonka-elasticsearch-2.0/amazonka-elasticsearch-2.0.tar.gz https://hackage.haskell.org/package/amazonka-elasticsearch-2.0/revision/1.cabal -> amazonka-elasticsearch-2.0-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=ecc477ec946d4ee34f48af06e2a1d31b
