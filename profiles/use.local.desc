@@ -53,6 +53,7 @@ dev-haskell/cabal-plan:underline - Enable underlining of primary unit-ids
 dev-haskell/cabal-rpm:curl - Use curl library to query Stackage instead of http-client
 dev-haskell/cairo:svg - Build the Scalable Vector Graphics (SVG) backend of Cairo.
 dev-haskell/categories:optimize - Enable optimizations
+dev-haskell/cgi:examples - compile (and install) the example programs
 dev-haskell/chaselev-deque:debug - Enable the extra internal checks.
 dev-haskell/cheapskate:dingus - Build cheapskate-dingus cgi script
 dev-haskell/chell:color-output - use colors in program output
@@ -256,6 +257,7 @@ dev-haskell/libyaml:system-libyaml - Use the system-wide libyaml instead of the 
 dev-haskell/libyaml:unicode - Enable unicode output. Otherwise, unicode characters will be escaped.
 dev-haskell/linux-file-extents:examples - Build examples
 dev-haskell/liquid-fixpoint:executable - Build the fixpoint executable
+dev-haskell/liquid-fixpoint:link-z3-as-a-library - link z3 as a library for faster interactions with the SMT solver
 dev-haskell/liquiddesugar:devel - Turn on stricter error reporting for development.
 dev-haskell/liquidhaskell:deterministic-profiling - Support building against GHC with <https://phabricator.haskell.org/D4388> backported
 dev-haskell/liquidhaskell:mirror-modules-helper - Build the "mirror-modules" helper executable.
@@ -439,6 +441,7 @@ dev-haskell/wai-app-static:print - print debug info
 dev-haskell/warp:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
 dev-haskell/wcwidth:cli - Enable command line tool
 dev-haskell/xeno:libxml2 - Include libxml2 in the benchmarks
+dev-haskell/xeno:whitespace-around-equals - Correctly parse whitespace around the = characters in attribute definitions
 dev-haskell/xlsx:microlens - Use microlens instead of lens
 dev-haskell/yaml:executable - Install the yaml2json and json2yaml executables
 dev-haskell/yesod-form:network-uri - Get Network.URI from the network-uri package

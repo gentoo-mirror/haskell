@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/aeson-2.1.2.1:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/attoparsec-0.14.4:=[profile?] <dev-haskell/attoparsec-0.15:=[profile?] >=dev-haskell/case-insensitive-1.2.1.0:=[profile?] <dev-haskell/case-insensitive-1.3:=[profile?] >=dev-haskell/hashable-1.4.3.0:=[profile?] <dev-haskell/hashable-1.6:=[profile?] >=dev-haskell/only-0.1:=[profile?] <dev-haskell/only-0.1.1:=[profile?] >=dev-haskell/postgresql-libpq-0.10.0.0:=[profile?] <dev-haskell/postgresql-libpq-0.12:=[profile?] >=dev-haskell/scientific-0.3.7.0:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-haskell/time-compat-1.9.5:=[profile?] <dev-haskell/time-compat-1.12:=[profile?] >=dev-haskell/uuid-types-1.0.5:=[profile?] <dev-haskell/uuid-types-1.1:=[profile?] >=dev-haskell/vector-0.13.0.0:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/base16-bytestring >=dev-haskell/cryptohash-md5-0.11.100.1 <dev-haskell/cryptohash-md5-0.12 dev-haskell/hunit >=dev-haskell/inspection-testing-0.4.1.1 dev-haskell/tasty dev-haskell/tasty-golden dev-haskell/tasty-hunit dev-haskell/text ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Mid-Level PostgreSQL client library
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/postgresql-simple
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/aeson-2.1.2.1:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/attoparsec-0.14.4:=[profile?] <dev-haskell/attoparsec-0.15:=[profile?] >=dev-haskell/case-insensitive-1.2.1.0:=[profile?] <dev-haskell/case-insensitive-1.3:=[profile?] >=dev-haskell/hashable-1.4.3.0:=[profile?] <dev-haskell/hashable-1.6:=[profile?] >=dev-haskell/only-0.1:=[profile?] <dev-haskell/only-0.1.1:=[profile?] >=dev-haskell/postgresql-libpq-0.10.0.0:=[profile?] <dev-haskell/postgresql-libpq-0.12:=[profile?] >=dev-haskell/scientific-0.3.7.0:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-haskell/time-compat-1.9.5:=[profile?] <dev-haskell/time-compat-1.12:=[profile?] >=dev-haskell/uuid-types-1.0.5:=[profile?] <dev-haskell/uuid-types-1.1:=[profile?] >=dev-haskell/vector-0.13.0.0:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.7.0.0
+SRC_URI=https://hackage.haskell.org/package/postgresql-simple-0.7.0.0/postgresql-simple-0.7.0.0.tar.gz https://hackage.haskell.org/package/postgresql-simple-0.7.0.0/revision/3.cabal -> postgresql-simple-0.7.0.0-rev3.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=58ccc26027eb54976bc9f781ab062924

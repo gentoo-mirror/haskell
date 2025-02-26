@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/smtlib-backends-0.3:=[profile?] <dev-haskell/smtlib-backends-0.5:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/async dev-haskell/smtlib-backends-tests dev-haskell/tasty dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=An SMT-LIB backend running solvers as external processes
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/smtlib-backends-process
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/smtlib-backends-0.3:=[profile?] <dev-haskell/smtlib-backends-0.5:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.3
+SRC_URI=https://hackage.haskell.org/package/smtlib-backends-process-0.3/smtlib-backends-process-0.3.tar.gz https://hackage.haskell.org/package/smtlib-backends-process-0.3/revision/5.cabal -> smtlib-backends-process-0.3-rev5.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=944ebc2716c7b03b7d310fef19bfb0ae

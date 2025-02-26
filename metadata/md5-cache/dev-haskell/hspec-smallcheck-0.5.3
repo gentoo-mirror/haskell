@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/call-stack:=[profile?] >=dev-haskell/hspec-core-2.10.0:=[profile?] dev-haskell/hunit:=[profile?] >=dev-haskell/smallcheck-1.1:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/base-orphans dev-haskell/hspec dev-haskell/quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=SmallCheck support for the Hspec testing framework
+EAPI=8
+HOMEPAGE=https://hspec.github.io/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/call-stack:=[profile?] >=dev-haskell/hspec-core-2.10.0:=[profile?] dev-haskell/hunit:=[profile?] >=dev-haskell/smallcheck-1.1:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.5.3
+SRC_URI=https://hackage.haskell.org/package/hspec-smallcheck-0.5.3/hspec-smallcheck-0.5.3.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=3b234dc5c02ba5e17e13a7e05af6d625

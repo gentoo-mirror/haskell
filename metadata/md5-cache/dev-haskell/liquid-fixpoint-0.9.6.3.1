@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/ansi-terminal:=[profile?] >=dev-haskell/ascii-progress-0.3:=[profile?] dev-haskell/async:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/boxes:=[profile?] dev-haskell/cereal:=[profile?] dev-haskell/cmdargs:=[profile?] dev-haskell/fgl:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/intern:=[profile?] dev-haskell/lens-family:=[profile?] >=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-10:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/parser-combinators:=[profile?] >=dev-haskell/rest-rewrite-0.3.0:=[profile?] >=dev-haskell/smtlib-backends-0.3:=[profile?] >=dev-haskell/smtlib-backends-process-0.3:=[profile?] dev-haskell/store:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= link-z3-as-a-library? ( >=dev-haskell/smtlib-backends-z3-0.3:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/optparse-applicative dev-haskell/tagged >=dev-haskell/tasty-1.4 <dev-haskell/tasty-1.6 dev-haskell/tasty-ant-xml >=dev-haskell/tasty-hunit-0.9 dev-haskell/tasty-quickcheck >=dev-haskell/tasty-rerun-1.1.12 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Predicate Abstraction-based Horn-Clause/Implication Constraint Solver
+EAPI=8
+HOMEPAGE=https://github.com/ucsd-progsys/liquid-fixpoint#readme
+INHERIT=haskell-cabal
+IUSE=executable link-z3-as-a-library doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/ansi-terminal:=[profile?] >=dev-haskell/ascii-progress-0.3:=[profile?] dev-haskell/async:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/boxes:=[profile?] dev-haskell/cereal:=[profile?] dev-haskell/cmdargs:=[profile?] dev-haskell/fgl:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/intern:=[profile?] dev-haskell/lens-family:=[profile?] >=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-10:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/parser-combinators:=[profile?] >=dev-haskell/rest-rewrite-0.3.0:=[profile?] >=dev-haskell/smtlib-backends-0.3:=[profile?] >=dev-haskell/smtlib-backends-process-0.3:=[profile?] dev-haskell/store:=[profile?] dev-haskell/syb:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= link-z3-as-a-library? ( >=dev-haskell/smtlib-backends-z3-0.3:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.9.6.3.1
+SRC_URI=https://hackage.haskell.org/package/liquid-fixpoint-0.9.6.3.1/liquid-fixpoint-0.9.6.3.1.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=2033724cbf52636a9a46a2560100c102

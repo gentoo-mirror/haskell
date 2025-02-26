@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/exception-mtl-0.3:=[profile?] <dev-haskell/exception-mtl-0.5:=[profile?] >=dev-haskell/exception-transformers-0.3:=[profile?] <dev-haskell/exception-transformers-0.5:=[profile?] >=dev-haskell/mainland-pretty-0.7:=[profile?] <dev-haskell/mainland-pretty-0.8:=[profile?] >=dev-haskell/srcloc-0.4:=[profile?] <dev-haskell/srcloc-0.7:=[profile?] >=dev-haskell/syb-0.3:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= full-haskell-antiquotes? ( >=dev-haskell/haskell-src-meta-0.4:=[profile?] <dev-haskell/haskell-src-meta-0.9:=[profile?] ) !full-haskell-antiquotes? ( >=dev-haskell/haskell-exp-parser-0.1:=[profile?] <dev-haskell/haskell-exp-parser-0.2:=[profile?] ) >=dev-haskell/alex-3 >=dev-haskell/cabal-3.4.1.0 dev-haskell/happy test? ( >=dev-haskell/hunit-1.2 <dev-haskell/hunit-1.7 >=dev-haskell/test-framework-0.8 <dev-haskell/test-framework-0.9 >=dev-haskell/test-framework-hunit-0.3 <dev-haskell/test-framework-hunit-0.4 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=C/CUDA/OpenCL/Objective-C quasiquoting library
+EAPI=8
+HOMEPAGE=https://github.com/mainland/language-c-quote
+INHERIT=haskell-cabal
+IUSE=+full-haskell-antiquotes doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/exception-mtl-0.3:=[profile?] <dev-haskell/exception-mtl-0.5:=[profile?] >=dev-haskell/exception-transformers-0.3:=[profile?] <dev-haskell/exception-transformers-0.5:=[profile?] >=dev-haskell/mainland-pretty-0.7:=[profile?] <dev-haskell/mainland-pretty-0.8:=[profile?] >=dev-haskell/srcloc-0.4:=[profile?] <dev-haskell/srcloc-0.7:=[profile?] >=dev-haskell/syb-0.3:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= full-haskell-antiquotes? ( >=dev-haskell/haskell-src-meta-0.4:=[profile?] <dev-haskell/haskell-src-meta-0.9:=[profile?] ) !full-haskell-antiquotes? ( >=dev-haskell/haskell-exp-parser-0.1:=[profile?] <dev-haskell/haskell-exp-parser-0.2:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.13.0.2
+SRC_URI=https://hackage.haskell.org/package/language-c-quote-0.13.0.2/language-c-quote-0.13.0.2.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=acedb695c8a64ea8699f8f53ad5c4f03
