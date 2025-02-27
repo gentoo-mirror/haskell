@@ -1275,7 +1275,7 @@ dev-haskell/loch-th 0.2.2: Support for precise error locations in source files (
 dev-haskell/lockfree-queue 0.2.4: Michael and Scott lock-free queues
 dev-haskell/log-base 0.12.0.0: Structured logging solution (base package)
 dev-haskell/log-domain 0.13.2: Log-domain arithmetic
-dev-haskell/log-postgres 0.9.0.0: Structured logging solution (PostgreSQL back end)
+dev-haskell/log-postgres 0.9.0.1: Structured logging solution (PostgreSQL back end)
 dev-haskell/logfloat 0.13.3.3-r1: Log-domain floating point numbers
 dev-haskell/logging-effect 1.3.13: A mtl-style monad transformer for general purpose & compositional logging
 dev-haskell/logging-facade 0.3.1: Simple logging abstraction that allows multiple back-ends
@@ -2357,7 +2357,7 @@ dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
 dev-lang/ghc 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.6.6 9.8.2-r3 9.8.3 9.8.4 9.10.1-r5 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
-dev-lang/prolog 0.3.2: A Prolog interpreter written in Haskell
+dev-lang/prolog 0.3.2-r1: A Prolog interpreter written in Haskell
 dev-lang/whitespace 0.4: Whitespace, an esoteric programming language
 dev-libs/libsass 3.4.5: A C/C++ implementation of a Sass compiler
 dev-util/bnfc 2.9.2: A compiler front-end generator
