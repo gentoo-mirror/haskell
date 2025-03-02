@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/data-default-0.7.1.1:=[profile?] >=dev-haskell/http-4000.3.12:=[profile?] >=dev-haskell/puremd5-2.1.3:=[profile?] >=dev-haskell/text-1.2.3.1:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/doctest-0.16.0.1 >=dev-haskell/glob-0.9.3 >=dev-haskell/hspec-2.5.5 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Generate Gravatar image URLs
+EAPI=8
+HOMEPAGE=https://github.com/pbrisbin/gravatar#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/data-default-0.7.1.1:=[profile?] >=dev-haskell/http-4000.3.12:=[profile?] >=dev-haskell/puremd5-2.1.3:=[profile?] >=dev-haskell/text-1.2.3.1:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.8.1
+SRC_URI=https://hackage.haskell.org/package/gravatar-0.8.1/gravatar-0.8.1.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=3be9d51c43c99b14ed66ba715bce3dfd

@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/monad-loops-0.3:=[profile?] >=dev-lang/ghc-9.0.2:= net-misc/gsasl >=dev-haskell/cabal-3.4.1.0 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Bindings for GNU libgsasl
+EAPI=8
+HOMEPAGE=https://git.sr.ht/~singpolyma/gsasl-haskell
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-haskell/monad-loops-0.3:=[profile?] >=dev-lang/ghc-9.0.2:= net-misc/gsasl dev-lang/ghc:=[profile?]
+SLOT=0/0.4.0
+SRC_URI=https://hackage.haskell.org/package/gsasl-0.4.0/gsasl-0.4.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=f460cfc7a33d74d5f5ee77e6a101abd0

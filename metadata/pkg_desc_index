@@ -4,7 +4,7 @@ acct-user/hoogle 0: A user for dev-util/hoogle
 acct-user/mighttpd2 0: A user for www-servers/mighttpd2
 app-accessibility/hsay 1.1.0-r3: (ab)Use Google Translate as a speech synthesiser
 app-admin/haskell-updater 1.3.3 1.4.0.0 1.4.1.0 9999: Rebuild Haskell dependencies in Gentoo
-app-admin/propellor 5.12: property-based host configuration management in haskell
+app-admin/propellor 5.17: property-based host configuration management in haskell
 app-arch/pack 0.0.0.1: Haskell implementation of pack compression from the early 1980s
 app-crypt/hb3sum 0.0.0.2: A command line tool to compute BLAKE3 hashes
 app-emacs/idris-mode 0.9.18: Idris syntax highlighting and (eventually) other things for emacs
@@ -44,7 +44,7 @@ dev-haskell/aes 0.2.9-r1: Fast AES encryption/decryption for bytestrings
 dev-haskell/aeson 2.1.2.1 2.2.3.0-r2: Fast JSON parsing and encoding
 dev-haskell/aeson-better-errors 0.9.1.1: Better error messages when decoding JSON values
 dev-haskell/aeson-casing 0.2.0.0: Tools to change the formatting of field names in Aeson instances
-dev-haskell/aeson-diff 1.1.0.13: Extract and apply patches to JSON documents
+dev-haskell/aeson-diff 1.1.0.13-r1: Extract and apply patches to JSON documents
 dev-haskell/aeson-extra 0.5.1.3: Extra goodies for aeson
 dev-haskell/aeson-lens 0.5.0.0: Lens of Aeson
 dev-haskell/aeson-optics 1.2.1: Law-abiding optics for aeson
@@ -54,7 +54,7 @@ dev-haskell/aeson-warning-parser 0.1.1: Library providing JSON parser that warns
 dev-haskell/aeson-yaml 1.1.0.1-r2: Output any Aeson value as YAML (pure Haskell library)
 dev-haskell/alex 3.2.7.2 3.5.1.0: Alex is a tool for generating lexical analysers in Haskell
 dev-haskell/alex-tools 0.6.1: A set of functions for a common use case of Alex
-dev-haskell/algebra 4.3.1: Constructive abstract algebra
+dev-haskell/algebra 4.3.1-r1: Constructive abstract algebra
 dev-haskell/algebraic-graphs 0.7-r1: A library for algebraic graph construction and transformation
 dev-haskell/align 0.1.1.2: Sequence alignment algorithms
 dev-haskell/allocated-processor 0.0.2-r1: Functional combinators for monadic actions that require (de)allocation
@@ -104,8 +104,8 @@ dev-haskell/amazonka-stepfunctions 2.0: Amazon Step Functions SDK
 dev-haskell/amazonka-storagegateway 2.0: Amazon Storage Gateway SDK
 dev-haskell/amazonka-support 2.0: Amazon Support SDK
 dev-haskell/amazonka-test 2.0: Common functionality for Amazonka library test-suites
-dev-haskell/amqp 0.22.1: Client library for AMQP servers (currently only RabbitMQ)
-dev-haskell/amqp-worker 0.3.2: High level functions for working with message queues
+dev-haskell/amqp 0.24.0: Client library for AMQP servers (currently only RabbitMQ)
+dev-haskell/amqp-worker 2.0.0: High level functions for working with message queues
 dev-haskell/annotated-wl-pprint 0.7.0: The Wadler/Leijen Pretty Printer, with annotation support
 dev-haskell/ansi-terminal 1.0.2 1.1.2: Simple ANSI terminal support
 dev-haskell/ansi-terminal-types 0.11.5 1.1: Types and functions used to represent SGR aspects
@@ -178,10 +178,10 @@ dev-haskell/binary-parsers 0.2.4.0: Extends binary with parsec/attoparsec style 
 dev-haskell/binary-search 1.0.0.3: Binary and exponential searches
 dev-haskell/binary-serialise-cbor 0.2.2.0-r1: Yet Another Binary Serialisation Library (compatibility shim)
 dev-haskell/binary-strict 0.4.8.6: Binary deserialisation using strict ByteStrings
-dev-haskell/binary-tagged 0.3.1: Tagged binary serialisation
+dev-haskell/binary-tagged 0.3.1-r1: Tagged binary serialisation
 dev-haskell/bindings-dsl 1.0.25: FFI domain specific language, on top of hsc2hs
 dev-haskell/bindings-glfw 3.3.2.0: Low-level bindings to GLFW OpenGL library
-dev-haskell/bindings-gpgme 0.1.7: Project bindings-* raw interface to gpgme
+dev-haskell/bindings-gpgme 0.1.8: Project bindings-* raw interface to gpgme
 dev-haskell/bindings-libzip 1.0.1-r1: Low level bindings to libzip
 dev-haskell/bindings-uname 0.1-r1: Low-level binding to POSIX uname(3)
 dev-haskell/biocore 0.3.1: A bioinformatics library
@@ -203,13 +203,13 @@ dev-haskell/blank-canvas 0.7.4: HTML5 Canvas Graphics Library
 dev-haskell/blastxml 0.3.2: Library for reading Blast XML output
 dev-haskell/blaze-builder 0.4.2.3: Efficient buffered output
 dev-haskell/blaze-builder-conduit 1.1.0: Convert streams of builders to streams of bytestrings. (deprecated)
-dev-haskell/blaze-colonnade 1.2.2.1-r1: Helper functions for using blaze-html with colonnade
+dev-haskell/blaze-colonnade 1.2.3.0: blaze-html backend for colonnade
 dev-haskell/blaze-html 0.9.2.0: A blazingly fast HTML combinator library for Haskell
 dev-haskell/blaze-markup 0.8.3.0: A blazingly fast markup combinator library for Haskell
 dev-haskell/blaze-svg 0.3.7: SVG combinator library
 dev-haskell/blaze-textual 0.2.2.1: Fast rendering of common datatypes
 dev-haskell/bloomfilter 2.0.1.0: Pure and impure Bloom Filter implementations
-dev-haskell/bmp 1.2.6.3: Read and write uncompressed BMP image files
+dev-haskell/bmp 1.2.6.4: Read and write uncompressed BMP image files
 dev-haskell/boolean 0.2.4: Generalized booleans and numbers
 dev-haskell/boomerang 1.4.9.3: Library for invertible parsing and printing
 dev-haskell/bootstrap-types 0.3: Bootstrap CSS Framework type-safe interface
@@ -225,7 +225,7 @@ dev-haskell/brick-tabular-list 2.2.0.16: Tabular list widgets for brick
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
 dev-haskell/bsb-http-chunked 0.0.0.4-r1: Chunked HTTP transfer encoding for bytestring builders
 dev-haskell/bson 0.4.0.1-r2: BSON documents are JSON-like objects with a standard binary encoding
-dev-haskell/btrfs 0.2.0.0: Bindings to the btrfs API
+dev-haskell/btrfs 0.2.1.0: Bindings to the btrfs API
 dev-haskell/bug 1.0.1: Better alternatives to the "error" function
 dev-haskell/butcher 1.3.3.2-r2: Chops a command or program invocation into digestable pieces
 dev-haskell/byline 1.1.2-r1: Library for creating command-line interfaces (colors, menus, etc.)
@@ -295,7 +295,7 @@ dev-haskell/chart-diagrams 1.9.5.1: Diagrams backend for Charts
 dev-haskell/chart-gtk 1.9.3: Utility functions for using the chart library with GTK
 dev-haskell/chaselev-deque 0.5.0.5: Chase & Lev work-stealing lock-free double-ended queues (deques)
 dev-haskell/chasingbottoms 1.3.1.15: For testing partial and infinite values
-dev-haskell/cheapskate 0.1.1.2: Experimental markdown processor
+dev-haskell/cheapskate 0.1.1.2-r1: Experimental markdown processor
 dev-haskell/checkers 0.6.0: Check properties on standard classes and data structures
 dev-haskell/chell 0.5.0.2-r1: A simple and intuitive library for automated testing
 dev-haskell/chell-quickcheck 0.2.5.4: QuickCheck support for Chell
@@ -322,20 +322,20 @@ dev-haskell/classify 2013.11.6.1-r1: Library for classification of media files
 dev-haskell/classy-prelude 1.5.0.3: A typeclass-based Prelude
 dev-haskell/classy-prelude-conduit 1.5.0: conduit instances for classy-prelude
 dev-haskell/classy-prelude-yesod 1.5.0: Provide a classy prelude including common Yesod functionality
-dev-haskell/clay 0.14.0: CSS preprocessor as embedded Haskell
+dev-haskell/clay 0.15.0: CSS preprocessor as embedded Haskell
 dev-haskell/clevercss 0.2.4-r2: A CSS preprocessor
 dev-haskell/cli 0.2.0: Command Line Interface
 dev-haskell/clientsession 0.9.2.0: Securely store session data in a client-side cookie
 dev-haskell/clock 0.8.4: High-resolution clock functions: monotonic, realtime, cputime
 dev-haskell/cmark 0.6.1: Fast, accurate CommonMark (Markdown) parser and renderer
-dev-haskell/cmark-gfm 0.2.2: Fast, accurate GitHub Flavored Markdown parser and renderer
+dev-haskell/cmark-gfm 0.2.6: Fast, accurate GitHub Flavored Markdown parser and renderer
 dev-haskell/cmdargs 0.10.22: Command line argument processing
 dev-haskell/co-log-core 0.3.2.4: Composable Contravariant Comonadic Logging Library
 dev-haskell/code-page 0.2.1: Windows code page library for Haskell
 dev-haskell/codec-compression-lzf 0.2-r2: LZF compression bindings
 dev-haskell/codec-image-devil 0.2.4: An FFI interface to the DevIL library
 dev-haskell/colock 0.2.2-r1: thread-friendly file locks that don't block the entire program
-dev-haskell/colonnade 1.2.0.2-r2: Generic types and functions for columnar encoding and decoding
+dev-haskell/colonnade 1.2.0.2-r3: Generic types and functions for columnar encoding and decoding
 dev-haskell/color 0.3.2: Color spaces and conversions between them
 dev-haskell/colorize-haskell 1.0.1-r1: Highlight Haskell source
 dev-haskell/colour 2.3.6: A model for human colour/color perception
@@ -353,7 +353,7 @@ dev-haskell/compact 0.2.0.0: Non-GC'd, contiguous storage for immutable data str
 dev-haskell/companion 0.1.0: A Haskell library to provide companion threads
 dev-haskell/composition 1.0.2.2: Combinators for unorthodox function composition
 dev-haskell/concatenative 1.0.1-r1: A library for postfix control flow
-dev-haskell/conceit 0.4.0.0: Concurrent actions that may fail with a value
+dev-haskell/conceit 0.5.0.0: Concurrent actions that may fail with a value
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
 dev-haskell/concurrency 1.11.0.3: Typeclasses, functions, and data types for concurrency and STM
 dev-haskell/concurrent-extra 0.7.0.12: Extra concurrency primitives
@@ -361,7 +361,7 @@ dev-haskell/concurrent-output 1.10.21: Ungarble output from several threads or c
 dev-haskell/concurrent-split 0.0.1.1: MVars and Channels with distinguished input and output side
 dev-haskell/concurrent-supply 0.1.8-r2: A fast concurrent unique identifier supply with a pure API
 dev-haskell/concurrentoutput 0.2.0.2: Ungarble output from several threads
-dev-haskell/cond 0.4.1.1-r1: Basic conditional and boolean operators with monadic variants
+dev-haskell/cond 0.5.1: Basic conditional and boolean operators with monadic variants
 dev-haskell/conduit 1.3.6: Streaming data processing library
 dev-haskell/conduit-audio 0.2.0.3: Combinators to efficiently slice and dice audio streams
 dev-haskell/conduit-audio-lame 0.1.2.1: conduit-audio interface to the LAME MP3 library
@@ -381,7 +381,7 @@ dev-haskell/containers-unicode-symbols 0.3.1.3: Unicode alternatives for common 
 dev-haskell/contiguous 0.6.1.1: Unified interface for primitive arrays
 dev-haskell/continued-fractions 0.10.0.2: Continued fractions
 dev-haskell/contravariant 1.5.5: Contravariant functors
-dev-haskell/contravariant-extras 0.3.5.2: Extras for the "contravariant" package
+dev-haskell/contravariant-extras 0.3.5.4: Extras for the "contravariant" package
 dev-haskell/control-monad-exception 0.11.4: Explicitly typed, checked exceptions with stack traces
 dev-haskell/control-monad-free 0.6.2: Free monads and monad transformers
 dev-haskell/control-monad-loop 0.1: Simple monad transformer for imperative-style loops
@@ -433,13 +433,13 @@ dev-haskell/css-text 0.1.3.0: CSS parser and renderer
 dev-haskell/csv 0.1.2-r1: CSV loader and dumper
 dev-haskell/cubicbezier 0.6.0.6 0.6.0.7: Efficient manipulating of 2D cubic bezier curves
 dev-haskell/cuda 0.10.1.0: FFI binding to the CUDA interface for programming NVIDIA GPUs
-dev-haskell/cufft 0.8.0.0: Haskell bindings for the CUFFT library
+dev-haskell/cufft 0.10.0.0: Haskell bindings for the CUFFT library
 dev-haskell/curl 1.3.8: Haskell binding to libcurl
 dev-haskell/curly-expander 0.3.0.1 0.3.0.3: Curly braces (brackets) expanding
 dev-haskell/curve25519 0.2.8: Fast implementations of the curve25519 elliptic curve primitives
-dev-haskell/cyclotomic 1.1.1: A subfield of the complex numbers for exact calculation
+dev-haskell/cyclotomic 1.1.2: A subfield of the complex numbers for exact calculation
 dev-haskell/czipwith 1.0.1.4: CZipWith class and deriving via TH
-dev-haskell/daemons 0.3.0: Daemons in Haskell made fun and easy
+dev-haskell/daemons 0.3.0 0.4.0: Daemons in Haskell made fun and easy
 dev-haskell/data-accessor 0.2.3.1: Utilities for accessing and manipulating fields of records
 dev-haskell/data-accessor-mtl 0.2.0.5: Use Accessor to access state in mtl State monad class
 dev-haskell/data-accessor-template 0.2.1.16: Utilities for accessing and manipulating fields of records
@@ -451,7 +451,7 @@ dev-haskell/data-checked 0.3: Type-indexed runtime-checked properties
 dev-haskell/data-clist 0.1.2.3-r1 0.2: Simple functional ring type
 dev-haskell/data-default 0.7.1.3: A class for types with a default value
 dev-haskell/data-default-class 0.1.2.2: A class for types with a default value
-dev-haskell/data-default-instances-base 0.1.0.1: Default instances for types in base
+dev-haskell/data-default-instances-base 0.1.0.3: Default instances for types in base
 dev-haskell/data-default-instances-containers 0.0.1 0.1.0.3: Default instances for types in containers
 dev-haskell/data-default-instances-dlist 0.0.1.2: Default instances for types in dlist
 dev-haskell/data-default-instances-old-locale 0.0.1.2: Default instances for types in old-locale
@@ -467,14 +467,14 @@ dev-haskell/data-lens-light 0.1.2.3: Simple lenses, minimum dependencies
 dev-haskell/data-lens-template 2.1.9: Utilities for Data.Lens
 dev-haskell/data-memocombinators 0.5.1-r1: Combinators for building memo tables
 dev-haskell/data-ordlist 0.4.7.0: Set and bag operations on ordered lists
-dev-haskell/data-pprint 0.2.4.1: Prettyprint and compare Data values
+dev-haskell/data-pprint 0.2.4.2: Prettyprint and compare Data values
 dev-haskell/data-reify 0.6.4: Reify a recursive data structure into an explicit graph
 dev-haskell/data-serializer 0.3.5: Common API for serialization libraries
 dev-haskell/data-textual 0.3.0.3: Human-friendly textual representations
 dev-haskell/data-tree-print 0.1.0.2: Print Data instances as a nested tree
 dev-haskell/dataenc 0.14.0.7: Data encoding library
 dev-haskell/date-cache 0.3.0-r1: Date cacher
-dev-haskell/dates 0.2.3.0: Small library for parsing different dates formats
+dev-haskell/dates 0.2.3.3: Small library for parsing different dates formats
 dev-haskell/datetime 0.3.1: Utilities to make Data.Time.* easier to use
 dev-haskell/dav 1.3.4: RFC 4918 WebDAV support
 dev-haskell/dbus 1.3.11: A client library for the D-Bus IPC system
@@ -519,7 +519,7 @@ dev-haskell/diff 0.4.1 0.5: Diff algorithm in pure Haskell
 dev-haskell/diffarray 0.1.1-r1: This package defines the DiffArray type
 dev-haskell/digest 0.0.1.3: Various cryptographic hashes for bytestrings; CRC32 and Adler32 for now
 dev-haskell/digestive-functors 0.8.4.2-r3: A practical formlet library
-dev-haskell/digestive-functors-blaze 0.6.2.0: Blaze frontend for the digestive-functors library
+dev-haskell/digestive-functors-blaze 0.6.2.0-r1: Blaze frontend for the digestive-functors library
 dev-haskell/digestive-functors-happstack 0.6.1.3-r1: Happstack backend for the digestive-functors library
 dev-haskell/digestive-functors-snap 0.7.0.1: Snap backend for the digestive-functors library
 dev-haskell/digits 0.3.1: Converts integers to lists of digits and back
@@ -555,7 +555,7 @@ dev-haskell/dotgen 0.4.3: A simple interface for building .dot graph files
 dev-haskell/double-conversion 2.0.5.0: Fast conversion between single and double precision floating point and text
 dev-haskell/download-curl 0.1.4-r2: High-level file download based on URLs
 dev-haskell/drbg 0.5.5: Deterministic random bit generator (aka PRNG) based HMACs, Hashes, and Ciphers
-dev-haskell/dsp 0.2.5.1: Haskell Digital Signal Processing
+dev-haskell/dsp 0.2.5.2: Haskell Digital Signal Processing
 dev-haskell/dual-tree 0.2.3.1: Rose trees with cached and accumulating monoidal annotations
 dev-haskell/dynamic-graph 0.1.0.13: Draw and update graphs in real time with OpenGL
 dev-haskell/dynamic-state 0.3.1: Optionally serializable dynamic state keyed by type
@@ -564,7 +564,7 @@ dev-haskell/easy-file 0.2.2: Cross-platform File handling
 dev-haskell/easyrender 0.1.1.4: User-friendly creation of EPS, PostScript, and PDF files
 dev-haskell/echo 0.1.4-r2: A cross-platform, cross-console way to handle echoing terminal input
 dev-haskell/ed25519 0.0.5.0-r1: Ed25519 cryptographic signatures
-dev-haskell/ede 0.3.2.0: Templating language with similar syntax and features to Liquid or Jinja2
+dev-haskell/ede 0.3.4.0: Templating language with similar syntax and features to Liquid or Jinja2
 dev-haskell/edisonapi 1.3.3.2: A library of efficient, purely-functional data structures (API)
 dev-haskell/edit-distance 0.2.2.1-r1: Levenshtein and restricted Damerau-Levenshtein edit distances
 dev-haskell/edit-distance-vector 1.0.0.4: Calculate edit distances and edit scripts between vectors
@@ -597,7 +597,7 @@ dev-haskell/exceptions 0.10.4-r3 0.10.5 0.10.7 0.10.9: Extensible optionally-pur
 dev-haskell/executable-path 0.0.3.1: Finding out the full path of the executable
 dev-haskell/exif 3000.0.0-r1: A Haskell binding to a subset of libexif
 dev-haskell/explicit-exception 0.2: Exceptions which are explicit in the type signature
-dev-haskell/extensible 0.8: Extensible, efficient, optics-friendly data types and effects
+dev-haskell/extensible 0.9.2: Extensible, efficient, optics-friendly data types and effects
 dev-haskell/extensible-effects 5.0.0.1: An Alternative to Monad Transformers
 dev-haskell/extensible-exceptions 0.1.1.4: Extensible exceptions
 dev-haskell/extensions 0.1.0.0-r1: Parse Haskell Language Extensions
@@ -611,10 +611,11 @@ dev-haskell/fastcgi 3001.0.2.5: A Haskell library for writing FastCGI programs
 dev-haskell/fclabels 2.0.5.1: First class accessor labels implemented as lenses
 dev-haskell/fdo-notify 0.3.1: Desktop Notifications client
 dev-haskell/fdo-trash 0.0.0.2: Utilities related to freedesktop Trash standard
-dev-haskell/fec 0.1.1-r2: Forward error correction of ByteStrings
+dev-haskell/fec 0.2.0: Forward error correction of ByteStrings
 dev-haskell/feed 1.3.2.1-r3: Interfacing with RSS (v 0.9x, 2.x, 1.0) + Atom feeds
-dev-haskell/fficxx 0.3.1: automatic C++ binding generation
-dev-haskell/ffmpeg-light 0.13.0: Minimal bindings to the FFmpeg library
+dev-haskell/fficxx 0.7.0.1: Automatic C++ binding generation
+dev-haskell/fficxx-runtime 0.7.0.1: Runtime for fficxx-generated library
+dev-haskell/ffmpeg-light 0.14.1: Minimal bindings to the FFmpeg library
 dev-haskell/fft 0.1.8.7: Bindings to the FFTW library
 dev-haskell/fgl 5.8.2.0: Martin Erwig's Functional Graph Library
 dev-haskell/fgl-arbitrary 0.2.0.6: QuickCheck support for fgl
@@ -631,19 +632,19 @@ dev-haskell/filestore 0.6.5-r2: Interface for versioning file stores
 dev-haskell/fin 0.3.2: Nat and Fin: peano naturals and finite numbers
 dev-haskell/findbin 0.0.5-r1: Locate directory of original program
 dev-haskell/fingertree 0.1.5.0: Generic finger-tree structure, with example instances
-dev-haskell/finite-field 0.9.0: Finite Fields
+dev-haskell/finite-field 0.10.0: Finite Fields
 dev-haskell/finite-typelits 0.1.4.2: A type inhabited by finitely many values, indexed by type-level naturals
 dev-haskell/first-class-families 0.8.0.1: First-class type families
 dev-haskell/fix-agda-whitespace 0.0.4: Fixes whitespace issues for Agda sources
 dev-haskell/fixed 0.3: Signed 15.16 precision fixed point arithmetic
 dev-haskell/fixed-vector 1.2.1.0: Generic vectors with statically known size
-dev-haskell/fixed-vector-hetero 0.5.0.0: Generic heterogeneous vectors
+dev-haskell/fixed-vector-hetero 0.6.2.0: Library for working with product types generically
 dev-haskell/fixplate 0.1.8: Uniplate-style generic traversals for optionally annotated fixed-point types
-dev-haskell/flac 0.2.0-r1: Complete high-level binding to libFLAC
-dev-haskell/flac-picture 0.1.2: Support for writing picture to FLAC metadata blocks with JuicyPixels
+dev-haskell/flac 0.2.1: Complete high-level binding to libFLAC
+dev-haskell/flac-picture 0.1.3: Support for writing picture to FLAC metadata blocks with JuicyPixels
 dev-haskell/flexible-defaults 0.0.3-r1: Generate default function implementations for complex type classes
 dev-haskell/floatinghex 0.4: Read and write hexadecimal floating point numbers
-dev-haskell/flock 0.3.2: Wrapper for flock(2)
+dev-haskell/flock 0.3.2.1: Wrapper for flock(2)
 dev-haskell/floskell 0.11.1: A flexible Haskell source code pretty printer
 dev-haskell/flow2dot 0.9.2: Library and binary to generate sequence/flow diagrams from plain text source
 dev-haskell/fmlist 0.9.4: FoldMap lists
@@ -663,7 +664,7 @@ dev-haskell/free 5.2-r2: Monads for free
 dev-haskell/freer 0.2.4.1: Implementation of the Freer Monad
 dev-haskell/freer-effects 0.3.0.1: Implementation of effect system for Haskell
 dev-haskell/fresco-binding 0.3.0: Fresco binding for Haskell
-dev-haskell/frisby 0.2.4: Linear time composable parser for PEG grammars
+dev-haskell/frisby 0.2.5: Linear time composable parser for PEG grammars
 dev-haskell/from-sum 0.2.3.0: Canonical fromMaybeM and fromEitherM functions
 dev-haskell/fsnotify 0.4.1.0-r1: Cross platform library for file change notification
 dev-haskell/fst 0.10.0.1-r1: Finite state transducers
@@ -679,7 +680,7 @@ dev-haskell/gargoyle 0.1.2.1: Automatically spin up and spin down local daemons
 dev-haskell/gargoyle-postgresql 0.2.0.3: Manage PostgreSQL servers with gargoyle
 dev-haskell/gargoyle-postgresql-connect 0.1.0.3: Connect to gargoyle-managed postgresql instances
 dev-haskell/gargoyle-postgresql-nix 0.3.0.3: Manage PostgreSQL servers with gargoyle and nix
-dev-haskell/gasp 1.2.0.0: A framework of algebraic classes
+dev-haskell/gasp 1.4.0.0: A framework of algebraic classes
 dev-haskell/gauge 0.2.5: small framework for performance measurement and analysis
 dev-haskell/gd 3000.7.3: A Haskell binding to a subset of the GD graphics library
 dev-haskell/gdiff 1.1-r1: Generic diff and patch
@@ -691,28 +692,28 @@ dev-haskell/generic-lens-core 2.2.1.0-r1: Generically derive traversals, lenses 
 dev-haskell/generic-lens-labels 0.1.0.2: GHC.OverloadedLabels.IsLabel instance for lenses from ghc-generics
 dev-haskell/generic-monoid 0.1.0.1-r1: Derive monoid instances for product types
 dev-haskell/generic-random 1.3.0.1: Generic random generators
-dev-haskell/generic-trie 0.3.1: A map, where the keys may be complex structured data
+dev-haskell/generic-trie 0.3.2: A map, where the keys may be complex structured data
 dev-haskell/generically 0.1.1-r2: Generically newtype to use with DerivingVia
 dev-haskell/genericpretty 1.2.2: A generic, derivable, haskell pretty printer
-dev-haskell/generics-sop 0.5.1.4: Generic Programming using True Sums of Products
-dev-haskell/geniplate-mirror 0.7.8: Use Template Haskell to generate Uniplate-like functions
+dev-haskell/generics-sop 0.5.1.4-r1: Generic Programming using True Sums of Products
+dev-haskell/geniplate-mirror 0.7.10: Use Template Haskell to generate Uniplate-like functions
 dev-haskell/genvalidity 1.0.0.1: Testing utilities for the validity library
 dev-haskell/genvalidity-aeson 0.3.0.0: GenValidity support for aeson
 dev-haskell/genvalidity-containers 1.0.0.0: GenValidity support for containers
 dev-haskell/genvalidity-hspec 1.0.0.3: Standard spec's for GenValidity instances
 dev-haskell/genvalidity-hspec-aeson 1.0.0.0: Standard spec's for aeson-related instances
-dev-haskell/genvalidity-path 1.0.0.0: GenValidity support for Path
+dev-haskell/genvalidity-path 1.0.0.1: GenValidity support for Path
 dev-haskell/genvalidity-property 1.0.0.0: Standard properties for functions on 'Validity' types
 dev-haskell/genvalidity-scientific 1.0.0.0: GenValidity support for Scientific
 dev-haskell/genvalidity-text 1.0.0.1: GenValidity support for Text
 dev-haskell/genvalidity-unordered-containers 1.0.0.0: GenValidity support for unordered-containers
 dev-haskell/genvalidity-vector 1.0.0.0: GenValidity support for vector
-dev-haskell/getopt-generics 0.13.0.4: Create command line interfaces with ease
+dev-haskell/getopt-generics 0.13.1.0: Create command line interfaces with ease
 dev-haskell/ghc-api-compat 9.0.1: GHC-API compatibility helpers
 dev-haskell/ghc-byteorder 4.11.0.0.10: "GHC.ByteOrder" API Compatibility Layer
 dev-haskell/ghc-check 0.5.0.8-r2: detect mismatches between compile-time and run-time versions of the ghc api
 dev-haskell/ghc-core 0.5.6: Display GHC's core and assembly output in a pager
-dev-haskell/ghc-datasize 0.2.0: Determine the size of data structures in GHC's memory
+dev-haskell/ghc-datasize 0.2.7: Determine the size of data structures in GHC's memory
 dev-haskell/ghc-debug-convention 0.6.0.0: Definitions needed by ghc-debug-stub and ghc-debug-common
 dev-haskell/ghc-debug-stub 0.6.0.0: Functions for instrumenting your application so the heap can be analysed with ghc-debug-common
 dev-haskell/ghc-events 0.19.0.1: Library and tool for parsing .eventlog files from GHC
@@ -768,10 +769,12 @@ dev-haskell/gi-gtksource 3.0.30: GtkSource 3.x bindings (compatibility layer)
 dev-haskell/gi-gtksource3 3.0.30: GtkSource 3.x bindings
 dev-haskell/gi-harfbuzz 0.0.9: HarfBuzz bindings
 dev-haskell/gi-javascriptcore 4.0.24: JavaScriptCore bindings
+dev-haskell/gi-javascriptcore4 4.0.29: JavaScriptCore 4.x bindings
 dev-haskell/gi-pango 1.0.29: Pango bindings
 dev-haskell/gi-soup 2.4.25: Libsoup bindings
+dev-haskell/gi-soup2 2.4.30: Libsoup 2.4.x bindings
 dev-haskell/gi-vte 2.91.29: Vte bindings
-dev-haskell/gi-webkit2 4.0.28: WebKit2 bindings
+dev-haskell/gi-webkit2 4.0.32: WebKit2 bindings
 dev-haskell/gi-xlib 2.0.13: xlib bindings
 dev-haskell/ginger 0.10.5.2: An implementation of the Jinja2 template language in Haskell
 dev-haskell/gio 0.13.11.0: Binding to GIO
@@ -785,26 +788,26 @@ dev-haskell/glfw 0.5.2.5: A Haskell binding for GLFW
 dev-haskell/glfw-b 1.4.8.4 3.3.0.0: Bindings to GLFW OpenGL library
 dev-haskell/glib 0.13.11.0: Binding to the GLIB library for Gtk2Hs
 dev-haskell/glob 0.10.2: Globbing library
-dev-haskell/gloss 1.13.2.1 1.13.2.2: Painless 2D vector graphics, animations and simulations
+dev-haskell/gloss 1.13.2.2: Painless 2D vector graphics, animations and simulations
 dev-haskell/gloss-algorithms 1.13.0.2: Data structures and algorithms for working with 2D graphics
 dev-haskell/gloss-examples 1.13.0.4: Examples using the gloss library
 dev-haskell/gloss-juicy 0.2.3: Load any image supported by Juicy.Pixels in your gloss application
 dev-haskell/gloss-raster 1.13.1.2: Parallel rendering of raster images
-dev-haskell/gloss-rendering 1.13.1.1 1.13.1.2: Gloss picture data types and rendering functions
+dev-haskell/gloss-rendering 1.13.1.2: Gloss picture data types and rendering functions
 dev-haskell/gluraw 2.0.0.4 2.0.0.5: A raw binding for the OpenGL graphics system
-dev-haskell/glut 2.7.0.16: A binding for the OpenGL Utility Toolkit
+dev-haskell/glut 2.7.0.16-r1: A binding for the OpenGL Utility Toolkit
 dev-haskell/glutil 0.10.4: Miscellaneous OpenGL utilities
 dev-haskell/gnuidn 0.2.2-r1: Bindings for GNU IDN
 dev-haskell/gnuplot 0.5.7: 2D and 3D plots using gnuplot
-dev-haskell/gnutls 0.2: Bindings for GNU libgnutls
+dev-haskell/gnutls 0.3.1: Bindings for GNU libgnutls
 dev-haskell/goa 3.3: GHCi bindings to lambdabot
 dev-haskell/googlesuggest 0.0.4: Interface to Google Suggest API
 dev-haskell/gpipe 2.2.5-r3: Typesafe functional GPU graphics programming
 dev-haskell/gpipe-glfw 1.4.1.4: GLFW OpenGL context creation for GPipe
-dev-haskell/graphmod 1.4.4: Present the module dependencies of a program as a "dot" graph
+dev-haskell/graphmod 1.4.5.1: Present the module dependencies of a program as a "dot" graph
 dev-haskell/graphscc 1.0.4: Tarjan's algorithm for computing the strongly connected components of a graph
 dev-haskell/graphviz 2999.20.2.0: Bindings to Graphviz for graph visualisation
-dev-haskell/gravatar 0.8.0-r1: Generate Gravatar image URLs
+dev-haskell/gravatar 0.8.1: Generate Gravatar image URLs
 dev-haskell/gridtables 0.1.0.0: Parser for reStructuredText-style grid tables
 dev-haskell/groom 0.1.2.1: Pretty printing for well-behaved Show instances
 dev-haskell/groundhog 0.11.0: Type-safe datatype-database mapping library
@@ -813,7 +816,7 @@ dev-haskell/groundhog-sqlite 0.11.0: Sqlite3 backend for the groundhog library
 dev-haskell/groundhog-th 0.11: Type-safe datatype-database mapping library
 dev-haskell/groupoids 4.0: This package has been absorbed into semigroupoids 4.0
 dev-haskell/groups 0.5.3: A group is a monoid with invertibility
-dev-haskell/gsasl 0.3.7: Bindings for GNU libgsasl
+dev-haskell/gsasl 0.4.0: Bindings for GNU libgsasl
 dev-haskell/gtk 0.15.9: Binding to the Gtk+ graphical user interface library
 dev-haskell/gtk-serialized-event 0.12.0-r5: GTK+ Serialized event
 dev-haskell/gtk-strut 0.1.3.0: Library for creating strut windows with gi-gtk
@@ -821,7 +824,7 @@ dev-haskell/gtk-traymanager 1.0.1: A wrapper around the eggtraymanager library f
 dev-haskell/gtk2hs-buildtools 0.13.11.0: Tools to build the Gtk2Hs suite of User Interface libraries
 dev-haskell/gtk3 0.15.9: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r2: Binding to the GTK+ OpenGL Extension
-dev-haskell/hackage-db 2.1.1: Access cabal-install's Hackage database via Data.Map
+dev-haskell/hackage-db 2.1.3: Access cabal-install's Hackage database via Data.Map
 dev-haskell/hackage-security 0.6.2.6: Hackage security library
 dev-haskell/haddock 2.26.0 2.27.0 2.29.1 2.29.2.9.8 2.30.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-api 2.26.0 2.27.0 2.29.1 2.29.2.9.8 2.30.0: A documentation-generation tool for Haskell libraries
@@ -870,7 +873,7 @@ dev-haskell/haskell-src-exts 1.23.1: Manipulating Haskell source: abstract synta
 dev-haskell/haskell-src-exts-simple 1.23.0.0: A simplified view on the haskell-src-exts AST
 dev-haskell/haskell-src-exts-util 0.2.5: Helper functions for working with haskell-src-exts trees
 dev-haskell/haskell-src-meta 0.8.15: Parse source to template-haskell abstract syntax
-dev-haskell/haskey 0.3.1.0-r1: A transactional, ACID compliant, embeddable key-value store
+dev-haskell/haskey 0.3.1.0-r2: A transactional, ACID compliant, embeddable key-value store
 dev-haskell/haskey-btree 0.3.0.1-r1: B+-tree implementation in Haskell
 dev-haskell/hasktags 0.73.0 9999: Produces ctags "tags" and etags "TAGS" files for Haskell programs
 dev-haskell/haspell 1.1.0: Haskell bindings to aspell
@@ -901,7 +904,7 @@ dev-haskell/heist 1.1.1.2: An Haskell template system supporting both HTML5 and 
 dev-haskell/here 1.2.13: Here docs & interpolated strings via quasiquotation
 dev-haskell/heredoc 0.2.0.0-r1: multi-line string / here document using QuasiQuotes
 dev-haskell/heterocephalus 1.0.5.7: A type-safe template engine for working with front end development tools
-dev-haskell/hex 0.1.2: Convert strings into hexadecimal and back
+dev-haskell/hex 0.2.0: Convert strings into hexadecimal and back
 dev-haskell/hexml 0.3.4: XML subset DOM parser
 dev-haskell/hexpat 0.20.13: XML parser/formatter based on expat
 dev-haskell/hflags 0.4.3: Command line flag parser, very similar to Google's gflags
@@ -1120,6 +1123,7 @@ dev-haskell/imlib 0.1.2-r1: Haskell binding for Imlib 2
 dev-haskell/implicit-hie 0.1.4.0: Auto generate hie-bios cradles & hie.yaml
 dev-haskell/incipit-base 0.6.1.0: A Prelude for Polysemy – Base Reexports
 dev-haskell/incipit-core 0.6.1.0: A Prelude for Polysemy
+dev-haskell/incremental 0.3.1: incremental update library
 dev-haskell/indents 0.5.0.1: indentation sensitive parser-combinators for parsec
 dev-haskell/indexed 0.1.3: Haskell98 indexed functors, monads, comonads
 dev-haskell/indexed-extras 0.2-r1: Indexed functors, monads and comonads that require extensions to Haskell98
@@ -1255,7 +1259,7 @@ dev-haskell/lifted-base 0.2.3.12: lifted IO operations from the base library
 dev-haskell/linear 1.21.10 1.22: Linear Algebra
 dev-haskell/linear-base 0.4.0: Standard library for linear types
 dev-haskell/linear-generics 0.2.3-r1: Generic programming library for generalised deriving
-dev-haskell/linux-file-extents 0.2.0.0: Retrieve file fragmentation information under Linux
+dev-haskell/linux-file-extents 0.2.0.0 0.2.0.1: Retrieve file fragmentation information under Linux
 dev-haskell/linux-inotify 0.3.0.2: Thinner binding to the Linux Kernel's inotify interface
 dev-haskell/linux-namespaces 0.2.0.1: Work with linux namespaces: create new or enter existing ones
 dev-haskell/lio 0.11.7.1: Labeled IO Information Flow Control Library
@@ -1796,7 +1800,7 @@ dev-haskell/sdl-gfx 0.7.0.0: Binding to libSDL_gfx
 dev-haskell/sdl-image 0.6.2.0: Binding to libSDL_image
 dev-haskell/sdl-mixer 0.6.3.0: Binding to libSDL_mixer
 dev-haskell/sdl-ttf 0.6.3.0: Binding to libSDL_ttf
-dev-haskell/sdl2 2.5.5.0: Both high- and low-level bindings to the SDL library (version 2.0.6+)
+dev-haskell/sdl2 2.5.5.0-r1: Both high- and low-level bindings to the SDL library (version 2.0.6+)
 dev-haskell/sdl2-image 2.0.0: Bindings to SDL2_image
 dev-haskell/sdl2-mixer 1.1.0: Bindings to SDL2_mixer
 dev-haskell/securemem 0.1.10: abstraction to an auto scrubbing and const time eq, memory chunk
@@ -1958,7 +1962,7 @@ dev-haskell/stringbuilder 0.5.1: A writer monad for multi-line string literals
 dev-haskell/stringprep 1.0.0: Implements the "StringPrep" algorithm
 dev-haskell/stringsearch 0.3.6.6-r1: Fast searching, splitting and replacing of ByteStrings
 dev-haskell/strptime 1.0.10-r1: Efficient parsing of LocalTime using a binding to C's strptime
-dev-haskell/structured 0.1.1-r3: Structure (hash) of your data types
+dev-haskell/structured 0.1.1-r4: Structure (hash) of your data types
 dev-haskell/stylish-haskell 0.14.5.0-r1 0.14.6.0: Haskell code prettifier
 dev-haskell/styx 1.3.1: A generator of nix files
 dev-haskell/suffixtree 0.2.2.1: Efficient, lazy suffix tree implementation
@@ -2015,7 +2019,7 @@ dev-haskell/tcache 0.13.3: A Transactional cache with user-defined persistence
 dev-haskell/tcp-streams 1.0.1.1-r1: One stop solution for tcp client and server with tls support
 dev-haskell/tcp-streams-openssl 1.0.1.0-r1: Tcp streams using openssl for tls support
 dev-haskell/tdigest 0.2.1.1-r2: On-line accumulation of rank-based statistics
-dev-haskell/template 0.2.0.10-r1: Simple string substitution
+dev-haskell/template 0.2.0.10-r2: Simple string substitution
 dev-haskell/template-haskell-compat-v0208 0.1.9.3: Backward-compatibility layer for Template Haskell newer than 2.8
 dev-haskell/temporary 1.3: Portable temporary file and directory support
 dev-haskell/temporary-rc 1.2.0.3: Portable temporary file and directory support for Windows and Unix
@@ -2236,7 +2240,7 @@ dev-haskell/wai-test 3.0.0: Unit test framework (built on HUnit) for WAI applica
 dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
 dev-haskell/warp 3.3.28 3.4.7: A fast, light-weight web server for WAI applications
 dev-haskell/warp-tls 3.4.12: HTTP over TLS support for Warp via the TLS package
-dev-haskell/wave 0.2.0: WAVE audio file IO library
+dev-haskell/wave 0.2.1: Work with WAVE and RF64 files
 dev-haskell/wavy 0.1.0.0: Process WAVE files in Haskell
 dev-haskell/wcwidth 0.0.2: Native wcwidth
 dev-haskell/web-encodings 0.3.0.9-r1: Encapsulate multiple web encoding in a single package. (deprecated)

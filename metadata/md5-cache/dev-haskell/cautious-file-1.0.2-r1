@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-7.0.1:= >=dev-haskell/cabal-1.6 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Ways to write a file cautiously, reducing chances of data loss due to crashes
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/cautious-file
@@ -8,9 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-7.0.1:= dev-lang/ghc:=[profile?]
-RESTRICT=test
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/1.0.2
-SRC_URI=https://hackage.haskell.org/package/cautious-file-1.0.2/cautious-file-1.0.2.tar.gz
+SRC_URI=https://hackage.haskell.org/package/cautious-file-1.0.2/cautious-file-1.0.2.tar.gz https://hackage.haskell.org/package/cautious-file-1.0.2/revision/2.cabal -> cautious-file-1.0.2-rev2.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=5a00c249f069a44a3ba817752fbf19cd
+_md5_=f7740372a29823b9057173dc24d26370

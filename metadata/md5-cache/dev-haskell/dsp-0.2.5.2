@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/quickcheck-2.5 <dev-haskell/quickcheck-3 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell Digital Signal Processing
+EAPI=8
+HOMEPAGE=https://www.haskell.org/haskellwiki/DSP
+INHERIT=haskell-cabal
+IUSE=examples doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.5.2
+SRC_URI=https://hackage.haskell.org/package/dsp-0.2.5.2/dsp-0.2.5.2.tar.gz https://hackage.haskell.org/package/dsp-0.2.5.2/revision/2.cabal -> dsp-0.2.5.2-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=39565d1b890b837b4fc424997fdd5289

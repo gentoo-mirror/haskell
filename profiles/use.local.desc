@@ -40,7 +40,6 @@ dev-haskell/bitvec:simd - Use a C SIMD implementation for the ultimate performan
 dev-haskell/boring:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/broadcast-chan:sync - Benchmarks synchronisation primitives used in main benchmark.
 dev-haskell/broadcast-chan:threaded - Run benchmarks with threaded backend.
-dev-haskell/btrfs:examples - Build examples
 dev-haskell/bytebuild:checked - Add bounds-checking to primitive array operations
 dev-haskell/bytedump:executable - build executable file
 dev-haskell/c2hs:regression - Enable regression suite build.
@@ -104,16 +103,14 @@ dev-haskell/dlist:werror - Enable -Werror
 dev-haskell/docopt:template-haskell - Build with QuasiQuoter usage parsers, which requires Template Haskell
 dev-haskell/doctest:cabal-doctest - Install (experimental) cabal-doctest executable
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
+dev-haskell/ede:attoparsecaeson - Build attoparsec-aeson.
 dev-haskell/effectful:benchmark-foreign-libraries - Include other effect libraries in the benchmarks.
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"
 dev-haskell/extensible:cassava - "define instances for cassava"
+dev-haskell/extensible:islabel - "export the instance of IsLabel making optics (which could conflict with other packages such as generic-lens)"
 dev-haskell/extensions:executable - Build the extensions executable
 dev-haskell/extra:network-uri - Get Network.URI from the network-uri package
-dev-haskell/ffmpeg-light:builddemo - Build demo executable
-dev-haskell/ffmpeg-light:buildrasterdemo - Build Rasterific demo executable
-dev-haskell/ffmpeg-light:buildtranscodedemo - Build transcode demo executable
-dev-haskell/ffmpeg-light:buildvplaydemo - Build video player demo executable
 dev-haskell/filestore:maxcount - Make use of a recent (>= 2.3.0) Darcs feature which vastly improves the performance of 'latest'. You should disable this flag if you plan to use gitit with an older version of Darcs, or 'latest' will raise an error.
 dev-haskell/finite-field:useghctypelits - GHC.TypeLits module
 dev-haskell/floskell:executable - Build the floskell executable
@@ -152,7 +149,7 @@ dev-haskell/gtk:gio - Depend on GIO package, thereby enabling certain features.
 dev-haskell/gtk2hs-buildtools:closuresignals - Use the the GClosure-based signals implementation.
 dev-haskell/gtk3:fmode-binary - Set the default file translation mode for file I/O operations to _O_BINARY.
 dev-haskell/gtk3:gio - Depend on GIO package, thereby enabling certain features.
-dev-haskell/hackage-db:install-examples - Build and install example programs.
+dev-haskell/hackage-db:examples - Build and install example programs.
 dev-haskell/hackage-security:lukko - Use @lukko@ for file-locking, otherwise use @GHC.IO.Handle.Lock@
 dev-haskell/hadrian:test - Enables the hadrian selftest rules which require QuickCheck. Disabling it thus saves on a few dependencies which can be problematic when bootstrapping.
 dev-haskell/hadrian:threaded - Build with the threaded runtime for improved performance. Users with bootstrap compilers which don't support the threaded runtime should disable this flag.
@@ -255,7 +252,6 @@ dev-haskell/libffi:ghc-bundled-libffi - When GHC is configured without @--with-s
 dev-haskell/libtelnet:examples - Build the example program
 dev-haskell/libyaml:system-libyaml - Use the system-wide libyaml instead of the bundled copy
 dev-haskell/libyaml:unicode - Enable unicode output. Otherwise, unicode characters will be escaped.
-dev-haskell/linux-file-extents:examples - Build examples
 dev-haskell/liquid-fixpoint:executable - Build the fixpoint executable
 dev-haskell/liquid-fixpoint:link-z3-as-a-library - link z3 as a library for faster interactions with the SMT solver
 dev-haskell/liquiddesugar:devel - Turn on stricter error reporting for development.
