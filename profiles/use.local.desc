@@ -113,6 +113,8 @@ dev-haskell/extensions:executable - Build the extensions executable
 dev-haskell/extra:network-uri - Get Network.URI from the network-uri package
 dev-haskell/filestore:maxcount - Make use of a recent (>= 2.3.0) Darcs feature which vastly improves the performance of 'latest'. You should disable this flag if you plan to use gitit with an older version of Darcs, or 'latest' will raise an error.
 dev-haskell/finite-field:useghctypelits - GHC.TypeLits module
+dev-haskell/flatparse:dump - dump core, stg and cmm to files
+dev-haskell/flatparse:llvm - use llvm for building
 dev-haskell/floskell:executable - Build the floskell executable
 dev-haskell/focuslist:examples - Build the focuslist-readme example executable
 dev-haskell/foldable1-classes-compat:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
