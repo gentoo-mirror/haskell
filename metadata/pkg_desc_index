@@ -2107,6 +2107,7 @@ dev-haskell/top 1.7: Constraint solving framework employed by the Helium Compile
 dev-haskell/topograph 1.0.0.2: Directed acyclic graphs
 dev-haskell/torrent 10000.1.1: BitTorrent file parser and generator
 dev-haskell/torsor 0.1: Torsor Typeclass
+dev-haskell/tracetree 0.1.0.2: Visualize Haskell data structures as edge-labeled trees
 dev-haskell/transformers 0.5.6.2-r1 0.6.1.0 0.6.1.1 0.6.1.2: Concrete functor and monad transformers
 dev-haskell/transformers-base 0.4.6: Lift computations from the bottom of a transformer stack
 dev-haskell/transformers-compat 0.7.2: A small compatibility shim for the transformers library

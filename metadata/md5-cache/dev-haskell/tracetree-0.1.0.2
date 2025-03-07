@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/bifunctors-4.2:=[profile?] >=dev-haskell/json-0.9:=[profile?] <dev-haskell/json-0.11:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Visualize Haskell data structures as edge-labeled trees
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/tracetree
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/bifunctors-4.2:=[profile?] >=dev-haskell/json-0.9:=[profile?] <dev-haskell/json-0.11:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.1.0.2
+SRC_URI=https://hackage.haskell.org/package/tracetree-0.1.0.2/tracetree-0.1.0.2.tar.gz https://hackage.haskell.org/package/tracetree-0.1.0.2/revision/1.cabal -> tracetree-0.1.0.2-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=082632b4d4966af1ab03cc9421f9d7a2
