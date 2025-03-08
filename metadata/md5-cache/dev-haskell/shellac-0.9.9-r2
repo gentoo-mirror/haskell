@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A framework for creating shell envinronments
+EAPI=8
+HOMEPAGE=https://rwd.rdockins.name/shellac/home/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.9.9
+SRC_URI=https://hackage.haskell.org/package/Shellac-0.9.9/Shellac-0.9.9.tar.gz -> shellac-0.9.9.tar.gz https://hackage.haskell.org/package/Shellac-0.9.9/revision/1.cabal -> shellac-0.9.9-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=7ffd30867c185fc82ca1063f02c4cc15

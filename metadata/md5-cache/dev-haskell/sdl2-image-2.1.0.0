@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/sdl2-2.0.0:=[profile?] >=dev-haskell/text-1.1.0.0:=[profile?] >=dev-lang/ghc-9.0.2:= media-libs/libsdl2 media-libs/sdl2-image >=dev-haskell/cabal-3.4.1.0 virtual/pkgconfig hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell bindings to SDL2_image
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/sdl2-image
+INHERIT=haskell-cabal
+IUSE=+examples doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/sdl2-2.0.0:=[profile?] >=dev-haskell/text-1.1.0.0:=[profile?] >=dev-lang/ghc-9.0.2:= media-libs/libsdl2 media-libs/sdl2-image dev-lang/ghc:=[profile?]
+SLOT=0/2.1.0.0
+SRC_URI=https://hackage.haskell.org/package/sdl2-image-2.1.0.0/sdl2-image-2.1.0.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=b9754b0ccf326dcec9a235078c22f5d6

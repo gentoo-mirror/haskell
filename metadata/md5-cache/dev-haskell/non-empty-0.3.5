@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/quickcheck-2.1:=[profile?] <dev-haskell/quickcheck-3:=[profile?] >=dev-haskell/utility-ht-0.0.8:=[profile?] <dev-haskell/utility-ht-0.1:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/doctest-exitcode-stdio-0.0 <dev-haskell/doctest-exitcode-stdio-0.1 >=dev-haskell/utility-ht-0.0.16 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=List-like structures with static restrictions on the number of elements
+EAPI=8
+HOMEPAGE=https://hub.darcs.net/thielema/non-empty/
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/quickcheck-2.1:=[profile?] <dev-haskell/quickcheck-3:=[profile?] >=dev-haskell/utility-ht-0.0.8:=[profile?] <dev-haskell/utility-ht-0.1:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.3.5
+SRC_URI=https://hackage.haskell.org/package/non-empty-0.3.5/non-empty-0.3.5.tar.gz https://hackage.haskell.org/package/non-empty-0.3.5/revision/2.cabal -> non-empty-0.3.5-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=13e3dc89c5e6590ae5a13cac2eb302dd

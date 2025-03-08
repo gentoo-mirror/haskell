@@ -24,6 +24,9 @@ dev-haskell/alsa-pcm:buildexamples - Build example executables
 dev-haskell/alsa-seq:modifyfilter - Use native event filter functions that are provided by newer ALSA versions
 dev-haskell/ansi-terminal:example - Build the example application
 dev-haskell/apply-refact:executable - Install the apply-refactor executable
+dev-haskell/argon2:non-optimised-c - Force use of non-optimised C routines on @x86_64@. Ineffective when @use-system-library@ flag is active.
+dev-haskell/argon2:pkg-config - Use @pkg-config(1)@ to discover system-library location & flags. __NOTE__: This has an effect only when the @use-system-library@ flag is also enabled.
+dev-haskell/argon2:system-library - Link against system @libargon2@ library rather than using embedded copy of @libargon2@. See also @pkg-config@ flag.
 dev-haskell/assoc:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/beam-automigrate:ghcipretty - Enable pretty-show for pretty-printing purposes
 dev-haskell/bench-show:charts - Build the modules that provide charting functionality
@@ -397,6 +400,8 @@ dev-haskell/string-interpolate:extended-benchmarks - Enable benchmarks for Inter
 dev-haskell/string-interpolate:text-builder - Use Text Builders to construct Text outputs instead of the Text type itself. If you're regularly constructing large (>50KB) text objects, enabling this can speed up your code. Otherwise, enabling this is likely to be a net slowdown.
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/synthesizer-alsa:examples - Build example executables
+dev-haskell/synthesizer-dimensional:buildexamples - Build example executables
+dev-haskell/synthesizer-dimensional:optimizeadvanced - Enable advanced optimizations. They slow down compilation considerably.
 dev-haskell/synthesizer-midi:buildexamples - Build example executables
 dev-haskell/tasty-discover:executable - Build the tasty-discover executable
 dev-haskell/texmath:executable - Compile test executable.
@@ -477,8 +482,11 @@ dev-vcs/git-annex:servant - Use the servant library, enabling using annex+http u
 dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
 games-puzzle/intricacy:curses - Enables curses user interface
 games-puzzle/intricacy:sdl - Enables SDL user interface
+games-puzzle/intricacy:sendmail - Include support for sending mail
+games-puzzle/intricacy:server - Build server
 games-puzzle/intricacy:sound - Enables sound in SDL user interface
 media-gfx/gifcurry:gtk - Build the gifcurry_gui executable
+net-misc/htalkat:ncurses - Enable Curses UI
 sci-mathematics/agda:cpphs - Use cpphs instead of cpp.
 sci-mathematics/agda:enable-cluster-counting - Enable the --count-clusters flag. (If enable-cluster-counting is False, then the --count-clusters flag triggers an error message.)
 sci-mathematics/agda:optimise-heavily - Enable some expensive optimisations when compiling Agda.
