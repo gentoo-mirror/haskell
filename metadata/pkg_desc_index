@@ -601,7 +601,7 @@ dev-haskell/explicit-exception 0.2-r1: Exceptions which are explicit in the type
 dev-haskell/extensible 0.9.2: Extensible, efficient, optics-friendly data types and effects
 dev-haskell/extensible-effects 5.0.0.1: An Alternative to Monad Transformers
 dev-haskell/extensible-exceptions 0.1.1.4: Extensible exceptions
-dev-haskell/extensions 0.1.0.0-r1 0.1.0.3: Parse Haskell Language Extensions
+dev-haskell/extensions 0.1.0.0-r1 0.1.0.1 0.1.0.3: Parse Haskell Language Extensions
 dev-haskell/extra 1.7.16 1.8: Extra functions I use
 dev-haskell/fail 4.9.0.0: Forward-compatible MonadFail class
 dev-haskell/failure 0.2.0.3: A simple type class for success/failure computations. (deprecated)
@@ -1135,7 +1135,7 @@ dev-haskell/indexed-traversable 0.1.4: FunctorWithIndex, FoldableWithIndex, Trav
 dev-haskell/indexed-traversable-instances 0.1.2: More instances of FunctorWithIndex, FoldableWithIndex, TraversableWithIndex
 dev-haskell/infer-license 0.2.0: Infer software license from a given license file
 dev-haskell/infinite-list 0.1: Infinite lists
-dev-haskell/inflections 0.4.0.6-r1: Inflections library for Haskell
+dev-haskell/inflections 0.4.0.7: Inflections library for Haskell
 dev-haskell/influxdb 1.9.3.2: InfluxDB client library for Haskell
 dev-haskell/ini 0.4.1-r1: Quick and easy configuration files in the INI format
 dev-haskell/inline-c 0.9.1.10: Write Haskell source files including C code inline. No FFI required
