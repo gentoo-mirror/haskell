@@ -1330,7 +1330,7 @@ dev-haskell/mersenne-random 1.0.0.1-r2: Generate high quality pseudorandom numbe
 dev-haskell/mersenne-random-pure64 0.2.2.0: Generate high quality pseudorandom numbers purely using a Mersenne Twister
 dev-haskell/messagepack 0.5.4-r2: Serialize instance for Message Pack Object
 dev-haskell/mfsolve 0.3.2.1 0.3.2.2: Equation solver and calculator à la metafont
-dev-haskell/microaeson 0.1.0.1-r1: A tiny JSON library with light dependency footprint
+dev-haskell/microaeson 0.1.0.1-r1 0.1.0.2: A tiny JSON library with light dependency footprint
 dev-haskell/microlens 0.4.13.1: A tiny lens library with no dependencies
 dev-haskell/microlens-aeson 2.5.2: Law-abiding lenses for Aeson, using microlens
 dev-haskell/microlens-ghc 0.4.14.3: microlens + array, bytestring, containers, transformers
