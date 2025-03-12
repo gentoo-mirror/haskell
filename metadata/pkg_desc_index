@@ -1289,7 +1289,7 @@ dev-haskell/logict 0.8.2.0: A backtracking logic-programming monad
 dev-haskell/logict-state 0.1.0.5: Library for logic programming based on haskell package logict
 dev-haskell/loop 0.3.0: Fast loops (for when GHC can't optimize forM_)
 dev-haskell/lpeg 1.0.4 1.1.0: LPeg – Parsing Expression Grammars For Lua
-dev-haskell/lrucache 1.2.0.1: a simple, pure LRU cache
+dev-haskell/lrucache 1.2.0.1-r1: a simple, pure LRU cache
 dev-haskell/lsp 2.3.0.0 2.4.0.0 2.7.0.1: Haskell library for the Microsoft Language Server Protocol
 dev-haskell/lsp-test 0.16.0.1 0.17.1.1: Functional test framework for LSP servers
 dev-haskell/lsp-types 2.1.0.0 2.1.1.0 2.3.0.1: Haskell library for the Microsoft Language Server Protocol, data types
@@ -2000,7 +2000,7 @@ dev-haskell/tagstream-conduit 0.5.6: streamlined html tag parser
 dev-haskell/tar 0.5.1.1-r3: Reading, writing and manipulating ".tar" archive files
 dev-haskell/tar-conduit 0.4.1: Extract and create tar files using conduit for streaming
 dev-haskell/tardis 0.4.3.0: Bidirectional state monad transformer
-dev-haskell/tasty 1.4.3 1.5.3: Modern and extensible testing framework
+dev-haskell/tasty 1.4.3-r1 1.5.3: Modern and extensible testing framework
 dev-haskell/tasty-ant-xml 1.1.8: Render tasty output to XML for Jenkins
 dev-haskell/tasty-discover 4.2.2: Test discovery for the tasty framework
 dev-haskell/tasty-expected-failure 0.12.3: Mark tasty tests as failure expected
