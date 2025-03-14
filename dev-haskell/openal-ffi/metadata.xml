@@ -6,7 +6,7 @@
 		<name>Gentoo Haskell</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="hackage">gl</remote-id>
-		<remote-id type="github">ekmett/gl</remote-id>
+		<remote-id type="hackage">openal-ffi</remote-id>
+		<remote-id type="gitlab">dpwiz/openal-ffi</remote-id>
 	</upstream>
 </pkgmetadata>

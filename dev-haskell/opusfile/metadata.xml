@@ -5,8 +5,11 @@
 		<email>haskell@gentoo.org</email>
 		<name>Gentoo Haskell</name>
 	</maintainer>
+	<use>
+		<flag name="examples">Build the example executable</flag>
+	</use>
 	<upstream>
-		<remote-id type="hackage">gl</remote-id>
-		<remote-id type="github">ekmett/gl</remote-id>
+		<remote-id type="hackage">opusfile</remote-id>
+		<remote-id type="gitlab">dpwiz/opusfile</remote-id>
 	</upstream>
 </pkgmetadata>
