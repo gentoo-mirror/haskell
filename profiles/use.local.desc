@@ -32,6 +32,7 @@ dev-haskell/beam-automigrate:ghcipretty - Enable pretty-show for pretty-printing
 dev-haskell/bench-show:charts - Build the modules that provide charting functionality
 dev-haskell/bench-show:colors - Use pretty printing with colors
 dev-haskell/bifunctors:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabing this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
+dev-haskell/bindings-glfw:X - Linux only. Determines whether to target the X11 display server.
 dev-haskell/bindings-glfw:exposenative - Whether or not to use the native access functions.
 dev-haskell/bindings-glfw:osmesa - Determines whether or not to use the Mesa 3D rendering context.
 dev-haskell/biosff:fclip - Build the 'fclip' executable.
@@ -291,6 +292,7 @@ dev-haskell/openclwrappers:link - Link against OpenCL library.
 dev-haskell/operational:buildexamples - Build example executables.
 dev-haskell/optics-core:explicit-generic-labels - Require explicit GenericLabelOptics instances in order to use generics-based labels
 dev-haskell/optparse-simple:build-example - Build the example executable
+dev-haskell/opusfile:examples - Build the example executable
 dev-haskell/ormolu:executable - Install the ormolu executable
 dev-haskell/ormolu:internal-bundle-fixities - An internal ad-hoc flag that is enabled by default, Ormolu Live disables it due to missing WASM TH support.
 dev-haskell/pandoc:embed-data-files - Embed data files in binary for relocatable executable.
