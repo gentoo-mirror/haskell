@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/mmorph-1:=[profile?] <dev-haskell/mmorph-2:=[profile?] >=dev-haskell/mtl-2:=[profile?] <dev-haskell/mtl-3:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/mmorph-1:=[profile?] <dev-haskell/mmorph-2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Bidirectional state monad transformer
 EAPI=8
 HOMEPAGE=https://github.com/DanBurton/tardis
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/mmorph-1:=[profile?] <dev-haskell/mmorph-2:=[profile?] >=dev-haskell/mtl-2:=[profile?] <dev-haskell/mtl-3:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/mmorph-1:=[profile?] <dev-haskell/mmorph-2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=0/0.4.3.0
-SRC_URI=https://hackage.haskell.org/package/tardis-0.4.3.0/tardis-0.4.3.0.tar.gz
+SLOT=0/0.5.0
+SRC_URI=https://hackage.haskell.org/package/tardis-0.5.0/tardis-0.5.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=d7ae41ca67d868d5e2ac87645e4c8edb
+_md5_=907e5ddf41b673f52eb5adcdfaa74c9b

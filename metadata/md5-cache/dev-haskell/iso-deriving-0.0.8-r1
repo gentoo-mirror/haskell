@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/mtl:=[profile?] dev-haskell/profunctors:=[profile?] >=dev-lang/ghc-8.6.3:= >=dev-haskell/cabal-2.4.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/profunctors:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Deriving via arbitrary isomorphisms
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/iso-deriving
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=dev-haskell/mtl:=[profile?] dev-haskell/profunctors:=[profile?] >=dev-lang/ghc-8.6.3:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/profunctors:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.0.8
-SRC_URI=https://hackage.haskell.org/package/iso-deriving-0.0.8/iso-deriving-0.0.8.tar.gz
+SRC_URI=https://hackage.haskell.org/package/iso-deriving-0.0.8/iso-deriving-0.0.8.tar.gz https://hackage.haskell.org/package/iso-deriving-0.0.8/revision/1.cabal -> iso-deriving-0.0.8-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=33daef6ef382440910b323336e35cc6b
+_md5_=0e19a4712b180cb2eb775b601fe724fa

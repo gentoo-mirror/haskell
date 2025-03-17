@@ -46,6 +46,7 @@ dev-haskell/broadcast-chan:sync - Benchmarks synchronisation primitives used in 
 dev-haskell/broadcast-chan:threaded - Run benchmarks with threaded backend.
 dev-haskell/bytebuild:checked - Add bounds-checking to primitive array operations
 dev-haskell/bytedump:executable - build executable file
+dev-haskell/bzlib-conduit:system-bzip2 - Use system bzip2 instead of bundled sources
 dev-haskell/c2hs:regression - Enable regression suite build.
 dev-haskell/cabal-install:debug-conflict-sets - Add additional information to ConflictSets
 dev-haskell/cabal-install:lukko - Use @lukko@ for file-locking
@@ -277,6 +278,7 @@ dev-haskell/mod:semirings - Derive semiring instances
 dev-haskell/mod:vector - Derive unboxed and primitive vector instances
 dev-haskell/monad-logger:template-haskell - Enable Template Haskell support
 dev-haskell/monky:ibus - enable ibus example
+dev-haskell/monky:pulseaudio - enable pulse example (7.6 disabled because travis)
 dev-haskell/multistate:examples - Build the multistate-example executable
 dev-haskell/nanovg:gles - Build for GLES3. This deactivates GL3 support.
 dev-haskell/nanovg:truetype - Use freetype instead of bundled stb_truetype.
@@ -450,9 +452,13 @@ dev-haskell/xlsx:microlens - Use microlens instead of lens
 dev-haskell/yaml:executable - Install the yaml2json and json2yaml executables
 dev-haskell/yesod-form:network-uri - Get Network.URI from the network-uri package
 dev-haskell/yesod-paginator:examples - Build the examples
+dev-haskell/zip:bzip2 - Depend on bzip2 C library and hence support BZip2 entries.
+dev-haskell/zip:dev - Turn on development settings.
+dev-haskell/zip:zstd - Depend on zstd C library and hence support Zstandard entries.
 dev-haskell/zip-archive:executable - Build the Zip executable.
 dev-haskell/zlib:bundled-c-zlib - Use the bundled zlib C sources. Requires pkg-config to be False. For windows, this is the default.
 dev-haskell/zlib:non-blocking-ffi - The (de)compression calls can sometimes take a long time, which prevents other Haskell threads running. Enabling this flag avoids this unfairness, but with greater overall cost.
+dev-haskell/zstd:standalone - Use a built-in copy of the zstd library
 dev-haskell/zxcvbn-hs:executable - Build the zxcvbn-tools executable
 dev-lang/cryptol:relocatable - Don't use the Cabal-provided data directory for looking up Cryptol libraries.
 dev-lang/dhall:http - Include support for importing dhall modules from HTTP URLs
