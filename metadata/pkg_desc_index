@@ -2440,7 +2440,7 @@ www-apps/gitit 0.15.1.2-r2: Wiki using happstack, git or darcs, and pandoc
 www-apps/imagepaste 0.2.0.1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp
-www-servers/yesod-bin 1.6.2.3: The yesod helper executable
+www-servers/yesod-bin 1.6.2.3-r1: The yesod helper executable
 x11-misc/arbtt 0.12.0.1: Automatic Rule-Based Time Tracker
 x11-misc/deadd-notification-center 2.1.1: A notification daemon and center
 x11-misc/gtk-sni-tray 0.1.8.0: A standalone StatusNotifierItem/AppIndicator tray
