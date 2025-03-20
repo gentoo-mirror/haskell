@@ -90,7 +90,6 @@ dev-haskell/crypton:old-toolchain-inliner - use -fgnu89-inline to workaround an 
 dev-haskell/crypton:target-attributes - use GCC / clang function attributes instead of global target options.
 dev-haskell/cryptonite:integer-gmp - Whether or not to use GMP for some functions
 dev-haskell/cryptonite:target-attributes - use GCC / clang function attributes instead of global target options.
-dev-haskell/data-lens:derivedatatypeable - Use the DeriveDataTypeable extension. This makes lens compile with old compilers. Users need not worry about it.
 dev-haskell/derive-storable:sumtypes - Enable support for non-recursive sum types.
 dev-haskell/derive-storable-plugin:sumtypes - Use sumtypes within benchmark and tests.
 dev-haskell/diagrams:cairo - Enable the cairo backend
@@ -381,7 +380,6 @@ dev-haskell/sr-extra:omit-data - Omit all Data instances
 dev-haskell/sr-extra:omit-serialize - Omit all the Serialize instances, on the assumption that we will use SafeCopy instances instead.
 dev-haskell/ssh-known-hosts:sample_progs - Build sample programs
 dev-haskell/stack:disable-stack-upload - For use only during development and debugging. Disable 'stack upload' so that it does not make HTTP requests. Stack will output information about the HTTP request(s) that it would have made if the command was enabled.
-dev-haskell/stack:integration-tests - Run the integration test suite.
 dev-haskell/stateref:usestm - Include instances for STM types.
 dev-haskell/stateref:usetmvar - Include instances for TMVar.
 dev-haskell/store-core:force-alignment - Adds -DALIGNED_MEMORY to cpp-options

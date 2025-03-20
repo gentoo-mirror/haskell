@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/transformers-0.3:=[profile?] <dev-haskell/transformers-0.6:=[profile?] >=dev-lang/ghc-7.6.1:= >=dev-haskell/cabal-1.16.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Combinatorial algorithms over multisets
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/multiset-comb
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/transformers-0.3:=[profile?] <dev-haskell/transformers-0.6:=[profile?] >=dev-lang/ghc-7.6.1:= dev-lang/ghc:=[profile?]
-SLOT=0/0.2.4.1
-SRC_URI=https://hackage.haskell.org/package/multiset-comb-0.2.4.1/multiset-comb-0.2.4.1.tar.gz
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.2.4.2
+SRC_URI=https://hackage.haskell.org/package/multiset-comb-0.2.4.2/multiset-comb-0.2.4.2.tar.gz https://hackage.haskell.org/package/multiset-comb-0.2.4.2/revision/1.cabal -> multiset-comb-0.2.4.2-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=fd834990b5f8450df4a7a685f3b34956
+_md5_=fb47219c7da5e88749e6074f0264ef70

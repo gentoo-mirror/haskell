@@ -176,7 +176,7 @@ dev-haskell/binary-instances 1.0.5: Orphan instances for binary
 dev-haskell/binary-orphans 1.0.5: Compatibility package for binary; provides instances
 dev-haskell/binary-parser 0.5.7.7: An efficient but limited parser API specialised to bytestrings
 dev-haskell/binary-parsers 0.2.4.0: Extends binary with parsec/attoparsec style parsing combinators
-dev-haskell/binary-search 1.0.0.3: Binary and exponential searches
+dev-haskell/binary-search 2.0.0: Binary and exponential searches
 dev-haskell/binary-serialise-cbor 0.2.2.0-r1: Yet Another Binary Serialisation Library (compatibility shim)
 dev-haskell/binary-strict 0.4.8.6: Binary deserialisation using strict ByteStrings
 dev-haskell/binary-tagged 0.3.1-r1: Tagged binary serialisation
@@ -387,7 +387,7 @@ dev-haskell/continued-fractions 0.10.0.2: Continued fractions
 dev-haskell/contravariant 1.5.5: Contravariant functors
 dev-haskell/contravariant-extras 0.3.5.4: Extras for the "contravariant" package
 dev-haskell/control-monad-exception 0.11.4: Explicitly typed, checked exceptions with stack traces
-dev-haskell/control-monad-free 0.6.2: Free monads and monad transformers
+dev-haskell/control-monad-free 0.6.2-r1: Free monads and monad transformers
 dev-haskell/control-monad-loop 0.1: Simple monad transformer for imperative-style loops
 dev-haskell/control-timeout 0.1.2-r2: Timeout handling
 dev-haskell/converge 0.1.0.1-r1: Limit operations for converging sequences
@@ -465,8 +465,8 @@ dev-haskell/data-fix 0.3.4: Fixpoint data types
 dev-haskell/data-flags 0.0.3.4: A package for working with bit masks and flags in general
 dev-haskell/data-hash 0.2.0.1: Combinators for building fast hashing functions
 dev-haskell/data-inttrie 0.1.4: A lazy, infinite trie of integers
-dev-haskell/data-lens 2.10.7-r3: Used to be Haskell 98 Lenses
-dev-haskell/data-lens-ixset 0.1.4-r3: A Lens for IxSet
+dev-haskell/data-lens 2.11.2: Used to be Haskell 98 Lenses
+dev-haskell/data-lens-ixset 0.1.4-r4: A Lens for IxSet
 dev-haskell/data-lens-light 0.1.2.3: Simple lenses, minimum dependencies
 dev-haskell/data-lens-template 2.1.9: Utilities for Data.Lens
 dev-haskell/data-memocombinators 0.5.1-r1: Combinators for building memo tables
@@ -530,7 +530,7 @@ dev-haskell/digits 0.3.1: Converts integers to lists of digits and back
 dev-haskell/dimensional 1.6.1: Statically checked physical dimensions
 dev-haskell/dir-traverse 0.2.3.0: Simple directory traversal library
 dev-haskell/direct-sqlite 2.3.27: Low-level binding to SQLite3. Includes UTF8 and BLOB support
-dev-haskell/directory-layout 0.7.4.1: Directory layout DSL
+dev-haskell/directory-layout 0.7.4.1-r1: Directory layout DSL
 dev-haskell/directory-listing-webpage-parser 0.1.1.0: directory listing webpage parser
 dev-haskell/directory-tree 0.12.1: A simple directory-like tree datatype, with useful IO functions
 dev-haskell/disassembler 0.2.0.1-r1: Disassembler for X86 & AMD64 machine code
@@ -1088,7 +1088,7 @@ dev-haskell/http-download 0.2.0.0 0.2.1.0: Verified downloads with retries
 dev-haskell/http-link-header 1.0.3.1: An RFC 5988 parser and writer for the HTTP Link header
 dev-haskell/http-media 0.8.1.1: Processing HTTP Content-Type and Accept headers
 dev-haskell/http-querystring 1.0: The HTTP query builder
-dev-haskell/http-reverse-proxy 0.6.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
+dev-haskell/http-reverse-proxy 0.6.1.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
 dev-haskell/http-semantics 0.3.0: HTTP senmatics libarry
 dev-haskell/http-streams 0.8.9.9: An HTTP client using io-streams
 dev-haskell/http-types 0.12.4: Generic HTTP types for Haskell (for both client and server code)
@@ -1382,7 +1382,7 @@ dev-haskell/monad-skeleton 0.1.5: Monads of program skeleta
 dev-haskell/monad-time 0.4.0.0: Type class for monads which carry the notion of the current time
 dev-haskell/monad-time-effectful 1.0.0.0: Adaptation of the monad-time library for the effectful ecosystem
 dev-haskell/monad-unify 0.2.2: Generic first-order unification
-dev-haskell/monad-unlift 0.2.0: Typeclasses for representing monad transformer unlifting
+dev-haskell/monad-unlift 0.2.0-r1: Typeclasses for representing monad transformer unlifting
 dev-haskell/monadcatchio-mtl 0.3.1.0-r2: Monad-transformer version of the Control.Exception module
 dev-haskell/monadcatchio-transformers 0.3.1.3-r1: Monad-transformer compatible version of the Control.Exception module
 dev-haskell/monadcryptorandom 0.7.2.1: A monad for using CryptoRandomGen
@@ -1414,7 +1414,7 @@ dev-haskell/mueval 0.9.4: Safely evaluate pure Haskell expressions
 dev-haskell/multimap 1.2.1-r1: A multimap
 dev-haskell/multipart 0.2.1-r1: Parsers for the HTTP multipart format
 dev-haskell/multiset 0.3.4.3: The Data.MultiSet container type
-dev-haskell/multiset-comb 0.2.4.1: Combinatorial algorithms over multisets
+dev-haskell/multiset-comb 0.2.4.2: Combinatorial algorithms over multisets
 dev-haskell/multistate 0.8.0.4: like mtl's ReaderT / WriterT / StateT, but more than one contained value/type
 dev-haskell/murmur-hash 0.1.0.11: MurmurHash2 implementation for Haskell
 dev-haskell/mustache 2.4.2: A mustache template parser library
@@ -1438,7 +1438,7 @@ dev-haskell/natural-arithmetic 0.2.1.0: Arithmetic of natural numbers
 dev-haskell/natural-numbers 0.1.2.0-r1: Natural numbers
 dev-haskell/natural-sort 0.1.2: User-friendly text collation
 dev-haskell/natural-transformation 0.4-r8: A natural transformation package
-dev-haskell/ncurses 0.2.16: Modernised bindings to GNU ncurses
+dev-haskell/ncurses 0.2.16-r1: Modernised bindings to GNU ncurses
 dev-haskell/neat-interpolation 0.5.1.3 0.5.1.4: Quasiquoter for neat and simple multiline text interpolation
 dev-haskell/netlink 1.1.1.0: Netlink communication for Haskell
 dev-haskell/netpbm 1.0.4: Loading PBM, PGM, PPM image files
@@ -1524,7 +1524,7 @@ dev-haskell/pandoc-stylefrommeta 0.4.0.0: Pandoc filter to customize links, imag
 dev-haskell/pandoc-types 1.23.1-r1: Types for representing a structured document
 dev-haskell/pango 0.13.11.0: Binding to the Pango text rendering engine
 dev-haskell/panic 0.4.0.1: A convenient way to panic
-dev-haskell/pantry 0.8.3 0.9.3.2 0.10.0: Content addressable Haskell package management
+dev-haskell/pantry 0.10.0: Content addressable Haskell package management
 dev-haskell/parallel 3.2.2.0: Parallel programming library
 dev-haskell/parallel-io 0.3.5: Combinators for executing IO actions in parallel on a thread pool
 dev-haskell/parsable 0.1.0.0 9999: Parsable and Printable classes
@@ -1755,7 +1755,7 @@ dev-haskell/relude 1.2.2.0: Safe, performant, user-friendly and lightweight Hask
 dev-haskell/rematch 0.2.0.0: A simple api for matchers
 dev-haskell/repa 3.4.2.0: Algorithms using the Repa array library
 dev-haskell/repa-algorithms 3.4.2.0: Algorithms using the Repa array library
-dev-haskell/repa-devil 0.3.2.6-r1: Support for image reading and writing of Repa arrays using in-place FFI calls
+dev-haskell/repa-devil 0.3.2.6-r2: Support for image reading and writing of Repa arrays using in-place FFI calls
 dev-haskell/repa-io 3.4.1.2-r1: Read and write Repa arrays in various formats
 dev-haskell/repline 0.4.2.0: Haskeline wrapper for GHCi-like REPL interfaces
 dev-haskell/req 3.13.4-r1: HTTP client library
@@ -1926,7 +1926,7 @@ dev-haskell/sqlite-simple-errors 0.6.1.0: Light wrapper around errors from sqlit
 dev-haskell/sr-extra 1.88: Module limbo
 dev-haskell/srcloc 0.5.1.2: Data types for managing source code locations
 dev-haskell/ssh-known-hosts 0.2.0.0: Read and interpret the SSH known-hosts file
-dev-haskell/stack 2.9.3.1-r1 2.13.1 3.1.1 9.9.9: The Haskell Tool Stack
+dev-haskell/stack 2.13.1 3.1.1 9.9.9: The Haskell Tool Stack
 dev-haskell/stack-bin 2.3.1 2.5.1: The Haskell Tool Stack (Binary)
 dev-haskell/stan 0.2.0.0: Haskell STatic ANalyser
 dev-haskell/stateref 0.3: Abstraction for things that work like IORef
@@ -2044,7 +2044,7 @@ dev-haskell/test-framework 0.8.2.0-r5: Framework for running and organising test
 dev-haskell/test-framework-hunit 0.3.0.2-r1: HUnit support for the test-framework package
 dev-haskell/test-framework-leancheck 0.0.1: LeanCheck support for test-framework
 dev-haskell/test-framework-quickcheck2 0.3.0.5-r2: QuickCheck2 support for the test-framework package
-dev-haskell/test-framework-smallcheck 0.2: Support for SmallCheck tests in test-framework
+dev-haskell/test-framework-smallcheck 0.2-r1: Support for SmallCheck tests in test-framework
 dev-haskell/test-framework-th 0.2.4: Automagically generate the HUnit and Quickcheck using Template Haskell
 dev-haskell/testcontainers 0.5.1.0: Docker containers for your integration tests
 dev-haskell/testing-feat 1.1.0.0-r1: Functional Enumeration of Algebraic Types
@@ -2311,7 +2311,7 @@ dev-haskell/xdot 0.3.0.5: Parse Graphviz xdot files and interactively view them 
 dev-haskell/xeno 0.6: A fast event-based XML parser in pure Haskell
 dev-haskell/xformat 0.1.2.1: Extensible, type-safe formatting with scanf- and printf-like functions
 dev-haskell/xhtml 3000.2.2.1-r1: An XHTML combinator library
-dev-haskell/xhtml-combinators 0.3: Fast and easy to use XHTML combinators
+dev-haskell/xhtml-combinators 0.3-r1: Fast and easy to use XHTML combinators
 dev-haskell/xlsx 1.1.3: Simple and incomplete Excel file parser/writer
 dev-haskell/xml 1.3.14: A simple XML library
 dev-haskell/xml-conduit 1.9.1.4: Pure-Haskell utilities for dealing with XML with the conduit package
@@ -2337,7 +2337,7 @@ dev-haskell/yesod-auth-basic 0.1.0.3: Yesod Middleware for HTTP Basic Authentica
 dev-haskell/yesod-auth-hashdb 1.7.1.7: Authentication plugin for Yesod
 dev-haskell/yesod-auth-oauth2 0.7.2.0: OAuth 2.0 authentication plugins
 dev-haskell/yesod-colonnade 1.3.0.1: Helper functions for using yesod with colonnade
-dev-haskell/yesod-content-pdf 0.2.0.5: PDF Content Type for Yesod
+dev-haskell/yesod-content-pdf 0.2.0.5-r1: PDF Content Type for Yesod
 dev-haskell/yesod-core 1.6.26.0: Creation of type-safe, RESTful web applications
 dev-haskell/yesod-default 1.2.0: Default config and main functions for your yesod application (deprecated)
 dev-haskell/yesod-elements 1.1.1: Non template haskell markup building function in the spirit of lucid
@@ -2437,7 +2437,7 @@ www-apps/clckwrks-plugin-media 0.6.17.2-r1: media plugin for clckwrks
 www-apps/clckwrks-plugin-page 0.4.3.26-r1: support for CMS/Blogging in clckwrks
 www-apps/darcsweb 1.3: A web interface for darcs
 www-apps/gitit 0.15.1.2-r2: Wiki using happstack, git or darcs, and pandoc
-www-apps/imagepaste 0.2.0.1: Command-line image paste utility
+www-apps/imagepaste 0.2.0.1-r1: Command-line image paste utility
 www-misc/lambdafeed 0.3.1-r1: RSS 2.0 feed generator
 www-servers/mighttpd2 3.4.6-r1: High performance web server on WAI/warp
 www-servers/yesod-bin 1.6.2.3-r1: The yesod helper executable
