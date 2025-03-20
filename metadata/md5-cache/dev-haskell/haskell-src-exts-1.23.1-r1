@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/semigroups-0.18.3:=[profile?] >=dev-lang/ghc-7.4.1:= >=dev-haskell/cabal-1.10 dev-haskell/happy test? ( dev-haskell/mtl >=dev-haskell/pretty-show-1.6.16 >=dev-haskell/smallcheck-1.0 >=dev-haskell/tasty-0.3 >=dev-haskell/tasty-golden-2.2.2 dev-haskell/tasty-smallcheck ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 dev-haskell/happy test? ( >=dev-haskell/pretty-show-1.6.16 >=dev-haskell/smallcheck-1.0 >=dev-haskell/tasty-0.3 >=dev-haskell/tasty-golden-2.2.2 dev-haskell/tasty-smallcheck ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Manipulating Haskell source: abstract syntax, lexer, parser, and pretty-printer
 EAPI=8
 HOMEPAGE=https://github.com/haskell-suite/haskell-src-exts
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/fail-4.9:=[profile?] <dev-haskell/fail-4.10:=[profile?] >=dev-haskell/semigroups-0.18.3:=[profile?] >=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
-SLOT=1.22/1.23.1
+SLOT=0/1.23.1
 SRC_URI=https://hackage.haskell.org/package/haskell-src-exts-1.23.1/haskell-src-exts-1.23.1.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=8b0757b7ca61f50dae62c473b78e2e33
+_md5_=9a55b203a471e11aed93d120b7187cf4
