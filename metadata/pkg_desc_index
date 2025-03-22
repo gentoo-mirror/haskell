@@ -19,6 +19,7 @@ app-office/hledger-web 1.41: Web user interface for the hledger accounting syste
 app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.8.4.0 0.8.5.1 0.8.5.2 0.9.0.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
+app-portage/random-build 0.1.0.0: Build random packages in a Gentoo repository and evaluate the success rate
 app-portage/revdep-scanner 0.1.0.0 9999: Scan Gentoo repositories for reverse dependencies
 app-text/haskell-awk 1.2.0.1: Transform text from the command-line using Haskell expressions
 app-text/pandoc 3: Metapackage for pandoc version 3
