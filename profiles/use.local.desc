@@ -514,6 +514,7 @@ x11-misc/xmobar:xpm - Enable usage of xpm for icons.
 x11-misc/xmobar:xrender - Use XRender for alpha background pseudo-transparency.
 x11-misc/xmonad-extras:alsa - Build modules depending on the alsa-mixer package
 x11-misc/xmonad-extras:brightness - Build module for brightness control.
+x11-misc/xmonad-extras:dbus - Build modules depending on dbus.
 x11-misc/xmonad-extras:eval - Build modules depending on hint(for evaluating Haskell expressions at runtime).
 x11-misc/xmonad-extras:mpd - Build modules depending on libmpd.
 x11-misc/yeganesh:profiling - Build with profiling and -auto-all

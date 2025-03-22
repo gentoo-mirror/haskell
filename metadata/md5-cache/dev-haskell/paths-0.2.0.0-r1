@@ -1,6 +1,6 @@
-BDEPEND=app-text/dos2unix app-text/dos2unix
+BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Library for representing and manipulating type-safe file paths
 EAPI=8
 HOMEPAGE=https://hackage.haskell.org/package/paths
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.2:=[profile?] dev-lang/ghc:=[profile?]
 SLOT=0/0.2.0.0
-SRC_URI=https://hackage.haskell.org/package/paths-0.2.0.0/paths-0.2.0.0.tar.gz https://hackage.haskell.org/package/paths-0.2.0.0/revision/3.cabal -> paths-0.2.0.0.cabal
+SRC_URI=https://hackage.haskell.org/package/paths-0.2.0.0/paths-0.2.0.0.tar.gz https://hackage.haskell.org/package/paths-0.2.0.0/revision/4.cabal -> paths-0.2.0.0-rev4.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=6577cf4268123a11d90cdda4c034e6d4
+_md5_=4d5ae2b2f67962e35e69b426dc994e6c

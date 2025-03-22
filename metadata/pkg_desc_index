@@ -42,7 +42,7 @@ dev-haskell/ad 4.5.6: Automatic Differentiation
 dev-haskell/adjunctions 4.4.2-r1: Adjunctions and representable functors
 dev-haskell/aes 0.2.9-r1: Fast AES encryption/decryption for bytestrings
 dev-haskell/aeson 2.1.2.1 2.2.3.0-r2: Fast JSON parsing and encoding
-dev-haskell/aeson-better-errors 0.9.1.1: Better error messages when decoding JSON values
+dev-haskell/aeson-better-errors 0.9.1.1-r1: Better error messages when decoding JSON values
 dev-haskell/aeson-casing 0.2.0.0: Tools to change the formatting of field names in Aeson instances
 dev-haskell/aeson-diff 1.1.0.13-r1: Extract and apply patches to JSON documents
 dev-haskell/aeson-extra 0.5.1.3: Extra goodies for aeson
@@ -789,7 +789,7 @@ dev-haskell/githash 0.1.7.0: Compile git revision info into Haskell projects
 dev-haskell/github 0.29: Access to the GitHub API, v3
 dev-haskell/gitrev 1.3.1-r2: Compile git revision info into Haskell projects
 dev-haskell/gl 0.9.1: Complete OpenGL raw bindings
-dev-haskell/glambda 1.0.2: A simply typed lambda calculus interpreter, written with GADTs
+dev-haskell/glambda 1.0.2-r1: A simply typed lambda calculus interpreter, written with GADTs
 dev-haskell/glfw 0.5.2.5: A Haskell binding for GLFW
 dev-haskell/glfw-b 3.3.9.1: Bindings to GLFW OpenGL library
 dev-haskell/glib 0.13.11.0: Binding to the GLIB library for Gtk2Hs
@@ -1112,7 +1112,7 @@ dev-haskell/hxt-xpath 9.1.2.2-r1: The XPath modules for HXT
 dev-haskell/hyphenation 0.8.2-r1: Configurable Knuth-Liang hyphenation
 dev-haskell/hzenhan 0.0.5: Zenhan library for Haskell
 dev-haskell/ibus-hs 0.0.0.1: A simple incomplete ibus api
-dev-haskell/icalendar 0.4.0.5-r2: iCalendar data types, parser, and printer
+dev-haskell/icalendar 0.4.0.5-r2 0.4.1.1: iCalendar data types, parser, and printer
 dev-haskell/iconv 0.4.1.3-r1: String encoding conversion
 dev-haskell/idiii 0.1.3.3: ID3v2 (tagging standard for MP3 files) library
 dev-haskell/idna 0.3.0: Implements IDNA (RFC 3490)
@@ -1546,7 +1546,7 @@ dev-haskell/path 0.9.2-r1 0.9.5: Support for well-typed paths
 dev-haskell/path-extra 0.3.1: URLs without host information
 dev-haskell/path-io 1.8.1 1.8.2: Interface to ‘directory’ package for users of ‘path’
 dev-haskell/path-pieces 0.2.1: Components of paths
-dev-haskell/paths 0.2.0.0: Library for representing and manipulating type-safe file paths
+dev-haskell/paths 0.2.0.0-r1: Library for representing and manipulating type-safe file paths
 dev-haskell/pathtype 0.8.1.3: Type-safe replacement for System.FilePath etc
 dev-haskell/patience 0.3: Patience diff and longest increasing subsequence
 dev-haskell/pattern-arrows 0.0.2-r1: Arrows for Pretty Printing
@@ -1582,7 +1582,7 @@ dev-haskell/pipes-bytestring 2.1.7-r1: ByteString support for pipes
 dev-haskell/pipes-cereal 0.1.0.0-r1: Encode and decode binary streams using the pipes and cereal libraries
 dev-haskell/pipes-concurrency 2.0.14: Concurrency for the pipes ecosystem
 dev-haskell/pipes-group 1.0.12-r2: Group streams into substreams
-dev-haskell/pipes-http 1.0.6-r2: HTTP client with pipes interface
+dev-haskell/pipes-http 1.0.6-r3: HTTP client with pipes interface
 dev-haskell/pipes-network 0.6.5: Use network sockets together with the pipes library
 dev-haskell/pipes-parse 3.0.9: Parsing infrastructure for the pipes ecosystem
 dev-haskell/pipes-random 1.0.0.5: Producers for handling randomness
@@ -1592,7 +1592,7 @@ dev-haskell/pipes-zlib 0.4.4.2: Zlib and GZip compression and decompression for 
 dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
 dev-haskell/plailude 0.6.0-r1: plaimi's prelude
 dev-haskell/ploterific 0.2.1.4: Basic plotting of tabular data for the command line
-dev-haskell/plugins 1.6.2: Dynamic linking for Haskell and C objects
+dev-haskell/plugins 1.6.2.1: Dynamic linking for Haskell and C objects
 dev-haskell/plugins-auto 0.0.4: Automatic recompilation and reloading of haskell modules
 dev-haskell/pointed 5.0.3 5.0.4: Pointed and copointed data
 dev-haskell/pointedlist 0.6.1-r1: A zipper-like comonad which works as a list, tracking a position
@@ -1827,7 +1827,7 @@ dev-haskell/sendfile 0.7.11.6: A portable sendfile library
 dev-haskell/seqloc 0.6.1.1: Handle sequence locations for bioinformatics
 dev-haskell/sequence-formats 1.5.1.4: A package with basic parsing utilities for several Bioinformatic data formats
 dev-haskell/serialise 0.2.6.1: A binary serialisation library for Haskell values
-dev-haskell/serialport 0.4.7 0.5.1: Cross platform serial port library
+dev-haskell/serialport 0.5.1 0.5.6: Cross platform serial port library
 dev-haskell/servant 0.20.2: A family of combinators for defining webservices APIs
 dev-haskell/servant-client 0.20.2: Automatic derivation of querying functions for servant
 dev-haskell/servant-client-core 0.20.2: Core functionality and class for client function generation for servant APIs
@@ -1958,7 +1958,7 @@ dev-haskell/store-core 0.4.4.7: Fast and lightweight binary serialization
 dev-haskell/stream 0.4.7.2: A library for manipulating infinite lists
 dev-haskell/streaming 0.2.3.1 0.2.4.0: an elementary streaming prelude and general stream type
 dev-haskell/streaming-commons 0.2.3.0: Common lower-level functions needed by various streaming data libraries
-dev-haskell/streamly 0.10.1-r1: Streaming, dataflow programming and declarative concurrency
+dev-haskell/streamly 0.10.1-r2: Streaming, dataflow programming and declarative concurrency
 dev-haskell/streamly-core 0.2.2: Streaming, parsers, arrays, serialization and more
 dev-haskell/strict 0.5: Strict data types and String IO
 dev-haskell/strict-identity 0.1.0.0: Strict Identity Monad, handy for writing fast code!
@@ -2449,7 +2449,7 @@ x11-misc/deadd-notification-center 2.1.1: A notification daemon and center
 x11-misc/gtk-sni-tray 0.1.8.0: A standalone StatusNotifierItem/AppIndicator tray
 x11-misc/taffybar 4.0.0: A desktop bar similar to xmobar, but with more GUI
 x11-misc/xmobar 0.48.1 9999: A Minimalistic Text Based Status Bar
-x11-misc/xmonad-extras 0.17.0: Third party extensions for xmonad with wacky dependencies
+x11-misc/xmonad-extras 0.17.2: Third party extensions for xmonad with wacky dependencies
 x11-misc/xmonad-screenshot 0.1.2-r1: Workspaces screenshooting utility for XMonad
 x11-misc/xmonad-utils 0.1.3.3-r1: A small collection of X utilities
 x11-misc/xmonad-wallpaper 0.0.1.5-r1: xmonad wallpaper extension

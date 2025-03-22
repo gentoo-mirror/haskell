@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=CZipWith class and deriving via TH
 EAPI=8
 HOMEPAGE=https://github.com/lspitzner/czipwith/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.0.1.4
-SRC_URI=https://hackage.haskell.org/package/czipwith-1.0.1.4/czipwith-1.0.1.4.tar.gz https://hackage.haskell.org/package/czipwith-1.0.1.4/revision/1.cabal -> czipwith-1.0.1.4.cabal
+SRC_URI=https://hackage.haskell.org/package/czipwith-1.0.1.4/czipwith-1.0.1.4.tar.gz https://hackage.haskell.org/package/czipwith-1.0.1.4/revision/1.cabal -> czipwith-1.0.1.4-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=3388b3e6dbc150ac4c362c50cac02cf4
+_md5_=218b3309ad235c68cb3e9adf48001968
