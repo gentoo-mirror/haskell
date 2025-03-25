@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/safe-exceptions-0.1:=[profile?] <dev-haskell/safe-exceptions-0.2:=[profile?] >=dev-haskell/text-0.7:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/th-env-0.1.0.0:=[profile?] <dev-haskell/th-env-0.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hedgehog dev-haskell/hunit dev-haskell/tasty dev-haskell/tasty-hedgehog dev-haskell/tasty-hunit dev-haskell/temporary ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Get your IO right on the first try
+EAPI=8
+HOMEPAGE=https://github.com/serokell/haskell-with-utf8#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MPL-2.0
+RDEPEND=>=dev-haskell/safe-exceptions-0.1:=[profile?] <dev-haskell/safe-exceptions-0.2:=[profile?] >=dev-haskell/text-0.7:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/th-env-0.1.0.0:=[profile?] <dev-haskell/th-env-0.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.1.0.0
+SRC_URI=https://hackage.haskell.org/package/with-utf8-1.1.0.0/with-utf8-1.1.0.0.tar.gz https://hackage.haskell.org/package/with-utf8-1.1.0.0/revision/2.cabal -> with-utf8-1.1.0.0-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=c67767c3ac18bca1bc55e0f9a894a477

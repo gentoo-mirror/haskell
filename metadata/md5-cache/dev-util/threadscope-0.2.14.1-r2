@@ -11,4 +11,4 @@ RDEPEND=<dev-haskell/cairo-0.14:= <dev-haskell/file-embed-0.1:= >=dev-haskell/gh
 SLOT=0
 SRC_URI=https://hackage.haskell.org/package/threadscope-0.2.14.1/threadscope-0.2.14.1.tar.gz https://hackage.haskell.org/package/threadscope-0.2.14.1/revision/3.cabal -> threadscope-0.2.14.1-rev3.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=87a88f212b80428650d306ce37881c63
+_md5_=b332e5fd160024781cffcf20a6e295e2
