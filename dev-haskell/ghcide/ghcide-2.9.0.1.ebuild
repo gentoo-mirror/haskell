@@ -25,6 +25,10 @@ PATCHES=(
 	"${FILESDIR}/${PN}-2.9.0.0-ghc-9_8_3.patch"
 )
 
+CABAL_CHDEPS=(
+	'Diff                         ^>=0.5' 'Diff >=0.5'
+)
+
 RDEPEND="
 	dev-haskell/aeson:=[profile?]
 	dev-haskell/async:=[profile?]
@@ -35,7 +39,7 @@ RDEPEND="
 	dev-haskell/data-default:=[profile?]
 	dev-haskell/dependent-map:=[profile?]
 	dev-haskell/dependent-sum:=[profile?]
-	>=dev-haskell/diff-0.5:=[profile?] <dev-haskell/diff-0.6:=[profile?]
+	>=dev-haskell/diff-0.5:=[profile?]
 	dev-haskell/dlist:=[profile?]
 	dev-haskell/enummapset:=[profile?]
 	>=dev-haskell/extra-1.7.14:=[profile?]
@@ -48,8 +52,8 @@ RDEPEND="
 	>=dev-haskell/hie-bios-0.14.0:=[profile?] <dev-haskell/hie-bios-0.15:=[profile?]
 	>=dev-haskell/hie-compat-0.3.0.0:=[profile?] <dev-haskell/hie-compat-0.4:=[profile?]
 	>=dev-haskell/hiedb-0.6.0.0:=[profile?] <dev-haskell/hiedb-0.7:=[profile?]
-	~dev-haskell/hls-graph-2.9.0.0:=[profile?]
-	~dev-haskell/hls-plugin-api-2.9.0.0:=[profile?]
+	~dev-haskell/hls-graph-2.9.0.1:=[profile?]
+	~dev-haskell/hls-plugin-api-2.9.0.1:=[profile?]
 	>=dev-haskell/implicit-hie-0.1.4.0:=[profile?] <dev-haskell/implicit-hie-0.1.5:=[profile?]
 	dev-haskell/lens:=[profile?]
 	dev-haskell/list-t:=[profile?]

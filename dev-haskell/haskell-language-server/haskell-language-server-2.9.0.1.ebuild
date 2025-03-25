@@ -58,6 +58,10 @@ PATCHES=(
 	"${FILESDIR}/${PN}-2.9.0.0-add-bench-flags.patch"
 )
 
+CABAL_CHDEPS=(
+	'Diff                  ^>=0.5' 'Diff >=0.5'
+)
+
 CABAL_TEST_REQUIRED_BINS=(
 	haskell-language-server
 )
@@ -70,10 +74,10 @@ RDEPEND="
 	dev-haskell/aeson-pretty:=[profile?]
 	dev-haskell/data-default:=[profile?]
 	>=dev-haskell/extra-1.7.4:=[profile?]
-	~dev-haskell/ghcide-2.9.0.0:=[profile?]
+	~dev-haskell/ghcide-2.9.0.1:=[profile?]
 	>=dev-haskell/githash-0.1.6.1:=[profile?]
 	dev-haskell/hie-bios:=[profile?]
-	~dev-haskell/hls-plugin-api-2.9.0.0:=[profile?]
+	~dev-haskell/hls-plugin-api-2.9.0.1:=[profile?]
 	>=dev-haskell/lsp-2.7:=[profile?] <dev-haskell/lsp-2.8
 	>=dev-haskell/lsp-types-2.3:=[profile?] <dev-haskell/lsp-types-2.4
 	dev-haskell/optparse-applicative:=[profile?]
@@ -106,7 +110,7 @@ RDEPEND="
 		dev-util/shake:=[profile?]
 	)
 	hls_plugins_alternate-number-format? (
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		dev-haskell/regex-tdfa:=[profile?]
 		dev-haskell/syb:=[profile?]
@@ -114,7 +118,7 @@ RDEPEND="
 	hls_plugins_cabal? (
 		>=dev-haskell/cabal-syntax-3.7:=[profile?]
 		dev-haskell/hashable:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		>=dev-haskell/regex-tdfa-1.3.1:=[profile?] <dev-haskell/regex-tdfa-1.4
 		dev-haskell/text-rope:=[profile?]
@@ -139,7 +143,7 @@ RDEPEND="
 	)
 	hls_plugins_class? (
 		dev-haskell/aeson:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		>=dev-haskell/ghc-exactprint-1.5:=[profile?] <dev-haskell/ghc-exactprint-1.10
 		dev-haskell/lens:=[profile?]
 	)
@@ -151,9 +155,9 @@ RDEPEND="
 	)
 	hls_plugins_eval? (
 		dev-haskell/aeson:=[profile?]
-		>=dev-haskell/diff-0.5:=[profile?] <dev-haskell/diff-0.6
+		>=dev-haskell/diff-0.5:=[profile?]
 		dev-haskell/dlist:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		>=dev-haskell/megaparsec-9:=[profile?]
 		>=dev-haskell/parser-combinators-1.2:=[profile?]
@@ -163,7 +167,7 @@ RDEPEND="
 	hls_plugins_explicit-fields? (
 		dev-haskell/aeson:=[profile?]
 		dev-haskell/lens:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/syb:=[profile?]
 	)
 	hls_plugins_explicit-fixity? (
@@ -192,14 +196,14 @@ RDEPEND="
 	)
 	hls_plugins_import-lens? (
 		dev-haskell/aeson:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 	)
 	hls_plugins_module-name? (
 		dev-haskell/aeson:=[profile?]
 	)
 	hls_plugins_notes? (
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		>=dev-haskell/regex-tdfa-1.3.1:=[profile?]
 		dev-haskell/text-rope:=[profile?]
@@ -207,7 +211,7 @@ RDEPEND="
 	)
 	hls_plugins_overloaded-record-dot? (
 		dev-haskell/aeson:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		dev-haskell/syb:=[profile?]
 	)
@@ -222,7 +226,7 @@ RDEPEND="
 	hls_plugins_refactor? (
 		dev-haskell/data-default:=[profile?]
 		dev-haskell/dlist:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		dev-haskell/parser-combinators:=[profile?]
 		dev-haskell/regex-applicative:=[profile?]
@@ -256,7 +260,7 @@ RDEPEND="
 	hls_plugins_semantic-tokens? (
 		dev-haskell/data-default:=[profile?]
 		dev-haskell/dlist:=[profile?]
-		~dev-haskell/hls-graph-2.9.0.0:=[profile?]
+		~dev-haskell/hls-graph-2.9.0.1:=[profile?]
 		dev-haskell/lens:=[profile?]
 		dev-haskell/stm-containers:=[profile?]
 		dev-haskell/syb:=[profile?]
