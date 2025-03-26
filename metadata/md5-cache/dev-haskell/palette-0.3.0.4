@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/colour-2.3:=[profile?] <dev-haskell/colour-3.0:=[profile?] >=dev-haskell/monadrandom-0.5:=[profile?] <dev-haskell/monadrandom-0.7:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Utilities for choosing and creating color schemes
+EAPI=8
+HOMEPAGE=https://diagrams.github.io
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/colour-2.3:=[profile?] <dev-haskell/colour-3.0:=[profile?] >=dev-haskell/monadrandom-0.5:=[profile?] <dev-haskell/monadrandom-0.7:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.3.0.4
+SRC_URI=https://hackage.haskell.org/package/palette-0.3.0.4/palette-0.3.0.4.tar.gz https://hackage.haskell.org/package/palette-0.3.0.4/revision/1.cabal -> palette-0.3.0.4-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=cada53f5bfaa1bee4df59b3af6a031d7

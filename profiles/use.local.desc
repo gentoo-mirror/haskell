@@ -133,6 +133,7 @@ dev-haskell/ghc-check:package-abis - record package abis at compile time for imp
 dev-haskell/ghc-debug-stub:eras - Enable eras
 dev-haskell/ghc-debug-stub:trace - Enable tracing
 dev-haskell/ghc-heap-view:prim-supports-any - The used GHC supports Any as an argument to foreign prim functions (GHC ticket #5931)
+dev-haskell/ghc-lib:threads - Pass -DTHREADED_RTS to the C toolchain
 dev-haskell/ghc-lib-parser:threads - Pass -DTHREADED_RTS to the C toolchain
 dev-haskell/ghc-prof:dump - Build the executable "dump"
 dev-haskell/ghcide:executable - Build the ghcide executable
