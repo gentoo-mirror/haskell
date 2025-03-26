@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/socket-0.7.0.0:=[profile?] <dev-haskell/socket-0.8:=[profile?] >=dev-lang/ghc-7.8.2:= net-misc/lksctp-tools:= >=dev-haskell/cabal-1.18.1.3 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/socket-0.8.0.0:=[profile?] >=dev-lang/ghc-7.8.2:= net-misc/lksctp-tools:= >=dev-haskell/cabal-1.18.1.3 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=STCP socket extensions library
 EAPI=8
 HOMEPAGE=https://github.com/shlevy/haskell-socket-sctp
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=dev-haskell/socket-0.7.0.0:=[profile?] <dev-haskell/socket-0.8:=[profile?] >=dev-lang/ghc-7.8.2:= net-misc/lksctp-tools:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/socket-0.8.0.0:=[profile?] >=dev-lang/ghc-7.8.2:= net-misc/lksctp-tools:= dev-lang/ghc:=[profile?]
 RESTRICT=test !test? ( test )
 SLOT=0/0.3.0.0
 SRC_URI=https://hackage.haskell.org/package/socket-sctp-0.3.0.0/socket-sctp-0.3.0.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=f54c43ed75e9fee9c725773869a778d8
+_md5_=fce83dbd13e8830fed829b5999a83e47
