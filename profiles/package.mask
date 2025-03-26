@@ -1,5 +1,14 @@
 # GdeVolpiano <xavier@wheredoibegin.fr>
 #
+# The current upstream version of dev-haskell/cuda is not compatible with the
+# gentoo's current version of nvidia-cuda-toolkit. Also, nvidia-cuda-toolkit is
+# not available on musl. dev-haskell/cufft depends on dev-haskell/cuda.
+
+dev-haskell/cuda
+dev-haskell/cufft
+
+# GdeVolpiano <xavier@wheredoibegin.fr>
+#
 # Various outdated packages which either fail to build, have been deprecated
 # upstream or depend on other outdated packages. Mask for removal in 30 days.
 #
@@ -412,4 +421,3 @@ dev-util/hdocs
 # P.B. Lecavalier <pbl.ltx@gmail.com> (2020-01-01)
 # Various unrelated packages and what causes the conflict with newer version.
 >=dev-haskell/hsemail-2
->=dev-haskell/ilist-0.4.0.0

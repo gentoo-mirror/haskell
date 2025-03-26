@@ -19,13 +19,16 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="+threads"
 
-RDEPEND="dev-haskell/parsec:=[profile?]
-	>=dev-lang/ghc-9.4.5:= <dev-lang/ghc-9.8.3:=
+RDEPEND="~dev-haskell/ghc-lib-parser-9.8.4.20241130:=[profile?]
+	dev-haskell/parsec:=[profile?]
+	>=dev-lang/ghc-9.8.2:=
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/alex-3.1
-	>=dev-haskell/cabal-3.8.1.0
-	>=dev-haskell/happy-1.19.4
+	>=dev-haskell/cabal-3.10.3.0
+	|| ( ( >=dev-haskell/happy-1.20 <dev-haskell/happy-1.21 )
+		|| ( ( >=dev-haskell/happy-2.1.2 <dev-haskell/happy-2.2 )
+			~dev-haskell/happy-2.0.2 ) )
 "
 
 src_configure() {
