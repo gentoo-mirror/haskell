@@ -329,6 +329,7 @@ dev-haskell/profiteur:embed-data-files - Embed data files into the executable (n
 dev-haskell/publicsuffixlist:create - export Network.PublicSuffixList.Create module
 dev-haskell/publicsuffixlist:runtimelist - read suffix list from dist at startup instead of embedding list into library
 dev-haskell/purebred-email:demos - Build demonstration programs
+dev-haskell/puresat:exe - Build executable
 dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/quickcheck:template-haskell - Build Test.QuickCheck.All, which uses Template Haskell.
 dev-haskell/quickcheck-classes:aeson - You can disable the use of the `aeson` package using `-f-aeson`. This may be useful for accelerating builds in sandboxes for expert users.
@@ -456,6 +457,7 @@ dev-haskell/zip-archive:executable - Build the Zip executable.
 dev-haskell/zlib:bundled-c-zlib - Use the bundled zlib C sources. Requires pkg-config to be False. For windows, this is the default.
 dev-haskell/zlib:non-blocking-ffi - The (de)compression calls can sometimes take a long time, which prevents other Haskell threads running. Enabling this flag avoids this unfairness, but with greater overall cost.
 dev-haskell/zstd:standalone - Use a built-in copy of the zstd library
+dev-haskell/ztail:inotify - Enable inotify support
 dev-haskell/zxcvbn-hs:executable - Build the zxcvbn-tools executable
 dev-lang/cryptol:relocatable - Don't use the Cabal-provided data directory for looking up Cryptol libraries.
 dev-lang/dhall:http - Include support for importing dhall modules from HTTP URLs
