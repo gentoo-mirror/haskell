@@ -130,32 +130,6 @@ app-text/haskell-awk
 
 >=dev-haskell/doctest-0.23
 
-# hololeap <hololeap@protonmail.com> (2025-02-21)
-#
-# These packages are not building with recent GHC versions and have not been
-# updated in years. Mask for removal in 30 days.
-#
-# Removal: 2025-03-23
-dev-haskell/monadloc
-dev-haskell/control-monad-exception
-dev-haskell/bitsyntax
-dev-haskell/base32-bytestring
-dev-haskell/hssyck
-dev-haskell/yaml-light
-dev-haskell/persistent-relational-record
-
-# hololeap <hololeap@protonmail.com> (2025-02-21)
-#
-# Upstream package has not had an update since 2013. If you try to use it,
-# you get various "undefined reference" linker errors, likely because it was
-# built with a much older version of sys-libs/readline in mind. Mask for
-# removal in 30 days.
-#
-# Removal: 2025-03-23
-dev-haskell/readline
-dev-haskell/shellac-readline
-dev-haskell/shellac-compatline
-
 # hololeap <hololeap@protonmail.com> (2025-02-14)
 #
 # Mask hls-*-plugin packages. These are needed because of a bug in musl setups
@@ -206,28 +180,6 @@ dev-haskell/web-routes-hsp
 # Removal on 2025-03-13.
 dev-haskell/monadcryptorandom
 
-# Jack Todaro <solpeth@posteo.org> (2025-02-09)
-# Unmaintained upstream, does not build on newer ghc.
-# Removal on 2025-03-11.
-app-text/pdfsplit
-
-# Jack Todaro <solpeth@posteo.org> (2025-02-09)
-# Unmaintained, does not build on newer ghc.
-# Removal on 2025-03-11.
-dev-haskell/pdfinfo
-
-# Jack Todaro <solpeth@posteo.org> (2025-02-09)
-# Unmaintained since 2016. Does not build with newer ghc.
-# Removal on 2025-03-11.
-dev-haskell/data-lens-template
-
-# Jack Todaro <solpeth@posteo.org> (2025-02-08)
-# No upstream development. Does not work on newer GHC. Mask for
-# removal.
-# Removal on 2025-03-10.
-dev-haskell/gpipe
-dev-haskell/gpipe-glfw
-
 # Jack Todaro <solpeth@posteo.org> (2025-02-08)
 # Packages depend on HSOpenSSL, which does not currently build against
 # openssl-3. Upstream is yet to rectify this matter, and other packages
@@ -248,14 +200,6 @@ dev-haskell/http-streams
 dev-haskell/openssl-streams
 dev-haskell/tcp-streams-openssl
 net-irc/glirc
-
-# Jack Todaro <solpeth@posteo.org> (2025-02-07)
-# Dead upstream. Mask for removal.
-# Removal on 2025-03-09.
-www-apps/clckwrks
-www-apps/clckwrks-cli
-www-apps/clckwrks-plugin-media
-www-apps/clckwrks-plugin-page
 
 # Jack Todaro <solpeth@posteo.org> (2025-02-03)
 # Too many packages require <tasty-1.5. Mask until ready.
