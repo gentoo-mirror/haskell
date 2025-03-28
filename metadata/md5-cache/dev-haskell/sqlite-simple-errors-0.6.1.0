@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/parsec-3.1.9:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-haskell/sqlite-simple-0.4.9:=[profile?] <dev-haskell/sqlite-simple-0.5.0:=[profile?] >=dev-haskell/text-1.2:=[profile?] >=dev-lang/ghc-7.6.1:= >=dev-haskell/cabal-1.16.0 test? ( >=dev-haskell/mtl-2.1 <dev-haskell/mtl-2.3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/parsec-3.1.9:=[profile?] <dev-haskell/parsec-3.2:=[profile?] >=dev-haskell/sqlite-simple-0.4.9:=[profile?] <dev-haskell/sqlite-simple-0.5.0:=[profile?] >=dev-haskell/text-1.2:=[profile?] >=dev-lang/ghc-7.6.1:= >=dev-haskell/cabal-1.16.0 test? ( >=dev-haskell/mtl-2.1 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Light wrapper around errors from sqlite-simple
 EAPI=8
 HOMEPAGE=https://github.com/caneroj1/sqlite-simple-errors
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.6.1.0
 SRC_URI=https://hackage.haskell.org/package/sqlite-simple-errors-0.6.1.0/sqlite-simple-errors-0.6.1.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=89369d529f7a7d66b8c54d9f53ea3cdf
+_md5_=bb53328cab313730b36559b3881ef90f

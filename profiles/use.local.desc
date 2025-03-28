@@ -308,6 +308,12 @@ dev-haskell/parsec-numbers:parsec1 - use dev-haskell/parsec1 instead of dev-hask
 dev-haskell/parsers:attoparsec - You can disable the use of the `attoparsec` package using `-f-attoparsec`.
 dev-haskell/parsers:binary - You can disable the use of the `binary` package using `-f-binary`.
 dev-haskell/parsers:parsec - You can disable the use of the `parsec` package using `-f-parsec`.
+dev-haskell/password:argon2 - Compile with Argon2 support?
+dev-haskell/password:bcrypt - Compile with bcrypt support?
+dev-haskell/password:crypton - Use the [crypton] library as the cryptographic backend. (Does nothing since version 3.1.0.0; might be removed in a future major version)
+dev-haskell/password:cryptonite - Use the [cryptonite] library as the cryptographic backend.
+dev-haskell/password:pbkdf2 - Compile with PBKDF2 support?
+dev-haskell/password:scrypt - Compile with scrypt support?
 dev-haskell/persistent-mongodb:high-precision-date - for MongoDB use a time storage with nano second precision.
 dev-haskell/persistent-odbc:tester - Enable test
 dev-haskell/persistent-relational-record:test-examples - Test examples
@@ -461,7 +467,6 @@ dev-haskell/xeno:whitespace-around-equals - Correctly parse whitespace around th
 dev-haskell/xlsx:microlens - Use microlens instead of lens
 dev-haskell/yaml:executable - Install the yaml2json and json2yaml executables
 dev-haskell/yesod-form:network-uri - Get Network.URI from the network-uri package
-dev-haskell/yesod-paginator:examples - Build the examples
 dev-haskell/zip:bzip2 - Depend on bzip2 C library and hence support BZip2 entries.
 dev-haskell/zip:dev - Turn on development settings.
 dev-haskell/zip:zstd - Depend on zstd C library and hence support Zstandard entries.

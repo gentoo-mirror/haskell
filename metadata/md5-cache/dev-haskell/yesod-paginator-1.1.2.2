@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/blaze-markup-0.8.2.2:=[profile?] >=dev-haskell/path-pieces-0.2.1:=[profile?] >=dev-haskell/persistent-2.8.2:=[profile?] >=dev-haskell/safe-0.3.17:=[profile?] >=dev-haskell/text-1.2.3.1:=[profile?] >=dev-haskell/uri-encode-1.5.0.5:=[profile?] >=dev-haskell/yesod-core-1.6.9:=[profile?] >=dev-lang/ghc-9.0.2:= examples? ( >=dev-haskell/warp-3.2.25:=[profile?] >=dev-haskell/yesod-1.6.0:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/doctest-0.16.0.1 >=dev-haskell/hspec-2.5.5 >=dev-haskell/quickcheck-2.11.3 >=dev-haskell/quickcheck-classes-0.4.13 >=dev-haskell/yesod-test-1.6.5.1 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A pagination approach for yesod
+EAPI=8
+HOMEPAGE=https://github.com/pbrisbin/yesod-paginator
+INHERIT=haskell-cabal
+IUSE=examples doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/blaze-markup-0.8.2.2:=[profile?] >=dev-haskell/path-pieces-0.2.1:=[profile?] >=dev-haskell/persistent-2.8.2:=[profile?] >=dev-haskell/safe-0.3.17:=[profile?] >=dev-haskell/text-1.2.3.1:=[profile?] >=dev-haskell/uri-encode-1.5.0.5:=[profile?] >=dev-haskell/yesod-core-1.6.9:=[profile?] >=dev-lang/ghc-9.0.2:= examples? ( >=dev-haskell/warp-3.2.25:=[profile?] >=dev-haskell/yesod-1.6.0:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.1.2.2
+SRC_URI=https://hackage.haskell.org/package/yesod-paginator-1.1.2.2/yesod-paginator-1.1.2.2.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=b47933c32f9562c650c89550dea59a4b
