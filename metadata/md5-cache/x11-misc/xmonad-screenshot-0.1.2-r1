@@ -12,4 +12,4 @@ RDEPEND=>=dev-haskell/gtk-0.12.3:=[profile?] >=dev-lang/ghc-8.4.3:= >=x11-wm/xmo
 SLOT=0/0.1.2
 SRC_URI=https://hackage.haskell.org/package/xmonad-screenshot-0.1.2/xmonad-screenshot-0.1.2.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=49fefcc3796eccc7140e6c716371bb0d
+_md5_=532f9a0a2119c7ab24242771a4bc0165

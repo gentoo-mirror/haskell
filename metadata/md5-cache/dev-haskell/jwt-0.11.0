@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-0.7:=[profile?] >=dev-haskell/cryptonite-0.6:=[profile?] >=dev-haskell/cryptostore-0.2:=[profile?] >=dev-haskell/http-types-0.8:=[profile?] >=dev-haskell/memory-0.8:=[profile?] dev-haskell/network-uri:=[profile?] >=dev-haskell/scientific-0.2:=[profile?] >=dev-haskell/semigroups-0.15.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] >=dev-haskell/vector-0.7.1:=[profile?] dev-haskell/x509:=[profile?] dev-haskell/x509-store:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.20 dev-haskell/hunit dev-haskell/lens dev-haskell/lens-aeson >=dev-haskell/quickcheck-2.4.0.1 >=dev-haskell/tasty-0.7 >=dev-haskell/tasty-hunit-0.4 >=dev-haskell/tasty-quickcheck-0.3 >=dev-haskell/tasty-th-0.1 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-0.7:=[profile?] >=dev-haskell/cryptonite-0.6:=[profile?] >=dev-haskell/cryptostore-0.2:=[profile?] >=dev-haskell/http-types-0.8:=[profile?] >=dev-haskell/memory-0.8:=[profile?] dev-haskell/network-uri:=[profile?] >=dev-haskell/scientific-0.2:=[profile?] >=dev-haskell/semigroups-0.15.4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] >=dev-haskell/vector-0.7.1:=[profile?] dev-haskell/x509:=[profile?] dev-haskell/x509-store:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( >=dev-haskell/doctest-0.20 dev-haskell/hunit dev-haskell/lens dev-haskell/lens-aeson >=dev-haskell/quickcheck-2.4.0.1 >=dev-haskell/tasty-0.7 >=dev-haskell/tasty-hunit-0.4 >=dev-haskell/tasty-quickcheck-0.3 >=dev-haskell/tasty-th-0.1 dev-haskell/cabal-doctest dev-haskell/base-compat ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=JSON Web Token (JWT) decoding and encoding
 EAPI=8
 HOMEPAGE=https://github.com/puffnfresh/haskell-jwt
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.11.0
 SRC_URI=https://hackage.haskell.org/package/jwt-0.11.0/jwt-0.11.0.tar.gz https://hackage.haskell.org/package/jwt-0.11.0/revision/1.cabal -> jwt-0.11.0-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=603d55a62cc8308395f0847761e06719
+_md5_=77655a83927c30b578b93862e59b6e5e
