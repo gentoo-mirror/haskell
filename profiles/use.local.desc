@@ -233,6 +233,7 @@ dev-haskell/hsyslog:install-examples - Build and install example programs
 dev-haskell/htf:executable - Build the htfpp executable
 dev-haskell/http-api-data:text-show - Use text-show library for efficient ToHttpApiData implementations.
 dev-haskell/http-client-openssl:test-proxy - Test with http-proxy
+dev-haskell/http3:devel - Development commands
 dev-haskell/httpd-shed:buildexamples - Build example executables.
 dev-haskell/hvega:tools - Build associated tools (in general you won't need this)
 dev-haskell/hw-prim:bounds-checking - Enable bmi2 instruction set
@@ -346,6 +347,8 @@ dev-haskell/publicsuffixlist:runtimelist - read suffix list from dist at startup
 dev-haskell/purebred-email:demos - Build demonstration programs
 dev-haskell/puresat:exe - Build executable
 dev-haskell/pyf:python-test - Enable extensive python testing
+dev-haskell/quic:devel - Development commands
+dev-haskell/quic:fusion - Use fusion AES-GCM engine from picotls
 dev-haskell/quickcheck:template-haskell - Build Test.QuickCheck.All, which uses Template Haskell.
 dev-haskell/quickcheck-classes:aeson - You can disable the use of the `aeson` package using `-f-aeson`. This may be useful for accelerating builds in sandboxes for expert users.
 dev-haskell/quickcheck-classes:binary-laws - Include infrastructure for testing class laws of binary type constructors. It is required that this flag match the value that the `unary-laws` flag was given when building `quickcheck-classes-base`. Disabling `unary-laws` while keeping `binary-laws` enabled is an unsupported configuration.
@@ -516,6 +519,8 @@ sci-mathematics/agda:enable-cluster-counting - Enable the --count-clusters flag.
 sci-mathematics/agda:optimise-heavily - Enable some expensive optimisations when compiling Agda.
 sci-mathematics/agda:stdlib - Install the standard library.
 www-apps/gitit:plugins - Compile in support for plugins. This will increase the size of the executable and the memory it uses, so those who will not need plugins should disable this flag.
+www-servers/mighttpd2:dhall - Support Dhall
+www-servers/mighttpd2:quic - Support HTTP over QUIC (HTTP/3).
 www-servers/mighttpd2:tls - HTTPS support.
 x11-misc/gtk-sni-tray:executable - Build the gtk-sni-tray-standalone executable
 x11-misc/taffybar:cryptocurrency - Enable crypto assets widget.

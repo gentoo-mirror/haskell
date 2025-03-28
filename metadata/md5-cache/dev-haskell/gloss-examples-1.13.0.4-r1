@@ -1,0 +1,14 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/bmp-1.2:= <dev-haskell/bmp-1.3:= >=dev-haskell/gloss-1.13:= <dev-haskell/gloss-1.14:= >=dev-haskell/gloss-algorithms-1.13:= <dev-haskell/gloss-algorithms-1.14:= >=dev-haskell/gloss-raster-1.13:= <dev-haskell/gloss-raster-1.14:= >=dev-haskell/random-1.2:= <dev-haskell/random-1.3:= >=dev-haskell/repa-3.4:= <dev-haskell/repa-3.5:= >=dev-haskell/repa-algorithms-3.4:= <dev-haskell/repa-algorithms-3.5:= >=dev-haskell/repa-io-3.4:= <dev-haskell/repa-io-3.5:= >=dev-haskell/vector-0.11:= >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1
+DESCRIPTION=Examples using the gloss library
+EAPI=8
+HOMEPAGE=https://gloss.ouroborus.net
+INHERIT=haskell-cabal
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-haskell/bmp-1.2:= <dev-haskell/bmp-1.3:= >=dev-haskell/gloss-1.13:= <dev-haskell/gloss-1.14:= >=dev-haskell/gloss-algorithms-1.13:= <dev-haskell/gloss-algorithms-1.14:= >=dev-haskell/gloss-raster-1.13:= <dev-haskell/gloss-raster-1.14:= >=dev-haskell/random-1.2:= <dev-haskell/random-1.3:= >=dev-haskell/repa-3.4:= <dev-haskell/repa-3.5:= >=dev-haskell/repa-algorithms-3.4:= <dev-haskell/repa-algorithms-3.5:= >=dev-haskell/repa-io-3.4:= <dev-haskell/repa-io-3.5:= >=dev-haskell/vector-0.11:= >=dev-lang/ghc-8.4.3:=
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/gloss-examples-1.13.0.4/gloss-examples-1.13.0.4.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=782ba0a3194f26c437a34d1f16b03fad
