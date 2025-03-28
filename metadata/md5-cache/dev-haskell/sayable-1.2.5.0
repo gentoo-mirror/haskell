@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/prettyprinter-1.7:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] dev-haskell/text:=[profile?] dev-haskell/th-abstraction:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hspec >=dev-haskell/tasty-1.4 <dev-haskell/tasty-1.6 >=dev-haskell/tasty-ant-xml-1.1 <dev-haskell/tasty-ant-xml-1.2 >=dev-haskell/tasty-hspec-1.2 <dev-haskell/tasty-hspec-1.3 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Construction of context-adjusted pretty output
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/sayable
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=ISC
+RDEPEND=>=dev-haskell/prettyprinter-1.7:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] dev-haskell/text:=[profile?] dev-haskell/th-abstraction:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.2.5.0
+SRC_URI=https://hackage.haskell.org/package/sayable-1.2.5.0/sayable-1.2.5.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=48843000da7a06c4f099d57d7c69b50d

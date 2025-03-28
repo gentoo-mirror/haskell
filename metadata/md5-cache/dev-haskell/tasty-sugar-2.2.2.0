@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/filemanip-0.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/kvitable-1.1.0.0:=[profile?] <dev-haskell/kvitable-1.2:=[profile?] >=dev-haskell/logict-0.7.0.3:=[profile?] <dev-haskell/logict-0.9:=[profile?] >=dev-haskell/microlens-0.4:=[profile?] <dev-haskell/microlens-0.5:=[profile?] >=dev-haskell/optparse-applicative-0.15:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?] >=dev-haskell/parallel-3.2:=[profile?] <dev-haskell/parallel-3.3:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/tasty-1.2:=[profile?] <dev-haskell/tasty-1.6:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hedgehog-1.1 >=dev-haskell/pretty-show-1.9 <dev-haskell/pretty-show-1.11 >=dev-haskell/raw-strings-qq-1.1 <dev-haskell/raw-strings-qq-1.2 >=dev-haskell/tasty-hedgehog-1.4 <dev-haskell/tasty-hedgehog-1.5 >=dev-haskell/tasty-hunit-0.10 <dev-haskell/tasty-hunit-0.11 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Tests defined by Search Using Golden Answer References
+EAPI=8
+HOMEPAGE=https://github.com/kquick/tasty-sugar
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=ISC
+RDEPEND=>=dev-haskell/filemanip-0.3:=[profile?] <dev-haskell/filemanip-0.4:=[profile?] >=dev-haskell/kvitable-1.1.0.0:=[profile?] <dev-haskell/kvitable-1.2:=[profile?] >=dev-haskell/logict-0.7.0.3:=[profile?] <dev-haskell/logict-0.9:=[profile?] >=dev-haskell/microlens-0.4:=[profile?] <dev-haskell/microlens-0.5:=[profile?] >=dev-haskell/optparse-applicative-0.15:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?] >=dev-haskell/parallel-3.2:=[profile?] <dev-haskell/parallel-3.3:=[profile?] >=dev-haskell/prettyprinter-1.7.0:=[profile?] <dev-haskell/prettyprinter-1.8:=[profile?] >=dev-haskell/tasty-1.2:=[profile?] <dev-haskell/tasty-1.6:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/2.2.2.0
+SRC_URI=https://hackage.haskell.org/package/tasty-sugar-2.2.2.0/tasty-sugar-2.2.2.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=af3cc76214377224a8052a68caca92bc

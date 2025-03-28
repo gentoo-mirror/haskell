@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/quickcheck-2.8 <dev-haskell/quickcheck-2.15 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell interface to GMP
+EAPI=8
+HOMEPAGE=https://code.mathr.co.uk/hgmp
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.2.1
+SRC_URI=https://hackage.haskell.org/package/hgmp-0.1.2.1/hgmp-0.1.2.1.tar.gz https://hackage.haskell.org/package/hgmp-0.1.2.1/revision/2.cabal -> hgmp-0.1.2.1-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=1e2e257bf8b6937321188c2449a1dd3c

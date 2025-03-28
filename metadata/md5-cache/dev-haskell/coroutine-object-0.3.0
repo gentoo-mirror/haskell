@@ -12,4 +12,4 @@ RDEPEND=>=dev-haskell/either-3.1:=[profile?] >=dev-haskell/free-4.0:=[profile?] 
 SLOT=0/0.3.0
 SRC_URI=https://hackage.haskell.org/package/coroutine-object-0.3.0/coroutine-object-0.3.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
-_md5_=ac375070eb546ada39f0a13763a207d8
+_md5_=9f8db2933e85f4c8e11b8c89ab37c7ca

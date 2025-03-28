@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/bitwise-1.0.0:=[profile?] <dev-haskell/bitwise-1.1:=[profile?] >=dev-haskell/panic-0.4.0:=[profile?] <dev-haskell/panic-0.5:=[profile?] >=dev-haskell/parameterized-utils-2.0.2:=[profile?] <dev-haskell/parameterized-utils-2.2:=[profile?] >=dev-haskell/random-1.2.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-haskell/th-lift-0.8.1:=[profile?] <dev-haskell/th-lift-0.9:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hedgehog >=dev-haskell/monadrandom-0.5.3 <dev-haskell/monadrandom-0.7 >=dev-haskell/tasty-1.2.3 <dev-haskell/tasty-1.6 >=dev-haskell/tasty-hedgehog-1.2 <dev-haskell/tasty-hedgehog-1.5 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=a bitvector datatype that is parameterized by the vector width
+EAPI=8
+HOMEPAGE=https://github.com/GaloisInc/bv-sized
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/bitwise-1.0.0:=[profile?] <dev-haskell/bitwise-1.1:=[profile?] >=dev-haskell/panic-0.4.0:=[profile?] <dev-haskell/panic-0.5:=[profile?] >=dev-haskell/parameterized-utils-2.0.2:=[profile?] <dev-haskell/parameterized-utils-2.2:=[profile?] >=dev-haskell/random-1.2.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-haskell/th-lift-0.8.1:=[profile?] <dev-haskell/th-lift-0.9:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.0.6
+SRC_URI=https://hackage.haskell.org/package/bv-sized-1.0.6/bv-sized-1.0.6.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=36b60575db1165f7473802a4718ce6af
