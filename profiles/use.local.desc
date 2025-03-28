@@ -359,7 +359,7 @@ dev-haskell/repa:no-template-haskell - Disable Template Haskell
 dev-haskell/rere:cfg - CFG functionality, adds dependency on fin and vec
 dev-haskell/rere:intersection - Add intersection constructor. EXPERIMENTAL
 dev-haskell/retrie:executable - build the retrie executable
-dev-haskell/s-cargot:build-example - Build example application
+dev-haskell/s-cargot:example - Build example application
 dev-haskell/sample-frame:buildbenchmarks - Build benchmark executables
 dev-haskell/sandi:conduit - Build with conduit
 dev-haskell/sbv:skip-hlint-tester - Do not build the HLint tester
