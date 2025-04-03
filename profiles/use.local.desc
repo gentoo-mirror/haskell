@@ -9,6 +9,8 @@ app-office/hledger-web:library-only - Build for use with "yesod devel"
 app-office/hledger-web:threaded - Build with support for multithreaded execution.
 app-portage/hackport:profile - Enable profiling flags
 app-portage/hackport:threads - Enable threading and rtsopts
+app-portage/random-build:profile - Enable profiling flags
+app-portage/random-build:threads - Enable threading and rtsopts
 app-text/pandoc-cli:lua - Support custom modifications and conversions with the pandoc Lua scripting engine.
 app-text/pandoc-cli:nightly - Add '-nightly-COMPILEDATE' to the output of '--version'.
 app-text/pandoc-cli:server - Include support for running pandoc as an HTTP server.
