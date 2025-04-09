@@ -510,7 +510,7 @@ dev-haskell/diagrams-canvas 1.4.2: HTML5 canvas backend for diagrams drawing EDS
 dev-haskell/diagrams-contrib 1.4.6: Collection of user contributions to diagrams EDSL
 dev-haskell/diagrams-core 1.5.1.1: Core libraries for diagrams EDSL
 dev-haskell/diagrams-gtk 1.4-r1: Backend for rendering diagrams directly to GTK windows
-dev-haskell/diagrams-lib 1.4.7: Embedded domain-specific language for declarative graphics
+dev-haskell/diagrams-lib 1.4.7-r1: Embedded domain-specific language for declarative graphics
 dev-haskell/diagrams-pgf 1.4.2.1-r1: PGF backend for diagrams drawing EDSL
 dev-haskell/diagrams-postscript 1.5.2: Postscript backend for diagrams drawing EDSL
 dev-haskell/diagrams-rasterific 1.4.3: Rasterific backend for diagrams
