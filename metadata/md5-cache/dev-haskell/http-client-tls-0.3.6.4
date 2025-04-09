@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/case-insensitive:=[profile?] dev-haskell/crypton:=[profile?] dev-haskell/crypton-connection:=[profile?] dev-haskell/data-default:=[profile?] >=dev-haskell/http-client-0.7.11:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/network:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/tls-1.2:=[profile?] >=dev-haskell/tls-2.1.2:=[profile?] >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hspec ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=http-client backend using the connection package and tls library
+EAPI=8
+HOMEPAGE=https://github.com/snoyberg/http-client
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/case-insensitive:=[profile?] dev-haskell/crypton:=[profile?] dev-haskell/crypton-connection:=[profile?] dev-haskell/data-default:=[profile?] >=dev-haskell/http-client-0.7.11:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/network:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/tls-1.2:=[profile?] >=dev-haskell/tls-2.1.2:=[profile?] dev-lang/ghc:=[profile?]
+RESTRICT=test !test? ( test )
+SLOT=0/0.3.6.4
+SRC_URI=https://hackage.haskell.org/package/http-client-tls-0.3.6.4/http-client-tls-0.3.6.4.tar.gz https://hackage.haskell.org/package/http-client-tls-0.3.6.4/revision/2.cabal -> http-client-tls-0.3.6.4-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_md5_=5c24eec6f89af16926be05350d4acc2d

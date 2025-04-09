@@ -1080,7 +1080,7 @@ dev-haskell/http-client-conduit 0.3.0: Frontend support for using http-client wi
 dev-haskell/http-client-multipart 0.3.0.0: Generate multipart uploads for http-client. (deprecated)
 dev-haskell/http-client-openssl 0.3.0.0: http-client backend using the OpenSSL library
 dev-haskell/http-client-restricted 0.1.0: restricting the servers that http-client will use
-dev-haskell/http-client-tls 0.3.6.3: http-client backend using the connection package and tls library
+dev-haskell/http-client-tls 0.3.6.4: http-client backend using the connection package and tls library
 dev-haskell/http-common 0.8.3.4: Common types for HTTP clients and servers
 dev-haskell/http-conduit 2.3.9.1-r1: HTTP client package with conduit interface and HTTPS support
 dev-haskell/http-date 0.0.11: HTTP Date parser/formatter
