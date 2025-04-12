@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/extra-1.4.7:= >=dev-haskell/parsec-3.1:= <dev-haskell/pars
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://downloads.haskell.org/ghc/9.6.4/ghc-9.6.4-src.tar.xz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=9b6285dbe092490603bba920a6d02b47

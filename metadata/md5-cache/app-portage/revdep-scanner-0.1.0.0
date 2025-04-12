@@ -10,5 +10,5 @@ LICENSE=GPL-3+
 RDEPEND=>=dev-haskell/conduit-1.3.0:= <dev-haskell/conduit-1.4:= >=dev-haskell/conduit-extra-1.1.12:= <dev-haskell/conduit-extra-1.4:= >=dev-haskell/parsable-0.1:= <dev-haskell/parsable-0.2:= >=dev-haskell/parsec-3.1:= <dev-haskell/parsec-3.2:= >=dev-haskell/portage-hs-0.1:= <dev-haskell/portage-hs-0.2:= >=dev-haskell/pretty-simple-4.1.1.0:= <dev-haskell/pretty-simple-4.2:= >=dev-haskell/text-1.2.5.0:= <dev-haskell/text-2.2:= >=dev-haskell/unordered-containers-0.2:= <dev-haskell/unordered-containers-0.3:= >=dev-lang/ghc-9.2.6:= sys-apps/pkgcore
 SLOT=0
 SRC_URI=https://github.com/gentoo-haskell/revdep-scanner/releases/download/revdep-scanner-0.1.0.0/revdep-scanner-0.1.0.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=a3fbad79553fa5b6fe663a2d5ca8818f

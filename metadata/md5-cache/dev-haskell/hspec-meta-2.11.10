@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/ansi-terminal-0.6.2:=[profile?] >=dev-haskell/call-stack-0.2.0:=[profile?] dev-haskell/haskell-lexer:=[profile?] >=dev-haskell/hspec-expectations-0.8.4:=[profile?] <dev-haskell/hspec-expectations-0.8.5:=[profile?] >=dev-haskell/hunit-1.6:=[profile?] <dev-haskell/hunit-1.7:=[profile?] >=dev-haskell/quickcheck-2.13.1:=[profile?] <dev-haskell/quickcheck-2.16:=[profile?] >=dev-haskell/quickcheck-io-0.2.0:=[profile?] dev-haskell/random:=[profile?] dev-haskell/tf-random:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/2.11.10
 SRC_URI=https://hackage.haskell.org/package/hspec-meta-2.11.10/hspec-meta-2.11.10.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=b143431db90aa2c76c96d97ec5a3435a

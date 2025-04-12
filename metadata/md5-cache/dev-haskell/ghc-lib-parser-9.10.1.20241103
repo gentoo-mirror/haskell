@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/parsec:=[profile?] >=dev-lang/ghc-9.6.2:= dev-lang/ghc:=[profile?]
 SLOT=0/9.10.1.20241103
 SRC_URI=https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20241103/ghc-lib-parser-9.10.1.20241103.tar.gz https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20241103/revision/2.cabal -> ghc-lib-parser-9.10.1.20241103-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	91c151c7c4674cac3cf13313d653e1f3
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=ee781a6de0e299883c390c248dd5c0d6
