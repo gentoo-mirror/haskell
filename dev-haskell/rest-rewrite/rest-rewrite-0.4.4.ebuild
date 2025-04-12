@@ -47,4 +47,6 @@ pkg_postinst() {
 	optfeature_header "This library uses external executables for certain features"
 	optfeature "SAT solving" sci-mathematics/z3
 	optfeature "graph output" media-gfx/graphviz
+
+	haskell-cabal_pkg_postinst
 }
