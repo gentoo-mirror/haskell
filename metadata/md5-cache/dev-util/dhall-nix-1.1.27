@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=<dev-haskell/data-fix-0.4:=[profile?] >=dev-haskell/hnix-0.16:=[profile?] <dev-haskell/hnix-0.18:=[profile?] >=dev-haskell/lens-family-core-1.0.0:=[profile?] <dev-haskell/lens-family-core-2.2:=[profile?] <dev-haskell/neat-interpolation-0.6:=[profile?] >=dev-haskell/optparse-generic-1.1.1:=[profile?] <dev-haskell/optparse-generic-1.6:=[profile?] >=dev-haskell/text-0.8.0.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/dhall-1.42:=[profile?] <dev-lang/dhall-1.43:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/1.1.27
 SRC_URI=https://hackage.haskell.org/package/dhall-nix-1.1.27/dhall-nix-1.1.27.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=628e9f829974c5ea36c198beade7d404

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/amazonka-core-2.0:=[profile?] <dev-haskell/amazonka-core-2
 RESTRICT=!test? ( test )
 SLOT=0/2.0
 SRC_URI=https://hackage.haskell.org/package/amazonka-lambda-2.0/amazonka-lambda-2.0.tar.gz https://hackage.haskell.org/package/amazonka-lambda-2.0/revision/1.cabal -> amazonka-lambda-2.0-rev1.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=e56f50ecacef047050a3a51c19194db1

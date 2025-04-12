@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-haskell/sdl:=[profile?] >=dev-lang/ghc-7.4.1:= media-libs/sdl-mixer:= dev-lang/ghc:=[profile?]
 SLOT=0/0.6.3.0
 SRC_URI=https://hackage.haskell.org/package/SDL-mixer-0.6.3.0/SDL-mixer-0.6.3.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=509f8202b4fa85c5e01d23b6e3ec1998
