@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/data-default-0.8:=[profile?] <dev-haskell/data-default-0.9:=[profile?] >=dev-haskell/lens-3.0:=[profile?] <dev-haskell/lens-5.4:=[profile?] >=dev-haskell/linear-1.10:=[profile?] <dev-haskell/linear-1.24:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Simple force-directed layout
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/force-layout
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/data-default-0.8:=[profile?] <dev-haskell/data-default-0.9:=[profile?] >=dev-haskell/lens-3.0:=[profile?] <dev-haskell/lens-5.4:=[profile?] >=dev-haskell/linear-1.10:=[profile?] <dev-haskell/linear-1.24:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+SLOT=0/0.4.1
+SRC_URI=https://hackage.haskell.org/package/force-layout-0.4.1/force-layout-0.4.1.tar.gz https://hackage.haskell.org/package/force-layout-0.4.1/revision/2.cabal -> force-layout-0.4.1-rev2.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=049ce250d977fdb732be528cd6e6792e
