@@ -1,3 +1,62 @@
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# no activity upstream for 8 years. Depends on deprecated
+# Control.Monad.Trans.List
+#
+# Removal: 2025-05-14
+
+dev-haskell/monad-journal
+
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# no activity upstream for 4 years. Fails tests
+#
+# Removal: 2025-05-14
+
+dev-haskell/type-errors-pretty
+
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# no activity upstream for 6 years. Doesn't compile
+#
+# Removal: 2025-05-14
+
+dev-haskell/hs-duktape
+
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# deprecated
+#
+# Removal: 2025-05-14
+
+dev-haskell/qr-imager
+
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# dead upstream
+#
+# Removal: 2025-05-14
+
+dev-haskell/bits-atomic
+
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# no activity upstream for 5 years. Fails tests
+#
+# Removal: 2025-05-14
+
+dev-haskell/semver-range
+
+# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
+#
+# depends on dev-haskell/haskell-mode, which has been pruned.
+# Also, as for vim, package managers are not the modern way
+# to install emacs modes
+#
+# Removal: 2025-05-14
+
+app-emacs/idris-mode
+
 # GuillaumedeVolpiano <xavier@wheredoibegin.fr> (2025-04-12)
 #
 # data-default-instances have been integrated in data-default-0.8
