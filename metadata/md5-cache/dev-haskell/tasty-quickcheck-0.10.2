@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/optparse-applicative:=[profile?] >=dev-haskell/quickcheck-2.10:=[profile?] dev-haskell/random:=[profile?] dev-haskell/tagged:=[profile?] >=dev-haskell/tasty-1.0.1:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 test? ( dev-haskell/pcre-light dev-haskell/tasty-hunit ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=QuickCheck support for the Tasty test framework
+EAPI=8
+HOMEPAGE=https://github.com/UnkindPartition/tasty
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=MIT
+RDEPEND=dev-haskell/optparse-applicative:=[profile?] >=dev-haskell/quickcheck-2.10:=[profile?] dev-haskell/random:=[profile?] dev-haskell/tagged:=[profile?] >=dev-haskell/tasty-1.0.1:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.10.2
+SRC_URI=https://hackage.haskell.org/package/tasty-quickcheck-0.10.2/tasty-quickcheck-0.10.2.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=f00fcf8e82dd8ff3bd4d1b277f02e7b4
