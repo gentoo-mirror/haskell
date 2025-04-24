@@ -110,6 +110,7 @@ dev-haskell/doctest:cabal-doctest - Install (experimental) cabal-doctest executa
 dev-haskell/doctest-driver-gen:executable - Build the doctest-driver-gen executable
 dev-haskell/ede:attoparsecaeson - Build attoparsec-aeson.
 dev-haskell/effectful:benchmark-foreign-libraries - Include other effect libraries in the benchmarks.
+dev-haskell/encoding:generate-encodings - Generate encodings.
 dev-haskell/entropy:donotgetentropy - Avoid use of the getentropy() *nix function. By default getentropy will be used if detected during compilation (this plays poorly with cross compilation).
 dev-haskell/extensible:barbies - "define instances for barbies"
 dev-haskell/extensible:cassava - "define instances for cassava"
