@@ -50,6 +50,7 @@ dev-haskell/bytebuild:checked - Add bounds-checking to primitive array operation
 dev-haskell/bytedump:executable - build executable file
 dev-haskell/bzlib-conduit:system-bzip2 - Use system bzip2 instead of bundled sources
 dev-haskell/c2hs:regression - Enable regression suite build.
+dev-haskell/cabal-gild:pedantic - 
 dev-haskell/cabal-install:debug-conflict-sets - Add additional information to ConflictSets
 dev-haskell/cabal-install:lukko - Use @lukko@ for file-locking
 dev-haskell/cabal-install:native-dns - Enable use of the [resolv](https://hackage.haskell.org/package/resolv) & [windns](https://hackage.haskell.org/package/windns) packages for performing DNS lookups
@@ -175,6 +176,7 @@ dev-haskell/hashtables:detailed-profiling - add detailed profiling information t
 dev-haskell/haskeline:terminfo - Use the terminfo package for POSIX consoles.
 dev-haskell/haskell-language-server:ghcide-bench - Build the ghcide-bench executable
 dev-haskell/haskell-language-server:ghcide-bench-lib - Build the ghcide-bench-lib library
+dev-haskell/haskell-language-server:ghcide-test-exe - Build the ghcide-test-preprocessor executable
 dev-haskell/haskell-language-server:hls_plugins_alternate-number-format - Enable Alternate Number Format plugin
 dev-haskell/haskell-language-server:hls_plugins_cabal - Enable cabal plugin
 dev-haskell/haskell-language-server:hls_plugins_cabal-fmt - Enable cabalfmt plugin

@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/parsec:=[profile?] >=dev-lang/ghc-9.6.2:= >=dev-haskell/alex-3.1 >=dev-haskell/cabal-3.10.1.0 || ( ( >=dev-haskell/happy-1.20 <dev-haskell/happy-1.21 ) ( >=dev-haskell/happy-2.1.2 <dev-haskell/happy-2.2 ) ~dev-haskell/happy-2.0.2 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/parsec:=[profile?] >=dev-lang/ghc-9.6.2:= >=dev-haskell/alex-3.1 >=dev-haskell/cabal-3.10.1.0 || ( ( >=dev-haskell/happy-1.20 <dev-haskell/happy-1.21 ) || ( ( >=dev-haskell/happy-2.1.2 <dev-haskell/happy-2.2 ) ~dev-haskell/happy-2.0.2 ) ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=The GHC API, decoupled from GHC versions
 EAPI=8
 HOMEPAGE=https://github.com/digital-asset/ghc-lib
@@ -9,7 +9,7 @@ IUSE=+threads doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=dev-haskell/parsec:=[profile?] >=dev-lang/ghc-9.6.2:= dev-lang/ghc:=[profile?]
-SLOT=0/9.10.1.20241103
-SRC_URI=https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20241103/ghc-lib-parser-9.10.1.20241103.tar.gz https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20241103/revision/2.cabal -> ghc-lib-parser-9.10.1.20241103-rev2.cabal
+SLOT=0/9.10.1.20250421
+SRC_URI=https://hackage.haskell.org/package/ghc-lib-parser-9.10.1.20250421/ghc-lib-parser-9.10.1.20250421.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
-_md5_=ee781a6de0e299883c390c248dd5c0d6
+_md5_=8b54d0d913122e1abedef98dc4d91985
