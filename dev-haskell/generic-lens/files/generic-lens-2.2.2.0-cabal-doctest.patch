@@ -1,0 +1,94 @@
+From 9d4485ebe7d17828a2b43c5de00403973304720e Mon Sep 17 00:00:00 2001
+From: GuillaumedeVolpiano <xavier@wheredoibegin.fr>
+Date: Mon, 31 Mar 2025 18:16:33 +0200
+Subject: [PATCH] cabal-doctest
+
+doctest pulls in the out-of-scope packages if they are installed on the
+system. The best workaround is to use migrate to cabal-doctest.
+
+--- a/Setup.hs
++++ b/Setup.hs
+@@ -1,2 +1,6 @@
+-import Distribution.Simple
+-main = defaultMain
++module Main (main) where
++
++import Distribution.Extra.Doctest ( defaultMainWithDoctests )
++
++main :: IO ()
++main = defaultMainWithDoctests "doctests"
+--- a/examples/doctest.hs
++++ b/examples/doctest.hs
+@@ -1,6 +1,31 @@
+ import Test.DocTest
+-main
+-  = doctest
+-      [ "src"
+-      , "examples"
+-      ]
++
++import GHC.IO.Encoding (setLocaleEncoding)
++import System.Directory (getCurrentDirectory, makeAbsolute)
++import System.FilePath.Posix ((</>))
++import System.IO (utf8)
++import Build_doctests (pkgs)
++ 
++main :: IO ()
++main = do
++    setLocaleEncoding utf8
++    pwd    <- getCurrentDirectory
++    prefix <- makeAbsolute pwd
++
++    let customFlags =
++            [ "-package-env=-"
++            , "-hide-all-packages"
++            , "-no-global-package-db"
++            , "-no-user-package-db"
++            , "-package-db=" ++ prefix </> "dist/package.conf.inplace"
++            , "-package-db=" ++ prefix </> "package.conf.d"
++            ]
++
++    let modules =
++            [ "src"
++            , "examples"
++            ]
++
++    let args = customFlags ++ pkgs ++ modules
++
++    doctest args
+--- a/generic-lens.cabal
++++ b/generic-lens.cabal
+@@ -12,7 +12,7 @@ license-file:         LICENSE
+ author:               Csongor Kiss
+ maintainer:           kiss.csongor.kiss@gmail.com
+ category:             Generics, Records, Lens
+-build-type:           Simple
++build-type:           Custom
+
+ tested-with:
+ 
+@@ -20,6 +20,12 @@ extra-source-files:   examples/StarWars.hs
+                     , examples/Examples.hs
+                     , ChangeLog.md
+ 
++custom-setup
++    setup-depends:
++        base
++      , Cabal
++      , cabal-doctest
++
+ library
+   exposed-modules:    Data.Generics.Wrapped
+                     , Data.Generics.Product
+@@ -103,5 +109,8 @@ test-suite doctests
+   main-is:            doctest.hs
+   build-depends:      base >4 && <5
+                     , doctest
++                    , directory
++                    , filepath
++                    , base-compat
+                     , lens
+   hs-source-dirs:     examples
+-- 
+2.49.0
+

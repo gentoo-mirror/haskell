@@ -16,12 +16,11 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="+ghc-lib"
 
-RDEPEND="
-	>=dev-haskell/aeson-0.6:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
+RDEPEND=">=dev-haskell/aeson-0.6:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/cabal-3.4:=[profile?] <dev-haskell/cabal-4.0:=[profile?]
 	>=dev-haskell/file-embed-0.0.10:=[profile?] <dev-haskell/file-embed-0.1:=[profile?]
-	>=dev-haskell/ghc-lib-parser-9.8:=[profile?] <dev-haskell/ghc-lib-parser-9.9:=[profile?]
-	>=dev-haskell/ghc-lib-parser-ex-9.8:=[profile?] <dev-haskell/ghc-lib-parser-ex-9.9:=[profile?]
+	>=dev-haskell/ghc-lib-parser-9.8:=[profile?] <dev-haskell/ghc-lib-parser-9.13:=[profile?]
+	>=dev-haskell/ghc-lib-parser-ex-9.8:=[profile?] <dev-haskell/ghc-lib-parser-ex-9.13:=[profile?]
 	>=dev-haskell/hsyaml-0.2.0:=[profile?] <dev-haskell/hsyaml-0.3:=[profile?]
 	>=dev-haskell/hsyaml-aeson-0.2.0:=[profile?] <dev-haskell/hsyaml-aeson-0.3:=[profile?]
 	>=dev-haskell/optparse-applicative-0.12:=[profile?] <dev-haskell/optparse-applicative-0.19:=[profile?]
