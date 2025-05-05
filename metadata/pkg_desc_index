@@ -491,7 +491,7 @@ dev-haskell/deferred-folds 0.9.18.7-r1: Abstractions over deferred folds
 dev-haskell/dense-linear-algebra 0.1.0.0: Simple and incomplete pure haskell implementation of linear algebra
 dev-haskell/dependent-map 0.4.0.0-r1: Dependent finite maps (partial dependent products)
 dev-haskell/dependent-sum 0.7.2.0: Dependent sum type
-dev-haskell/dependent-sum-template 0.2.0.1: Template Haskell code to generate instances of classes in some package
+dev-haskell/dependent-sum-template 0.2.0.1 0.2.0.2: Template Haskell code to generate instances of classes in some package
 dev-haskell/deque 0.4.4.2: Double-ended queues
 dev-haskell/derive-storable 0.3.1.0: Derive Storable instances with GHC.Generics
 dev-haskell/derive-storable-plugin 0.2.3.7-r1: GHC core plugin supporting the derive-storable package
