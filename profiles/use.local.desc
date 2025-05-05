@@ -431,6 +431,7 @@ dev-haskell/texmath:server - Compile webserver.
 dev-haskell/text:extendedbenchmarks - Runs extra benchmarks which can be very slow.
 dev-haskell/text:pure-haskell - Don't use text's standard C routines NB: This feature is not fully implemented. Several C routines are still in use. When this flag is true, text will use pure Haskell variants of the routines. This is not recommended except for use with GHC's JavaScript backend. This flag also disables simdutf.
 dev-haskell/text:simdutf - use simdutf library
+dev-haskell/text-icu:homebrew - Assume homebrew on macOS. Automatically add /usr/local/opt/ and /usr/homebrew/opt/ paths to extra-lib-dirs and include-dirs.
 dev-haskell/themoviedb:maintainer - Enable settings for the package maintainer.
 dev-haskell/threepenny-gui:rebug - Expose more bugs by increasing determinism
 dev-haskell/thyme:bug-for-bug - bug-for-bug compatibility with time
