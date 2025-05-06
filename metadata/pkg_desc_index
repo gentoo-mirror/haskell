@@ -2243,7 +2243,7 @@ dev-haskell/vector-hashtables 0.1.2.0: Efficient vector-based mutable hashtables
 dev-haskell/vector-instances 3.4.2: Orphan Instances for 'Data.Vector'
 dev-haskell/vector-random 0.2: Generate vectors filled with high quality pseudorandom numbers
 dev-haskell/vector-sized 1.6.1: Size tagged vectors
-dev-haskell/vector-space 0.16: Vector & affine spaces, linear maps, and derivatives
+dev-haskell/vector-space 0.16 0.19: Vector & affine spaces, linear maps, and derivatives
 dev-haskell/vector-space-points 0.2.1.2-r2: A type for points, as distinct from vectors
 dev-haskell/vector-stream 0.1.0.1: Efficient Streams
 dev-haskell/vector-th-unbox 0.2.2: Deriver for Data.Vector.Unboxed using Template Haskell
