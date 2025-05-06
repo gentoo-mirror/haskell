@@ -2078,7 +2078,7 @@ dev-haskell/text-icu-normalized 0.4.1: Dealing with Strict Text in NFC normaliza
 dev-haskell/text-iso8601 0.1.1: Converting time to and from ISO 8601 text
 dev-haskell/text-latin1 0.3.1: Latin-1 (including ASCII) utility functions
 dev-haskell/text-manipulate 0.3.1.0: Case conversion, word boundary manipulation, and textual subjugation
-dev-haskell/text-metrics 0.3.2: Calculate various string metrics efficiently
+dev-haskell/text-metrics 0.3.2 0.3.3: Calculate various string metrics efficiently
 dev-haskell/text-postgresql 0.0.3.1: Parser and Printer of PostgreSQL extended types
 dev-haskell/text-printer 0.5.0.2: Abstract interface for text builders/printers
 dev-haskell/text-region 0.3.1.0: Marking text regions
