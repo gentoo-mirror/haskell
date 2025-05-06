@@ -1352,7 +1352,7 @@ dev-haskell/microlens-mtl 0.2.0.2: microlens support for Reader/Writer/State fro
 dev-haskell/microlens-platform 0.4.3.5: microlens + all batteries included (best for apps)
 dev-haskell/microlens-th 0.4.3.16: Automatic generation of record lenses for microlens
 dev-haskell/microspec 0.2.1.3: Tiny QuickCheck test library with minimal dependencies
-dev-haskell/microstache 1.0.2.3-r2: Mustache templates for Haskell
+dev-haskell/microstache 1.0.2.3-r2 1.0.3: Mustache templates for Haskell
 dev-haskell/microtimer 0.0.1.2-r1: A tiny library for benchmarking IO actions
 dev-haskell/midi 0.2.2.4-r1: Handling of MIDI messages and files
 dev-haskell/midi-alsa 0.2.1-r1: Convert between datatypes of the midi and the alsa packages
@@ -1480,7 +1480,7 @@ dev-haskell/non-empty 0.3.5: List-like structures with static restrictions on th
 dev-haskell/non-negative 0.1.2: Non-negative numbers
 dev-haskell/nonce 1.0.7-r1: Generate cryptographic nonces
 dev-haskell/nonempty-containers 0.3.4.4: Non-empty variants of containers data types, with full API
-dev-haskell/nonempty-vector 0.2.3: Non-empty vectors
+dev-haskell/nonempty-vector 0.2.3 0.2.4: Non-empty vectors
 dev-haskell/normaldistribution 1.1.0.3-r1: Minimum fuss normally distributed random values
 dev-haskell/nothunks 0.3.0.0: Examine values for unexpected thunks
 dev-haskell/numbers 3000.2.0.2: Various number types

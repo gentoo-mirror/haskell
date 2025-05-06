@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/primitive-0.6:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.2.4:= >=dev-haskell/cabal-3.6.3.0 test? ( dev-haskell/quickcheck dev-haskell/tasty dev-haskell/tasty-quickcheck ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Non-empty vectors
+EAPI=8
+HOMEPAGE=https://github.com/emilypi/nonempty-vector
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/primitive-0.6:=[profile?] <dev-haskell/primitive-0.10:=[profile?] >=dev-haskell/vector-0.12:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.2.4:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.2.4
+SRC_URI=https://hackage.haskell.org/package/nonempty-vector-0.2.4/nonempty-vector-0.2.4.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=f9b6d855195377a85a540432a842173d
