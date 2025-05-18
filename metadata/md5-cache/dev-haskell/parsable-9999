@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=<dev-haskell/parsec-3.2:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/flatparse-0.5.2.0:=[profile?] <dev-haskell/flatparse-0.5.3:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.4.5:= >=dev-haskell/cabal-3.8.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Parsable and Printable classes
 EAPI=8
 HOMEPAGE=https://github.com/gentoo-haskell/cabal-portage/tree/main/parsable
@@ -8,7 +8,7 @@ INHERIT=haskell-cabal git-r3
 IUSE=doc hscolour hoogle profile
 LICENSE=AGPL-3
 PROPERTIES=live
-RDEPEND=<dev-haskell/parsec-3.2:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/flatparse-0.5.2.0:=[profile?] <dev-haskell/flatparse-0.5.3:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.4.5:= dev-lang/ghc:=[profile?]
 SLOT=0/9999
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=0dcdbd7fef4aaf77cd380675fc8c7a3a
+_md5_=f8b364e5eb218b074d7959093fbcf54f
