@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/optparse-applicative-0.6:=[profile?] <dev-haskell/optparse-applicative-0.20:=[profile?] >=dev-haskell/split-0.1:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/tagged-0.7:=[profile?] <dev-haskell/tagged-0.9:=[profile?] >=dev-haskell/tasty-1.5:=[profile?] <dev-haskell/tasty-1.6:=[profile?] >=dev-lang/ghc-9.4.5:= >=dev-haskell/cabal-3.8.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Rerun only tests which failed in a previous test run
+EAPI=8
+HOMEPAGE=https://github.com/ocharles/tasty-rerun
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/optparse-applicative-0.6:=[profile?] <dev-haskell/optparse-applicative-0.20:=[profile?] >=dev-haskell/split-0.1:=[profile?] <dev-haskell/split-0.3:=[profile?] >=dev-haskell/tagged-0.7:=[profile?] <dev-haskell/tagged-0.9:=[profile?] >=dev-haskell/tasty-1.5:=[profile?] <dev-haskell/tasty-1.6:=[profile?] >=dev-lang/ghc-9.4.5:= dev-lang/ghc:=[profile?]
+SLOT=0/1.1.20
+SRC_URI=https://hackage.haskell.org/package/tasty-rerun-1.1.20/tasty-rerun-1.1.20.tar.gz https://hackage.haskell.org/package/tasty-rerun-1.1.20/revision/1.cabal -> tasty-rerun-1.1.20-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=96b56dad06b72079cf2d389b72ebfa6c

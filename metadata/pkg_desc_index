@@ -2035,7 +2035,7 @@ dev-haskell/tasty-inspection-testing 0.2.1-r1: Inspection testing support for ta
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.1.1: Write tests in Lua, integrate into tasty
 dev-haskell/tasty-quickcheck 0.10.2 0.11.1: QuickCheck support for the Tasty test framework
-dev-haskell/tasty-rerun 1.1.18: Rerun only tests which failed in a previous test run
+dev-haskell/tasty-rerun 1.1.20: Rerun only tests which failed in a previous test run
 dev-haskell/tasty-silver 3.3.2: A fancy test runner, including support for golden tests
 dev-haskell/tasty-smallcheck 0.8.2: SmallCheck support for the Tasty test framework
 dev-haskell/tasty-sugar 2.2.2.0: Tests defined by Search Using Golden Answer References
