@@ -733,14 +733,14 @@ dev-haskell/ghc-lib-parser 9.6.2.20230523 9.8.4.20241130 9.10.1.20250421 9.12.2.
 dev-haskell/ghc-lib-parser-ex 9.8.0.2 9.10.0.0 9.12.0.0: Programming with GHC parse trees
 dev-haskell/ghc-parser 0.2.7.0: Haskell source parser from GHC
 dev-haskell/ghc-paths 0.1.0.12-r4: Knowledge of GHC's installation directories
-dev-haskell/ghc-platform 9.10.1 9.12.1 9.12.2: Platform information used by GHC and friends
+dev-haskell/ghc-platform 9.10.1 9.10.2 9.12.1 9.12.2: Platform information used by GHC and friends
 dev-haskell/ghc-prof 1.4.1.12: Library for parsing GHC time and allocation profiling reports
 dev-haskell/ghc-prof-aeson 0.1.0.0: Parser for GHC's JSON profiling output
 dev-haskell/ghc-prof-aeson-flamegraph 0.1.0.0: Turn GHC '-pj' profiling output into FlameGraph format
 dev-haskell/ghc-source-gen 0.4.6.0: Constructs Haskell syntax trees for the GHC API
 dev-haskell/ghc-syntax-highlighter 0.0.10.0 0.0.11.0 0.0.12.0: Syntax highlighter for Haskell using the lexer of GHC
 dev-haskell/ghc-tcplugins-extra 0.4.6: Utilities for writing GHC type-checker plugins
-dev-haskell/ghc-toolchain 9.10.1 9.12.1 9.12.2: Utility for managing GHC target toolchains
+dev-haskell/ghc-toolchain 9.10.1 9.10.2 9.12.1 9.12.2: Utility for managing GHC target toolchains
 dev-haskell/ghc-trace-events 0.1.2.9: Faster traceEvent and traceMarker, and binary object logging for eventlog
 dev-haskell/ghc-typelits-extra 0.4.6: Additional type-level operations on GHC.TypeLits.Nat
 dev-haskell/ghc-typelits-knownnat 0.7.10: Derive KnownNat constraints from other KnownNat constraints
@@ -837,7 +837,7 @@ dev-haskell/haddock 2.26.0 2.27.0 2.29.1 2.29.2.9.8 2.30.0: A documentation-gene
 dev-haskell/haddock-api 2.26.0 2.27.0 2.29.1 2.29.2.9.8 2.30.0: A documentation-generation tool for Haskell libraries
 dev-haskell/haddock-library 1.11.0-r3: Library exposing some functionality of Haddock
 dev-haskell/haddock-test 9.8: Test utilities for Haddock
-dev-haskell/hadrian 9.4.7-r1 9.4.8-r1 9.6.3-r1 9.6.4-r1 9.6.5-r1 9.6.6 9.6.7 9.8.2-r4 9.8.3-r1 9.8.4 9.8.4-r1 9.10.1-r1 9.12.1 9.12.2 9999: GHC build system
+dev-haskell/hadrian 9.4.7-r1 9.4.8-r1 9.6.3-r1 9.6.4-r1 9.6.5-r1 9.6.6 9.6.7 9.8.2-r4 9.8.3-r1 9.8.4 9.8.4-r1 9.10.1-r1 9.10.2 9.12.1 9.12.2 9999: GHC build system
 dev-haskell/haha 0.3.1.1-r1: A simple library for creating animated ascii art on ANSI terminals
 dev-haskell/hakyll 4.16.5.0: A static website compiler library
 dev-haskell/hakyll-agda 0.1.13: Wrapper to integrate literate Agda files with Hakyll
@@ -2035,7 +2035,7 @@ dev-haskell/tasty-inspection-testing 0.2.1-r1: Inspection testing support for ta
 dev-haskell/tasty-kat 0.0.3: Known Answer Tests (KAT) framework for tasty
 dev-haskell/tasty-lua 1.1.1: Write tests in Lua, integrate into tasty
 dev-haskell/tasty-quickcheck 0.10.2 0.11.1: QuickCheck support for the Tasty test framework
-dev-haskell/tasty-rerun 1.1.20: Rerun only tests which failed in a previous test run
+dev-haskell/tasty-rerun 1.1.18: Rerun only tests which failed in a previous test run
 dev-haskell/tasty-silver 3.3.2: A fancy test runner, including support for golden tests
 dev-haskell/tasty-smallcheck 0.8.2: SmallCheck support for the Tasty test framework
 dev-haskell/tasty-sugar 2.2.2.0: Tests defined by Search Using Golden Answer References
@@ -2392,7 +2392,7 @@ dev-lang/brainfuck 0.1.0.4: Brainfuck interpreter
 dev-lang/cryptol 3.2.0: Cryptol: The Language of Cryptography
 dev-lang/dhall 1.42.2: A configuration language guaranteed to terminate
 dev-lang/elm-compiler-bin 0.19.1: The 'elm' command line interface (binary)
-dev-lang/ghc 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.6.6 9.6.7 9.8.2-r4 9.8.3-r1 9.8.4 9.8.4-r1 9.10.1-r6 9.12.1-r2 9.12.2: The Glasgow Haskell Compiler
+dev-lang/ghc 9.2.7-r1 9.2.8 9.4.7 9.4.8 9.6.3-r1 9.6.4-r1 9.6.5 9.6.6 9.6.7 9.8.2-r4 9.8.3-r1 9.8.4 9.8.4-r1 9.10.1-r6 9.10.2 9.12.1-r2 9.12.2: The Glasgow Haskell Compiler
 dev-lang/hugs98 2006.9-r2: The Hugs98 Haskell interpreter
 dev-lang/ott 0.31: Ott is a tool for writing definitions of programming languages and calculi.
 dev-lang/prolog 0.3.2-r1: A Prolog interpreter written in Haskell

@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://downloads.haskell.org/ghc/9.10.1/ghc-9.10.1-src.tar.xz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
-_md5_=ee371dcd99a30ec2b093a8c56b94b789
+_md5_=e07588ed26edeadf426cf2ba1232f962

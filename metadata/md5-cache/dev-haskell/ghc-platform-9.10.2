@@ -1,15 +1,15 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-lang/ghc-9.0.2:= hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=Concrete functor and monad transformers
+DEPEND=>=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Platform information used by GHC and friends
 EAPI=8
-HOMEPAGE=https://hackage.haskell.org/package/transformers
+HOMEPAGE=https://gitlab.haskell.org/ghc/ghc/-/tree/master/libraries/ghc-platform#readme
 INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
-SLOT=0/0.6.1.1
-SRC_URI=https://hackage.haskell.org/package/transformers-0.6.1.1/transformers-0.6.1.1.tar.gz
+SLOT=0/9.10.2
+SRC_URI=https://downloads.haskell.org/ghc/9.10.2/ghc-9.10.2-src.tar.xz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
-_md5_=848008e9b7a5b26581284cc2abf1b901
+_md5_=c1fc6bf04be304831be2d7d21c166354
