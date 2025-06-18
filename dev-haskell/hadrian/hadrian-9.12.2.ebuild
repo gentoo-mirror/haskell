@@ -30,7 +30,7 @@ CABAL_CHDEPS=(
 )
 
 PATCHES=(
-	"${FILESDIR}/${PN}-9.4.8-remove-with-cc-configure-flag.patch"
+	"${FILESDIR}/${PN}-9.10.1-remove-with-cc-configure-flag.patch"
 	"${FILESDIR}/${PN}-9.4.8-disable-doc-archives.patch"
 )
 
@@ -54,6 +54,23 @@ RDEPEND="
 		>=dev-haskell/quickcheck-2.6:= <dev-haskell/quickcheck-2.15:=
 	)
 "
+
+# Statically linking is finnicky and seems to depend on what flags ghc is
+# compiled with.
+#
+# BUG: Fails to statically link with dev-lang/ghc[elfutils], even if
+# dev-libs/elfutils[static-libs] is installed
+# See: <https://github.com/gentoo-haskell/gentoo-haskell/issues/1779>
+RDEPEND+="
+	static? (
+		|| (
+			sys-process/numactl[static-libs]
+			dev-lang/ghc[-numa]
+		)
+		dev-lang/ghc[-elfutils]
+	)
+"
+
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
 "
