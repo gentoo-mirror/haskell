@@ -6,76 +6,6 @@ dev-haskell/gi-javascriptcore4
 dev-haskell/gi-webkit2
 dev-haskell/gi-javascriptcore
 
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# no activity upstream for 8 years. Depends on deprecated
-# Control.Monad.Trans.List
-#
-# Removal: 2025-05-14
-
-dev-haskell/monad-journal
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# no activity upstream for 4 years. Fails tests
-#
-# Removal: 2025-05-14
-
-dev-haskell/type-errors-pretty
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# no activity upstream for 6 years. Doesn't compile
-#
-# Removal: 2025-05-14
-
-dev-haskell/hs-duktape
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# deprecated
-#
-# Removal: 2025-05-14
-
-dev-haskell/qr-imager
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# dead upstream
-#
-# Removal: 2025-05-14
-
-dev-haskell/bits-atomic
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# no activity upstream for 5 years. Fails tests
-#
-# Removal: 2025-05-14
-
-dev-haskell/semver-range
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-04-15)
-#
-# depends on dev-haskell/haskell-mode, which has been pruned.
-# Also, as for vim, package managers are not the modern way
-# to install emacs modes
-#
-# Removal: 2025-05-14
-
-app-emacs/idris-mode
-
-# GuillaumedeVolpiano <xavier@wheredoibegin.fr> (2025-04-12)
-#
-# data-default-instances have been integrated in data-default-0.8
-#
-# Removal 2025-05-11
-
-dev-haskell/data-default-instances-base
-dev-haskell/data-default-instances-containers
-dev-haskell/data-default-instances-dlist
-dev-haskell/data-default-instances-old-locale
-
 # GdeVolpiano <xavier@wheredoibegin.fr> (2025-03-28)
 #
 # The current upstream version of dev-haskell/cuda is not compatible with the
@@ -85,28 +15,6 @@ dev-haskell/data-default-instances-old-locale
 dev-haskell/cuda
 dev-haskell/cufft
 
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-03-28)
-#
-# Various outdated packages which either fail to build, have been deprecated
-# upstream or depend on other outdated packages. Mask for removal in 30 days.
-#
-# Removal: 2025-04-27
-
-dev-haskell/sbvplugin
-dev-haskell/binary-strict
-dev-haskell/random-source
-dev-haskell/monadcatchio-mtl
-dev-haskell/jupyter
-dev-haskell/bitsatomic
-dev-haskell/superdoc
-dev-haskell/uuagc-bootstrap
-dev-haskell/hasmin
-dev-haskell/json-bytes-builder
-dev-haskell/monadcatchio-transformers
-dev-util/spago
-dev-lang/hugs98
-dev-haskell/qrimager
-
 # hololeap <hololeap@protonmail.com> (2025-03-25)
 #
 # stylish-haskell still requires <ghc-lib-parser-9.9. Mask 9.10 until it
@@ -114,16 +22,6 @@ dev-haskell/qrimager
 >=dev-haskell/ghc-lib-parser-9.10
 >=dev-haskell/ghc-lib-parser-ex-9.10
 >=dev-haskell/ghc-syntax-highlighter-0.0.12
-
-# GdeVolpiano <xavier@wheredoibegin.fr> (2025-03-24)
-#
-# Outdated vim plugins. With the rise of vim plugin managers there are no
-# such things as releases anymore. Interested users should just clone upstream
-# git repositories in vim/pack. Mask for removal in 30 days
-#
-# Removal: 2025-04-23
-app-vim/haskellindent
-app-vim/haskellmode
 
 # hololeap <hololeap@protonmail.com> (2025-03-17)
 #
