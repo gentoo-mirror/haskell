@@ -40,7 +40,6 @@ dev-haskell/bindings-glfw:osmesa - Determines whether or not to use the Mesa 3D 
 dev-haskell/biosff:fclip - Build the 'fclip' executable.
 dev-haskell/biosff:flower - Build the 'flower' executable.
 dev-haskell/biosff:frecover - Build the 'frecover' executable.
-dev-haskell/bits-atomic:test - Build test program.
 dev-haskell/bitstring:withquickcheck - Build with QuickCheck test. Note that Show instances will be different.
 dev-haskell/bitvec:simd - Use a C SIMD implementation for the ultimate performance of `zipBits`, `invertBits` and `countBits`. Disable this flag if there are problems with the C FFI.
 dev-haskell/boring:tagged - You can disable the use of the `tagged` package using `-f-tagged`. Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
@@ -261,7 +260,6 @@ dev-haskell/judy:unsafe - Compile the library without locks. Code may be faster,
 dev-haskell/juicypixels:mmap - Enable the file loading via mmap (memory map)
 dev-haskell/juicypixels-blurhash:executable - Build the JuicyPixels-blurhash-exe executable
 dev-haskell/juicypixels-extra:dev - Turn on development settings.
-dev-haskell/jupyter:examples - Build example Jupyter kernel executables
 dev-haskell/language-c-quote:full-haskell-antiquotes - Support full Haskell expressions/patterns in antiquotes
 dev-haskell/language-dot:executable - Build the `ppdot' executable
 dev-haskell/ldap:buildtests - Build the executable to run unit tests.
