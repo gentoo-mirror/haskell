@@ -9,5 +9,5 @@ KEYWORDS=~amd64
 LICENSE=LGPL-3
 SLOT=0
 SRC_URI=amd64? ( https://downloads.haskell.org/~ghcup/0.1.40.0/x86_64-linux-ghcup-0.1.40.0 -> ghcup-bin-0.1.40.0-x86_64-linux-exe ) arm64? ( https://downloads.haskell.org/~ghcup/0.1.40.0/aarch64-linux-ghcup-0.1.40.0 -> ghcup-bin-0.1.40.0-aarch64-linux-exe ) arm? ( https://downloads.haskell.org/~ghcup/0.1.40.0/armv7-linux-ghcup-0.1.40.0 -> ghcup-bin-0.1.40.0-armv7-linux-exe ) x86? ( https://downloads.haskell.org/~ghcup/0.1.40.0/i386-linux-ghcup-0.1.40.0 -> ghcup-bin-0.1.40.0-i386-linux-exe ) verify-sig? ( https://downloads.haskell.org/~ghcup/0.1.40.0/SHA256SUMS -> ghcup-bin-0.1.40.0-SHA256SUMS https://downloads.haskell.org/~ghcup/0.1.40.0/SHA256SUMS.sig -> ghcup-bin-0.1.40.0-SHA256SUMS.sig )
-_eclasses_=eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	7433426b6b28bf2737ba4b82c8aa8c53
+_eclasses_=eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	4e83419d7fb5d336f6a4de8193968319
 _md5_=f686fddd1cf843152cab04cdabe6bc07
