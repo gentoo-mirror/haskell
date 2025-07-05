@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/hashable-1.4:=[profile?] <dev-haskell/hashable-1.6:=[profi
 RESTRICT=!test? ( test )
 SLOT=0/0.2.20
 SRC_URI=https://hackage.haskell.org/package/unordered-containers-0.2.20/unordered-containers-0.2.20.tar.gz https://hackage.haskell.org/package/unordered-containers-0.2.20/revision/4.cabal -> unordered-containers-0.2.20-rev4.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=81746da182c664239e2c1af5bc49b7ce

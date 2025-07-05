@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base16-bytestring-0.1.1:=[profile?] <dev-haskell/base16-by
 RESTRICT=!test? ( test )
 SLOT=0/0.17.0.1_pre20240218
 SRC_URI=https://github.com/haskell-nix/hnix/archive/3f334d9b5a8b1044df850167b1b459e5649868f3.tar.gz -> hnix-3f334d9b5a8b1044df850167b1b459e5649868f3.tar.gz https://github.com/sorki/hnix/commit/0fdd4d2addfb1f85c3c79a7bb44450c1e6b25b93.patch -> hnix-3f334d9b5a8b1044df850167b1b459e5649868f3-adapt-to-new-hnix-store-001.patch https://github.com/sorki/hnix/commit/155163453cd8165f93df87f617a0661e5df0d0e0.patch -> hnix-3f334d9b5a8b1044df850167b1b459e5649868f3-adapt-to-new-hnix-store-002.patch
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=aaac5aaa4a98047742f9ada082fd5c5e

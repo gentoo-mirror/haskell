@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/comonad-4:=[profile?] <dev-haskell/comonad-6:=[profile?] >
 RESTRICT=!test? ( test )
 SLOT=0/4.4.2
 SRC_URI=https://hackage.haskell.org/package/adjunctions-4.4.2/adjunctions-4.4.2.tar.gz https://hackage.haskell.org/package/adjunctions-4.4.2/revision/2.cabal -> adjunctions-4.4.2-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=542decabb27d4e050b7811d57cbc8f82

@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/text-1.0.0.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/utf8-string-0.2:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?] >=dev-lang/ghc-9.0.2:= x11-libs/cairo dev-lang/ghc:=[profile?]
 SLOT=0/0.13.11.0
 SRC_URI=https://hackage.haskell.org/package/cairo-0.13.11.0/cairo-0.13.11.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=75300e35eb73dd5aa2073e9f6e2269cc

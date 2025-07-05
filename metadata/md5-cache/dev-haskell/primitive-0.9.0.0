@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/data-array-byte-0.1:=[profile?] <dev-haskell/data-array-by
 RESTRICT=!test? ( test )
 SLOT=0/0.9.0.0
 SRC_URI=https://hackage.haskell.org/package/primitive-0.9.0.0/primitive-0.9.0.0.tar.gz https://hackage.haskell.org/package/primitive-0.9.0.0/revision/2.cabal -> primitive-0.9.0.0-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=5e392c887cbc0f1965568f9b2d60d57f

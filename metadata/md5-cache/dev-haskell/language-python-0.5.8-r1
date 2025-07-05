@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/monads-tf-0.1:=[profile?] <dev-haskell/monads-tf-0.4:=[profile?] >=dev-haskell/utf8-string-1:=[profile?] <dev-haskell/utf8-string-2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.5.8
 SRC_URI=https://hackage.haskell.org/package/language-python-0.5.8/language-python-0.5.8.tar.gz https://hackage.haskell.org/package/language-python-0.5.8/revision/2.cabal -> language-python-0.5.8-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=b51248e05762648592427ed2e7532b7a
