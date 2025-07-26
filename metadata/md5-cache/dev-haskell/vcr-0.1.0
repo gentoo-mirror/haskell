@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/async:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/http-client-0.7.19:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/hunit:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/text:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( dev-haskell/hspec dev-haskell/http-client-tls dev-haskell/http-conduit dev-haskell/mockery ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Record and replay HTTP interactions
+EAPI=8
+HOMEPAGE=https://github.com/assertible/vcr#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-haskell/async:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/http-client-0.7.19:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/hunit:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/text:=[profile?] dev-haskell/yaml:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.0
+SRC_URI=https://hackage.haskell.org/package/vcr-0.1.0/vcr-0.1.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=2ce33a872304308f28ae37d016bf2068
