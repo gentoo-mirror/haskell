@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.7.19
 SRC_URI=https://hackage.haskell.org/package/http-client-0.7.19/http-client-0.7.19.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
-_md5_=a8067d4431073878298e5e6da7286283
+_md5_=069a2e58d2979c659647c9f80b43dd0b
