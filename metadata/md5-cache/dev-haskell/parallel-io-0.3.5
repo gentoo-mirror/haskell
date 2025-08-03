@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>dev-haskell/extensible-exceptions-0.1.0.1:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.3:=[profile?] >=dev-lang/ghc-8.4.3:= >=dev-haskell/cabal-2.2.0.1 hscolour? ( dev-haskell/hscolour )
+DEPEND=>dev-haskell/extensible-exceptions-0.1.0.1:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Combinators for executing IO actions in parallel on a thread pool
 EAPI=8
 HOMEPAGE=https://batterseapower.github.com/parallel-io
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>dev-haskell/extensible-exceptions-0.1.0.1:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.3:=[profile?] >=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
+RDEPEND=>dev-haskell/extensible-exceptions-0.1.0.1:=[profile?] >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.4:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.3.5
-SRC_URI=https://hackage.haskell.org/package/parallel-io-0.3.5/parallel-io-0.3.5.tar.gz
+SRC_URI=https://hackage.haskell.org/package/parallel-io-0.3.5/parallel-io-0.3.5.tar.gz https://hackage.haskell.org/package/parallel-io-0.3.5/revision/1.cabal -> parallel-io-0.3.5-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
-_md5_=a9d1a52c4a2fed810efecb11ee2f1dfa
+_md5_=f65b0c7d149dc376bb80d299cfb15544
