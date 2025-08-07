@@ -1788,7 +1788,7 @@ dev-haskell/sample-frame 0.0.4: Handling of samples in an (audio) signal
 dev-haskell/sample-frame-np 0.0.5: Orphan instances for types from sample-frame and numericprelude
 dev-haskell/samtools 0.2.4.3: Binding to the C samtools library
 dev-haskell/sandi 0.5: Data encoding library
-dev-haskell/sandwich 0.2.1.0: Yet another test framework for Haskell
+dev-haskell/sandwich 0.3.0.4: Yet another test framework for Haskell
 dev-haskell/say 0.1.0.1: Initial project template from stack
 dev-haskell/sayable 1.2.5.0: Construction of context-adjusted pretty output
 dev-haskell/sbv 11.0: SMT Based Verification: Symbolic Haskell theorem prover using SMT solving
