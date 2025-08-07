@@ -921,7 +921,7 @@ dev-haskell/hie-compat 0.3.1.2: HIE files for GHC 8.8 and other HIE file backpor
 dev-haskell/hiedb 0.5.0.1 0.6.0.1: Generates a references DB from .hie files
 dev-haskell/higgledy 0.4.2.1-r3: Partial types as a type constructor
 dev-haskell/highlighter 0.2.2-r1: source code highlighting
-dev-haskell/hinotify 0.4.1: Haskell binding to inotify
+dev-haskell/hinotify 0.4.2: Haskell binding to inotify
 dev-haskell/hint 0.9.0.8-r1: A Haskell interpreter built on top of the GHC API
 dev-haskell/hip 1.5.6.0: Haskell Image Processing (HIP) Library
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
