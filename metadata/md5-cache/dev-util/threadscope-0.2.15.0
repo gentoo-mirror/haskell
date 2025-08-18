@@ -1,0 +1,14 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=<dev-haskell/cairo-0.14:= <dev-haskell/file-embed-0.1:= >=dev-haskell/ghc-events-0.13:= <dev-haskell/ghc-events-0.21:= <dev-haskell/glib-0.14:= >=dev-haskell/gtk3-0.12:= <dev-haskell/gtk3-0.16:= <dev-haskell/pango-0.14:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= <dev-haskell/text-2.2:= >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0
+DESCRIPTION=A graphical tool for profiling parallel Haskell programs
+EAPI=8
+HOMEPAGE=https://www.haskell.org/haskellwiki/ThreadScope
+INHERIT=haskell-cabal
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=<dev-haskell/cairo-0.14:= <dev-haskell/file-embed-0.1:= >=dev-haskell/ghc-events-0.13:= <dev-haskell/ghc-events-0.21:= <dev-haskell/glib-0.14:= >=dev-haskell/gtk3-0.12:= <dev-haskell/gtk3-0.16:= <dev-haskell/pango-0.14:= >=dev-haskell/temporary-1.1:= <dev-haskell/temporary-1.4:= <dev-haskell/text-2.2:= >=dev-lang/ghc-9.0.2:=
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/threadscope-0.2.15.0/threadscope-0.2.15.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=d5a5535327b4b81fa4e4370162196d5d

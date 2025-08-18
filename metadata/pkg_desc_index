@@ -715,7 +715,7 @@ dev-haskell/ghc-core 0.5.6: Display GHC's core and assembly output in a pager
 dev-haskell/ghc-datasize 0.2.7: Determine the size of data structures in GHC's memory
 dev-haskell/ghc-debug-convention 0.6.0.0: Definitions needed by ghc-debug-stub and ghc-debug-common
 dev-haskell/ghc-debug-stub 0.6.0.0: Functions for instrumenting your application so the heap can be analysed with ghc-debug-common
-dev-haskell/ghc-events 0.19.0.1: Library and tool for parsing .eventlog files from GHC
+dev-haskell/ghc-events 0.19.0.1 0.20.0.0: Library and tool for parsing .eventlog files from GHC
 dev-haskell/ghc-exactprint 1.5.0 1.6.1.3 1.7.0.1 1.8.0.0 1.10.0.0 1.12.0.0: ExactPrint for GHC
 dev-haskell/ghc-gc-tune 0.3.2: Graph performance of Haskell programs with different GC flags
 dev-haskell/ghc-heap-view 0.6.4.1: Extract the heap representation of Haskell values and thunks
@@ -777,7 +777,7 @@ dev-haskell/gi-vte 2.91.34: Vte bindings
 dev-haskell/gi-webkit2 4.0.32: WebKit2 bindings
 dev-haskell/gi-xlib 2.0.13: xlib bindings
 dev-haskell/ginger 0.10.5.2-r1: An implementation of the Jinja2 template language in Haskell
-dev-haskell/gio 0.13.11.0: Binding to GIO
+dev-haskell/gio 0.13.11.0 0.13.12.0: Binding to GIO
 dev-haskell/git-lfs 1.2.2: git-lfs protocol
 dev-haskell/githash 0.1.7.0: Compile git revision info into Haskell projects
 dev-haskell/github 0.29-r1: Access to the GitHub API, v3
@@ -820,7 +820,7 @@ dev-haskell/gtk-serialized-event 0.12.0-r5: GTK+ Serialized event
 dev-haskell/gtk-strut 0.1.3.0: Library for creating strut windows with gi-gtk
 dev-haskell/gtk-traymanager 1.0.1: A wrapper around the eggtraymanager library for Linux system trays
 dev-haskell/gtk2hs-buildtools 0.13.11.0: Tools to build the Gtk2Hs suite of User Interface libraries
-dev-haskell/gtk3 0.15.9: Binding to the Gtk+ 3 graphical user interface library
+dev-haskell/gtk3 0.15.9 0.15.10: Binding to the Gtk+ 3 graphical user interface library
 dev-haskell/gtkglext 0.13.2.0-r3: Binding to the GTK+ OpenGL Extension
 dev-haskell/hackage-db 2.1.3: Access cabal-install's Hackage database via Data.Map
 dev-haskell/hackage-security 0.6.2.6: Hackage security library
@@ -2398,7 +2398,7 @@ dev-util/nixfmt 0.6.0: An opinionated formatter for Nix
 dev-util/shake 0.19.8: Build system library, like Make, but more accurate dependencies
 dev-util/shellcheck 0.10.0-r1: Shell script analysis tool
 dev-util/shelltestrunner 1.10: Easy, repeatable testing of CLI programs/commands
-dev-util/threadscope 0.2.14.1-r2: A graphical tool for profiling parallel Haskell programs
+dev-util/threadscope 0.2.14.1-r2 0.2.15.0: A graphical tool for profiling parallel Haskell programs
 dev-vcs/darcs 2.18.5: a distributed, interactive, smart revision control system
 dev-vcs/git-annex 10.20241202: manage files with git, without checking their contents into git
 dev-vcs/git-repair 1.20230814: repairs a damaged git repository
