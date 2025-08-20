@@ -1386,7 +1386,7 @@ dev-haskell/monadlib 3.10.3: A collection of monad transformers
 dev-haskell/monadlist 0.0.2-r1: Monadic versions of list functions
 dev-haskell/monadplus 1.4.2-r1: Haskell98 partial maps and filters over MonadPlus
 dev-haskell/monadprompt 1.0.0.5-r1: MonadPrompt, implementation & examples
-dev-haskell/monadrandom 0.6-r1: Random-number generation monad
+dev-haskell/monadrandom 0.6-r1 0.6.2: Random-number generation monad
 dev-haskell/monads-tf 0.3.0.1: Monad classes, using type families
 dev-haskell/mongodb 2.7.1.4: Driver (client) for MongoDB, a free, scalable, fast, document DBMS
 dev-haskell/monky 2.2.1.1: A system state collecting library and application
@@ -1687,7 +1687,7 @@ dev-haskell/quickcheck-unicode 1.0.1.0: Generator and shrink functions for testi
 dev-haskell/quickcheckvariant 0.2.0.0: Generator of "valid" and "invalid" data in a type class
 dev-haskell/quicktest 0.1.3: A reflective batch tester for Haskell
 dev-haskell/quote-quot 0.2.1.0: Divide without division
-dev-haskell/random 1.2.1.3: Pseudo-random number generation
+dev-haskell/random 1.2.1.3 1.3.1: Pseudo-random number generation
 dev-haskell/random-bytestring 0.1.4: Efficient generation of random bytestrings
 dev-haskell/random-fu 0.3.0.0: Random number generation
 dev-haskell/random-shuffle 0.0.4-r1: Random shuffle implementation
