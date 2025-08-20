@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/attoparsec-0.10:=[profile?] <dev-haskell/attoparsec-0.15:=
 RESTRICT=!test? ( test )
 SLOT=0/1.5.2.2
 SRC_URI=https://hackage.haskell.org/package/io-streams-1.5.2.2/io-streams-1.5.2.2.tar.gz https://hackage.haskell.org/package/io-streams-1.5.2.2/revision/6.cabal -> io-streams-1.5.2.2-rev6.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=dcadde1c6cdc980c2445e28b0aa401ea

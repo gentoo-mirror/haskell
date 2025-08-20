@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/csv-0.1:=[profile?] <dev-haskell/csv-0.2:=[profile?] >=dev
 RESTRICT=!test? ( test )
 SLOT=0/0.3.2
 SRC_URI=https://hackage.haskell.org/package/bench-show-0.3.2/bench-show-0.3.2.tar.gz https://hackage.haskell.org/package/bench-show-0.3.2/revision/2.cabal -> bench-show-0.3.2-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=5c0d7f6762f9db5c6fa73eb316fe6c36

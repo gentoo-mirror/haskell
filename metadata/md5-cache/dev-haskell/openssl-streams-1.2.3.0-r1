@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/hsopenssl-0.10.3:=[profile?] <dev-haskell/hsopenssl-0.12:=
 RESTRICT=!test? ( test )
 SLOT=0/1.2.3.0
 SRC_URI=https://hackage.haskell.org/package/openssl-streams-1.2.3.0/openssl-streams-1.2.3.0.tar.gz https://hackage.haskell.org/package/openssl-streams-1.2.3.0/revision/3.cabal -> openssl-streams-1.2.3.0-rev3.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=7258963c59b05292b939f95da57ef09f

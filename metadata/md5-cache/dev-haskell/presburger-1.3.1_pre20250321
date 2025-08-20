@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-7.4.1:= dev-lang/ghc:=[profile?]
 RESTRICT=test !test? ( test )
 SLOT=0/1.3.1_pre20250321
 SRC_URI=https://github.com/yav/presburger/archive/e38e61ccd1004d03ab28a1a3691d8a3c451d0164.tar.gz -> presburger-e38e61ccd1004d03ab28a1a3691d8a3c451d0164.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=fe0d8f6c4f303f20737c3ff8f45b1406

@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base-compat-0.11.1:=[profile?] <dev-haskell/base-compat-1:
 RESTRICT=!test? ( test )
 SLOT=0/0.29
 SRC_URI=https://hackage.haskell.org/package/github-0.29/github-0.29.tar.gz https://hackage.haskell.org/package/github-0.29/revision/6.cabal -> github-0.29-rev6.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=66a6729f2a1b2a9310373011a1c8cdc8
