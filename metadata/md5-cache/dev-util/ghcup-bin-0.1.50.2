@@ -1,0 +1,13 @@
+BDEPEND=verify-sig? ( sec-keys/openpgp-keys-ghcup ) verify-sig? ( app-crypt/gnupg >=app-portage/gemato-20 )
+DEFINED_PHASES=install postinst setup unpack
+DESCRIPTION=The GHCup Haskell installer
+EAPI=8
+HOMEPAGE=https://www.haskell.org/ghcup/
+INHERIT=verify-sig
+IUSE=verify-sig
+KEYWORDS=~amd64 ~arm64 ~x86
+LICENSE=LGPL-3
+SLOT=0
+SRC_URI=amd64? ( https://downloads.haskell.org/~ghcup/0.1.50.2/x86_64-linux-ghcup-0.1.50.2 -> ghcup-bin-0.1.50.2-x86_64-linux-exe ) arm64? ( https://downloads.haskell.org/~ghcup/0.1.50.2/aarch64-linux-ghcup-0.1.50.2 -> ghcup-bin-0.1.50.2-aarch64-linux-exe ) x86? ( https://downloads.haskell.org/~ghcup/0.1.50.2/i386-linux-ghcup-0.1.50.2 -> ghcup-bin-0.1.50.2-i386-linux-exe ) verify-sig? ( https://downloads.haskell.org/~ghcup/0.1.50.2/SHA256SUMS -> ghcup-bin-0.1.50.2-SHA256SUMS https://downloads.haskell.org/~ghcup/0.1.50.2/SHA256SUMS.sig -> ghcup-bin-0.1.50.2-SHA256SUMS.sig )
+_eclasses_=eapi9-pipestatus	d2c134036ac31c3085aebc9147f572bd	verify-sig	4e83419d7fb5d336f6a4de8193968319
+_md5_=6bb88e25ed68640eac539dc1126b9d71
