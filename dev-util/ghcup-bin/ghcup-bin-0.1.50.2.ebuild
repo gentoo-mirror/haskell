@@ -17,11 +17,10 @@ ghcup_bin_prefix() {
 	case ${1} in
 		amd64) echo "x86_64-linux" ;;
 		arm64) echo "aarch64-linux" ;;
-		arm  ) echo "armv7-linux" ;;
 		x86  ) echo "i386-linux" ;;
 		""   ) echo "x86_64-linux" ;; # Failsafe for NO arch (pkgcheck seems to need this)
 
-		*    ) die "Unsupported arch (no upstream distfiles available): ${ARCH}" ;;
+		*    ) die "Unsupported arch (no upstream distfiles available): \"${1}\"" ;;
 	esac
 }
 
@@ -36,10 +35,6 @@ SRC_URI="
 	arm64? (
 		${GHCUP_BIN_DIR_URI}/$(ghcup_bin_prefix arm64)-ghcup-${PV}
 			-> ${P}-$(ghcup_bin_prefix arm64)-exe
-	)
-	arm? (
-		${GHCUP_BIN_DIR_URI}/$(ghcup_bin_prefix arm)-ghcup-${PV}
-			-> ${P}-$(ghcup_bin_prefix arm)-exe
 	)
 	x86? (
 		${GHCUP_BIN_DIR_URI}/$(ghcup_bin_prefix x86)-ghcup-${PV}
@@ -60,7 +55,7 @@ S="${WORKDIR}"
 LICENSE="LGPL-3"
 SLOT="0"
 
-KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+KEYWORDS="~amd64 ~arm64 ~x86"
 
 BDEPEND="${BDEPEND}
 	verify-sig? (
