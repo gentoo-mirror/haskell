@@ -1661,7 +1661,7 @@ dev-haskell/pseudomacros 0.0.2: cpp-style built-in macros using Template Haskell
 dev-haskell/psqueue 1.2.1: Priority Search Queue
 dev-haskell/psqueues 0.2.8.1: Pure priority search queues
 dev-haskell/publicsuffixlist 0.1: Is a given string a domain suffix?
-dev-haskell/pulseaudio 0.0.2.1: A low-level (incomplete) wrapper around the pulseaudio client asynchronous api
+dev-haskell/pulseaudio 0.0.2.1-r1: A low-level (incomplete) wrapper around the pulseaudio client asynchronous api
 dev-haskell/punycode 2.0: Encode unicode strings to ascii forms according to RFC 3492
 dev-haskell/purebred-email 0.6.0.2: types and parser for email messages (including MIME)
 dev-haskell/puremd5 2.1.4: A Haskell-only implementation of the MD5 digest (hash) algorithm
@@ -2284,7 +2284,7 @@ dev-haskell/wordexp 0.2.2: wordexp(3) wrappers
 dev-haskell/workdays 0.1.1: Workday calculations
 dev-haskell/wraparound 0.0.2-r1: Convenient handling of points on a seamless 2-dimensional plane
 dev-haskell/wreq 0.5.4.2: An easy-to-use HTTP client library
-dev-haskell/wreq-effectful 0.1.0.1: Adaptation of the wreq library for the effectful ecosystem
+dev-haskell/wreq-effectful 0.1.1.1: Adaptation of the wreq library for the effectful ecosystem
 dev-haskell/writer-cps-mtl 0.1.1.6: MonadWriter orphan instances for writer-cps-transformers
 dev-haskell/writer-cps-transformers 0.5.6.1: WriteT and RWST monad transformers
 dev-haskell/wuss 2.0.1.9-r1 2.0.2.3: Secure WebSocket (WSS) clients
