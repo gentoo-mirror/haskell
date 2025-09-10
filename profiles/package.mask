@@ -33,82 +33,6 @@ dev-haskell/cufft
 >=dev-haskell/ghc-lib-parser-ex-9.10
 >=dev-haskell/ghc-syntax-highlighter-0.0.12
 
-# hololeap <hololeap@protonmail.com> (2025-03-17)
-#
-# Various outdated packages which either fail to build, have been deprecated
-# upstream or depend on other outdated packages. Mask for removal in 30 days.
-#
-# Removal: 2025-04-16
-dev-util/dzen-dhall
-dev-haskell/hakyll-agda
-dev-haskell/aeson-lens
-dev-haskell/persistent-odbc
-dev-haskell/haskell-import-graph
-dev-haskell/syb-with-class-instances-text
-dev-haskell/cipher-des
-dev-haskell/djinn-ghc
-dev-haskell/heckle
-dev-haskell/text-stream-decode
-dev-haskell/generic-lens-labels
-dev-haskell/transformers-free
-dev-haskell/auto
-dev-haskell/enumerator
-dev-haskell/hashable-time
-dev-haskell/attoparsec-enumerator
-dev-haskell/network-enumerator
-dev-haskell/zlib-enum
-
-# hololeap <hololeap@protonmail.com> (2025-03-02)
-#
-# Needs patching to be compatible with >=unix-2.8, no upstream activity for 4
-# years. Mask for removal in 30 days.
-#
-# Removal: 2025-04-01
-dev-haskell/haskey
-
-# hololeap <hololeap@protonmail.com> (2025-03-02)
-#
-# Upstream repo has been archived by the owner, no activity for 5 years. Mask
-# for removal in 30 days.
-#
-# Removal: 2025-04-01
-dev-haskell/cheapskate
-
-# hololeap <hololeap@protonmail.com> (2025-03-02)
-#
-# Requires old version of text, no upstream activity for 2 years. Mask for
-# removal in 30 days.
-#
-# Removal: 2025-04-01
-dev-haskell/amqp-worker
-
-# hololeap <hololeap@protonmail.com> (2025-03-02)
-#
-# Depends on <aeson-2.0, no upstream activity for 3 years. Mask for removal in
-# 30 days.
-#
-# Removal: 2025-04-01
-dev-haskell/groundhog
-dev-haskell/groundhog-postgresql
-dev-haskell/groundhog-sqlite
-dev-haskell/groundhog-th
-
-# hololeap <hololeap@protonmail.com> (2025-03-02)
-#
-# Does not build on >=ghc-9.0, no upstream activity since 2021. Mask for
-# removal in 30 days.
-#
-# Removal: 2025-04-01
-dev-haskell/egison
-
-# hololeap <hololeap@protonmail.com> (2025-03-02)
-#
-# Does not build on >=ghc-9.2, multiple open PRs to patch for ghc-9.2 on
-# upstream. Mask for removal in 30 days.
-#
-# Removal: 2025-04-01
-app-text/haskell-awk
-
 # GdeVolpiano <xavier@wheredoibegin.fr> (2025-02-25)
 #
 # dev-haskell/doctest >= 0.23 needs specific versions of ghc to pass tests.
@@ -148,23 +72,6 @@ dev-haskell/hls-retrie-plugin
 dev-haskell/hls-semantic-tokens-plugin
 dev-haskell/hls-splice-plugin
 dev-haskell/hls-stylish-haskell-plugin
-
-# Jack Todaro <solpeth@posteo.org> (2025-02-11)
-# Depends on or is dev-haskell/hsp, unmaintained since 2013
-# and unbuildable with newer ghc.
-# Removal on 2025-03-13.
-dev-haskell/hsp
-dev-haskell/happstack-authenticate
-dev-haskell/happstack-hsp
-dev-haskell/hjscript
-dev-haskell/hsx-jmacro
-dev-haskell/reform-hsp
-dev-haskell/web-routes-hsp
-
-# Jack Todaro <solpeth@posteo.org> (2025-02-11)
-# No reverse dependencies, doesn't build with newer ghc.
-# Removal on 2025-03-13.
-dev-haskell/monadcryptorandom
 
 # Jack Todaro <solpeth@posteo.org> (2025-02-08)
 # Packages depend on HSOpenSSL, which does not currently build against
