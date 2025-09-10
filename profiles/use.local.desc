@@ -61,7 +61,6 @@ dev-haskell/cairo:svg - Build the Scalable Vector Graphics (SVG) backend of Cair
 dev-haskell/categories:optimize - Enable optimizations
 dev-haskell/cgi:examples - compile (and install) the example programs
 dev-haskell/chaselev-deque:debug - Enable the extra internal checks.
-dev-haskell/cheapskate:dingus - Build cheapskate-dingus cgi script
 dev-haskell/chell:color-output - use colors in program output
 dev-haskell/chimera:representable - Define Representable instance from adjunctions package
 dev-haskell/citeproc:executable - Build citeproc executable
@@ -230,7 +229,6 @@ dev-haskell/hsexif:iconv - Enable encoding conversion of the User Comment tag wi
 dev-haskell/hslua-cli:executable - Compile `hslua` standalone executable.
 dev-haskell/hslua-repl:executable - Compile `luarepl` standalone executable.
 dev-haskell/hsopenssl:fast-bignum - Enable fast moving of bignums between OpenSSL and GMP (GHC and OpenSSL version < 1.1.0 only).
-dev-haskell/hsp:base4 - Use base-4.0.
 dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
 dev-haskell/hsyaml-aeson:executable - Enable @exe:yaml-test@ component
 dev-haskell/hsyslog:install-examples - Build and install example programs
@@ -319,7 +317,6 @@ dev-haskell/password:cryptonite - Use the [cryptonite] library as the cryptograp
 dev-haskell/password:pbkdf2 - Compile with PBKDF2 support?
 dev-haskell/password:scrypt - Compile with scrypt support?
 dev-haskell/persistent-mongodb:high-precision-date - for MongoDB use a time storage with nano second precision.
-dev-haskell/persistent-odbc:tester - Enable test
 dev-haskell/persistent-sqlite:build-sanity-exe - Build a sanity check test executable
 dev-haskell/pipes-text:maintainer - Enable settings for the package maintainer.
 dev-haskell/pointed:comonad - You can disable the use of the `comonad` package using `-f-transformers`.
