@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/blaze-builder-0.3:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/case-insensitive-0.4:=[profile?] <dev-haskell/case-insensitive-1.3:=[profile?] >=dev-haskell/conduit-1.3:=[profile?] <dev-haskell/conduit-1.4:=[profile?] <dev-haskell/conduit-extra-1.4:=[profile?] >=dev-haskell/http-client-0.3:=[profile?] <dev-haskell/http-client-0.8:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] <dev-haskell/network-3.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] <dev-haskell/streaming-commons-0.3:=[profile?] >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/unliftio-0.2:=[profile?] <dev-haskell/unliftio-0.3:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/wai-logger-2.0:=[profile?] <dev-haskell/wai-logger-2.6:=[profile?] >=dev-haskell/word8-0.0:=[profile?] <dev-haskell/word8-0.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-1.3 >=dev-haskell/http-conduit-2.3 >=dev-haskell/warp-2.1 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Reverse proxy HTTP requests, either over raw sockets or with WAI
+EAPI=8
+HOMEPAGE=https://github.com/fpco/http-reverse-proxy
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/blaze-builder-0.3:=[profile?] <dev-haskell/blaze-builder-0.5:=[profile?] >=dev-haskell/case-insensitive-0.4:=[profile?] <dev-haskell/case-insensitive-1.3:=[profile?] >=dev-haskell/conduit-1.3:=[profile?] <dev-haskell/conduit-1.4:=[profile?] <dev-haskell/conduit-extra-1.4:=[profile?] >=dev-haskell/http-client-0.3:=[profile?] <dev-haskell/http-client-0.8:=[profile?] >=dev-haskell/http-types-0.6:=[profile?] <dev-haskell/http-types-0.13:=[profile?] <dev-haskell/network-3.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] <dev-haskell/streaming-commons-0.3:=[profile?] >=dev-haskell/text-0.11:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/unliftio-0.2:=[profile?] <dev-haskell/unliftio-0.3:=[profile?] >=dev-haskell/wai-3.0:=[profile?] <dev-haskell/wai-3.3:=[profile?] >=dev-haskell/wai-logger-2.0:=[profile?] <dev-haskell/wai-logger-2.6:=[profile?] >=dev-haskell/word8-0.0:=[profile?] <dev-haskell/word8-0.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.6.2.0
+SRC_URI=https://hackage.haskell.org/package/http-reverse-proxy-0.6.2.0/http-reverse-proxy-0.6.2.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=922db8593acfa1c456da1dd471d87dc6

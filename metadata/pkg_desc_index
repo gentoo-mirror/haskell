@@ -1057,7 +1057,7 @@ dev-haskell/http-link-header 1.0.3.1: An RFC 5988 parser and writer for the HTTP
 dev-haskell/http-media 0.8.1.1: Processing HTTP Content-Type and Accept headers
 dev-haskell/http-query 0.1.3: Simple http queries
 dev-haskell/http-querystring 1.0: The HTTP query builder
-dev-haskell/http-reverse-proxy 0.6.1.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
+dev-haskell/http-reverse-proxy 0.6.2.0: Reverse proxy HTTP requests, either over raw sockets or with WAI
 dev-haskell/http-semantics 0.3.0: HTTP senmatics libarry
 dev-haskell/http-streams 0.8.9.9: An HTTP client using io-streams
 dev-haskell/http-types 0.12.4: Generic HTTP types for Haskell (for both client and server code)
