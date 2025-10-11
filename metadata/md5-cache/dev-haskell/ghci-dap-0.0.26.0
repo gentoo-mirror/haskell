@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/ghc-paths:=[profile?] dev-haskell/haskeline:=[profile?] >=dev-haskell/haskell-dap-0.0.15.0:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-9.4.5:= >=dev-haskell/cabal-3.8.1.0 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=ghci-dap is a GHCi having DAP interface
+EAPI=8
+HOMEPAGE=https://github.com/phoityne/ghci-dap
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/ghc-paths:=[profile?] dev-haskell/haskeline:=[profile?] >=dev-haskell/haskell-dap-0.0.15.0:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-9.4.5:= dev-lang/ghc:=[profile?]
+SLOT=0/0.0.26.0
+SRC_URI=https://hackage.haskell.org/package/ghci-dap-0.0.26.0/ghci-dap-0.0.26.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=842277e3c59bb19c29b3d8ed49bbadb0
