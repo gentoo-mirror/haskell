@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/attoparsec-0.10.0.3:=[profile?] <dev-haskell/attoparsec-1:
 RESTRICT=!test? ( test )
 SLOT=0/0.3.7.2
 SRC_URI=https://hackage.haskell.org/package/xss-sanitize-0.3.7.2/xss-sanitize-0.3.7.2.tar.gz https://hackage.haskell.org/package/xss-sanitize-0.3.7.2/revision/1.cabal -> xss-sanitize-0.3.7.2-rev1.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=5aedc30c5375bed7362124e2594472f0

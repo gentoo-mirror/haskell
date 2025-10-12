@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-haskell/gi-glib-2.0:=[profile?] <dev-haskell/gi-glib-2.1:=[profile?] >=dev-haskell/gi-gobject-2.0:=[profile?] <dev-haskell/gi-gobject-2.1:=[profile?] >=dev-haskell/haskell-gi-0.26.14:=[profile?] <dev-haskell/haskell-gi-0.27:=[profile?] >=dev-haskell/haskell-gi-base-0.26:=[profile?] <dev-haskell/haskell-gi-base-0.27:=[profile?] <dev-haskell/haskell-gi-overloading-1.1:=[profile?] >=dev-haskell/text-1.0:=[profile?] <dev-haskell/text-3:=[profile?] >=dev-lang/ghc-9.0.2:= net-libs/webkit-gtk:4 dev-lang/ghc:=[profile?]
 SLOT=0/4.0.29
 SRC_URI=https://hackage.haskell.org/package/gi-javascriptcore4-4.0.29/gi-javascriptcore4-4.0.29.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
 _md5_=02036fee0b32a3c209a27d304994ff61
