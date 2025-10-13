@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/hashable-1.4:=[profile?] <dev-haskell/hashable-1.6:=[profile?] dev-haskell/primitive:=[profile?] >=dev-haskell/vector-0.7:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/mwc-random-0.8 <dev-haskell/mwc-random-0.16 >=dev-haskell/quickcheck-2.9 >=dev-haskell/tasty-1.4 <=dev-haskell/tasty-1.6 >=dev-haskell/tasty-hunit-0.10 <dev-haskell/tasty-hunit-0.11 >=dev-haskell/tasty-quickcheck-0.10 <dev-haskell/tasty-quickcheck-0.12 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Mutable hash tables in the ST monad
+EAPI=8
+HOMEPAGE=https://github.com/gregorycollins/hashtables
+INHERIT=haskell-cabal
+IUSE=bounds-checking cpu_flags_x86_sse4_2 debug detailed-profiling doc hscolour hoogle profile test
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/hashable-1.4:=[profile?] <dev-haskell/hashable-1.6:=[profile?] dev-haskell/primitive:=[profile?] >=dev-haskell/vector-0.7:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.4.2
+SRC_URI=https://hackage.haskell.org/package/hashtables-1.4.2/hashtables-1.4.2.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=cbf7411341a1b808eb38bb6a67126535

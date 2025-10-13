@@ -10,11 +10,11 @@ app-crypt/hb3sum 0.0.0.2: A command line tool to compute BLAKE3 hashes
 app-misc/brick-trading-journal 0.1.7.5: Terminal UI program for basic trading statistics
 app-misc/kmonad 0.4.3 9999: Advanced keyboard remapping utility
 app-misc/lsql-csv 0.1.0.6: A tool for CSV files data querying from the shell with short queries.
-app-office/hledger 1.43.2: Command-line interface for the hledger accounting system
-app-office/hledger-iadd 1.3.21-r4: A terminal UI as drop-in replacement for hledger add
-app-office/hledger-interest 1.6.7-r2: computes interest for a given account
-app-office/hledger-ui 1.43.2: Terminal interface for the hledger accounting system
-app-office/hledger-web 1.43.2: Web user interface for the hledger accounting system
+app-office/hledger 1.43.2 1.50.2: Command-line interface for the hledger accounting system
+app-office/hledger-iadd 1.3.21-r4 1.3.22: A terminal UI as drop-in replacement for hledger add
+app-office/hledger-interest 1.6.7-r3: computes interest for a given account
+app-office/hledger-ui 1.43.2 1.50.2: Terminal interface for the hledger accounting system
+app-office/hledger-web 1.43.2 1.50.2: Web user interface for the hledger accounting system
 app-portage/fquery 0.2.3-r1 9999: Installed package query tool for Gentoo Linux
 app-portage/hackport 0.8.5.2 0.9.0.0 0.9.1.0 9999: Hackage and Portage integration tool
 app-portage/keyword-stat 0.2.2: Display keywording for ebuilds
@@ -209,7 +209,7 @@ dev-haskell/boundedchan 1.0.3.0: Implementation of bounded channels
 dev-haskell/bower-json 1.1.0.0: Read bower.json from Haskell
 dev-haskell/boxes 0.1.5: 2D text pretty-printing library
 dev-haskell/breakpoint 0.1.4.0: Set breakpoints using a GHC plugin
-dev-haskell/brick 2.8: A declarative terminal user interface library
+dev-haskell/brick 2.8 2.10: A declarative terminal user interface library
 dev-haskell/brick-list-skip 0.1.1.17: Skip a certain kind of items when moving in brick list
 dev-haskell/brick-tabular-list 2.2.0.16-r1: Tabular list widgets for brick
 dev-haskell/broadcast-chan 0.2.1.2: Closable, fair, single-wakeup channel type that avoids 0 reader space leaks
@@ -835,7 +835,7 @@ dev-haskell/hashable 1.4.7.0: A class for types that can be converted to a hash 
 dev-haskell/hashing 0.1.1.0: A pure haskell library implements several hash algorithms
 dev-haskell/hashmap 1.3.3: Persistent containers Map and Set based on hashing
 dev-haskell/hashring 0.0.0: Efficient consistent hashing
-dev-haskell/hashtables 1.3.1: Mutable hash tables in the ST monad
+dev-haskell/hashtables 1.4.2: Mutable hash tables in the ST monad
 dev-haskell/haskakafka 1.2.0: Kafka bindings for Haskell
 dev-haskell/haskeline 0.8.2.1: A command-line interface for user input, written in Haskell
 dev-haskell/haskell-dap 0.0.16.0: Haskell implementation of the DAP interface data
@@ -907,7 +907,7 @@ dev-haskell/hint 0.9.0.8-r1: A Haskell interpreter built on top of the GHC API
 dev-haskell/hip 1.5.6.0: Haskell Image Processing (HIP) Library
 dev-haskell/hjavascript 0.4.7: HJavaScript is an abstract syntax for a typed subset of JavaScript
 dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
-dev-haskell/hledger-lib 1.43.2: A library providing the core functionality of hledger
+dev-haskell/hledger-lib 1.43.2 1.50.2: A library providing the core functionality of hledger
 dev-haskell/hlibev 0.4.0: FFI interface to libev
 dev-haskell/hlibgit2 0.18.0.16: Low-level bindings to libgit2
 dev-haskell/hlibsass 0.1.10.1: Low-level bindings to Libsass
@@ -1530,7 +1530,7 @@ dev-haskell/peano 0.1.0.2: Peano numbers
 dev-haskell/pem 0.2.4: Privacy Enhanced Mail (PEM) format reader and writer
 dev-haskell/persistable-record 0.6.0.4: Binding between SQL database values and haskell records
 dev-haskell/persistable-types-hdbc-pg 0.0.3.5: HDBC and Relational-Record instances of PostgreSQL extended types
-dev-haskell/persistent 2.14.6.0: Type-safe, multi-backend data serialization
+dev-haskell/persistent 2.17.1.0: Type-safe, multi-backend data serialization
 dev-haskell/persistent-instances-iproute 0.1.0.1-r1: Persistent instances for types in iproute
 dev-haskell/persistent-mongodb 2.13.1.0: Backend for the persistent library using mongoDB
 dev-haskell/persistent-mysql 2.13.1.5: Backend for the persistent library using MySQL database server
@@ -1539,7 +1539,7 @@ dev-haskell/persistent-qq 2.12.0.6: Provides a quasi-quoter for raw SQL for pers
 dev-haskell/persistent-redis 2.13.0.2: Backend for persistent library using Redis
 dev-haskell/persistent-sqlite 2.13.3.0: Backend for the persistent library using sqlite3
 dev-haskell/persistent-template 2.12.0.0: Type-safe, non-relational, multi-backend persistence
-dev-haskell/persistent-test 2.13.1.3: Tests for Persistent
+dev-haskell/persistent-test 2.13.2.0: Tests for Persistent
 dev-haskell/pgm 0.1.4-r1: Pure Haskell implementation of PGM image format
 dev-haskell/pgp-wordlist 0.1.0.3: Translate between binary data and a human-readable collection of words
 dev-haskell/picedit 0.2.3.0-r5: simple image manipulation functions
@@ -1724,6 +1724,7 @@ dev-haskell/repa 3.4.2.0: Algorithms using the Repa array library
 dev-haskell/repa-algorithms 3.4.2.0: Algorithms using the Repa array library
 dev-haskell/repa-devil 0.3.2.6-r2: Support for image reading and writing of Repa arrays using in-place FFI calls
 dev-haskell/repa-io 3.4.2.0: Read and write Repa arrays in various formats
+dev-haskell/replace-megaparsec 1.5.0.1: Find, replace, split string patterns with Megaparsec parsers (instead of regex)
 dev-haskell/repline 0.4.2.0: Haskeline wrapper for GHCi-like REPL interfaces
 dev-haskell/req 3.13.4-r2: HTTP client library
 dev-haskell/rere 0.2.0.1-r1: Regular-expressions extended with fixpoints for context-free powers
@@ -1891,7 +1892,7 @@ dev-haskell/sqlite-simple-errors 0.6.1.0: Light wrapper around errors from sqlit
 dev-haskell/sr-extra 1.88: Module limbo
 dev-haskell/srcloc 0.5.1.2: Data types for managing source code locations
 dev-haskell/ssh-known-hosts 0.2.0.0: Read and interpret the SSH known-hosts file
-dev-haskell/stack 3.1.1 9.9.9: The Haskell Tool Stack
+dev-haskell/stack 3.1.1-r1 9.9.9: The Haskell Tool Stack
 dev-haskell/stack-bin 2.3.1 2.5.1: The Haskell Tool Stack (Binary)
 dev-haskell/stan 0.2.0.0 0.2.1.0: Haskell STatic ANalyser
 dev-haskell/stateref 0.3: Abstraction for things that work like IORef

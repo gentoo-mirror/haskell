@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-10.0.0:=[profile?] >=dev-haskell/parser-combinators-1.2.0:=[profile?] <dev-haskell/parser-combinators-2.0.0:=[profile?] >=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-3.0:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2.0.0 <dev-haskell/hspec-3.0.0 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Find, replace, split string patterns with Megaparsec parsers (instead of regex)
+EAPI=8
+HOMEPAGE=https://github.com/jamesdbrock/replace-megaparsec
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=>=dev-haskell/megaparsec-7.0.0:=[profile?] <dev-haskell/megaparsec-10.0.0:=[profile?] >=dev-haskell/parser-combinators-1.2.0:=[profile?] <dev-haskell/parser-combinators-2.0.0:=[profile?] >=dev-haskell/text-0.2:=[profile?] <dev-haskell/text-3.0:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/1.5.0.1
+SRC_URI=https://hackage.haskell.org/package/replace-megaparsec-1.5.0.1/replace-megaparsec-1.5.0.1.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	94e9e8c87736070ff088bc34d0f45f7c	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	85fd5ab7b9e5ddf0d7e402676ad452f5
+_md5_=94a42d75999d9f30523f402855c2df0c
