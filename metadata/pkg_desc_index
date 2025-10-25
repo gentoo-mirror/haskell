@@ -2389,8 +2389,8 @@ net-irc/lambdabot 5.3.0.1: Lambdabot is a development tool and advanced IRC bot
 net-misc/htalkat 0.1.2.6: Talk across TLS
 sci-biology/bamstats 0.4: A program to extract various information from BAM alignment files
 sci-biology/flowsim 0.3.5: Simulate 454 pyrosequencing
-sci-mathematics/agda 2.6.4.3: A dependently typed functional programming language and proof assistant
-sci-mathematics/agda-stdlib 2.6.4.3.2.0: Agda standard library
+sci-mathematics/agda 2.6.4.3 2.8.0: A dependently typed functional programming language and proof assistant
+sci-mathematics/agda-stdlib 2.6.4.3.2.0 2.8.0.2.3: Agda standard library
 sci-mathematics/spline3 1.0.2: parallel implementation of the Sorokina/Zeilfelder spline scheme
 sec-keys/openpgp-keys-ghc 20250925-r1: OpenPGP keys used to sign GHC releases
 sec-keys/openpgp-keys-ghcup 20250925: OpenPGP keys used to sign GHCup releases
